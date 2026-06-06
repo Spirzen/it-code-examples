@@ -1,0 +1,57 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import {groupByLanguage, loadAllExamples} from '@/lib/examples';
+import {LANGUAGE_CATALOG} from '@/lib/languages';
+
+const examples = loadAllExamples();
+const grouped = groupByLanguage(examples);
+const labelById = Object.fromEntries(LANGUAGE_CATALOG.map((l) => [l.id, l.label]));
+---
+
+<BaseLayout title="IT Code Examples — каталог">
+  <div class="wrap catalog">
+    <section class="hero">
+      <h1>Каталог примеров кода</h1>
+      <p>
+        Статический viewer на Astro + Shiki. Исходники в папке <code>examples/</code>, в билд
+        Docusaurus не попадают. Для энциклопедии — iframe на <code>/e/&lt;slug&gt;?embed=1</code>.
+      </p>
+      <dl class="stats">
+        <div>
+          <dt>Примеров</dt>
+          <dd>{examples.length}</dd>
+        </div>
+        <div>
+          <dt>Языков</dt>
+          <dd>{grouped.size}</dd>
+        </div>
+      </dl>
+    </section>
+
+    {
+      [...grouped.entries()].map(([lang, items]) => (
+        <section class="catalog-section">
+          <h2>{labelById[lang] ?? lang}</h2>
+          <ul class="example-list">
+            {items.map((item) => (
+              <li>
+                <a href={`/e/${item.slug}/`}>
+                  <span class="example-list__title">{item.title}</span>
+                  {item.description && (
+                    <span class="example-list__desc">{item.description}</span>
+                  )}
+                </a>
+                <div class="example-list__meta">
+                  <code>{item.slug}</code>
+                  {item.tags.map((tag) => (
+                    <span class="tag">{tag}</span>
+                  ))}
+                </div>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </div>
+</BaseLayout>

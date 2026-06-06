@@ -1,0 +1,5 @@
+{
+  "title": "JSON — манифест пакета",
+  "description": "Минимальный package.json.",
+  "order": 1
+}

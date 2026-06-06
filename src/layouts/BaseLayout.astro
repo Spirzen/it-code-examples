@@ -1,0 +1,63 @@
+---
+interface Props {
+  title: string;
+  description?: string;
+  embed?: boolean;
+}
+
+const {title, description = 'Каталог примеров кода для энциклопедии Вселенная IT', embed = false} =
+  Astro.props;
+const canonical = Astro.url.href;
+---
+
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content={description} />
+    <meta
+      http-equiv="Content-Security-Policy"
+      content="frame-ancestors https://spirzen.ru https://www.spirzen.ru http://localhost:3000 http://127.0.0.1:3000;"
+    />
+    <title>{title}</title>
+    <link rel="stylesheet" href="/styles/global.css" />
+    <script is:inline src="/scripts/embed-mode.js"></script>
+  </head>
+  <body class:list={['site', embed && 'site--embed']}>
+    {
+      !embed && (
+        <header class="site-header">
+          <div class="wrap">
+            <a class="brand" href="/">
+              <span class="brand__mark">IT</span>
+              <span class="brand__text">Code Examples</span>
+            </a>
+            <p class="site-header__lead">
+              Отдельный лёгкий каталог кода для встраивания в{' '}
+              <a href="https://spirzen.ru/" rel="noopener noreferrer">
+                Вселенную IT
+              </a>
+              .
+            </p>
+          </div>
+        </header>
+      )
+    }
+    <main class="site-main">
+      <slot />
+    </main>
+    {
+      !embed && (
+        <footer class="site-footer wrap">
+          <p>
+            Примеры лежат в <code>examples/</code> этого репозитория. Для iframe используйте{' '}
+            <code>?embed=1</code>.
+          </p>
+        </footer>
+      )
+    }
+    <script src="/scripts/code-copy.js" defer />
+    <script src="/scripts/embed-resize.js" defer />
+  </body>
+</html>

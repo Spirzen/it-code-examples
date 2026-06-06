@@ -1,0 +1,21 @@
+---
+import {Code} from 'astro:components';
+
+interface Props {
+  code: string;
+  lang: string;
+  filename?: string;
+}
+
+const {code, lang, filename} = Astro.props;
+---
+
+<div class="code-block" data-filename={filename}>
+  <div class="code-block__toolbar">
+    {filename && <div class="code-block__name">{filename}</div>}
+    <button type="button" class="code-block__copy" data-copy aria-label="Копировать код">
+      Копировать
+    </button>
+  </div>
+  <Code code={code} lang={lang} theme="github-dark" />
+</div>

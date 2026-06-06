@@ -1,0 +1,39 @@
+{
+  "name": "it-code-examples",
+  "version": "0.1.0",
+  "description": "Лёгкий каталог примеров кода для энциклопедии Вселенная IT (code.spirzen.ru)",
+  "license": "MIT",
+  "type": "module",
+  "author": "Тагиров Тимур Владиславович",
+  "homepage": "https://code.spirzen.ru",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/spirzen/it-code-examples.git"
+  },
+  "bugs": {
+    "url": "https://github.com/spirzen/it-code-examples/issues"
+  },
+  "keywords": [
+    "code-examples",
+    "astro",
+    "shiki",
+    "spirzen",
+    "it-knowledge-base",
+    "documentation"
+  ],
+  "scripts": {
+    "dev": "astro dev --port 4321",
+    "build": "astro build",
+    "preview": "astro preview",
+    "check": "astro check"
+  },
+  "dependencies": {
+    "astro": "^5.10.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  },
+  "engines": {
+    "node": ">=20.0"
+  }
+}

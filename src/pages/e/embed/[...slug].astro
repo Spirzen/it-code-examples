@@ -1,0 +1,19 @@
+---
+import EmbedLayout from '@/layouts/EmbedLayout.astro';
+import FileTabs from '@/components/FileTabs.astro';
+import {loadAllExamples} from '@/lib/examples';
+
+export function getStaticPaths() {
+  return loadAllExamples().map((ex) => ({
+    params: {slug: ex.slug},
+    props: {example: ex},
+  }));
+}
+
+const {example} = Astro.props;
+const pageTitle = `${example.title} — embed`;
+---
+
+<EmbedLayout title={pageTitle}>
+  <FileTabs files={example.files} />
+</EmbedLayout>

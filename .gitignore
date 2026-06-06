@@ -1,0 +1,46 @@
+# Сборка и кэш
+dist/
+.astro/
+.output/
+
+# Зависимости
+node_modules/
+
+# Логи и отладка
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Переменные окружения и секреты
+.env
+.env.*
+!.env.example
+
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*~
+
+# Локальные настройки IDE (не для репозитория)
+.vscode/
+!.vscode/extensions.json
+
+# Cursor / служебные брифы для агента (локальные пути, внутренняя кухня)
+.cursor/
+AGENTS.md
+AGENTS.local.md
+*.local.md
+
+# Внутренняя документация (не для публичного репо)
+info/
+
+# Временные и черновики
+tmp/
+temp/
+*.bak

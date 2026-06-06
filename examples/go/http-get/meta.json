@@ -1,0 +1,5 @@
+{
+  "title": "Go — HTTP GET",
+  "description": "context + http.Client.",
+  "order": 1
+}

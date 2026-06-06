@@ -1,0 +1,6 @@
+{
+  "title": "JavaScript — fetch JSON",
+  "description": "Чтение публичного API и разбор ответа.",
+  "tags": ["web", "async"],
+  "order": 1
+}

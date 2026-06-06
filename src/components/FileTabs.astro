@@ -1,0 +1,76 @@
+---
+import type {ExampleFile} from '@/lib/examples';
+import CodeBlock from './CodeBlock.astro';
+
+interface Props {
+  files: ExampleFile[];
+}
+
+const {files} = Astro.props;
+const multi = files.length > 1;
+---
+
+<div class="file-tabs" data-multi={multi ? '1' : '0'}>
+  {
+    multi && (
+      <div class="file-tabs__bar" role="tablist">
+        {files.map((file, i) => (
+          <button
+            type="button"
+            class:list={['file-tabs__tab', i === 0 && 'is-active']}
+            role="tab"
+            aria-selected={i === 0 ? 'true' : 'false'}
+            data-tab={file.relativePath}
+          >
+            {file.relativePath}
+          </button>
+        ))}
+      </div>
+    )
+  }
+  <div class="file-tabs__panels">
+    {
+      files.map((file, i) => (
+        <section
+          class:list={['file-tabs__panel', i === 0 && 'is-active']}
+          role="tabpanel"
+          data-panel={file.relativePath}
+          hidden={i !== 0}
+        >
+          <CodeBlock code={file.content} lang={file.language} filename={file.name} />
+        </section>
+      ))
+    }
+  </div>
+</div>
+
+<script>
+  document.querySelectorAll('.file-tabs[data-multi="1"]').forEach((root) => {
+    const tabs = root.querySelectorAll('.file-tabs__tab');
+    const panels = root.querySelectorAll('.file-tabs__panel');
+    tabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const id = tab.getAttribute('data-tab');
+        tabs.forEach((t) => {
+          const active = t === tab;
+          t.classList.toggle('is-active', active);
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        panels.forEach((p) => {
+          const active = p.getAttribute('data-panel') === id;
+          p.classList.toggle('is-active', active);
+          if (active) {
+            p.removeAttribute('hidden');
+          } else {
+            p.setAttribute('hidden', '');
+          }
+        });
+        var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
+        var height = root
+          ? Math.ceil(root.getBoundingClientRect().height)
+          : document.documentElement.offsetHeight;
+        window.parent.postMessage({type: 'it-code-embed-height', height: height}, '*');
+      });
+    });
+  });
+</script>

@@ -1,0 +1,77 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import FileTabs from '@/components/FileTabs.astro';
+import {getExampleBySlug, loadAllExamples} from '@/lib/examples';
+
+export function getStaticPaths() {
+  return loadAllExamples().map((ex) => ({
+    params: {slug: ex.slug},
+    props: {example: ex},
+  }));
+}
+
+const {example} = Astro.props;
+const embed = Astro.url.searchParams.get('embed') === '1';
+const pageTitle = `${example.title} — IT Code Examples`;
+const embedUrl = `/e/embed/${example.slug}/`;
+---
+
+<BaseLayout title={pageTitle} description={example.description} embed={embed}>
+  <article class:list={['example', embed && 'example--embed']}>
+    <header class="example__header">
+      <div class="wrap">
+        {
+          !embed && (
+            <a class="back" href="/">
+              ← Каталог
+            </a>
+          )
+        }
+        <h1>{example.title}</h1>
+        {example.description && <p class="example__lead">{example.description}</p>}
+        <div class="example__meta">
+          <span class="pill">{example.language}</span>
+          {example.tags.map((tag) => (
+            <span class="tag">{tag}</span>
+          ))}
+          {!embed && (
+            <a class="pill pill--link" href={embedUrl}>
+              embed URL
+            </a>
+          )}
+          {
+            example.encyclopediaUrl && (
+              <a class="pill pill--link" href={example.encyclopediaUrl} rel="noopener noreferrer">
+                статья в энциклопедии
+              </a>
+            )
+          }
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap example__body">
+      <FileTabs files={example.files} />
+      {
+        embed && (
+          <p class="embed-open">
+            <a href={`/e/${example.slug}/`} target="_blank" rel="noopener noreferrer">
+              Открыть на code.spirzen.ru ↗
+            </a>
+          </p>
+        )
+      }
+      {
+        !embed && (
+          <aside class="embed-help">
+            <h2>Встраивание в Docusaurus</h2>
+            <pre class="embed-snippet"><code>{`<ExternalCodeEmbed
+  example="${example.slug}"
+  title="${example.title}"
+/>`}</code></pre>
+          </aside>
+        )
+      }
+    </div>
+  </article>
+</BaseLayout>

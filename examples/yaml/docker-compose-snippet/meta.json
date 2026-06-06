@@ -1,0 +1,5 @@
+{
+  "title": "YAML — docker-compose фрагмент",
+  "description": "Сервис + volume + healthcheck.",
+  "order": 1
+}

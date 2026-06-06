@@ -1,0 +1,131 @@
+/* Embed-only: только блок кода, всегда тёмный редактор (не зависит от темы энциклопедии/OS). */
+
+:root {
+  color-scheme: dark;
+  --embed-bg: #0d1117;
+  --embed-border: #30363d;
+  --embed-toolbar: #161b22;
+  --embed-fg: #e6edf3;
+  --embed-muted: #8b949e;
+  --embed-accent: #58a6ff;
+  --embed-radius: 10px;
+  --embed-pad-x: 1rem;
+  --embed-pad-y: 0.85rem;
+  --embed-code-pad-x: 1rem;
+  --embed-code-pad-y: 0.9rem;
+  --embed-mono: Consolas, 'Cascadia Code', 'Fira Code', monospace;
+  --embed-font: 'Segoe UI', system-ui, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+html.embed-doc,
+html.embed-doc body.embed-body {
+  height: auto;
+  min-height: 0;
+  overflow: hidden;
+  background: var(--embed-bg);
+  color: var(--embed-fg);
+  font-family: var(--embed-font);
+}
+
+.embed-main {
+  padding: var(--embed-pad-y) var(--embed-pad-x);
+  width: 100%;
+  overflow: hidden;
+}
+
+.embed-main .file-tabs {
+  margin: 0;
+}
+
+.embed-main .file-tabs__bar {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  padding: 0 0 0.45rem;
+}
+
+.embed-main .file-tabs__tab {
+  border: 1px solid var(--embed-border);
+  background: var(--embed-toolbar);
+  color: var(--embed-muted);
+  border-radius: 999px;
+  padding: 0.3rem 0.65rem;
+  font-family: var(--embed-mono);
+  font-size: 0.78rem;
+  cursor: pointer;
+}
+
+.embed-main .file-tabs__tab.is-active {
+  background: var(--embed-accent);
+  border-color: var(--embed-accent);
+  color: #fff;
+}
+
+.embed-main .code-block {
+  border: 1px solid var(--embed-border);
+  border-radius: var(--embed-radius);
+  overflow: hidden;
+  background: var(--embed-bg);
+  margin: 0;
+}
+
+.embed-main .code-block__toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.35rem 0.55rem 0.35rem 0.7rem;
+  border-bottom: 1px solid var(--embed-border);
+  background: var(--embed-toolbar);
+}
+
+.embed-main .code-block__name {
+  font-family: var(--embed-mono);
+  font-size: 0.78rem;
+  color: var(--embed-muted);
+}
+
+.embed-main .code-block__copy {
+  border: 1px solid var(--embed-border);
+  background: #21262d;
+  color: var(--embed-fg);
+  border-radius: 6px;
+  padding: 0.18rem 0.5rem;
+  font-size: 0.72rem;
+  font-family: var(--embed-font);
+  cursor: pointer;
+}
+
+.embed-main .code-block__copy:hover {
+  border-color: var(--embed-accent);
+}
+
+.embed-main .code-block__copy.is-copied {
+  border-color: #3fb950;
+  color: #3fb950;
+}
+
+.embed-main .code-block pre,
+.embed-main .file-tabs__panel pre {
+  margin: 0 !important;
+  padding: var(--embed-code-pad-y) var(--embed-code-pad-x) !important;
+  border-radius: 0 !important;
+  font-size: 0.84rem;
+  line-height: 1.55;
+}
+
+.embed-main .file-tabs__panels {
+  margin: 0;
+}

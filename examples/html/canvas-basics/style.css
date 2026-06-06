@@ -1,0 +1,23 @@
+body {
+  font-family: system-ui, sans-serif;
+  margin: 2rem;
+  background: #0f141c;
+  color: #e8edf5;
+}
+
+canvas {
+  display: block;
+  border: 1px solid #2a3444;
+  border-radius: 8px;
+  background: #111822;
+}
+
+button {
+  margin-top: 0.75rem;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  border: 0;
+  background: #2f6feb;
+  color: #fff;
+  cursor: pointer;
+}
