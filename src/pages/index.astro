@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import {groupByLanguage, loadAllExamples} from '@/lib/examples';
 import {LANGUAGE_CATALOG} from '@/lib/languages';
+import {sitePath} from '@/lib/site';
 
 const examples = loadAllExamples();
 const grouped = groupByLanguage(examples);
@@ -14,7 +15,7 @@ const labelById = Object.fromEntries(LANGUAGE_CATALOG.map((l) => [l.id, l.label]
       <h1>Каталог примеров кода</h1>
       <p>
         Статический viewer на Astro + Shiki. Исходники в папке <code>examples/</code>, в билд
-        Docusaurus не попадают. Для энциклопедии — iframe на <code>/e/&lt;slug&gt;?embed=1</code>.
+        Docusaurus не попадают. Для энциклопедии — iframe на <code>/e/embed/&lt;slug&gt;/</code>.
       </p>
       <dl class="stats">
         <div>
@@ -35,7 +36,7 @@ const labelById = Object.fromEntries(LANGUAGE_CATALOG.map((l) => [l.id, l.label]
           <ul class="example-list">
             {items.map((item) => (
               <li>
-                <a href={`/e/${item.slug}/`}>
+                <a href={sitePath(`e/${item.slug}/`)}>
                   <span class="example-list__title">{item.title}</span>
                   {item.description && (
                     <span class="example-list__desc">{item.description}</span>

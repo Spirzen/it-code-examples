@@ -2,6 +2,7 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import FileTabs from '@/components/FileTabs.astro';
 import {getExampleBySlug, loadAllExamples} from '@/lib/examples';
+import {sitePath} from '@/lib/site';
 
 export function getStaticPaths() {
   return loadAllExamples().map((ex) => ({
@@ -13,7 +14,7 @@ export function getStaticPaths() {
 const {example} = Astro.props;
 const embed = Astro.url.searchParams.get('embed') === '1';
 const pageTitle = `${example.title} — IT Code Examples`;
-const embedUrl = `/e/embed/${example.slug}/`;
+const embedUrl = sitePath(`e/embed/${example.slug}/`);
 ---
 
 <BaseLayout title={pageTitle} description={example.description} embed={embed}>
@@ -22,7 +23,7 @@ const embedUrl = `/e/embed/${example.slug}/`;
       <div class="wrap">
         {
           !embed && (
-            <a class="back" href="/">
+            <a class="back" href={sitePath('')}>
               ← Каталог
             </a>
           )
@@ -55,7 +56,7 @@ const embedUrl = `/e/embed/${example.slug}/`;
       {
         embed && (
           <p class="embed-open">
-            <a href={`/e/${example.slug}/`} target="_blank" rel="noopener noreferrer">
+            <a href={sitePath(`e/${example.slug}/`)} target="_blank" rel="noopener noreferrer">
               Открыть на code.spirzen.ru ↗
             </a>
           </p>

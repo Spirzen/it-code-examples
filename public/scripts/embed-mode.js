@@ -2,9 +2,14 @@
   var params = new URLSearchParams(window.location.search);
   if (params.get('embed') !== '1') return;
 
+  function siteBase() {
+    var base = document.documentElement.getAttribute('data-base') || '/';
+    return base.endsWith('/') ? base : base + '/';
+  }
+
   var match = window.location.pathname.match(/\/e\/(.+?)\/?$/);
   if (match && match[1].indexOf('embed/') !== 0) {
-    var target = '/e/embed/' + match[1].replace(/\/$/, '') + '/';
+    var target = siteBase() + 'e/embed/' + match[1].replace(/\/$/, '') + '/';
     window.location.replace(target + window.location.hash);
     return;
   }

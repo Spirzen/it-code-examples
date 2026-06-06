@@ -1,4 +1,6 @@
 ---
+import {sitePath} from '@/lib/site';
+
 interface Props {
   title: string;
 }
@@ -7,7 +9,7 @@ const {title} = Astro.props;
 ---
 
 <!doctype html>
-<html lang="ru" class="embed-doc">
+<html lang="ru" class="embed-doc" data-base={import.meta.env.BASE_URL}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -17,13 +19,13 @@ const {title} = Astro.props;
       content="frame-ancestors https://spirzen.ru https://www.spirzen.ru http://localhost:3000 http://127.0.0.1:3000;"
     />
     <title>{title}</title>
-    <link rel="stylesheet" href="/styles/embed.css" />
+    <link rel="stylesheet" href={sitePath('styles/embed.css')} />
   </head>
   <body class="embed-body">
     <main class="embed-main">
       <slot />
     </main>
-    <script is:inline src="/scripts/code-copy.js"></script>
-    <script is:inline src="/scripts/embed-resize.js"></script>
+    <script is:inline src={sitePath('scripts/code-copy.js')}></script>
+    <script is:inline src={sitePath('scripts/embed-resize.js')}></script>
   </body>
 </html>
