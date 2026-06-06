@@ -23,6 +23,8 @@
 
 ## Быстрый старт
 
+**Windows:** можно дважды щёлкнуть `start.bat` в корне репозитория — скрипт проверит Node.js, при необходимости выполнит `npm install` и запустит dev-сервер на порту 4321.
+
 ```bash
 git clone https://github.com/spirzen/it-code-examples.git
 cd it-code-examples
@@ -36,6 +38,8 @@ npm run dev
 npm run build    # dist/
 npm run preview  # проверка сборки
 ```
+
+Ручной деплой на GitHub Pages (ветка `gh-pages`): `deploy.bat` — сборка с `IT_CODE_EXAMPLES_SITE=https://code.spirzen.ru` и push содержимого `dist/`.
 
 ---
 
