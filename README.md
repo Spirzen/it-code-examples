@@ -39,7 +39,7 @@ npm run build    # dist/
 npm run preview  # проверка сборки
 ```
 
-Ручной деплой на GitHub Pages (ветка `gh-pages`): `deploy.bat` — сборка с `IT_CODE_EXAMPLES_SITE=https://code.spirzen.ru` и push содержимого `dist/`.
+Ручной деплой (альтернатива CI, ветка `gh-pages`): `deploy.bat`. **Не смешивайте** с GitHub Actions — выберите один способ (см. раздел «Деплой» ниже).
 
 ---
 
@@ -143,18 +143,30 @@ import ExternalCodeEmbed from '@site/src/components/ExternalCodeEmbed';
 
 ## Деплой
 
-Push в ветку `main` запускает [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml):
+### Рекомендуется: GitHub Actions
 
-1. `npm ci` → `npm run build`
-2. Артефакт `dist/` → GitHub Pages
-3. Домен: `code.spirzen.ru` (файл `public/CNAME`)
+1. Репозиторий на GitHub: [github.com/Spirzen/it-code-examples](https://github.com/Spirzen/it-code-examples).
+2. **Settings → Pages → Build and deployment → Source:** выберите **GitHub Actions** (не «Deploy from a branch»).
+3. Push в `main` или `master` — запускается [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).  
+   Или вручную: **Actions → Deploy to GitHub Pages → Run workflow**.
+4. После успешного run: **Settings → Pages → Custom domain** → `code.spirzen.ru` (если ещё не подхватился из `public/CNAME`).
+5. DNS у регистратора домена `spirzen.ru`:
+   - тип **CNAME**, имя **`code`**, значение **`spirzen.github.io`** (для org `Spirzen`);
+   - дождаться проверки DNS в GitHub (обычно до часа).
+6. Включите **Enforce HTTPS**, когда сертификат выпустится.
 
-Переменные сборки (уже в workflow):
+Переменные сборки в workflow:
 
 ```bash
 IT_CODE_EXAMPLES_SITE=https://code.spirzen.ru
 IT_CODE_EXAMPLES_BASE=/
 ```
+
+Проверка: [https://code.spirzen.ru/](https://code.spirzen.ru/) и embed [https://code.spirzen.ru/e/embed/python/hello-world/](https://code.spirzen.ru/e/embed/python/hello-world/).
+
+### Альтернатива: `deploy.bat`
+
+Локальная сборка и force-push ветки `gh-pages` (как у старого сценария Docusaurus). Используйте **только если** в Pages выбран источник **Deploy from branch → gh-pages**, а не GitHub Actions.
 
 Для project pages (`user.github.io/repo-name`): `IT_CODE_EXAMPLES_BASE=/it-code-examples/`.
 
