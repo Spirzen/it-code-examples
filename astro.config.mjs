@@ -5,9 +5,11 @@ import {fileURLToPath} from 'node:url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 
 /**
- * Прод (CI / deploy.bat): IT_CODE_EXAMPLES_SITE=https://code.spirzen.ru, BASE=/
- * Локально: http://localhost:4321
- * Project Pages без домена: SITE=https://spirzen.github.io, BASE=/it-code-examples/
+ * Пути задаются env (см. README.md § «URL и пути», AGENTS.md §5).
+ *
+ * Прод code.spirzen.ru: SITE=https://code.spirzen.ru, BASE=/
+ * Локально:            http://localhost:4321, BASE=/ (по умолчанию)
+ * Устар. Project Pages: spirzen.github.io + BASE=/it-code-examples/ — не для custom domain
  */
 const site = process.env.IT_CODE_EXAMPLES_SITE ?? 'http://localhost:4321';
 const base = process.env.IT_CODE_EXAMPLES_BASE ?? '/';

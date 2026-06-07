@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>IT Code Examples</title>
+    <script>
+      (function () {
+        var path = location.pathname;
+        var search = location.search;
+        var hash = location.hash;
+        if (path.indexOf('/it-code-examples/') === 0) {
+          location.replace(path.replace(/^\/it-code-examples/, '') + search + hash);
+          return;
+        }
+        if (path.indexOf('/it-code-examples') === 0 && path.length === '/it-code-examples'.length) {
+          location.replace('/' + search + hash);
+          return;
+        }
+        location.replace('/' + search + hash);
+      })();
+    </script>
+  </head>
+  <body>
+    <p><a href="/">Перейти на главную IT Code Examples</a></p>
+  </body>
+</html>

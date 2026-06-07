@@ -136,19 +136,70 @@ it-code-examples/
 
 ---
 
-## URL
+## URL и пути (важно)
 
-| Назначение | Путь |
-|------------|------|
-| Главная | `/` |
-| Серия | `/series/<id>/` |
-| Полная страница | `/e/<язык>/<slug>/` |
-| Embed (iframe) | `/e/embed/<язык>/<slug>/` |
-| Тема в embed | `?theme=light` или `?theme=dark` |
+### Канонические адреса на code.spirzen.ru
 
-Пример: [code.spirzen.ru/e/embed/python/hello-world/](https://code.spirzen.ru/e/embed/python/hello-world/)
+Продакшен — **custom domain в корне сайта**, без префикса репозитория:
 
-Устаревший `?embed=1` на полной странице редиректит на `/e/embed/…`.
+| Назначение | Канонический путь | Пример |
+|------------|-------------------|--------|
+| Главная | `/` | https://code.spirzen.ru/ |
+| Серия | `/series/<id>/` | `/series/python-basics-practicum/` |
+| Полная страница | `/e/<язык>/<slug>/` | `/e/bash/backup-dir/` |
+| Embed (iframe) | `/e/embed/<язык>/<slug>/` | `/e/embed/python/hello-world/` |
+| Тема в embed | `?theme=light` \| `?theme=dark` | `…?theme=dark` |
+
+**В новых ссылках, embed и документации всегда используйте канонические пути** — без `/it-code-examples/` в начале.
+
+### Переменные сборки (Astro `site` + `base`)
+
+Задают все абсолютные пути к CSS, JS и canonical. Для **code.spirzen.ru** обязательно:
+
+```bash
+IT_CODE_EXAMPLES_SITE=https://code.spirzen.ru
+IT_CODE_EXAMPLES_BASE=/
+```
+
+| Среда | `SITE` | `BASE` | Где задаётся |
+|-------|--------|--------|--------------|
+| **Прод (домен)** | `https://code.spirzen.ru` | `/` | `deploy.yml`, `deploy.bat` |
+| Локальная разработка | `http://localhost:4321` | `/` | по умолчанию в `astro.config.mjs` |
+| Project Pages (устар.) | `https://spirzen.github.io` | `/it-code-examples/` | только если **нет** custom domain |
+
+Неверный `BASE` на проде → **нет CSS** (`/it-code-examples/styles/…` 404) и **404 страниц** (`/it-code-examples/e/…`).
+
+### Как пути попадают в HTML
+
+- В коде — только через `sitePath('…')` из `src/lib/site.ts` (читает `import.meta.env.BASE_URL`).
+- **Не хардкодить** `/it-code-examples/` в компонентах и страницах.
+- После `npm run build` скрипт `scripts/postbuild.mjs`:
+  1. проверяет, что в `index.html` нет `/it-code-examples/styles/` при prod-env;
+  2. зеркалирует весь `dist/` в `dist/it-code-examples/` — для старых закладок и Project Pages;
+  3. `public/404.html` редиректит `/it-code-examples/…` → `/…`, если файла ещё нет.
+
+### Устаревшие варианты (совместимость)
+
+| Вариант | Поведение |
+|---------|-----------|
+| `/it-code-examples/e/…` | Зеркало postbuild или редирект `404.html` |
+| `?embed=1` на полной странице | Редирект на `/e/embed/…` (`embed-mode.js`) |
+
+### Чеклист перед деплоем
+
+```bash
+# Windows PowerShell
+$env:IT_CODE_EXAMPLES_SITE="https://code.spirzen.ru"
+$env:IT_CODE_EXAMPLES_BASE="/"
+npm run build
+```
+
+1. В выводе postbuild: `OK: канонические пути с BASE=/`.
+2. В `dist/index.html`: `href="/styles/global.css"`, **не** `/it-code-examples/styles/`.
+3. Есть `dist/it-code-examples/e/…` (legacy-зеркало).
+4. Push → GitHub Actions; в Pages: custom domain `code.spirzen.ru`, **Enforce HTTPS**.
+
+Подробнее для агентов: [AGENTS.md §5–6](AGENTS.md).
 
 ---
 
@@ -191,16 +242,18 @@ CSP `frame-ancestors`: `spirzen.ru`, localhost:3000. Parent проверяет `
 3. Push в `main` / `master` → [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
 4. Custom domain: `code.spirzen.ru` (CNAME в `public/CNAME`).
 
-Переменные сборки:
+Переменные сборки в workflow (не менять для custom domain):
 
 ```bash
 IT_CODE_EXAMPLES_SITE=https://code.spirzen.ru
 IT_CODE_EXAMPLES_BASE=/
 ```
 
+**Не возвращать** `BASE=/it-code-examples/` после подключения домена `code.spirzen.ru`.
+
 ### Альтернатива: `deploy.bat`
 
-Локальная сборка и push в `gh-pages` — только если Pages настроен на ветку `gh-pages`, не Actions.
+Локальная сборка и push в `gh-pages` — только если Pages настроен на ветку `gh-pages`, не Actions. В `deploy.bat` те же `SITE` и `BASE`, что в таблице выше.
 
 ---
 
