@@ -1,5 +1,6 @@
 ---
 import {Code} from 'astro:components';
+import {getLanguageLabel} from '@/lib/languages';
 
 interface Props {
   code: string;
@@ -10,11 +11,21 @@ interface Props {
 
 const {code, lang, filename, rawContent} = Astro.props;
 const source = rawContent ?? code;
+const langLabel = getLanguageLabel(lang);
 ---
 
-<div class="code-block" data-filename={filename} data-raw={source}>
+<div
+  class="code-block"
+  data-filename={filename}
+  data-lang={lang}
+  data-lang-label={langLabel}
+  data-raw={source}
+>
   <div class="code-block__toolbar">
-    {filename && <div class="code-block__name">{filename}</div>}
+    <div class="code-block__meta">
+      <span class="code-block__lang">{langLabel}</span>
+      {filename && <span class="code-block__name">{filename}</span>}
+    </div>
     <div class="code-block__actions">
       <button type="button" class="code-block__btn" data-copy aria-label="Копировать код">
         Копировать

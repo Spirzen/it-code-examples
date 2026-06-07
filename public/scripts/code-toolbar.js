@@ -1,4 +1,51 @@
 (function () {
+  var EMBED_ORIGINS = [
+    'https://spirzen.ru',
+    'https://www.spirzen.ru',
+    'http://localhost:3000',
+    'http://127.0.0.1:3000',
+    'http://localhost:3001',
+    'http://127.0.0.1:3001',
+  ];
+
+  function isEmbedContext() {
+    return (
+      window.location.pathname.indexOf('/e/embed/') !== -1 ||
+      new URLSearchParams(window.location.search).get('embed') === '1'
+    );
+  }
+
+  function postToParent(payload) {
+    if (!window.parent || window.parent === window) return;
+    EMBED_ORIGINS.forEach(function (origin) {
+      try {
+        window.parent.postMessage(payload, origin);
+      } catch (e) {
+        /* ignore */
+      }
+    });
+  }
+
+  function notifyEmbedHeight() {
+    if (!isEmbedContext()) return;
+    var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
+    var height = root
+      ? Math.ceil(root.getBoundingClientRect().height)
+      : Math.ceil(document.documentElement.offsetHeight);
+    postToParent({type: 'it-code-embed-height', height: Math.max(height, 80)});
+  }
+
+  function postFullscreen(active, extra) {
+    if (!isEmbedContext()) return;
+    var payload = {type: 'it-code-fullscreen', active: active};
+    if (extra) {
+      Object.keys(extra).forEach(function (key) {
+        payload[key] = extra[key];
+      });
+    }
+    postToParent(payload);
+  }
+
   function getVisiblePre(block) {
     var views = block.querySelector('.code-block__views');
     if (!views) {
@@ -25,6 +72,13 @@
     return pre ? pre.textContent || '' : '';
   }
 
+  function buildBlockTitle(block) {
+    var langLabel = block.getAttribute('data-lang-label') || '';
+    var filename = block.getAttribute('data-filename') || '';
+    var parts = [langLabel, filename].filter(Boolean);
+    return parts.length ? parts.join(' · ') : 'Код';
+  }
+
   function copyText(text, btn, okLabel) {
     var label = btn.textContent;
     navigator.clipboard
@@ -44,6 +98,56 @@
         }, 1600);
       });
   }
+
+  var dialog = null;
+
+  function ensureDialog() {
+    if (dialog) return dialog;
+
+    dialog = document.createElement('dialog');
+    dialog.id = 'code-fullscreen-dialog';
+    dialog.className = 'code-fullscreen-dialog';
+    dialog.innerHTML =
+      '<div class="code-fullscreen-dialog__inner">' +
+      '<div class="code-fullscreen-dialog__toolbar">' +
+      '<div class="code-fullscreen-dialog__meta">' +
+      '<span class="code-fullscreen-dialog__lang"></span>' +
+      '<span class="code-fullscreen-dialog__title"></span>' +
+      '</div>' +
+      '<div class="code-fullscreen-dialog__actions">' +
+      '<button type="button" class="code-block__btn" data-fs-copy>Копировать</button>' +
+      '<button type="button" class="code-block__btn" data-fs-close>Закрыть</button>' +
+      '</div></div>' +
+      '<div class="code-fullscreen-dialog__body"></div></div>';
+    document.body.appendChild(dialog);
+
+    dialog.querySelector('[data-fs-close]').addEventListener('click', function () {
+      dialog.close();
+    });
+    dialog.addEventListener('click', function (e) {
+      if (e.target === dialog) dialog.close();
+    });
+    dialog.addEventListener('close', function () {
+      postFullscreen(false);
+      notifyEmbedHeight();
+    });
+    dialog.querySelector('[data-fs-copy]').addEventListener('click', function () {
+      var body = dialog.querySelector('.code-fullscreen-dialog__body');
+      var src = body.getAttribute('data-raw') || '';
+      var btn = dialog.querySelector('[data-fs-copy]');
+      copyText(src, btn);
+    });
+
+    return dialog;
+  }
+
+  window.addEventListener('message', function (event) {
+    if (!event.data || event.data.type !== 'it-code-fullscreen-close') return;
+    var openDialog = document.getElementById('code-fullscreen-dialog');
+    if (openDialog && openDialog.open) {
+      openDialog.close();
+    }
+  });
 
   document.addEventListener('click', function (event) {
     var copyBtn = event.target.closest('[data-copy]');
@@ -70,54 +174,36 @@
     var block = fsBtn.closest('.code-block');
     if (!block) return;
 
-    var dialog = document.getElementById('code-fullscreen-dialog');
-    if (!dialog) {
-      dialog = document.createElement('dialog');
-      dialog.id = 'code-fullscreen-dialog';
-      dialog.className = 'code-fullscreen-dialog';
-      dialog.innerHTML =
-        '<div class="code-fullscreen-dialog__inner">' +
-        '<div class="code-fullscreen-dialog__toolbar">' +
-        '<span class="code-fullscreen-dialog__title"></span>' +
-        '<div class="code-fullscreen-dialog__actions">' +
-        '<button type="button" class="code-block__btn" data-fs-copy>Копировать</button>' +
-        '<button type="button" class="code-block__btn" data-fs-close>Закрыть</button>' +
-        '</div></div>' +
-        '<div class="code-fullscreen-dialog__body"></div></div>';
-      document.body.appendChild(dialog);
+    var dlg = ensureDialog();
+    var langLabel = block.getAttribute('data-lang-label') || '';
+    var filename = block.getAttribute('data-filename') || '';
+    var body = dlg.querySelector('.code-fullscreen-dialog__body');
+    var langEl = dlg.querySelector('.code-fullscreen-dialog__lang');
+    var titleEl = dlg.querySelector('.code-fullscreen-dialog__title');
 
-      dialog.querySelector('[data-fs-close]').addEventListener('click', function () {
-        dialog.close();
-      });
-      dialog.addEventListener('click', function (e) {
-        if (e.target === dialog) dialog.close();
-      });
-      dialog.querySelector('[data-fs-copy]').addEventListener('click', function () {
-        var body = dialog.querySelector('.code-fullscreen-dialog__body');
-        var src = body.getAttribute('data-raw') || body.textContent || '';
-        var btn = dialog.querySelector('[data-fs-copy]');
-        copyText(src, btn);
-      });
-    }
+    langEl.textContent = langLabel;
+    langEl.hidden = !langLabel;
+    titleEl.textContent = filename;
+    titleEl.hidden = !filename;
 
-    var title = block.getAttribute('data-filename') || 'Код';
-    var body = dialog.querySelector('.code-fullscreen-dialog__body');
-    var views = block.querySelector('.code-block__views');
-    dialog.querySelector('.code-fullscreen-dialog__title').textContent = title;
     body.innerHTML = '';
     body.setAttribute('data-raw', block.getAttribute('data-raw') || '');
-    if (views) {
-      body.appendChild(views.cloneNode(true));
-    } else {
-      var pre = block.querySelector('pre');
-      if (pre) {
-        body.appendChild(pre.cloneNode(true));
-      }
+
+    var pre = getVisiblePre(block);
+    if (pre) {
+      var wrap = document.createElement('div');
+      wrap.className = 'code-fullscreen-dialog__code';
+      wrap.appendChild(pre.cloneNode(true));
+      body.appendChild(wrap);
     }
-    if (typeof dialog.showModal === 'function') {
-      dialog.showModal();
+
+    if (typeof dlg.showModal === 'function') {
+      dlg.showModal();
     } else {
-      dialog.setAttribute('open', '');
+      dlg.setAttribute('open', '');
     }
+
+    postFullscreen(true, {title: buildBlockTitle(block)});
+    notifyEmbedHeight();
   });
 })();

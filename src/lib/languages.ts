@@ -64,3 +64,19 @@ export function langFromFilename(name: string): string {
   const ext = lower.split('.').pop() ?? lower;
   return EXT_TO_LANG[ext] ?? 'text';
 }
+
+const EXTRA_LABELS: Record<string, string> = {
+  git: 'Git',
+  typescript: 'TypeScript',
+  markdown: 'Markdown',
+  text: 'Plain text',
+};
+
+/** Человекочитаемое название языка для подписи в блоке кода */
+export function getLanguageLabel(id: string): string {
+  const found = LANGUAGE_CATALOG.find((l) => l.id === id);
+  if (found) return found.label;
+  if (EXTRA_LABELS[id]) return EXTRA_LABELS[id];
+  if (!id) return 'Код';
+  return id.charAt(0).toUpperCase() + id.slice(1);
+}
