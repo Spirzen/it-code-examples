@@ -19,6 +19,7 @@ const {title} = Astro.props;
       content="frame-ancestors https://spirzen.ru https://www.spirzen.ru http://localhost:3000 http://127.0.0.1:3000;"
     />
     <title>{title}</title>
+    <link rel="icon" href={sitePath('favicon.ico')} sizes="any" />
     <script is:inline src={sitePath('scripts/theme.js')}></script>
     <link rel="stylesheet" href={sitePath('styles/embed.css')} />
   </head>

@@ -23,6 +23,7 @@ const {title, description = 'Каталог примеров кода для э�
       content="frame-ancestors https://spirzen.ru https://www.spirzen.ru http://localhost:3000 http://127.0.0.1:3000;"
     />
     <title>{title}</title>
+    <link rel="icon" href={sitePath('favicon.ico')} sizes="any" />
     <script is:inline src={sitePath('scripts/theme.js')}></script>
     <link rel="stylesheet" href={sitePath('styles/global.css')} />
     <script is:inline src={sitePath('scripts/embed-mode.js')}></script>
@@ -34,14 +35,25 @@ const {title, description = 'Каталог примеров кода для э�
           <div class="wrap site-header__row">
             <div>
               <a class="brand" href={sitePath('')}>
-                <span class="brand__mark">IT</span>
-                <span class="brand__text">Code Examples</span>
+                <img
+                  class="brand__logo"
+                  src={sitePath('img/logo.png')}
+                  alt=""
+                  width="40"
+                  height="40"
+                  decoding="async"
+                />
+                <span class="brand__text">
+                  <span class="brand__title">Вселенная IT</span>
+                  <span class="brand__subtitle">Примеры кода</span>
+                </span>
               </a>
               <p class="site-header__lead">
-                Каталог кода для{' '}
+                Каталог для встраивания в{' '}
                 <a href="https://spirzen.ru/" rel="noopener noreferrer">
-                  Вселенной IT
+                  энциклопедию
                 </a>
+                {' '}· code.spirzen.ru
               </p>
             </div>
             <div class="theme-toggle" role="group" aria-label="Тема оформления">
@@ -71,8 +83,8 @@ const {title, description = 'Каталог примеров кода для э�
     </main>
     {
       !embed && (
-        <footer class="site-footer wrap">
-          <div class="site-footer__inner">
+        <footer class="site-footer">
+          <div class="wrap site-footer__inner">
             <p>
               Часть проекта{' '}
               <a href="https://spirzen.ru/" rel="noopener noreferrer">
