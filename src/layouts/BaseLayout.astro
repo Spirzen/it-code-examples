@@ -17,6 +17,7 @@ const {title, description = 'Каталог примеров кода для э�
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="description" content={description} />
+    <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
     <meta
       http-equiv="Content-Security-Policy"
       content="frame-ancestors https://spirzen.ru https://www.spirzen.ru http://localhost:3000 http://127.0.0.1:3000;"

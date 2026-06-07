@@ -26,10 +26,9 @@ jobs:
       - run: npm ci
       - run: npm run build
         env:
-          # Project Pages: spirzen.github.io/it-code-examples/
-          # Для custom domain code.spirzen.ru замените на SITE=https://code.spirzen.ru и BASE=/
-          IT_CODE_EXAMPLES_SITE: https://spirzen.github.io
-          IT_CODE_EXAMPLES_BASE: /it-code-examples/
+          # Custom domain code.spirzen.ru — BASE должен быть /, не /it-code-examples/
+          IT_CODE_EXAMPLES_SITE: https://code.spirzen.ru
+          IT_CODE_EXAMPLES_BASE: /
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
@@ -39,7 +38,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: https://code.spirzen.ru/
     steps:
       - id: deployment
         uses: actions/deploy-pages@v4
