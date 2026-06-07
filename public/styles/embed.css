@@ -292,12 +292,15 @@ html[data-theme='dark'] .embed-main .code-block__views .code-block__view--light 
 
 .embed-main .code-block pre code {
   counter-reset: code-line;
+  display: block;
+  white-space: normal;
 }
 
 .embed-main .code-block pre code > .line {
   display: block;
   position: relative;
   padding-left: 3.1rem;
+  white-space: pre;
 }
 
 .embed-main .code-block pre code > .line::before {
@@ -410,10 +413,17 @@ html[data-theme='dark'] .embed-main .code-block__views .code-block__view--light 
   border-radius: var(--embed-radius) !important;
   font-size: 0.88rem;
   line-height: 1.55;
+  white-space: normal;
+}
+
+.code-fullscreen-dialog__code pre code {
+  display: block;
+  white-space: normal;
 }
 
 .code-fullscreen-dialog__code pre code > .line {
   padding-left: 3.1rem;
+  white-space: pre;
 }
 
 .code-fullscreen-dialog__code pre code > .line::before {
