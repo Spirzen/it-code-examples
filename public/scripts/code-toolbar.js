@@ -48,7 +48,7 @@
   document.addEventListener('click', function (event) {
     var copyBtn = event.target.closest('[data-copy]');
     if (copyBtn) {
-      var block = copyBtn.closest('.code-block');
+      var block = copyBtn.closest('.code-block') || copyBtn.closest('.embed-help');
       if (!block) return;
       var text = getRawText(block);
       if (!text) return;

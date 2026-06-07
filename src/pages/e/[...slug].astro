@@ -18,6 +18,10 @@ const embed = Astro.url.searchParams.get('embed') === '1';
 const pageTitle = `${example.title} — IT Code Examples`;
 const embedUrl = sitePath(`e/embed/${example.slug}/`);
 const {prev, next, series} = getSeriesNeighbors(example, allExamples);
+const embedSnippet = `<ExternalCodeEmbed
+  example="${example.slug}"
+  title="${example.title}"
+/>`;
 ---
 
 <BaseLayout title={pageTitle} description={example.description} embed={embed}>
@@ -69,12 +73,20 @@ const {prev, next, series} = getSeriesNeighbors(example, allExamples);
       }
       {
         !embed && (
-          <aside class="embed-help">
-            <h2>Встраивание в Docusaurus</h2>
-            <pre class="embed-snippet"><code>{`<ExternalCodeEmbed
-  example="${example.slug}"
-  title="${example.title}"
-/>`}</code></pre>
+          <aside class="embed-help" data-raw={embedSnippet}>
+            <div class="embed-help__head">
+              <div>
+                <h2>Встраивание в Docusaurus</h2>
+                <p class="embed-help__hint">
+                  В MDX статьи <code>it-knowledge-base</code> — компонент{' '}
+                  <code>ExternalCodeEmbed</code>:
+                </p>
+              </div>
+              <button type="button" class="embed-help__copy" data-copy aria-label="Копировать сниппет">
+                Копировать
+              </button>
+            </div>
+            <pre class="embed-snippet"><code>{embedSnippet}</code></pre>
           </aside>
         )
       }
