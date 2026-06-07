@@ -5,17 +5,31 @@ interface Props {
   code: string;
   lang: string;
   filename?: string;
+  rawContent?: string;
 }
 
-const {code, lang, filename} = Astro.props;
+const {code, lang, filename, rawContent} = Astro.props;
+const source = rawContent ?? code;
 ---
 
-<div class="code-block" data-filename={filename}>
+<div class="code-block" data-filename={filename} data-raw={source}>
   <div class="code-block__toolbar">
     {filename && <div class="code-block__name">{filename}</div>}
-    <button type="button" class="code-block__copy" data-copy aria-label="Копировать код">
-      Копировать
-    </button>
+    <div class="code-block__actions">
+      <button type="button" class="code-block__btn" data-copy aria-label="Копировать код">
+        Копировать
+      </button>
+      <button type="button" class="code-block__btn" data-fullscreen aria-label="На весь экран">
+        На весь экран
+      </button>
+    </div>
   </div>
-  <Code code={code} lang={lang} theme="github-dark" />
+  <div class="code-block__views">
+    <div class="code-block__view code-block__view--dark">
+      <Code code={code} lang={lang} theme="github-dark" />
+    </div>
+    <div class="code-block__view code-block__view--light">
+      <Code code={code} lang={lang} theme="github-light" />
+    </div>
+  </div>
 </div>

@@ -1,0 +1,9 @@
+{
+  "title": "Python — CLI практикум (10 файлов)",
+  "description": "Шаг 5: мини-практикум из 10 модулей — от argparse до entry point.",
+  "tags": ["practicum", "multi-file", "cli"],
+  "order": 5,
+  "series": "python-basics-practicum",
+  "seriesOrder": 5,
+  "seriesTitle": "Python: базовый практикум"
+}

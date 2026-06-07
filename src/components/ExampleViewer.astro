@@ -1,0 +1,158 @@
+---
+import type {ExampleEntry} from '@/lib/examples';
+import DiffViewer from './DiffViewer.astro';
+import FileTabs from './FileTabs.astro';
+
+interface Props {
+  example: ExampleEntry;
+}
+
+const {example} = Astro.props;
+const hasVersions = example.versions.length >= 2;
+const showFiles = example.files.length > 0;
+const versionPairs = hasVersions
+  ? example.versions.slice(1).map((right, i) => ({
+      left: example.versions[i],
+      right,
+    }))
+  : [];
+---
+
+<div class="example-viewer" data-has-versions={hasVersions ? '1' : '0'}>
+  {
+    hasVersions && (
+      <div class="example-viewer__modes" role="tablist" aria-label="Режим просмотра">
+        <button type="button" class="example-viewer__mode is-active" data-mode="code" role="tab">
+          Код
+        </button>
+        <button type="button" class="example-viewer__mode" data-mode="diff" role="tab">
+          Diff версий
+        </button>
+      </div>
+    )
+  }
+
+  <div class="example-viewer__panel example-viewer__panel--code is-active" data-panel="code">
+    {
+      hasVersions && (
+        <div class="version-tabs" role="tablist" aria-label="Версии">
+          {example.versions.map((v, i) => (
+            <button
+              type="button"
+              class:list={['version-tabs__tab', i === example.versions.length - 1 && 'is-active']}
+              data-version={v.dir}
+              role="tab"
+            >
+              {v.label}
+            </button>
+          ))}
+        </div>
+      )
+    }
+
+    {
+      hasVersions ? (
+        <div class="version-panels">
+          {example.versions.map((v, i) => (
+            <div
+              class:list={[
+                'version-panels__panel',
+                i === example.versions.length - 1 && 'is-active',
+              ]}
+              data-version-panel={v.dir}
+              hidden={i !== example.versions.length - 1}
+            >
+              <FileTabs files={v.files} />
+            </div>
+          ))}
+        </div>
+      ) : showFiles ? (
+        <FileTabs files={example.files} />
+      ) : null
+    }
+  </div>
+
+  {
+    hasVersions && (
+      <div class="example-viewer__panel example-viewer__panel--diff" data-panel="diff" hidden>
+        {versionPairs.map(({left, right}) => {
+          const paths = new Set([
+            ...left.files.map((f) => f.relativePath),
+            ...right.files.map((f) => f.relativePath),
+          ]);
+          return [...paths].sort((a, b) => a.localeCompare(b, 'ru')).map((rel) => {
+            const lf = left.files.find((f) => f.relativePath === rel);
+            const rf = right.files.find((f) => f.relativePath === rel);
+            return (
+              <DiffViewer
+                leftLabel={left.label}
+                rightLabel={right.label}
+                leftContent={lf?.content ?? ''}
+                rightContent={rf?.content ?? ''}
+                filename={rel}
+              />
+            );
+          });
+        })}
+      </div>
+    )
+  }
+</div>
+
+<script>
+  document.querySelectorAll('.example-viewer[data-has-versions="1"]').forEach((root) => {
+    const modeBtns = root.querySelectorAll('.example-viewer__mode');
+    const panels = root.querySelectorAll('.example-viewer__panel');
+    modeBtns.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        const mode = btn.getAttribute('data-mode');
+        modeBtns.forEach((b) => {
+          const active = b === btn;
+          b.classList.toggle('is-active', active);
+          b.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        panels.forEach((p) => {
+          const active = p.getAttribute('data-panel') === mode;
+          p.classList.toggle('is-active', active);
+          if (active) {
+            p.removeAttribute('hidden');
+          } else {
+            p.setAttribute('hidden', '');
+          }
+        });
+        notifyHeight();
+      });
+    });
+
+    const versionTabs = root.querySelectorAll('.version-tabs__tab');
+    const versionPanels = root.querySelectorAll('.version-panels__panel');
+    versionTabs.forEach((tab) => {
+      tab.addEventListener('click', () => {
+        const id = tab.getAttribute('data-version');
+        versionTabs.forEach((t) => {
+          const active = t === tab;
+          t.classList.toggle('is-active', active);
+          t.setAttribute('aria-selected', active ? 'true' : 'false');
+        });
+        versionPanels.forEach((p) => {
+          const active = p.getAttribute('data-version-panel') === id;
+          p.classList.toggle('is-active', active);
+          if (active) {
+            p.removeAttribute('hidden');
+          } else {
+            p.setAttribute('hidden', '');
+          }
+        });
+        notifyHeight();
+      });
+    });
+  });
+
+  function notifyHeight() {
+    var root = document.querySelector('.embed-main') || document.querySelector('.example-viewer');
+    var height = root
+      ? Math.ceil(root.getBoundingClientRect().height)
+      : document.documentElement.offsetHeight;
+    window.parent.postMessage({type: 'it-code-embed-height', height: height}, '*');
+  }
+</script>

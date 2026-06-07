@@ -1,7 +1,10 @@
 {
   "title": "Python — Match3 фрагмент",
-  "description": "Мультифайловый пример: сетка + отрисовка.",
-  "tags": ["pygame", "multi-file"],
+  "description": "Шаг 4: мультифайловый пример — сетка + отрисовка.",
+  "tags": ["pygame", "multi-file", "practicum"],
+  "series": "python-basics-practicum",
+  "seriesOrder": 4,
+  "seriesTitle": "Python: базовый практикум",
   "encyclopediaUrl": "https://spirzen.ru/encyclopedia/9-spinoff/9-04-razrabotka-igr/praktikum-razrabotki-igr/2",
   "order": 2
 }

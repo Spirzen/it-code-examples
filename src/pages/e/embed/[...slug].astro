@@ -1,6 +1,6 @@
 ---
 import EmbedLayout from '@/layouts/EmbedLayout.astro';
-import FileTabs from '@/components/FileTabs.astro';
+import ExampleViewer from '@/components/ExampleViewer.astro';
 import {loadAllExamples} from '@/lib/examples';
 
 export function getStaticPaths() {
@@ -15,5 +15,5 @@ const pageTitle = `${example.title} — embed`;
 ---
 
 <EmbedLayout title={pageTitle}>
-  <FileTabs files={example.files} />
+  <ExampleViewer example={example} />
 </EmbedLayout>

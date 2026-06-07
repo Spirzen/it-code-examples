@@ -1,7 +1,14 @@
 {
   "title": "Python — Hello World",
-  "description": "Минимальная программа и точка входа __main__.",
-  "tags": ["beginner"],
+  "description": "Минимальная программа и точка входа __main__. Сравните v1 → v2 в режиме Diff.",
+  "tags": ["beginner", "versions"],
   "order": 1,
-  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-02-chto-takoe-kod-i-kak-on-rabotaet/617"
+  "series": "python-basics-practicum",
+  "seriesOrder": 1,
+  "seriesTitle": "Python: базовый практикум",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-02-chto-takoe-kod-i-kak-on-rabotaet/617",
+  "versions": [
+    { "label": "v1 — print", "dir": "v1" },
+    { "label": "v2 — функция", "dir": "v2" }
+  ]
 }

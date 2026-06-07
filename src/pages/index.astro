@@ -1,58 +1,149 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import {groupByLanguage, loadAllExamples} from '@/lib/examples';
+import {buildSearchIndex, groupByLanguage, groupBySeries, loadAllExamples} from '@/lib/examples';
 import {LANGUAGE_CATALOG} from '@/lib/languages';
 import {sitePath} from '@/lib/site';
 
 const examples = loadAllExamples();
 const grouped = groupByLanguage(examples);
+const seriesGroups = groupBySeries(examples);
+const searchIndex = buildSearchIndex(examples);
 const labelById = Object.fromEntries(LANGUAGE_CATALOG.map((l) => [l.id, l.label]));
+const languagesWithExamples = [...grouped.keys()].sort((a, b) =>
+  (labelById[a] ?? a).localeCompare(labelById[b] ?? b, 'ru'),
+);
+const totalFiles = examples.reduce((sum, ex) => sum + ex.files.length, 0);
 ---
 
-<BaseLayout title="IT Code Examples — каталог">
-  <div class="wrap catalog">
-    <section class="hero">
-      <h1>Каталог примеров кода</h1>
-      <p>
-        Статический viewer на Astro + Shiki. Исходники в папке <code>examples/</code>, в билд
-        Docusaurus не попадают. Для энциклопедии — iframe на <code>/e/embed/&lt;slug&gt;/</code>.
-      </p>
-      <dl class="stats">
-        <div>
-          <dt>Примеров</dt>
-          <dd>{examples.length}</dd>
+<BaseLayout
+  title="IT Code Examples — примеры кода"
+  description="Каталог примеров кода для энциклопедии Вселенная IT: подсветка синтаксиса, практикумы, встраивание в статьи."
+>
+  <div class="catalog-home" data-catalog-search>
+    <section class="hero-panel">
+      <div class="hero-panel__copy">
+        <p class="hero-panel__eyebrow">code.spirzen.ru</p>
+        <h1>Примеры кода</h1>
+        <p class="hero-panel__lead">
+          Лёгкий каталог для <a href="https://spirzen.ru/" rel="noopener noreferrer">Вселенной IT</a>:
+          читайте, копируйте и открывайте в полный экран. В статьях энциклопедии — через iframe.
+        </p>
+        <div class="hero-panel__stats">
+          <span class="stat-pill"><strong>{examples.length}</strong> примеров</span>
+          <span class="stat-pill"><strong>{grouped.size}</strong> языков</span>
+          <span class="stat-pill"><strong>{totalFiles}</strong> файлов</span>
+          {seriesGroups.length > 0 && (
+            <span class="stat-pill"><strong>{seriesGroups.length}</strong> серий</span>
+          )}
         </div>
-        <div>
-          <dt>Языков</dt>
-          <dd>{grouped.size}</dd>
-        </div>
-      </dl>
+      </div>
+      <div class="hero-panel__search">
+        <label class="sr-only" for="catalog-q">Поиск по каталогу</label>
+        <input
+          id="catalog-q"
+          class="catalog-search__input catalog-search__input--hero"
+          type="search"
+          placeholder="Поиск: Python, practicum, hello-world…"
+          autocomplete="off"
+          data-search-input
+        />
+        <p class="catalog-search__meta" data-search-count></p>
+      </div>
     </section>
 
+    <p class="catalog-search__empty" data-search-empty hidden>Ничего не найдено — попробуйте другой запрос.</p>
+
     {
-      [...grouped.entries()].map(([lang, items]) => (
-        <section class="catalog-section">
-          <h2>{labelById[lang] ?? lang}</h2>
-          <ul class="example-list">
-            {items.map((item) => (
-              <li>
-                <a href={sitePath(`e/${item.slug}/`)}>
-                  <span class="example-list__title">{item.title}</span>
-                  {item.description && (
-                    <span class="example-list__desc">{item.description}</span>
-                  )}
-                </a>
-                <div class="example-list__meta">
-                  <code>{item.slug}</code>
-                  {item.tags.map((tag) => (
-                    <span class="tag">{tag}</span>
-                  ))}
-                </div>
-              </li>
+      seriesGroups.length > 0 && (
+        <section class="catalog-block catalog-block--series">
+          <div class="catalog-block__head">
+            <h2>Практикумы</h2>
+            <p>Пошаговые серии из нескольких примеров</p>
+          </div>
+          <div class="series-strip">
+            {seriesGroups.map((group) => (
+              <a class="series-card" href={sitePath(`series/${group.id}/`)}>
+                <span class="series-card__title">{group.title}</span>
+                <span class="series-card__meta">
+                  {group.examples.length} шагов · {labelById[group.examples[0]?.language] ?? group.examples[0]?.language}
+                </span>
+              </a>
             ))}
-          </ul>
+          </div>
         </section>
-      ))
+      )
     }
+
+    <section class="catalog-block">
+      <div class="catalog-block__head">
+        <h2>Каталог</h2>
+        <p>Фильтр по языку или текстовый поиск выше</p>
+      </div>
+      <div class="lang-chips" role="group" aria-label="Фильтр по языку">
+        <button type="button" class="lang-chip is-active" data-lang-filter="all">
+          Все
+        </button>
+        {
+          languagesWithExamples.map((lang) => (
+            <button type="button" class="lang-chip" data-lang-filter={lang}>
+              {labelById[lang] ?? lang}
+              <span class="lang-chip__count">{grouped.get(lang)?.length}</span>
+            </button>
+          ))
+        }
+      </div>
+
+      <div class="catalog-sections">
+        {
+          languagesWithExamples.map((lang) => {
+            const items = grouped.get(lang) ?? [];
+            return (
+              <section class="catalog-section" data-catalog-section data-language={lang}>
+                <h3 class="catalog-section__title">
+                  <span>{labelById[lang] ?? lang}</span>
+                  <span class="catalog-section__count">{items.length}</span>
+                </h3>
+                <ul class="example-grid">
+                  {items.map((item) => (
+                    <li
+                      class="example-card"
+                      data-catalog-item
+                      data-title={item.title}
+                      data-description={item.description}
+                      data-slug={item.slug}
+                      data-language={item.language}
+                      data-tags={item.tags.join(' ')}
+                      data-series={item.seriesTitle ?? item.series ?? ''}
+                    >
+                      <a class="example-card__link" href={sitePath(`e/${item.slug}/`)}>
+                        <span class="example-card__title">{item.title}</span>
+                        {item.description && (
+                          <span class="example-card__desc">{item.description}</span>
+                        )}
+                      </a>
+                      <div class="example-card__foot">
+                        {item.series && (
+                          <span class="tag tag--series">{item.seriesTitle ?? item.series}</span>
+                        )}
+                        {item.tags.slice(0, 2).map((tag) => (
+                          <span class="tag">{tag}</span>
+                        ))}
+                        {item.files.length > 1 && (
+                          <span class="tag tag--muted">{item.files.length} файла</span>
+                        )}
+                        {item.versions.length >= 2 && <span class="tag tag--muted">diff</span>}
+                      </div>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            );
+          })
+        }
+      </div>
+    </section>
+
+    <script type="application/json" id="catalog-search-index" set:html={JSON.stringify(searchIndex)} />
   </div>
+  <script src={sitePath('scripts/catalog-search.js')} defer></script>
 </BaseLayout>

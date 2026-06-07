@@ -1,0 +1,49 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import {groupBySeries, loadAllExamples} from '@/lib/examples';
+import {sitePath} from '@/lib/site';
+
+export function getStaticPaths() {
+  return groupBySeries(loadAllExamples()).map((group) => ({
+    params: {id: group.id},
+    props: {group},
+  }));
+}
+
+const {group} = Astro.props;
+const totalFiles = group.examples.reduce((sum, ex) => sum + ex.files.length, 0);
+---
+
+<BaseLayout title={`${group.title} — серия`} description={`Практикум: ${group.examples.length} шагов`}>
+  <div class="wrap series-page">
+    <a class="back" href={sitePath('')}>← Каталог</a>
+    <header class="series-page__header">
+      <span class="series-nav__badge">Серия</span>
+      <h1>{group.title}</h1>
+      <p class="series-page__meta">
+        {group.examples.length} шагов · {totalFiles} файлов кода
+      </p>
+    </header>
+
+    <ol class="series-page__steps">
+      {
+        group.examples.map((step, i) => (
+          <li>
+            <a href={sitePath(`e/${step.slug}/`)}>
+              <span class="series-page__step-num">{i + 1}</span>
+              <span class="series-page__step-body">
+                <span class="series-page__step-title">{step.title}</span>
+                {step.description && (
+                  <span class="series-page__step-desc">{step.description}</span>
+                )}
+                <span class="series-page__step-files">
+                  {step.files.length} файл(ов) · <code>{step.slug}</code>
+                </span>
+              </span>
+            </a>
+          </li>
+        ))
+      }
+    </ol>
+  </div>
+</BaseLayout>

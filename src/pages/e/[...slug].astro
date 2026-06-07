@@ -1,7 +1,8 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import FileTabs from '@/components/FileTabs.astro';
-import {getExampleBySlug, loadAllExamples} from '@/lib/examples';
+import ExampleViewer from '@/components/ExampleViewer.astro';
+import SeriesNav from '@/components/SeriesNav.astro';
+import {getExampleBySlug, getSeriesNeighbors, loadAllExamples} from '@/lib/examples';
 import {sitePath} from '@/lib/site';
 
 export function getStaticPaths() {
@@ -11,10 +12,12 @@ export function getStaticPaths() {
   }));
 }
 
+const allExamples = loadAllExamples();
 const {example} = Astro.props;
 const embed = Astro.url.searchParams.get('embed') === '1';
 const pageTitle = `${example.title} — IT Code Examples`;
 const embedUrl = sitePath(`e/embed/${example.slug}/`);
+const {prev, next, series} = getSeriesNeighbors(example, allExamples);
 ---
 
 <BaseLayout title={pageTitle} description={example.description} embed={embed}>
@@ -35,6 +38,7 @@ const embedUrl = sitePath(`e/embed/${example.slug}/`);
           {example.tags.map((tag) => (
             <span class="tag">{tag}</span>
           ))}
+          {example.versions.length >= 2 && <span class="tag">versions</span>}
           {!embed && (
             <a class="pill pill--link" href={embedUrl}>
               embed URL
@@ -52,7 +56,8 @@ const embedUrl = sitePath(`e/embed/${example.slug}/`);
     </header>
 
     <div class="wrap example__body">
-      <FileTabs files={example.files} />
+      {series && !embed && <SeriesNav example={example} series={series} prev={prev} next={next} />}
+      <ExampleViewer example={example} />
       {
         embed && (
           <p class="embed-open">

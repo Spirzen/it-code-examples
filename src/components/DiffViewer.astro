@@ -1,0 +1,46 @@
+---
+import type {DiffLine} from '@/lib/diff';
+import {diffLines, hasDiffChanges} from '@/lib/diff';
+
+interface Props {
+  leftLabel: string;
+  rightLabel: string;
+  leftContent: string;
+  rightContent: string;
+  filename?: string;
+}
+
+const {leftLabel, rightLabel, leftContent, rightContent, filename} = Astro.props;
+const lines = diffLines(leftContent, rightContent);
+const changed = hasDiffChanges(lines);
+---
+
+<div class="diff-viewer" data-filename={filename}>
+  <div class="diff-viewer__header">
+    <span class="diff-viewer__label diff-viewer__label--old">{leftLabel}</span>
+    <span class="diff-viewer__arrow">→</span>
+    <span class="diff-viewer__label diff-viewer__label--new">{rightLabel}</span>
+    {filename && <code class="diff-viewer__file">{filename}</code>}
+    {!changed && <span class="diff-viewer__same">Файлы идентичны</span>}
+  </div>
+  <div class="diff-viewer__body">
+    <table class="diff-table">
+      <tbody>
+        {
+          lines.map((line: DiffLine) => (
+            <tr class:list={['diff-line', `diff-line--${line.type}`]}>
+              <td class="diff-line__num">{line.oldLine ?? ''}</td>
+              <td class="diff-line__num">{line.newLine ?? ''}</td>
+              <td class="diff-line__sign">
+                {line.type === 'add' ? '+' : line.type === 'remove' ? '−' : ' '}
+              </td>
+              <td class="diff-line__code">
+                <code>{line.content || ' '}</code>
+              </td>
+            </tr>
+          ))
+        }
+      </tbody>
+    </table>
+  </div>
+</div>

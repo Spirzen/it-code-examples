@@ -1,6 +1,7 @@
-/* Embed-only: только блок кода, всегда тёмный редактор (не зависит от темы энциклопедии/OS). */
+/* Embed: синхрон темы с spirzen.ru через theme.js (localStorage theme + postMessage). */
 
-:root {
+:root,
+html[data-theme='dark'] {
   color-scheme: dark;
   --embed-bg: #0d1117;
   --embed-border: #30363d;
@@ -8,6 +9,34 @@
   --embed-fg: #e6edf3;
   --embed-muted: #8b949e;
   --embed-accent: #58a6ff;
+  --embed-surface: #21262d;
+}
+
+html[data-theme='light'] {
+  color-scheme: light;
+  --embed-bg: #ffffff;
+  --embed-border: #d0d7de;
+  --embed-toolbar: #f6f8fa;
+  --embed-fg: #24292f;
+  --embed-muted: #656d76;
+  --embed-accent: #0969da;
+  --embed-surface: #ffffff;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) {
+    color-scheme: light;
+    --embed-bg: #ffffff;
+    --embed-border: #d0d7de;
+    --embed-toolbar: #f6f8fa;
+    --embed-fg: #24292f;
+    --embed-muted: #656d76;
+    --embed-accent: #0969da;
+    --embed-surface: #ffffff;
+  }
+}
+
+:root {
   --embed-radius: 10px;
   --embed-pad-x: 1rem;
   --embed-pad-y: 0.85rem;
@@ -97,9 +126,15 @@ html.embed-doc body.embed-body {
   color: var(--embed-muted);
 }
 
-.embed-main .code-block__copy {
+.embed-main .code-block__actions {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.embed-main .code-block__btn,
+.embed-main .file-tabs__copy-all {
   border: 1px solid var(--embed-border);
-  background: #21262d;
+  background: var(--embed-surface);
   color: var(--embed-fg);
   border-radius: 6px;
   padding: 0.18rem 0.5rem;
@@ -108,13 +143,118 @@ html.embed-doc body.embed-body {
   cursor: pointer;
 }
 
-.embed-main .code-block__copy:hover {
+.embed-main .code-block__btn:hover,
+.embed-main .file-tabs__copy-all:hover {
   border-color: var(--embed-accent);
 }
 
-.embed-main .code-block__copy.is-copied {
+.embed-main .code-block__btn.is-copied,
+.embed-main .file-tabs__copy-all.is-copied {
   border-color: #3fb950;
   color: #3fb950;
+}
+
+.embed-main .code-block__views .code-block__view--light {
+  display: none;
+}
+
+html[data-theme='light'] .embed-main .code-block__views .code-block__view--light {
+  display: block;
+}
+
+html[data-theme='light'] .embed-main .code-block__views .code-block__view--dark {
+  display: none;
+}
+
+html[data-theme='dark'] .embed-main .code-block__views .code-block__view--dark {
+  display: block;
+}
+
+html[data-theme='dark'] .embed-main .code-block__views .code-block__view--light {
+  display: none;
+}
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme]) .embed-main .code-block__views .code-block__view--light {
+    display: block;
+  }
+  :root:not([data-theme]) .embed-main .code-block__views .code-block__view--dark {
+    display: none;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) .embed-main .code-block__views .code-block__view--dark {
+    display: block;
+  }
+  :root:not([data-theme]) .embed-main .code-block__views .code-block__view--light {
+    display: none;
+  }
+}
+
+.embed-main .file-tabs__head {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+  margin-bottom: 0.45rem;
+}
+
+.embed-main .example-viewer__modes,
+.embed-main .version-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  margin-bottom: 0.45rem;
+}
+
+.embed-main .example-viewer__mode,
+.embed-main .version-tabs__tab {
+  border: 1px solid var(--embed-border);
+  background: var(--embed-toolbar);
+  color: var(--embed-muted);
+  border-radius: 999px;
+  padding: 0.28rem 0.6rem;
+  font-size: 0.74rem;
+  cursor: pointer;
+}
+
+.embed-main .example-viewer__mode.is-active,
+.embed-main .version-tabs__tab.is-active {
+  background: var(--embed-accent);
+  border-color: var(--embed-accent);
+  color: #fff;
+}
+
+.embed-main .diff-viewer {
+  border: 1px solid var(--embed-border);
+  border-radius: var(--embed-radius);
+  margin-bottom: 0.65rem;
+  overflow: hidden;
+}
+
+.embed-main .diff-viewer__header {
+  padding: 0.45rem 0.6rem;
+  background: var(--embed-toolbar);
+  border-bottom: 1px solid var(--embed-border);
+  font-size: 0.74rem;
+  color: var(--embed-muted);
+}
+
+.embed-main .diff-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--embed-mono);
+  font-size: 0.76rem;
+}
+
+.embed-main .diff-line--add {
+  background: rgba(46, 160, 67, 0.15);
+}
+
+.embed-main .diff-line--remove {
+  background: rgba(248, 81, 73, 0.15);
 }
 
 .embed-main .code-block pre,

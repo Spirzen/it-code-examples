@@ -19,13 +19,14 @@ const {title} = Astro.props;
       content="frame-ancestors https://spirzen.ru https://www.spirzen.ru http://localhost:3000 http://127.0.0.1:3000;"
     />
     <title>{title}</title>
+    <script is:inline src={sitePath('scripts/theme.js')}></script>
     <link rel="stylesheet" href={sitePath('styles/embed.css')} />
   </head>
   <body class="embed-body">
     <main class="embed-main">
       <slot />
     </main>
-    <script is:inline src={sitePath('scripts/code-copy.js')}></script>
+    <script is:inline src={sitePath('scripts/code-toolbar.js')}></script>
     <script is:inline src={sitePath('scripts/embed-resize.js')}></script>
   </body>
 </html>

@@ -8,23 +8,37 @@ interface Props {
 
 const {files} = Astro.props;
 const multi = files.length > 1;
+const allSources = files
+  .map((f) => `// ${f.relativePath}\n${f.content}`)
+  .join('\n\n');
 ---
 
 <div class="file-tabs" data-multi={multi ? '1' : '0'}>
   {
     multi && (
-      <div class="file-tabs__bar" role="tablist">
-        {files.map((file, i) => (
-          <button
-            type="button"
-            class:list={['file-tabs__tab', i === 0 && 'is-active']}
-            role="tab"
-            aria-selected={i === 0 ? 'true' : 'false'}
-            data-tab={file.relativePath}
-          >
-            {file.relativePath}
-          </button>
-        ))}
+      <div class="file-tabs__head">
+        <div class="file-tabs__bar" role="tablist">
+          {files.map((file, i) => (
+            <button
+              type="button"
+              class:list={['file-tabs__tab', i === 0 && 'is-active']}
+              role="tab"
+              aria-selected={i === 0 ? 'true' : 'false'}
+              data-tab={file.relativePath}
+            >
+              {file.relativePath}
+            </button>
+          ))}
+        </div>
+        <button
+          type="button"
+          class="file-tabs__copy-all"
+          data-copy-all
+          data-sources={allSources}
+          aria-label="Копировать все файлы"
+        >
+          Копировать все
+        </button>
       </div>
     )
   }
@@ -37,7 +51,12 @@ const multi = files.length > 1;
           data-panel={file.relativePath}
           hidden={i !== 0}
         >
-          <CodeBlock code={file.content} lang={file.language} filename={file.name} />
+          <CodeBlock
+            code={file.content}
+            lang={file.language}
+            filename={file.name}
+            rawContent={file.content}
+          />
         </section>
       ))
     }
@@ -65,12 +84,16 @@ const multi = files.length > 1;
             p.setAttribute('hidden', '');
           }
         });
-        var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
-        var height = root
-          ? Math.ceil(root.getBoundingClientRect().height)
-          : document.documentElement.offsetHeight;
-        window.parent.postMessage({type: 'it-code-embed-height', height: height}, '*');
+        notifyHeight();
       });
     });
   });
+
+  function notifyHeight() {
+    var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
+    var height = root
+      ? Math.ceil(root.getBoundingClientRect().height)
+      : document.documentElement.offsetHeight;
+    window.parent.postMessage({type: 'it-code-embed-height', height: height}, '*');
+  }
 </script>

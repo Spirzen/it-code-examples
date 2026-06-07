@@ -1,0 +1,60 @@
+---
+import type {ExampleEntry, SeriesGroup} from '@/lib/examples';
+import {sitePath} from '@/lib/site';
+
+interface Props {
+  example: ExampleEntry;
+  series: SeriesGroup;
+  prev?: ExampleEntry;
+  next?: ExampleEntry;
+}
+
+const {example, series, prev, next} = Astro.props;
+const idx = series.examples.findIndex((e) => e.slug === example.slug);
+---
+
+<nav class="series-nav" aria-label={`Серия: ${series.title}`}>
+  <div class="series-nav__head">
+    <span class="series-nav__badge">Серия</span>
+    <a class="series-nav__title" href={sitePath(`series/${series.id}/`)}>
+      {series.title}
+    </a>
+    <span class="series-nav__progress">
+      Шаг {idx + 1} из {series.examples.length}
+    </span>
+  </div>
+  <div class="series-nav__steps">
+    {
+      series.examples.map((step, i) => (
+        <a
+          href={sitePath(`e/${step.slug}/`)}
+          class:list={['series-nav__step', step.slug === example.slug && 'is-current']}
+          aria-current={step.slug === example.slug ? 'step' : undefined}
+          title={step.title}
+        >
+          {i + 1}
+        </a>
+      ))
+    }
+  </div>
+  <div class="series-nav__links">
+    {
+      prev ? (
+        <a class="series-nav__link series-nav__link--prev" href={sitePath(`e/${prev.slug}/`)}>
+          ← {prev.title}
+        </a>
+      ) : (
+        <span />
+      )
+    }
+    {
+      next ? (
+        <a class="series-nav__link series-nav__link--next" href={sitePath(`e/${next.slug}/`)}>
+          {next.title} →
+        </a>
+      ) : (
+        <span />
+      )
+    }
+  </div>
+</nav>

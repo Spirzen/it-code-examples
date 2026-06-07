@@ -1,11 +1,28 @@
 # IT Code Examples
 
-**Лёгкий каталог примеров кода для [Вселенной IT](https://spirzen.ru/)**
+**Каталог примеров кода для [Вселенной IT](https://spirzen.ru/)**
 
-Публичный сайт: [code.spirzen.ru](https://code.spirzen.ru/)  
-Энциклопедия: [spirzen.ru](https://spirzen.ru/) · репозиторий: [it-knowledge-base](https://github.com/spirzen/it-knowledge-base)
+| | |
+|---|---|
+| Публичный сайт | [code.spirzen.ru](https://code.spirzen.ru/) |
+| Энциклопедия | [spirzen.ru](https://spirzen.ru/) |
+| Репозиторий энциклопедии | [it-knowledge-base](https://github.com/spirzen/it-knowledge-base) |
 
-Длинные листинги и мультифайловые практикумы живут здесь; в статьях энциклопедии остаётся текст и встроенный просмотрщик через iframe. Отдельный репозиторий даёт второй лимит GitHub Pages и не раздувает билд Docusaurus.
+Длинные листинги и мультифайловые практикумы живут здесь; в статьях — текст и встроенный просмотрщик через iframe. Отдельный репозиторий даёт второй лимит GitHub Pages и не раздувает билд Docusaurus.
+
+---
+
+## Возможности
+
+- **Каталог** с поиском и фильтром по языку
+- **Практикумы (серии)** — несколько связанных примеров с навигацией шаг 1…N
+- **Версии и diff** — сравнение папок `v1/`, `v2/` из `meta.json`
+- **Мультифайловые примеры** — вкладки, «Копировать все»
+- **Копирование** и **полноэкранный просмотр** кода
+- **Светлая / тёмная тема** — синхрон с Docusaurus (`localStorage.theme`, `postMessage`)
+- **Embed** для iframe в энциклопедии
+
+Подробности для агентов и авторов — в [AGENTS.md](AGENTS.md).
 
 ---
 
@@ -14,8 +31,8 @@
 | Область | Технология |
 |---------|------------|
 | Сборка | [Astro 5](https://astro.build/) (статический output) |
-| Подсветка | [Shiki](https://shiki.style/) на этапе сборки |
-| Runtime JS | Только вкладки файлов, копирование, resize iframe |
+| Подсветка | [Shiki](https://shiki.style/) на этапе сборки (light + dark) |
+| Runtime JS | Вкладки, поиск, тема, копирование, fullscreen, resize iframe |
 | Node.js | ≥ 20 |
 | Деплой | GitHub Actions → GitHub Pages |
 
@@ -23,7 +40,7 @@
 
 ## Быстрый старт
 
-**Windows:** можно дважды щёлкнуть `start.bat` в корне репозитория — скрипт проверит Node.js, при необходимости выполнит `npm install` и запустит dev-сервер на порту 4321.
+**Windows:** `start.bat` — проверит Node.js, при необходимости `npm install`, запустит dev на порту 4321.
 
 ```bash
 git clone https://github.com/spirzen/it-code-examples.git
@@ -32,14 +49,12 @@ npm install
 npm run dev
 ```
 
-Откройте [http://localhost:4321/](http://localhost:4321/) — каталог примеров.
+Откройте [http://localhost:4321/](http://localhost:4321/).
 
 ```bash
 npm run build    # dist/
 npm run preview  # проверка сборки
 ```
-
-Ручной деплой (альтернатива CI, ветка `gh-pages`): `deploy.bat`. **Не смешивайте** с GitHub Actions — выберите один способ (см. раздел «Деплой» ниже).
 
 ---
 
@@ -47,26 +62,39 @@ npm run preview  # проверка сборки
 
 ```
 it-code-examples/
-├── examples/              # контент: единственный источник примеров
+├── examples/                    # единственный источник контента
 │   └── <язык>/
 │       └── <slug>/
 │           ├── meta.json
-│           └── исходники…
+│           ├── *.ext            # исходники
+│           ├── v1/, v2/         # опционально: версии для diff
+│           └── …
 ├── src/
-│   ├── lib/               # сканер examples/, языки Shiki
-│   ├── components/        # CodeBlock, FileTabs
-│   ├── layouts/           # BaseLayout, EmbedLayout
+│   ├── lib/
+│   │   ├── examples.ts          # сканер, серии, поиск
+│   │   ├── diff.ts              # построчный diff
+│   │   └── languages.ts
+│   ├── components/
+│   │   ├── CodeBlock.astro
+│   │   ├── FileTabs.astro
+│   │   ├── ExampleViewer.astro  # версии + diff
+│   │   ├── DiffViewer.astro
+│   │   └── SeriesNav.astro
+│   ├── layouts/
+│   │   ├── BaseLayout.astro
+│   │   └── EmbedLayout.astro
 │   └── pages/
-│       ├── index.astro    # каталог /
+│       ├── index.astro          # главная
+│       ├── series/[id].astro    # страница серии
 │       └── e/
-│           ├── [...slug].astro       # полная страница примера
-│           └── embed/[...slug].astro # только код (для iframe)
+│           ├── [...slug].astro
+│           └── embed/[...slug].astro
 ├── public/
-│   ├── CNAME              # code.spirzen.ru
-│   ├── styles/
-│   └── scripts/           # embed-resize, code-copy
-├── astro.config.mjs
-└── package.json
+│   ├── styles/                  # global.css, embed.css
+│   └── scripts/                 # theme, catalog-search, code-toolbar, …
+├── .cursor/rules/               # правила для Cursor
+├── AGENTS.md                    # бриф для агентов
+└── astro.config.mjs
 ```
 
 Новый пример = папка в `examples/` — правки в `src/pages` не нужны.
@@ -75,7 +103,7 @@ it-code-examples/
 
 ## Добавление примера
 
-1. Создайте `examples/<язык>/<slug>/` (slug в kebab-case, латиница).
+1. Создайте `examples/<язык>/<slug>/` (slug: kebab-case, латиница).
 2. Положите файлы с кодом.
 3. Заполните `meta.json`:
 
@@ -89,19 +117,22 @@ it-code-examples/
 }
 ```
 
+### Дополнительные поля `meta.json`
+
 | Поле | Описание |
 |------|----------|
-| `title` | Заголовок страницы |
-| `description` | Подзаголовок и SEO |
-| `tags` | Бейджи в каталоге |
-| `order` | Сортировка внутри языка (меньше — выше) |
-| `encyclopediaUrl` | Ссылка «статья в энциклопедии» |
+| `series` | ID серии (латиница, kebab-case), одинаковый у всех шагов |
+| `seriesOrder` | Порядок шага в серии (1, 2, 3…) |
+| `seriesTitle` | Человекочитаемое название серии (на любом шаге) |
+| `versions` | `[{ "label": "v1", "dir": "v1" }, …]` — папки с версиями для diff |
 
-4. Проверьте локально: `/e/<язык>/<slug>/` и `/e/embed/<язык>/<slug>/`.
+Папки из `versions[].dir` **не** попадают в основной список файлов — только во вкладки версий и diff.
 
-Поддерживаемые языки — `LANGUAGE_CATALOG` в `src/lib/languages.ts`.
+4. Проверьте: `/e/<язык>/<slug>/`, `/e/embed/<язык>/<slug>/`, при серии — `/series/<series-id>/`.
 
-**Когда выносить сюда:** листинг > ~30 строк, несколько файлов, часто обновляемые конфиги. Короткие фрагменты (3–15 строк) можно оставить в markdown энциклопедии.
+Языки — `LANGUAGE_CATALOG` в `src/lib/languages.ts`.
+
+**Когда выносить сюда:** листинг > ~30 строк, несколько файлов, практикумы, часто обновляемые конфиги. Короткие фрагменты (3–15 строк) можно оставить в markdown энциклопедии.
 
 ---
 
@@ -109,9 +140,11 @@ it-code-examples/
 
 | Назначение | Путь |
 |------------|------|
-| Каталог | `/` |
+| Главная | `/` |
+| Серия | `/series/<id>/` |
 | Полная страница | `/e/<язык>/<slug>/` |
 | Embed (iframe) | `/e/embed/<язык>/<slug>/` |
+| Тема в embed | `?theme=light` или `?theme=dark` |
 
 Пример: [code.spirzen.ru/e/embed/python/hello-world/](https://code.spirzen.ru/e/embed/python/hello-world/)
 
@@ -121,7 +154,7 @@ it-code-examples/
 
 ## Встраивание в энциклопедию
 
-В [it-knowledge-base](https://github.com/spirzen/it-knowledge-base) используется компонент `ExternalCodeEmbed`:
+В [it-knowledge-base](https://github.com/spirzen/it-knowledge-base) — компонент `ExternalCodeEmbed`:
 
 ```jsx
 import ExternalCodeEmbed from '@site/src/components/ExternalCodeEmbed';
@@ -129,46 +162,45 @@ import ExternalCodeEmbed from '@site/src/components/ExternalCodeEmbed';
 <ExternalCodeEmbed example="python/hello-world" title="Python — Hello World" />
 ```
 
-Компонент рендерит iframe, подстраивает высоту по `postMessage` (`it-code-embed-height`) и показывает ссылку на полную страницу примера.
+Компонент:
 
-Локально: энциклопедия `localhost:3000`, каталог `localhost:4321`. Если порт занят — в энциклопедии задайте `IT_CODE_EXAMPLES_URL` (см. `.env.example`).
+- рендерит iframe на `/e/embed/<slug>/`;
+- подстраивает высоту по `postMessage` (`it-code-embed-height`);
+- передаёт тему (`?theme=` + `postMessage` `it-code-theme`);
+- показывает ссылку на полную страницу.
+
+Локально: энциклопедия `localhost:3000`, каталог `localhost:4321`. URL каталога — `customFields.codeExamplesUrl` в Docusaurus или `.env` (`IT_CODE_EXAMPLES_URL`).
 
 ### Контракт iframe
 
-- Embed-страница шлёт `{ type: 'it-code-embed-height', height: number }` в parent.
-- CSP `frame-ancestors` разрешает только `spirzen.ru` и localhost при разработке.
-- Parent проверяет `event.origin` (см. `CODE_EXAMPLES_TRUSTED_ORIGINS` в it-knowledge-base).
+| Сообщение | Направление | Назначение |
+|-----------|-------------|------------|
+| `it-code-embed-height` | iframe → parent | `{ height: number }` |
+| `it-code-theme` | parent → iframe | `{ theme: 'light' \| 'dark' }` |
+
+CSP `frame-ancestors`: `spirzen.ru`, localhost:3000. Parent проверяет `event.origin` — `CODE_EXAMPLES_TRUSTED_ORIGINS` в it-knowledge-base.
 
 ---
 
 ## Деплой
 
-### Рекомендуется: GitHub Actions
+### GitHub Actions (рекомендуется)
 
-1. Репозиторий на GitHub: [github.com/Spirzen/it-code-examples](https://github.com/Spirzen/it-code-examples).
-2. **Settings → Pages → Build and deployment → Source:** выберите **GitHub Actions** (не «Deploy from a branch»).
-3. Push в `main` или `master` — запускается [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).  
-   Или вручную: **Actions → Deploy to GitHub Pages → Run workflow**.
-4. После успешного run: **Settings → Pages → Custom domain** → `code.spirzen.ru` (если ещё не подхватился из `public/CNAME`).
-5. DNS у регистратора домена `spirzen.ru`:
-   - тип **CNAME**, имя **`code`**, значение **`spirzen.github.io`** (для org `Spirzen`);
-   - дождаться проверки DNS в GitHub (обычно до часа).
-6. Включите **Enforce HTTPS**, когда сертификат выпустится.
+1. Репозиторий: [github.com/Spirzen/it-code-examples](https://github.com/Spirzen/it-code-examples).
+2. **Settings → Pages → Source:** GitHub Actions.
+3. Push в `main` / `master` → [`.github/workflows/deploy.yml`](.github/workflows/deploy.yml).
+4. Custom domain: `code.spirzen.ru` (CNAME в `public/CNAME`).
 
-Переменные сборки в workflow:
+Переменные сборки:
 
 ```bash
 IT_CODE_EXAMPLES_SITE=https://code.spirzen.ru
 IT_CODE_EXAMPLES_BASE=/
 ```
 
-Проверка: [https://code.spirzen.ru/](https://code.spirzen.ru/) и embed [https://code.spirzen.ru/e/embed/python/hello-world/](https://code.spirzen.ru/e/embed/python/hello-world/).
-
 ### Альтернатива: `deploy.bat`
 
-Локальная сборка и force-push ветки `gh-pages` (как у старого сценария Docusaurus). Используйте **только если** в Pages выбран источник **Deploy from branch → gh-pages**, а не GitHub Actions.
-
-Для project pages (`user.github.io/repo-name`): `IT_CODE_EXAMPLES_BASE=/it-code-examples/`.
+Локальная сборка и push в `gh-pages` — только если Pages настроен на ветку `gh-pages`, не Actions.
 
 ---
 
@@ -177,11 +209,10 @@ IT_CODE_EXAMPLES_BASE=/
 | Часть | Лицензия |
 |-------|----------|
 | Код сайта (Astro, скрипты, стили) | [MIT](LICENSE) |
-| Тексты в `meta.json` и примеры кода | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) (как у [Вселенной IT](https://spirzen.ru/about/license)) |
+| Тексты в `meta.json` и примеры кода | [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) |
 
 ---
 
 ## Контакт
 
-**Тагиров Тимур Владиславович** — автор и методист.  
-[Об авторе](https://spirzen.ru/about/author) на сайте энциклопедии.
+**Тагиров Тимур Владиславович** — [об авторе](https://spirzen.ru/about/author).
