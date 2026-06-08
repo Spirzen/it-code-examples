@@ -1,0 +1,16 @@
+<Grid Margin="12">
+  <Grid.RowDefinitions>
+    <RowDefinition Height="Auto"/>
+    <RowDefinition Height="*"/>
+  </Grid.RowDefinitions>
+</Grid>
+
+<StackPanel Orientation="Vertical" Margin="12" Spacing="8">
+  <!-- дочерние элементы -->
+</StackPanel>
+
+<DockPanel LastChildFill="True">
+  <Menu DockPanel.Dock="Top"/>
+  <StatusBar DockPanel.Dock="Bottom"/>
+  <Grid><!-- центр --></Grid>
+</DockPanel>

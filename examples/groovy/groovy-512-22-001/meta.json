@@ -1,0 +1,14 @@
+{
+  "title": "Jenkins Pipeline — первый Jenkinsfile — Минимальный Jenkinsfile",
+  "description": "Фрагмент из «Jenkins Pipeline — первый Jenkinsfile»: Минимальный Jenkinsfile.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 1,
+  "series": "groovy-512-22",
+  "seriesOrder": 1,
+  "seriesTitle": "Jenkins Pipeline — первый Jenkinsfile",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/22"
+}

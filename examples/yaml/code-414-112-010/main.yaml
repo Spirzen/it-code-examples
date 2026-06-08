@@ -1,0 +1,26 @@
+# Prometheus-метрики для отслеживания состояния пулов
+# application_metrics.yaml
+metrics:
+  - name: app_memory_heap_used_bytes
+    type: gauge
+    help: Текущий размер используемой кучи
+    
+  - name: app_threadpool_active_threads
+    type: gauge
+    help: Количество активных потоков в пуле
+    
+  - name: app_threadpool_queue_size
+    type: gauge
+    help: Размер очереди ожидающих задач
+    
+  - name: app_db_connections_active
+    type: gauge
+    help: Количество занятых соединений с БД
+    
+  - name: app_db_connections_idle
+    type: gauge
+    help: Количество свободных соединений в пуле
+    
+  - name: app_gc_pause_seconds
+    type: histogram
+    help: Распределение длительности пауз сборщика мусора

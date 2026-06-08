@@ -1,0 +1,14 @@
+{
+  "title": "Паттерны в TypeScript — Factory по интерфейсу",
+  "description": "Фрагмент из «Паттерны в TypeScript»: Factory по интерфейсу.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "28"
+  ],
+  "order": 2,
+  "series": "typescript-510-28",
+  "seriesOrder": 2,
+  "seriesTitle": "Паттерны в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/28"
+}

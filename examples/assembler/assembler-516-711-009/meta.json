@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по ассемблеру — Пример 1 — Рекурсивный факториал (чистый системный вызов)",
+  "description": "Фрагмент из «Справочник по ассемблеру»: Пример 1 — Рекурсивный факториал (чистый системный вызов).",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "711"
+  ],
+  "order": 9,
+  "series": "assembler-516-711",
+  "seriesOrder": 9,
+  "seriesTitle": "Справочник по ассемблеру",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/711"
+}

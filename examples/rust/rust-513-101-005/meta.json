@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Rust — Мокирование зависимостей",
+  "description": "Фрагмент из «Рекомендации по разработке на Rust»: Мокирование зависимостей.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 5,
+  "series": "rust-513-101",
+  "seriesOrder": 5,
+  "seriesTitle": "Рекомендации по разработке на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/101"
+}

@@ -1,0 +1,23 @@
+services:
+  api:
+    build: .
+    environment:
+      DATABASE_URL: postgres://app:${DB_PASSWORD}@db:5432/appdb
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: postgres:16-alpine
+    # …
+
+  pgbouncer:
+    image: edoburu/pgbouncer
+    environment:
+      DATABASE_URL: postgres://app:${DB_PASSWORD}@db:5432/appdb
+      POOL_MODE: transaction
+    ports:
+      - "6432:5432"
+    depends_on:
+      db:
+        condition: service_healthy

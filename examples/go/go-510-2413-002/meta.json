@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Echo — Handlers",
+  "description": "Фрагмент из «Первая программа на Echo»: Handlers.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2413"
+  ],
+  "order": 2,
+  "series": "go-510-2413",
+  "seriesOrder": 2,
+  "seriesTitle": "Первая программа на Echo",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2413"
+}

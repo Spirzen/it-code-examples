@@ -1,0 +1,15 @@
+{
+  "title": "Управление потоками в многозадачных системах — C# (.NET)",
+  "description": "Фрагмент из «Управление потоками в многозадачных системах»: C# (.NET).",
+  "tags": [
+    "async",
+    "concurrency",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 4,
+  "series": "code-405-11",
+  "seriesOrder": 4,
+  "seriesTitle": "Управление потоками в многозадачных системах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/11"
+}

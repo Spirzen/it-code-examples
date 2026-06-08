@@ -1,0 +1,24 @@
+<svg width="400" height="400" viewBox="0 0 400 400">
+  <g transform="translate(200 360)" stroke="#78350f" stroke-width="2" fill="none" id="tree"></g>
+  <script>
+    const NS = 'http://www.w3.org/2000/svg';
+    const g = document.getElementById('tree');
+
+    function branch(x1, y1, len, angle, depth) {
+      if (depth <= 0 || len < 4) return;
+      const rad = (angle * Math.PI) / 180;
+      const x2 = x1 + len * Math.sin(rad);
+      const y2 = y1 - len * Math.cos(rad);
+      const line = document.createElementNS(NS, 'line');
+      line.setAttribute('x1', x1);
+      line.setAttribute('y1', y1);
+      line.setAttribute('x2', x2);
+      line.setAttribute('y2', y2);
+      g.appendChild(line);
+      branch(x2, y2, len * 0.72, angle - 28, depth - 1);
+      branch(x2, y2, len * 0.72, angle + 28, depth - 1);
+    }
+
+    branch(0, 0, 90, 0, 8);
+  </script>
+</svg>

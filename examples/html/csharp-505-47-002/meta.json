@@ -1,0 +1,14 @@
+{
+  "title": "Пример реализации бэкенда на C# — 4.1. Через JavaScript (SPA или статический HTML)",
+  "description": "Фрагмент из «Пример реализации бэкенда на C#»: 4.1. Через JavaScript (SPA или статический HTML).",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "47"
+  ],
+  "order": 2,
+  "series": "csharp-505-47",
+  "seriesOrder": 2,
+  "seriesTitle": "Пример реализации бэкенда на C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/47"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Java — 3. Spring Data JPA",
+  "description": "Фрагмент из «Работа с базами данных из Java»: 3. Spring Data JPA.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 18,
+  "series": "java-503-22",
+  "seriesOrder": 18,
+  "seriesTitle": "Работа с базами данных из Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/22"
+}

@@ -1,0 +1,25 @@
+<div class="card">
+  <div class="card__skeleton card__title"></div>
+  <div class="card__skeleton card__description"></div>
+</div>
+<style>
+.card {
+  width: 18rem;
+  padding: 1rem;
+  border-radius: 0.8rem;
+  background: #fff;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+}
+.card__skeleton {
+  border-radius: 6px;
+  background: linear-gradient(90deg, #e9ecef 0, #f8f9fa 45%, #e9ecef 90%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s ease-in-out infinite;
+}
+.card__title { height: 14px; margin-bottom: 12px; width: 75%; }
+.card__description { height: 80px; }
+@keyframes shimmer { to { background-position: -200% 0; } }
+@media (prefers-reduced-motion: reduce) {
+  .card__skeleton { animation: none; background: #e9ecef; }
+}
+</style>

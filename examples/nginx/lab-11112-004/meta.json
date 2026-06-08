@@ -1,0 +1,13 @@
+{
+  "title": "Nginx — конфиги под задачу — 6. Два сайта на одном IP",
+  "description": "Фрагмент из «Nginx — конфиги под задачу»: 6. Два сайта на одном IP.",
+  "tags": [
+    "lab",
+    "11112"
+  ],
+  "order": 4,
+  "series": "lab-11112",
+  "seriesOrder": 4,
+  "seriesTitle": "Nginx — конфиги под задачу",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11112"
+}

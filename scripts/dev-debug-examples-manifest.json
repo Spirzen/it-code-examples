@@ -1,0 +1,347 @@
+{
+  "generatedAt": "2026-06-07T19:42:41.944Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-14-razrabotka-i-otladka",
+  "articles": {
+    "111": [
+      {
+        "article": "111",
+        "slug": "html/code-414-111-001",
+        "title": "Подготовка",
+        "section": "подготовка",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "111",
+        "slug": "csharp/code-414-111-002",
+        "title": "Подготовка проекта",
+        "section": "подготовка-проекта",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "112": [
+      {
+        "article": "112",
+        "slug": "python/code-414-112-001",
+        "title": "Безопасные паттерны",
+        "section": "безопасные-паттерны",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-414-112-002",
+        "title": "Последствия исчерпания",
+        "section": "последствия-исчерпания",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-414-112-003",
+        "title": "Стратегии предотвращения",
+        "section": "стратегии-предотвращения",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "112",
+        "slug": "java/code-414-112-004",
+        "title": "Причины высокой нагрузки",
+        "section": "причины-высокой-нагрузки",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-414-112-005",
+        "title": "Гарантированное освобождение",
+        "section": "гарантированное-освобождение",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "112",
+        "slug": "python/code-414-112-006",
+        "title": "Гарантированное освобождение",
+        "section": "гарантированное-освобождение",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "112",
+        "slug": "java/code-414-112-007",
+        "title": "Механизмы защиты",
+        "section": "механизмы-защиты",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "112",
+        "slug": "bash/code-414-112-008",
+        "title": "Мониторинг свободного места",
+        "section": "мониторинг-свободного-места",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "112",
+        "slug": "python/code-414-112-009",
+        "title": "Защита от зомби",
+        "section": "защита-от-зомби",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "112",
+        "slug": "yaml/code-414-112-010",
+        "title": "Мониторинг в реальном времени",
+        "section": "мониторинг-в-реальном-времени",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "117": [
+      {
+        "article": "117",
+        "slug": "text/code-414-117-001",
+        "title": "Пример — pet-проект новичка",
+        "section": "пример-pet-проект-новичка",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "117",
+        "slug": "text/code-414-117-002",
+        "title": "Пример — монорепозиторий",
+        "section": "пример-монорепозиторий",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "117",
+        "slug": "text/code-414-117-003",
+        "title": "Пример — внутренний корпоративный проект",
+        "section": "пример-внутренний-корпоративный-проект",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "118": [
+      {
+        "article": "118",
+        "slug": "python/code-414-118-001",
+        "title": "Python",
+        "section": "python",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "118",
+        "slug": "javascript/code-414-118-002",
+        "title": "JavaScript",
+        "section": "javascript",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "119": [
+      {
+        "article": "119",
+        "slug": "javascript/code-414-119-001",
+        "title": "Разработка компонентов",
+        "section": "разработка-компонентов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "119",
+        "slug": "javascript/code-414-119-002",
+        "title": "Разработка компонентов",
+        "section": "разработка-компонентов",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "119",
+        "slug": "html/code-414-119-003",
+        "title": "Разработка компонентов",
+        "section": "разработка-компонентов",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "1111": [
+      {
+        "article": "1111",
+        "slug": "python/code-414-1111-001",
+        "title": "Python (`logging` + `structlog`)",
+        "section": "python-logging-structlog",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1111",
+        "slug": "csharp/code-414-1111-002",
+        "title": "C# (.NET, `ILogger` + Serilog)",
+        "section": "c-net-ilogger-serilog",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "1112": [
+      {
+        "article": "1112",
+        "slug": "bash/code-414-1112-001",
+        "title": "Проверка проектов на наличие опасных файлов",
+        "section": "проверка-проектов-на-наличие-опасных-файлов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1112",
+        "slug": "python/code-414-1112-002",
+        "title": "Лучшие практики работы с секретами",
+        "section": "лучшие-практики-работы-с-секретами",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1112",
+        "slug": "yaml/code-414-1112-003",
+        "title": "Автоматизация безопасности",
+        "section": "автоматизация-безопасности",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1112",
+        "slug": "text/code-414-1112-004",
+        "title": "Структура .env файла",
+        "section": "структура-env-файла",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "1112",
+        "slug": "python/code-414-1112-005",
+        "title": "✅ Безопасные практики",
+        "section": "безопасные-практики",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "1112",
+        "slug": "python/code-414-1112-006",
+        "title": "Конфигурация для тестирования",
+        "section": "конфигурация-для-тестирования",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1112",
+        "slug": "yaml/code-414-1112-007",
+        "title": "Дополнительные меры защиты",
+        "section": "дополнительные-меры-защиты",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "1113": [
+      {
+        "article": "1113",
+        "slug": "python/code-414-1113-001",
+        "title": "Генерация тестовых сценариев",
+        "section": "генерация-тестовых-сценариев",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1113",
+        "slug": "bash/code-414-1113-002",
+        "title": "Claude Code",
+        "section": "claude-code",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1113",
+        "slug": "text/code-414-1113-003",
+        "title": "Файл CLAUDE.md",
+        "section": "файл-claude-md",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "1113",
+        "slug": "json/code-414-1113-004",
+        "title": "MCP-серверы",
+        "section": "mcp-серверы",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1113",
+        "slug": "python/code-414-1113-005",
+        "title": "Качество кода и скрытые дефекты",
+        "section": "качество-кода-и-скрытые-дефекты",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1113",
+        "slug": "python/code-414-1113-006",
+        "title": "Уязвимости безопасности в сгенерированном коде",
+        "section": "уязвимости-безопасности-в-сгенерированном-коде",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1113",
+        "slug": "python/code-414-1113-007",
+        "title": "Архитектурные последствия",
+        "section": "архитектурные-последствия",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "1114": [
+      {
+        "article": "1114",
+        "slug": "html/code-414-1114-001",
+        "title": "Структурные оплошности HTML",
+        "section": "структурные-оплошности-html",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/code-414-1114-002",
+        "title": "Заблуждения в JavaScript",
+        "section": "заблуждения-в-javascript",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1114",
+        "slug": "typescript/code-414-1114-003",
+        "title": "Валидация и хранение",
+        "section": "валидация-и-хранение",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "1131": [
+      {
+        "article": "1131",
+        "slug": "json/code-414-1131-001",
+        "title": "Подготовка к публикации",
+        "section": "подготовка-к-публикации",
+        "blocks": 1,
+        "lines": 22
+      }
+    ]
+  }
+}

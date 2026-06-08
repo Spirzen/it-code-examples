@@ -1,0 +1,14 @@
+{
+  "title": "Практикум WPF — основы MVVM — View — только привязки",
+  "description": "Фрагмент из «Практикум WPF — основы MVVM»: View — только привязки.",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "wpf-praktikum-2"
+  ],
+  "order": 6,
+  "series": "code-411-wpf-praktikum-2",
+  "seriesOrder": 6,
+  "seriesTitle": "Практикум WPF — основы MVVM",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/wpf-praktikum/2"
+}

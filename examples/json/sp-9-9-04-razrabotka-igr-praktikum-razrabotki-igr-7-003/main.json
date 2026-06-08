@@ -1,0 +1,31 @@
+[
+  {
+    "id": "strike",
+    "name": "Удар",
+    "type": "attack",
+    "cost": 1,
+    "value": 6,
+    "description": "Наносит урон одной цели.",
+    "rarity": "basic"
+  },
+  {
+    "id": "defend",
+    "name": "Защита",
+    "type": "block",
+    "cost": 1,
+    "value": 5,
+    "description": "Даёт броню до конца хода.",
+    "rarity": "basic"
+  },
+  {
+    "id": "bash",
+    "name": "Сокрушение",
+    "type": "attack",
+    "cost": 2,
+    "value": 8,
+    "description": "Сильный удар.",
+    "rarity": "common",
+    "effect": "vulnerable",
+    "effect_value": 2
+  }
+]

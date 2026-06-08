@@ -1,0 +1,14 @@
+{
+  "title": "JVM в проде — jcmd, дамп памяти и JFR — Пример — учебная утечка",
+  "description": "Фрагмент из «JVM в проде — jcmd, дамп памяти и JFR»: Пример — учебная утечка.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "302"
+  ],
+  "order": 1,
+  "series": "java-503-302",
+  "seriesOrder": 1,
+  "seriesTitle": "JVM в проде — jcmd, дамп памяти и JFR",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/302"
+}

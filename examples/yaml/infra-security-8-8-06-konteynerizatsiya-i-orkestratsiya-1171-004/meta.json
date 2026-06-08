@@ -1,0 +1,14 @@
+{
+  "title": "Реализация Kubernetes — Автомасштабирование",
+  "description": "Фрагмент из «Реализация Kubernetes»: Автомасштабирование.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-1171"
+  ],
+  "order": 4,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171",
+  "seriesOrder": 4,
+  "seriesTitle": "Реализация Kubernetes",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/1171"
+}

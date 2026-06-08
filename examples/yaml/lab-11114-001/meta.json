@@ -1,0 +1,13 @@
+{
+  "title": "Prometheus + Grafana — запросы — 6.1. Диск заполнен более чем на 90%",
+  "description": "Фрагмент из «Prometheus + Grafana — запросы»: 6.1. Диск заполнен более чем на 90%.",
+  "tags": [
+    "lab",
+    "11114"
+  ],
+  "order": 1,
+  "series": "lab-11114",
+  "seriesOrder": 1,
+  "seriesTitle": "Prometheus + Grafana — запросы",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11114"
+}

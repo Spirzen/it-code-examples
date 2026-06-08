@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Тарифы</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; padding: 1.5rem; font-family: system-ui, sans-serif; background: #f8fafc; }
+    h1 { text-align: center; }
+    .plans {
+      display: grid;
+      gap: 1rem;
+      max-width: 52rem;
+      margin: 0 auto;
+      grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+    }
+    .plan {
+      background: #fff;
+      border: 1px solid #e2e8f0;
+      border-radius: 12px;
+      padding: 1.25rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+    }
+    .plan.featured {
+      border-color: #4361ee;
+      box-shadow: 0 12px 28px rgba(67, 97, 238, 0.2);
+      transform: scale(1.02);
+    }
+    .price { font-size: 1.75rem; font-weight: 700; }
+    ul { margin: 0; padding-left: 1.1rem; flex: 1; font-size: 0.95rem; color: #444; }
+    button {
+      padding: 0.55rem;
+      border: none;
+      border-radius: 8px;
+      background: #4361ee;
+      color: #fff;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Тарифы</h1>
+  <div class="plans">
+    <div class="plan">
+      <h2>Базовый</h2>
+      <div class="price">₽0</div>
+      <ul><li>1 проект</li><li>Поддержка по email</li></ul>
+      <button type="button">Выбрать</button>
+    </div>
+    <div class="plan featured">
+      <h2>Про</h2>
+      <div class="price">₽990</div>
+      <ul><li>10 проектов</li><li>Приоритетная поддержка</li></ul>
+      <button type="button">Выбрать</button>
+    </div>
+    <div class="plan">
+      <h2>Команда</h2>
+      <div class="price">₽2990</div>
+      <ul><li>Без лимита</li><li>SSO</li></ul>
+      <button type="button">Связаться</button>
+    </div>
+  </div>
+</body>
+</html>

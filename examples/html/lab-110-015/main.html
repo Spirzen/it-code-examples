@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mobile-first</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; }
+    .menu { display: flex; flex-direction: column; gap: 0.5rem; padding: 1rem; background: #f1f5f9; }
+    .content { padding: 1rem; }
+    @media (min-width: 48rem) {
+      body { display: grid; grid-template-columns: 14rem 1fr; }
+      .menu { min-height: 100dvh; }
+    }
+  </style>
+</head>
+<body>
+  <nav class="menu">
+    <a href="#">Главная</a>
+    <a href="#">Проекты</a>
+    <a href="#">Настройки</a>
+  </nav>
+  <div class="content">
+    <h1>Mobile-first</h1>
+    <p>Базовые стили для телефона. От 768px — меню слева на всю высоту.</p>
+  </div>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Цветок SVG + JS</title>
+  <style>
+    body { margin: 0; display: grid; place-items: center; min-height: 100dvh; background: #fdf2f8; }
+  </style>
+</head>
+<body>
+  <svg width="260" height="260" viewBox="0 0 260 260">
+    <g transform="translate(130 130)" id="flower"></g>
+  </svg>
+  <script>
+    const g = document.getElementById('flower');
+    const petals = 6;
+    const orbit = 50;
+    const petalR = 22;
+
+    for (let i = 0; i < petals; i++) {
+      const deg = i * (360 / petals);
+      const rad = (deg * Math.PI) / 180;
+      const cx = orbit * Math.cos(rad);
+      const cy = orbit * Math.sin(rad);
+
+      const c = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      c.setAttribute('cx', cx);
+      c.setAttribute('cy', cy);
+      c.setAttribute('r', petalR);
+      c.setAttribute('fill', '#f472b6');
+      g.appendChild(c);
+    }
+
+    const center = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+    center.setAttribute('r', 18);
+    center.setAttribute('fill', '#facc15');
+    g.appendChild(center);
+  </script>
+</body>
+</html>

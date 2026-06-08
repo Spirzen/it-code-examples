@@ -1,0 +1,14 @@
+{
+  "title": "SignalR - реализация реального времени в .NET — Шаг 4. Хаб чата",
+  "description": "Фрагмент из «SignalR - реализация реального времени в .NET»: Шаг 4. Хаб чата.",
+  "tags": [
+    "dotnet",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 7,
+  "series": "dotnet-504-2",
+  "seriesOrder": 7,
+  "seriesTitle": "SignalR - реализация реального времени в .NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-04-platforma-dotnet/2"
+}

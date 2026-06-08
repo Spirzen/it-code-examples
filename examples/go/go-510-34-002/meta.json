@@ -1,0 +1,14 @@
+{
+  "title": "WebSocket в Go — Hub — рассылка нескольким клиентам",
+  "description": "Фрагмент из «WebSocket в Go»: Hub — рассылка нескольким клиентам.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "34"
+  ],
+  "order": 2,
+  "series": "go-510-34",
+  "seriesOrder": 2,
+  "seriesTitle": "WebSocket в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/34"
+}

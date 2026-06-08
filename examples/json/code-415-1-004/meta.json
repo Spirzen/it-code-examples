@@ -1,0 +1,14 @@
+{
+  "title": "Автоматическое управление памятью — runtimeconfig.json: Server GC",
+  "description": "Включение Server GC через runtimeconfig.json в .NET.",
+  "tags": [
+    "garbage-collection",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 4,
+  "series": "code-415-1",
+  "seriesOrder": 4,
+  "seriesTitle": "Автоматическое управление памятью",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-15-sborka-musora/1"
+}

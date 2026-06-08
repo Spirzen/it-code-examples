@@ -1,0 +1,13 @@
+{
+  "title": "GitHub Actions — CI/CD рецепты — 1. Matrix — Node 18 и 20 параллельно",
+  "description": "Фрагмент из «GitHub Actions — CI/CD рецепты»: 1. Matrix — Node 18 и 20 параллельно.",
+  "tags": [
+    "lab",
+    "1134"
+  ],
+  "order": 5,
+  "series": "lab-1134",
+  "seriesOrder": 5,
+  "seriesTitle": "GitHub Actions — CI/CD рецепты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1134"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "ORM на практике — Интеграция ORM с микросервисной архитектурой",
+  "description": "Фрагмент из «ORM на практике»: Интеграция ORM с микросервисной архитектурой.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "118"
+  ],
+  "order": 11,
+  "series": "code-410-118",
+  "seriesOrder": 11,
+  "seriesTitle": "ORM на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/118"
+}

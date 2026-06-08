@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Memcached — Мониторинг Memcached — ключевые метрики и alert-условия",
+  "description": "Фрагмент из «Справочник по Memcached»: Мониторинг Memcached — ключевые метрики и alert-условия.",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "81"
+  ],
+  "order": 2,
+  "series": "nosql-81",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по Memcached",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/81"
+}

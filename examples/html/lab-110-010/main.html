@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Дашборд</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: grid;
+      grid-template-columns: 14rem 1fr;
+      font-family: system-ui, sans-serif;
+    }
+    aside {
+      padding: 1rem;
+      background: #1e293b;
+      color: #e2e8f0;
+    }
+    aside a { display: block; color: #94a3b8; text-decoration: none; padding: 0.4rem 0; }
+    aside a:hover { color: #fff; }
+    .workspace { display: flex; flex-direction: column; min-width: 0; }
+    .bar {
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid #e2e8f0;
+      font-weight: 600;
+    }
+    .tiles {
+      flex: 1;
+      padding: 1rem;
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      align-content: start;
+    }
+    .tile {
+      padding: 1rem;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 8px;
+    }
+    @media (max-width: 40rem) {
+      body { grid-template-columns: 1fr; }
+      aside { display: flex; gap: 1rem; flex-wrap: wrap; }
+    }
+  </style>
+</head>
+<body>
+  <aside>
+    <strong style="display:block;margin-bottom:0.75rem">Admin</strong>
+    <a href="#">Обзор</a>
+    <a href="#">Пользователи</a>
+    <a href="#">Отчёты</a>
+  </aside>
+  <div class="workspace">
+    <div class="bar">Главная</div>
+    <div class="tiles">
+      <div class="tile">Посетители<br /><strong>1 240</strong></div>
+      <div class="tile">Заказы<br /><strong>86</strong></div>
+      <div class="tile">Выручка<br /><strong>₽ 42k</strong></div>
+    </div>
+  </div>
+</body>
+</html>

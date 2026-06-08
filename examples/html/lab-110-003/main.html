@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Страница-столбец</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: flex;
+      flex-direction: column;
+      font-family: system-ui, sans-serif;
+    }
+    header, footer {
+      padding: 1rem 1.25rem;
+      background: #1e1e2e;
+      color: #cdd6f4;
+    }
+    main {
+      flex: 1;
+      padding: 1.25rem;
+      max-width: 48rem;
+      margin: 0 auto;
+      width: 100%;
+    }
+    nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+    nav a { color: #89b4fa; text-decoration: none; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Мой сайт</strong>
+    <nav>
+      <a href="#">Главная</a>
+      <a href="#">О проекте</a>
+      <a href="#">Контакты</a>
+    </nav>
+  </header>
+  <main>
+    <h1>Контент</h1>
+    <p>Мало текста — подвал всё равно внизу.</p>
+  </main>
+  <footer>© 2026</footer>
+</body>
+</html>

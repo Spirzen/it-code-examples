@@ -1,0 +1,14 @@
+{
+  "title": "Объектно-ориентированные концепции в Rust — Моделирование поведения через трейты",
+  "description": "Фрагмент из «Объектно-ориентированные концепции в Rust»: Моделирование поведения через трейты.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "141"
+  ],
+  "order": 6,
+  "series": "rust-513-141",
+  "seriesOrder": 6,
+  "seriesTitle": "Объектно-ориентированные концепции в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

@@ -1,0 +1,15 @@
+.form-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.form-row label {
+  inline-size: 8rem;
+  text-align: end;
+  margin-inline-end: 0.5rem;
+}
+
+[dir="rtl"] .form-row label {
+  text-align: start;
+}

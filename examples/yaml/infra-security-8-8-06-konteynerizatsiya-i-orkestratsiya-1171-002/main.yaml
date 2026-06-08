@@ -1,0 +1,29 @@
+# values.yaml
+replicaCount: 2
+image:
+  repository: myregistry/java-backend
+  tag: v1.2.0
+  pullPolicy: IfNotPresent
+resources:
+  requests:
+    cpu: 500m
+    memory: 1Gi
+  limits:
+    cpu: 2
+    memory: 4Gi
+service:
+  type: ClusterIP
+  port: 8080
+ingress:
+  enabled: true
+  hosts:
+    - host: backend.mycompany.com
+      paths:
+        - path: /
+          pathType: Prefix
+config:
+  databaseUrl: jdbc:postgresql://postgres.default.svc:5432/app
+  redisHost: redis-master.default.svc
+rabbitmq:
+  queueName: tasks
+  connectionTimeout: 30

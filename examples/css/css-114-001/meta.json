@@ -1,0 +1,14 @@
+{
+  "title": "Селекторы :is, :where и :has — `:has()` — родитель по потомку",
+  "description": "Фрагмент из «Селекторы :is, :where и :has»: `:has()` — родитель по потомку.",
+  "tags": [
+    "css",
+    "encyclopedia",
+    "114"
+  ],
+  "order": 1,
+  "series": "css-114",
+  "seriesOrder": 1,
+  "seriesTitle": "Селекторы :is, :where и :has",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-10-css/114"
+}

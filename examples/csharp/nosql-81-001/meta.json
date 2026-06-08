@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Memcached — Типичная интеграция в приложение (на примере C#)",
+  "description": "Фрагмент из «Справочник по Memcached»: Типичная интеграция в приложение (на примере C#).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "81"
+  ],
+  "order": 1,
+  "series": "nosql-81",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Memcached",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/81"
+}

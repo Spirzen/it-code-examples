@@ -1,0 +1,57 @@
+# Terraform — единый источник истины для всех сред
+variable "environment" {
+  type = string
+}
+
+locals {
+  # Общие параметры для всех сред
+  common_settings = {
+    log_level         = "info"
+    max_connections   = 100
+    request_timeout   = 30
+    cache_ttl_seconds = 300
+  }
+  
+  # Специфичные для среды параметры
+  environment_settings = {
+    dev = {
+      instance_count  = 1
+      instance_type   = "t3.small"
+      log_level       = "debug"
+      cache_ttl       = 60
+    }
+    
+    staging = {
+      instance_count  = 2
+      instance_type   = "t3.medium"
+      log_level       = "info"
+      cache_ttl       = 300
+    }
+    
+    production = {
+      instance_count  = 6
+      instance_type   = "t3.large"
+      log_level       = "warn"
+      cache_ttl       = 600
+    }
+  }
+  
+  # Итоговая конфигурация
+  final_settings = merge(
+    local.common_settings,
+    local.environment_settings[var.environment]
+  )
+}
+
+resource "aws_instance" "app" {
+  count         = local.final_settings.instance_count
+  instance_type = local.final_settings.instance_type
+  
+  user_data = templatefile("${path.module}/startup.sh.tpl", {
+    log_level    = local.final_settings.log_level
+    max_conns    = local.final_settings.max_connections
+    cache_ttl    = local.final_settings.cache_ttl
+    db_host      = aws_db_instance.app.address
+    redis_host   = aws_elasticache_cluster.app.cache_nodes[0].address
+  })
+}

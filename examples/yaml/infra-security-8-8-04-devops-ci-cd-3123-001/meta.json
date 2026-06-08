@@ -1,0 +1,14 @@
+{
+  "title": "E2E-тесты и CI с Playwright и GitHub Actions — GitHub Actions — workflow для E2E",
+  "description": "Фрагмент из «E2E-тесты и CI с Playwright и GitHub Actions»: GitHub Actions — workflow для E2E.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3123"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-3123",
+  "seriesOrder": 1,
+  "seriesTitle": "E2E-тесты и CI с Playwright и GitHub Actions",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3123"
+}

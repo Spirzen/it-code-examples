@@ -1,0 +1,25 @@
+
+import io.gatling.core.Predef._
+import io.gatling.http.Predef._
+import scala.concurrent.duration._
+
+class ApiLoadTest extends Simulation {
+
+  // Определение протокола (базовые настройки HTTP)
+  val httpProtocol = http
+    .baseUrl("https://api.example.com")
+    .acceptHeader("application/json")
+
+  // Определение сценария поведения пользователя
+  val scn = scenario("API Load Test").repeat(10) {
+    exec(http("Get Users")
+      .get("/users"))
+    .pause(1.second)
+    .exec(http("Get User Detail")
+      .get("/users/1"))
+  }
+
+  // Настройка нагрузки (Ramp Up, Hold, Ramp Down)
+  setUp(scn.injectOpen(rampUsers(100).during(1.minute)))
+    .protocols(httpProtocol)
+}

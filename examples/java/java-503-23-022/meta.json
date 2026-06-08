@@ -1,0 +1,14 @@
+{
+  "title": "JVM, память и потоки — Синхронизация",
+  "description": "Фрагмент из «JVM, память и потоки»: Синхронизация.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "23"
+  ],
+  "order": 22,
+  "series": "java-503-23",
+  "seriesOrder": 22,
+  "seriesTitle": "JVM, память и потоки",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/23"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Gradle — практический старт — build.gradle.kts (минимум)",
+  "description": "Фрагмент из «Gradle — практический старт»: build.gradle.kts (минимум).",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "292"
+  ],
+  "order": 1,
+  "series": "java-503-292",
+  "seriesOrder": 1,
+  "seriesTitle": "Gradle — практический старт",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/292"
+}

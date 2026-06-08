@@ -1,0 +1,15 @@
+# Хорошо: алерт на симптом (пользовательский опыт)
+- alert: HighUserFacingErrorRate
+  expr: |
+    sum(rate(http_requests_total{status=~"5..", layer="api_gateway"}[5m]))
+    /
+    sum(rate(http_requests_total{layer="api_gateway"}[5m]))
+    > 0.01
+  for: 5m
+  labels:
+    severity: critical
+    team: platform
+  annotations:
+    summary: "Более 1% пользовательских запросов завершаются ошибкой"
+    runbook: "https://wiki.company.com/runbooks/high-error-rate"
+    dashboard: "https://grafana.company.com/d/errors-overview"

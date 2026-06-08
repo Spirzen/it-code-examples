@@ -1,0 +1,14 @@
+{
+  "title": "Compose Multiplatform — первая программа — Зависимости (`build.gradle.kts`, фрагмент)",
+  "description": "Фрагмент из «Compose Multiplatform — первая программа»: Зависимости (`build.gradle.kts`, фрагмент).",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "224"
+  ],
+  "order": 1,
+  "series": "kotlin-509-224",
+  "seriesOrder": 1,
+  "seriesTitle": "Compose Multiplatform — первая программа",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/224"
+}

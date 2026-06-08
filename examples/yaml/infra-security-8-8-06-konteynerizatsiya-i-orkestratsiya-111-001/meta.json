@@ -1,0 +1,14 @@
+{
+  "title": "Docker — Docker Compose",
+  "description": "Фрагмент из «Docker»: Docker Compose.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-111"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-111",
+  "seriesOrder": 1,
+  "seriesTitle": "Docker",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/111"
+}

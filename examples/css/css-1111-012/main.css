@@ -1,0 +1,25 @@
+/* Цветовая схема */
+:root {
+  --color-text-main: #212121;
+  --color-text-muted: #757575;
+  --color-accent: #2196F3;
+  --color-background: #FAFAFA;
+}
+
+/* Размеры */
+:root {
+  --size-xs: 4px;
+  --size-sm: 8px;
+  --size-md: 16px;
+  --size-lg: 32px;
+  --size-xl: 64px;
+}
+
+/* Шрифты */
+:root {
+  --font-stack-sans: system-ui, -apple-system, sans-serif;
+  --font-stack-mono: SFMono-Regular, Consolas, monospace;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+}

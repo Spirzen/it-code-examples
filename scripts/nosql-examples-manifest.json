@@ -1,0 +1,321 @@
+{
+  "generatedAt": "2026-06-07T15:10:42.240Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/3-data-markup/3-06-nosql",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "text/nosql-2-001",
+        "title": "2. Ключ‑значение (Key‑Value Stores)",
+        "section": "2-ключ-значение-key-value-stores",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "2",
+        "slug": "text/nosql-2-002",
+        "title": "3. Колоночные (Wide‑Column Stores)",
+        "section": "3-колоночные-wide-column-stores",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "sql/nosql-3-001",
+        "title": "CQL (Apache Cassandra)",
+        "section": "cql-apache-cassandra",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "4": [
+      {
+        "article": "4",
+        "slug": "javascript/nosql-4-001",
+        "title": "GridFS",
+        "section": "gridfs",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "5": [
+      {
+        "article": "5",
+        "slug": "lua/nosql-5-001",
+        "title": "Lua-скрипты и транзакции",
+        "section": "lua-скрипты-и-транзакции",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "5",
+        "slug": "javascript/nosql-5-002",
+        "title": "Шаг 4. Интеграция в приложение (Node.js, пример кэширования API-ответа)",
+        "section": "шаг-4-интеграция-в-приложение-node-js-пример-кэш",
+        "blocks": 2,
+        "lines": 73
+      },
+      {
+        "article": "5",
+        "slug": "bash/nosql-5-003",
+        "title": "Автоматизированный мониторинг",
+        "section": "автоматизированный-мониторинг",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "8": [
+      {
+        "article": "8",
+        "slug": "python/nosql-8-001",
+        "title": "Общая схема — cache-aside по шагам",
+        "section": "общая-схема-cache-aside-по-шагам",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8",
+        "slug": "csharp/nosql-8-002",
+        "title": "C# (.NET 6+, EnyimMemcachedCore)",
+        "section": "c-net-6-enyimmemcachedcore",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "8",
+        "slug": "python/nosql-8-003",
+        "title": "Python (pymemcache, с поддержкой кластера)",
+        "section": "python-pymemcache-с-поддержкой-кластера",
+        "blocks": 2,
+        "lines": 63
+      },
+      {
+        "article": "8",
+        "slug": "typescript/nosql-8-004",
+        "title": "TypeScript/JavaScript (Node.js, memjs)",
+        "section": "typescript-javascript-node-js-memjs",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "41": [
+      {
+        "article": "41",
+        "slug": "javascript/nosql-41-001",
+        "title": "`updateMany(filter, update, options?)`",
+        "section": "updatemany-filter-update-options",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "41",
+        "slug": "javascript/nosql-41-002",
+        "title": "Примеры",
+        "section": "примеры",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "41",
+        "slug": "javascript/nosql-41-003",
+        "title": "Управление индексами",
+        "section": "управление-индексами",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "41",
+        "slug": "javascript/nosql-41-004",
+        "title": "8.1. Стадии Pipeline (в алфавитном порядке)",
+        "section": "8-1-стадии-pipeline-в-алфавитном-порядке",
+        "blocks": 3,
+        "lines": 62
+      },
+      {
+        "article": "41",
+        "slug": "javascript/nosql-41-005",
+        "title": "Работа с транзакциями (в shell / драйверах)",
+        "section": "работа-с-транзакциями-в-shell-драйверах",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "41",
+        "slug": "yaml/nosql-41-006",
+        "title": "13. Настройка сервера (`mongod.conf`)",
+        "section": "13-настройка-сервера-mongod-conf",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "41",
+        "slug": "python/nosql-41-007",
+        "title": "18.1. Из другой СУБД (PostgreSQL → MongoDB)",
+        "section": "18-1-из-другой-субд-postgresql-mongodb",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "41",
+        "slug": "javascript/nosql-41-008",
+        "title": "18.2. Миграция внутри MongoDB (изменение структуры)",
+        "section": "18-2-миграция-внутри-mongodb-изменение-структуры",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "61": [
+      {
+        "article": "61",
+        "slug": "sql/nosql-61-001",
+        "title": "1. Time-Series (логи, метрики, IoT)",
+        "section": "1-time-series-логи-метрики-iot",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "71": [
+      {
+        "article": "71",
+        "slug": "javascript/nosql-71-001",
+        "title": "13.3 Выявление сообществ (Community Detection через Label Propagation — упрощённо)",
+        "section": "13-3-выявление-сообществ-community-detection-чер",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "81": [
+      {
+        "article": "81",
+        "slug": "csharp/nosql-81-001",
+        "title": "Типичная интеграция в приложение (на примере C#)",
+        "section": "типичная-интеграция-в-приложение-на-примере-c",
+        "blocks": 2,
+        "lines": 53
+      },
+      {
+        "article": "81",
+        "slug": "yaml/nosql-81-002",
+        "title": "Мониторинг Memcached — ключевые метрики и alert-условия",
+        "section": "мониторинг-memcached-ключевые-метрики-и-alert-ус",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "411": [
+      {
+        "article": "411",
+        "slug": "javascript/nosql-411-001",
+        "title": "Порядок — валидатор, затем данные",
+        "section": "порядок-валидатор-затем-данные",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "411",
+        "slug": "javascript/nosql-411-002",
+        "title": "Вставка нескольких документов",
+        "section": "вставка-нескольких-документов",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "411",
+        "slug": "javascript/nosql-411-003",
+        "title": "Связи между коллекциями",
+        "section": "связи-между-коллекциями",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "411",
+        "slug": "javascript/nosql-411-004",
+        "title": "Простое представление",
+        "section": "простое-представление",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "411",
+        "slug": "javascript/nosql-411-005",
+        "title": "Процедура с использованием пайплайна агрегации",
+        "section": "процедура-с-использованием-пайплайна-агрегации",
+        "blocks": 1,
+        "lines": 33
+      }
+    ],
+    "611": [
+      {
+        "article": "611",
+        "slug": "sql/nosql-611-001",
+        "title": "Сквозной практикум (15 минут)",
+        "section": "сквозной-практикум-15-минут",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "811": [
+      {
+        "article": "811",
+        "slug": "sql/nosql-811-001",
+        "title": "Мини-практикум — CockroachDB и SQL",
+        "section": "мини-практикум-cockroachdb-и-sql",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "812": [
+      {
+        "article": "812",
+        "slug": "python/nosql-812-001",
+        "title": "Процесс векторизации данных",
+        "section": "процесс-векторизации-данных",
+        "blocks": 2,
+        "lines": 36
+      },
+      {
+        "article": "812",
+        "slug": "python/nosql-812-002",
+        "title": "ChromaDB",
+        "section": "chromadb",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "812",
+        "slug": "python/nosql-812-003",
+        "title": "Pinecone",
+        "section": "pinecone",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "812",
+        "slug": "sql/nosql-812-004",
+        "title": "pgvector",
+        "section": "pgvector",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "812",
+        "slug": "python/nosql-812-005",
+        "title": "Управление метаданными",
+        "section": "управление-метаданными",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "812",
+        "slug": "python/nosql-812-006",
+        "title": "Интеграция с машинным обучением",
+        "section": "интеграция-с-машинным-обучением",
+        "blocks": 1,
+        "lines": 54
+      }
+    ]
+  }
+}

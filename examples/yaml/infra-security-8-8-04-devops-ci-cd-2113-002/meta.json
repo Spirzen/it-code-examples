@@ -1,0 +1,14 @@
+{
+  "title": "GitLab CI — Production-скелет `.gitlab-ci.yml`",
+  "description": "Фрагмент из «GitLab CI»: Production-скелет `.gitlab-ci.yml`.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-2113"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-04-devops-ci-cd-2113",
+  "seriesOrder": 2,
+  "seriesTitle": "GitLab CI",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/2113"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "TypeScript и React — `useReducer` с типизированными actions",
+  "description": "Фрагмент из «TypeScript и React»: `useReducer` с типизированными actions.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 5,
+  "series": "typescript-510-21",
+  "seriesOrder": 5,
+  "seriesTitle": "TypeScript и React",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/21"
+}

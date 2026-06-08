@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка Ruby — Пример — реализация DSL для HTTP-запросов",
+  "description": "Фрагмент из «Основы языка Ruby»: Пример — реализация DSL для HTTP-запросов.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 8,
+  "series": "ruby-511-1",
+  "seriesOrder": 8,
+  "seriesTitle": "Основы языка Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/1"
+}

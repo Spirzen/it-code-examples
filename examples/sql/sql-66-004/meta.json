@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL по JSONB — Дополнительные функции и операторы, которые часто используют",
+  "description": "Фрагмент из «Практикум PostgreSQL по JSONB»: Дополнительные функции и операторы, которые часто используют.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "66"
+  ],
+  "order": 4,
+  "series": "sql-66",
+  "seriesOrder": 4,
+  "seriesTitle": "Практикум PostgreSQL по JSONB",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/66"
+}

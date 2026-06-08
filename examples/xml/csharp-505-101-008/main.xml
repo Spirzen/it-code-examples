@@ -1,0 +1,33 @@
+<System.serviceModel>
+  <services>
+    <service name="MyService" behaviorConfiguration="MyBehavior">
+      <endpoint address="" 
+                binding="basicHttpBinding"
+                contract="IMyService" />
+    </service>
+  </services>
+
+  <bindings>
+    <basicHttpBinding>
+      <binding name="MyBinding" maxReceivedMessageSize="2147483647">
+        <readerQuotas maxDepth="32" />
+      </binding>
+    </basicHttpBinding>
+  </bindings>
+
+  <behaviors>
+    <serviceBehaviors>
+      <behavior name="MyBehavior">
+        <serviceMetadata httpGetEnabled="true" />
+        <serviceDebug includeExceptionDetailInFaults="true" />
+      </behavior>
+    </serviceBehaviors>
+  </behaviors>
+
+  <client>
+    <endpoint address="http://..."
+              binding="wsHttpBinding"
+              contract="IMyService"
+              name="RemoteService" />
+  </client>
+</System.serviceModel>

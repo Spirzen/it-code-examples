@@ -1,0 +1,14 @@
+{
+  "title": "Identity — JWT, cookie и MVC — DTO и контроллер аутентификации",
+  "description": "Фрагмент из «Identity — JWT, cookie и MVC»: DTO и контроллер аутентификации.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "4515"
+  ],
+  "order": 2,
+  "series": "csharp-505-4515",
+  "seriesOrder": 2,
+  "seriesTitle": "Identity — JWT, cookie и MVC",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/4515"
+}

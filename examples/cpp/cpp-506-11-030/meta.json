@@ -1,0 +1,14 @@
+{
+  "title": "Типы данных в C++ — `volatile`",
+  "description": "Фрагмент из «Типы данных в C++»: `volatile`.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 30,
+  "series": "cpp-506-11",
+  "seriesOrder": 30,
+  "seriesTitle": "Типы данных в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/11"
+}

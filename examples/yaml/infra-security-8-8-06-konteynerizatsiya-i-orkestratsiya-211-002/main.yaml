@@ -1,0 +1,18 @@
+spec:
+  podCIDR: <подсеть>
+  taints:
+    - key: dedicated
+      value: gpu
+      effect: NoSchedule
+  unschedulable: true|false
+status:
+  capacity:
+    cpu: "4"
+    memory: "16Gi"
+    pods: "110"
+  allocatable:
+    cpu: "3900m"
+    memory: "15Gi"
+  conditions:
+    - type: Ready
+      status: "True"

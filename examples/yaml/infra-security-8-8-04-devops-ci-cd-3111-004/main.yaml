@@ -1,0 +1,15 @@
+---
+- name: Развёртывание базы данных PostgreSQL
+  hosts: databases
+  become: yes
+  collections:
+    - community.postgresql
+  roles:
+    - geerlingguy.postgresql
+  vars:
+    postgresql_databases:
+      - name: myapp_db
+    postgresql_users:
+      - name: myapp_user
+        password: "{{ vault_db_password }}"
+        priv: "ALL"

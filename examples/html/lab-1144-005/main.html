@@ -1,0 +1,16 @@
+<template id="row-tpl">
+  <tr>
+    <td class="name"></td>
+    <td><button type="button" data-remove>Удалить</button></td>
+  </tr>
+</template>
+<table><tbody id="rows"></tbody></table>
+<script>
+  function addRow(name) {
+    const tpl = document.getElementById('row-tpl');
+    const row = tpl.content.cloneNode(true);
+    row.querySelector('.name').textContent = name;
+    document.getElementById('rows').append(row);
+  }
+  addRow('Анна');
+</script>

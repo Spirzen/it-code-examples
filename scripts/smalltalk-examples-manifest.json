@@ -1,0 +1,307 @@
+{
+  "generatedAt": "2026-06-08T12:07:32.393Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-08-smalltalk",
+  "articles": {
+    "4": [
+      {
+        "article": "4",
+        "slug": "smalltalk/smalltalk-508-4-001",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "4",
+        "slug": "smalltalk/smalltalk-508-4-002",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "5": [
+      {
+        "article": "5",
+        "slug": "smalltalk/smalltalk-508-5-001",
+        "title": "17.2. Реализация стека",
+        "section": "17-2-реализация-стека",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "smalltalk/smalltalk-508-12-001",
+        "title": "1.5 Ход и проверка победы",
+        "section": "1-5-ход-и-проверка-победы",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "12",
+        "slug": "smalltalk/smalltalk-508-12-002",
+        "title": "3.3 Инициализация и построение UI",
+        "section": "3-3-инициализация-и-построение-ui",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-001",
+        "title": "2.3. Экран и цифры",
+        "section": "2-3-экран-и-цифры",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-002",
+        "title": "2.4. Операции и равно",
+        "section": "2-4-операции-и-равно",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-003",
+        "title": "3.2. Сборка строки",
+        "section": "3-2-сборка-строки",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-004",
+        "title": "4.5. Боковая панель",
+        "section": "4-5-боковая-панель",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-005",
+        "title": "4.6. Навигация между разделами",
+        "section": "4-6-навигация-между-разделами",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-006",
+        "title": "5.1. Построение панели",
+        "section": "5-1-построение-панели",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-007",
+        "title": "5.2. Действия с заметками",
+        "section": "5-2-действия-с-заметками",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-008",
+        "title": "6.1. Построение панели",
+        "section": "6-1-построение-панели",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-009",
+        "title": "6.2. Обработка кнопок",
+        "section": "6-2-обработка-кнопок",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-010",
+        "title": "7.1. Панель \"О программе\"",
+        "section": "7-1-панель-о-программе",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-011",
+        "title": "7.2. Панель \"Настройки\"",
+        "section": "7-2-панель-настройки",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "21",
+        "slug": "smalltalk/smalltalk-508-21-012",
+        "title": "7.3. Переключение темы",
+        "section": "7-3-переключение-темы",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "31": [
+      {
+        "article": "31",
+        "slug": "smalltalk/smalltalk-508-31-001",
+        "title": "1.3. Сброс игры и подача",
+        "section": "1-3-сброс-игры-и-подача",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "31",
+        "slug": "smalltalk/smalltalk-508-31-002",
+        "title": "2.1. Протокол accessing",
+        "section": "2-1-протокол-accessing",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "31",
+        "slug": "smalltalk/smalltalk-508-31-003",
+        "title": "2.2. Протокол input",
+        "section": "2-2-протокол-input",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "31",
+        "slug": "smalltalk/smalltalk-508-31-004",
+        "title": "3.1. Код",
+        "section": "3-1-код",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "31",
+        "slug": "smalltalk/smalltalk-508-31-005",
+        "title": "4.1. Полный метод step",
+        "section": "4-1-полный-метод-step",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "31",
+        "slug": "smalltalk/smalltalk-508-31-006",
+        "title": "6.2. initialize и buildUI",
+        "section": "6-2-initialize-и-buildui",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "31",
+        "slug": "smalltalk/smalltalk-508-31-007",
+        "title": "8.1. События клавиатуры",
+        "section": "8-1-события-клавиатуры",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "44": [
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-001",
+        "title": "0.1 Класс ShooterGame",
+        "section": "0-1-класс-shootergame",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-002",
+        "title": "0.1 Класс ShooterGame",
+        "section": "0-1-класс-shootergame",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-003",
+        "title": "0.1 Класс ShooterGame",
+        "section": "0-1-класс-shootergame",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-004",
+        "title": "0.2 Класс ShooterPlayfieldMorph",
+        "section": "0-2-класс-shooterplayfieldmorph",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-005",
+        "title": "0.2 Класс ShooterPlayfieldMorph",
+        "section": "0-2-класс-shooterplayfieldmorph",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-006",
+        "title": "0.3 Класс ShooterGameMorph",
+        "section": "0-3-класс-shootergamemorph",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-007",
+        "title": "ShooterGameMorph, протокол events",
+        "section": "shootergamemorph-протокол-events",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-008",
+        "title": "ShooterGame, протокол enemies",
+        "section": "shootergame-протокол-enemies",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-009",
+        "title": "ShooterGame, протокол collisions",
+        "section": "shootergame-протокол-collisions",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-010",
+        "title": "ShooterGame, протокол waves",
+        "section": "shootergame-протокол-waves",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-011",
+        "title": "ShooterGame, протокол bullets",
+        "section": "shootergame-протокол-bullets",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "44",
+        "slug": "smalltalk/smalltalk-508-44-012",
+        "title": "Полная ревизия",
+        "section": "full-revision",
+        "blocks": 1,
+        "lines": 39
+      }
+    ]
+  }
+}

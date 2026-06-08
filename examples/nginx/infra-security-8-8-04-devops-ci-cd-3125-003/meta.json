@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Apache HTTP Server — Стек Nginx + Apache",
+  "description": "Фрагмент из «Справочник по Apache HTTP Server»: Стек Nginx + Apache.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3125"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-04-devops-ci-cd-3125",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по Apache HTTP Server",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3125"
+}

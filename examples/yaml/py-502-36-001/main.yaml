@@ -1,0 +1,16 @@
+  - name: Deploy app
+    hosts: webservers
+    tasks:
+      - name: Ensure directory exists
+        file:
+          path: /opt/app
+          state: directory
+          mode: '0755'
+      - name: Copy files
+        copy:
+          src: ./dist/
+          dest: /opt/app/
+      - name: Restart service
+        systemd:
+          name: app.service
+          state: restarted

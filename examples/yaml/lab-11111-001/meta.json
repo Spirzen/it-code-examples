@@ -1,0 +1,13 @@
+{
+  "title": "Docker Compose — готовые стеки — 3. Только PostgreSQL для разработки",
+  "description": "Фрагмент из «Docker Compose — готовые стеки»: 3. Только PostgreSQL для разработки.",
+  "tags": [
+    "lab",
+    "11111"
+  ],
+  "order": 1,
+  "series": "lab-11111",
+  "seriesOrder": 1,
+  "seriesTitle": "Docker Compose — готовые стеки",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11111"
+}

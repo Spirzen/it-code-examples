@@ -1,0 +1,18 @@
+components:
+  securitySchemes:
+    OAuth2:
+      type: oauth2
+      flows:
+        authorizationCode:
+          authorizationUrl: https://auth.taskboard.example/oauth/authorize
+          tokenUrl: https://auth.taskboard.example/oauth/token
+          scopes:
+            tasks:read: Чтение задач
+            tasks:write: Создание и изменение
+            webhooks:manage: Подписка на webhooks
+        clientCredentials:
+          tokenUrl: https://auth.taskboard.example/oauth/token
+          scopes:
+            tasks:read: Чтение задач
+security:
+  - OAuth2: [tasks:read, tasks:write]

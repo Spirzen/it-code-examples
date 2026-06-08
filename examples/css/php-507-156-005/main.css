@@ -1,0 +1,82 @@
+.Данные-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1.5rem 0;
+  font-size: 0.95rem;
+  text-align: left;
+}
+
+.Данные-table caption {
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  text-align: left;
+}
+
+.Данные-table th,
+.Данные-table td {
+  padding: 0.75rem;
+  border-bottom: 1px solid #ddd;
+}
+
+.Данные-table th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+
+.Данные-table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+.btn {
+  padding: 0.3rem 0.6rem;
+  margin-right: 0.3rem;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.85rem;
+}
+
+.btn-edit {
+  background-color: #28a745;
+  color: white;
+}
+
+.btn-delete {
+  background-color: #dc3545;
+  color: white;
+}
+
+/* Адаптивность для мобильных */
+@media (max-width: 600px) {
+  .Данные-table,
+  .Данные-table thead,
+  .Данные-table tbody,
+  .Данные-table th,
+  .Данные-table td,
+  .Данные-table tr {
+    display: block;
+  }
+
+  .Данные-table thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  .Данные-table td {
+    position: relative;
+    padding-left: 50%;
+    border: none;
+    border-bottom: 1px solid #eee;
+  }
+
+  .Данные-table td:before {
+    content: attr(Данные-label) ": ";
+    position: absolute;
+    left: 6px;
+    width: 45%;
+    padding-right: 10px;
+    font-weight: bold;
+  }
+}

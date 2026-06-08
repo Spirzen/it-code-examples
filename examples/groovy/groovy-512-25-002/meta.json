@@ -1,0 +1,14 @@
+{
+  "title": "Job DSL Playground — jobs Jenkins как код — job — Freestyle и shell",
+  "description": "Фрагмент из «Job DSL Playground — jobs Jenkins как код»: job — Freestyle и shell.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 2,
+  "series": "groovy-512-25",
+  "seriesOrder": 2,
+  "seriesTitle": "Job DSL Playground — jobs Jenkins как код",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/25"
+}

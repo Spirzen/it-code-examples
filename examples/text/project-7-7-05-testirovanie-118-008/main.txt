@@ -1,0 +1,15 @@
+Feature: Проверка API пользователей
+
+Scenario: Получение списка пользователей
+  Given url 'https://api.example.com/users'
+  And header Content-Type = 'application/json'
+  When method GET
+  Then status 200
+  And match response contains { id: '#number', name: '#string' }
+  
+Scenario: Создание нового пользователя
+  Given url 'https://api.example.com/users'
+  And request { name: 'Ivan', email: 'ivan@example.com' }
+  When method POST
+  Then status 201
+  And match response.id > 0

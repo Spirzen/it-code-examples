@@ -1,0 +1,14 @@
+{
+  "title": "Особенности разработки десктопных приложений — 1. Асинхронная операция с обновлением UI (C# / WPF, MVVM)",
+  "description": "Фрагмент из «Особенности разработки десктопных приложений»: 1. Асинхронная операция с обновлением UI (C# / WPF, MVVM).",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "112"
+  ],
+  "order": 2,
+  "series": "code-411-112",
+  "seriesOrder": 2,
+  "seriesTitle": "Особенности разработки десктопных приложений",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/112"
+}

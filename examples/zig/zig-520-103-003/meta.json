@@ -1,0 +1,14 @@
+{
+  "title": "Простые приложения на Zig — Мини-проект — калькулятор аргументов CLI",
+  "description": "Фрагмент из «Простые приложения на Zig»: Мини-проект — калькулятор аргументов CLI.",
+  "tags": [
+    "zig",
+    "encyclopedia",
+    "103"
+  ],
+  "order": 3,
+  "series": "zig-520-103",
+  "seriesOrder": 3,
+  "seriesTitle": "Простые приложения на Zig",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-20-zig/103"
+}

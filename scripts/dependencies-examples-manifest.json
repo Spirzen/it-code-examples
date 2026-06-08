@@ -1,0 +1,93 @@
+{
+  "generatedAt": "2026-06-07T18:23:50.676Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-09-zavisimosti",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "java/code-409-1-001",
+        "title": "Обратная зависимость (B ← A, но через абстракцию)",
+        "section": "обратная-зависимость-b-a-но-через-абстракцию",
+        "blocks": 1,
+        "lines": 8
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "python/code-409-11-001",
+        "title": "Как работает DI?",
+        "section": "как-работает-di",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "11",
+        "slug": "python/code-409-11-002",
+        "title": "Как работает DI?",
+        "section": "как-работает-di",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "11",
+        "slug": "java/code-409-11-003",
+        "title": "Пример",
+        "section": "пример",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "11",
+        "slug": "java/code-409-11-004",
+        "title": "Пример",
+        "section": "пример",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "csharp/code-409-12-001",
+        "title": "Что такое Dependency Injection?",
+        "section": "что-такое-dependency-injection",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "12",
+        "slug": "java/code-409-12-002",
+        "title": "Что такое Dependency Injection?",
+        "section": "что-такое-dependency-injection",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "12",
+        "slug": "java/code-409-12-003",
+        "title": "DI-контейнер",
+        "section": "di-контейнер",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "12",
+        "slug": "java/code-409-12-004",
+        "title": "Setter Injection",
+        "section": "setter-injection",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "12",
+        "slug": "csharp/code-409-12-005",
+        "title": "Setter Injection",
+        "section": "setter-injection",
+        "blocks": 1,
+        "lines": 10
+      }
+    ]
+  }
+}

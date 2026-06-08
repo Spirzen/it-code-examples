@@ -1,0 +1,13 @@
+{
+  "title": "Docker Compose — готовые стеки — 10. MinIO — S3-совместимое хранилище",
+  "description": "Фрагмент из «Docker Compose — готовые стеки»: 10. MinIO — S3-совместимое хранилище.",
+  "tags": [
+    "lab",
+    "11111"
+  ],
+  "order": 7,
+  "series": "lab-11111",
+  "seriesOrder": 7,
+  "seriesTitle": "Docker Compose — готовые стеки",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11111"
+}

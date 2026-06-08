@@ -1,0 +1,25 @@
+<form method="POST" action="/process.php" enctype="multipart/form-data">
+  <input type="hidden" name="csrf_token" value="<?= $_SESSION['csrf_token'] ?>" />
+  
+  <label>
+    Имя:
+    <input type="text" name="fullname" required minlength="2" maxlength="100" />
+  </label>
+
+  <label>
+    Email:
+    <input type="email" name="email" required />
+  </label>
+
+  <label>
+    Аватар:
+    <input type="file" name="avatar" accept="image/*" />
+  </label>
+
+  <label>
+    Комментарий:
+    <textarea name="comment" maxlength="1000"></textarea>
+  </label>
+
+  <button type="submit">Отправить</button>
+</form>

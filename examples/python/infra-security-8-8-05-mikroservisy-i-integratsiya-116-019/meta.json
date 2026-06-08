@@ -1,0 +1,14 @@
+{
+  "title": "Реактивная коммуникация — Python с confluent-kafka",
+  "description": "Фрагмент из «Реактивная коммуникация»: Python с confluent-kafka.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-116"
+  ],
+  "order": 19,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-116",
+  "seriesOrder": 19,
+  "seriesTitle": "Реактивная коммуникация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/116"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Rust — Обёртка (Wrapper)",
+  "description": "Фрагмент из «Рекомендации по разработке на Rust»: Обёртка (Wrapper).",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 9,
+  "series": "rust-513-101",
+  "seriesOrder": 9,
+  "seriesTitle": "Рекомендации по разработке на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/101"
+}

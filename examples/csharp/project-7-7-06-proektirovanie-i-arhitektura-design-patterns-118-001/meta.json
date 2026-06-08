@@ -1,0 +1,14 @@
+{
+  "title": "Паттерн \"Итератор\" в C# — IEnumerator и yield return — Ручная реализация — как в учебнике",
+  "description": "Фрагмент из «Паттерн \"Итератор\" в C# — IEnumerator и yield return»: Ручная реализация — как в учебнике.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-118"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-118",
+  "seriesOrder": 1,
+  "seriesTitle": "Паттерн \"Итератор\" в C# — IEnumerator и yield return",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/118"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Популярные утилиты и примеры скриптов — Скрипт анализа JSON с использованием `jq`",
+  "description": "Фрагмент из «Популярные утилиты и примеры скриптов»: Скрипт анализа JSON с использованием `jq`.",
+  "tags": [
+    "bash",
+    "encyclopedia",
+    "121"
+  ],
+  "order": 3,
+  "series": "bash-525-121",
+  "seriesOrder": 3,
+  "seriesTitle": "Популярные утилиты и примеры скриптов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-25-bash/121"
+}

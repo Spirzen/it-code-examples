@@ -1,0 +1,15 @@
+export component MainWindow inherits Window {
+    width: 300px;
+    height: 150px;
+    Text {
+        text: "Значение: " + root.counter;
+        x: 20px;
+        y: 40px;
+    }
+    Button {
+        text: "+";
+        clicked => { root.increment(); }
+        x: 20px;
+        y: 80px;
+    }
+}

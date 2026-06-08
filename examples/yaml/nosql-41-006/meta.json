@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по MongoDB — 13. Настройка сервера (`mongod.conf`)",
+  "description": "Фрагмент из «Справочник по MongoDB»: 13. Настройка сервера (`mongod.conf`).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "41"
+  ],
+  "order": 6,
+  "series": "nosql-41",
+  "seriesOrder": 6,
+  "seriesTitle": "Справочник по MongoDB",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/41"
+}

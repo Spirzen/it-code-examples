@@ -1,0 +1,14 @@
+{
+  "title": "Резервное копирование и восстановление PostgreSQL — Практический минимум",
+  "description": "Фрагмент из «Резервное копирование и восстановление PostgreSQL»: Практический минимум.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "106"
+  ],
+  "order": 1,
+  "series": "sql-106",
+  "seriesOrder": 1,
+  "seriesTitle": "Резервное копирование и восстановление PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/106"
+}

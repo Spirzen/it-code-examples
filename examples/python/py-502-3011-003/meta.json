@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Django — Добавление сообщения через ModelForm",
+  "description": "Фрагмент из «Первая программа на Django»: Добавление сообщения через ModelForm.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "3011"
+  ],
+  "order": 3,
+  "series": "py-502-3011",
+  "seriesOrder": 3,
+  "seriesTitle": "Первая программа на Django",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/3011"
+}

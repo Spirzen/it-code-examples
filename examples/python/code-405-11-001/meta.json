@@ -1,0 +1,15 @@
+{
+  "title": "Управление потоками в многозадачных системах — Python — стек всех потоков",
+  "description": "Фрагмент из «Управление потоками в многозадачных системах»: стек вызовов всех потоков через traceback.",
+  "tags": [
+    "async",
+    "concurrency",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 1,
+  "series": "code-405-11",
+  "seriesOrder": 1,
+  "seriesTitle": "Управление потоками в многозадачных системах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/11"
+}

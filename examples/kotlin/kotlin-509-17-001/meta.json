@@ -1,0 +1,14 @@
+{
+  "title": "Синтаксические конструкции Kotlin — 10.1. Делегирование классов через `by`",
+  "description": "Фрагмент из «Синтаксические конструкции Kotlin»: 10.1. Делегирование классов через `by`.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 1,
+  "series": "kotlin-509-17",
+  "seriesOrder": 1,
+  "seriesTitle": "Синтаксические конструкции Kotlin",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/17"
+}

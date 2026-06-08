@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность и горутины — 2. Fan-in / Fan-out (\"веерное\" слияние и разветвление)",
+  "description": "Фрагмент из «Асинхронность и горутины»: 2. Fan-in / Fan-out (\"веерное\" слияние и разветвление).",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 2,
+  "series": "go-510-21",
+  "seriesOrder": 2,
+  "seriesTitle": "Асинхронность и горутины",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/21"
+}

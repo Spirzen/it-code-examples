@@ -1,0 +1,13 @@
+{
+  "title": "Примеры решений в JavaScript — 2. Fetch с таймаутом и ошибками HTTP",
+  "description": "Фрагмент из «Примеры решений в JavaScript»: 2. Fetch с таймаутом и ошибками HTTP.",
+  "tags": [
+    "lab",
+    "116"
+  ],
+  "order": 1,
+  "series": "lab-116",
+  "seriesOrder": 1,
+  "seriesTitle": "Примеры решений в JavaScript",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/116"
+}

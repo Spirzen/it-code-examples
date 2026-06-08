@@ -1,0 +1,19 @@
+- name: Создать директорию
+  file:
+    path: /opt/app
+    state: directory
+    mode: '0755'
+
+- name: Скопировать конфигурационный файл
+  copy:
+    src: files/app.conf
+    dest: /etc/app.conf
+    owner: root
+    group: root
+    mode: '0644'
+
+- name: Выполнить команду
+  command: /usr/bin/make_database.sh
+  args:
+    chdir: /opt/app
+    creates: /var/db/database.sqlite

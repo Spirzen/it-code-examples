@@ -1,0 +1,47 @@
+{
+  "generatedAt": "2026-06-07T16:18:20.164Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/3-data-markup/3-11-analiz-dannyh",
+  "articles": {
+    "421": [
+      {
+        "article": "421",
+        "slug": "python/da-421-001",
+        "title": "Создание собственных функций анализа",
+        "section": "создание-собственных-функций-анализа",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "423": [
+      {
+        "article": "423",
+        "slug": "python/da-423-001",
+        "title": "Пример реализации логики",
+        "section": "пример-реализации-логики",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "424": [
+      {
+        "article": "424",
+        "slug": "python/da-424-001",
+        "title": "Библиотека Scikit-learn",
+        "section": "библиотека-scikit-learn",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "425": [
+      {
+        "article": "425",
+        "slug": "yaml/da-425-001",
+        "title": "Пример конфигурации пайплайна",
+        "section": "пример-конфигурации-пайплайна",
+        "blocks": 1,
+        "lines": 41
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Nginx — конфиги под задачу — 9. WebSocket через reverse proxy",
+  "description": "Фрагмент из «Nginx — конфиги под задачу»: 9. WebSocket через reverse proxy.",
+  "tags": [
+    "lab",
+    "11112"
+  ],
+  "order": 7,
+  "series": "lab-11112",
+  "seriesOrder": 7,
+  "seriesTitle": "Nginx — конфиги под задачу",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11112"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Веб на стандартной библиотеке Go — HTML-шаблоны",
+  "description": "Фрагмент из «Веб на стандартной библиотеке Go»: HTML-шаблоны.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 1,
+  "series": "go-510-25",
+  "seriesOrder": 1,
+  "seriesTitle": "Веб на стандартной библиотеке Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/25"
+}

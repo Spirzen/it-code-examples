@@ -1,0 +1,14 @@
+{
+  "title": "Redis - хранилище ключ-значение в памяти — Шаг 4. Интеграция в приложение (Node.js, пример кэширования API-ответа)",
+  "description": "Фрагмент из «Redis - хранилище ключ-значение в памяти»: Шаг 4. Интеграция в приложение (Node.js, пример кэширования API-ответа).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "5"
+  ],
+  "order": 2,
+  "series": "nosql-5",
+  "seriesOrder": 2,
+  "seriesTitle": "Redis - хранилище ключ-значение в памяти",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/5"
+}

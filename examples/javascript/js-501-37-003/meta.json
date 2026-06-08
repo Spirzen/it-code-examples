@@ -1,0 +1,14 @@
+{
+  "title": "Отмена запросов и поток событий с сервера — EventSource (Server-Sent Events)",
+  "description": "Фрагмент из «Отмена запросов и поток событий с сервера»: EventSource (Server-Sent Events).",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "37"
+  ],
+  "order": 3,
+  "series": "js-501-37",
+  "seriesOrder": 3,
+  "seriesTitle": "Отмена запросов и поток событий с сервера",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/37"
+}

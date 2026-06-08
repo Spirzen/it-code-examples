@@ -1,0 +1,14 @@
+{
+  "title": "Принципы SOLID в объектно-ориентированном проектировании — Пример нарушения",
+  "description": "Фрагмент из «Принципы SOLID в объектно-ориентированном проектировании»: Пример нарушения.",
+  "tags": [
+    "paradigms",
+    "encyclopedia",
+    "113"
+  ],
+  "order": 15,
+  "series": "code-407-113",
+  "seriesOrder": 15,
+  "seriesTitle": "Принципы SOLID в объектно-ориентированном проектировании",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-07-paradigmy-i-urovni-abstraktsii/113"
+}

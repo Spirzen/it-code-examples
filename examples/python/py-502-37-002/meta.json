@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование на pytest — FastAPI — `TestClient`",
+  "description": "Фрагмент из «Тестирование на pytest»: FastAPI — `TestClient`.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "37"
+  ],
+  "order": 2,
+  "series": "py-502-37",
+  "seriesOrder": 2,
+  "seriesTitle": "Тестирование на pytest",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/37"
+}

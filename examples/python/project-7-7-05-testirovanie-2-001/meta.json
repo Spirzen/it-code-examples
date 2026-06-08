@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование и анализ API — Автотест API на Python (pytest + httpx)",
+  "description": "Фрагмент из «Тестирование и анализ API»: Автотест API на Python (pytest + httpx).",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-05-testirovanie-2"
+  ],
+  "order": 1,
+  "series": "project-7-7-05-testirovanie-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Тестирование и анализ API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-05-testirovanie/2"
+}

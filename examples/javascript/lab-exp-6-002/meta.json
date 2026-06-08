@@ -1,0 +1,10 @@
+{
+  "title": "Рандомизация — JavaScript (Node.js)",
+  "description": "Math.random() для обычной логики и crypto.randomBytes для безопасных значений.",
+  "tags": ["lab", "experiments", "random", "nodejs"],
+  "order": 2,
+  "series": "lab-exp-6",
+  "seriesOrder": 2,
+  "seriesTitle": "Рандомизация",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Эксперименты/6"
+}

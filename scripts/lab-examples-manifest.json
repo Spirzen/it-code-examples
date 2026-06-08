@@ -1,0 +1,4678 @@
+{
+  "generatedAt": "2026-06-07T14:51:39.227Z",
+  "minLines": 15,
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "sql/lab-2-001",
+        "title": "Минимальный SQL-запрос (CRUD)",
+        "section": "минимальный-sql-запрос-crud",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "2",
+        "slug": "text/lab-2-002",
+        "title": "Минимальный `.gitignore`",
+        "section": "минимальный-gitignore",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "2",
+        "slug": "python/lab-2-003",
+        "title": "Минимальная игра на Pygame",
+        "section": "минимальная-игра-на-pygame",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "csharp/lab-11-001",
+        "title": "Сервер",
+        "section": "сервер",
+        "blocks": 1,
+        "lines": 86
+      },
+      {
+        "article": "11",
+        "slug": "csharp/lab-11-002",
+        "title": "Клиент",
+        "section": "клиент",
+        "blocks": 1,
+        "lines": 72
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "csharp/lab-12-001",
+        "title": "Базовая реализация",
+        "section": "базовая-реализация",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "12",
+        "slug": "csharp/lab-12-002",
+        "title": "Безопасная реализация с криптографической стойкостью",
+        "section": "безопасная-реализация-с-криптографической-стойко",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "12",
+        "slug": "csharp/lab-12-003",
+        "title": "Расширенная версия с настройками через объект",
+        "section": "расширенная-версия-с-настройками-через-объект",
+        "blocks": 1,
+        "lines": 53
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "csharp/lab-13-001",
+        "title": "Простая реализация",
+        "section": "простая-реализация",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "13",
+        "slug": "csharp/lab-13-002",
+        "title": "Расширенная реализация с циклом и повторным использованием",
+        "section": "расширенная-реализация-с-циклом-и-повторным-испо",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "13",
+        "slug": "csharp/lab-13-003",
+        "title": "Объектно-ориентированная версия",
+        "section": "объектно-ориентированная-версия",
+        "blocks": 1,
+        "lines": 71
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "csharp/lab-14-001",
+        "title": "1. Работа через ADO.NET (низкоуровневый подход)",
+        "section": "1-работа-через-ado-net-низкоуровневый-подход",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "14",
+        "slug": "csharp/lab-14-002",
+        "title": "Шаг 2: Определение модели и контекста",
+        "section": "шаг-2-определение-модели-и-контекста",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "14",
+        "slug": "csharp/lab-14-003",
+        "title": "Шаг 3: Использование",
+        "section": "шаг-3-использование",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "14",
+        "slug": "csharp/lab-14-004",
+        "title": "Пример использования",
+        "section": "пример-использования",
+        "blocks": 1,
+        "lines": 44
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "csharp/lab-15-001",
+        "title": "Код парсера:",
+        "section": "код-парсера",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "15",
+        "slug": "csharp/lab-15-002",
+        "title": "2. Парсинг через `XmlReader` (потоковый подход)",
+        "section": "2-парсинг-через-xmlreader-потоковый-подход",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "15",
+        "slug": "csharp/lab-15-003",
+        "title": "Шаг 1: Определение моделей",
+        "section": "шаг-1-определение-моделей",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "15",
+        "slug": "csharp/lab-15-004",
+        "title": "Шаг 2: Десериализация",
+        "section": "шаг-2-десериализация",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "15",
+        "slug": "csharp/lab-15-005",
+        "title": "Обработка ошибок и валидация",
+        "section": "обработка-ошибок-и-валидация",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "csharp/lab-16-001",
+        "title": "Шаг 2: Конвертер JSON → CSV",
+        "section": "шаг-2-конвертер-json-csv",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "16",
+        "slug": "csharp/lab-16-002",
+        "title": "Шаг 3: Конвертер CSV → JSON",
+        "section": "шаг-3-конвертер-csv-json",
+        "blocks": 1,
+        "lines": 68
+      },
+      {
+        "article": "16",
+        "slug": "csharp/lab-16-003",
+        "title": "Шаг 4: Использование",
+        "section": "шаг-4-использование",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "16",
+        "slug": "csharp/lab-16-004",
+        "title": "JSON → CSV (динамически)",
+        "section": "json-csv-динамически",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "16",
+        "slug": "csharp/lab-16-005",
+        "title": "Пример: JSON → CSV через CsvHelper",
+        "section": "пример-json-csv-через-csvhelper",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "csharp/lab-17-001",
+        "title": "Простой парсер: чтение всех ячеек",
+        "section": "простой-парсер-чтение-всех-ячеек",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "17",
+        "slug": "csharp/lab-17-002",
+        "title": "Парсер с маппингом",
+        "section": "парсер-с-маппингом",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "17",
+        "slug": "csharp/lab-17-003",
+        "title": "Расширенный парсер с поддержкой нескольких листов и ошибок",
+        "section": "расширенный-парсер-с-поддержкой-нескольких-листо",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "110": [
+      {
+        "article": "110",
+        "slug": "html/lab-110-001",
+        "title": "Обязательный каркас каждой страницы",
+        "section": "обязательный-каркас-каждой-страницы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-002",
+        "title": "Центрированная карточка",
+        "section": "центрированная-карточка",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-003",
+        "title": "Шапка и подвал — контент между ними (Flexbox)",
+        "section": "шапка-и-подвал-контент-между-ними-flexbox",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-004",
+        "title": "Адаптивная сетка карточек",
+        "section": "адаптивная-сетка-карточек",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-005",
+        "title": "Две колонки — текст и картинка",
+        "section": "две-колонки-текст-и-картинка",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-006",
+        "title": "Форма входа по центру",
+        "section": "форма-входа-по-центру",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-007",
+        "title": "1.1. Шапка, боковое меню, контент, подвал",
+        "section": "1-1-шапка-боковое-меню-контент-подвал",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-008",
+        "title": "2.1. Герой-блок и три преимущества",
+        "section": "2-1-герой-блок-и-три-преимущества",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-009",
+        "title": "2.2. Липкая шапка при прокрутке",
+        "section": "2-2-липкая-шапка-при-прокрутке",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-010",
+        "title": "3.1. Боковая панель + плитки метрик",
+        "section": "3-1-боковая-панель-плитки-метрик",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-011",
+        "title": "3.2. Bento — плитки разного размера",
+        "section": "3-2-bento-плитки-разного-размера",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-012",
+        "title": "4.1. Текст и боковая колонка",
+        "section": "4-1-текст-и-боковая-колонка",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-013",
+        "title": "4.2. Три тарифа в ряд",
+        "section": "4-2-три-тарифа-в-ряд",
+        "blocks": 1,
+        "lines": 68
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-014",
+        "title": "5. Подвал с колонками ссылок",
+        "section": "5-подвал-с-колонками-ссылок",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-015",
+        "title": "6.1. Mobile-first — меню сверху, на ПК слева",
+        "section": "6-1-mobile-first-меню-сверху-на-пк-слева",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-016",
+        "title": "6.2. Светлая и тёмная тема через переменные",
+        "section": "6-2-светлая-и-тёмная-тема-через-переменные",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "110",
+        "slug": "html/lab-110-017",
+        "title": "7. Чистая база для своего проекта",
+        "section": "7-чистая-база-для-своего-проекта",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "111": [
+      {
+        "article": "111",
+        "slug": "python/lab-111-001",
+        "title": "Квадрат",
+        "section": "квадрат",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-002",
+        "title": "Домик",
+        "section": "домик",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-003",
+        "title": "Простой красный цветок",
+        "section": "простой-красный-цветок",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-004",
+        "title": "Цветок из кругов",
+        "section": "цветок-из-кругов",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-005",
+        "title": "Простая снежинка",
+        "section": "простая-снежинка",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-006",
+        "title": "Многослойный цветок",
+        "section": "многослойный-цветок",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-007",
+        "title": "Фрактальное дерево с рекурсией",
+        "section": "фрактальное-дерево-с-рекурсией",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-008",
+        "title": "Сердце",
+        "section": "сердце",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-009",
+        "title": "Квадрат из точек",
+        "section": "квадрат-из-точек",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-010",
+        "title": "Шахматная сетка из точек",
+        "section": "шахматная-сетка-из-точек",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-011",
+        "title": "Сетка квадратов",
+        "section": "сетка-квадратов",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-012",
+        "title": "1.1. Равносторонний треугольник",
+        "section": "1-1-равносторонний-треугольник",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-013",
+        "title": "1.2. Прямоугольник (включая квадрат как частный случай)",
+        "section": "1-2-прямоугольник-включая-квадрат-как-частный-сл",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-014",
+        "title": "1.3. Правильный *n*-угольник",
+        "section": "1-3-правильный-n-угольник",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-015",
+        "title": "2.1. Звезда с *n* лучами (школьный вариант: \"звезда без самопересечений\" — неверно; здесь реализуется классическая *звезда Шлефли*)",
+        "section": "2-1-звезда-с-n-лучами-школьный-вариант-звезда-бе",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-016",
+        "title": "3.1. Простой цветок из окружностей",
+        "section": "3-1-простой-цветок-из-окружностей",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-017",
+        "title": "3.2. Цветок с лепестками-дугами (\"роза\")",
+        "section": "3-2-цветок-с-лепестками-дугами-роза",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-018",
+        "title": "4.1. Изометрический куб",
+        "section": "4-1-изометрический-куб",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-019",
+        "title": "4.2. Изометрическая пирамида (тетраэдр)",
+        "section": "4-2-изометрическая-пирамида-тетраэдр",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-020",
+        "title": "5.1. Дерево Пифагора (итеративная реализация через стек)",
+        "section": "5-1-дерево-пифагора-итеративная-реализация-через",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-021",
+        "title": "5.2. Снежинка Коха (итеративный генератор строк Л-системы)",
+        "section": "5-2-снежинка-коха-итеративный-генератор-строк-л-",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-022",
+        "title": "6.1. Спираль Архимеда",
+        "section": "6-1-спираль-архимеда",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-023",
+        "title": "6.2. Полярная роза",
+        "section": "6-2-полярная-роза",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-024",
+        "title": "7.1. Анимированная спираль с плавным изменением параметров",
+        "section": "7-1-анимированная-спираль-с-плавным-изменением-п",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-025",
+        "title": "7.2. Вращающийся цветок (симуляция вращения через смещение фазы)",
+        "section": "7-2-вращающийся-цветок-симуляция-вращения-через-",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-026",
+        "title": "8.1. Кривая дракона (итеративная, без рекурсии, через битовую последовательность)",
+        "section": "8-1-кривая-дракона-итеративная-без-рекурсии-чере",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-027",
+        "title": "8.2. Треугольник Серпинского через итеративный метод \"хаотических игр\"",
+        "section": "8-2-треугольник-серпинского-через-итеративный-ме",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-028",
+        "title": "9.1. Замощение плоскости шестиугольниками (\"улей\")",
+        "section": "9-1-замощение-плоскости-шестиугольниками-улей",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-029",
+        "title": "9.2. Орнамент \"греческий ключ\" (меандр), параметризуемый",
+        "section": "9-2-орнамент-греческий-ключ-меандр-параметризуем",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-030",
+        "title": "10.1. Дуга с градиентной заливкой (аппроксимация через многоугольник)",
+        "section": "10-1-дуга-с-градиентной-заливкой-аппроксимация-ч",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-031",
+        "title": "10.2. Смуляция объёма: круг с радиальным градиентом (\"сфера\")",
+        "section": "10-2-смуляция-объёма-круг-с-радиальным-градиенто",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "111",
+        "slug": "python/lab-111-032",
+        "title": "11.1. Шаблон для экспериментов: изолированное окно с настройками",
+        "section": "11-1-шаблон-для-экспериментов-изолированное-окно",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "113": [
+      {
+        "article": "113",
+        "slug": "bash/lab-113-001",
+        "title": "Шаблон production-скрипта",
+        "section": "шаблон-production-скрипта",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "113",
+        "slug": "bash/lab-113-002",
+        "title": "Сценарий: health-check URL",
+        "section": "сценарий-health-check-url",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "114": [
+      {
+        "article": "114",
+        "slug": "text/lab-114-001",
+        "title": "Сценарий: резервная копия (robocopy)",
+        "section": "сценарий-резервная-копия-robocopy",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "116": [
+      {
+        "article": "116",
+        "slug": "javascript/lab-116-001",
+        "title": "2. Fetch с таймаутом и ошибками HTTP",
+        "section": "2-fetch-с-таймаутом-и-ошибками-http",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "117": [
+      {
+        "article": "117",
+        "slug": "typescript/lab-117-001",
+        "title": "4. Ограничение параллелизма",
+        "section": "4-ограничение-параллелизма",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "118": [
+      {
+        "article": "118",
+        "slug": "sql/lab-118-001",
+        "title": "5. Безопасное изменение (транзакция)",
+        "section": "5-безопасное-изменение-транзакция",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "122": [
+      {
+        "article": "122",
+        "slug": "python/lab-122-001",
+        "title": "Шаг 1. Минимальный запуск (PTB v20+)",
+        "section": "шаг-1-минимальный-запуск-ptb-v20",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "211": [
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-001",
+        "title": "Класс Book",
+        "section": "класс-book",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-002",
+        "title": "Класс Loan",
+        "section": "класс-loan",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-003",
+        "title": "Контекст базы данных",
+        "section": "контекст-базы-данных",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-004",
+        "title": "Пример контроллера книг",
+        "section": "пример-контроллера-книг",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-005",
+        "title": "Пример сервиса выдачи",
+        "section": "пример-сервиса-выдачи",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-006",
+        "title": "Тестирование",
+        "section": "тестирование",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-007",
+        "title": "Уведомления о просроченных книгах",
+        "section": "уведомления-о-просроченных-книгах",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-008",
+        "title": "Поиск по ISBN и автору через API",
+        "section": "поиск-по-isbn-и-автору-через-api",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "211",
+        "slug": "csharp/lab-211-009",
+        "title": "Кэширование часто запрашиваемых данных",
+        "section": "кэширование-часто-запрашиваемых-данных",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "212": [
+      {
+        "article": "212",
+        "slug": "csharp/lab-212-001",
+        "title": "Стартовая сцена",
+        "section": "стартовая-сцена",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "212",
+        "slug": "csharp/lab-212-002",
+        "title": "Сцена красной комнаты",
+        "section": "сцена-красной-комнаты",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "212",
+        "slug": "csharp/lab-212-003",
+        "title": "Сцена инвентаря",
+        "section": "сцена-инвентаря",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "212",
+        "slug": "csharp/lab-212-004",
+        "title": "Компонент Narrator",
+        "section": "компонент-narrator",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "212",
+        "slug": "csharp/lab-212-005",
+        "title": "Обработка ввода",
+        "section": "обработка-ввода",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "212",
+        "slug": "csharp/lab-212-006",
+        "title": "Основной игровой цикл",
+        "section": "основной-игровой-цикл",
+        "blocks": 1,
+        "lines": 63
+      }
+    ],
+    "615": [
+      {
+        "article": "615",
+        "slug": "python/lab-615-001",
+        "title": "Каркас проверки — шаблон для любой задачи",
+        "section": "каркас-проверки-шаблон-для-любой-задачи",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "1111": [
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-001",
+        "title": "Обязательный каркас",
+        "section": "обязательный-каркас",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-002",
+        "title": "Цветная карточка",
+        "section": "цветная-карточка",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-003",
+        "title": "Карточка с текстурой",
+        "section": "карточка-с-текстурой",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-004",
+        "title": "Освещённый куб",
+        "section": "освещённый-куб",
+        "blocks": 1,
+        "lines": 86
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-005",
+        "title": "1.1. Каркас куба (`LineSegs`)",
+        "section": "1-1-каркас-куба-linesegs",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-006",
+        "title": "1.2. Правильный многоугольник в плоскости XY",
+        "section": "1-2-правильный-многоугольник-в-плоскости-xy",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-007",
+        "title": "2.1. Пирамида с квадратным основанием",
+        "section": "2-1-пирамида-с-квадратным-основанием",
+        "blocks": 1,
+        "lines": 86
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-008",
+        "title": "2.2. Сфера из стандартных моделей Panda3D",
+        "section": "2-2-сфера-из-стандартных-моделей-panda3d",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-009",
+        "title": "2.3. Призма — многоугольное основание",
+        "section": "2-3-призма-многоугольное-основание",
+        "blocks": 1,
+        "lines": 88
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-010",
+        "title": "3.1. Сетка цветных карточек",
+        "section": "3-1-сетка-цветных-карточек",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-011",
+        "title": "3.2. Кольцо из карточек",
+        "section": "3-2-кольцо-из-карточек",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-012",
+        "title": "3.3. Сцена из нескольких объектов",
+        "section": "3-3-сцена-из-нескольких-объектов",
+        "blocks": 1,
+        "lines": 83
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-013",
+        "title": "4.1. Плоский *n*-угольник с заливкой",
+        "section": "4-1-плоский-n-угольник-с-заливкой",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-014",
+        "title": "4.2. Шаблон эксперимента",
+        "section": "4-2-шаблон-эксперимента",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-015",
+        "title": "5.1. Цилиндр",
+        "section": "5-1-цилиндр",
+        "blocks": 1,
+        "lines": 105
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-016",
+        "title": "5.2. Процедурная UV-сфера",
+        "section": "5-2-процедурная-uv-сфера",
+        "blocks": 1,
+        "lines": 82
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-017",
+        "title": "5.3. Правильный тетраэдр",
+        "section": "5-3-правильный-тетраэдр",
+        "blocks": 1,
+        "lines": 79
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-018",
+        "title": "5.4. Спираль из карточек",
+        "section": "5-4-спираль-из-карточек",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-019",
+        "title": "5.5. Сетка координат на полу",
+        "section": "5-5-сетка-координат-на-полу",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-020",
+        "title": "5.6. Точечный свет",
+        "section": "5-6-точечный-свет",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-021",
+        "title": "5.7. Орбитальная камера",
+        "section": "5-7-орбитальная-камера",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-022",
+        "title": "5.8. Подпись в сцене (`TextNode`)",
+        "section": "5-8-подпись-в-сцене-textnode",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-023",
+        "title": "5.9. Башня из кубов",
+        "section": "5-9-башня-из-кубов",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-024",
+        "title": "5.10. Каркасная сфера",
+        "section": "5-10-каркасная-сфера",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-025",
+        "title": "5.11. Тор (бублик)",
+        "section": "5-11-тор-бублик",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-026",
+        "title": "5.12. Звезда — extruded 2D-контур",
+        "section": "5-12-звезда-extruded-2d-контур",
+        "blocks": 1,
+        "lines": 104
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-027",
+        "title": "5.13. Двойная спираль (DNA-стиль)",
+        "section": "5-13-двойная-спираль-dna-стиль",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1111",
+        "slug": "python/lab-1111-028",
+        "title": "5.14. Куб с разным цветом граней",
+        "section": "5-14-куб-с-разным-цветом-граней",
+        "blocks": 1,
+        "lines": 83
+      }
+    ],
+    "1112": [
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-001",
+        "title": "Обязательные элементы",
+        "section": "обязательные-элементы",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-002",
+        "title": "Линейный график (sin, cos, любая функция)",
+        "section": "линейный-график-sin-cos-любая-функция",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-003",
+        "title": "Круговая диаграмма (pie chart)",
+        "section": "grafik-hist",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-004",
+        "title": "1.1. Несколько функций на одном графике",
+        "section": "1-1-несколько-функций-на-одном-графике",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-005",
+        "title": "1.3. Групповые столбцы (две серии рядом)",
+        "section": "1-3-групповые-столбцы-две-серии-рядом",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-006",
+        "title": "1.4. Заливка между двумя кривыми (`fill_between`)",
+        "section": "1-4-заливка-между-двумя-кривыми-fill-between",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-007",
+        "title": "2.1. Сетка 2×2 (четыре графика на одном листе)",
+        "section": "2-1-сетка-2-2-четыре-графика-на-одном-листе",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-008",
+        "title": "2.2. Два графика друг под другом с общей осью X",
+        "section": "grafik-subplots",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-009",
+        "title": "3.2. Объектно-ориентированный API (рекомендуется для сложных графиков)",
+        "section": "3-2-объектно-ориентированный-api-рекомендуется-д",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-010",
+        "title": "4.1. Ящик с усами (box plot)",
+        "section": "4-1-ящик-с-усами-box-plot",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-011",
+        "title": "4.3. Тепловая карта (`imshow`)",
+        "section": "4-3-тепловая-карта-imshow",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-012",
+        "title": "4.4. Стековая диаграмма (`stackplot`)",
+        "section": "4-4-стековая-диаграмма-stackplot",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-013",
+        "title": "5.1. Подпись экстремума (максимум, минимум)",
+        "section": "5-1-подпись-экстремума-максимум-минимум",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-014",
+        "title": "5.3. Даты на оси X (временной ряд)",
+        "section": "5-3-даты-на-оси-x-временной-ряд",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-015",
+        "title": "7.1. Движущаяся синусоида",
+        "section": "7-1-движущаяся-синусоида",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1112",
+        "slug": "python/lab-1112-016",
+        "title": "9.1. Шаблон для экспериментов",
+        "section": "9-1-шаблон-для-экспериментов",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "1113": [
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-001",
+        "title": "Обязательные элементы",
+        "section": "pandas-bazovyy-shablon",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-002",
+        "title": "Создание таблицы и первый осмотр",
+        "section": "создание-таблицы-и-первый-осмотр",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-003",
+        "title": "Фильтрация строк",
+        "section": "pandas-osmotr",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-004",
+        "title": "Очистка — пропуски и дубликаты",
+        "section": "pandas-groupby",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-005",
+        "title": "merge — две таблицы в одну",
+        "section": "pandas-assign",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-006",
+        "title": "pivot_table — сводная таблица",
+        "section": "pandas-merge",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-007",
+        "title": "2. Отчёт «продажи по городам и товарам»",
+        "section": "pandas-csv",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-008",
+        "title": "3. Очистка «грязного» опроса",
+        "section": "pandas-otchet",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-009",
+        "title": "4. Временной ряд — продажи по месяцам",
+        "section": "pandas-gryaznye-dannye",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-010",
+        "title": "5. Строковые столбцы — поиск и извлечение",
+        "section": "pandas-vremya",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1113",
+        "slug": "python/lab-1113-011",
+        "title": "7. Цепочка методов — один пайплайн",
+        "section": "pandas-corr",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "1114": [
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-001",
+        "title": "Квадрат на p5.js (как forward + left в Turtle)",
+        "section": "kvadrat",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-002",
+        "title": "Равносторонний треугольник",
+        "section": "treugolnik",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-003",
+        "title": "Домик (стены + крыша)",
+        "section": "domik",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-004",
+        "title": "Простой красный цветок",
+        "section": "cvety",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-005",
+        "title": "Цветок из кругов с заливкой (розовый)",
+        "section": "цветок-из-кругов-с-заливкой-розовый",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-006",
+        "title": "Простая снежинка",
+        "section": "snezhinka",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-007",
+        "title": "Многослойный цветок",
+        "section": "многослойный-цветок",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-008",
+        "title": "Фрактальное дерево с рекурсией",
+        "section": "derevo",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-009",
+        "title": "Сердце (кривые Безье)",
+        "section": "сердце-кривые-безье",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-010",
+        "title": "Квадрат из точек (двойной цикл)",
+        "section": "квадрат-из-точек-двойной-цикл",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-011",
+        "title": "Шахматная сетка из точек",
+        "section": "шахматная-сетка-из-точек",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-012",
+        "title": "Сетка квадратов",
+        "section": "сетка-квадратов",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-013",
+        "title": "1.1. Равносторонний треугольник через вершины",
+        "section": "n-ugolnik",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-014",
+        "title": "1.2. Прямоугольник и квадрат",
+        "section": "1-2-прямоугольник-и-квадрат",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-015",
+        "title": "1.3. Правильный n-угольник",
+        "section": "1-3-правильный-n-угольник",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-016",
+        "title": "2.1. Звезда с n лучами",
+        "section": "2-1-звезда-с-n-лучами",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-017",
+        "title": "3.1. Цветок — лепестки по формуле",
+        "section": "3-1-цветок-лепестки-по-формуле",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-018",
+        "title": "3.2. Роза из дуг",
+        "section": "3-2-роза-из-дуг",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-019",
+        "title": "4.1. Дерево Пифагора",
+        "section": "koh",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-020",
+        "title": "4.2. Снежинка Коха",
+        "section": "4-2-снежинка-коха",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-021",
+        "title": "5.1. Спираль Архимеда",
+        "section": "spiral",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-022",
+        "title": "5.2. Полярная роза",
+        "section": "roza",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-023",
+        "title": "6.1. Вращающийся цветок",
+        "section": "6-1-вращающийся-цветок",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-024",
+        "title": "6.2. Пульсирующая спираль",
+        "section": "6-2-пульсирующая-спираль",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-025",
+        "title": "7.1. Замощение шестиугольниками («улей»)",
+        "section": "7-1-замощение-шестиугольниками-улей",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "1114",
+        "slug": "javascript/lab-1114-026",
+        "title": "9. Переиспользуемый шаблон для своих проектов",
+        "section": "9-переиспользуемый-шаблон-для-своих-проектов",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "1116": [
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-001",
+        "title": "Обязательный каркас",
+        "section": "обязательный-каркас",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-002",
+        "title": "Плавное появление (fade in)",
+        "section": "плавное-появление-fade-in",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-003",
+        "title": "Появление снизу (slide up)",
+        "section": "появление-снизу-slide-up",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-004",
+        "title": "Пульсация (pulse)",
+        "section": "пульсация-pulse",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-005",
+        "title": "Кнопка с hover и focus (transition)",
+        "section": "кнопка-с-hover-и-focus-transition",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-006",
+        "title": "Крутящийся спиннер",
+        "section": "крутящийся-спиннер",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-007",
+        "title": "Три прыгающие точки",
+        "section": "три-прыгающие-точки",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-008",
+        "title": "Skeleton shimmer",
+        "section": "skeleton-shimmer",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-009",
+        "title": "Полоска прогресса",
+        "section": "полоска-прогресса",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-010",
+        "title": "Тряска при ошибке (shake)",
+        "section": "тряска-при-ошибке-shake",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-011",
+        "title": "Парящий декор (float)",
+        "section": "парящий-декор-float",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-012",
+        "title": "Список с задержкой (stagger)",
+        "section": "список-с-задержкой-stagger",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "1116",
+        "slug": "html/lab-1116-013",
+        "title": "Модальное окно — затемнение и масштаб",
+        "section": "модальное-окно-затемнение-и-масштаб",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "1116",
+        "slug": "css/lab-1116-014",
+        "title": "Набор переиспользуемых классов",
+        "section": "набор-переиспользуемых-классов",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "1117": [
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-001",
+        "title": "Карточка по центру экрана",
+        "section": "карточка-по-центру-экрана",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-002",
+        "title": "Кнопки — основные варианты",
+        "section": "кнопки-основные-варианты",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-003",
+        "title": "Бейджи и метки статуса",
+        "section": "бейджи-и-метки-статуса",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-004",
+        "title": "Алерт — уведомление",
+        "section": "алерт-уведомление",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-005",
+        "title": "Аватар и строка профиля",
+        "section": "аватар-и-строка-профиля",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-006",
+        "title": "Шапка, контент и подвал (sticky footer)",
+        "section": "шапка-контент-и-подвал-sticky-footer",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-007",
+        "title": "Адаптивная сетка карточек",
+        "section": "адаптивная-сетка-карточек",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-008",
+        "title": "Навигация с липкой шапкой",
+        "section": "навигация-с-липкой-шапкой",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-009",
+        "title": "Вход по центру",
+        "section": "вход-по-центру",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-010",
+        "title": "Контактная форма в две колонки",
+        "section": "контактная-форма-в-две-колонки",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-011",
+        "title": "Hero — первый экран",
+        "section": "hero-первый-экран",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-012",
+        "title": "Три преимущества (feature grid)",
+        "section": "три-преимущества-feature-grid",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-013",
+        "title": "Тарифы (pricing)",
+        "section": "тарифы-pricing",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-014",
+        "title": "Статистика в одну строку",
+        "section": "статистика-в-одну-строку",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-015",
+        "title": "Отзыв (testimonial)",
+        "section": "отзыв-testimonial",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-016",
+        "title": "Карточка с hover-эффектом",
+        "section": "карточка-с-hover-эффектом",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-017",
+        "title": "Тёмная тема через класс `dark`",
+        "section": "тёмная-тема-через-класс-dark",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1117",
+        "slug": "html/lab-1117-018",
+        "title": "Bento-сетка (разные размеры ячеек)",
+        "section": "bento-сетка-разные-размеры-ячеек",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "1118": [
+      {
+        "article": "1118",
+        "slug": "python/lab-1118-001",
+        "title": "Обязательные элементы",
+        "section": "sympy-bazovyy-shablon",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1118",
+        "slug": "python/lab-1118-002",
+        "title": "Линейное уравнение",
+        "section": "sympy-solve",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1118",
+        "slug": "python/lab-1118-003",
+        "title": "Квадратное уравнение",
+        "section": "sympy-kvadrat",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1118",
+        "slug": "python/lab-1118-004",
+        "title": "Дискримinant (для отчёта и самопроверки)",
+        "section": "sympy-diskriminant",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1118",
+        "slug": "python/lab-1118-005",
+        "title": "Система двух уравнений с двумя неизвестными",
+        "section": "sympy-sistema",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1118",
+        "slug": "python/lab-1118-006",
+        "title": "2.1. Экстремумы — где f′(x) = 0",
+        "section": "sympy-extremum",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1118",
+        "slug": "python/lab-1118-007",
+        "title": "4.1. Решить уравнение и проверить корни",
+        "section": "4-1-решить-уравнение-и-проверить-корни",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "1119": [
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-001",
+        "title": "Обязательный каркас",
+        "section": "karkas",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-002",
+        "title": "Квадрат на SVG (аналог forward + left в Turtle)",
+        "section": "kvadrat",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-003",
+        "title": "Равносторонний треугольник",
+        "section": "treugolnik",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-004",
+        "title": "Домик (стены + крыша + дверь)",
+        "section": "domik",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-005",
+        "title": "Простой цветок из кругов",
+        "section": "cvety",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-006",
+        "title": "Цветок через цикл JavaScript (без копипаста координат)",
+        "section": "цветок-через-цикл-javascript-без-копипаста-коорд",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-007",
+        "title": "Простая снежинка",
+        "section": "snezhinka",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-008",
+        "title": "Сердце",
+        "section": "serdtse",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-009",
+        "title": "1.1. Правильный n-угольник",
+        "section": "n-ugolnik",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-010",
+        "title": "2.2. Полярная «роза»",
+        "section": "2-2-полярная-роза",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-011",
+        "title": "3. Заливки и градиенты",
+        "section": "3-заливки-и-градиенты",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-012",
+        "title": "4.1. Шахматная доска (как в Turtle — сетка квадратов)",
+        "section": "setka",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-013",
+        "title": "4.2. Соты (шестиугольная сетка)",
+        "section": "4-2-соты-шестиугольная-сетка",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-014",
+        "title": "5.1. Дерево с рекурсией",
+        "section": "derevo",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-015",
+        "title": "5.2. Снежинка Коха",
+        "section": "koh",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "1119",
+        "slug": "html/lab-1119-016",
+        "title": "6.2. CSS-анимация inline-SVG (работает в Chrome)",
+        "section": "6-2-css-анимация-inline-svg-работает-в-chrome",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "1122": [
+      {
+        "article": "1122",
+        "slug": "python/lab-1122-001",
+        "title": "2.2. Есть ли тройка с суммой 0",
+        "section": "2-2-есть-ли-тройка-с-суммой-0",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1122",
+        "slug": "python/lab-1122-002",
+        "title": "4.3. Бинарный поиск в отсортированном массиве",
+        "section": "4-3-бинарный-поиск-в-отсортированном-массиве",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1122",
+        "slug": "python/lab-1122-003",
+        "title": "6.2. Слияние двух отсортированных списков",
+        "section": "6-2-слияние-двух-отсортированных-списков",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1122",
+        "slug": "python/lab-1122-004",
+        "title": "9.1. DFS — сколько проходимых клеток",
+        "section": "9-1-dfs-сколько-проходимых-клеток",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1122",
+        "slug": "python/lab-1122-005",
+        "title": "9.2. BFS — кратчайший путь в лабиринте",
+        "section": "9-2-bfs-кратчайший-путь-в-лабиринте",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1122",
+        "slug": "python/lab-1122-006",
+        "title": "9.3. Граф как списки соседей — DFS итеративно",
+        "section": "9-3-граф-как-списки-соседей-dfs-итеративно",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "1124": [
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-001",
+        "title": "Поле ввода и приветствие",
+        "section": "поле-ввода-и-приветствие",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-002",
+        "title": "Конвертер °C → °F",
+        "section": "конвертер-c-f",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-003",
+        "title": "Флажок и переключатели",
+        "section": "флажок-и-переключатели",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-004",
+        "title": "Список задач (Listbox)",
+        "section": "список-задач-listbox",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-005",
+        "title": "Ползунок громкости",
+        "section": "ползунок-громкости",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-006",
+        "title": "1.1. Форма входа на grid",
+        "section": "1-1-форма-входа-на-grid",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-007",
+        "title": "1.2. Панель инструментов через pack",
+        "section": "1-2-панель-инструментов-через-pack",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-008",
+        "title": "1.3. Размещение place по координатам",
+        "section": "1-3-размещение-place-по-координатам",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-009",
+        "title": "2.1. Text с прокруткой",
+        "section": "2-1-text-с-прокруткой",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-010",
+        "title": "2.2. Счётчик символов (реактивный интерфейс)",
+        "section": "2-2-счётчик-символов-реактивный-интерфейс",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-011",
+        "title": "3.1. Combobox (ttk)",
+        "section": "3-1-combobox-ttk",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-012",
+        "title": "3.2. Таблица Treeview",
+        "section": "3-2-таблица-treeview",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-013",
+        "title": "3.3. Поиск и фильтр Listbox",
+        "section": "3-3-поиск-и-фильтр-listbox",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-014",
+        "title": "4.1. MenuBar — меню «Файл / Справка»",
+        "section": "4-1-menubar-меню-файл-справка",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-015",
+        "title": "4.2. StatusBar — строка состояния",
+        "section": "4-2-statusbar-строка-состояния",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-016",
+        "title": "4.3. Контекстное меню по ПКМ",
+        "section": "4-3-контекстное-меню-по-пкм",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-017",
+        "title": "5.1. Выбор файла и цвета",
+        "section": "5-1-выбор-файла-и-цвета",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-018",
+        "title": "5.2. Модальное окно Toplevel",
+        "section": "5-2-модальное-окно-toplevel",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-019",
+        "title": "6.1. Notebook — вкладки",
+        "section": "6-1-notebook-вкладки",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-020",
+        "title": "6.2. Progressbar — индикатор загрузки",
+        "section": "6-2-progressbar-индикатор-загрузки",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-021",
+        "title": "6.3. ttk — более «системный» вид",
+        "section": "6-3-ttk-более-системный-вид",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-022",
+        "title": "7.1. Фигуры на Canvas",
+        "section": "7-1-фигуры-на-canvas",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-023",
+        "title": "7.2. Рисовалка мышью",
+        "section": "7-2-рисовалка-мышью",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-024",
+        "title": "8.1. Секундомер",
+        "section": "8-1-секундомер",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-025",
+        "title": "8.2. Горячие клавиши Ctrl+S / Ctrl+Q",
+        "section": "8-2-горячие-клавиши-ctrl-s-ctrl-q",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-026",
+        "title": "9.1. Калькулятор",
+        "section": "9-1-калькулятор",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-027",
+        "title": "9.2. Блокнот с файлами",
+        "section": "9-2-блокнот-с-файлами",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-028",
+        "title": "9.3. Конвертер валют (демо)",
+        "section": "9-3-конвертер-валют-демо",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-029",
+        "title": "10.1. Окно по центру экрана",
+        "section": "10-1-окно-по-центру-экрана",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1124",
+        "slug": "python/lab-1124-030",
+        "title": "10.3. Длинная форма с прокруткой",
+        "section": "10-3-длинная-форма-с-прокруткой",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "1125": [
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-001",
+        "title": "Обязательный каркас",
+        "section": "обязательный-каркас",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-002",
+        "title": "Сумма n чисел",
+        "section": "сумма-n-чисел",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-003",
+        "title": "Несколько независимых тестов",
+        "section": "несколько-независимых-тестов",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-004",
+        "title": "Пара с заданной суммой в отсортированном массиве",
+        "section": "пара-с-заданной-суммой-в-отсортированном-массиве",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-005",
+        "title": "BFS — кратчайшие расстояния без весов",
+        "section": "bfs-кратчайшие-расстояния-без-весов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-006",
+        "title": "DFS — обход, острова, компоненты",
+        "section": "dfs-обход-острова-компоненты",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-007",
+        "title": "BFS на сетке (лабиринт)",
+        "section": "bfs-на-сетке-лабиринт",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-008",
+        "title": "11. DSU (система непересекающихся множеств)",
+        "section": "11-dsu-система-непересекающихся-множеств",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1125",
+        "slug": "cpp/lab-1125-009",
+        "title": "13. Файл целиком на контест",
+        "section": "13-файл-целиком-на-контест",
+        "blocks": 1,
+        "lines": 35
+      }
+    ],
+    "1126": [
+      {
+        "article": "1126",
+        "slug": "python/lab-1126-001",
+        "title": "4.4. Самые частые слова",
+        "section": "4-4-самые-частые-слова",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1126",
+        "slug": "python/lab-1126-002",
+        "title": "6.1. Запись и чтение",
+        "section": "6-1-запись-и-чтение",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1126",
+        "slug": "python/lab-1126-003",
+        "title": "8.5. Самый длинный `.txt` в папке",
+        "section": "8-5-самый-длинный-txt-в-папке",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "1127": [
+      {
+        "article": "1127",
+        "slug": "python/lab-1127-001",
+        "title": "Счётчик и условие",
+        "section": "счётчик-и-условие",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1127",
+        "slug": "python/lab-1127-002",
+        "title": "2. Движение стрелками (упрощённо)",
+        "section": "2-движение-стрелками-упрощённо",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "1128": [
+      {
+        "article": "1128",
+        "slug": "python/lab-1128-001",
+        "title": "Пример 1 — бинарный поиск",
+        "section": "пример-1-бинарный-поиск",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1128",
+        "slug": "python/lab-1128-002",
+        "title": "Пример 2 — merge sort (идея «уровней»)",
+        "section": "пример-2-merge-sort-идея-уровней",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1128",
+        "slug": "python/lab-1128-003",
+        "title": "O(n³) — кубическое время",
+        "section": "on3-kub",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1128",
+        "slug": "python/lab-1128-004",
+        "title": "Печать всех перестановок (backtracking)",
+        "section": "печать-всех-перестановок-backtracking",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1128",
+        "slug": "python/lab-1128-005",
+        "title": "Ловушка 2 — очередь на `list`",
+        "section": "ловушка-2-очередь-на-list",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1128",
+        "slug": "python/lab-1128-006",
+        "title": "Задача A — membership для списка запросов",
+        "section": "задача-a-membership-для-списка-запросов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1128",
+        "slug": "python/lab-1128-007",
+        "title": "Задача B — two sum (есть ли пара с суммой k)",
+        "section": "задача-b-two-sum-есть-ли-пара-с-суммой-k",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "1129": [
+      {
+        "article": "1129",
+        "slug": "python/lab-1129-001",
+        "title": "Список Python и NumPy — в чём разница",
+        "section": "numpy-vs-list",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1129",
+        "slug": "python/lab-1129-002",
+        "title": "Создание массива из списка и конструкторы",
+        "section": "numpy-sozdanie",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1129",
+        "slug": "python/lab-1129-003",
+        "title": "arange и linspace — последовательности и сетка для графика",
+        "section": "numpy-setka",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1129",
+        "slug": "python/lab-1129-004",
+        "title": "Индексация, срезы и булева маска",
+        "section": "numpy-indeks",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1129",
+        "slug": "python/lab-1129-005",
+        "title": "Матрицы — dot, @ и скалярное произведение",
+        "section": "numpy-matritsy",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "1131": [
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-001",
+        "title": "Шаблон B — массив из n чисел (две строки входа)",
+        "section": "шаблон-b-массив-из-n-чисел-две-строки-входа",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-002",
+        "title": "Шаблон C — все числа в одной строке",
+        "section": "шаблон-c-все-числа-в-одной-строке",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-003",
+        "title": "Шаблон D — быстрое чтение (`BufferedReader`)",
+        "section": "шаблон-d-быстрое-чтение-bufferedreader",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-004",
+        "title": "Количество чётных в массиве",
+        "section": "количество-чётных-в-массиве",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-005",
+        "title": "Максимум и индекс (нумерация с 1)",
+        "section": "максимум-и-индекс-нумерация-с-1",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-006",
+        "title": "FizzBuzz до n",
+        "section": "fizzbuzz-до-n",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-007",
+        "title": "1.1. Массив фиксированной длины — вывод в обратном порядке",
+        "section": "1-1-массив-фиксированной-длины-вывод-в-обратном-",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-008",
+        "title": "1.2. `ArrayList` — когда длина заранее неизвестна",
+        "section": "1-2-arraylist-когда-длина-заранее-неизвестна",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-009",
+        "title": "1.3. Префиксные суммы — сумма на отрезке [l, r]",
+        "section": "1-3-префиксные-суммы-сумма-на-отрезке-l-r",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-010",
+        "title": "2.1. Подсчёт частот слов (`HashMap`)",
+        "section": "2-1-подсчёт-частот-слов-hashmap",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-011",
+        "title": "2.2. Сколько различных чисел (`HashSet`)",
+        "section": "2-2-сколько-различных-чисел-hashset",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-012",
+        "title": "2.3. Есть ли пара с суммой k (Two Sum)",
+        "section": "2-3-есть-ли-пара-с-суммой-k-two-sum",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-013",
+        "title": "3.1. Сортировка массива по возрастанию",
+        "section": "3-1-сортировка-массива-по-возрастанию",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-014",
+        "title": "3.2. Бинарный поиск",
+        "section": "3-2-бинарный-поиск",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-015",
+        "title": "3.3. K-й по величине элемент",
+        "section": "3-3-k-й-по-величине-элемент",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-016",
+        "title": "4.1. Палиндром",
+        "section": "4-1-палиндром",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-017",
+        "title": "4.2. Подсчёт гласных",
+        "section": "4-2-подсчёт-гласных",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-018",
+        "title": "4.3. Разворот слов в предложении",
+        "section": "4-3-разворот-слов-в-предложении",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-019",
+        "title": "5.1. НОД — алгоритм Евклида",
+        "section": "5-1-нод-алгоритм-евклида",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-020",
+        "title": "5.2. Простое ли число",
+        "section": "5-2-простое-ли-число",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-021",
+        "title": "5.3. Факториал",
+        "section": "5-3-факториал",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-022",
+        "title": "6.1. Меню с `switch`",
+        "section": "6-1-меню-с-switch",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-023",
+        "title": "6.2. Угадай число",
+        "section": "6-2-угадай-число",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-024",
+        "title": "7.2. Несколько тестов в одном запуске",
+        "section": "7-2-несколько-тестов-в-одном-запуске",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-025",
+        "title": "8.1. Сумма элементов массива",
+        "section": "8-1-сумма-элементов-массива",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-026",
+        "title": "8.2. Среднее арифметическое массива",
+        "section": "8-2-среднее-арифметическое-массива",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-027",
+        "title": "8.3. Минимум в массиве",
+        "section": "8-3-минимум-в-массиве",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-028",
+        "title": "8.4. Разворот строки",
+        "section": "8-4-разворот-строки",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-029",
+        "title": "8.5. Сортировка пузырьком (Bubble Sort)",
+        "section": "8-5-сортировка-пузырьком-bubble-sort",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-030",
+        "title": "8.6. Линейный поиск",
+        "section": "8-6-линейный-поиск",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-031",
+        "title": "8.7. Числа Фибоначчи до n",
+        "section": "8-7-числа-фибоначчи-до-n",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-032",
+        "title": "8.8. Количество цифр в числе",
+        "section": "8-8-количество-цифр-в-числе",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-033",
+        "title": "8.9. Удалить дубликаты, сохранив порядок",
+        "section": "8-9-удалить-дубликаты-сохранив-порядок",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1131",
+        "slug": "java/lab-1131-034",
+        "title": "8.10. Подсчёт слов в строке",
+        "section": "8-10-подсчёт-слов-в-строке",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "1132": [
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-001",
+        "title": "Обязательный каркас",
+        "section": "karkas",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-002",
+        "title": "Отскакивающий шар",
+        "section": "bounce",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-003",
+        "title": "След за курсором",
+        "section": "trail",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-004",
+        "title": "Кликер — очки за попадание",
+        "section": "clicker",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-005",
+        "title": "Реакция — нажми, когда зелёный",
+        "section": "reaction",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-006",
+        "title": "1.1. Pong (две ракетки)",
+        "section": "pong",
+        "blocks": 1,
+        "lines": 72
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-007",
+        "title": "1.2. Змейка",
+        "section": "snake",
+        "blocks": 1,
+        "lines": 91
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-008",
+        "title": "1.3. Flappy — прыжок между препятствиями",
+        "section": "flappy",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-009",
+        "title": "1.4. Breakout — кирпичи и платформа",
+        "section": "breakout",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-010",
+        "title": "2.1. Лови падающие звёзды",
+        "section": "catch",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-011",
+        "title": "2.2. Уклоняйся от машин",
+        "section": "dodge",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-012",
+        "title": "3.1. Вид сверху — стрельба по врагам",
+        "section": "shooter",
+        "blocks": 1,
+        "lines": 116
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-013",
+        "title": "3.2. Космические захватчики (упрощённо)",
+        "section": "invaders",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-014",
+        "title": "4.1. Найди отличающийся квадрат",
+        "section": "odd",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-015",
+        "title": "4.2. Таймер на выживание 30 секунд",
+        "section": "survive",
+        "blocks": 1,
+        "lines": 70
+      }
+    ],
+    "1133": [
+      {
+        "article": "1133",
+        "slug": "javascript/lab-1133-001",
+        "title": "fetch — POST с JSON (браузер или Node)",
+        "section": "fetch-post-с-json-браузер-или-node",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1133",
+        "slug": "javascript/lab-1133-002",
+        "title": "4. fetch — таймаут (не ждать вечно)",
+        "section": "4-fetch-таймаут-не-ждать-вечно",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1133",
+        "slug": "javascript/lab-1133-003",
+        "title": "5. fetch — повтор при сбое сервера (retry)",
+        "section": "5-fetch-повтор-при-сбое-сервера-retry",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1133",
+        "slug": "python/lab-1133-004",
+        "title": "6. Python — библиотека requests",
+        "section": "6-python-библиотека-requests",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1133",
+        "slug": "bash/lab-1133-005",
+        "title": "8. Скрипт health-check для cron или отчёта",
+        "section": "8-скрипт-health-check-для-cron-или-отчёта",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1133",
+        "slug": "bash/lab-1133-006",
+        "title": "Шпаргалка — скопировать в тетрадь",
+        "section": "шпаргалка-скопировать-в-тетрадь",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "1134": [
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-001",
+        "title": "Node.js — установка и тесты (самый частый запрос)",
+        "section": "node-js-установка-и-тесты-самый-частый-запрос",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-002",
+        "title": "Python — pytest",
+        "section": "python-pytest",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-003",
+        "title": "Только pull request — проверки без деплоя",
+        "section": "только-pull-request-проверки-без-деплоя",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-004",
+        "title": "Java — Maven (сборка и тесты)",
+        "section": "java-maven-сборка-и-тесты",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-005",
+        "title": "1. Matrix — Node 18 и 20 параллельно",
+        "section": "1-matrix-node-18-и-20-параллельно",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-006",
+        "title": "4. Артефакты — сохранить папку build/",
+        "section": "4-артефакты-сохранить-папку-build",
+        "blocks": 2,
+        "lines": 36
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-007",
+        "title": "5. Условный деплой только с main",
+        "section": "5-условный-деплой-только-с-main",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-008",
+        "title": "6. Официальный деплой GitHub Pages",
+        "section": "6-официальный-деплой-github-pages",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-009",
+        "title": "7. Расписание cron — ночной smoke test",
+        "section": "7-расписание-cron-ночной-smoke-test",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-010",
+        "title": "8. Concurrency — отмена старых run",
+        "section": "8-concurrency-отмена-старых-run",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-011",
+        "title": "9. Reusable workflow — один шаблон для всех студентов",
+        "section": "9-reusable-workflow-один-шаблон-для-всех-студент",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-012",
+        "title": "10. Docker — проверить сборку Dockerfile",
+        "section": "10-docker-проверить-сборку-dockerfile",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1134",
+        "slug": "yaml/lab-1134-013",
+        "title": "Реальный пример — деплой этого сайта",
+        "section": "реальный-пример-деплой-этого-сайта",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "1135": [
+      {
+        "article": "1135",
+        "slug": "cpp/lab-1135-001",
+        "title": "Кнопка включает светодиод",
+        "section": "button",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1135",
+        "slug": "cpp/lab-1135-002",
+        "title": "Плавная яркость (ШИМ, PWM)",
+        "section": "pwm",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1135",
+        "slug": "cpp/lab-1135-003",
+        "title": "Потенциометр управляет яркостью",
+        "section": "sensor",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1135",
+        "slug": "cpp/lab-1135-004",
+        "title": "Светофор на трёх LED",
+        "section": "traffic",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1135",
+        "slug": "cpp/lab-1135-005",
+        "title": "«Бегущий огонь» на пяти LED",
+        "section": "chase",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1135",
+        "slug": "cpp/lab-1135-006",
+        "title": "Звуковой сигнал (`tone`)",
+        "section": "tone",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1135",
+        "slug": "cpp/lab-1135-007",
+        "title": "Переключение LED по нажатию (один щелчок — одно переключение)",
+        "section": "toggle",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "1136": [
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-001",
+        "title": "Обязательный каркас MonoBehaviour",
+        "section": "karkas",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-002",
+        "title": "Движение по WASD",
+        "section": "move-wasd",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-003",
+        "title": "Прыжок и ходьба с Rigidbody",
+        "section": "jump",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-004",
+        "title": "Монетка и счёт (OnTriggerEnter)",
+        "section": "coin",
+        "blocks": 2,
+        "lines": 40
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-005",
+        "title": "Спавн префаба по клавише",
+        "section": "spawn",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-006",
+        "title": "Камера следует за игроком",
+        "section": "camera",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-007",
+        "title": "UI — текст счёта и кнопка",
+        "section": "ui-button",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-008",
+        "title": "Смена цвета по клавише C",
+        "section": "color",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1136",
+        "slug": "csharp/lab-1136-009",
+        "title": "Патруль и преследование игрока",
+        "section": "patrol",
+        "blocks": 2,
+        "lines": 48
+      }
+    ],
+    "1137": [
+      {
+        "article": "1137",
+        "slug": "latex/lab-1137-001",
+        "title": "Обязательный каркас",
+        "section": "karkas",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "1137",
+        "slug": "latex/lab-1137-002",
+        "title": "Таблица измерений",
+        "section": "таблица-измерений",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1137",
+        "slug": "latex/lab-1137-003",
+        "title": "Шаблон «лабораторная с формулами»",
+        "section": "шаблон-лабораторная-с-формулами",
+        "blocks": 1,
+        "lines": 54
+      }
+    ],
+    "1138": [
+      {
+        "article": "1138",
+        "slug": "csharp/lab-1138-001",
+        "title": "Обязательный каркас WinForms",
+        "section": "karkas-winforms",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1138",
+        "slug": "csharp/lab-1138-002",
+        "title": "WinForms — полный `Program.cs`",
+        "section": "winforms-полный-program-cs",
+        "blocks": 5,
+        "lines": 255
+      },
+      {
+        "article": "1138",
+        "slug": "xml/lab-1138-003",
+        "title": "WPF — `MainWindow.xaml`",
+        "section": "wpf-mainwindow-xaml",
+        "blocks": 2,
+        "lines": 44
+      },
+      {
+        "article": "1138",
+        "slug": "xml/lab-1138-004",
+        "title": "WPF — ключевые файлы",
+        "section": "wpf-ключевые-файлы",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1138",
+        "slug": "csharp/lab-1138-005",
+        "title": "WinForms — фрагмент для `Main` (после создания `form`)",
+        "section": "winforms-фрагмент-для-main-после-создания-form",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1138",
+        "slug": "csharp/lab-1138-006",
+        "title": "WinForms — TableLayoutPanel",
+        "section": "winforms-tablelayoutpanel",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1138",
+        "slug": "xml/lab-1138-007",
+        "title": "WPF — Grid + PasswordBox",
+        "section": "wpf-grid-passwordbox",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1138",
+        "slug": "csharp/lab-1138-008",
+        "title": "4. Мини-калькулятор сложения (WinForms)",
+        "section": "4-мини-калькулятор-сложения-winforms",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "1140": [
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-001",
+        "title": "Шаблон B — массив из n чисел",
+        "section": "шаблон-b-массив-из-n-чисел",
+        "blocks": 2,
+        "lines": 40
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-002",
+        "title": "Шаблон C — динамический массив (`SetLength`)",
+        "section": "шаблон-c-динамический-массив-setlength",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-003",
+        "title": "Шаблон E — числа в одной строке без n",
+        "section": "шаблон-e-числа-в-одной-строке-без-n",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-004",
+        "title": "Максимум в массиве",
+        "section": "максимум-в-массиве",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-005",
+        "title": "FizzBuzz до n",
+        "section": "fizzbuzz-до-n",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-006",
+        "title": "Числа Фибоначчи",
+        "section": "числа-фибоначчи",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-007",
+        "title": "1.1. Подсчёт положительных элементов",
+        "section": "1-1-подсчёт-положительных-элементов",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-008",
+        "title": "1.2. Разворот массива",
+        "section": "1-2-разворот-массива",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-009",
+        "title": "1.3. Префиксные суммы",
+        "section": "1-3-префиксные-суммы",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-010",
+        "title": "2.1. Функция — простое ли число",
+        "section": "2-1-функция-простое-ли-число",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-011",
+        "title": "2.2. Процедура с параметром `var` (обмен значений)",
+        "section": "2-2-процедура-с-параметром-var-обмен-значений",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-012",
+        "title": "2.3. Рекурсия — факториал",
+        "section": "2-3-рекурсия-факториал",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-013",
+        "title": "3.1. Сортировка пузырьком",
+        "section": "3-1-сортировка-пузырьком",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-014",
+        "title": "3.2. Бинарный поиск в отсортированном массиве",
+        "section": "3-2-бинарный-поиск-в-отсортированном-массиве",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-015",
+        "title": "4.1. Палиндром",
+        "section": "41-палиндром",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-016",
+        "title": "4.2. Подсчёт слов (упрощённо — по пробелам)",
+        "section": "4-2-подсчёт-слов-упрощённо-по-пробелам",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-017",
+        "title": "5.1. НОД (алгоритм Евклида)",
+        "section": "51-нод-алгоритм-евклида",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-018",
+        "title": "5.2. Решето Эратосфена (простые до n)",
+        "section": "5-2-решето-эратосфена-простые-до-n",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-019",
+        "title": "5.3. Быстрое возведение в степень по модулю",
+        "section": "5-3-быстрое-возведение-в-степень-по-модулю",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-020",
+        "title": "6.1. Запись — ученик",
+        "section": "6-1-запись-ученик",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-021",
+        "title": "6.2. Множество символов — гласные",
+        "section": "6-2-множество-символов-гласные",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-022",
+        "title": "7.1. Чтение чисел из текстового файла",
+        "section": "7-1-чтение-чисел-из-текстового-файла",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-023",
+        "title": "7.2. Запись таблицы в файл",
+        "section": "7-2-запись-таблицы-в-файл",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-024",
+        "title": "8. Интерактивное меню",
+        "section": "8-интерактивное-меню",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-025",
+        "title": "Полный каркас для контрольной (копировать в начало)",
+        "section": "полный-каркас-для-контрольной-копировать-в-начал",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-026",
+        "title": "10.1. Линейный поиск в массиве",
+        "section": "86-линейный-поиск-в-массиве",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-027",
+        "title": "10.2. Первые n чисел Фибоначчи",
+        "section": "102-первые-n-чисел-фибоначчи",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-028",
+        "title": "10.3. Количество цифр в числе",
+        "section": "87-количество-цифр-в-числе",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-029",
+        "title": "10.4. Сумма элементов массива (явное хранение)",
+        "section": "10-4-сумма-элементов-массива-явное-хранение",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1140",
+        "slug": "pascal/lab-1140-030",
+        "title": "10.5. Минимум в массиве",
+        "section": "10-5-минимум-в-массиве",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "1141": [
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-001",
+        "title": "Кирпич-смерть (лава, Touched)",
+        "section": "kill",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-002",
+        "title": "LeaderstatsSetup (ServerScriptService)",
+        "section": "leaderstatssetup-serverscriptservice",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-003",
+        "title": "CoinPickup (Script внутри Coin)",
+        "section": "coinpickup-script-внутри-coin",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-004",
+        "title": "Прыжковая платформа",
+        "section": "jump-pad",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-005",
+        "title": "Спринт по Left Shift (LocalScript)",
+        "section": "move",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-006",
+        "title": "UI — надпись «Монеты: N»",
+        "section": "ui",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-007",
+        "title": "CoinServer (сервер)",
+        "section": "coinserver-сервер",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-008",
+        "title": "CoinClient (клиент)",
+        "section": "coinclient-клиент",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1141",
+        "slug": "lua/lab-1141-009",
+        "title": "Спавн падающих кубов",
+        "section": "spawner",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "1143": [
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-001",
+        "title": "Обязательный каркас Swing",
+        "section": "karkas",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-002",
+        "title": "Минимальное окно с меткой",
+        "section": "label",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-003",
+        "title": "Кнопка и диалог JOptionPane",
+        "section": "button",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-004",
+        "title": "Поле ввода и приветствие",
+        "section": "form",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-005",
+        "title": "Конвертер °C → °F",
+        "section": "converter",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-006",
+        "title": "Флажок и переключатели",
+        "section": "settings",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-007",
+        "title": "Список задач (JList)",
+        "section": "todo",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-008",
+        "title": "Ползунок громкости",
+        "section": "slider",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-009",
+        "title": "Форма входа (GridLayout + пароль)",
+        "section": "login",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-010",
+        "title": "Меню и строка состояния",
+        "section": "menu",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-011",
+        "title": "Простой калькулятор (+ и −)",
+        "section": "calc",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "1143",
+        "slug": "java/lab-1143-012",
+        "title": "Счётчик (кнопка меняет JLabel)",
+        "section": "counter",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "1144": [
+      {
+        "article": "1144",
+        "slug": "html/lab-1144-001",
+        "title": "Обязательный каркас",
+        "section": "обязательный-каркас",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1144",
+        "slug": "html/lab-1144-002",
+        "title": "Приветствие по кнопке",
+        "section": "приветствие-по-кнопке",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1144",
+        "slug": "html/lab-1144-003",
+        "title": "Переключение класса «активен»",
+        "section": "count",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1144",
+        "slug": "html/lab-1144-004",
+        "title": "10.1. Раскрывающийся блок",
+        "section": "10-hidden",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1144",
+        "slug": "html/lab-1144-005",
+        "title": "25.1. Клон разметки",
+        "section": "25-template",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1144",
+        "slug": "html/lab-1144-006",
+        "title": "30.1. Комментарии пользователя",
+        "section": "30-bezopasnyy-spisok",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "1145": [
+      {
+        "article": "1145",
+        "slug": "javascript/lab-1145-001",
+        "title": "5. Таймаут",
+        "section": "таймаут",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1145",
+        "slug": "javascript/lab-1145-002",
+        "title": "6. Retry при сбое сервера",
+        "section": "6-retry-при-сбое-сервера",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1145",
+        "slug": "javascript/lab-1145-003",
+        "title": "7. Interceptors в axios",
+        "section": "interceptors-в-axios",
+        "blocks": 2,
+        "lines": 46
+      },
+      {
+        "article": "1145",
+        "slug": "javascript/lab-1145-004",
+        "title": "8. Параллельные запросы",
+        "section": "8-параллельные-запросы",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1145",
+        "slug": "javascript/lab-1145-005",
+        "title": "9. React — загрузка в useEffect",
+        "section": "react-загрузка-в-useeffect",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1145",
+        "slug": "javascript/lab-1145-006",
+        "title": "Шпаргалка — скопировать в тетрадь",
+        "section": "шпаргалка-скопировать-в-тетрадь",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "1146": [
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-001",
+        "title": "Счётчик",
+        "section": "counter",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-002",
+        "title": "Поле имени и приветствие",
+        "section": "greeting",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-003",
+        "title": "Переключатель вкл/выкл",
+        "section": "toggle",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-004",
+        "title": "Флажки и переключатели роли",
+        "section": "settings",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-005",
+        "title": "Кнопка с вариантами (Button)",
+        "section": "ui-button",
+        "blocks": 3,
+        "lines": 72
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-006",
+        "title": "Skeleton-карточка и загрузка данных",
+        "section": "ui-skeleton",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-007",
+        "title": "Switch темы и localStorage",
+        "section": "ui-theme-switch",
+        "blocks": 2,
+        "lines": 46
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-008",
+        "title": "Tooltip (подсказка)",
+        "section": "ui-tooltip",
+        "blocks": 2,
+        "lines": 39
+      },
+      {
+        "article": "1146",
+        "slug": "text/lab-1146-009",
+        "title": "Те же UI-компоненты на TypeScript (`.tsx`)",
+        "section": "ui-typescript",
+        "blocks": 5,
+        "lines": 176
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-010",
+        "title": "Todo-список с фильтром",
+        "section": "todo",
+        "blocks": 1,
+        "lines": 81
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-011",
+        "title": "Конвертер °C → °F",
+        "section": "converter",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-012",
+        "title": "Модальное окно",
+        "section": "modal",
+        "blocks": 2,
+        "lines": 53
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-013",
+        "title": "Вкладки",
+        "section": "tabs",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-014",
+        "title": "Поиск по списку",
+        "section": "search",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-015",
+        "title": "Форма входа с проверкой",
+        "section": "login",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-016",
+        "title": "Загрузка, ошибка, пустой список",
+        "section": "loading",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-017",
+        "title": "Список заметок с API",
+        "section": "fetch-list",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-018",
+        "title": "Подъём state — переиспользуемый Counter",
+        "section": "lift",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-019",
+        "title": "Свой хук `useLocalStorage`",
+        "section": "custom-hook",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-020",
+        "title": "Тёмная тема через Context",
+        "section": "context",
+        "blocks": 2,
+        "lines": 46
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-021",
+        "title": "React Router — минимальная навигация",
+        "section": "router",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1146",
+        "slug": "javascript/lab-1146-022",
+        "title": "Лендинг из секций",
+        "section": "composition",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "1147": [
+      {
+        "article": "1147",
+        "slug": "vue/lab-1147-001",
+        "title": "Минимальный `src/App.vue`",
+        "section": "минимальный-src-app-vue",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1147",
+        "slug": "svelte/lab-1147-002",
+        "title": "Обязательный каркас Svelte",
+        "section": "svelte-karkas",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1147",
+        "slug": "vue/lab-1147-003",
+        "title": "Счётчик и поле имени — Vue",
+        "section": "vue-counter",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "1147",
+        "slug": "svelte/lab-1147-004",
+        "title": "Счётчик и поле имени — Svelte",
+        "section": "svelte-counter",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "1147",
+        "slug": "vue/lab-1147-005",
+        "title": "Список задач — Vue",
+        "section": "vue-todo",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "1147",
+        "slug": "svelte/lab-1147-006",
+        "title": "Список задач — Svelte",
+        "section": "svelte-todo",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "1147",
+        "slug": "vue/lab-1147-007",
+        "title": "Загрузка с API — Vue",
+        "section": "vue-fetch",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "1147",
+        "slug": "svelte/lab-1147-008",
+        "title": "Загрузка с API — Svelte",
+        "section": "svelte-fetch",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1147",
+        "slug": "vue/lab-1147-009",
+        "title": "Дочерний компонент — Vue",
+        "section": "vue-child",
+        "blocks": 2,
+        "lines": 34
+      },
+      {
+        "article": "1147",
+        "slug": "vue/lab-1147-010",
+        "title": "Форма с проверкой — Vue",
+        "section": "vue-form",
+        "blocks": 1,
+        "lines": 35
+      }
+    ],
+    "1149": [
+      {
+        "article": "1149",
+        "slug": "json/lab-1149-001",
+        "title": "Что возвращает сервер — структура JSON",
+        "section": "что-возвращает-сервер-структура-json",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "1149",
+        "slug": "javascript/lab-1149-002",
+        "title": "Вызов из Node.js (fetch)",
+        "section": "node-fetch",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1149",
+        "slug": "python/lab-1149-003",
+        "title": "Роль system в messages",
+        "section": "system-role",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1149",
+        "slug": "python/lab-1149-004",
+        "title": "Ответ в JSON (response_format)",
+        "section": "json-mode",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1149",
+        "slug": "python/lab-1149-005",
+        "title": "Потоковый ответ (streaming)",
+        "section": "streaming",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1149",
+        "slug": "python/lab-1149-006",
+        "title": "Поиск ближайшего текста по смыслу",
+        "section": "поиск-ближайшего-текста-по-смыслу",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1149",
+        "slug": "python/lab-1149-007",
+        "title": "Диалог с историей",
+        "section": "history",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1149",
+        "slug": "python/lab-1149-008",
+        "title": "Типичные ошибки — симптом, причина, код",
+        "section": "errors",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1149",
+        "slug": "python/lab-1149-009",
+        "title": "Обязательный шаблон — файл ask.py",
+        "section": "ask-template",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "1151": [
+      {
+        "article": "1151",
+        "slug": "bash/lab-1151-001",
+        "title": "Проверка — файл или каталог",
+        "section": "проверка-файл-или-каталог",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "1153": [
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-001",
+        "title": "Обязательный каркас каждой страницы",
+        "section": "html-karkas",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-002",
+        "title": "Статья с заголовками и оглавлением",
+        "section": "html-article",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-003",
+        "title": "Списки — маркированный и нумерованный",
+        "section": "html-spiski",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-004",
+        "title": "Таблица — расписание",
+        "section": "html-tablica",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-005",
+        "title": "Форма обратной связи",
+        "section": "html-forma",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-006",
+        "title": "Изображение, подпись и ссылки",
+        "section": "html-media",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-007",
+        "title": "FAQ на `<details>` и `<summary>`",
+        "section": "html-details",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-008",
+        "title": "Портфолио школьника или студента",
+        "section": "html-portfolio",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-009",
+        "title": "Резюме одной страницей",
+        "section": "html-rezume",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-010",
+        "title": "Лендинг кружка или проекта",
+        "section": "html-landing",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-011",
+        "title": "Страница блога — один пост",
+        "section": "страница-блога-один-пост",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "1153",
+        "slug": "html/lab-1153-012",
+        "title": "Чистая база для своего проекта",
+        "section": "html-baza",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "1154": [
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-001",
+        "title": "Обязательный каркас",
+        "section": "karkas",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-002",
+        "title": "Hello Flutter",
+        "section": "hello",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-003",
+        "title": "Счётчик",
+        "section": "counter",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-004",
+        "title": "Кнопка и SnackBar",
+        "section": "button",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-005",
+        "title": "Поле ввода и приветствие",
+        "section": "greeting",
+        "blocks": 1,
+        "lines": 72
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-006",
+        "title": "Конвертер °C → °F",
+        "section": "converter",
+        "blocks": 1,
+        "lines": 94
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-007",
+        "title": "Флажок, переключатель и радио",
+        "section": "settings",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-008",
+        "title": "Список задач",
+        "section": "todo",
+        "blocks": 1,
+        "lines": 97
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-009",
+        "title": "Ползунок",
+        "section": "slider",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-010",
+        "title": "Форма входа",
+        "section": "login",
+        "blocks": 1,
+        "lines": 87
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-011",
+        "title": "Боковое меню",
+        "section": "drawer",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-012",
+        "title": "Второй экран",
+        "section": "navigation",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-013",
+        "title": "Вкладки",
+        "section": "tabs",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-014",
+        "title": "Диалог подтверждения",
+        "section": "dialog",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1154",
+        "slug": "dart/lab-1154-015",
+        "title": "Загрузка списка с API",
+        "section": "fetch",
+        "blocks": 1,
+        "lines": 78
+      }
+    ],
+    "1155": [
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-001",
+        "title": "Skeleton (карточка)",
+        "section": "skeleton-карточка",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-002",
+        "title": "Спиннер с доступностью",
+        "section": "спиннер-с-доступностью",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-003",
+        "title": "Переключатель темы (`:has()`)",
+        "section": "переключатель-темы-has",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-004",
+        "title": "Поиск без JavaScript",
+        "section": "поиск-без-javascript",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-005",
+        "title": "Радиокнопки",
+        "section": "радиокнопки",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-006",
+        "title": "Подсказки (tooltip)",
+        "section": "подсказки-tooltip",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-007",
+        "title": "Кнопка с «глубиной» (brutalist)",
+        "section": "кнопка-с-глубиной-brutalist",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-008",
+        "title": "Уведомление (toast)",
+        "section": "уведомление-toast",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1155",
+        "slug": "html/lab-1155-009",
+        "title": "CSS-паттерн фона",
+        "section": "css-паттерн-фона",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "1156": [
+      {
+        "article": "1156",
+        "slug": "batch/lab-1156-001",
+        "title": "Windows CMD",
+        "section": "windows-cmd",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1156",
+        "slug": "bash/lab-1156-002",
+        "title": "Bash / WSL / macOS",
+        "section": "bash-wsl-macos",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "11111": [
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-001",
+        "title": "3. Только PostgreSQL для разработки",
+        "section": "3-только-postgresql-для-разработки",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-002",
+        "title": "4. Приложение + PostgreSQL",
+        "section": "4-приложение-postgresql",
+        "blocks": 2,
+        "lines": 57
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-003",
+        "title": "5. Redis рядом с PostgreSQL",
+        "section": "5-redis-рядом-с-postgresql",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-004",
+        "title": "6. WordPress + MariaDB",
+        "section": "6-wordpress-mariadb",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-005",
+        "title": "7. MongoDB + веб-админка",
+        "section": "7-mongodb-веб-админка",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-006",
+        "title": "8. Prometheus + Grafana (минимум)",
+        "section": "8-prometheus-grafana-минимум",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-007",
+        "title": "10. MinIO — S3-совместимое хранилище",
+        "section": "10-minio-s3-совместимое-хранилище",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-008",
+        "title": "11. Nginx как reverse proxy",
+        "section": "11-nginx-как-reverse-proxy",
+        "blocks": 2,
+        "lines": 36
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-009",
+        "title": "12. Профили dev и tools",
+        "section": "12-профили-dev-и-tools",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-010",
+        "title": "13. Переменные из `.env`",
+        "section": "13-переменные-из-env",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "11111",
+        "slug": "yaml/lab-11111-011",
+        "title": "14. Стек для CI-тестов",
+        "section": "14-стек-для-ci-тестов",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "11112": [
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-001",
+        "title": "3. SPA — fallback на index.html",
+        "section": "3-spa-fallback-на-index-html",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-002",
+        "title": "4. Reverse proxy на Node.js / Python / Go",
+        "section": "4-reverse-proxy-на-node-js-python-go",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-003",
+        "title": "5. PHP через PHP-FPM",
+        "section": "5-php-через-php-fpm",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-004",
+        "title": "6. Два сайта на одном IP",
+        "section": "6-два-сайта-на-одном-ip",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-005",
+        "title": "7. Балансировка между двумя app-серверами",
+        "section": "7-балансировка-между-двумя-app-серверами",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-006",
+        "title": "8. HTTPS с Let's Encrypt (Certbot)",
+        "section": "8-https-с-lets-encrypt-certbot",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-007",
+        "title": "9. WebSocket через reverse proxy",
+        "section": "9-websocket-через-reverse-proxy",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "11112",
+        "slug": "nginx/lab-11112-008",
+        "title": "11. Gzip и заголовки безопасности",
+        "section": "11-gzip-и-заголовки-безопасности",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "11113": [
+      {
+        "article": "11113",
+        "slug": "javascript/lab-11113-001",
+        "title": "3. Node.js API (Express / Fastify)",
+        "section": "3-nodejs-api",
+        "blocks": 2,
+        "lines": 40
+      },
+      {
+        "article": "11113",
+        "slug": "dockerfile/lab-11113-002",
+        "title": "4. Python (Flask / FastAPI)",
+        "section": "4-python-flask-fastapi",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "11113",
+        "slug": "go/lab-11113-003",
+        "title": "5. Go-сервис (multi-stage)",
+        "section": "5-go-servis-multistage",
+        "blocks": 2,
+        "lines": 36
+      },
+      {
+        "article": "11113",
+        "slug": "dockerfile/lab-11113-004",
+        "title": "7. Java Spring Boot (JAR)",
+        "section": "7-java-spring-boot-jar",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "11113",
+        "slug": "dockerfile/lab-11113-005",
+        "title": "9. ASP.NET Core",
+        "section": "9-aspnet-core",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "11114": [
+      {
+        "article": "11114",
+        "slug": "yaml/lab-11114-001",
+        "title": "6.1. Диск заполнен более чем на 90%",
+        "section": "61-диск-заполнен-более-чем-на-90",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "11114",
+        "slug": "promql/lab-11114-002",
+        "title": "Селекторы — шпаргалка",
+        "section": "селекторы-шпаргалка",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "11115": [
+      {
+        "article": "11115",
+        "slug": "yaml/lab-11115-001",
+        "title": "Структура манифеста",
+        "section": "структура-манифеста",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "11115",
+        "slug": "yaml/lab-11115-002",
+        "title": "2. Deployment — три копии приложения",
+        "section": "2-deployment-три-копии-приложения",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "11115",
+        "slug": "yaml/lab-11115-003",
+        "title": "5. ConfigMap — настройки без пересборки образа",
+        "section": "5-configmap-настройки-без-пересборки-образа",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "11115",
+        "slug": "yaml/lab-11115-004",
+        "title": "Связка «приложение + база»",
+        "section": "связка-приложение-база",
+        "blocks": 1,
+        "lines": 84
+      },
+      {
+        "article": "11115",
+        "slug": "yaml/lab-11115-005",
+        "title": "Ingress — HTTP снаружи (нужен Ingress Controller)",
+        "section": "ingress-http-снаружи-нужен-ingress-controller",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "11115",
+        "slug": "yaml/lab-11115-006",
+        "title": "Liveness и readiness — проверки здоровья",
+        "section": "liveness-и-readiness-проверки-здоровья",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "11115",
+        "slug": "yaml/lab-11115-007",
+        "title": "Один файл — полный минимальный сайт",
+        "section": "один-файл-полный-минимальный-сайт",
+        "blocks": 1,
+        "lines": 35
+      }
+    ]
+  }
+}

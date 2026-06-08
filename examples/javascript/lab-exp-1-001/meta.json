@@ -1,0 +1,10 @@
+{
+  "title": "Нагрузочные тесты — минимальный пример k6",
+  "description": "Сценарий ramp-up для API: виртуальные пользователи, пороги p95 и error rate.",
+  "tags": ["lab", "experiments", "k6", "load-testing"],
+  "order": 1,
+  "series": "lab-exp-1",
+  "seriesOrder": 1,
+  "seriesTitle": "Нагрузочные тесты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Эксперименты/1"
+}

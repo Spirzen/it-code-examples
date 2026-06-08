@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность и Concurrency в Swift — Объявление и вызов асинхронных функций",
+  "description": "Фрагмент из «Асинхронность и Concurrency в Swift»: Объявление и вызов асинхронных функций.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 1,
+  "series": "swift-514-17",
+  "seriesOrder": 1,
+  "seriesTitle": "Асинхронность и Concurrency в Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/17"
+}

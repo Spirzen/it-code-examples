@@ -1,0 +1,8 @@
+{
+  "rules": {
+    "no-unused-vars": "error",
+    "no-unreachable": "error",
+    "no-unused-expressions": "error",
+    "no-unused-private-class-members": "error"
+  }
+}

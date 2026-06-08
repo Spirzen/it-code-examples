@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по MongoDB — 18.2. Миграция внутри MongoDB (изменение структуры)",
+  "description": "Фрагмент из «Справочник по MongoDB»: 18.2. Миграция внутри MongoDB (изменение структуры).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "41"
+  ],
+  "order": 8,
+  "series": "nosql-41",
+  "seriesOrder": 8,
+  "seriesTitle": "Справочник по MongoDB",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/41"
+}

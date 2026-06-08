@@ -1,0 +1,14 @@
+{
+  "title": "JVM, память и потоки — Сборщики и регионы G1",
+  "description": "Фрагмент из «JVM, память и потоки»: Сборщики и регионы G1.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "23"
+  ],
+  "order": 12,
+  "series": "java-503-23",
+  "seriesOrder": 12,
+  "seriesTitle": "JVM, память и потоки",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/23"
+}

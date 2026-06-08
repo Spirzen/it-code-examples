@@ -1,0 +1,23 @@
+PUT /_enrich/policy/user_lookup
+{
+  "match": {
+    "indices": ["users"],
+    "match_field": "email",
+    "enrich_fields": ["name", "department"]
+  }
+}
+
+POST /_enrich/policy/user_lookup/_execute
+
+PUT _ingest/pipeline/enrich_user
+{
+  "processors": [
+    {
+      "enrich": {
+        "policy_name": "user_lookup",
+        "field": "user_email",
+        "target_field": "user_info"
+      }
+    }
+  ]
+}

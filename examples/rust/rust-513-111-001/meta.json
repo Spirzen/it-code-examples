@@ -1,0 +1,14 @@
+{
+  "title": "Системное программирование на Rust — Безопасная многопоточность",
+  "description": "Фрагмент из «Системное программирование на Rust»: Безопасная многопоточность.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "111"
+  ],
+  "order": 1,
+  "series": "rust-513-111",
+  "seriesOrder": 1,
+  "seriesTitle": "Системное программирование на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/111"
+}

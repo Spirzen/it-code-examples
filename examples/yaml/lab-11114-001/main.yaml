@@ -1,0 +1,14 @@
+groups:
+  - name: disk_alerts
+    rules:
+      - alert: DiskAlmostFull
+        expr: |
+          (
+            1 - node_filesystem_avail_bytes{fstype!~"tmpfs|overlay"}
+              / node_filesystem_size_bytes{fstype!~"tmpfs|overlay"}
+          ) * 100 > 90
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Диск {{ $labels.mountpoint }} на {{ $labels.instance }} заполнен более чем на 90%"

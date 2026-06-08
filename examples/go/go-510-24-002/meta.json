@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Go — Тестирование и верификация",
+  "description": "Фрагмент из «Первая программа на Go»: Тестирование и верификация.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 2,
+  "series": "go-510-24",
+  "seriesOrder": 2,
+  "seriesTitle": "Первая программа на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/24"
+}

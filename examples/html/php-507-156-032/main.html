@@ -1,0 +1,48 @@
+<script>
+const taskList = document.getElementById('taskList');
+const addTaskForm = document.getElementById('addTaskForm');
+
+// Загрузка задач из localStorage
+let Задачи = JSON.parse(localStorage.getItem('Задачи')) || [];
+renderTasks();
+
+function renderTasks() {
+  taskList.innerHTML = '';
+  Задачи.forEach((task, index) => {
+    const li = document.createElement('li');
+    li.innerHTML = `
+      <input type="checkbox" ${task.completed ? 'checked' : ''} Данные-index="${index}">
+      <span class="task-text ${task.completed ? 'completed' : ''}">${task.text}</span>
+      <button class="delete-btn" Данные-index="${index}">×</button>
+`;
+    taskList.appendChild(li);
+  });
+}
+
+addTaskForm.addEventListener('submit', function(e) {
+  e.preventDefault();
+  const input = document.getElementById('newTask');
+  const text = input.value.trim();
+  if (text) {
+    Задачи.push({ text, completed: false });
+    localStorage.setItem('Задачи', JSON.stringify(Задачи));
+    renderTasks();
+    input.value = '';
+  }
+});
+
+taskList.addEventListener('click', function(e) {
+  if (e.target.matches('input[type="checkbox"]')) {
+    const index = e.target.dataset.index;
+    Задачи[index].completed = e.target.checked;
+    localStorage.setItem('Задачи', JSON.stringify(Задачи));
+    renderTasks();
+  }
+  if (e.target.matches('.delete-btn')) {
+    const index = e.target.dataset.index;
+    Задачи.splice(index, 1);
+    localStorage.setItem('Задачи', JSON.stringify(Задачи));
+    renderTasks();
+  }
+});
+</script>

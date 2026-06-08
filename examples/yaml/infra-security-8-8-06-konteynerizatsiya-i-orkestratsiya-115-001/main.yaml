@@ -1,0 +1,18 @@
+services:
+  frontend:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+    networks: ["public", "internal"]
+
+  api:
+    image: my-api:1.0
+    networks: ["internal"]
+
+  db:
+    image: postgres:16
+    networks: ["internal"]
+
+networks:
+  public:
+  internal:

@@ -1,0 +1,14 @@
+{
+  "title": "Работа со строками, таблицами и файлами — Паттерн \"Фабрика файлов\"",
+  "description": "Фрагмент из «Работа со строками, таблицами и файлами»: Паттерн \"Фабрика файлов\".",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "172"
+  ],
+  "order": 6,
+  "series": "lua-515-172",
+  "seriesOrder": 6,
+  "seriesTitle": "Работа со строками, таблицами и файлами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/172"
+}

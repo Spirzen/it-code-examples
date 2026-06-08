@@ -1,0 +1,14 @@
+{
+  "title": "DSL и функции с получателем в Kotlin — `@DslMarker` — не перепутать вложенные блоки",
+  "description": "Фрагмент из «DSL и функции с получателем в Kotlin»: `@DslMarker` — не перепутать вложенные блоки.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "230"
+  ],
+  "order": 2,
+  "series": "kotlin-509-230",
+  "seriesOrder": 2,
+  "seriesTitle": "DSL и функции с получателем в Kotlin",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/230"
+}

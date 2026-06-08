@@ -1,0 +1,1785 @@
+{
+  "generatedAt": "2026-06-08T12:01:06.876Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-07-php",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "php/php-507-1-001",
+        "title": "PHP как препроцессор страницы",
+        "section": "php-как-препроцессор-страницы",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1",
+        "slug": "php/php-507-1-002",
+        "title": "PHP как препроцессор страницы",
+        "section": "php-как-препроцессор-страницы",
+        "blocks": 1,
+        "lines": 88
+      },
+      {
+        "article": "1",
+        "slug": "php/php-507-1-003",
+        "title": "Возможности PHP",
+        "section": "возможности-php",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "10": [
+      {
+        "article": "10",
+        "slug": "php/php-507-10-001",
+        "title": "ReactPHP, Amp",
+        "section": "reactphp-amp",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "php/php-507-11-001",
+        "title": "PHP 3 (1997–1998)",
+        "section": "php-3-1997-1998",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "php/php-507-13-001",
+        "title": "Создание скрипта",
+        "section": "создание-скрипта",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "13",
+        "slug": "php/php-507-13-002",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 339
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "php/php-507-14-001",
+        "title": "Запятая",
+        "section": "запятая",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "14",
+        "slug": "php/php-507-14-002",
+        "title": "Фигурные скобки",
+        "section": "фигурные-скобки",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "php/php-507-15-001",
+        "title": "Практика — как выбирать тип в реальной задаче",
+        "section": "практика-как-выбирать-тип-в-реальной-задаче",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "15",
+        "slug": "php/php-507-15-002",
+        "title": "array",
+        "section": "array",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "15",
+        "slug": "php/php-507-15-003",
+        "title": "array",
+        "section": "array",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "15",
+        "slug": "php/php-507-15-004",
+        "title": "object",
+        "section": "object",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "php/php-507-16-001",
+        "title": "Конструкция `switch`",
+        "section": "конструкция-switch",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "16",
+        "slug": "php/php-507-16-002",
+        "title": "Конструкция `switch`",
+        "section": "конструкция-switch",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "16",
+        "slug": "php/php-507-16-003",
+        "title": "Оператор `match` (PHP 8.0+)",
+        "section": "оператор-match-php-8-0",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "php/php-507-17-001",
+        "title": "Практический шаблон функции прикладного уровня",
+        "section": "практический-шаблон-функции-прикладного-уровня",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "php/php-507-18-001",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-002",
+        "title": "Класс и объект — единица абстракции и её воплощение",
+        "section": "класс-и-объект-единица-абстракции-и-её-воплощени",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-003",
+        "title": "Наследование — иерархия и расширение поведения",
+        "section": "наследование-иерархия-и-расширение-поведения",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-004",
+        "title": "Полиморфизм — единообразие в разнообразии",
+        "section": "полиморфизм-единообразие-в-разнообразии",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-005",
+        "title": "Интерфейсы — контракты без реализации",
+        "section": "интерфейсы-контракты-без-реализации",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-006",
+        "title": "Интерфейсы — контракты без реализации",
+        "section": "интерфейсы-контракты-без-реализации",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-007",
+        "title": "Трейты — повторное использование кода без наследования",
+        "section": "трейты-повторное-использование-кода-без-наследов",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-008",
+        "title": "Разрешение конфликтов",
+        "section": "разрешение-конфликтов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-009",
+        "title": "Статические члены — поведение и данные на уровне класса",
+        "section": "статические-члены-поведение-и-данные-на-уровне-к",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-010",
+        "title": "Статические члены — поведение и данные на уровне класса",
+        "section": "статические-члены-поведение-и-данные-на-уровне-к",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-011",
+        "title": "Магические методы — управление поведением объекта на уровне языка",
+        "section": "магические-методы-управление-поведением-объекта-",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "18",
+        "slug": "php/php-507-18-012",
+        "title": "Сериализация и десериализация",
+        "section": "сериализация-и-десериализация",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "php/php-507-19-001",
+        "title": "SPL — библиотека стандартных шаблонов",
+        "section": "spl-библиотека-стандартных-шаблонов",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "19",
+        "slug": "php/php-507-19-002",
+        "title": "Класс `DateTime` — управление временем и датой",
+        "section": "класс-datetime-управление-временем-и-датой",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "19",
+        "slug": "php/php-507-19-003",
+        "title": "PDO",
+        "section": "pdo",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "19",
+        "slug": "php/php-507-19-004",
+        "title": "Трейты — горизонтальное повторное использование кода",
+        "section": "трейты-горизонтальное-повторное-использование-ко",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "19",
+        "slug": "php/php-507-19-005",
+        "title": "Генераторы — ленивые вычисления и экономия памяти",
+        "section": "генераторы-ленивые-вычисления-и-экономия-памяти",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "19",
+        "slug": "php/php-507-19-006",
+        "title": "Магические методы",
+        "section": "магические-методы",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "19",
+        "slug": "php/php-507-19-007",
+        "title": "Фоновые задачи",
+        "section": "фоновые-задачи",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "19",
+        "slug": "php/php-507-19-008",
+        "title": "Типизация в PHP 7+",
+        "section": "типизация-в-php-7",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "20": [
+      {
+        "article": "20",
+        "slug": "php/php-507-20-001",
+        "title": "Что такое MySQLi",
+        "section": "что-такое-mysqli",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-002",
+        "title": "stmt",
+        "section": "stmt",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-003",
+        "title": "stmt",
+        "section": "stmt",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-004",
+        "title": "CREATE (Создание/Вставка данных)",
+        "section": "create-создание-вставка-данных",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-005",
+        "title": "READ (Чтение данных)",
+        "section": "read-чтение-данных",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-006",
+        "title": "READ (Чтение данных)",
+        "section": "read-чтение-данных",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-007",
+        "title": "UPDATE (Обновление данных)",
+        "section": "update-обновление-данных",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-008",
+        "title": "DELETE (Удаление данных)",
+        "section": "delete-удаление-данных",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-009",
+        "title": "Методы объекта `mysqli`",
+        "section": "методы-объекта-mysqli",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-010",
+        "title": "Методы объекта `mysqli`",
+        "section": "методы-объекта-mysqli",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-011",
+        "title": "Методы объекта `mysqli`",
+        "section": "методы-объекта-mysqli",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-012",
+        "title": "Методы объекта `mysqli`",
+        "section": "методы-объекта-mysqli",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-013",
+        "title": "Методы объекта `mysqli`",
+        "section": "методы-объекта-mysqli",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-014",
+        "title": "Методы объекта `mysqli_stmt` (подготовленный запрос)",
+        "section": "методы-объекта-mysqli-stmt-подготовленный-запрос",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-015",
+        "title": "Как PHP работает с файлами",
+        "section": "как-php-работает-с-файлами",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-016",
+        "title": "Как PHP работает с файлами",
+        "section": "как-php-работает-с-файлами",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-017",
+        "title": "Как PHP работает с файлами",
+        "section": "как-php-работает-с-файлами",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-018",
+        "title": "Как PHP работает с файлами",
+        "section": "как-php-работает-с-файлами",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-019",
+        "title": "Как PHP работает с файлами",
+        "section": "как-php-работает-с-файлами",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "20",
+        "slug": "php/php-507-20-020",
+        "title": "Гибридные подходы",
+        "section": "гибридные-подходы",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "111": [
+      {
+        "article": "111",
+        "slug": "json/php-507-111-001",
+        "title": "Пример конфигурации",
+        "section": "пример-конфигурации",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "112": [
+      {
+        "article": "112",
+        "slug": "xml/php-507-112-001",
+        "title": "Развёртывание приложений",
+        "section": "развёртывание-приложений",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "113": [
+      {
+        "article": "113",
+        "slug": "nginx/php-507-113-001",
+        "title": "Nginx",
+        "section": "nginx",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "113",
+        "slug": "php/php-507-113-002",
+        "title": "Простой сайт с авторизацией",
+        "section": "простой-сайт-с-авторизацией",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "113",
+        "slug": "php/php-507-113-003",
+        "title": "Простой сайт с авторизацией",
+        "section": "простой-сайт-с-авторизацией",
+        "blocks": 1,
+        "lines": 75
+      },
+      {
+        "article": "113",
+        "slug": "php/php-507-113-004",
+        "title": "Простой сайт с авторизацией",
+        "section": "простой-сайт-с-авторизацией",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "113",
+        "slug": "php/php-507-113-005",
+        "title": "Простой сайт с авторизацией",
+        "section": "простой-сайт-с-авторизацией",
+        "blocks": 1,
+        "lines": 38
+      }
+    ],
+    "114": [
+      {
+        "article": "114",
+        "slug": "php/php-507-114-001",
+        "title": "7.5. Блок `default` в `switch`",
+        "section": "7-5-блок-default-в-switch",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "114",
+        "slug": "php/php-507-114-002",
+        "title": "8.5. Инкапсуляция сложных выражений",
+        "section": "8-5-инкапсуляция-сложных-выражений",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "114",
+        "slug": "php/php-507-114-003",
+        "title": "9.1. Документирование кода",
+        "section": "9-1-документирование-кода",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "131": [
+      {
+        "article": "131",
+        "slug": "php/php-507-131-001",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-002",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-003",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-004",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 67
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-005",
+        "title": "Сервер (server.php)",
+        "section": "сервер-server-php",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-006",
+        "title": "Клиент (client.php)",
+        "section": "клиент-client-php",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-007",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-008",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-009",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-010",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-011",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-012",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-013",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "131",
+        "slug": "php/php-507-131-014",
+        "title": "Пример — Динамическая страница с формой",
+        "section": "пример-динамическая-страница-с-формой",
+        "blocks": 1,
+        "lines": 62
+      }
+    ],
+    "141": [
+      {
+        "article": "141",
+        "slug": "php/php-507-141-001",
+        "title": "Небольшой практический пример",
+        "section": "небольшой-практический-пример",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "142": [
+      {
+        "article": "142",
+        "slug": "php/php-507-142-001",
+        "title": "Практический мини-сценарий",
+        "section": "практический-мини-сценарий",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "143": [
+      {
+        "article": "143",
+        "slug": "php/php-507-143-001",
+        "title": "Контроллер",
+        "section": "контроллер",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-002",
+        "title": "Связи между моделями",
+        "section": "связи-между-моделями",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-003",
+        "title": "События и наблюдатели",
+        "section": "события-и-наблюдатели",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-004",
+        "title": "Разделение логики представления",
+        "section": "разделение-логики-представления",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-005",
+        "title": "Внедрение через конструктор",
+        "section": "внедрение-через-конструктор",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-006",
+        "title": "Реализация доступа к данным",
+        "section": "реализация-доступа-к-данным",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-007",
+        "title": "Семейство алгоритмов",
+        "section": "семейство-алгоритмов",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-008",
+        "title": "Менеджер стратегий",
+        "section": "менеджер-стратегий",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-009",
+        "title": "Наблюдатели и подписчики",
+        "section": "наблюдатели-и-подписчики",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-010",
+        "title": "Глобальный и групповой конвейер",
+        "section": "глобальный-и-групповой-конвейер",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-011",
+        "title": "Объект команды",
+        "section": "объект-команды",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-012",
+        "title": "Структура декоратора",
+        "section": "структура-декоратора",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-013",
+        "title": "Унификация интерфейсов",
+        "section": "унификация-интерфейсов",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-014",
+        "title": "Менеджеры драйверов",
+        "section": "менеджеры-драйверов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-015",
+        "title": "Пошаговое создание",
+        "section": "пошаговое-создание",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-016",
+        "title": "Обработчики запроса",
+        "section": "обработчики-запроса",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-017",
+        "title": "Структура алгоритма",
+        "section": "структура-алгоритма",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-018",
+        "title": "Объекты состояний",
+        "section": "объекты-состояний",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "143",
+        "slug": "php/php-507-143-019",
+        "title": "Управление состоянием модели",
+        "section": "управление-состоянием-модели",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "145": [
+      {
+        "article": "145",
+        "slug": "php/php-507-145-001",
+        "title": "Минимальный проект на PHPUnit",
+        "section": "минимальный-проект-на-phpunit",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "145",
+        "slug": "php/php-507-145-002",
+        "title": "Data provider — один тест, много примеров",
+        "section": "data-provider-один-тест-много-примеров",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "145",
+        "slug": "php/php-507-145-003",
+        "title": "Моки и заглушки",
+        "section": "моки-и-заглушки",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "151": [
+      {
+        "article": "151",
+        "slug": "html/php-507-151-001",
+        "title": "Как составлять HTML-формы для работы с PHP",
+        "section": "как-составлять-html-формы-для-работы-с-php",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-002",
+        "title": "Интерактивная лаборатория",
+        "section": "интерактивная-лаборатория",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-003",
+        "title": "Получение файла в PHP",
+        "section": "получение-файла-в-php",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "151",
+        "slug": "javascript/php-507-151-004",
+        "title": "Пример с `fetch` и FormData",
+        "section": "пример-с-fetch-и-formdata",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "151",
+        "slug": "html/php-507-151-005",
+        "title": "Итоговая структура надёжной формы",
+        "section": "итоговая-структура-надёжной-формы",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-006",
+        "title": "Обработка ошибок и повторный вывод формы",
+        "section": "обработка-ошибок-и-повторный-вывод-формы",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "151",
+        "slug": "html/php-507-151-007",
+        "title": "Обработка ошибок и повторный вывод формы",
+        "section": "обработка-ошибок-и-повторный-вывод-формы",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-008",
+        "title": "Валидация на каждом шаге",
+        "section": "валидация-на-каждом-шаге",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-009",
+        "title": "Интеграция с внешними API",
+        "section": "интеграция-с-внешними-api",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-010",
+        "title": "Локализация форм",
+        "section": "локализация-форм",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "151",
+        "slug": "javascript/php-507-151-011",
+        "title": "FormData",
+        "section": "formdata",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-012",
+        "title": "Локализация форм и мультиязычность",
+        "section": "локализация-форм-и-мультиязычность",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "151",
+        "slug": "php/php-507-151-013",
+        "title": "Практика — единый конвейер обработки формы",
+        "section": "практика-единый-конвейер-обработки-формы",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "152": [
+      {
+        "article": "152",
+        "slug": "php/php-507-152-001",
+        "title": "Практика — типизация входных параметров API",
+        "section": "практика-типизация-входных-параметров-api",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "153": [
+      {
+        "article": "153",
+        "slug": "php/php-507-153-001",
+        "title": "Реализация JsonSerializable",
+        "section": "реализация-jsonserializable",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "153",
+        "slug": "php/php-507-153-002",
+        "title": "2. Value Object",
+        "section": "2-value-object",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "153",
+        "slug": "php/php-507-153-003",
+        "title": "3. Коллекции",
+        "section": "3-коллекции",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "154": [
+      {
+        "article": "154",
+        "slug": "php/php-507-154-001",
+        "title": "Пример обработки",
+        "section": "пример-обработки",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "154",
+        "slug": "php/php-507-154-002",
+        "title": "Практический шаблон — единая точка чтения входа",
+        "section": "практический-шаблон-единая-точка-чтения-входа",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "155": [
+      {
+        "article": "155",
+        "slug": "php/php-507-155-001",
+        "title": "Страница регистрации",
+        "section": "страница-регистрации",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-002",
+        "title": "Страница входа",
+        "section": "страница-входа",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-003",
+        "title": "Простая модель ролей",
+        "section": "простая-модель-ролей",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-004",
+        "title": "Отображение контента в зависимости от роли",
+        "section": "отображение-контента-в-зависимости-от-роли",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-005",
+        "title": "Вспомогательные функции аутентификации",
+        "section": "вспомогательные-функции-аутентификации",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-006",
+        "title": "Страница регистрации — подробный разбор",
+        "section": "страница-регистрации-подробный-разбор",
+        "blocks": 1,
+        "lines": 89
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-007",
+        "title": "Страница входа — безопасная реализация",
+        "section": "страница-входа-безопасная-реализация",
+        "blocks": 1,
+        "lines": 72
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-008",
+        "title": "Выход из системы",
+        "section": "выход-из-системы",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-009",
+        "title": "Защищённая страница с проверкой роли",
+        "section": "защищённая-страница-с-проверкой-роли",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-010",
+        "title": "1. Форма запроса восстановления (`/auth/forgot.php`)",
+        "section": "1-форма-запроса-восстановления-auth-forgot-php",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-011",
+        "title": "2. Страница сброса (`/auth/reset.php`)",
+        "section": "2-страница-сброса-auth-reset-php",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-012",
+        "title": "Пример теста на PHPUnit (без фреймворка)",
+        "section": "пример-теста-на-phpunit-без-фреймворка",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "155",
+        "slug": "text/php-507-155-013",
+        "title": "1. Настройка `php.ini` для продакшена",
+        "section": "1-настройка-php-ini-для-продакшена",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-014",
+        "title": "2. Обёртка для работы с сессиями",
+        "section": "2-обёртка-для-работы-с-сессиями",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "155",
+        "slug": "php/php-507-155-015",
+        "title": "Практика — минимальный SessionGuard для проекта",
+        "section": "практика-минимальный-sessionguard-для-проекта",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "156": [
+      {
+        "article": "156",
+        "slug": "html/php-507-156-001",
+        "title": "Структура HTML",
+        "section": "структура-html",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-002",
+        "title": "Базовый CSS",
+        "section": "базовый-css",
+        "blocks": 1,
+        "lines": 78
+      },
+      {
+        "article": "156",
+        "slug": "php/php-507-156-003",
+        "title": "Пример обработки на PHP (login.php)",
+        "section": "пример-обработки-на-php-login-php",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-004",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-005",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 83
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-006",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-007",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-008",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-009",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-010",
+        "title": "JavaScript (опционально, для интерактивности)",
+        "section": "javascript-опционально-для-интерактивности",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-011",
+        "title": "HTML + PHP (серверная версия)",
+        "section": "html-php-серверная-версия",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-012",
+        "title": "CSS для калькулятора",
+        "section": "css-для-калькулятора",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-013",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-014",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-015",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-016",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "156",
+        "slug": "php/php-507-156-017",
+        "title": "PHP (send_feedback.php)",
+        "section": "php-send-feedback-php",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-018",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "156",
+        "slug": "php/php-507-156-019",
+        "title": "PHP (search.php)",
+        "section": "php-search-php",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-020",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-021",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-022",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 92
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-023",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-024",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 74
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-025",
+        "title": "JavaScript",
+        "section": "javascript",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-026",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-027",
+        "title": "CSS (частично совпадает с формой входа)",
+        "section": "css-частично-совпадает-с-формой-входа",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "156",
+        "slug": "php/php-507-156-028",
+        "title": "PHP (register.php)",
+        "section": "php-register-php",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-029",
+        "title": "HTML + JavaScript",
+        "section": "html-javascript",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-030",
+        "title": "JavaScript",
+        "section": "javascript",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-031",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 72
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-032",
+        "title": "JavaScript",
+        "section": "javascript",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-033",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "156",
+        "slug": "php/php-507-156-034",
+        "title": "PHP (reset_password.php)",
+        "section": "php-reset-password-php",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-035",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "156",
+        "slug": "php/php-507-156-036",
+        "title": "PHP (upload.php)",
+        "section": "php-upload-php",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "156",
+        "slug": "css/php-507-156-037",
+        "title": "CSS",
+        "section": "css",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-038",
+        "title": "JavaScript",
+        "section": "javascript",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "156",
+        "slug": "html/php-507-156-039",
+        "title": "HTML",
+        "section": "html",
+        "blocks": 1,
+        "lines": 58
+      }
+    ],
+    "157": [
+      {
+        "article": "157",
+        "slug": "php/php-507-157-001",
+        "title": "Оператор use — импорт и алиасы",
+        "section": "оператор-use-импорт-и-алиасы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "157",
+        "slug": "php/php-507-157-002",
+        "title": "Ручная автозагрузка (без Composer)",
+        "section": "ручная-автозагрузка-без-composer",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "158": [
+      {
+        "article": "158",
+        "slug": "php/php-507-158-001",
+        "title": "Readonly-свойства (PHP 8.1)",
+        "section": "readonly-свойства-php-8-1",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "158",
+        "slug": "php/php-507-158-002",
+        "title": "Unit enum (без значения)",
+        "section": "unit-enum-без-значения",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "158",
+        "slug": "php/php-507-158-003",
+        "title": "Backed enum (со значением в БД или JSON)",
+        "section": "backed-enum-со-значением-в-бд-или-json",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "158",
+        "slug": "php/php-507-158-004",
+        "title": "Методы в enum",
+        "section": "методы-в-enum",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "158",
+        "slug": "php/php-507-158-005",
+        "title": "Атрибуты (PHP 8.0)",
+        "section": "атрибуты-php-8-0",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "159": [
+      {
+        "article": "159",
+        "slug": "php/php-507-159-001",
+        "title": "Базовая конструкция try / catch / finally",
+        "section": "базовая-конструкция-try-catch-finally",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "159",
+        "slug": "php/php-507-159-002",
+        "title": "Перехват Exception и Error",
+        "section": "перехват-exception-и-error",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "161": [
+      {
+        "article": "161",
+        "slug": "php/php-507-161-001",
+        "title": "Шаг 1 — форма (GET)",
+        "section": "шаг-1-форма-get",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "161",
+        "slug": "php/php-507-161-002",
+        "title": "Шаг 2 — приём и валидация (POST)",
+        "section": "шаг-2-приём-и-валидация-post",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "161",
+        "slug": "php/php-507-161-003",
+        "title": "Шаг 3 — запись через PDO",
+        "section": "шаг-3-запись-через-pdo",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "162": [
+      {
+        "article": "162",
+        "slug": "php/php-507-162-001",
+        "title": "Валидация на чистом PHP",
+        "section": "валидация-на-чистом-php",
+        "blocks": 1,
+        "lines": 54
+      }
+    ],
+    "211": [
+      {
+        "article": "211",
+        "slug": "php/php-507-211-001",
+        "title": "18.1. Простой роутер (без зависимостей)",
+        "section": "18-1-простой-роутер-без-зависимостей",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "211",
+        "slug": "php/php-507-211-002",
+        "title": "18.2. Простой DI-контейнер (PSR-11-like)",
+        "section": "18-2-простой-di-контейнер-psr-11-like",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "211",
+        "slug": "php/php-507-211-003",
+        "title": "18.3. Middleware (PSR-15)",
+        "section": "18-3-middleware-psr-15",
+        "blocks": 1,
+        "lines": 43
+      }
+    ],
+    "1431": [
+      {
+        "article": "1431",
+        "slug": "php/php-507-1431-001",
+        "title": "Определение модели данных",
+        "section": "определение-модели-данных",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1431",
+        "slug": "php/php-507-1431-002",
+        "title": "Определение модели данных",
+        "section": "определение-модели-данных",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1431",
+        "slug": "php/php-507-1431-003",
+        "title": "Создание контроллера",
+        "section": "создание-контроллера",
+        "blocks": 1,
+        "lines": 72
+      },
+      {
+        "article": "1431",
+        "slug": "html/php-507-1431-004",
+        "title": "Создание представления",
+        "section": "создание-представления",
+        "blocks": 1,
+        "lines": 100
+      }
+    ],
+    "1432": [
+      {
+        "article": "1432",
+        "slug": "php/php-507-1432-001",
+        "title": "Job",
+        "section": "job",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "1433": [
+      {
+        "article": "1433",
+        "slug": "php/php-507-1433-001",
+        "title": "API Resource — форма JSON",
+        "section": "api-resource-форма-json",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1433",
+        "slug": "php/php-507-1433-002",
+        "title": "Контроллер API",
+        "section": "контроллер-api",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "1433",
+        "slug": "php/php-507-1433-003",
+        "title": "Маршруты и логин",
+        "section": "маршруты-и-логин",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "1434": [
+      {
+        "article": "1434",
+        "slug": "php/php-507-1434-001",
+        "title": "Первый компонент — счётчик",
+        "section": "первый-компонент-счётчик",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "1434",
+        "slug": "php/php-507-1434-002",
+        "title": "`wire:model` — связь поля и свойства",
+        "section": "wire-model-связь-поля-и-свойства",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "1435": [
+      {
+        "article": "1435",
+        "slug": "php/php-507-1435-001",
+        "title": "Resource для Task",
+        "section": "resource-для-task",
+        "blocks": 1,
+        "lines": 58
+      }
+    ],
+    "1441": [
+      {
+        "article": "1441",
+        "slug": "php/php-507-1441-001",
+        "title": "Контроллер",
+        "section": "контроллер",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "1461": [
+      {
+        "article": "1461",
+        "slug": "php/php-507-1461-001",
+        "title": "functions.php",
+        "section": "functions-php",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1461",
+        "slug": "php/php-507-1461-002",
+        "title": "index.php и цикл",
+        "section": "index-php-и-цикл",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "phpmyadmin-1": [
+      {
+        "article": "phpmyadmin-1",
+        "slug": "php/php-507-phpmyadmin-1-001",
+        "title": "Разбор — минимальное подключение на PHP",
+        "section": "разбор-минимальное-подключение-на-php",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "phpmyadmin-1",
+        "slug": "yaml/php-507-phpmyadmin-1-002",
+        "title": "Разбор — phpMyAdmin в Docker Compose",
+        "section": "разбор-phpmyadmin-в-docker-compose",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "phppgadmin-1": [
+      {
+        "article": "phppgadmin-1",
+        "slug": "sql/php-507-phppgadmin-1-001",
+        "title": "Разбор — типичный SQL во вкладке SQL",
+        "section": "разбор-типичный-sql-во-вкладке-sql",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "phppgadmin-1",
+        "slug": "yaml/php-507-phppgadmin-1-002",
+        "title": "Разбор — phpPgAdmin рядом с Postgres в Docker Compose",
+        "section": "разбор-phppgadmin-рядом-с-postgres-в-docker-comp",
+        "blocks": 1,
+        "lines": 19
+      }
+    ]
+  }
+}

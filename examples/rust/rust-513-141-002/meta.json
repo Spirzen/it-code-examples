@@ -1,0 +1,14 @@
+{
+  "title": "Объектно-ориентированные концепции в Rust — Пример структуры",
+  "description": "Фрагмент из «Объектно-ориентированные концепции в Rust»: Пример структуры.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "141"
+  ],
+  "order": 2,
+  "series": "rust-513-141",
+  "seriesOrder": 2,
+  "seriesTitle": "Объектно-ориентированные концепции в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "PyTorch для разработчика — Градиентный спуск — ручной и автоматический",
+  "description": "Фрагмент из «PyTorch для разработчика»: Градиентный спуск — ручной и автоматический.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "333"
+  ],
+  "order": 1,
+  "series": "py-502-333",
+  "seriesOrder": 1,
+  "seriesTitle": "PyTorch для разработчика",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/333"
+}

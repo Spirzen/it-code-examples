@@ -1,0 +1,17 @@
+- hosts: webservers
+  become: true
+  tasks:
+    - name: Установить nginx
+      ansible.builtin.package:
+        name: nginx
+        state: present
+    - name: Развернуть конфиг сайта
+      ansible.builtin.template:
+        src: templates/site.conf.j2
+        dest: /etc/nginx/sites-available/app.conf
+      notify: Перезапустить nginx
+  handlers:
+    - name: Перезапустить nginx
+      ansible.builtin.service:
+        name: nginx
+        state: restarted

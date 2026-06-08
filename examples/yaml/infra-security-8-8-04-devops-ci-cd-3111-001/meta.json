@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Ansible — Структура play",
+  "description": "Фрагмент из «Справочник по Ansible»: Структура play.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3111"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-3111",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Ansible",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3111"
+}

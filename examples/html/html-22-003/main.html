@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Три в ряд</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #222;
+      color: white;
+      margin: 0;
+      padding: 20px;
+    }
+    #info {
+      margin-bottom: 16px;
+      font-size: 20px;
+    }
+    #grid {
+      display: grid;
+      grid-template-columns: repeat(8, 50px);
+      grid-gap: 2px;
+      background: #333;
+      padding: 6px;
+      border-radius: 4px;
+    }
+    .cell {
+      width: 50px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 28px;
+      cursor: pointer;
+      user-select: none;
+      border-radius: 4px;
+      transition: transform 0.2s, opacity 0.2s;
+    }
+    .cell.selected {
+      transform: scale(0.9);
+      box-shadow: 0 0 8px #ff0 inset;
+    }
+    .cell.removing {
+      opacity: 0;
+    }
+    #message {
+      margin-top: 16px;
+      font-size: 20px;
+      min-height: 26px;
+    }
+  </style>
+</head>
+<body>
+  <div id="info">Счёт: <span id="score">0</span> | Ходы: <span id="moves">30</span></div>
+  <div id="grid"></div>
+  <div id="message"></div>
+
+  <script>
+    const ROWS = 8, COLS = 8;
+    const MAX_MOVES = 30;
+    const TILES = ['🍇', '🍎', '🍊', '🍋', '🍒', '🍑']; // 6 типов
+
+    let board = [];
+    let score = 0;
+    let moves = MAX_MOVES;
+    let selected = null;
+    let isProcessing = false;
+
+    const gridEl = document.getElementById('grid');
+    const scoreEl = document.getElementById('score');
+    const movesEl = document.getElementById('moves');
+    const messageEl = document.getElementById('message');
+
+    // Инициализация доски
+    function initBoard() {
+      board = Array(ROWS).fill().map(() => Array(COLS).fill(null));
+      do {
+        for (let r = 0; r < ROWS; r++) {
+          for (let c = 0; c < COLS; c++) {
+            board[r][c] = TILES[Math.floor(Math.random() * TILES.length)];
+          }
+        }
+      } while (!hasValidMove()); // перегенерировать, если нет ходов
+      render();
+    }
+
+    // Отрисовка
+    function render() {
+      gridEl.innerHTML = '';
+      for (let r = 0; r < ROWS; r++) {
+        for (let c = 0; c < COLS; c++) {
+          const cell = document.createElement('div');
+          cell.className = 'cell';
+          cell.textContent = board[r][c];
+          cell.dataset.r = r;
+          cell.dataset.c = c;
+          cell.addEventListener('click', () => handleCellClick(r, c));
+          gridEl.appendChild(cell);
+        }
+      }
+    }
+
+    function updateUI() {
+      scoreEl.textContent = score;
+      movesEl.textContent = moves;
+    }
+
+    // Проверка валидности хода (есть ли хотя бы одна комбинация ≥3)
+    function hasValidMove() {
+      // Горизонталь
+      for (let r = 0; r < ROWS; r++) {
+        for (let c = 0; c < COLS - 2; c++) {
+          const a = board[r][c], b = board[r][c+1], d = board[r][c+2];
+          if (a === b || b === d || a === d) return true;
+        }
+      }
+      // Вертикаль
+      for (let c = 0; c < COLS; c++) {
+        for (let r = 0; r < ROWS - 2; r++) {
+          const a = board[r][c], b = board[r+1][c], d = board[r+2][c];
+          if (a === b || b === d || a === d) return true;
+        }
+      }
+      return false;
+    }
+
+    function handleCellClick(r, c) {
+      if (isProcessing || moves <= 0) return;
+
+      const cellEl = document.querySelector(`[data-r="${r}"][data-c="${c}"]`);
+
+      if (!selected) {
+        selected = { r, c };
+        cellEl.classList.add('selected');
+        return;
+      }
+
+      const { r: r1, c: c1 } = selected;
+      const dr = Math.abs(r - r1), dc = Math.abs(c - c1);
+      const isAdjacent = (dr === 1 && dc === 0) || (dr === 0 && dc === 1);
+
+      if (!isAdjacent) {
+        // сброс выбора
+        document.querySelector('.selected')?.classList.remove('selected');
+        selected = { r, c };
+        cellEl.classList.add('selected');
+        return;
+      }
+
+      // Обмен
+      [board[r1][c1], board[r][c]] = [board[r][c], board[r1][c1]];
+      render(); // мгновенное отображение обмена
+
+      const matches = findMatches();
+      if (matches.length === 0) {
+        // откат
+        [board[r1][c1], board[r][c]] = [board[r][c], board[r1][c1]];
+        render();
+        document.querySelector('.selected')?.classList.remove('selected');
+        selected = null;
+        return;
+      }
+
+      // Применяем ход
+      moves--;
+      document.querySelector('.selected')?.classList.remove('selected');
+      selected = null;
+      updateUI();
+
+      // Запускаем каскадное удаление
+      setTimeout(() => processMatches(matches), 300);
+    }
+
+    function findMatches() {
+      const matches = new Set();
+
+      // Горизонтальные
+      for (let r = 0; r < ROWS; r++) {
+        for (let c = 0; c < COLS - 2; c++) {
+          const a = board[r][c], b = board[r][c+1], d = board[r][c+2];
+          if (a && a === b && b === d) {
+            matches.add(`${r},${c}`);
+            matches.add(`${r},${c+1}`);
+            matches.add(`${r},${c+2}`);
+          }
+        }
+      }
+
+      // Вертикальные
+      for (let c = 0; c < COLS; c++) {
+        for (let r = 0; r < ROWS - 2; r++) {
+          const a = board[r][c], b = board[r+1][c], d = board[r+2][c];
+          if (a && a === b && b === d) {
+            matches.add(`${r},${c}`);
+            matches.add(`${r+1},${c}`);
+            matches.add(`${r+2},${c}`);
+          }
+        }
+      }
+
+      return Array.from(matches).map(pos => {
+        const [r, c] = pos.split(',').map(Number);
+        return { r, c };
+      });
+    }
+
+    async function processMatches(matches) {
+      if (matches.length === 0) {
+        if (moves <= 0) {
+          messageEl.textContent = 'Игра окончена';
+        }
+        return;
+      }
+
+      isProcessing = true;
+
+      // Визуальное исчезновение
+      matches.forEach(({ r, c }) => {
+        const el = document.querySelector(`[data-r="${r}"][data-c="${c}"]`);
+        if (el) el.classList.add('removing');
+      });
+
+      await new Promise(r => setTimeout(r, 300));
+
+      // Удаление из доски
+      matches.forEach(({ r, c }) => {
+        board[r][c] = null;
+        score += 10;
+      });
+
+      // Падение
+      for (let c = 0; c < COLS; c++) {
+        const column = [];
+        for (let r = ROWS - 1; r >= 0; r--) {
+          if (board[r][c] !== null) column.push(board[r][c]);
+        }
+        while (column.length < ROWS) column.push(TILES[Math.floor(Math.random() * TILES.length)]);
+        for (let r = 0; r < ROWS; r++) {
+          board[ROWS - 1 - r][c] = column[r];
+        }
+      }
+
+      render();
+      updateUI();
+
+      // Рекурсивная проверка каскада
+      const nextMatches = findMatches();
+      setTimeout(() => {
+        isProcessing = false;
+        processMatches(nextMatches);
+      }, 200);
+    }
+
+    // Запуск
+    initBoard();
+    updateUI();
+  </script>
+</body>
+</html>

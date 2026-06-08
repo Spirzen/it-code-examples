@@ -1,0 +1,14 @@
+{
+  "title": "SQLite — практическая работа и API — Java — JDBC + sqlite-jdbc",
+  "description": "Фрагмент из «SQLite — практическая работа и API»: Java — JDBC + sqlite-jdbc.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "887"
+  ],
+  "order": 3,
+  "series": "sql-887",
+  "seriesOrder": 3,
+  "seriesTitle": "SQLite — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/887"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "curl / fetch — API-запросы — fetch — POST с JSON (браузер или Node)",
+  "description": "Фрагмент из «curl / fetch — API-запросы»: fetch — POST с JSON (браузер или Node).",
+  "tags": [
+    "lab",
+    "1133"
+  ],
+  "order": 1,
+  "series": "lab-1133",
+  "seriesOrder": 1,
+  "seriesTitle": "curl / fetch — API-запросы",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1133"
+}

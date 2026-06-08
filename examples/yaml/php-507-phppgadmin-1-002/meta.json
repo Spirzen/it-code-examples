@@ -1,0 +1,14 @@
+{
+  "title": "phpPgAdmin — что это и где встретить — Разбор — phpPgAdmin рядом с Postgres в Docker Compose",
+  "description": "Фрагмент из «phpPgAdmin — что это и где встретить»: Разбор — phpPgAdmin рядом с Postgres в Docker Compose.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "phppgadmin-1"
+  ],
+  "order": 2,
+  "series": "php-507-phppgadmin-1",
+  "seriesOrder": 2,
+  "seriesTitle": "phpPgAdmin — что это и где встретить",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/phppgadmin/1"
+}

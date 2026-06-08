@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность и горутины — 1. Границы ответственности — где запускать горутину?",
+  "description": "Фрагмент из «Асинхронность и горутины»: 1. Границы ответственности — где запускать горутину?.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 6,
+  "series": "go-510-21",
+  "seriesOrder": 6,
+  "seriesTitle": "Асинхронность и горутины",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/21"
+}

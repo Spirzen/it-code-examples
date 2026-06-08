@@ -1,0 +1,14 @@
+{
+  "title": "Microsoft SQL Server — практическая работа и API — Go — go-mssqldb",
+  "description": "Фрагмент из «Microsoft SQL Server — практическая работа и API»: Go — go-mssqldb.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "890"
+  ],
+  "order": 4,
+  "series": "sql-890",
+  "seriesOrder": 4,
+  "seriesTitle": "Microsoft SQL Server — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/890"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Обеспечение безопасности — 12.2. Простой IDS на bash",
+  "description": "Фрагмент из «Обеспечение безопасности»: 12.2. Простой IDS на bash.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-07-informatsionnaya-bezopasnost-2"
+  ],
+  "order": 9,
+  "series": "infra-security-8-8-07-informatsionnaya-bezopasnost-2",
+  "seriesOrder": 9,
+  "seriesTitle": "Обеспечение безопасности",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-07-informatsionnaya-bezopasnost/2"
+}

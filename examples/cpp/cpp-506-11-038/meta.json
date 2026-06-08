@@ -1,0 +1,14 @@
+{
+  "title": "Типы данных в C++ — Объединения (`union`)",
+  "description": "Фрагмент из «Типы данных в C++»: Объединения (`union`).",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 38,
+  "series": "cpp-506-11",
+  "seriesOrder": 38,
+  "seriesTitle": "Типы данных в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/11"
+}

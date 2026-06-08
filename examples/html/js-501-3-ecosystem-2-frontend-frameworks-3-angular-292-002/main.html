@@ -1,0 +1,23 @@
+<div class="app">
+  <h1>{{ title }}</h1>
+  
+  <!-- Блок с приветствием -->
+  <div class="greeting">
+    <input 
+      type="text" 
+      placeholder="Введите ваше имя" 
+      [(ngModel)]="name"
+    />
+    <h2 *ngIf="name">Привет, {{ name }}! 👋</h2>
+  </div>
+
+  <!-- Блок со счетчиком -->
+  <div class="counter">
+    <h2>Счетчик: {{ count }}</h2>
+    <div class="buttons">
+      <button (click)="decrement()">-</button>
+      <button (click)="reset()">Сброс</button>
+      <button (click)="increment()">+</button>
+    </div>
+  </div>
+</div>

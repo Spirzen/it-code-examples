@@ -1,0 +1,14 @@
+{
+  "id": "ord_x9y8",
+  "status": "reserved",
+  "lines": [
+    {
+      "productId": "prod_a1b2",
+      "quantity": 3,
+      "unitPrice": 29.99,
+      "reservationId": "res_m3n4"
+    }
+  ],
+  "total": 89.97,
+  "createdAt": "2026-05-27T10:05:00Z"
+}

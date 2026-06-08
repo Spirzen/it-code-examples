@@ -1,0 +1,13 @@
+{
+  "title": "Pandas — типовые операции — pivot_table — сводная таблица",
+  "description": "Фрагмент из «Pandas — типовые операции»: pivot_table — сводная таблица.",
+  "tags": [
+    "lab",
+    "1113"
+  ],
+  "order": 6,
+  "series": "lab-1113",
+  "seriesOrder": 6,
+  "seriesTitle": "Pandas — типовые операции",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1113"
+}

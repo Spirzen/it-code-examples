@@ -1,0 +1,14 @@
+{
+  "title": "Управляющие конструкции и циклы в PHP — Оператор `match` (PHP 8.0+)",
+  "description": "Фрагмент из «Управляющие конструкции и циклы в PHP»: Оператор `match` (PHP 8.0+).",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 3,
+  "series": "php-507-16",
+  "seriesOrder": 3,
+  "seriesTitle": "Управляющие конструкции и циклы в PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/16"
+}

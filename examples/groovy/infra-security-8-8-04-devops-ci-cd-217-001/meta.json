@@ -1,0 +1,14 @@
+{
+  "title": "Наблюдаемость и автоматизация — Пример декларативного pipeline",
+  "description": "Фрагмент из «Наблюдаемость и автоматизация»: Пример декларативного pipeline.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-217"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-217",
+  "seriesOrder": 1,
+  "seriesTitle": "Наблюдаемость и автоматизация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/217"
+}

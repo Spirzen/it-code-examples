@@ -1,0 +1,32 @@
+# ОС
+.DS_Store
+Thumbs.db
+
+# IDE
+.vs/
+.vscode/
+.idea/
+*.suo
+*.user
+
+# Логи и временные файлы
+*.log
+tmp/
+temp/
+
+# Зависимости и пакеты
+node_modules/
+venv/
+__pycache__/
+.env
+
+# Скомпилированный код
+*.exe
+*.dll
+*.class
+*.jar
+bin/
+obj/
+
+# Docker
+.dockerignore

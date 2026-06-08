@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Axum — Полный `main.rs` и общая схема",
+  "description": "Фрагмент из «Первая программа на Axum»: Полный `main.rs` и общая схема.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "201"
+  ],
+  "order": 1,
+  "series": "rust-513-201",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа на Axum",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/201"
+}

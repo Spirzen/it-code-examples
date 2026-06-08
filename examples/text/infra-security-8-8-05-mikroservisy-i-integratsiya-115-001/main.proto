@@ -1,0 +1,38 @@
+syntax = "proto3";
+
+package user;
+
+option csharp_namespace = "UserService";
+option java_package = "com.example.user";
+option java_outer_classname = "UserProto";
+
+// Сообщения
+message UserRequest {
+  int32 user_id = 1;
+}
+
+message UserResponse {
+  int32 user_id = 1;
+  string name = 2;
+  string email = 3;
+  bool is_active = 4;
+}
+
+message UserListRequest {
+  int32 page = 1;
+  int32 page_size = 2;
+}
+
+message UserListResponse {
+  repeated UserResponse users = 1;
+  int32 total_count = 2;
+}
+
+// Сервис
+service UserService {
+  rpc GetUser(UserRequest) returns (UserResponse);
+  rpc ListUsers(UserListRequest) returns (UserListResponse);
+  rpc CreateUser(UserResponse) returns (UserResponse);
+  rpc UpdateUser(UserResponse) returns (UserResponse);
+  rpc DeleteUser(UserRequest) returns (google.protobuf.Empty);
+}

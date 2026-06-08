@@ -1,0 +1,14 @@
+{
+  "title": "Java-приложение с Apache Kafka и PostgreSQL — Запуск Kafka",
+  "description": "Фрагмент из «Java-приложение с Apache Kafka и PostgreSQL»: Запуск Kafka.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-1191"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-1191",
+  "seriesOrder": 3,
+  "seriesTitle": "Java-приложение с Apache Kafka и PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/1191"
+}

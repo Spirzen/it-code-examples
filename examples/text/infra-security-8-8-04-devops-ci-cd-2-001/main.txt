@@ -1,0 +1,15 @@
+variable "subnets" {
+  type = map(string)
+  default = {
+    public_a = "10.0.1.0/24"
+    public_b = "10.0.2.0/24"
+  }
+}
+
+resource "aws_subnet" "public" {
+  for_each = var.subnets
+
+  vpc_id            = aws_vpc.main.id
+  cidr_block        = each.value
+  availability_zone = each.key
+}

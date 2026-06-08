@@ -1,0 +1,29 @@
+paths:
+  /api/v1/auth/token:
+    post:
+      operationId: issueToken
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              required: [username, password]
+              properties:
+                username: { type: string }
+                password: { type: string, format: password }
+      responses:
+        "200":
+          description: JWT выдан
+  /api/v1/orders:
+    post:
+      operationId: createOrder
+      security: [{ bearerAuth: [] }]
+      responses:
+        "201": { description: Created }
+        "409": { description: Stock conflict }
+        "502": { description: Catalog unreachable }
+  /api/v1/orders/{orderId}/confirm:
+    post:
+      operationId: confirmOrder
+      security: [{ bearerAuth: [] }]

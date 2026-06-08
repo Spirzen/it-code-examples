@@ -1,0 +1,14 @@
+{
+  "title": "Обработка исключений в прикладном коде PHP — Перехват Exception и Error",
+  "description": "Фрагмент из «Обработка исключений в прикладном коде PHP»: Перехват Exception и Error.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "159"
+  ],
+  "order": 2,
+  "series": "php-507-159",
+  "seriesOrder": 2,
+  "seriesTitle": "Обработка исключений в прикладном коде PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/159"
+}

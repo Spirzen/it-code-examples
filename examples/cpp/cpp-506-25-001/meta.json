@@ -1,0 +1,14 @@
+{
+  "title": "Сетевое взаимодействие в C++ — Мини-практика — TCP клиент с базовой проверкой ошибок",
+  "description": "Фрагмент из «Сетевое взаимодействие в C++»: Мини-практика — TCP клиент с базовой проверкой ошибок.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 1,
+  "series": "cpp-506-25",
+  "seriesOrder": 1,
+  "seriesTitle": "Сетевое взаимодействие в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/25"
+}

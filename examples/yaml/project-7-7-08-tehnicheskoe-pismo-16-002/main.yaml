@@ -1,0 +1,22 @@
+# XCore 1.4 — основной конфигурационный файл
+ingest:
+  statsd_port: 8125          # UDP-порт для StatsD (0 — отключить)
+  http_port: 8080            # HTTP-порт для /metrics (0 — отключить)
+  max_packet_size: 1400      # байт; max UDP payload
+
+buffer:
+  memory_capacity: 10000     # элементов; min 1000, default 5000
+  disk_spill: true           # сбрасывать в /var/lib/xcore/spill/ при переполнении
+  spill_path: "/var/lib/xcore/spill"
+  drop_on_overflow: false    # если true — терять метрики, если буфер и диск заполнены
+
+store:
+  path: "/var/lib/xcore/tsdb"
+  retention_hours: 72        # автоматическое удаление старых данных
+  write_batch_size: 1000
+
+logging:
+  level: "INFO"
+  file: "/var/log/xcore/xcore.log"
+  rotate: true
+  max_size_mb: 200

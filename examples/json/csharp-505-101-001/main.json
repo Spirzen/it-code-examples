@@ -1,0 +1,16 @@
+"profiles": {
+  "MyApp": {
+    "commandName": "Project",
+    "launchBrowser": true,
+    "applicationUrl": "https://localhost:7200;http://localhost:5200",
+    "environmentVariables": {
+      "ASPNETCORE_ENVIRONMENT": "Разработка",
+      "MyCustomSetting": "DebugMode"
+    }
+  },
+  "ConsoleApp": {
+    "commandName": "Project",
+    "commandLineArgs": "--mode test --verbose",
+    "workingDirectory": "./bin/Debug/net8.0"
+  }
+}

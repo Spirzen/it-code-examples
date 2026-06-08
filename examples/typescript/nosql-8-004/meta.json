@@ -1,0 +1,14 @@
+{
+  "title": "Memcached - кэширование в оперативной памяти — TypeScript/JavaScript (Node.js, memjs)",
+  "description": "Фрагмент из «Memcached - кэширование в оперативной памяти»: TypeScript/JavaScript (Node.js, memjs).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "8"
+  ],
+  "order": 4,
+  "series": "nosql-8",
+  "seriesOrder": 4,
+  "seriesTitle": "Memcached - кэширование в оперативной памяти",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/8"
+}

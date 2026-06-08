@@ -1,0 +1,15 @@
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.item {
+  flex: 1 1 100%; /* На мобильных — 100% */
+}
+
+@media (min-width: 768px) {
+  .item {
+    flex: 1 1 calc(50% - 0.5rem); /* Две колонки */
+  }
+}

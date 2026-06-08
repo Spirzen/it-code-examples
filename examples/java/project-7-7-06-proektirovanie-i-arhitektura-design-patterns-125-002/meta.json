@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Мементо\" в Java — снимки состояния и undo' — Пример — конфигурация сервера",
+  "description": "Фрагмент из «'Паттерн \"Мементо\" в Java — снимки состояния и undo'»: Пример — конфигурация сервера.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-125"
+  ],
+  "order": 2,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-125",
+  "seriesOrder": 2,
+  "seriesTitle": "'Паттерн \"Мементо\" в Java — снимки состояния и undo'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/125"
+}

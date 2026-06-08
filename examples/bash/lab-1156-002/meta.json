@@ -1,0 +1,13 @@
+{
+  "title": "CLI — типовые сценарии (порты, процессы, dev-сервер) — Bash / WSL / macOS",
+  "description": "Фрагмент из «CLI — типовые сценарии (порты, процессы, dev-сервер)»: Bash / WSL / macOS.",
+  "tags": [
+    "lab",
+    "1156"
+  ],
+  "order": 2,
+  "series": "lab-1156",
+  "seriesOrder": 2,
+  "seriesTitle": "CLI — типовые сценарии (порты, процессы, dev-сервер)",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1156"
+}

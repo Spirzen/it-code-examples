@@ -1,0 +1,14 @@
+{
+  "title": "docker-compose — Структура файла конфигурации",
+  "description": "Фрагмент из «docker-compose»: Структура файла конфигурации.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-1111"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1111",
+  "seriesOrder": 1,
+  "seriesTitle": "docker-compose",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/1111"
+}

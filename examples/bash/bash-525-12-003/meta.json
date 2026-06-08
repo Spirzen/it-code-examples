@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок и коды возврата — Пример 2 — Безопасное удаление файлов",
+  "description": "Фрагмент из «Обработка ошибок и коды возврата»: Пример 2 — Безопасное удаление файлов.",
+  "tags": [
+    "bash",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 3,
+  "series": "bash-525-12",
+  "seriesOrder": 3,
+  "seriesTitle": "Обработка ошибок и коды возврата",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-25-bash/12"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "GitHub Actions — деплой Docusaurus (it-knowledge-base)",
+  "description": "Workflow peaceiris/actions-gh-pages: main → сборка → ветка gh-pages.",
+  "tags": ["lab", "case", "devops"],
+  "order": 1,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/3"
+}

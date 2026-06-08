@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL — Volume — обязательное правило",
+  "description": "Фрагмент из «Практикум PostgreSQL»: Volume — обязательное правило.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-11-praktikum-postgresql-7"
+  ],
+  "order": 7,
+  "series": "infra-security-8-11-postgresql-praktikum",
+  "seriesOrder": 7,
+  "seriesTitle": "Практикум PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-11-praktikum-postgresql/intro"
+}

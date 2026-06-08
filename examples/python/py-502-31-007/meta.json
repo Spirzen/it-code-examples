@@ -1,0 +1,14 @@
+{
+  "title": "Работа с файлами, сетью и внешними API — Парсинг, фильтрация и агрегация (лог, CSV, JSON, XML, Markdown)",
+  "description": "Фрагмент из «Работа с файлами, сетью и внешними API»: Парсинг, фильтрация и агрегация (лог, CSV, JSON, XML, Markdown).",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "31"
+  ],
+  "order": 7,
+  "series": "py-502-31",
+  "seriesOrder": 7,
+  "seriesTitle": "Работа с файлами, сетью и внешними API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/31"
+}

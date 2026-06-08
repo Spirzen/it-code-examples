@@ -1,0 +1,70 @@
+# config_matrix.yaml
+# Матрица параметров для всех окружений
+
+parameters:
+  # Общие параметры (одинаковые везде)
+  common:
+    service_name: "myapp"
+    log_format: "json"
+    metrics_enabled: true
+    tracing_enabled: true
+  
+  # Масштабирование
+  scaling:
+    development:
+      replicas: 1
+      cpu_request: "100m"
+      memory_request: "256Mi"
+    staging:
+      replicas: 2
+      cpu_request: "500m"
+      memory_request: "1Gi"
+    production:
+      replicas: 6
+      cpu_request: "1000m"
+      memory_request: "2Gi"
+  
+  # База данных
+  database:
+    development:
+      host: "localhost"
+      port: 5432
+      name: "myapp_dev"
+      pool_size: 5
+    staging:
+      host: "staging-db.internal"
+      port: 5432
+      name: "myapp_staging"
+      pool_size: 20
+    production:
+      host: "prod-db.internal"
+      port: 5432
+      name: "myapp_prod"
+      pool_size: 100
+  
+  # Флаги функциональности
+  feature_flags:
+    development:
+      new_ui: true
+      experimental_api: true
+      debug_mode: true
+    staging:
+      new_ui: true
+      experimental_api: true
+      debug_mode: false
+    production:
+      new_ui: false
+      experimental_api: false
+      debug_mode: false
+  
+  # Логирование
+  logging:
+    development:
+      level: "debug"
+      sample_rate: 1.0
+    staging:
+      level: "info"
+      sample_rate: 0.5
+    production:
+      level: "warning"
+      sample_rate: 0.1

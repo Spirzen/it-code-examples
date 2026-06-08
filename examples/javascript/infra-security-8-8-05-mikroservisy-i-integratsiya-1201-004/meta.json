@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по SOAP — Пример — подпись `wsse:UsernameToken` с `PasswordDigest` в Postman (Pre-request Script):",
+  "description": "Фрагмент из «Справочник по SOAP»: Пример — подпись `wsse:UsernameToken` с `PasswordDigest` в Postman (Pre-request Script):.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-1201"
+  ],
+  "order": 4,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-1201",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по SOAP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/1201"
+}

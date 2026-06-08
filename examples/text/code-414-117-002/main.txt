@@ -1,0 +1,14 @@
+# Acme Platform
+
+Монорепозиторий продукта Acme: API, веб-клиент, общие типы.
+
+## Пакеты
+
+| Путь | Описание |
+|------|----------|
+| [`apps/web`](./apps/web) | React SPA |
+| [`apps/api`](./apps/api) | NestJS API |
+| [`packages/shared`](./packages/shared) | Общие TypeScript-типы |
+
+## Быстрый старт
+

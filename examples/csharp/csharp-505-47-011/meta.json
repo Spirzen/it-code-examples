@@ -1,0 +1,14 @@
+{
+  "title": "Пример реализации бэкенда на C# — 12.2. Интеграционные тесты с TestServer",
+  "description": "Фрагмент из «Пример реализации бэкенда на C#»: 12.2. Интеграционные тесты с TestServer.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "47"
+  ],
+  "order": 11,
+  "series": "csharp-505-47",
+  "seriesOrder": 11,
+  "seriesTitle": "Пример реализации бэкенда на C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/47"
+}

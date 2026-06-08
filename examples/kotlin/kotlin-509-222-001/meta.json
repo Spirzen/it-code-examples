@@ -1,0 +1,14 @@
+{
+  "title": "Корутины в Kotlin — Первый пример — `launch` и `runBlocking`",
+  "description": "Фрагмент из «Корутины в Kotlin»: Первый пример — `launch` и `runBlocking`.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "222"
+  ],
+  "order": 1,
+  "series": "kotlin-509-222",
+  "seriesOrder": 1,
+  "seriesTitle": "Корутины в Kotlin",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/222"
+}

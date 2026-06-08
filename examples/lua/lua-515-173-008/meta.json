@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в Lua — Обработка ошибок в метатаблицах",
+  "description": "Фрагмент из «Обработка ошибок в Lua»: Обработка ошибок в метатаблицах.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "173"
+  ],
+  "order": 8,
+  "series": "lua-515-173",
+  "seriesOrder": 8,
+  "seriesTitle": "Обработка ошибок в Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/173"
+}

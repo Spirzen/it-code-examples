@@ -1,0 +1,18 @@
+services:
+  db:
+    image: postgres:16-alpine
+    environment:
+      POSTGRES_PASSWORD: test
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres"]
+      interval: 3s
+      retries: 10
+
+  test:
+    build: .
+    environment:
+      DATABASE_URL: postgres://postgres:test@db:5432/postgres
+    depends_on:
+      db:
+        condition: service_healthy
+    command: ["npm", "test"]

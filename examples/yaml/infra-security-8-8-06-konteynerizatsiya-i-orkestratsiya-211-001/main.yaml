@@ -1,0 +1,47 @@
+spec:
+  containers:
+    - name: <строка>
+      image: <строка>
+      command: [<строка>, ...]
+      args: [<строка>, ...]
+      ports:
+        - containerPort: <целое>
+          protocol: TCP|UDP|SCTP
+      env:
+        - name: <строка>
+          value: <строка>
+        - name: <строка>
+          valueFrom:
+            configMapKeyRef: ...
+            secretKeyRef: ...
+      resources:
+        requests:
+          cpu: <строка>
+          memory: <строка>
+        limits:
+          cpu: <строка>
+          memory: <строка>
+      volumeMounts:
+        - name: <строка>
+          mountPath: <путь>
+      livenessProbe: <Probe>
+      readinessProbe: <Probe>
+      startupProbe: <Probe>
+      lifecycle: <Lifecycle>
+  initContainers: [...] # аналогично containers, но запускаются до основных
+  volumes:
+    - name: <строка>
+      emptyDir: {}
+      hostPath:
+        path: <путь>
+      configMap:
+        name: <строка>
+      secret:
+        secretName: <строка>
+      persistentVolumeClaim:
+        claimName: <строка>
+  restartPolicy: Always|OnFailure|Never
+  nodeName: <строка> # прямое назначение на Node
+  nodeSelector: <карта> # выбор Node по Label’ам
+  tolerations: [...] # допуск к taint’ам
+  affinity: <Affinity> # продвинутые правила размещения

@@ -1,0 +1,14 @@
+{
+  "title": "Внедрение зависимостей (Dependency Injection) в C# — Dependency Injection",
+  "description": "Фрагмент из «Внедрение зависимостей (Dependency Injection) в C#»: Dependency Injection.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "35"
+  ],
+  "order": 1,
+  "series": "csharp-505-35",
+  "seriesOrder": 1,
+  "seriesTitle": "Внедрение зависимостей (Dependency Injection) в C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/35"
+}

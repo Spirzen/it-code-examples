@@ -1,0 +1,14 @@
+{
+  "title": "Корпоративный доступ, SSO и платформенные инструменты — TeamCity — CI-сервер JetBrains",
+  "description": "Фрагмент из «Корпоративный доступ, SSO и платформенные инструменты»: TeamCity — CI-сервер JetBrains.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-219"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-219",
+  "seriesOrder": 1,
+  "seriesTitle": "Корпоративный доступ, SSO и платформенные инструменты",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/219"
+}

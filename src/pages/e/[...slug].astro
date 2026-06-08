@@ -2,22 +2,24 @@
 import BaseLayout from '@/layouts/BaseLayout.astro';
 import ExampleViewer from '@/components/ExampleViewer.astro';
 import SeriesNav from '@/components/SeriesNav.astro';
-import {getExampleBySlug, getSeriesNeighbors, loadAllExamples} from '@/lib/examples';
+import {getSeriesNeighbors, loadCatalog, loadExampleBySlug} from '@/lib/examples';
 import {sitePath} from '@/lib/site';
 
 export function getStaticPaths() {
-  return loadAllExamples().map((ex) => ({
-    params: {slug: ex.slug},
-    props: {example: ex},
+  return loadCatalog().map((entry) => ({
+    params: {slug: entry.slug},
+    props: {slug: entry.slug},
   }));
 }
 
-const allExamples = loadAllExamples();
-const {example} = Astro.props;
+const {slug} = Astro.props;
+const example = loadExampleBySlug(slug)!;
+
+const catalog = loadCatalog();
 const embed = Astro.url.searchParams.get('embed') === '1';
 const pageTitle = `${example.title} — IT Code Examples`;
 const embedUrl = sitePath(`e/embed/${example.slug}/`);
-const {prev, next, series} = getSeriesNeighbors(example, allExamples);
+const {prev, next, series} = getSeriesNeighbors(example, catalog);
 const embedSnippet = `<ExternalCodeEmbed
   example="${example.slug}"
   title="${example.title}"

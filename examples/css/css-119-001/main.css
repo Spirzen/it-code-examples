@@ -1,0 +1,15 @@
+/* функция значения — вычисляет ширину */
+.card {
+  width: min(100%, 24rem);
+  padding: calc(var(--space) * 2);
+  color: color-mix(in oklch, var(--brand) 80%, white);
+}
+
+/* функция в селекторе — выбирает элементы */
+.card:has(img) {
+  grid-template-columns: 120px 1fr;
+}
+
+:where(h1, h2, h3) {
+  line-height: 1.2;
+}

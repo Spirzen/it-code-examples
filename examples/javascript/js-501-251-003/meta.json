@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по JavaScript — Асинхронность — `Promise`, `async`/`await`, очередь задач",
+  "description": "Фрагмент из «Справочник по JavaScript»: Асинхронность — `Promise`, `async`/`await`, очередь задач.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "251"
+  ],
+  "order": 3,
+  "series": "js-501-251",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по JavaScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/251"
+}

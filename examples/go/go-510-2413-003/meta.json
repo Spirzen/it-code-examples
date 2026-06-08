@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Echo — Валидация (опционально, но полезно)",
+  "description": "Фрагмент из «Первая программа на Echo»: Валидация (опционально, но полезно).",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2413"
+  ],
+  "order": 3,
+  "series": "go-510-2413",
+  "seriesOrder": 3,
+  "seriesTitle": "Первая программа на Echo",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2413"
+}

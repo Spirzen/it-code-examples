@@ -1,0 +1,28 @@
+{
+  "generatedAt": "2026-06-08T14:37:29.921Z",
+  "minLines": 15,
+  "section": "haskell",
+  "encyclopediaPath": "/encyclopedia/5-languages/5-17-haskell",
+  "articles": {
+    "4": [
+      {
+        "article": "4",
+        "slug": "haskell/haskell-517-4-001",
+        "title": "Пример — алгебраические типы на предметной области",
+        "section": "пример-алгебраические-типы-на-предметной-области",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "haskell/haskell-517-103-001",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 17
+      }
+    ]
+  }
+}

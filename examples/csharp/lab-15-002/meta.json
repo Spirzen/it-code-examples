@@ -1,0 +1,13 @@
+{
+  "title": "XML парсер на CSharp — 2. Парсинг через `XmlReader` (потоковый подход)",
+  "description": "Фрагмент из «XML парсер на CSharp»: 2. Парсинг через `XmlReader` (потоковый подход).",
+  "tags": [
+    "lab",
+    "15"
+  ],
+  "order": 2,
+  "series": "lab-15",
+  "seriesOrder": 2,
+  "seriesTitle": "XML парсер на CSharp",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/15"
+}

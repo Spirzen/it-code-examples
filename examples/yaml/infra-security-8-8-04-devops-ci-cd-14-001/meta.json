@@ -1,0 +1,14 @@
+{
+  "title": "Жизненный цикл пайплайна CI/CD — Сквозной пример пайплайна (GitLab CI)",
+  "description": "Фрагмент из «Жизненный цикл пайплайна CI/CD»: Сквозной пример пайплайна (GitLab CI).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-14"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-14",
+  "seriesOrder": 1,
+  "seriesTitle": "Жизненный цикл пайплайна CI/CD",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/14"
+}

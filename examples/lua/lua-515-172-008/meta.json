@@ -1,0 +1,14 @@
+{
+  "title": "Работа со строками, таблицами и файлами — Паттерн \"Кэш конфигурации\"",
+  "description": "Фрагмент из «Работа со строками, таблицами и файлами»: Паттерн \"Кэш конфигурации\".",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "172"
+  ],
+  "order": 8,
+  "series": "lua-515-172",
+  "seriesOrder": 8,
+  "seriesTitle": "Работа со строками, таблицами и файлами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/172"
+}

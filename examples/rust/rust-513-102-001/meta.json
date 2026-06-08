@@ -1,0 +1,14 @@
+{
+  "title": "Rust для начинающих — Обработка ошибок",
+  "description": "Фрагмент из «Rust для начинающих»: Обработка ошибок.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "102"
+  ],
+  "order": 1,
+  "series": "rust-513-102",
+  "seriesOrder": 1,
+  "seriesTitle": "Rust для начинающих",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/102"
+}

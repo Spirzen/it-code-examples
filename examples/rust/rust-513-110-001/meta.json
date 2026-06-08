@@ -1,0 +1,14 @@
+{
+  "title": "Экосистема приложений на Rust — Как использовать эту карту на практике",
+  "description": "Фрагмент из «Экосистема приложений на Rust»: Как использовать эту карту на практике.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "110"
+  ],
+  "order": 1,
+  "series": "rust-513-110",
+  "seriesOrder": 1,
+  "seriesTitle": "Экосистема приложений на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/110"
+}

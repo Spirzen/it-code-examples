@@ -1,0 +1,13 @@
+{
+  "title": "GitHub Actions — CI/CD рецепты — 10. Docker — проверить сборку Dockerfile",
+  "description": "Фрагмент из «GitHub Actions — CI/CD рецепты»: 10. Docker — проверить сборку Dockerfile.",
+  "tags": [
+    "lab",
+    "1134"
+  ],
+  "order": 12,
+  "series": "lab-1134",
+  "seriesOrder": 12,
+  "seriesTitle": "GitHub Actions — CI/CD рецепты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1134"
+}

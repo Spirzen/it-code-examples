@@ -1,0 +1,14 @@
+{
+  "title": "Сетевое программирование на Python — TCP — эхо-сервер — разбор построчно",
+  "description": "Фрагмент из «Сетевое программирование на Python»: TCP — эхо-сервер — разбор построчно.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "315"
+  ],
+  "order": 1,
+  "series": "py-502-315",
+  "seriesOrder": 1,
+  "seriesTitle": "Сетевое программирование на Python",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/315"
+}

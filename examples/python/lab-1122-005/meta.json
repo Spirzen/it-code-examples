@@ -1,0 +1,13 @@
+{
+  "title": "Алгоритмы на Python — ЕГЭ и олимпиадка — 9.2. BFS — кратчайший путь в лабиринте",
+  "description": "Фрагмент из «Алгоритмы на Python — ЕГЭ и олимпиадка»: 9.2. BFS — кратчайший путь в лабиринте.",
+  "tags": [
+    "lab",
+    "1122"
+  ],
+  "order": 5,
+  "series": "lab-1122",
+  "seriesOrder": 5,
+  "seriesTitle": "Алгоритмы на Python — ЕГЭ и олимпиадка",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1122"
+}

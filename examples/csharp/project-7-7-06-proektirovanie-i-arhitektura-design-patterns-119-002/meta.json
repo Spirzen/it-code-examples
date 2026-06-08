@@ -1,0 +1,14 @@
+{
+  "title": "Паттерн \"Фабрика\" в C# — когда хватает DI-контейнера — Выбор реализации в рантайме",
+  "description": "Фрагмент из «Паттерн \"Фабрика\" в C# — когда хватает DI-контейнера»: Выбор реализации в рантайме.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-119"
+  ],
+  "order": 2,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-119",
+  "seriesOrder": 2,
+  "seriesTitle": "Паттерн \"Фабрика\" в C# — когда хватает DI-контейнера",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/119"
+}

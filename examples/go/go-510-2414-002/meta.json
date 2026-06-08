@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Fiber — Handlers",
+  "description": "Фрагмент из «Первая программа на Fiber»: Handlers.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2414"
+  ],
+  "order": 2,
+  "series": "go-510-2414",
+  "seriesOrder": 2,
+  "seriesTitle": "Первая программа на Fiber",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2414"
+}

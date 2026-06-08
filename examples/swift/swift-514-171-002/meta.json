@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в Swift — Проброс ошибки вверх по стеку",
+  "description": "Фрагмент из «Обработка ошибок в Swift»: Проброс ошибки вверх по стеку.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "171"
+  ],
+  "order": 2,
+  "series": "swift-514-171",
+  "seriesOrder": 2,
+  "seriesTitle": "Обработка ошибок в Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/171"
+}

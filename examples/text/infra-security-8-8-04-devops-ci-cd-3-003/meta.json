@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Terraform — Bootstrap backend S3 и DynamoDB",
+  "description": "Фрагмент из «Справочник по Terraform»: Bootstrap backend S3 и DynamoDB.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-04-devops-ci-cd-3",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по Terraform",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3"
+}

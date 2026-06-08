@@ -1,0 +1,14 @@
+{
+  "title": "Векторные базы данных — pgvector",
+  "description": "Фрагмент из «Векторные базы данных»: pgvector.",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "812"
+  ],
+  "order": 4,
+  "series": "nosql-812",
+  "seriesOrder": 4,
+  "seriesTitle": "Векторные базы данных",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/812"
+}

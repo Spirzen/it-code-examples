@@ -1,0 +1,14 @@
+{
+  "title": "Шпаргалка с типичными задачами по SQL — Разбиение большого запроса на части",
+  "description": "Фрагмент из «Шпаргалка с типичными задачами по SQL»: Разбиение большого запроса на части.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "885"
+  ],
+  "order": 23,
+  "series": "sql-885",
+  "seriesOrder": 23,
+  "seriesTitle": "Шпаргалка с типичными задачами по SQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/885"
+}

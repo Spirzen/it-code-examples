@@ -1,0 +1,21 @@
+.banner-slider {
+  position: relative;
+  min-height: 220px;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.slide {
+  position: absolute;
+  inset: 0;
+  padding: 1.5rem;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.6s ease;
+}
+
+.slide[data-active='true'] {
+  position: relative;
+  opacity: 1;
+  pointer-events: auto;
+}

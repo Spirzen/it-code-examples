@@ -1,0 +1,30 @@
+<form id="feedbackFormJS" novalidate>
+  <h2>Обратная связь (с клиентской проверкой)</h2>
+  <div class="form-group">
+    <label for="jsName">Ваше имя</label>
+    <input type="text" id="jsName" name="name" required minlength="2" maxlength="50">
+    <span class="error" id="nameError"></span>
+  </div>
+  <div class="form-group">
+    <label for="jsEmail">Email</label>
+    <input type="email" id="jsEmail" name="email" required>
+    <span class="error" id="emailError"></span>
+  </div>
+  <div class="form-group">
+    <label for="jsSubject">Тема</label>
+    <select id="jsSubject" name="subject" required>
+      <option value="">— Выберите тему —</option>
+      <option value="support">Техническая поддержка</option>
+      <option value="suggestion">Предложение</option>
+      <option value="complaint">Жалоба</option>
+      <option value="other">Другое</option>
+    </select>
+    <span class="error" id="subjectError"></span>
+  </div>
+  <div class="form-group">
+    <label for="jsMessage">Сообщение</label>
+    <textarea id="jsMessage" name="message" rows="6" required minlength="10"></textarea>
+    <span class="error" id="messageError"></span>
+  </div>
+  <button type="submit">Отправить</button>
+</form>

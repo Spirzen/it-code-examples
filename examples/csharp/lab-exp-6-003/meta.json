@@ -1,0 +1,10 @@
+{
+  "title": "Рандомизация — .NET (PRNG и CSPRNG)",
+  "description": "Random с seed для симуляций и RandomNumberGenerator для криптографии.",
+  "tags": ["lab", "experiments", "random", "dotnet"],
+  "order": 3,
+  "series": "lab-exp-6",
+  "seriesOrder": 3,
+  "seriesTitle": "Рандомизация",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Эксперименты/6"
+}

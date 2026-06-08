@@ -1,0 +1,20 @@
+# Старая схема (v1)
+database:
+  host: localhost
+  port: 5432
+  name: myapp
+  user: admin
+  password: secret
+
+# Новая схема (v2)
+database:
+  primary:
+    host: db-primary.internal
+    port: 5432
+    name: myapp
+    credentials:
+      username: app_user
+      password_secret_ref: vault://secrets/db/password
+  replicas:
+    - host: db-replica-1.internal
+    - host: db-replica-2.internal

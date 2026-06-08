@@ -1,0 +1,27 @@
+import { useEffect, useState } from 'react';
+import type { Profile, ProfileLoadState } from '../types/ui';
+import { CardSkeleton } from './CardSkeleton';
+
+export function ProfileCard() {
+  const [state, setState] = useState<ProfileLoadState>({ status: 'loading' });
+
+  useEffect(() => {
+    const timer = window.setTimeout(() => {
+      setState({
+        status: 'ok',
+        profile: { name: 'Анна', role: 'Frontend-разработчик' },
+      });
+    }, 1000);
+    return () => window.clearTimeout(timer);
+  }, []);
+
+  if (state.status === 'loading') return <CardSkeleton />;
+  if (state.status === 'error') return <p className="error">{state.message}</p>;
+
+  return (
+    <article className="profile-card">
+      <h2>{state.profile.name}</h2>
+      <p>{state.profile.role}</p>
+    </article>
+  );
+}

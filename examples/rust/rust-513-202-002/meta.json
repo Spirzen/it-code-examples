@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование в Rust — Тест HTTP-приложения (Axum)",
+  "description": "Фрагмент из «Тестирование в Rust»: Тест HTTP-приложения (Axum).",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "202"
+  ],
+  "order": 2,
+  "series": "rust-513-202",
+  "seriesOrder": 2,
+  "seriesTitle": "Тестирование в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/202"
+}

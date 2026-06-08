@@ -1,0 +1,14 @@
+{
+  "title": "Практикум REST и WebSocket — OrderDesk — Создание заказа",
+  "description": "Фрагмент из «Практикум REST и WebSocket — OrderDesk»: Создание заказа.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-08-praktikum-rest-i-websocket-2"
+  ],
+  "order": 1,
+  "series": "infra-security-8-08-orderdesk-praktikum",
+  "seriesOrder": 1,
+  "seriesTitle": "Практикум REST и WebSocket — OrderDesk",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-08-praktikum-rest-i-websocket/intro"
+}

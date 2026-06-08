@@ -1,0 +1,13 @@
+{
+  "title": "Docker Compose — готовые стеки — 11. Nginx как reverse proxy",
+  "description": "Фрагмент из «Docker Compose — готовые стеки»: 11. Nginx как reverse proxy.",
+  "tags": [
+    "lab",
+    "11111"
+  ],
+  "order": 8,
+  "series": "lab-11111",
+  "seriesOrder": 8,
+  "seriesTitle": "Docker Compose — готовые стеки",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11111"
+}

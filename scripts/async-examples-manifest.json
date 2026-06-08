@@ -1,0 +1,67 @@
+{
+  "generatedAt": "2026-06-07T17:28:41.786Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-05-asinhronnost",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "python/code-405-2-001",
+        "title": "Асинхронно (I/O-bound, один поток)",
+        "section": "асинхронно-i-o-bound-один-поток",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "2",
+        "slug": "python/code-405-2-002",
+        "title": "Два потока (тоже ~3 сек, но другая модель)",
+        "section": "два-потока-тоже-3-сек-но-другая-модель",
+        "blocks": 1,
+        "lines": 10
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "python/code-405-11-001",
+        "title": "Python",
+        "section": "python",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "11",
+        "slug": "java/code-405-11-002",
+        "title": "Java",
+        "section": "java",
+        "blocks": 1,
+        "lines": 12
+      },
+      {
+        "article": "11",
+        "slug": "java/code-405-11-003",
+        "title": "Java",
+        "section": "java",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "11",
+        "slug": "csharp/code-405-11-004",
+        "title": "C# (.NET)",
+        "section": "c-net",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "11",
+        "slug": "go/code-405-11-005",
+        "title": "Go",
+        "section": "go",
+        "blocks": 1,
+        "lines": 15
+      }
+    ]
+  }
+}

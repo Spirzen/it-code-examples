@@ -1,0 +1,14 @@
+{
+  "title": "Синтаксис и пунктуация в Rust — Фигурные скобки, макросы и атрибуты",
+  "description": "Фрагмент из «Синтаксис и пунктуация в Rust»: Фигурные скобки, макросы и атрибуты.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 1,
+  "series": "rust-513-12",
+  "seriesOrder": 1,
+  "seriesTitle": "Синтаксис и пунктуация в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/12"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Асинхронность простым языком — живые примеры — Два потока (тоже ~3 сек, но другая модель)",
+  "description": "Фрагмент из «Асинхронность простым языком — живые примеры»: Два потока (тоже ~3 сек, но другая модель).",
+  "tags": [
+    "async",
+    "concurrency",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 2,
+  "series": "code-405-2",
+  "seriesOrder": 2,
+  "seriesTitle": "Асинхронность простым языком — живые примеры",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/2"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Сеть в контейнерах — Сценарий \"frontend + api + db\"",
+  "description": "Фрагмент из «Сеть в контейнерах»: Сценарий \"frontend + api + db\".",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-115"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-115",
+  "seriesOrder": 1,
+  "seriesTitle": "Сеть в контейнерах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/115"
+}

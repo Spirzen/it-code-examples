@@ -1,0 +1,409 @@
+{
+  "generatedAt": "2026-06-08T12:34:22.570Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-12-groovy",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "groovy/groovy-512-2-001",
+        "title": "Где применяют Groovy",
+        "section": "где-применяют-groovy",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "groovy/groovy-512-11-001",
+        "title": "5.3. Замыкания — функции как значения",
+        "section": "5-3-замыкания-функции-как-значения",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "groovy/groovy-512-15-001",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "15",
+        "slug": "groovy/groovy-512-15-002",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "15",
+        "slug": "groovy/groovy-512-15-003",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "15",
+        "slug": "groovy/groovy-512-15-004",
+        "title": "Трейты (Traits)",
+        "section": "трейты-traits",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "15",
+        "slug": "groovy/groovy-512-15-005",
+        "title": "Создание DSL на основе ООП",
+        "section": "создание-dsl-на-основе-ооп",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "15",
+        "slug": "groovy/groovy-512-15-006",
+        "title": "Сквозной кейс — сервис каталога книг",
+        "section": "сквозной-кейс-сервис-каталога-книг",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "groovy/groovy-512-18-001",
+        "title": "Базовый синтаксис",
+        "section": "базовый-синтаксис",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "groovy/groovy-512-18-002",
+        "title": "Базовый синтаксис",
+        "section": "базовый-синтаксис",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "18",
+        "slug": "groovy/groovy-512-18-003",
+        "title": "Сквозной кейс — JSON-конвейер каталога",
+        "section": "сквозной-кейс-json-конвейер-каталога",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "groovy/groovy-512-19-001",
+        "title": "CRUD",
+        "section": "crud",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "19",
+        "slug": "groovy/groovy-512-19-002",
+        "title": "Сквозной кейс — сохранение активных книг",
+        "section": "сквозной-кейс-сохранение-активных-книг",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "groovy/groovy-512-21-001",
+        "title": "Gradle (Groovy DSL)",
+        "section": "gradle-groovy-dsl",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "21",
+        "slug": "groovy/groovy-512-21-002",
+        "title": "Первая спецификация",
+        "section": "первая-спецификация",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "21",
+        "slug": "groovy/groovy-512-21-003",
+        "title": "Сквозной кейс — тест сервиса каталога",
+        "section": "сквозной-кейс-тест-сервиса-каталога",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "groovy/groovy-512-22-001",
+        "title": "Минимальный Jenkinsfile",
+        "section": "минимальный-jenkinsfile",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "22",
+        "slug": "groovy/groovy-512-22-002",
+        "title": "Сквозной кейс — pipeline для каталога книг",
+        "section": "сквозной-кейс-pipeline-для-каталога-книг",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "groovy/groovy-512-23-001",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "23",
+        "slug": "groovy/groovy-512-23-002",
+        "title": "build.gradle — разбор по блокам",
+        "section": "build-gradle-разбор-по-блокам",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "23",
+        "slug": "groovy/groovy-512-23-003",
+        "title": "Сквозной кейс — build.gradle для каталога",
+        "section": "сквозной-кейс-build-gradle-для-каталога",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "groovy/groovy-512-24-001",
+        "title": "build.gradle — ключевые блоки",
+        "section": "build-gradle-ключевые-блоки",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "24",
+        "slug": "groovy/groovy-512-24-002",
+        "title": "Минимальная игра — сцена и квадрат",
+        "section": "минимальная-игра-сцена-и-квадрат",
+        "blocks": 1,
+        "lines": 44
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "groovy/groovy-512-25-001",
+        "title": "pipelineJob — Pipeline from SCM",
+        "section": "pipelinejob-pipeline-from-scm",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "25",
+        "slug": "groovy/groovy-512-25-002",
+        "title": "job — Freestyle и shell",
+        "section": "job-freestyle-и-shell",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "25",
+        "slug": "groovy/groovy-512-25-003",
+        "title": "Папки и views",
+        "section": "папки-и-views",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "26": [
+      {
+        "article": "26",
+        "slug": "groovy/groovy-512-26-001",
+        "title": "Global var — vars/standardPipeline.groovy",
+        "section": "global-var-vars-standardpipeline-groovy",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "26",
+        "slug": "groovy/groovy-512-26-002",
+        "title": "Классы в src/",
+        "section": "классы-в-src",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "26",
+        "slug": "groovy/groovy-512-26-003",
+        "title": "Классы в src/",
+        "section": "классы-в-src",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "27": [
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-001",
+        "title": "Шаг 1 · build.gradle",
+        "section": "шаг-1-build-gradle",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-002",
+        "title": "HttpResponseResult",
+        "section": "httpresponseresult",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-003",
+        "title": "4.1 Инициализация JMeter",
+        "section": "4-1-инициализация-jmeter",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-004",
+        "title": "4.2 Метод execute",
+        "section": "4-2-метод-execute",
+        "blocks": 1,
+        "lines": 79
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-005",
+        "title": "4.3 HTTPSampler и заголовки",
+        "section": "4-3-httpsampler-и-заголовки",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-006",
+        "title": "5.1 Каркас окна",
+        "section": "5-1-каркас-окна",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-007",
+        "title": "5.3 Отправка запроса в фоне",
+        "section": "5-3-отправка-запроса-в-фоне",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-008",
+        "title": "5.4 Парсинг заголовков и JSON",
+        "section": "5-4-парсинг-заголовков-и-json",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-009",
+        "title": "Шаг 6 · Main.groovy",
+        "section": "шаг-6-main-groovy",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "27",
+        "slug": "groovy/groovy-512-27-010",
+        "title": "Шаг 7 · SmokeTest",
+        "section": "шаг-7-smoketest",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-001",
+        "title": "Объявление классов",
+        "section": "объявление-классов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-002",
+        "title": "Свойства и поля",
+        "section": "свойства-и-поля",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-003",
+        "title": "Идиоматичная работа с коллекциями",
+        "section": "идиоматичная-работа-с-коллекциями",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-004",
+        "title": "Документирование классов и методов",
+        "section": "документирование-классов-и-методов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-005",
+        "title": "Структура тестов",
+        "section": "структура-тестов",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-006",
+        "title": "Слой доступа к данным",
+        "section": "слой-доступа-к-данным",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-007",
+        "title": "Сервисный слой с транзакционной поддержкой",
+        "section": "сервисный-слой-с-транзакционной-поддержкой",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "101",
+        "slug": "groovy/groovy-512-101-008",
+        "title": "Конфигурация приложения",
+        "section": "конфигурация-приложения",
+        "blocks": 1,
+        "lines": 28
+      }
+    ]
+  }
+}

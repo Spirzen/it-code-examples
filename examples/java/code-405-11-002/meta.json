@@ -1,0 +1,15 @@
+{
+  "title": "Управление потоками в многозадачных системах — Java — Thread.getAllStackTraces()",
+  "description": "Фрагмент из «Управление потоками в многозадачных системах»: карта стеков всех потоков.",
+  "tags": [
+    "async",
+    "concurrency",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 2,
+  "series": "code-405-11",
+  "seriesOrder": 2,
+  "seriesTitle": "Управление потоками в многозадачных системах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/11"
+}

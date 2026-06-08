@@ -1,0 +1,14 @@
+{
+  "title": "Управляющие конструкции и циклы в Rust — Арифметические операторы",
+  "description": "Фрагмент из «Управляющие конструкции и циклы в Rust»: Арифметические операторы.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "14"
+  ],
+  "order": 1,
+  "series": "rust-513-14",
+  "seriesOrder": 1,
+  "seriesTitle": "Управляющие конструкции и циклы в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/14"
+}

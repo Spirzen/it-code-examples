@@ -1,0 +1,14 @@
+{
+  "title": "MongoDB - документоориентированная база данных — GridFS",
+  "description": "Фрагмент из «MongoDB - документоориентированная база данных»: GridFS.",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "4"
+  ],
+  "order": 1,
+  "series": "nosql-4",
+  "seriesOrder": 1,
+  "seriesTitle": "MongoDB - документоориентированная база данных",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/4"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Laravel API с Sanctum — Маршруты и логин",
+  "description": "Фрагмент из «Laravel API с Sanctum»: Маршруты и логин.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "1433"
+  ],
+  "order": 3,
+  "series": "php-507-1433",
+  "seriesOrder": 3,
+  "seriesTitle": "Laravel API с Sanctum",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/1433"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Практикум WPF — клиент на Prism — ViewModel с загрузкой при навигации",
+  "description": "Фрагмент из «Практикум WPF — клиент на Prism»: ViewModel с загрузкой при навигации.",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "wpf-praktikum-4"
+  ],
+  "order": 4,
+  "series": "code-411-wpf-praktikum-4",
+  "seriesOrder": 4,
+  "seriesTitle": "Практикум WPF — клиент на Prism",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/wpf-praktikum/4"
+}

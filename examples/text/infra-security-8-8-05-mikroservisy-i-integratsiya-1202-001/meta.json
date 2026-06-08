@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по gRPC — 1. Общая структура `.proto`-файла",
+  "description": "Фрагмент из «Справочник по gRPC»: 1. Общая структура `.proto`-файла.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-1202"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-1202",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по gRPC",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/1202"
+}

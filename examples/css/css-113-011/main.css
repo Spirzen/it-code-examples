@@ -1,0 +1,44 @@
+.switch {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.75rem;
+  cursor: pointer;
+  user-select: none;
+}
+
+.switch input {
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.switch-track {
+  position: relative;
+  display: inline-block;
+  width: 48px;
+  height: 24px;
+  background-color: #CED4DA;
+  border-radius: 12px;
+  transition: background-color 0.2s ease;
+}
+
+.switch-track::before {
+  position: absolute;
+  content: "";
+  height: 20px;
+  width: 20px;
+  left: 2px;
+  bottom: 2px;
+  background-color: rgb(15, 134, 155);
+  border-radius: 50%;
+  transition: transform 0.2s ease;
+}
+
+.switch input:checked + .switch-track {
+  background-color: var(--color-primary);
+}
+
+.switch input:checked + .switch-track::before {
+  transform: translateX(24px);
+}

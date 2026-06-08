@@ -1,0 +1,14 @@
+{
+  "title": "Дженерики в TypeScript — Паттерн: type-safe updater",
+  "description": "Фрагмент из «Дженерики в TypeScript»: Паттерн: type-safe updater.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 2,
+  "series": "typescript-510-24",
+  "seriesOrder": 2,
+  "seriesTitle": "Дженерики в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/24"
+}

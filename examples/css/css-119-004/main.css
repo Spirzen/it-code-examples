@@ -1,0 +1,16 @@
+:root {
+  --bg: #f8fafc;
+  --fg: #0f172a;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0f172a;
+    --fg: #e2e8f0;
+  }
+}
+
+.card {
+  background: color-mix(in oklch, var(--bg) 92%, var(--fg));
+  color: var(--fg);
+}

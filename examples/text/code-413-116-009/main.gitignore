@@ -1,0 +1,15 @@
+/vendor/
+composer.phar
+
+/node_modules/     # если фронт в том же репо
+
+.env
+.env.*
+!.env.example
+
+/storage/*.key
+/bootstrap/cache/*
+!bootstrap/cache/.gitkeep
+
+.phpunit.result.cache
+.php-cs-fixer.cache

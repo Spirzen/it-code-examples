@@ -1,0 +1,14 @@
+{
+  "title": "Сборка и культура производительности — 2. Анализ дампов процессора и блокировок",
+  "description": "Фрагмент из «Сборка и культура производительности»: 2. Анализ дампов процессора и блокировок.",
+  "tags": [
+    "runtime-architecture",
+    "encyclopedia",
+    "116"
+  ],
+  "order": 11,
+  "series": "code-406-116",
+  "seriesOrder": 11,
+  "seriesTitle": "Сборка и культура производительности",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-06-arhitektura-vypolneniya/116"
+}

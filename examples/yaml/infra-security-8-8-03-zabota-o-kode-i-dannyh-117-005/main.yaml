@@ -1,0 +1,27 @@
+# Пример конфигурации DRP
+plan:
+  name: "Disaster Recovery Plan v2.1"
+  
+  teams:
+    - name: "Backup Team"
+      members:
+        - role: "Lead"
+          contact: admin@company.com
+        - role: "Engineer"
+          contact: engineer@company.com
+      
+  procedures:
+    - step: 1
+      action: "Check availability of backups"
+      tool: "monitoring-dashboard"
+      timeout: 5 minutes
+      
+    - step: 2
+      action: "Initiate restore process"
+      tool: "backup-cli restore"
+      timeout: 30 minutes
+      
+    - step: 3
+      action: "Verify Данные integrity"
+      tool: "checksum-validator"
+      timeout: 1 hour

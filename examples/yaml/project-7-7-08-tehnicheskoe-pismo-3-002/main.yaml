@@ -1,0 +1,74 @@
+paths:
+  /tasks:
+    get:
+      summary: Получить список всех задач
+      description: Возвращает массив объектов задач с возможностью фильтрации и пагинации.
+      tags:
+        - Задачи
+      parameters:
+        - name: status
+          in: query
+          description: Статус задачи для фильтрации
+          required: false
+          schema:
+            type: string
+            enum: [active, completed, archived]
+        - name: limit
+          in: query
+          description: Максимальное количество возвращаемых записей
+          required: false
+          schema:
+            type: integer
+            default: 20
+      responses:
+        '200':
+          description: Успешный ответ со списком задач
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Task'
+        '400':
+          description: Неверный параметр запроса
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+    post:
+      summary: Создать новую задачу
+      description: Добавляет новую задачу в систему. Требует авторизации.
+      tags:
+        - Задачи
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateTaskRequest'
+      responses:
+        '201':
+          description: Задача успешно создана
+          headers:
+            Location:
+              schema:
+                type: string
+              description: Ссылка на созданную задачу
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+        '400':
+          description: Ошибка валидации входных данных
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'
+        '401':
+          description: Отсутствует авторизация
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Error'

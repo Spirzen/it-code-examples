@@ -1,0 +1,14 @@
+{
+  "title": "Pulumi — Пример GitHub Actions",
+  "description": "Фрагмент из «Pulumi»: Пример GitHub Actions.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-21"
+  ],
+  "order": 6,
+  "series": "infra-security-8-8-04-devops-ci-cd-21",
+  "seriesOrder": 6,
+  "seriesTitle": "Pulumi",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/21"
+}

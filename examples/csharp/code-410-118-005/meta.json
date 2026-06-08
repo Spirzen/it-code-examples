@@ -1,0 +1,14 @@
+{
+  "title": "ORM на практике — Оптимизация производительности и N+1 проблема",
+  "description": "Фрагмент из «ORM на практике»: Оптимизация производительности и N+1 проблема.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "118"
+  ],
+  "order": 5,
+  "series": "code-410-118",
+  "seriesOrder": 5,
+  "seriesTitle": "ORM на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/118"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Testcontainers — интеграционные тесты с реальной БД — Зависимости (Maven)",
+  "description": "Фрагмент из «Testcontainers — интеграционные тесты с реальной БД»: Зависимости (Maven).",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "273"
+  ],
+  "order": 1,
+  "series": "java-503-273",
+  "seriesOrder": 1,
+  "seriesTitle": "Testcontainers — интеграционные тесты с реальной БД",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/273"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Java — 1. Чистый JDBC + HikariCP",
+  "description": "Фрагмент из «Работа с базами данных из Java»: 1. Чистый JDBC + HikariCP.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 13,
+  "series": "java-503-22",
+  "seriesOrder": 13,
+  "seriesTitle": "Работа с базами данных из Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/22"
+}

@@ -1,0 +1,49 @@
+---
+- name: Настройка Nginx на Ubuntu
+  hosts: webservers
+  become: yes
+  vars:
+    nginx_port: 80
+    app_root: /var/www/myapp
+  Задачи:
+    - name: Установить необходимые пакеты
+      apt:
+        name:
+          - nginx
+          - curl
+        state: present
+        update_cache: yes
+
+    - name: Создать директорию приложения
+      file:
+        path: "{{ app_root }}"
+        state: directory
+        owner: www-Data
+        group: www-Data
+        mode: '0755'
+
+    - name: Развернуть HTML-файл
+      copy:
+        content: "<h1>Привет из Ansible!</h1>"
+        dest: "{{ app_root }}/index.html"
+        owner: www-Data
+        group: www-Data
+        mode: '0644'
+
+    - name: Скопировать конфигурацию Nginx
+      template:
+        src: nginx-site.conf.j2
+        dest: /etc/nginx/sites-available/myapp
+      notify: Перезапустить Nginx
+
+    - name: Активировать сайт
+      file:
+        src: /etc/nginx/sites-available/myapp
+        dest: /etc/nginx/sites-enabled/myapp
+        state: link
+
+  handlers:
+    - name: Перезапустить Nginx
+      service:
+        name: nginx
+        state: reloaded

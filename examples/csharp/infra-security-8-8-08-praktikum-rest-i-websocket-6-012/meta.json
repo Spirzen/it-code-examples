@@ -1,0 +1,14 @@
+{
+  "title": "Практикум REST и WebSocket — OrderDesk — JWT для клиентов (orders-api)",
+  "description": "Фрагмент из «Практикум REST и WebSocket — OrderDesk»: JWT для клиентов (orders-api).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-08-praktikum-rest-i-websocket-6"
+  ],
+  "order": 12,
+  "series": "infra-security-8-08-orderdesk-praktikum",
+  "seriesOrder": 12,
+  "seriesTitle": "Практикум REST и WebSocket — OrderDesk",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-08-praktikum-rest-i-websocket/intro"
+}

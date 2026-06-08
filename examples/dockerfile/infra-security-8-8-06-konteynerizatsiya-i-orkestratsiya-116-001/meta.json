@@ -1,0 +1,14 @@
+{
+  "title": "Dockerfile — 1. Node.js API (Express / Fastify)",
+  "description": "Фрагмент из «Dockerfile»: 1. Node.js API (Express / Fastify).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-116"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116",
+  "seriesOrder": 1,
+  "seriesTitle": "Dockerfile",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/116"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "История языка Swift — Метапрограммирование — от property wrappers к compile-time macros",
+  "description": "Фрагмент из «История языка Swift»: Метапрограммирование — от property wrappers к compile-time macros.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 1,
+  "series": "swift-514-1",
+  "seriesOrder": 1,
+  "seriesTitle": "История языка Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/1"
+}

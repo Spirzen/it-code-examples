@@ -1,0 +1,14 @@
+{
+  "title": "Подсказки оптимизатору (query hints) — Документирование подсказок",
+  "description": "Фрагмент из «Подсказки оптимизатору (query hints)»: Документирование подсказок.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "8821"
+  ],
+  "order": 12,
+  "series": "sql-8821",
+  "seriesOrder": 12,
+  "seriesTitle": "Подсказки оптимизатору (query hints)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/8821"
+}

@@ -1,0 +1,27 @@
+server:
+  port: 8080
+  admin-port: 8081
+  ssl:
+    enabled: false  # ← д.б. true в prod!
+    # key-store: /etc/ssl/orion.p12
+
+auth:
+  jwt:
+    issuer: "https://auth.orion.example"
+    jwks-uri: "https://auth.orion.example/.well-known/jwks.json"
+  anonymous-access: false  # ← разрешить только в dev
+
+datasources:
+  - name: "sales_db"
+    type: "postgres"
+    url: "jdbc:postgresql://pg-main:5432/sales"
+    username: "${PG_USER}"  # ← из env
+    password: "${PG_PASS}"
+    pool:
+      max-size: 20
+      timeout-ms: 3000
+
+cache:
+  type: "caffeine"
+  max-entries: 10000
+  ttl-minutes: 15

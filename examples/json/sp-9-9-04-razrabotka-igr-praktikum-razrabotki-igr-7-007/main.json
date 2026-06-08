@@ -1,0 +1,20 @@
+[
+  {
+    "id": "slime",
+    "name": "Слизень",
+    "hp": 28,
+    "attack_damage": 5,
+    "block_value": 6,
+    "intent_pattern": ["attack", "attack", "block"],
+    "description": "Медленный, но упрямый."
+  },
+  {
+    "id": "cultist",
+    "name": "Культист",
+    "hp": 48,
+    "attack_damage": 6,
+    "buff_value": 3,
+    "intent_pattern": ["buff", "attack", "attack"],
+    "description": "Копит силу."
+  }
+]

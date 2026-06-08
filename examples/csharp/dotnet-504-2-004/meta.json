@@ -1,0 +1,14 @@
+{
+  "title": "SignalR - реализация реального времени в .NET — Интеграция с фоновыми службами и внешними системами",
+  "description": "Фрагмент из «SignalR - реализация реального времени в .NET»: Интеграция с фоновыми службами и внешними системами.",
+  "tags": [
+    "dotnet",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 4,
+  "series": "dotnet-504-2",
+  "seriesOrder": 4,
+  "seriesTitle": "SignalR - реализация реального времени в .NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-04-platforma-dotnet/2"
+}

@@ -1,0 +1,21 @@
+<!-- Кнопка вызова -->
+<button id="openModalBtn">Открыть модальное окно</button>
+
+<!-- Само модальное окно -->
+<div id="myModal" class="modal" role="dialog" aria-labelledby="modalTitle" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h2 id="modalTitle">Подтверждение действия</h2>
+        <button type="button" class="close" aria-label="Закрыть">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>Вы уверены, что хотите удалить этот элемент? Это действие нельзя отменить.</p>
+      </div>
+      <div class="modal-footer">
+        <button id="confirmBtn" class="btn btn-danger">Удалить</button>
+        <button id="cancelBtn" class="btn btn-secondary">Отмена</button>
+      </div>
+    </div>
+  </div>
+</div>

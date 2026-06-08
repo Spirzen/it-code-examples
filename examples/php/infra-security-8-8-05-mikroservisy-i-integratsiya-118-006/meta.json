@@ -1,0 +1,14 @@
+{
+  "title": "RabbitMQ — PHP - библиотека php-amqplib.",
+  "description": "Фрагмент из «RabbitMQ»: PHP - библиотека php-amqplib..",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-118"
+  ],
+  "order": 6,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-118",
+  "seriesOrder": 6,
+  "seriesTitle": "RabbitMQ",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/118"
+}

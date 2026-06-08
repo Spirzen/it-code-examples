@@ -1,0 +1,15 @@
+# secrets/production.yaml (после шифрования SOPS)
+database:
+    host: prod-db.internal
+    port: 5432
+    username: app_user
+    password: ENC[AES256_GCM,data:xxxxxxxxx,iv:yyyyy,tag:zzzzz,type:str]
+api_keys:
+    stripe: ENC[AES256_GCM,data:xxxxxxxxx,iv:yyyyy,tag:zzzzz,type:str]
+    sendgrid: ENC[AES256_GCM,data:xxxxxxxxx,iv:yyyyy,tag:zzzzz,type:str]
+sops:
+    kms:
+        - arn: arn:aws:kms:eu-west-1:123456789:key/abcd-1234
+          created_at: "2026-05-22T10:30:00Z"
+          enc: AQICAHh...
+    version: 3.8.1

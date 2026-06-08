@@ -1,0 +1,14 @@
+{
+  "title": "Управление зависимостями в программных проектах — Обратная зависимость (B ← A, но через абстракцию)",
+  "description": "Фрагмент из «Управление зависимостями в программных проектах»: Обратная зависимость (B ← A, но через абстракцию).",
+  "tags": [
+    "dependencies",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 1,
+  "series": "code-409-1",
+  "seriesOrder": 1,
+  "seriesTitle": "Управление зависимостями в программных проектах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-09-zavisimosti/1"
+}

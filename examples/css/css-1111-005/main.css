@@ -1,0 +1,21 @@
+:root {
+  --gutter: 16px;
+  --container-width: 1200px;
+}
+
+@media (min-width: 768px) {
+  :root {
+    --gutter: 24px;
+  }
+}
+
+@media (min-width: 1024px) {
+  :root {
+    --container-width: 1400px;
+  }
+}
+
+.container {
+  max-width: var(--container-width);
+  padding: 0 var(--gutter);
+}

@@ -1,0 +1,27 @@
+# kustomize/overlays/production/kustomization.yaml
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+
+resources:
+  - ../../base
+  - hpa.yaml
+
+namePrefix: prod-
+
+namespace: production
+
+patchesStrategicMerge:
+  - replica-patch.yaml
+  - resource-patch.yaml
+
+configMapGenerator:
+  - name: myapp-config
+    behavior: merge
+    literals:
+      - ENVIRONMENT=production
+      - LOG_LEVEL=warning
+      - CACHE_TTL=600
+
+images:
+  - name: myapp
+    newTag: v2.5.0

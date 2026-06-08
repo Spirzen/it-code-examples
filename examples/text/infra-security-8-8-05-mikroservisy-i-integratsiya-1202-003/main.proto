@@ -1,0 +1,37 @@
+
+import "google/api/annotations.proto";
+import "protoc-gen-validate/validate.proto";
+import "grpc/gateway/protoc_gen_openapiv2/options/annotations.proto";
+
+message CreateUserRequest {
+  string email = 1 [
+    (validate.rules).string = {
+      email: true,
+      min_len: 5,
+      max_len: 254
+    },
+    (google.api.field_behavior) = REQUIRED
+  ];
+  string name = 2 [(validate.rules).string.min_len = 1];
+}
+
+rpc CreateUser(CreateUserRequest) returns (User) {
+  option (google.api.http) = {
+    post: "/v1/users"
+    body: "*"
+  };
+  option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
+    summary: "Создать пользователя";
+    description: "Регистрирует нового пользователя. Email должен быть уникальным.";
+    tags: "Users";
+    responses: {
+      key: "409"
+      value: {
+        description: "Пользователь с таким email уже существует.";
+        schema: {
+          json_schema: { ref: "#/definitions/google.rpc.Status" }
+        }
+      }
+    };
+  };
+}

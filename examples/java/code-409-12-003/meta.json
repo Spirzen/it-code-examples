@@ -1,0 +1,14 @@
+{
+  "title": "Внедрение зависимостей (Dependency Injection) — DI-контейнер",
+  "description": "Фрагмент из «Внедрение зависимостей (Dependency Injection)»: DI-контейнер.",
+  "tags": [
+    "dependencies",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 3,
+  "series": "code-409-12",
+  "seriesOrder": 3,
+  "seriesTitle": "Внедрение зависимостей (Dependency Injection)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-09-zavisimosti/12"
+}

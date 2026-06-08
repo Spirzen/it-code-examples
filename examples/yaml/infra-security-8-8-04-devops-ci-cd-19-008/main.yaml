@@ -1,0 +1,38 @@
+# application-logging.yaml
+logging:
+  level:
+    root: INFO
+    
+    # Бизнес-компоненты - минимальная детализация
+    com.company.orders: INFO
+    com.company.payments: INFO
+    com.company.inventory: WARN
+    
+    # Инфраструктурные компоненты
+    org.hibernate.SQL: WARN
+    org.apache.kafka: WARN
+    io.netty: WARN
+    
+    # Интеграции - только ошибки
+    com.company.external.payment_gateway: ERROR
+    com.company.external.shipping_api: ERROR
+    
+  # Отдельные файлы для разных типов логов
+  appenders:
+    business:
+      file: /var/log/app/business.log
+      maxFileSize: 100MB
+      maxHistory: 30
+      totalSizeCap: 10GB
+      
+    access:
+      file: /var/log/app/access.log
+      maxFileSize: 500MB
+      maxHistory: 7
+      totalSizeCap: 50GB
+      
+    errors:
+      file: /var/log/app/errors.log
+      maxFileSize: 50MB
+      maxHistory: 90
+      totalSizeCap: 5GB

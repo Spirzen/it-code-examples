@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <style>
+        body { font-family: sans-serif; padding: 20px; }
+        .form-group { margin-bottom: 15px; }
+        label { display: block; margin-bottom: 5px; }
+        input { width: 100%; padding: 8px; box-sizing: border-box; }
+        button { padding: 10px 20px; background-color: #4CAF50; color: white; border: none; cursor: pointer; }
+        .error { color: red; font-size: 0.9em; display: none; }
+        .success { color: green; font-size: 1.1em; display: none; margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Регистрация</h1>
+    <form id="registrationForm">
+        <div class="form-group">
+            <label for="name">Имя:</label>
+            <input type="text" id="name" name="name" required>
+            <div class="error" id="errorName">Поле имя обязательно для заполнения.</div>
+        </div>
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+            <div class="error" id="errorEmail">Введите корректный адрес электронной почты.</div>
+        </div>
+        <div class="form-group">
+            <label for="password">Пароль:</label>
+            <input type="password" id="password" name="password" required>
+            <div class="error" id="errorPassword">Пароль должен содержать минимум 6 символов.</div>
+        </div>
+        <button type="submit">Зарегистрироваться</button>
+    </form>
+    <div class="success" id="successMessage">Успешная регистрация! Переход к корзине...</div>
+
+    <script>
+        document.getElementById('registrationForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const name = document.getElementById('name').value.trim();
+            const email = document.getElementById('email').value.trim();
+            const password = document.getElementById('password').value;
+            
+            let isValid = true;
+
+            // Сброс ошибок
+            document.querySelectorAll('.error').forEach(el => el.style.display = 'none');
+            document.getElementById('successMessage').style.display = 'none';
+
+            if (!name) {
+                document.getElementById('errorName').style.display = 'block';
+                isValid = false;
+            }
+            if (!email || !email.includes('@') || !email.includes('.')) {
+                document.getElementById('errorEmail').style.display = 'block';
+                isValid = false;
+            }
+            if (password.length < 6) {
+                document.getElementById('errorPassword').style.display = 'block';
+                isValid = false;
+            }
+
+            if (isValid) {
+                document.getElementById('successMessage').style.display = 'block';
+                // Имитация перехода к корзине через 2 секунды
+                setTimeout(() => {
+                    alert("Переход в корзину...");
+                    // Очистка данных после успешной регистрации
+                    document.getElementById('registrationForm').reset();
+                }, 2000);
+            }
+        });
+    </script>
+</body>
+</html>

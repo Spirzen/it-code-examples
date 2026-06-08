@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <config>
+    <add key="repositoryPath" value="./packages" />
+    <add key="http_proxy" value="http://proxy.corp.com:8080" />
+    <add key="no_proxy" value="localhost,127.0.0.1" />
+  </config>
+
+  <packageSources>
+    <clear />
+    <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+    <add key="internal" value="https://nuget.corp.com/v3/index.json" />
+  </packageSources>
+
+  <packageSourceCredentials>
+    <internal>
+      <add key="Username" value="user" />
+      <add key="ClearTextPassword" value="pass" />
+    </internal>
+  </packageSourceCredentials>
+
+  <activePackageSource>
+    <add key="All" value="(Aggregate source)" />
+  </activePackageSource>
+
+  <disabledPackageSources>
+    <add key="legacy" value="true" />
+  </disabledPackageSources>
+</configuration>

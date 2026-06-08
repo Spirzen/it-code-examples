@@ -1,0 +1,73 @@
+openapi: 3.0.3
+info:
+  title: Partner Orders API
+  version: 1.2.0
+servers:
+  - url: https://api.shop.example/v1
+paths:
+  /orders:
+    get:
+      summary: Список заказов, готовых к отгрузке
+      parameters:
+        - name: status
+          in: query
+          schema:
+            type: string
+            enum: [ready_to_ship]
+        - name: cursor
+          in: query
+          schema: { type: string }
+        - name: limit
+          in: query
+          schema: { type: integer, maximum: 100, default: 50 }
+      responses:
+        '200':
+          description: Страница заказов
+    post:
+      summary: Создание заказа (редко — со стороны партнёра)
+      parameters:
+        - name: Idempotency-Key
+          in: header
+          required: true
+          schema: { type: string, format: uuid }
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/OrderCreate'
+      responses:
+        '201': { description: Создан }
+        '409': { description: Дубликат по Idempotency-Key }
+  /orders/{orderId}/shipments:
+    post:
+      summary: Зарегистрировать отгрузку
+      parameters:
+        - $ref: '#/components/parameters/OrderId'
+      responses:
+        '201': { description: Отгрузка принята }
+        '422': { description: Заказ в неверном статусе }
+components:
+  parameters:
+    OrderId:
+      name: orderId
+      in: path
+      required: true
+      schema: { type: string, format: uuid }
+  schemas:
+    OrderCreate:
+      type: object
+      required: [externalRef, lineItems]
+      properties:
+        externalRef:
+          type: string
+          description: ID заказа в системе партнёра
+        lineItems:
+          type: array
+          minItems: 1
+          items:
+            type: object
+            required: [sku, quantity]
+            properties:
+              sku: { type: string }
+              quantity: { type: integer, minimum: 1 }

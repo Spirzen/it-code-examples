@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование в Go — Что попробовать",
+  "description": "Фрагмент из «Тестирование в Go»: Что попробовать.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "192"
+  ],
+  "order": 3,
+  "series": "go-510-192",
+  "seriesOrder": 3,
+  "seriesTitle": "Тестирование в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/192"
+}

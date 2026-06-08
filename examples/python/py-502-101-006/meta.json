@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Python — Композиция вместо наследования",
+  "description": "Фрагмент из «Рекомендации по разработке на Python»: Композиция вместо наследования.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 6,
+  "series": "py-502-101",
+  "seriesOrder": 6,
+  "seriesTitle": "Рекомендации по разработке на Python",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/101"
+}

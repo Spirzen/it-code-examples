@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Terraform — Содержимое state-файла",
+  "description": "Фрагмент из «Справочник по Terraform»: Содержимое state-файла.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-04-devops-ci-cd-3",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по Terraform",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3"
+}

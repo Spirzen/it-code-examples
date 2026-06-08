@@ -1,0 +1,20 @@
+spec:
+  replicas: <целое> # количество желаемых Pod’ов
+  selector:
+    matchLabels:
+      app: my-app
+  strategy:
+    type: RollingUpdate|Recreate
+    rollingUpdate:
+      maxUnavailable: <целое или процент>
+      maxSurge: <целое или процент>
+  minReadySeconds: <целое> # сколько секунд Pod должен быть ready перед учётом
+  revisionHistoryLimit: <целое> # сколько старых ReplicaSet хранить
+  progressDeadlineSeconds: <целое> # таймаут для прогресса обновления
+  paused: true|false
+  template: # шаблон Pod
+    metadata:
+      labels:
+        app: my-app
+    spec:
+      containers: [...]

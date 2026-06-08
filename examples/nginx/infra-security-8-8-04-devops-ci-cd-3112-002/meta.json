@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Nginx — Примеры",
+  "description": "Фрагмент из «Справочник по Nginx»: Примеры.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3112"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-04-devops-ci-cd-3112",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по Nginx",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3112"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Идиомы современного C++ — `std::unique_ptr` с custom deleter",
+  "description": "Фрагмент из «Идиомы современного C++»: `std::unique_ptr` с custom deleter.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "30"
+  ],
+  "order": 1,
+  "series": "cpp-506-30",
+  "seriesOrder": 1,
+  "seriesTitle": "Идиомы современного C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/30"
+}

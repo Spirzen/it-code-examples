@@ -1,0 +1,14 @@
+{
+  "title": "Dockerfile — Разбор на примере — Python по шагам",
+  "description": "Фрагмент из «Dockerfile»: Разбор на примере — Python по шагам.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-116"
+  ],
+  "order": 6,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116",
+  "seriesOrder": 6,
+  "seriesTitle": "Dockerfile",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/116"
+}

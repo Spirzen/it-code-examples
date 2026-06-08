@@ -1,0 +1,14 @@
+{
+  "title": "Внедрение зависимостей (Dependency Injection) — Setter Injection",
+  "description": "Фрагмент из «Внедрение зависимостей (Dependency Injection)»: Setter Injection.",
+  "tags": [
+    "dependencies",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 4,
+  "series": "code-409-12",
+  "seriesOrder": 4,
+  "seriesTitle": "Внедрение зависимостей (Dependency Injection)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-09-zavisimosti/12"
+}

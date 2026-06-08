@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Kubernetes — Pod",
+  "description": "Фрагмент из «Справочник по Kubernetes»: Pod.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-211"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Kubernetes",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/211"
+}

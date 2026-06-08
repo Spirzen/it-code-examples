@@ -1,0 +1,14 @@
+{
+  "title": "Spock — первая спецификация — Gradle (Groovy DSL)",
+  "description": "Фрагмент из «Spock — первая спецификация»: Gradle (Groovy DSL).",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 1,
+  "series": "groovy-512-21",
+  "seriesOrder": 1,
+  "seriesTitle": "Spock — первая спецификация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/21"
+}

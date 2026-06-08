@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 4.1. Принцип единственной ответственности",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 4.1. Принцип единственной ответственности.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 3,
+  "series": "java-503-101",
+  "seriesOrder": 3,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}

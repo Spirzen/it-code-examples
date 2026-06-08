@@ -1,0 +1,14 @@
+{
+  "title": "Экосистема Kotlin-приложений — Gradle с Kotlin DSL",
+  "description": "Фрагмент из «Экосистема Kotlin-приложений»: Gradle с Kotlin DSL.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "10"
+  ],
+  "order": 3,
+  "series": "kotlin-509-10",
+  "seriesOrder": 3,
+  "seriesTitle": "Экосистема Kotlin-приложений",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/10"
+}

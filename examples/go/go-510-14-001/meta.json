@@ -1,0 +1,14 @@
+{
+  "title": "Синтаксические конструкции Go — ООП-идеи без классического наследования",
+  "description": "Фрагмент из «Синтаксические конструкции Go»: ООП-идеи без классического наследования.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "14"
+  ],
+  "order": 1,
+  "series": "go-510-14",
+  "seriesOrder": 1,
+  "seriesTitle": "Синтаксические конструкции Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/14"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Функции в TypeScript — Стрелочные функции и `this`",
+  "description": "Фрагмент из «Функции в TypeScript»: Стрелочные функции и `this`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "14"
+  ],
+  "order": 2,
+  "series": "typescript-510-14",
+  "seriesOrder": 2,
+  "seriesTitle": "Функции в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/14"
+}

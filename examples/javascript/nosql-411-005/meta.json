@@ -1,0 +1,14 @@
+{
+  "title": "Первые шаги с MongoDB — Процедура с использованием пайплайна агрегации",
+  "description": "Фрагмент из «Первые шаги с MongoDB»: Процедура с использованием пайплайна агрегации.",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "411"
+  ],
+  "order": 5,
+  "series": "nosql-411",
+  "seriesOrder": 5,
+  "seriesTitle": "Первые шаги с MongoDB",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/411"
+}

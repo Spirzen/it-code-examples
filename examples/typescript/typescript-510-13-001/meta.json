@@ -1,0 +1,14 @@
+{
+  "title": "Циклы в TypeScript — `for await...of` (асинхронные итерируемые)",
+  "description": "Фрагмент из «Циклы в TypeScript»: `for await...of` (асинхронные итерируемые).",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "13"
+  ],
+  "order": 1,
+  "series": "typescript-510-13",
+  "seriesOrder": 1,
+  "seriesTitle": "Циклы в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/13"
+}

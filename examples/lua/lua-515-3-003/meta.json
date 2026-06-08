@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Lua — Метаметоды и метатаблицы",
+  "description": "Фрагмент из «Справочник по Lua»: Метаметоды и метатаблицы.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "3"
+  ],
+  "order": 3,
+  "series": "lua-515-3",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/3"
+}

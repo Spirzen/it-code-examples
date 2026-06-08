@@ -1,0 +1,38 @@
+@page "/chat"
+@using Microsoft.AspNetCore.SignalR.Client
+@inject NavigationManager Navigation
+@implements IAsyncDisposable
+
+<ul>
+@foreach (var msg in messages)
+{
+    <li>@msg.UserName: @msg.Content</li>
+}
+</ul>
+
+@code {
+    private HubConnection? _hub;
+    private readonly List<ChatMessage> messages = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        _hub = new HubConnectionBuilder()
+            .WithUrl(Navigation.ToAbsoluteUri("/chathub"))
+            .WithAutomaticReconnect()
+            .Build();
+
+        _hub.On<ChatMessage>("ReceiveMessage", msg =>
+        {
+            messages.Add(msg);
+            return InvokeAsync(StateHasChanged);
+        });
+
+        await _hub.StartAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (_hub is not null)
+            await _hub.DisposeAsync();
+    }
+}

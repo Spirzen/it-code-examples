@@ -1,0 +1,14 @@
+{
+  "title": "gRPC в Go — Файл `.proto`",
+  "description": "Фрагмент из «gRPC в Go»: Файл `.proto`.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "32"
+  ],
+  "order": 1,
+  "series": "go-510-32",
+  "seriesOrder": 1,
+  "seriesTitle": "gRPC в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/32"
+}

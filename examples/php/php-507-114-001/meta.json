@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на PHP — 7.5. Блок `default` в `switch`",
+  "description": "Фрагмент из «Рекомендации по разработке на PHP»: 7.5. Блок `default` в `switch`.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "114"
+  ],
+  "order": 1,
+  "series": "php-507-114",
+  "seriesOrder": 1,
+  "seriesTitle": "Рекомендации по разработке на PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/114"
+}

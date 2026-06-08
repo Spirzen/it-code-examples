@@ -1,0 +1,24 @@
+# Пример конфигурации микросервиса с ORM
+version: '3.8'
+services:
+  user-service:
+    build: ./user-service
+    ports:
+      - "5001:5000"
+    environment:
+      - DB_CONNECTION_STRING=Server=user-db;Database=users;...
+      - ASPNETCORE_ENVIRONMENT=Разработка
+    depends_on:
+      - user-db
+      
+  user-db:
+    image: postgres:13
+    environment:
+      - POSTGRES_DB=users
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      
+volumes:
+  pgdata:

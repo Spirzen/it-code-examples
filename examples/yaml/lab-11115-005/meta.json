@@ -1,0 +1,13 @@
+{
+  "title": "Kubernetes YAML — минимальные манифесты — Ingress — HTTP снаружи (нужен Ingress Controller)",
+  "description": "Фрагмент из «Kubernetes YAML — минимальные манифесты»: Ingress — HTTP снаружи (нужен Ingress Controller).",
+  "tags": [
+    "lab",
+    "11115"
+  ],
+  "order": 5,
+  "series": "lab-11115",
+  "seriesOrder": 5,
+  "seriesTitle": "Kubernetes YAML — минимальные манифесты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11115"
+}

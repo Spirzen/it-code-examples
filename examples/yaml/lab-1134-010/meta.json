@@ -1,0 +1,13 @@
+{
+  "title": "GitHub Actions — CI/CD рецепты — 8. Concurrency — отмена старых run",
+  "description": "Фрагмент из «GitHub Actions — CI/CD рецепты»: 8. Concurrency — отмена старых run.",
+  "tags": [
+    "lab",
+    "1134"
+  ],
+  "order": 10,
+  "series": "lab-1134",
+  "seriesOrder": 10,
+  "seriesTitle": "GitHub Actions — CI/CD рецепты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1134"
+}

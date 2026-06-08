@@ -1,0 +1,14 @@
+{
+  "title": "Jenkins Pipeline — первый Jenkinsfile — Сквозной кейс — pipeline для каталога книг",
+  "description": "Фрагмент из «Jenkins Pipeline — первый Jenkinsfile»: Сквозной кейс — pipeline для каталога книг.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 2,
+  "series": "groovy-512-22",
+  "seriesOrder": 2,
+  "seriesTitle": "Jenkins Pipeline — первый Jenkinsfile",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/22"
+}

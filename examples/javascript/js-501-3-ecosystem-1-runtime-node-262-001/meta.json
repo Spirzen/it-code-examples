@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Node.js — Шаг 6 — HTTP-сервер на встроенном `http`",
+  "description": "Фрагмент из «Первая программа на Node.js»: Шаг 6 — HTTP-сервер на встроенном `http`.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-1-runtime-node-262"
+  ],
+  "order": 1,
+  "series": "js-501-3-ecosystem-1-runtime-node-262",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа на Node.js",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/1-runtime-node/262"
+}

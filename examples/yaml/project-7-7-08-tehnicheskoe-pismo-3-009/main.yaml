@@ -1,0 +1,16 @@
+components:
+  schemas:
+    Error:
+      type: object
+      properties:
+        code:
+          type: integer
+          description: Код ошибки
+        message:
+          type: string
+          description: Текстовое описание ошибки
+        details:
+          type: array
+          items:
+            type: string
+          description: Детали ошибки

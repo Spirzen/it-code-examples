@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в Go — 3. Пакет `errors` (начиная с Go 1.13) предоставляет поддержку",
+  "description": "Фрагмент из «Обработка ошибок в Go»: 3. Пакет `errors` (начиная с Go 1.13) предоставляет поддержку.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "191"
+  ],
+  "order": 1,
+  "series": "go-510-191",
+  "seriesOrder": 1,
+  "seriesTitle": "Обработка ошибок в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/191"
+}

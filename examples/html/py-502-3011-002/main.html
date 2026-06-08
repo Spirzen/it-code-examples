@@ -1,0 +1,49 @@
+<!-- main/templates/main/message_list.html -->
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Список сообщений</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .message-item {
+            border-bottom: 1px solid #eee;
+            padding: 10px 0;
+        }
+        .date {
+            font-size: 0.8em;
+            color: #888;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Все сообщения</h1>
+        {% if messages %}
+            {% for message in messages %}
+                <div class="message-item">
+                    <p>{{ message.text }}</p>
+                    <span class="date">{{ message.created_at|date:"d.m.Y H:i" }}</span>
+                </div>
+            {% endfor %}
+        {% else %}
+            <p>Сообщений пока нет.</p>
+        {% endif %}
+    </div>
+</body>
+</html>

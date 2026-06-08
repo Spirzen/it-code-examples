@@ -1,0 +1,15 @@
+<button onclick="fetchPrice(1)">Показать цену товара 1</button>
+<div id="result"></div>
+
+<script>
+async function fetchPrice(productId) {
+    const response = await fetch(`/api/products/${productId}`);
+    if (response.ok) {
+        const product = await response.json();
+        document.getElementById('result').innerText = 
+`Товар: ${product.name}, Цена: ${product.price} ₽`;
+    } else {
+        document.getElementById('result').innerText = 'Товар не найден';
+    }
+}
+</script>

@@ -1,0 +1,49 @@
+        <h:form id="todoForm">
+            <h:messages globalOnly="true" styleClass="messages"/>
+
+            <div class="add-form">
+                <h:inputText id="newTask"
+                             value="#{todoBean.newTaskTitle}"
+                             placeholder="Новая задача..."
+                             styleClass="task-input"/>
+                <h:commandButton value="Добавить"
+                                 action="#{todoBean.addTask}"
+                                 styleClass="btn btn-primary"/>
+            </div>
+
+            <div class="stats">
+                Всего: <strong>#{todoBean.tasks.size()}</strong>
+                · Выполнено: <strong>#{todoBean.completedCount}</strong>
+            </div>
+
+            <h:dataTable value="#{todoBean.tasks}"
+                         var="task"
+                         styleClass="task-table"
+                         rendered="#{not empty todoBean.tasks}">
+                <h:column>
+                    <f:facet name="header">Статус</f:facet>
+                    <h:selectBooleanCheckbox value="#{task.completed}">
+                        <f:ajax event="change" render="@form"/>
+                    </h:selectBooleanCheckbox>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Задача</f:facet>
+                    <span class="#{task.completed ? 'completed' : ''}">#{task.title}</span>
+                </h:column>
+                <h:column>
+                    <f:facet name="header">Создана</f:facet>
+                    #{task.formattedCreatedAt}
+                </h:column>
+                <h:column>
+                    <f:facet name="header"/>
+                    <h:commandButton value="Удалить"
+                                     action="#{todoBean.removeTask(task)}"
+                                     styleClass="btn btn-danger"/>
+                </h:column>
+            </h:dataTable>
+
+            <h:panelGroup layout="block" styleClass="empty-hint"
+                          rendered="#{empty todoBean.tasks}">
+                Список пуст. Добавьте первую задачу выше.
+            </h:panelGroup>
+        </h:form>

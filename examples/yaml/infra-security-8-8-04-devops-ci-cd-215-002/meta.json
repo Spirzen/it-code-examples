@@ -1,0 +1,14 @@
+{
+  "title": "Инфраструктура как код (Infrastructure as Code) — AWS CloudFormation (YAML)",
+  "description": "Фрагмент из «Инфраструктура как код (Infrastructure as Code)»: AWS CloudFormation (YAML).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-215"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-04-devops-ci-cd-215",
+  "seriesOrder": 2,
+  "seriesTitle": "Инфраструктура как код (Infrastructure as Code)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/215"
+}

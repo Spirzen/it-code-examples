@@ -1,0 +1,43 @@
+# feature_flags.yaml
+flags:
+  - name: new_checkout_flow
+    type: boolean
+    default: false
+    description: "Новый процесс оформления заказа"
+    owner: "checkout-team"
+    created_at: "2026-04-15"
+    targeting_rules:
+      - condition:
+          user_segment: ["beta_testers", "employees"]
+        value: true
+      - condition:
+          environment: ["staging"]
+        value: true
+      - condition:
+          percentage: 10
+        value: true
+  
+  - name: recommendation_algorithm
+    type: variant
+    default: "collaborative_filtering"
+    description: "Алгоритм рекомендаций товаров"
+    owner: "ml-team"
+    created_at: "2026-05-01"
+    variants:
+      collaborative_filtering:
+        value: "cf_v2"
+        percentage: 70
+      content_based:
+        value: "cb_v3"
+        percentage: 20
+      hybrid:
+        value: "hybrid_v1"
+        percentage: 10
+  
+  - name: expensive_reports
+    type: boolean
+    default: true
+    description: "Ресурсоёмкие отчёты (операционный флаг)"
+    owner: "platform-team"
+    created_at: "2026-01-10"
+    targeting_rules: []

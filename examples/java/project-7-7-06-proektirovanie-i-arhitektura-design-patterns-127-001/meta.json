@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Наблюдатель\" в Java — подписчики и ApplicationEvent' — Пример — статус заказа",
+  "description": "Фрагмент из «'Паттерн \"Наблюдатель\" в Java — подписчики и ApplicationEvent'»: Пример — статус заказа.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-127"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-127",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Наблюдатель\" в Java — подписчики и ApplicationEvent'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/127"
+}

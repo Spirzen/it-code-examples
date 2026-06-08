@@ -1,0 +1,13 @@
+{
+  "title": "Fetch / axios — типовые запросы — 6. Retry при сбое сервера",
+  "description": "Фрагмент из «Fetch / axios — типовые запросы»: 6. Retry при сбое сервера.",
+  "tags": [
+    "lab",
+    "1145"
+  ],
+  "order": 2,
+  "series": "lab-1145",
+  "seriesOrder": 2,
+  "seriesTitle": "Fetch / axios — типовые запросы",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1145"
+}

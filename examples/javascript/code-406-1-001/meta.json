@@ -1,0 +1,14 @@
+{
+  "title": "Архитектура выполнения программ — Стек вызовов",
+  "description": "Фрагмент из «Архитектура выполнения программ»: Стек вызовов.",
+  "tags": [
+    "runtime-architecture",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 1,
+  "series": "code-406-1",
+  "seriesOrder": 1,
+  "seriesTitle": "Архитектура выполнения программ",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-06-arhitektura-vypolneniya/1"
+}

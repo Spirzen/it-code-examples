@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по ASP.NET — 1. Аутентификация (`IAuthenticationService`)",
+  "description": "Фрагмент из «Справочник по ASP.NET»: 1. Аутентификация (`IAuthenticationService`).",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "452"
+  ],
+  "order": 6,
+  "series": "csharp-505-452",
+  "seriesOrder": 6,
+  "seriesTitle": "Справочник по ASP.NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/452"
+}

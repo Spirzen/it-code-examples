@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head><title>Профиль {{ user.name }}</title></head>
+<body>
+  <h1>Добро пожаловать, {{ user.name }}!</h1>
+  {% if user.is_admin %}
+    <p>Вы — администратор.</p>
+  {% endif %}
+  <ul>
+  {% for role in user.roles %}
+    <li>{{ role }}</li>
+  {% endfor %}
+  </ul>
+</body>
+</html>

@@ -1,0 +1,74 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import {groupByLanguage, loadCatalog} from '@/lib/examples';
+import {LANGUAGE_CATALOG} from '@/lib/languages';
+import {sitePath} from '@/lib/site';
+
+const catalog = loadCatalog();
+const grouped = groupByLanguage(catalog);
+const labelById = Object.fromEntries(LANGUAGE_CATALOG.map((l) => [l.id, l.label]));
+
+export function getStaticPaths() {
+  const catalog = loadCatalog();
+  const grouped = groupByLanguage(catalog);
+  return [...grouped.keys()].map((id) => ({
+    params: {id},
+    props: {
+      languageId: id,
+      count: grouped.get(id)?.length ?? 0,
+    },
+  }));
+}
+
+const {languageId, count} = Astro.props;
+const label = labelById[languageId] ?? languageId;
+const totalFiles = (grouped.get(languageId) ?? []).reduce((sum, ex) => sum + ex.fileCount, 0);
+---
+
+<BaseLayout
+  title={`${label} — примеры кода`}
+  description={`${count} примеров на ${label} в каталоге IT Code Examples.`}
+>
+  <div
+    class="catalog-home"
+    data-catalog
+    data-base={import.meta.env.BASE_URL}
+    data-catalog-url={sitePath(`catalog/${languageId}.json`)}
+    data-language={languageId}
+    data-language-label={label}
+  >
+    <section class="hero-panel hero-panel--compact">
+      <a class="back" href={sitePath('')}>← Каталог</a>
+      <h1>{label}</h1>
+      <div class="hero-panel__stats">
+        <span class="stat-pill"><strong>{count}</strong> примеров</span>
+        <span class="stat-pill"><strong>{totalFiles}</strong> файлов</span>
+      </div>
+      <div class="hero-panel__search">
+        <label class="sr-only" for="catalog-q">Поиск по {label}</label>
+        <input
+          id="catalog-q"
+          class="catalog-search__input catalog-search__input--hero"
+          type="search"
+          placeholder={`Поиск среди ${count} примеров…`}
+          autocomplete="off"
+          data-search-input
+        />
+        <p class="catalog-search__meta" data-search-count></p>
+      </div>
+    </section>
+
+    <p class="catalog-search__empty" data-search-empty hidden>Ничего не найдено — попробуйте другой запрос.</p>
+
+    <section class="catalog-block">
+      <ul class="example-grid" data-catalog-grid></ul>
+      <div class="catalog-load-more" data-load-more-wrap hidden>
+        <button type="button" class="catalog-load-more__btn" data-load-more>
+          Показать ещё
+        </button>
+        <p class="catalog-load-more__meta" data-load-more-meta></p>
+      </div>
+    </section>
+  </div>
+  <script src={sitePath('scripts/catalog.js')} defer></script>
+</BaseLayout>

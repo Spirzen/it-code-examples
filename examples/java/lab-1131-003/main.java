@@ -1,0 +1,17 @@
+import java.io.*;
+import java.util.*;
+
+public class FastSum {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int n = Integer.parseInt(st.nextToken());
+        st = new StringTokenizer(br.readLine());
+        long sum = 0;
+        for (int i = 0; i < n; i++) {
+            sum += Long.parseLong(st.nextToken());
+        }
+        System.out.println(sum);
+        br.close();
+    }
+}

@@ -1,0 +1,2940 @@
+{
+  "generatedAt": "2026-06-08T20:58:51.403Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/8-infra-security",
+  "subdirs": [
+    "8-01-oblachnye-tehnologii",
+    "8-02-low-code-no-code",
+    "8-03-zabota-o-kode-i-dannyh",
+    "8-04-devops-ci-cd",
+    "8-05-mikroservisy-i-integratsiya",
+    "8-06-konteynerizatsiya-i-orkestratsiya",
+    "8-07-informatsionnaya-bezopasnost",
+    "8-08-praktikum-rest-i-websocket",
+    "8-09-belyy-haking-i-bug-bounty",
+    "8-10-testirovanie-na-proniknovenie",
+    "8-11-praktikum-postgresql"
+  ],
+  "articles": {
+    "8-01-oblachnye-tehnologii-1": [
+      {
+        "article": "8-01-oblachnye-tehnologii-1",
+        "slug": "python/infra-security-8-8-01-oblachnye-tehnologii-1-001",
+        "title": "Пример — тот же смысл из Python (boto3)",
+        "section": "пример-тот-же-смысл-из-python-boto3",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "8-02-low-code-no-code-11": [
+      {
+        "article": "8-02-low-code-no-code-11",
+        "slug": "html/infra-security-8-8-02-low-code-no-code-11-001",
+        "title": "Полный код конструктора",
+        "section": "полный-код-конструктора",
+        "blocks": 1,
+        "lines": 698
+      }
+    ],
+    "8-03-zabota-o-kode-i-dannyh-112": [
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-112",
+        "slug": "bash/infra-security-8-8-03-zabota-o-kode-i-dannyh-112-001",
+        "title": "Алиасы",
+        "section": "алиасы",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "8-03-zabota-o-kode-i-dannyh-117": [
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-117",
+        "slug": "python/infra-security-8-8-03-zabota-o-kode-i-dannyh-117-001",
+        "title": "Хранение в облаке",
+        "section": "хранение-в-облаке",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-117",
+        "slug": "sql/infra-security-8-8-03-zabota-o-kode-i-dannyh-117-002",
+        "title": "Восстановление базы данных через дамп",
+        "section": "восстановление-базы-данных-через-дамп",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-117",
+        "slug": "csharp/infra-security-8-8-03-zabota-o-kode-i-dannyh-117-003",
+        "title": "Восстановление базы данных через дамп",
+        "section": "восстановление-базы-данных-через-дамп",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-117",
+        "slug": "yaml/infra-security-8-8-03-zabota-o-kode-i-dannyh-117-004",
+        "title": "Безопасность доступа к бэкапам",
+        "section": "безопасность-доступа-к-бэкапам",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-117",
+        "slug": "yaml/infra-security-8-8-03-zabota-o-kode-i-dannyh-117-005",
+        "title": "Планирование восстановления после катастрофы",
+        "section": "планирование-восстановления-после-катастрофы",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-117",
+        "slug": "nginx/infra-security-8-8-03-zabota-o-kode-i-dannyh-117-006",
+        "title": "Балансировка нагрузки",
+        "section": "балансировка-нагрузки",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-117",
+        "slug": "python/infra-security-8-8-03-zabota-o-kode-i-dannyh-117-007",
+        "title": "Кластеризация систем",
+        "section": "кластеризация-систем",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8-03-zabota-o-kode-i-dannyh-1181": [
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-1181",
+        "slug": "yaml/infra-security-8-8-03-zabota-o-kode-i-dannyh-1181-001",
+        "title": "Структура конфигурации",
+        "section": "структура-конфигурации",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-1181",
+        "slug": "bash/infra-security-8-8-03-zabota-o-kode-i-dannyh-1181-002",
+        "title": "Пример взаимодействия",
+        "section": "пример-взаимодействия",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-03-zabota-o-kode-i-dannyh-1182": [
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-1182",
+        "slug": "bash/infra-security-8-8-03-zabota-o-kode-i-dannyh-1182-001",
+        "title": "Управление кодом и репозитории",
+        "section": "управление-кодом-и-репозитории",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-1182",
+        "slug": "yaml/infra-security-8-8-03-zabota-o-kode-i-dannyh-1182-002",
+        "title": "CI/CD пайплайны",
+        "section": "ci-cd-пайплайны",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "8-03-zabota-o-kode-i-dannyh-1182",
+        "slug": "json/infra-security-8-8-03-zabota-o-kode-i-dannyh-1182-003",
+        "title": "Расширение для VSCode",
+        "section": "расширение-для-vscode",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "8-04-devops-ci-cd-12": [
+      {
+        "article": "8-04-devops-ci-cd-12",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-12-001",
+        "title": "Конфигурация",
+        "section": "конфигурация",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "8-04-devops-ci-cd-13": [
+      {
+        "article": "8-04-devops-ci-cd-13",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-13-001",
+        "title": "Предварительная валидация (pre-merge checks)",
+        "section": "предварительная-валидация-pre-merge-checks",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "8-04-devops-ci-cd-14": [
+      {
+        "article": "8-04-devops-ci-cd-14",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-14-001",
+        "title": "Сквозной пример пайплайна (GitLab CI)",
+        "section": "сквозной-пример-пайплайна-gitlab-ci",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "8-04-devops-ci-cd-16": [
+      {
+        "article": "8-04-devops-ci-cd-16",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-16-001",
+        "title": "Пример — полный CI/CD-пайплайн в GitLab CI",
+        "section": "пример-полный-ci-cd-пайплайн-в-gitlab-ci",
+        "blocks": 1,
+        "lines": 60
+      }
+    ],
+    "8-04-devops-ci-cd-18": [
+      {
+        "article": "8-04-devops-ci-cd-18",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-18-001",
+        "title": "Ansible",
+        "section": "ansible",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-04-devops-ci-cd-19": [
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-001",
+        "title": "Антипаттерны горячего логирования",
+        "section": "антипаттерны-горячего-логирования",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "java/infra-security-8-8-04-devops-ci-cd-19-002",
+        "title": "Антипаттерны горячего логирования",
+        "section": "антипаттерны-горячего-логирования",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-003",
+        "title": "Стратегии эффективного логирования",
+        "section": "стратегии-эффективного-логирования",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "java/infra-security-8-8-04-devops-ci-cd-19-004",
+        "title": "Стратегии эффективного логирования",
+        "section": "стратегии-эффективного-логирования",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-005",
+        "title": "Стратегии эффективного логирования",
+        "section": "стратегии-эффективного-логирования",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-006",
+        "title": "Источники взрывного роста",
+        "section": "источники-взрывного-роста",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "java/infra-security-8-8-04-devops-ci-cd-19-007",
+        "title": "Источники взрывного роста",
+        "section": "источники-взрывного-роста",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-008",
+        "title": "Стратегии контроля объёма",
+        "section": "стратегии-контроля-объёма",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-009",
+        "title": "Стратегии контроля объёма",
+        "section": "стратегии-контроля-объёма",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-010",
+        "title": "Стратегии контроля объёма",
+        "section": "стратегии-контроля-объёма",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-011",
+        "title": "Типичные слепые зоны",
+        "section": "типичные-слепые-зоны",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-012",
+        "title": "Типичные слепые зоны",
+        "section": "типичные-слепые-зоны",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-013",
+        "title": "Система классификации метрик",
+        "section": "система-классификации-метрик",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-014",
+        "title": "Признаки усталости от алертов",
+        "section": "признаки-усталости-от-алертов",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-015",
+        "title": "Принципы эффективного алертинга",
+        "section": "принципы-эффективного-алертинга",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-016",
+        "title": "Принципы эффективного алертинга",
+        "section": "принципы-эффективного-алертинга",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-017",
+        "title": "Принципы эффективного алертинга",
+        "section": "принципы-эффективного-алертинга",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-018",
+        "title": "Антипаттерны health checks",
+        "section": "антипаттерны-health-checks",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-019",
+        "title": "Эффективные health checks",
+        "section": "эффективные-health-checks",
+        "blocks": 1,
+        "lines": 112
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-020",
+        "title": "Источники расхождений",
+        "section": "источники-расхождений",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-19-021",
+        "title": "Управление конфигурациями как код",
+        "section": "управление-конфигурациями-как-код",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-022",
+        "title": "Управление конфигурациями как код",
+        "section": "управление-конфигурациями-как-код",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-023",
+        "title": "Управление конфигурациями как код",
+        "section": "управление-конфигурациями-как-код",
+        "blocks": 1,
+        "lines": 76
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-024",
+        "title": "Типичные проблемы трассировки",
+        "section": "типичные-проблемы-трассировки",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "go/infra-security-8-8-04-devops-ci-cd-19-025",
+        "title": "Типичные проблемы трассировки",
+        "section": "типичные-проблемы-трассировки",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-026",
+        "title": "Полноценная трассировка",
+        "section": "полноценная-трассировка",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "go/infra-security-8-8-04-devops-ci-cd-19-027",
+        "title": "Полноценная трассировка",
+        "section": "полноценная-трассировка",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-028",
+        "title": "Устойчивая архитектура мониторинга",
+        "section": "устойчивая-архитектура-мониторинга",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-19-029",
+        "title": "Устойчивая архитектура мониторинга",
+        "section": "устойчивая-архитектура-мониторинга",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-030",
+        "title": "Аудит покрытия метриками",
+        "section": "аудит-покрытия-метриками",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-031",
+        "title": "Проверка качества логов",
+        "section": "проверка-качества-логов",
+        "blocks": 1,
+        "lines": 67
+      },
+      {
+        "article": "8-04-devops-ci-cd-19",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-19-032",
+        "title": "Сквозное тестирование наблюдаемости",
+        "section": "сквозное-тестирование-наблюдаемости",
+        "blocks": 1,
+        "lines": 118
+      }
+    ],
+    "8-04-devops-ci-cd-2": [
+      {
+        "article": "8-04-devops-ci-cd-2",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-2-001",
+        "title": "Условные выражения и циклы",
+        "section": "условные-выражения-и-циклы",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-04-devops-ci-cd-2",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-2-002",
+        "title": "Поддержка мультиоблачных и гибридных сред",
+        "section": "поддержка-мультиоблачных-и-гибридных-сред",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "8-04-devops-ci-cd-21": [
+      {
+        "article": "8-04-devops-ci-cd-21",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-21-001",
+        "title": "Ресурсы",
+        "section": "ресурсы",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-04-devops-ci-cd-21",
+        "slug": "typescript/infra-security-8-8-04-devops-ci-cd-21-002",
+        "title": "Компоненты",
+        "section": "компоненты",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "8-04-devops-ci-cd-21",
+        "slug": "go/infra-security-8-8-04-devops-ci-cd-21-003",
+        "title": "Go",
+        "section": "go",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-04-devops-ci-cd-21",
+        "slug": "csharp/infra-security-8-8-04-devops-ci-cd-21-004",
+        "title": "C#",
+        "section": "c",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-04-devops-ci-cd-21",
+        "slug": "java/infra-security-8-8-04-devops-ci-cd-21-005",
+        "title": "Java",
+        "section": "java",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-04-devops-ci-cd-21",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-21-006",
+        "title": "Пример GitHub Actions",
+        "section": "пример-github-actions",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "8-04-devops-ci-cd-21",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-21-007",
+        "title": "Модульное тестирование",
+        "section": "модульное-тестирование",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-04-devops-ci-cd-211": [
+      {
+        "article": "8-04-devops-ci-cd-211",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-211-001",
+        "title": "Секреты в Terraform",
+        "section": "секреты-в-terraform",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "8-04-devops-ci-cd-2111": [
+      {
+        "article": "8-04-devops-ci-cd-2111",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-2111-001",
+        "title": "Насыщение (Saturation)",
+        "section": "насыщение-saturation",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8-04-devops-ci-cd-2112": [
+      {
+        "article": "8-04-devops-ci-cd-2112",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-2112-001",
+        "title": "Структура рабочего процесса",
+        "section": "структура-рабочего-процесса",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "8-04-devops-ci-cd-2112",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-2112-002",
+        "title": "Примеры применения",
+        "section": "примеры-применения",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "8-04-devops-ci-cd-2112",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-2112-003",
+        "title": "Примеры применения",
+        "section": "примеры-применения",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "8-04-devops-ci-cd-2113": [
+      {
+        "article": "8-04-devops-ci-cd-2113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-2113-001",
+        "title": "Примеры конфигурации",
+        "section": "примеры-конфигурации",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "8-04-devops-ci-cd-2113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-2113-002",
+        "title": "Production-скелет `.gitlab-ci.yml`",
+        "section": "production-скелет-gitlab-ci-yml",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "8-04-devops-ci-cd-2113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-2113-003",
+        "title": "Monorepo и child pipelines",
+        "section": "monorepo-и-child-pipelines",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-04-devops-ci-cd-212": [
+      {
+        "article": "8-04-devops-ci-cd-212",
+        "slug": "javascript/infra-security-8-8-04-devops-ci-cd-212-001",
+        "title": "Минимальный обработчик webhook (Node.js)",
+        "section": "минимальный-обработчик-webhook-node-js",
+        "blocks": 1,
+        "lines": 33
+      }
+    ],
+    "8-04-devops-ci-cd-213": [
+      {
+        "article": "8-04-devops-ci-cd-213",
+        "slug": "sql/infra-security-8-8-04-devops-ci-cd-213-001",
+        "title": "Архитектура Data Warehouse",
+        "section": "архитектура-data-warehouse",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "8-04-devops-ci-cd-215": [
+      {
+        "article": "8-04-devops-ci-cd-215",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-215-001",
+        "title": "Terraform (HCL)",
+        "section": "terraform-hcl",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "8-04-devops-ci-cd-215",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-215-002",
+        "title": "AWS CloudFormation (YAML)",
+        "section": "aws-cloudformation-yaml",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "8-04-devops-ci-cd-215",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-215-003",
+        "title": "Azure Bicep",
+        "section": "azure-bicep",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-04-devops-ci-cd-215",
+        "slug": "typescript/infra-security-8-8-04-devops-ci-cd-215-004",
+        "title": "Pulumi (TypeScript)",
+        "section": "pulumi-typescript",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "8-04-devops-ci-cd-215",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-215-005",
+        "title": "Ansible (YAML)",
+        "section": "ansible-yaml",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "8-04-devops-ci-cd-216": [
+      {
+        "article": "8-04-devops-ci-cd-216",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-216-001",
+        "title": "Плейбуки",
+        "section": "плейбуки",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-04-devops-ci-cd-217": [
+      {
+        "article": "8-04-devops-ci-cd-217",
+        "slug": "groovy/infra-security-8-8-04-devops-ci-cd-217-001",
+        "title": "Пример декларативного pipeline",
+        "section": "пример-декларативного-pipeline",
+        "blocks": 1,
+        "lines": 74
+      },
+      {
+        "article": "8-04-devops-ci-cd-217",
+        "slug": "json/infra-security-8-8-04-devops-ci-cd-217-002",
+        "title": "Регистрация сервиса",
+        "section": "регистрация-сервиса",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "8-04-devops-ci-cd-218": [
+      {
+        "article": "8-04-devops-ci-cd-218",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-218-001",
+        "title": "Пример политики Istio (VirtualService)",
+        "section": "пример-политики-istio-virtualservice",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-04-devops-ci-cd-219": [
+      {
+        "article": "8-04-devops-ci-cd-219",
+        "slug": "kotlin/infra-security-8-8-04-devops-ci-cd-219-001",
+        "title": "TeamCity — CI-сервер JetBrains",
+        "section": "teamcity-ci-сервер-jetbrains",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8-04-devops-ci-cd-22": [
+      {
+        "article": "8-04-devops-ci-cd-22",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-22-001",
+        "title": "Шаг 1 — один EC2",
+        "section": "шаг-1-один-ec2",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "8-04-devops-ci-cd-3": [
+      {
+        "article": "8-04-devops-ci-cd-3",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-3-001",
+        "title": "`terraform`",
+        "section": "terraform",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-04-devops-ci-cd-3",
+        "slug": "json/infra-security-8-8-04-devops-ci-cd-3-002",
+        "title": "Содержимое state-файла",
+        "section": "содержимое-state-файла",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-04-devops-ci-cd-3",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-3-003",
+        "title": "Bootstrap backend S3 и DynamoDB",
+        "section": "bootstrap-backend-s3-и-dynamodb",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "8-04-devops-ci-cd-3",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-3-004",
+        "title": "Динамические провайдеры",
+        "section": "динамические-провайдеры",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-04-devops-ci-cd-3",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-3-005",
+        "title": "Циклы вложенных блоков",
+        "section": "циклы-вложенных-блоков",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-04-devops-ci-cd-3",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-3-006",
+        "title": "Модуль Kubernetes Cluster (EKS)",
+        "section": "модуль-kubernetes-cluster-eks",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "8-04-devops-ci-cd-3111": [
+      {
+        "article": "8-04-devops-ci-cd-3111",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3111-001",
+        "title": "Структура play",
+        "section": "структура-play",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-04-devops-ci-cd-3111",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3111-002",
+        "title": "Примеры задач",
+        "section": "примеры-задач",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-04-devops-ci-cd-3111",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3111-003",
+        "title": "Базовый плейбук для настройки веб-сервера",
+        "section": "базовый-плейбук-для-настройки-веб-сервера",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "8-04-devops-ci-cd-3111",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3111-004",
+        "title": "Плейбук с использованием ролей и коллекций",
+        "section": "плейбук-с-использованием-ролей-и-коллекций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-04-devops-ci-cd-3111",
+        "slug": "python/infra-security-8-8-04-devops-ci-cd-3111-005",
+        "title": "Пример простого модуля `hello.py`",
+        "section": "пример-простого-модуля-hello-py",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8-04-devops-ci-cd-3112": [
+      {
+        "article": "8-04-devops-ci-cd-3112",
+        "slug": "nginx/infra-security-8-8-04-devops-ci-cd-3112-001",
+        "title": "3. Контекст `http`",
+        "section": "3-контекст-http",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-04-devops-ci-cd-3112",
+        "slug": "nginx/infra-security-8-8-04-devops-ci-cd-3112-002",
+        "title": "Примеры",
+        "section": "примеры",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8-04-devops-ci-cd-3113": [
+      {
+        "article": "8-04-devops-ci-cd-3113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3113-001",
+        "title": "Мультиплатформенная сборка и тестирование",
+        "section": "мультиплатформенная-сборка-и-тестирование",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "8-04-devops-ci-cd-3113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3113-002",
+        "title": "Деплой с ручным подтверждением (environment approval)",
+        "section": "деплой-с-ручным-подтверждением-environment-appro",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-04-devops-ci-cd-3113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3113-003",
+        "title": "Генерация и публикация sitemap",
+        "section": "генерация-и-публикация-sitemap",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "8-04-devops-ci-cd-3113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3113-004",
+        "title": "Сборка Docker-образа и публикация в GitHub Packages",
+        "section": "сборка-docker-образа-и-публикация-в-github-packa",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-04-devops-ci-cd-3113",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3113-005",
+        "title": "Работа с артефактами между job’ами",
+        "section": "работа-с-артефактами-между-job-ами",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "8-04-devops-ci-cd-3114": [
+      {
+        "article": "8-04-devops-ci-cd-3114",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3114-001",
+        "title": "Пример `jenkins.yaml`",
+        "section": "пример-jenkins-yaml",
+        "blocks": 1,
+        "lines": 52
+      }
+    ],
+    "8-04-devops-ci-cd-3117": [
+      {
+        "article": "8-04-devops-ci-cd-3117",
+        "slug": "json/infra-security-8-8-04-devops-ci-cd-3117-001",
+        "title": "Vector Search — пример",
+        "section": "vector-search-пример",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-04-devops-ci-cd-3117",
+        "slug": "json/infra-security-8-8-04-devops-ci-cd-3117-002",
+        "title": "Enrich — пример",
+        "section": "enrich-пример",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "8-04-devops-ci-cd-3119": [
+      {
+        "article": "8-04-devops-ci-cd-3119",
+        "slug": "ruby/infra-security-8-8-04-devops-ci-cd-3119-001",
+        "title": "1. Обработка Apache-логов",
+        "section": "1-обработка-apache-логов",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "8-04-devops-ci-cd-3119",
+        "slug": "ruby/infra-security-8-8-04-devops-ci-cd-3119-002",
+        "title": "2. Приём JSON через HTTP и отправка в Kafka",
+        "section": "2-приём-json-через-http-и-отправка-в-kafka",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-04-devops-ci-cd-3119",
+        "slug": "ruby/infra-security-8-8-04-devops-ci-cd-3119-003",
+        "title": "3. Фильтрация и клонирование для архива",
+        "section": "3-фильтрация-и-клонирование-для-архива",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "8-04-devops-ci-cd-3121": [
+      {
+        "article": "8-04-devops-ci-cd-3121",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3121-001",
+        "title": "Пример минимальной конфигурации (monolithic)",
+        "section": "пример-минимальной-конфигурации-monolithic",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "8-04-devops-ci-cd-3122": [
+      {
+        "article": "8-04-devops-ci-cd-3122",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3122-001",
+        "title": "Компоненты",
+        "section": "компоненты",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-04-devops-ci-cd-3122",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3122-002",
+        "title": "Пример минимальной конфигурации (`tempo.yaml`)",
+        "section": "пример-минимальной-конфигурации-tempo-yaml",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "8-04-devops-ci-cd-3123": [
+      {
+        "article": "8-04-devops-ci-cd-3123",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3123-001",
+        "title": "GitHub Actions — workflow для E2E",
+        "section": "github-actions-workflow-для-e2e",
+        "blocks": 1,
+        "lines": 38
+      }
+    ],
+    "8-04-devops-ci-cd-3124": [
+      {
+        "article": "8-04-devops-ci-cd-3124",
+        "slug": "yaml/infra-security-8-8-04-devops-ci-cd-3124-001",
+        "title": "Интеграция с Azure Pipelines — триггеры на Pull Request",
+        "section": "интеграция-с-azure-pipelines-триггеры-на-pull-re",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "8-04-devops-ci-cd-3124",
+        "slug": "json/infra-security-8-8-04-devops-ci-cd-3124-002",
+        "title": "Webhook-события и payload",
+        "section": "webhook-события-и-payload",
+        "blocks": 1,
+        "lines": 35
+      }
+    ],
+    "8-04-devops-ci-cd-3125": [
+      {
+        "article": "8-04-devops-ci-cd-3125",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-3125-001",
+        "title": "Debian/Ubuntu",
+        "section": "debian-ubuntu",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-04-devops-ci-cd-3125",
+        "slug": "text/infra-security-8-8-04-devops-ci-cd-3125-002",
+        "title": "Базовый шаблон в конфиге виртуального хоста",
+        "section": "базовый-шаблон-в-конфиге-виртуального-хоста",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-04-devops-ci-cd-3125",
+        "slug": "nginx/infra-security-8-8-04-devops-ci-cd-3125-003",
+        "title": "Стек Nginx + Apache",
+        "section": "стек-nginx-apache",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-101": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "yaml/infra-security-8-8-05-mikroservisy-i-integratsiya-101-001",
+        "title": "Настройка среды разработки",
+        "section": "настройка-среды-разработки",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-101-002",
+        "title": "Сервис приема заявок на Python",
+        "section": "сервис-приема-заявок-на-python",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-101-003",
+        "title": "Сервис приема заявок на Python",
+        "section": "сервис-приема-заявок-на-python",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-101-004",
+        "title": "Сервис приема заявок на Python",
+        "section": "сервис-приема-заявок-на-python",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "xml/infra-security-8-8-05-mikroservisy-i-integratsiya-101-005",
+        "title": "Сервис обработки заказов на Java",
+        "section": "сервис-обработки-заказов-на-java",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-101-006",
+        "title": "Сервис обработки заказов на Java",
+        "section": "сервис-обработки-заказов-на-java",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-101-007",
+        "title": "Сервис обработки заказов на Java",
+        "section": "сервис-обработки-заказов-на-java",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-101-008",
+        "title": "Сервис уведомлений на C#",
+        "section": "сервис-уведомлений-на-c",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-101-009",
+        "title": "Сервис уведомлений на C#",
+        "section": "сервис-уведомлений-на-c",
+        "blocks": 1,
+        "lines": 78
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-101",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-101-010",
+        "title": "Сервис уведомлений на C#",
+        "section": "сервис-уведомлений-на-c",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-102": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-102",
+        "slug": "go/infra-security-8-8-05-mikroservisy-i-integratsiya-102-001",
+        "title": "Сетевое взаимодействие и HTTP-серверы",
+        "section": "сетевое-взаимодействие-и-http-серверы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-102",
+        "slug": "go/infra-security-8-8-05-mikroservisy-i-integratsiya-102-002",
+        "title": "Практические примеры реализации",
+        "section": "практические-примеры-реализации",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-102",
+        "slug": "go/infra-security-8-8-05-mikroservisy-i-integratsiya-102-003",
+        "title": "Практические примеры реализации",
+        "section": "практические-примеры-реализации",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-102",
+        "slug": "go/infra-security-8-8-05-mikroservisy-i-integratsiya-102-004",
+        "title": "Практические примеры реализации",
+        "section": "практические-примеры-реализации",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-111": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-111",
+        "slug": "yaml/infra-security-8-8-05-mikroservisy-i-integratsiya-111-001",
+        "title": "Конфигурация",
+        "section": "конфигурация",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-111",
+        "slug": "yaml/infra-security-8-8-05-mikroservisy-i-integratsiya-111-002",
+        "title": "Запуск HAProxy в Docker",
+        "section": "запуск-haproxy-в-docker",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-113": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-113",
+        "slug": "json/infra-security-8-8-05-mikroservisy-i-integratsiya-113-001",
+        "title": "Пример формата данных",
+        "section": "пример-формата-данных",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-113",
+        "slug": "json/infra-security-8-8-05-mikroservisy-i-integratsiya-113-002",
+        "title": "Пример больших данных",
+        "section": "пример-больших-данных",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-115": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "text/infra-security-8-8-05-mikroservisy-i-integratsiya-115-001",
+        "title": "Определение контракта (.proto файл)",
+        "section": "определение-контракта-proto-файл",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-115-002",
+        "title": "Реализация на C#",
+        "section": "реализация-на-c",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-115-003",
+        "title": "Реализация на C#",
+        "section": "реализация-на-c",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-115-004",
+        "title": "Реализация на Python",
+        "section": "реализация-на-python",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-115-005",
+        "title": "Реализация на Python",
+        "section": "реализация-на-python",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-115-006",
+        "title": "Реализация на Java",
+        "section": "реализация-на-java",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-115-007",
+        "title": "Реализация на Java",
+        "section": "реализация-на-java",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-115-008",
+        "title": "Схема типов (schema.graphql)",
+        "section": "схема-типов-schema-graphql",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-115-009",
+        "title": "Реализация на C# (Hot Chocolate)",
+        "section": "реализация-на-c-hot-chocolate",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-115-010",
+        "title": "Реализация на C# (Hot Chocolate)",
+        "section": "реализация-на-c-hot-chocolate",
+        "blocks": 1,
+        "lines": 79
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-115-011",
+        "title": "Реализация на C# (Hot Chocolate)",
+        "section": "реализация-на-c-hot-chocolate",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-115-012",
+        "title": "Реализация на Python (Strawberry)",
+        "section": "реализация-на-python-strawberry",
+        "blocks": 1,
+        "lines": 118
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-115-013",
+        "title": "Реализация на Java (GraphQL Java)",
+        "section": "реализация-на-java-graphql-java",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-115-014",
+        "title": "Реализация на Java (GraphQL Java)",
+        "section": "реализация-на-java-graphql-java",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-115-015",
+        "title": "Реализация на Java (GraphQL Java)",
+        "section": "реализация-на-java-graphql-java",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-115-016",
+        "title": "Реализация на Java (GraphQL Java)",
+        "section": "реализация-на-java-graphql-java",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-115-017",
+        "title": "Примеры запросов и мутаций",
+        "section": "примеры-запросов-и-мутаций",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-115-018",
+        "title": "Примеры запросов и мутаций",
+        "section": "примеры-запросов-и-мутаций",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-115",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-115-019",
+        "title": "Примеры запросов и мутаций",
+        "section": "примеры-запросов-и-мутаций",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-1151": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1151",
+        "slug": "json/infra-security-8-8-05-mikroservisy-i-integratsiya-1151-001",
+        "title": "HATEOAS",
+        "section": "hateoas",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-116": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-116-001",
+        "title": "JavaScript (браузерный клиент)",
+        "section": "javascript-браузерный-клиент",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-116-002",
+        "title": "Node.js (сервер на ws)",
+        "section": "node-js-сервер-на-ws",
+        "blocks": 1,
+        "lines": 160
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-116-003",
+        "title": "C# (ASP.NET Core)",
+        "section": "c-asp-net-core",
+        "blocks": 1,
+        "lines": 145
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-116-004",
+        "title": "Python (FastAPI + WebSockets)",
+        "section": "python-fastapi-websockets",
+        "blocks": 1,
+        "lines": 140
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-005",
+        "title": "Java (Spring WebSocket)",
+        "section": "java-spring-websocket",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-006",
+        "title": "Java (Spring WebSocket)",
+        "section": "java-spring-websocket",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-116-007",
+        "title": "JavaScript (клиент)",
+        "section": "javascript-клиент",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-116-008",
+        "title": "C# (ASP.NET Core)",
+        "section": "c-asp-net-core",
+        "blocks": 1,
+        "lines": 174
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-116-009",
+        "title": "Python (FastAPI)",
+        "section": "python-fastapi",
+        "blocks": 1,
+        "lines": 196
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-010",
+        "title": "Java (Spring WebFlux)",
+        "section": "java-spring-webflux",
+        "blocks": 1,
+        "lines": 128
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-011",
+        "title": "Java (Spring WebFlux)",
+        "section": "java-spring-webflux",
+        "blocks": 1,
+        "lines": 94
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-116-012",
+        "title": "Node.js (Express)",
+        "section": "node-js-express",
+        "blocks": 1,
+        "lines": 157
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-116-013",
+        "title": "Event Sourcing",
+        "section": "event-sourcing",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-116-014",
+        "title": "C# (.NET) с Confluent Kafka",
+        "section": "c-net-с-confluent-kafka",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-116-015",
+        "title": "C# (.NET) с Confluent Kafka",
+        "section": "c-net-с-confluent-kafka",
+        "blocks": 1,
+        "lines": 79
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-116-016",
+        "title": "C# (.NET) с Confluent Kafka",
+        "section": "c-net-с-confluent-kafka",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-116-017",
+        "title": "Python с confluent-kafka",
+        "section": "python-с-confluent-kafka",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-116-018",
+        "title": "Python с confluent-kafka",
+        "section": "python-с-confluent-kafka",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-116-019",
+        "title": "Python с confluent-kafka",
+        "section": "python-с-confluent-kafka",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-020",
+        "title": "Java с Spring Kafka",
+        "section": "java-с-spring-kafka",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-021",
+        "title": "Java с Spring Kafka",
+        "section": "java-с-spring-kafka",
+        "blocks": 1,
+        "lines": 74
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-022",
+        "title": "Java с Spring Kafka",
+        "section": "java-с-spring-kafka",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-116-023",
+        "title": "Java с Spring Kafka",
+        "section": "java-с-spring-kafka",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-116-024",
+        "title": "Node.js с kafkajs",
+        "section": "node-js-с-kafkajs",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-116-025",
+        "title": "Node.js с kafkajs",
+        "section": "node-js-с-kafkajs",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-116",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-116-026",
+        "title": "Node.js с kafkajs",
+        "section": "node-js-с-kafkajs",
+        "blocks": 1,
+        "lines": 54
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-118": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-118",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-118-001",
+        "title": "Управление очередями и обменниками",
+        "section": "управление-очередями-и-обменниками",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-118",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-118-002",
+        "title": "Consumer pattern",
+        "section": "consumer-pattern",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-118",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-118-003",
+        "title": "C# - библиотека RabbitMQ.Client.",
+        "section": "c-библиотека-rabbitmq-client",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-118",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-118-004",
+        "title": "Java - библиотека amqp-client.",
+        "section": "java-библиотека-amqp-client",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-118",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-118-005",
+        "title": "JavaScript (Node.js) - библиотека amqplib.",
+        "section": "javascript-node-js-библиотека-amqplib",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-118",
+        "slug": "php/infra-security-8-8-05-mikroservisy-i-integratsiya-118-006",
+        "title": "PHP - библиотека php-amqplib.",
+        "section": "php-библиотека-php-amqplib",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-1191": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "bash/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-001",
+        "title": "Настройка конфигурации",
+        "section": "настройка-конфигурации",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "bash/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-002",
+        "title": "Запуск Kafka",
+        "section": "запуск-kafka",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "bash/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-003",
+        "title": "Запуск Kafka",
+        "section": "запуск-kafka",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "xml/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-004",
+        "title": "Настройка Maven",
+        "section": "настройка-maven",
+        "blocks": 1,
+        "lines": 106
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-005",
+        "title": "`KafkaConfig.java`",
+        "section": "kafkaconfig-java",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-006",
+        "title": "consumer",
+        "section": "consumer",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-007",
+        "title": "model",
+        "section": "model",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-008",
+        "title": "producer",
+        "section": "producer",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-009",
+        "title": "serializer",
+        "section": "serializer",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-010",
+        "title": "serializer",
+        "section": "serializer",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-011",
+        "title": "service",
+        "section": "service",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-012",
+        "title": "AppConsole",
+        "section": "appconsole",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-013",
+        "title": "CrmApplication",
+        "section": "crmapplication",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-014",
+        "title": "CrmController",
+        "section": "crmcontroller",
+        "blocks": 1,
+        "lines": 333
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1191",
+        "slug": "xml/infra-security-8-8-05-mikroservisy-i-integratsiya-1191-015",
+        "title": "crm-view.fxml",
+        "section": "crm-view-fxml",
+        "blocks": 1,
+        "lines": 81
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-120": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-120",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-120-001",
+        "title": "Long polling (Python)",
+        "section": "long-polling-python",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-120",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-120-002",
+        "title": "Кратковременный опрос с экспоненциальной задержкой (C#)",
+        "section": "кратковременный-опрос-с-экспоненциальной-задержк",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-120",
+        "slug": "java/infra-security-8-8-05-mikroservisy-i-integratsiya-120-003",
+        "title": "Реализация через брокер сообщений (Java + RabbitMQ)",
+        "section": "реализация-через-брокер-сообщений-java-rabbitmq",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-120",
+        "slug": "python/infra-security-8-8-05-mikroservisy-i-integratsiya-120-004",
+        "title": "Обработка входящего webhook (Python + FastAPI)",
+        "section": "обработка-входящего-webhook-python-fastapi",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-1201": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1201",
+        "slug": "xml/infra-security-8-8-05-mikroservisy-i-integratsiya-1201-001",
+        "title": "1. Общая структура SOAP-сообщения",
+        "section": "1-общая-структура-soap-сообщения",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1201",
+        "slug": "xml/infra-security-8-8-05-mikroservisy-i-integratsiya-1201-002",
+        "title": "Структура SOAP 1.2",
+        "section": "структура-soap-1-2",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1201",
+        "slug": "xml/infra-security-8-8-05-mikroservisy-i-integratsiya-1201-003",
+        "title": "Структура WSDL 1.1",
+        "section": "структура-wsdl-1-1",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1201",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-1201-004",
+        "title": "Пример — подпись `wsse:UsernameToken` с `PasswordDigest` в Postman (Pre-request Script):",
+        "section": "пример-подпись-wsse-usernametoken-с-passworddige",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-1202": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1202",
+        "slug": "text/infra-security-8-8-05-mikroservisy-i-integratsiya-1202-001",
+        "title": "1. Общая структура `.proto`-файла",
+        "section": "1-общая-структура-proto-файла",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1202",
+        "slug": "text/infra-security-8-8-05-mikroservisy-i-integratsiya-1202-002",
+        "title": "9.1. Объявление сервиса",
+        "section": "9-1-объявление-сервиса",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1202",
+        "slug": "text/infra-security-8-8-05-mikroservisy-i-integratsiya-1202-003",
+        "title": "10.1. Стандартные и широко используемые опции",
+        "section": "10-1-стандартные-и-широко-используемые-опции",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1202",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-1202-004",
+        "title": "18.3. Unit/integration тестирование",
+        "section": "18-3-unit-integration-тестирование",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-1203": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-1203",
+        "slug": "javascript/infra-security-8-8-05-mikroservisy-i-integratsiya-1203-001",
+        "title": "7.2. Стандартные типы интроспекции",
+        "section": "7-2-стандартные-типы-интроспекции",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "8-05-mikroservisy-i-integratsiya-134": [
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-134",
+        "slug": "nginx/infra-security-8-8-05-mikroservisy-i-integratsiya-134-001",
+        "title": "Терминация на Ingress (Nginx)",
+        "section": "терминация-на-ingress-nginx",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-134",
+        "slug": "csharp/infra-security-8-8-05-mikroservisy-i-integratsiya-134-002",
+        "title": "C#",
+        "section": "c",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-134",
+        "slug": "typescript/infra-security-8-8-05-mikroservisy-i-integratsiya-134-003",
+        "title": "TypeScript",
+        "section": "typescript",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-05-mikroservisy-i-integratsiya-134",
+        "slug": "typescript/infra-security-8-8-05-mikroservisy-i-integratsiya-134-004",
+        "title": "TypeScript (Node)",
+        "section": "typescript-node",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-111": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-111",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-111-001",
+        "title": "Docker Compose",
+        "section": "docker-compose",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-111",
+        "slug": "bash/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-111-002",
+        "title": "Список команд и шаблон построения команд для Docker",
+        "section": "список-команд-и-шаблон-построения-команд-для-doc",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-111",
+        "slug": "bash/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-111-003",
+        "title": "Краткая шпаргалка kubectl",
+        "section": "краткая-шпаргалка-kubectl",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-1111": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1111",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1111-001",
+        "title": "Структура файла конфигурации",
+        "section": "структура-файла-конфигурации",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1111",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1111-002",
+        "title": "Минимальный шаблон для старта проекта",
+        "section": "минимальный-шаблон-для-старта-проекта",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1111",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1111-003",
+        "title": "Пример комплексной конфигурации",
+        "section": "пример-комплексной-конфигурации",
+        "blocks": 1,
+        "lines": 57
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-114": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-114",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-114-001",
+        "title": "Сборка",
+        "section": "сборка",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-114",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-114-002",
+        "title": "Сборка",
+        "section": "сборка",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-114",
+        "slug": "bash/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-114-003",
+        "title": "Частые эксплуатационные сценарии",
+        "section": "частые-эксплуатационные-сценарии",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-115": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-115",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-115-001",
+        "title": "Сценарий \"frontend + api + db\"",
+        "section": "сценарий-frontend-api-db",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-116": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-116",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116-001",
+        "title": "1. Node.js API (Express / Fastify)",
+        "section": "1-node-js-api-express-fastify",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-116",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116-002",
+        "title": "2. Python (Flask / FastAPI)",
+        "section": "2-python-flask-fastapi",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-116",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116-003",
+        "title": "3. Go-сервис (минимальный образ)",
+        "section": "3-go-сервис-минимальный-образ",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-116",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116-004",
+        "title": "4. React / Vue SPA + Nginx",
+        "section": "4-react-vue-spa-nginx",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-116",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116-005",
+        "title": "5. Java Spring Boot (JAR)",
+        "section": "5-java-spring-boot-jar",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-116",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116-006",
+        "title": "Разбор на примере — Python по шагам",
+        "section": "разбор-на-примере-python-по-шагам",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-117": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-117",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-117-001",
+        "title": "Инициализация кластера",
+        "section": "инициализация-кластера",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-1171": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1171",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171-001",
+        "title": "Упаковка микросервисов и недостающая информация",
+        "section": "упаковка-микросервисов-и-недостающая-информация",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1171",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171-002",
+        "title": "Инструмент управления пакетами Helm и структура чартов",
+        "section": "инструмент-управления-пакетами-helm-и-структура-",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1171",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171-003",
+        "title": "Инструмент управления пакетами Helm и структура чартов",
+        "section": "инструмент-управления-пакетами-helm-и-структура-",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1171",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171-004",
+        "title": "Автомасштабирование",
+        "section": "автомасштабирование",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1171",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171-005",
+        "title": "Автомасштабирование",
+        "section": "автомасштабирование",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1171",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171-006",
+        "title": "Распределение подов и обеспечение отказоустойчивости",
+        "section": "распределение-подов-и-обеспечение-отказоустойчив",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1171",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171-007",
+        "title": "Пошаговый план развертывания системы",
+        "section": "пошаговый-план-развертывания-системы",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-1172": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-1172",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1172-001",
+        "title": "Создание манифеста Deployment",
+        "section": "создание-манифеста-deployment",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-118": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-118",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-118-001",
+        "title": "Multi-stage и `.dockerignore`",
+        "section": "multi-stage-и-dockerignore",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-118",
+        "slug": "dockerfile/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-118-002",
+        "title": "Порядок слоёв, `ENV` и `USER`",
+        "section": "порядок-слоёв-env-и-user",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-2": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-2",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-2-001",
+        "title": "Базовая структура",
+        "section": "базовая-структура",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-2",
+        "slug": "json/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-2-002",
+        "title": "Структура `daemon.json`",
+        "section": "структура-daemon-json",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "8-06-konteynerizatsiya-i-orkestratsiya-211": [
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-001",
+        "title": "Pod",
+        "section": "pod",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-002",
+        "title": "Node",
+        "section": "node",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-003",
+        "title": "Deployment",
+        "section": "deployment",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-004",
+        "title": "StatefulSet",
+        "section": "statefulset",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-005",
+        "title": "DaemonSet",
+        "section": "daemonset",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-006",
+        "title": "Ingress",
+        "section": "ingress",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-007",
+        "title": "NetworkPolicy",
+        "section": "networkpolicy",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-008",
+        "title": "CustomResourceDefinition (CRD)",
+        "section": "customresourcedefinition-crd",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-06-konteynerizatsiya-i-orkestratsiya-211",
+        "slug": "yaml/infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211-009",
+        "title": "Argo CD",
+        "section": "argo-cd",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-07-informatsionnaya-bezopasnost-113": [
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-113",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-113-001",
+        "title": "Веб-корень и безопасное хранение файлов",
+        "section": "веб-корень-и-безопасное-хранение-файлов",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-113",
+        "slug": "javascript/infra-security-8-8-07-informatsionnaya-bezopasnost-113-002",
+        "title": "JavaScript / Node.js",
+        "section": "javascript-node-js",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-113",
+        "slug": "java/infra-security-8-8-07-informatsionnaya-bezopasnost-113-003",
+        "title": "Java (Spring Boot)",
+        "section": "java-spring-boot",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-113",
+        "slug": "javascript/infra-security-8-8-07-informatsionnaya-bezopasnost-113-004",
+        "title": "Защита HTTP-трафика и заголовков",
+        "section": "защита-http-трафика-и-заголовков",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-113",
+        "slug": "java/infra-security-8-8-07-informatsionnaya-bezopasnost-113-005",
+        "title": "Spring Security — комплексная защита",
+        "section": "spring-security-комплексная-защита",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-113",
+        "slug": "rust/infra-security-8-8-07-informatsionnaya-bezopasnost-113-006",
+        "title": "Веб-фреймворки",
+        "section": "веб-фреймворки",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-07-informatsionnaya-bezopasnost-1131": [
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1131",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1131-001",
+        "title": "SAST (Static Application Security Testing)",
+        "section": "sast-static-application-security-testing",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1131",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1131-002",
+        "title": "Динамический анализ (DAST)",
+        "section": "динамический-анализ-dast",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1131",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-1131-003",
+        "title": "Сканирование уязвимостей",
+        "section": "сканирование-уязвимостей",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1131",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-1131-004",
+        "title": "Безопасность кода",
+        "section": "безопасность-кода",
+        "blocks": 1,
+        "lines": 42
+      }
+    ],
+    "8-07-informatsionnaya-bezopasnost-115": [
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-115",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-115-001",
+        "title": "Пример шифрования",
+        "section": "пример-шифрования",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-115",
+        "slug": "csharp/infra-security-8-8-07-informatsionnaya-bezopasnost-115-002",
+        "title": "Пример шифрования",
+        "section": "пример-шифрования",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-115",
+        "slug": "java/infra-security-8-8-07-informatsionnaya-bezopasnost-115-003",
+        "title": "Пример шифрования",
+        "section": "пример-шифрования",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-115",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-115-004",
+        "title": "Пример хеширования",
+        "section": "пример-хеширования",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-115",
+        "slug": "csharp/infra-security-8-8-07-informatsionnaya-bezopasnost-115-005",
+        "title": "Пример хеширования",
+        "section": "пример-хеширования",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-115",
+        "slug": "java/infra-security-8-8-07-informatsionnaya-bezopasnost-115-006",
+        "title": "Пример хеширования",
+        "section": "пример-хеширования",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-115",
+        "slug": "javascript/infra-security-8-8-07-informatsionnaya-bezopasnost-115-007",
+        "title": "Пример хеширования",
+        "section": "пример-хеширования",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "8-07-informatsionnaya-bezopasnost-1152": [
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1152",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1152-001",
+        "title": "Роли ключей в системе",
+        "section": "роли-ключей-в-системе",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1152",
+        "slug": "javascript/infra-security-8-8-07-informatsionnaya-bezopasnost-1152-002",
+        "title": "Алгоритмы шифрования",
+        "section": "алгоритмы-шифрования",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "8-07-informatsionnaya-bezopasnost-1153": [
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-001",
+        "title": "Строгое разделение кода и конфигурации",
+        "section": "строгое-разделение-кода-и-конфигурации",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-002",
+        "title": "Иерархия источников конфигурации",
+        "section": "иерархия-источников-конфигурации",
+        "blocks": 1,
+        "lines": 106
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "text/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-003",
+        "title": "Декларативный и императивный подходы",
+        "section": "декларативный-и-императивный-подходы",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-004",
+        "title": "Декларативный и императивный подходы",
+        "section": "декларативный-и-императивный-подходы",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "text/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-005",
+        "title": "Структура Terraform-проекта",
+        "section": "структура-terraform-проекта",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "text/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-006",
+        "title": "Структура Terraform-проекта",
+        "section": "структура-terraform-проекта",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "text/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-007",
+        "title": "Структура Terraform-проекта",
+        "section": "структура-terraform-проекта",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "text/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-008",
+        "title": "Структура Terraform-проекта",
+        "section": "структура-terraform-проекта",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "text/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-009",
+        "title": "Управление состоянием",
+        "section": "управление-состоянием",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-010",
+        "title": "Специализированные хранилища секретов",
+        "section": "специализированные-хранилища-секретов",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-011",
+        "title": "Специализированные хранилища секретов",
+        "section": "специализированные-хранилища-секретов",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-012",
+        "title": "Инъекция секретов в Kubernetes",
+        "section": "инъекция-секретов-в-kubernetes",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-013",
+        "title": "AWS Secrets Manager",
+        "section": "aws-secrets-manager",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-014",
+        "title": "Реализация Feature Flags",
+        "section": "реализация-feature-flags",
+        "blocks": 1,
+        "lines": 111
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-015",
+        "title": "Реализация Feature Flags",
+        "section": "реализация-feature-flags",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-016",
+        "title": "Реализация Feature Flags",
+        "section": "реализация-feature-flags",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-017",
+        "title": "Интеграция с коммерческими платформами",
+        "section": "интеграция-с-коммерческими-платформами",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-018",
+        "title": "Pydantic для валидации",
+        "section": "pydantic-для-валидации",
+        "blocks": 1,
+        "lines": 279
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-019",
+        "title": "Тестирование конфигурации",
+        "section": "тестирование-конфигурации",
+        "blocks": 1,
+        "lines": 82
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-020",
+        "title": "Матрица параметров по окружениям",
+        "section": "матрица-параметров-по-окружениям",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-021",
+        "title": "Генератор конфигураций",
+        "section": "генератор-конфигураций",
+        "blocks": 1,
+        "lines": 130
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-022",
+        "title": "CI/CD-интеграция для проверки дрейфа",
+        "section": "ci-cd-интеграция-для-проверки-дрейфа",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-023",
+        "title": "Сервисы динамической конфигурации",
+        "section": "сервисы-динамической-конфигурации",
+        "blocks": 1,
+        "lines": 152
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-024",
+        "title": "Сервисы динамической конфигурации",
+        "section": "сервисы-динамической-конфигурации",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-025",
+        "title": "ConfigMap и Secret",
+        "section": "configmap-и-secret",
+        "blocks": 1,
+        "lines": 96
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-026",
+        "title": "Helm-чарты для управления окружениями",
+        "section": "helm-чарты-для-управления-окружениями",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-027",
+        "title": "Helm-чарты для управления окружениями",
+        "section": "helm-чарты-для-управления-окружениями",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-028",
+        "title": "Kustomize для декларативных переопределений",
+        "section": "kustomize-для-декларативных-переопределений",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-029",
+        "title": "Kustomize для декларативных переопределений",
+        "section": "kustomize-для-декларативных-переопределений",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-030",
+        "title": "Предотвращение утечек в логах",
+        "section": "предотвращение-утечек-в-логах",
+        "blocks": 1,
+        "lines": 103
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-031",
+        "title": "Git-secrets и pre-commit hooks",
+        "section": "git-secrets-и-pre-commit-hooks",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-032",
+        "title": "Git-secrets и pre-commit hooks",
+        "section": "git-secrets-и-pre-commit-hooks",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-1153",
+        "slug": "yaml/infra-security-8-8-07-informatsionnaya-bezopasnost-1153-033",
+        "title": "Шифрование секретов в репозитории",
+        "section": "шифрование-секретов-в-репозитории",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8-07-informatsionnaya-bezopasnost-2": [
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "batch/infra-security-8-8-07-informatsionnaya-bezopasnost-2-001",
+        "title": "Привилегии и контексты безопасности в Windows",
+        "section": "привилегии-и-контексты-безопасности-в-windows",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-002",
+        "title": "1.3. Анализ угроз в Linux",
+        "section": "1-3-анализ-угроз-в-linux",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-003",
+        "title": "2.1. Безопасная настройка ОС — принципы и практика",
+        "section": "2-1-безопасная-настройка-ос-принципы-и-практика",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-004",
+        "title": "8.1. Примеры скриптов сбора",
+        "section": "8-1-примеры-скриптов-сбора",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "powershell/infra-security-8-8-07-informatsionnaya-bezopasnost-2-005",
+        "title": "8.1. Примеры скриптов сбора",
+        "section": "8-1-примеры-скриптов-сбора",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-006",
+        "title": "9.3. Конвейер нормализации (пример на bash)",
+        "section": "9-3-конвейер-нормализации-пример-на-bash",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-007",
+        "title": "11.1. Определение сканеров",
+        "section": "11-1-определение-сканеров",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-008",
+        "title": "11.2. Обнаружение брутфорса",
+        "section": "11-2-обнаружение-брутфорса",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-009",
+        "title": "12.2. Простой IDS на bash",
+        "section": "12-2-простой-ids-на-bash",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "python/infra-security-8-8-07-informatsionnaya-bezopasnost-2-010",
+        "title": "13.4. Обход обфускации",
+        "section": "13-4-обход-обфускации",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-011",
+        "title": "14.3. Фазы пентеста и bash-инструменты на каждой стадии",
+        "section": "14-3-фазы-пентеста-и-bash-инструменты-на-каждой-",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-012",
+        "title": "15.1. Построение конвейеров — от сбора до оповещения",
+        "section": "15-1-построение-конвейеров-от-сбора-до-оповещени",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "8-07-informatsionnaya-bezopasnost-2",
+        "slug": "bash/infra-security-8-8-07-informatsionnaya-bezopasnost-2-013",
+        "title": "16.1. Эксперименты на изолированных стендах",
+        "section": "16-1-эксперименты-на-изолированных-стендах",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8-08-praktikum-rest-i-websocket-2": [
+      {
+        "article": "8-08-praktikum-rest-i-websocket-2",
+        "slug": "json/infra-security-8-8-08-praktikum-rest-i-websocket-2-001",
+        "title": "Создание заказа",
+        "section": "создание-заказа",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-2",
+        "slug": "yaml/infra-security-8-8-08-praktikum-rest-i-websocket-2-002",
+        "title": "Фрагмент OpenAPI 3.1 (catalog)",
+        "section": "фрагмент-openapi-3-1-catalog",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-2",
+        "slug": "yaml/infra-security-8-8-08-praktikum-rest-i-websocket-2-003",
+        "title": "Фрагмент OpenAPI (orders-api)",
+        "section": "фрагмент-openapi-orders-api",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "8-08-praktikum-rest-i-websocket-3": [
+      {
+        "article": "8-08-praktikum-rest-i-websocket-3",
+        "slug": "python/infra-security-8-8-08-praktikum-rest-i-websocket-3-004",
+        "title": "Pydantic — вход и выход (Python)",
+        "section": "pydantic-вход-и-выход-python",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-3",
+        "slug": "csharp/infra-security-8-8-08-praktikum-rest-i-websocket-3-005",
+        "title": "C# — DTO и маппер",
+        "section": "c-dto-и-маппер",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-08-praktikum-rest-i-websocket-4": [
+      {
+        "article": "8-08-praktikum-rest-i-websocket-4",
+        "slug": "python/infra-security-8-8-08-praktikum-rest-i-websocket-4-006",
+        "title": "База данных (SQLite)",
+        "section": "база-данных-sqlite",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-4",
+        "slug": "python/infra-security-8-8-08-praktikum-rest-i-websocket-4-007",
+        "title": "Приложение FastAPI",
+        "section": "приложение-fastapi",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-4",
+        "slug": "python/infra-security-8-8-08-praktikum-rest-i-websocket-4-008",
+        "title": "Middleware `X-Request-Id`",
+        "section": "middleware-x-request-id",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-08-praktikum-rest-i-websocket-5": [
+      {
+        "article": "8-08-praktikum-rest-i-websocket-5",
+        "slug": "csharp/infra-security-8-8-08-praktikum-rest-i-websocket-5-009",
+        "title": "HttpClient к каталогу",
+        "section": "httpclient-к-каталогу",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-5",
+        "slug": "csharp/infra-security-8-8-08-praktikum-rest-i-websocket-5-010",
+        "title": "Домен и EF Core",
+        "section": "домен-и-ef-core",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-5",
+        "slug": "csharp/infra-security-8-8-08-praktikum-rest-i-websocket-5-011",
+        "title": "Minimal API",
+        "section": "minimal-api",
+        "blocks": 1,
+        "lines": 42
+      }
+    ],
+    "8-08-praktikum-rest-i-websocket-6": [
+      {
+        "article": "8-08-praktikum-rest-i-websocket-6",
+        "slug": "csharp/infra-security-8-8-08-praktikum-rest-i-websocket-6-012",
+        "title": "JWT для клиентов (orders-api)",
+        "section": "jwt-для-клиентов-orders-api",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "8-08-praktikum-rest-i-websocket-7": [
+      {
+        "article": "8-08-praktikum-rest-i-websocket-7",
+        "slug": "csharp/infra-security-8-8-08-praktikum-rest-i-websocket-7-013",
+        "title": "Hub в ASP.NET Core",
+        "section": "hub-в-asp-net-core",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "8-08-praktikum-rest-i-websocket-7",
+        "slug": "csharp/infra-security-8-8-08-praktikum-rest-i-websocket-7-014",
+        "title": "Middleware маршрута",
+        "section": "middleware-маршрута",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "8-09-belyy-haking-i-bug-bounty-2": [
+      {
+        "article": "8-09-belyy-haking-i-bug-bounty-2",
+        "slug": "text/infra-security-8-8-09-belyy-haking-i-bug-bounty-2-001",
+        "title": "Пример заполнения (фрагмент для HackerOne)",
+        "section": "пример-заполнения-фрагмент-для-hackerone",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "8-11-praktikum-postgresql-12": [
+      {
+        "article": "8-11-praktikum-postgresql-12",
+        "slug": "yaml/infra-security-8-8-11-praktikum-postgresql-12-001",
+        "title": "Ansible — bare metal и VM",
+        "section": "ansible-bare-metal-и-vm",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-11-praktikum-postgresql-12",
+        "slug": "text/infra-security-8-8-11-praktikum-postgresql-12-002",
+        "title": "Terraform — managed PostgreSQL",
+        "section": "terraform-managed-postgresql",
+        "blocks": 1,
+        "lines": 38
+      }
+    ],
+    "8-11-praktikum-postgresql-5": [
+      {
+        "article": "8-11-praktikum-postgresql-5",
+        "slug": "sql/infra-security-8-8-11-praktikum-postgresql-5-003",
+        "title": "PL/pgSQL — функции и процедуры",
+        "section": "pl-pgsql-функции-и-процедуры",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8-11-praktikum-postgresql-5",
+        "slug": "sql/infra-security-8-8-11-praktikum-postgresql-5-004",
+        "title": "Row-level triggers",
+        "section": "row-level-triggers",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "8-11-praktikum-postgresql-5",
+        "slug": "sql/infra-security-8-8-11-praktikum-postgresql-5-005",
+        "title": "Event triggers",
+        "section": "event-triggers",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8-11-praktikum-postgresql-5",
+        "slug": "sql/infra-security-8-8-11-praktikum-postgresql-5-006",
+        "title": "NOTIFY и LISTEN",
+        "section": "notify-и-listen",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8-11-praktikum-postgresql-7": [
+      {
+        "article": "8-11-praktikum-postgresql-7",
+        "slug": "yaml/infra-security-8-8-11-praktikum-postgresql-7-007",
+        "title": "Volume — обязательное правило",
+        "section": "volume-обязательное-правило",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "8-11-praktikum-postgresql-7",
+        "slug": "yaml/infra-security-8-8-11-praktikum-postgresql-7-008",
+        "title": "Сеть и несколько контейнеров",
+        "section": "сеть-и-несколько-контейнеров",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "8-11-praktikum-postgresql-8": [
+      {
+        "article": "8-11-praktikum-postgresql-8",
+        "slug": "yaml/infra-security-8-8-11-praktikum-postgresql-8-009",
+        "title": "StatefulSet — минимальный паттерн",
+        "section": "statefulset-минимальный-паттерн",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "8-11-praktikum-postgresql-8",
+        "slug": "yaml/infra-security-8-8-11-praktikum-postgresql-8-010",
+        "title": "Операторы PostgreSQL",
+        "section": "операторы-postgresql",
+        "blocks": 1,
+        "lines": 16
+      }
+    ]
+  }
+}

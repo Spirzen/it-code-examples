@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронное программирование в Rust — async/await — синтаксис для последовательного стиля",
+  "description": "Фрагмент из «Асинхронное программирование в Rust»: async/await — синтаксис для последовательного стиля.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 1,
+  "series": "rust-513-17",
+  "seriesOrder": 1,
+  "seriesTitle": "Асинхронное программирование в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/17"
+}

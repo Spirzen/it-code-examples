@@ -1,0 +1,14 @@
+{
+  "title": "Современный PHP 8 — enum, readonly и атрибуты — Backed enum (со значением в БД или JSON)",
+  "description": "Фрагмент из «Современный PHP 8 — enum, readonly и атрибуты»: Backed enum (со значением в БД или JSON).",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "158"
+  ],
+  "order": 3,
+  "series": "php-507-158",
+  "seriesOrder": 3,
+  "seriesTitle": "Современный PHP 8 — enum, readonly и атрибуты",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/158"
+}

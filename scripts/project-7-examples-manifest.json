@@ -1,0 +1,1785 @@
+{
+  "generatedAt": "2026-06-08T19:35:02.670Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/7-project",
+  "subdirs": [
+    "7-01-obschee-o-biznese",
+    "7-02-komanda-i-upravlenie",
+    "7-03-metodologiya-i-zhiznennyy-tsikl-po",
+    "7-04-analitika",
+    "7-05-testirovanie",
+    "7-06-proektirovanie-i-arhitektura",
+    "7-07-intellektualnye-prava",
+    "7-08-tehnicheskoe-pismo",
+    "7-09-bazy-znaniy-i-zadachniki",
+    "7-10-kultura-koda",
+    "7-11-legasi-kod",
+    "7-12-konstruirovanie-po",
+    "7-13-ekonomika-proizvodstva-po",
+    "7-14-scrum",
+    "7-15-vnedrenie-erp-sistem",
+    "7-16-itsm-i-it-uslugi"
+  ],
+  "articles": {
+    "7-01-obschee-o-biznese-111": [
+      {
+        "article": "7-01-obschee-o-biznese-111",
+        "slug": "csharp/project-7-7-01-obschee-o-biznese-111-001",
+        "title": "Что такое бизнес-логика?",
+        "section": "что-такое-бизнес-логика",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-01-obschee-o-biznese-111",
+        "slug": "java/project-7-7-01-obschee-o-biznese-111-002",
+        "title": "Что такое бизнес-логика?",
+        "section": "что-такое-бизнес-логика",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "7-02-komanda-i-upravlenie-1": [
+      {
+        "article": "7-02-komanda-i-upravlenie-1",
+        "slug": "bash/project-7-7-02-komanda-i-upravlenie-1-001",
+        "title": "Ресурсы",
+        "section": "ресурсы",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-08-tehnicheskoe-pismo-12": [
+      {
+        "article": "7-08-tehnicheskoe-pismo-12",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-12-001",
+        "title": "Приложение В",
+        "section": "приложение-в",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-08-tehnicheskoe-pismo-14": [
+      {
+        "article": "7-08-tehnicheskoe-pismo-14",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-14-001",
+        "title": "✅ Раздел 9. *Условия испытаний*",
+        "section": "раздел-9-условия-испытаний",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-14",
+        "slug": "python/project-7-7-08-tehnicheskoe-pismo-14-002",
+        "title": "10.2. Тестирование ЭП (электронной подписи)",
+        "section": "10-2-тестирование-эп-электронной-подписи",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-08-tehnicheskoe-pismo-16": [
+      {
+        "article": "7-08-tehnicheskoe-pismo-16",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-16-001",
+        "title": "Шаблонная структура",
+        "section": "шаблонная-структура",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-16",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-16-002",
+        "title": "3.3. Пример конфигурации (`/etc/xcore/xcore.yaml`)",
+        "section": "3-3-пример-конфигурации-etc-xcore-xcore-yaml",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "7-08-tehnicheskoe-pismo-18": [
+      {
+        "article": "7-08-tehnicheskoe-pismo-18",
+        "slug": "bash/project-7-7-08-tehnicheskoe-pismo-18-001",
+        "title": "Проверка окружения (скрипт `/opt/xengine/bin/env-check.sh`)",
+        "section": "проверка-окружения-скрипт-opt-xengine-bin-env-ch",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-18",
+        "slug": "text/project-7-7-08-tehnicheskoe-pismo-18-002",
+        "title": "Запуск в режиме systemd",
+        "section": "запуск-в-режиме-systemd",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "7-08-tehnicheskoe-pismo-19": [
+      {
+        "article": "7-08-tehnicheskoe-pismo-19",
+        "slug": "json/project-7-7-08-tehnicheskoe-pismo-19-001",
+        "title": "4.3. Организация входных и выходных данных",
+        "section": "4-3-организация-входных-и-выходных-данных",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "7-08-tehnicheskoe-pismo-21": [
+      {
+        "article": "7-08-tehnicheskoe-pismo-21",
+        "slug": "bash/project-7-7-08-tehnicheskoe-pismo-21-001",
+        "title": "5.3.1 Подготовка хоста (Ubuntu 22.04)",
+        "section": "5-3-1-подготовка-хоста-ubuntu-22-04",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-21",
+        "slug": "text/project-7-7-08-tehnicheskoe-pismo-21-002",
+        "title": "5.3.3 Настройка systemd-сервиса",
+        "section": "5-3-3-настройка-systemd-сервиса",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-21",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-21-003",
+        "title": "5.4.1 Основной файл — `/opt/orion/config/orion.yml`",
+        "section": "5-4-1-основной-файл-opt-orion-config-orion-yml",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-21",
+        "slug": "bash/project-7-7-08-tehnicheskoe-pismo-21-004",
+        "title": "5.7.2 Пример скрипта бэкапа",
+        "section": "5-7-2-пример-скрипта-бэкапа",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-08-tehnicheskoe-pismo-3": [
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-001",
+        "title": "Структура файла спецификации",
+        "section": "структура-файла-спецификации",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-002",
+        "title": "Определение путей и методов",
+        "section": "определение-путей-и-методов",
+        "blocks": 1,
+        "lines": 75
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-003",
+        "title": "Параметры запросов",
+        "section": "параметры-запросов",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-004",
+        "title": "Тела запросов и ответы",
+        "section": "тела-запросов-и-ответы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-005",
+        "title": "Определение схем данных",
+        "section": "определение-схем-данных",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-006",
+        "title": "Наследование и композиция схем",
+        "section": "наследование-и-композиция-схем",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-007",
+        "title": "Коллекции и массивы",
+        "section": "коллекции-и-массивы",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-008",
+        "title": "OAuth2",
+        "section": "oauth2",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-08-tehnicheskoe-pismo-3",
+        "slug": "yaml/project-7-7-08-tehnicheskoe-pismo-3-009",
+        "title": "Обработка ошибок",
+        "section": "обработка-ошибок",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "7-09-bazy-znaniy-i-zadachniki-111": [
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-001",
+        "title": "Файл configuration",
+        "section": "файл-configuration",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-002",
+        "title": "Файл sidebars",
+        "section": "файл-sidebars",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-003",
+        "title": "Подвал сайта (Footer)",
+        "section": "подвал-сайта-footer",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-004",
+        "title": "docusaurus.config.js",
+        "section": "docusaurus-config-js",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-005",
+        "title": "Theme configuration",
+        "section": "theme-configuration",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-006",
+        "title": "Компонентная модель",
+        "section": "компонентная-модель",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-007",
+        "title": "Prism.js Syntax Highlighting",
+        "section": "prism-js-syntax-highlighting",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-09-bazy-znaniy-i-zadachniki-111",
+        "slug": "javascript/project-7-7-09-bazy-znaniy-i-zadachniki-111-008",
+        "title": "Главный элемент интерфейса",
+        "section": "главный-элемент-интерфейса",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "7-10-kultura-koda-1": [
+      {
+        "article": "7-10-kultura-koda-1",
+        "slug": "csharp/project-7-7-10-kultura-koda-1-001",
+        "title": "C# (XML)",
+        "section": "c-xml",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-10-kultura-koda-1",
+        "slug": "javascript/project-7-7-10-kultura-koda-1-002",
+        "title": "JavaScript (JSDoc)",
+        "section": "javascript-jsdoc",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-10-kultura-koda-1",
+        "slug": "java/project-7-7-10-kultura-koda-1-003",
+        "title": "Java (Javadoc)",
+        "section": "java-javadoc",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-10-kultura-koda-1",
+        "slug": "python/project-7-7-10-kultura-koda-1-004",
+        "title": "Python (docstring)",
+        "section": "python-docstring",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-11-legasi-kod-3": [
+      {
+        "article": "7-11-legasi-kod-3",
+        "slug": "python/project-7-7-11-legasi-kod-3-001",
+        "title": "Характеризующие тесты (characterization tests)",
+        "section": "характеризующие-тесты-characterization-tests",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-11-legasi-kod-3",
+        "slug": "java/project-7-7-11-legasi-kod-3-002",
+        "title": "Object seam — время и случайность",
+        "section": "object-seam-время-и-случайность",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-11-legasi-kod-4": [
+      {
+        "article": "7-11-legasi-kod-4",
+        "slug": "csharp/project-7-7-11-legasi-kod-4-001",
+        "title": "Anti-Corruption Layer (слой антикоррупции)",
+        "section": "anti-corruption-layer-слой-антикоррупции",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "7-04-analitika-1122": [
+      {
+        "article": "7-04-analitika-1122",
+        "slug": "sql/project-7-7-04-analitika-1122-001",
+        "title": "Анализ воронки продаж",
+        "section": "анализ-воронки-продаж",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-04-analitika-1122",
+        "slug": "sql/project-7-7-04-analitika-1122-002",
+        "title": "Ранжирование продаж по регионам",
+        "section": "ранжирование-продаж-по-регионам",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-04-analitika-1122",
+        "slug": "sql/project-7-7-04-analitika-1122-003",
+        "title": "Накопительная выручка и сравнение с прошлым днём",
+        "section": "накопительная-выручка-и-сравнение-с-прошлым-днём",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-05-testirovanie-1011": [
+      {
+        "article": "7-05-testirovanie-1011",
+        "slug": "python/project-7-7-05-testirovanie-1011-001",
+        "title": "Работа с моками и внешними зависимостями",
+        "section": "работа-с-моками-и-внешними-зависимостями",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-05-testirovanie-1011",
+        "slug": "python/project-7-7-05-testirovanie-1011-002",
+        "title": "Работа с моками и внешними зависимостями",
+        "section": "работа-с-моками-и-внешними-зависимостями",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-05-testirovanie-1011",
+        "slug": "python/project-7-7-05-testirovanie-1011-003",
+        "title": "Что добавить в \"первый\" юнит-тест, чтобы он стал \"рабочим\"",
+        "section": "что-добавить-в-первый-юнит-тест-чтобы-он-стал-ра",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-05-testirovanie-1012": [
+      {
+        "article": "7-05-testirovanie-1012",
+        "slug": "python/project-7-7-05-testirovanie-1012-001",
+        "title": "Разработка программы для работы с данными",
+        "section": "разработка-программы-для-работы-с-данными",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "7-05-testirovanie-1012",
+        "slug": "python/project-7-7-05-testirovanie-1012-002",
+        "title": "Реализация веб-сервиса и настройка API",
+        "section": "реализация-веб-сервиса-и-настройка-api",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "7-05-testirovanie-1012",
+        "slug": "python/project-7-7-05-testirovanie-1012-003",
+        "title": "Минимальный интеграционный тест в коде",
+        "section": "минимальный-интеграционный-тест-в-коде",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-05-testirovanie-1013": [
+      {
+        "article": "7-05-testirovanie-1013",
+        "slug": "html/project-7-7-05-testirovanie-1013-001",
+        "title": "Создание формы регистрации",
+        "section": "создание-формы-регистрации",
+        "blocks": 1,
+        "lines": 77
+      },
+      {
+        "article": "7-05-testirovanie-1013",
+        "slug": "python/project-7-7-05-testirovanie-1013-002",
+        "title": "Написание скрипта автоматизации",
+        "section": "написание-скрипта-автоматизации",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "7-05-testirovanie-1013",
+        "slug": "python/project-7-7-05-testirovanie-1013-003",
+        "title": "Реализация сценария в коде",
+        "section": "реализация-сценария-в-коде",
+        "blocks": 1,
+        "lines": 67
+      }
+    ],
+    "7-05-testirovanie-1014": [
+      {
+        "article": "7-05-testirovanie-1014",
+        "slug": "python/project-7-7-05-testirovanie-1014-001",
+        "title": "Создание тестового приложения",
+        "section": "создание-тестового-приложения",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "7-05-testirovanie-1015": [
+      {
+        "article": "7-05-testirovanie-1015",
+        "slug": "xml/project-7-7-05-testirovanie-1015-001",
+        "title": "Подготовка окружения",
+        "section": "подготовка-окружения",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-05-testirovanie-1015",
+        "slug": "java/project-7-7-05-testirovanie-1015-002",
+        "title": "Шаг 1 — простой JUnit-тест (unit)",
+        "section": "шаг-1-простой-junit-тест-unit",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "7-05-testirovanie-1015",
+        "slug": "java/project-7-7-05-testirovanie-1015-003",
+        "title": "Шаг 2 — API-тест с REST Assured",
+        "section": "шаг-2-api-тест-с-rest-assured",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "7-05-testirovanie-1015",
+        "slug": "java/project-7-7-05-testirovanie-1015-004",
+        "title": "Шаг 3 — параметризация",
+        "section": "шаг-3-параметризация",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-05-testirovanie-1016": [
+      {
+        "article": "7-05-testirovanie-1016",
+        "slug": "javascript/project-7-7-05-testirovanie-1016-001",
+        "title": "Шаг 1 — unit-тест на Jest",
+        "section": "шаг-1-unit-тест-на-jest",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-1016",
+        "slug": "javascript/project-7-7-05-testirovanie-1016-002",
+        "title": "Шаг 2 — E2E на Playwright",
+        "section": "шаг-2-e2e-на-playwright",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "7-05-testirovanie-117": [
+      {
+        "article": "7-05-testirovanie-117",
+        "slug": "javascript/project-7-7-05-testirovanie-117-001",
+        "title": "Моки (*Mocks*)",
+        "section": "моки-mocks",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-05-testirovanie-117",
+        "slug": "javascript/project-7-7-05-testirovanie-117-002",
+        "title": "Фейки (*Fakes*)",
+        "section": "фейки-fakes",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "7-05-testirovanie-118": [
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "xml/project-7-7-05-testirovanie-118-001",
+        "title": "TestNG (Java)",
+        "section": "testng-java",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "javascript/project-7-7-05-testirovanie-118-002",
+        "title": "Mocha + Chai (JavaScript)",
+        "section": "mocha-chai-javascript",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "ruby/project-7-7-05-testirovanie-118-003",
+        "title": "RSpec (Ruby)",
+        "section": "rspec-ruby",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "xml/project-7-7-05-testirovanie-118-004",
+        "title": "PHPUnit (PHP)",
+        "section": "phpunit-php",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "php/project-7-7-05-testirovanie-118-005",
+        "title": "PHPUnit (PHP)",
+        "section": "phpunit-php",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "java/project-7-7-05-testirovanie-118-006",
+        "title": "RestAssured (Java для API-тестов)",
+        "section": "restassured-java-для-api-тестов",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "javascript/project-7-7-05-testirovanie-118-007",
+        "title": "Supertest (API-тесты для Node.js)",
+        "section": "supertest-api-тесты-для-node-js",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "text/project-7-7-05-testirovanie-118-008",
+        "title": "Karate DSL (API + UI тесты в одном фреймворке)",
+        "section": "karate-dsl-api-ui-тесты-в-одном-фреймворке",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "java/project-7-7-05-testirovanie-118-009",
+        "title": "Karate DSL (API + UI тесты в одном фреймворке)",
+        "section": "karate-dsl-api-ui-тесты-в-одном-фреймворке",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "python/project-7-7-05-testirovanie-118-010",
+        "title": "Selenium WebDriver",
+        "section": "selenium-webdriver",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "typescript/project-7-7-05-testirovanie-118-011",
+        "title": "Playwright",
+        "section": "playwright",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "javascript/project-7-7-05-testirovanie-118-012",
+        "title": "Cypress",
+        "section": "cypress",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "javascript/project-7-7-05-testirovanie-118-013",
+        "title": "Puppeteer",
+        "section": "puppeteer",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "javascript/project-7-7-05-testirovanie-118-014",
+        "title": "Puppeteer",
+        "section": "puppeteer",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "text/project-7-7-05-testirovanie-118-015",
+        "title": "Gatling",
+        "section": "gatling",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "python/project-7-7-05-testirovanie-118-016",
+        "title": "Locust",
+        "section": "locust",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "javascript/project-7-7-05-testirovanie-118-017",
+        "title": "k6",
+        "section": "k6",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "json/project-7-7-05-testirovanie-118-018",
+        "title": "OWASP ZAP (Zed Attack Proxy)",
+        "section": "owasp-zap-zed-attack-proxy",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "java/project-7-7-05-testirovanie-118-019",
+        "title": "DBUnit (Java)",
+        "section": "dbunit-java",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "sql/project-7-7-05-testirovanie-118-020",
+        "title": "tSQLt (SQL Server)",
+        "section": "tsqlt-sql-server",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "sql/project-7-7-05-testirovanie-118-021",
+        "title": "SQLTest (PostgreSQL)",
+        "section": "sqltest-postgresql",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-05-testirovanie-118",
+        "slug": "python/project-7-7-05-testirovanie-118-022",
+        "title": "SQLTest (PostgreSQL)",
+        "section": "sqltest-postgresql",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-05-testirovanie-1181": [
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-001",
+        "title": "Чекбоксы и радиокнопки",
+        "section": "чекбоксы-и-радиокнопки",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-002",
+        "title": "Заполнение реалистичной формы",
+        "section": "заполнение-реалистичной-формы",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-003",
+        "title": "Переключение между вкладками",
+        "section": "переключение-между-вкладками",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-004",
+        "title": "Бесконечная прокрутка",
+        "section": "бесконечная-прокрутка",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-005",
+        "title": "Полный сценарий",
+        "section": "полный-сценарий",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-006",
+        "title": "Стабильный сценарий с ожиданиями на каждом этапе",
+        "section": "стабильный-сценарий-с-ожиданиями-на-каждом-этапе",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-007",
+        "title": "Установка и удаление cookies",
+        "section": "установка-и-удаление-cookies",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-008",
+        "title": "Сохранение сессии",
+        "section": "сохранение-сессии",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-009",
+        "title": "Восстановление сессии",
+        "section": "восстановление-сессии",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-010",
+        "title": "Чтение и запись через JavaScript",
+        "section": "чтение-и-запись-через-javascript",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-011",
+        "title": "Сохранение состояния SPA",
+        "section": "сохранение-состояния-spa",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "python/project-7-7-05-testirovanie-1181-012",
+        "title": "Комплексный сценарий — мониторинг личного кабинета",
+        "section": "комплексный-сценарий-мониторинг-личного-кабинета",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "7-05-testirovanie-1181",
+        "slug": "dockerfile/project-7-7-05-testirovanie-1181-013",
+        "title": "Собственный Dockerfile",
+        "section": "собственный-dockerfile",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-05-testirovanie-1182": [
+      {
+        "article": "7-05-testirovanie-1182",
+        "slug": "typescript/project-7-7-05-testirovanie-1182-001",
+        "title": "Page Object Model",
+        "section": "page-object-model",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-05-testirovanie-1182",
+        "slug": "typescript/project-7-7-05-testirovanie-1182-002",
+        "title": "Page Component",
+        "section": "page-component",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "7-05-testirovanie-1182",
+        "slug": "typescript/project-7-7-05-testirovanie-1182-003",
+        "title": "Page Factory — фабрика страниц",
+        "section": "page-factory-фабрика-страниц",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "7-05-testirovanie-1182",
+        "slug": "typescript/project-7-7-05-testirovanie-1182-004",
+        "title": "playwright.config.ts — что трогать чаще всего",
+        "section": "playwright-config-ts-что-трогать-чаще-всего",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-05-testirovanie-120": [
+      {
+        "article": "7-05-testirovanie-120",
+        "slug": "python/project-7-7-05-testirovanie-120-001",
+        "title": "Границы возраста — один тест, много входов (pytest)",
+        "section": "границы-возраста-один-тест-много-входов-pytest",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-05-testirovanie-120",
+        "slug": "csharp/project-7-7-05-testirovanie-120-002",
+        "title": "Тестируемый код",
+        "section": "тестируемый-код",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-05-testirovanie-120",
+        "slug": "csharp/project-7-7-05-testirovanie-120-003",
+        "title": "Тесты",
+        "section": "тесты",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "7-05-testirovanie-120",
+        "slug": "python/project-7-7-05-testirovanie-120-004",
+        "title": "Тестируемый модуль (`email_validator.py`)",
+        "section": "тестируемый-модуль-email-validator-py",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "7-05-testirovanie-120",
+        "slug": "python/project-7-7-05-testirovanie-120-005",
+        "title": "Тесты (`test_email_validator.py`)",
+        "section": "тесты-test-email-validator-py",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "7-05-testirovanie-120",
+        "slug": "java/project-7-7-05-testirovanie-120-006",
+        "title": "Тестируемый класс",
+        "section": "тестируемый-класс",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "7-05-testirovanie-120",
+        "slug": "java/project-7-7-05-testirovanie-120-007",
+        "title": "Тесты",
+        "section": "тесты",
+        "blocks": 1,
+        "lines": 73
+      }
+    ],
+    "7-05-testirovanie-121": [
+      {
+        "article": "7-05-testirovanie-121",
+        "slug": "python/project-7-7-05-testirovanie-121-001",
+        "title": "Мини-пример — POST заказа и проверка ответа (pytest + httpx)",
+        "section": "мини-пример-post-заказа-и-проверка-ответа-pytest",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "7-05-testirovanie-121",
+        "slug": "javascript/project-7-7-05-testirovanie-121-002",
+        "title": "Запрос — `Create Task`",
+        "section": "запрос-create-task",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "7-05-testirovanie-121",
+        "slug": "javascript/project-7-7-05-testirovanie-121-003",
+        "title": "Запрос — `Get Task by ID`",
+        "section": "запрос-get-task-by-id",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-05-testirovanie-121",
+        "slug": "javascript/project-7-7-05-testirovanie-121-004",
+        "title": "Запрос — `Partial Update (PATCH)`",
+        "section": "запрос-partial-update-patch",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-121",
+        "slug": "javascript/project-7-7-05-testirovanie-121-005",
+        "title": "Запрос — `Delete Task`",
+        "section": "запрос-delete-task",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-05-testirovanie-121",
+        "slug": "javascript/project-7-7-05-testirovanie-121-006",
+        "title": "Как это работает",
+        "section": "как-это-работает",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-05-testirovanie-121",
+        "slug": "text/project-7-7-05-testirovanie-121-007",
+        "title": "Пример сценария для Задачи API",
+        "section": "пример-сценария-для-задачи-api",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "7-05-testirovanie-122": [
+      {
+        "article": "7-05-testirovanie-122",
+        "slug": "python/project-7-7-05-testirovanie-122-001",
+        "title": "Сценарии как Python-код",
+        "section": "сценарии-как-python-код",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-05-testirovanie-122",
+        "slug": "javascript/project-7-7-05-testirovanie-122-002",
+        "title": "JavaScript-DSL",
+        "section": "javascript-dsl",
+        "blocks": 1,
+        "lines": 45
+      }
+    ],
+    "7-05-testirovanie-125": [
+      {
+        "article": "7-05-testirovanie-125",
+        "slug": "php/project-7-7-05-testirovanie-125-001",
+        "title": "Разбор кейса — выживший мутант в расчёте комиссии",
+        "section": "разбор-кейса-выживший-мутант-в-расчёте-комиссии",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-05-testirovanie-130": [
+      {
+        "article": "7-05-testirovanie-130",
+        "slug": "python/project-7-7-05-testirovanie-130-001",
+        "title": "Корректность white-box тестов",
+        "section": "корректность-white-box-тестов",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-05-testirovanie-2": [
+      {
+        "article": "7-05-testirovanie-2",
+        "slug": "python/project-7-7-05-testirovanie-2-001",
+        "title": "Автотест API на Python (pytest + httpx)",
+        "section": "автотест-api-на-python-pytest-httpx",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-112": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-112",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-112-001",
+        "title": "RepositoryImpl — реализация доступа к данным",
+        "section": "repositoryimpl-реализация-доступа-к-данным",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-112",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-112-002",
+        "title": "Validator — проверка корректности",
+        "section": "validator-проверка-корректности",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-1141": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-1141",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-1141-001",
+        "title": "Entity (сущность)",
+        "section": "entity-сущность",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-1141",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-1141-002",
+        "title": "Value Object (объект-значение)",
+        "section": "value-object-объект-значение",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-115": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-001",
+        "title": "Адаптер (Adapter)",
+        "section": "адаптер-adapter",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-002",
+        "title": "Декоратор (Decorator)",
+        "section": "декоратор-decorator",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-003",
+        "title": "Адаптер (Adapter) и Фасад (Facade) и Заместитель (Proxy)",
+        "section": "адаптер-adapter-и-фасад-facade-и-заместитель-pro",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-004",
+        "title": "Кейс 1. Система уведомлений для интернет-магазина",
+        "section": "кейс-1-система-уведомлений-для-интернет-магазина",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-005",
+        "title": "Кейс 2. Конфигурируемый отчётный движок",
+        "section": "кейс-2-конфигурируемый-отчётный-движок",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-006",
+        "title": "Кейс 3. Интеграция с устаревшей бухгалтерской системой",
+        "section": "кейс-3-интеграция-с-устаревшей-бухгалтерской-сис",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-007",
+        "title": "C# и .NET",
+        "section": "c-и-net",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-008",
+        "title": "C# и .NET",
+        "section": "c-и-net",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-009",
+        "title": "C# и .NET",
+        "section": "c-и-net",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-010",
+        "title": "C# и .NET",
+        "section": "c-и-net",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "typescript/project-7-7-06-proektirovanie-i-arhitektura-115-011",
+        "title": "TypeScript и NestJS",
+        "section": "typescript-и-nestjs",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "typescript/project-7-7-06-proektirovanie-i-arhitektura-115-012",
+        "title": "TypeScript и NestJS",
+        "section": "typescript-и-nestjs",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-013",
+        "title": "Пример — ACL для интеграции с legacy-бухгалтерией (C#)",
+        "section": "пример-acl-для-интеграции-с-legacy-бухгалтерией-",
+        "blocks": 1,
+        "lines": 99
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "typescript/project-7-7-06-proektirovanie-i-arhitektura-115-014",
+        "title": "ACL в TypeScript/NestJS — интеграция с внешним REST-API",
+        "section": "acl-в-typescript-nestjs-интеграция-с-внешним-res",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-115-015",
+        "title": "ACL в Python/Django — файловая интеграция с 1С",
+        "section": "acl-в-python-django-файловая-интеграция-с-1с",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-115",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-115-016",
+        "title": "Орхестрованная Сага (Orchestration)",
+        "section": "орхестрованная-сага-orchestration",
+        "blocks": 1,
+        "lines": 48
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-1112": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-1112",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-1112-001",
+        "title": "Пример в коде — преждевременная абстракция",
+        "section": "пример-в-коде-преждевременная-абстракция",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-1114": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-1114",
+        "slug": "json/project-7-7-06-proektirovanie-i-arhitektura-design-1114-001",
+        "title": "Шаг 6. Отображение ошибок",
+        "section": "шаг-6-отображение-ошибок",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-116": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-116",
+        "slug": "sql/project-7-7-06-proektirovanie-i-arhitektura-design-116-001",
+        "title": "2.1. Базовая таблица с аудитом и soft delete",
+        "section": "2-1-базовая-таблица-с-аудитом-и-soft-delete",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-116",
+        "slug": "sql/project-7-7-06-proektirovanie-i-arhitektura-design-116-002",
+        "title": "2.2. Ассоциативная таблица для M:N с дополнительными атрибутами",
+        "section": "2-2-ассоциативная-таблица-для-m-n-с-дополнительн",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-116",
+        "slug": "sql/project-7-7-06-proektirovanie-i-arhitektura-design-116-003",
+        "title": "2.3. Таблица для временных рядов (event log)",
+        "section": "2-3-таблица-для-временных-рядов-event-log",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-117": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-117",
+        "slug": "yaml/project-7-7-06-proektirovanie-i-arhitektura-design-117-001",
+        "title": "Шаг 2 — contract-first (фрагмент OpenAPI 3)",
+        "section": "шаг-2-contract-first-фрагмент-openapi-3",
+        "blocks": 1,
+        "lines": 74
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-117",
+        "slug": "text/project-7-7-06-proektirovanie-i-arhitektura-design-117-002",
+        "title": "Шаг 3 — примеры HTTP-обмена",
+        "section": "шаг-3-примеры-http-обмена",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-1171": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-1171",
+        "slug": "yaml/project-7-7-06-proektirovanie-i-arhitektura-design-1171-001",
+        "title": "Фрагмент OpenAPI — security",
+        "section": "фрагмент-openapi-security",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-1172": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-1172",
+        "slug": "javascript/project-7-7-06-proektirovanie-i-arhitektura-design-1172-001",
+        "title": "Проверка на стороне банка (псевдокод)",
+        "section": "проверка-на-стороне-банка-псевдокод",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-1172",
+        "slug": "yaml/project-7-7-06-proektirovanie-i-arhitektura-design-1172-002",
+        "title": "AsyncAPI — контракт на события",
+        "section": "asyncapi-контракт-на-события",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-1172",
+        "slug": "sql/project-7-7-06-proektirovanie-i-arhitektura-design-1172-003",
+        "title": "Шаг 1 — одна транзакция в БД",
+        "section": "шаг-1-одна-транзакция-в-бд",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-2113": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2113",
+        "slug": "yaml/project-7-7-06-proektirovanie-i-arhitektura-design-2113-001",
+        "title": "Пример конфигурации Horizontal Pod Autoscaler в Kubernetes",
+        "section": "пример-конфигурации-horizontal-pod-autoscaler-в-",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-2132": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2132",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-2132-001",
+        "title": "Сквозной пример — todo-list на C#",
+        "section": "сквозной-пример-todo-list-на-c",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2132",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-2132-002",
+        "title": "Сквозной пример — todo-list на C#",
+        "section": "сквозной-пример-todo-list-на-c",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-2134": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-001",
+        "title": "Экспоненциальная задержка с джиттером",
+        "section": "экспоненциальная-задержка-с-джиттером",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-2134-002",
+        "title": "Паттерн Circuit Breaker",
+        "section": "паттерн-circuit-breaker",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "go/project-7-7-06-proektirovanie-i-arhitektura-design-2134-003",
+        "title": "Стратегии равномерного шардирования",
+        "section": "стратегии-равномерного-шардирования",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "sql/project-7-7-06-proektirovanie-i-arhitektura-design-2134-004",
+        "title": "Стратегии равномерного шардирования",
+        "section": "стратегии-равномерного-шардирования",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "sql/project-7-7-06-proektirovanie-i-arhitektura-design-2134-005",
+        "title": "Паттерн Expand and Contract",
+        "section": "паттерн-expand-and-contract",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-006",
+        "title": "Паттерн Expand and Contract",
+        "section": "паттерн-expand-and-contract",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-007",
+        "title": "Защитные механизмы",
+        "section": "защитные-механизмы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-2134-008",
+        "title": "Защитные механизмы",
+        "section": "защитные-механизмы",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-009",
+        "title": "Синхронизация времени",
+        "section": "синхронизация-времени",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-010",
+        "title": "Стратегии устойчивого резолвинга",
+        "section": "стратегии-устойчивого-резолвинга",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "go/project-7-7-06-proektirovanie-i-arhitektura-design-2134-011",
+        "title": "Стратегии устойчивого резолвинга",
+        "section": "стратегии-устойчивого-резолвинга",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-2134-012",
+        "title": "Изоляция сбоев через Bulkhead",
+        "section": "изоляция-сбоев-через-bulkhead",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-013",
+        "title": "Контракты и валидация ответов",
+        "section": "контракты-и-валидация-ответов",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "nginx/project-7-7-06-proektirovanie-i-arhitektura-design-2134-014",
+        "title": "Алгоритмы балансировки",
+        "section": "алгоритмы-балансировки",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "nginx/project-7-7-06-proektirovanie-i-arhitektura-design-2134-015",
+        "title": "Sticky-сессии и их последствия",
+        "section": "sticky-сессии-и-их-последствия",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-016",
+        "title": "Глубокие проверки с зависимостями",
+        "section": "глубокие-проверки-с-зависимостями",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "yaml/project-7-7-06-proektirovanie-i-arhitektura-design-2134-017",
+        "title": "Механизмы прогрева",
+        "section": "механизмы-прогрева",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-2134-018",
+        "title": "Механизмы прогрева",
+        "section": "механизмы-прогрева",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-019",
+        "title": "Механизмы прогрева",
+        "section": "механизмы-прогрева",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "text/project-7-7-06-proektirovanie-i-arhitektura-design-2134-020",
+        "title": "Управление конфигурациями как код",
+        "section": "управление-конфигурациями-как-код",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-021",
+        "title": "Управление конфигурациями как код",
+        "section": "управление-конфигурациями-как-код",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-022",
+        "title": "Управление конфигурациями как код",
+        "section": "управление-конфигурациями-как-код",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-2134-023",
+        "title": "Комбинирование паттернов",
+        "section": "комбинирование-паттернов",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "python/project-7-7-06-proektirovanie-i-arhitektura-design-2134-024",
+        "title": "Системы распределённой трассировки",
+        "section": "системы-распределённой-трассировки",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2134",
+        "slug": "yaml/project-7-7-06-proektirovanie-i-arhitektura-design-2134-025",
+        "title": "Системы наблюдаемости",
+        "section": "системы-наблюдаемости",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-2143": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2143",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-2143-001",
+        "title": "Application — команда и обработчик",
+        "section": "application-команда-и-обработчик",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-2143",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-2143-002",
+        "title": "Cross-cutting — pipeline behaviours",
+        "section": "cross-cutting-pipeline-behaviours",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-117": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-117",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-117-001",
+        "title": "Классическая реализация (GoF)",
+        "section": "классическая-реализация-gof",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-117",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-117-002",
+        "title": "Идиоматичный C# — `Func`, `Action` и лямбды",
+        "section": "идиоматичный-c-func-action-и-лямбды",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-118": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-118",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-118-001",
+        "title": "Ручная реализация — как в учебнике",
+        "section": "ручная-реализация-как-в-учебнике",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-119": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-119",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-119-001",
+        "title": "Что делает Abstract Factory",
+        "section": "что-делает-abstract-factory",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-119",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-119-002",
+        "title": "Выбор реализации в рантайме",
+        "section": "выбор-реализации-в-рантайме",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-120": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-120",
+        "slug": "csharp/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-120-001",
+        "title": "Классический вариант",
+        "section": "классический-вариант",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-122": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-122",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-122-001",
+        "title": "Каркас на Java",
+        "section": "каркас-на-java",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-122",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-122-002",
+        "title": "Каркас на Java",
+        "section": "каркас-на-java",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-123": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-123",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-123-001",
+        "title": "Пагинация из БД — свой Iterator",
+        "section": "пагинация-из-бд-свой-iterator",
+        "blocks": 1,
+        "lines": 41
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-124": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-124",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-124-001",
+        "title": "Пример — групповой чат",
+        "section": "пример-групповой-чат",
+        "blocks": 1,
+        "lines": 50
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-125": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-125",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-125-001",
+        "title": "Пример — конфигурация сервера",
+        "section": "пример-конфигурация-сервера",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-125",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-125-002",
+        "title": "Пример — конфигурация сервера",
+        "section": "пример-конфигурация-сервера",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-126": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-126",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-126-001",
+        "title": "Пример — текстовый редактор",
+        "section": "пример-текстовый-редактор",
+        "blocks": 1,
+        "lines": 61
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-127": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-127",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-127-001",
+        "title": "Пример — статус заказа",
+        "section": "пример-статус-заказа",
+        "blocks": 1,
+        "lines": 38
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-128": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-128",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-128-001",
+        "title": "Пример — документы с доступом и кэшем",
+        "section": "пример-документы-с-доступом-и-кэшем",
+        "blocks": 1,
+        "lines": 47
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-129": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-129",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-129-001",
+        "title": "Пример — оформление заказа",
+        "section": "пример-оформление-заказа",
+        "blocks": 1,
+        "lines": 46
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-130": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-130",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-130-001",
+        "title": "Пример — HTTP-клиент с настройками",
+        "section": "пример-http-клиент-с-настройками",
+        "blocks": 1,
+        "lines": 58
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-131": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-131",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-131-001",
+        "title": "Пример — уведомления",
+        "section": "пример-уведомления",
+        "blocks": 1,
+        "lines": 51
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-132": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-132",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-132-001",
+        "title": "Пример — структура отдела",
+        "section": "пример-структура-отдела",
+        "blocks": 1,
+        "lines": 51
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-133": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-133",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-133-001",
+        "title": "Пример — сервис данных",
+        "section": "пример-сервис-данных",
+        "blocks": 1,
+        "lines": 49
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-134": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-134",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-134-001",
+        "title": "Пример — прототип отчета",
+        "section": "пример-прототип-отчета",
+        "blocks": 1,
+        "lines": 44
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-135": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-135",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-135-001",
+        "title": "Пример — уведомления по провайдерам",
+        "section": "пример-уведомления-по-провайдерам",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-136": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-136",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-136-001",
+        "title": "Пример",
+        "section": "пример",
+        "blocks": 1,
+        "lines": 41
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-137": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-137",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-137-001",
+        "title": "Пример",
+        "section": "пример",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "7-06-proektirovanie-i-arhitektura-design-patterns-139": [
+      {
+        "article": "7-06-proektirovanie-i-arhitektura-design-patterns-139",
+        "slug": "java/project-7-7-06-proektirovanie-i-arhitektura-design-patterns-139-001",
+        "title": "Пример",
+        "section": "пример",
+        "blocks": 1,
+        "lines": 34
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Go — Обработка ошибок с контекстом",
+  "description": "Фрагмент из «Рекомендации по разработке на Go»: Обработка ошибок с контекстом.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 9,
+  "series": "go-510-101",
+  "seriesOrder": 9,
+  "seriesTitle": "Рекомендации по разработке на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/101"
+}

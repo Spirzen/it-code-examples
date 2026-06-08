@@ -1,0 +1,14 @@
+{
+  "title": "Аутентификация и авторизация в CI/CD-средах — Секреты в Terraform",
+  "description": "Фрагмент из «Аутентификация и авторизация в CI/CD-средах»: Секреты в Terraform.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-211"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-211",
+  "seriesOrder": 1,
+  "seriesTitle": "Аутентификация и авторизация в CI/CD-средах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/211"
+}

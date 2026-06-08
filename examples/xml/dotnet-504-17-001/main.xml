@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <packageSources>
+    <clear />
+    <add key="nuget.org" value="https://api.nuget.org/v3/index.json" />
+    <add key="internal-feed" value="https://pkgs.dev.azure.com/org/_packaging/feed/nuget/v3/index.json" />
+  </packageSources>
+  
+  <packageSourceCredentials>
+    <internal-feed>
+      <add key="Username" value="user" />
+      <add key="ClearTextPassword" value="token" />
+    </internal-feed>
+  </packageSourceCredentials>
+
+  <config>
+    <add key="globalPackagesFolder" value="C:\custom-nuget-cache" />
+    <add key="repositoryPath" value=".\packages" /> <!-- для packages.config -->
+  </config>
+</configuration>

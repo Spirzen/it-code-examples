@@ -1,0 +1,14 @@
+{
+  "title": "Дженерики в TypeScript — Связанные generic: выбор по группе (`Compat`)",
+  "description": "Фрагмент из «Дженерики в TypeScript»: Связанные generic: выбор по группе (`Compat`).",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 1,
+  "series": "typescript-510-24",
+  "seriesOrder": 1,
+  "seriesTitle": "Дженерики в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/24"
+}

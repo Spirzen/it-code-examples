@@ -1,0 +1,26 @@
+Feature: Задачи API integration
+
+Background:
+  * url 'http://localhost:3000/api'
+  * def newTask = { title: 'Karate-тест', description: 'Декларативный подход' }
+
+Scenario: Create and retrieve a task
+  Given request newTask
+  When method post
+  Then status 201
+  And match response == 
+  """
+  {
+    id: '#number',
+    title: 'Karate-тест',
+    status: 'pending',
+    createdAt: '#regex \\d{4}-\\d{2}-\\d{2}T\\d{2}:\\d{2}:\\d{2}.\\d{3}Z',
+    updatedAt: '#? _ == response.createdAt'
+  }
+  """
+  * def taskId = response.id
+
+  Given path 'Задачи', taskId
+  When method get
+  Then status 200
+  And match response.title == 'Karate-тест'

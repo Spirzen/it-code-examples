@@ -1,0 +1,15 @@
+# Бинарник с именем модуля — часто в корне
+/myapp
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+vendor/          # если не vendoring в Git
+
+.env
+.env.*
+!.env.example

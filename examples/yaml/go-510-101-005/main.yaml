@@ -1,0 +1,16 @@
+# .golangci.yml
+run:
+  timeout: 5m
+  issues-exit-code: 1
+
+linters:
+  enable:
+    - errcheck
+    - govet
+    - ineffassign
+    - staticcheck
+    - unused
+    - gosimple
+    - gofmt
+    - goimports
+    - misspell

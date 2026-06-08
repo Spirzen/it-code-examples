@@ -1,0 +1,14 @@
+{
+  "title": "Блокировки и конкурентный доступ в PostgreSQL — Диагностика",
+  "description": "Фрагмент из «Блокировки и конкурентный доступ в PostgreSQL»: Диагностика.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "110"
+  ],
+  "order": 1,
+  "series": "sql-110",
+  "seriesOrder": 1,
+  "seriesTitle": "Блокировки и конкурентный доступ в PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/110"
+}

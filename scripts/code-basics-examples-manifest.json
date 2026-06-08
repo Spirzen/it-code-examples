@@ -1,0 +1,145 @@
+{
+  "generatedAt": "2026-06-07T16:47:01.813Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-02-chto-takoe-kod-i-kak-on-rabotaet",
+  "articles": {
+    "4": [
+      {
+        "article": "4",
+        "slug": "javascript/code-402-4-001",
+        "title": "Анонимные функции",
+        "section": "анонимные-функции",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "4",
+        "slug": "javascript/code-402-4-002",
+        "title": "Рекурсивные функции",
+        "section": "рекурсивные-функции",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "6": [
+      {
+        "article": "6",
+        "slug": "python/code-402-6-001",
+        "title": "Организация кода внутри файла",
+        "section": "организация-кода-внутри-файла",
+        "blocks": 3,
+        "lines": 53
+      },
+      {
+        "article": "6",
+        "slug": "python/code-402-6-002",
+        "title": "Правило понижения (The Step-down Rule)",
+        "section": "правило-понижения-the-step-down-rule",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "6",
+        "slug": "typescript/code-402-6-003",
+        "title": "Styled Components",
+        "section": "styled-components",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "44": [
+      {
+        "article": "44",
+        "slug": "javascript/code-402-44-001",
+        "title": "JavaScript",
+        "section": "javascript",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "44",
+        "slug": "java/code-402-44-002",
+        "title": "Java",
+        "section": "java",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "44",
+        "slug": "csharp/code-402-44-003",
+        "title": "C#",
+        "section": "c",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "44",
+        "slug": "php/code-402-44-004",
+        "title": "PHP",
+        "section": "php",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "44",
+        "slug": "kotlin/code-402-44-005",
+        "title": "Kotlin — Встроенная поддержка nullable типов",
+        "section": "kotlin-встроенная-поддержка-nullable-типов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "44",
+        "slug": "rust/code-402-44-006",
+        "title": "Rust — Перечисление Option",
+        "section": "rust-перечисление-option",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "55": [
+      {
+        "article": "55",
+        "slug": "cpp/code-402-55-001",
+        "title": "Неуправляемый код",
+        "section": "неуправляемый-код",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "611": [
+      {
+        "article": "611",
+        "slug": "text/code-402-611-001",
+        "title": "Декомпозиция",
+        "section": "декомпозиция",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "611",
+        "slug": "text/code-402-611-002",
+        "title": "Проверка границ контракта",
+        "section": "проверка-границ-контракта",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "611",
+        "slug": "text/code-402-611-003",
+        "title": "Согласованность уровней абстракции",
+        "section": "согласованность-уровней-абстракции",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "611",
+        "slug": "text/code-402-611-004",
+        "title": "Обработка ошибок через контекст",
+        "section": "обработка-ошибок-через-контекст",
+        "blocks": 1,
+        "lines": 23
+      }
+    ]
+  }
+}

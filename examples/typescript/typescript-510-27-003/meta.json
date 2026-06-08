@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в TypeScript — `try/catch` и `unknown`",
+  "description": "Фрагмент из «Обработка ошибок в TypeScript»: `try/catch` и `unknown`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "27"
+  ],
+  "order": 3,
+  "series": "typescript-510-27",
+  "seriesOrder": 3,
+  "seriesTitle": "Обработка ошибок в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/27"
+}

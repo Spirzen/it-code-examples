@@ -1,0 +1,16 @@
+       IDENTIFICATION DIVISION.
+       PROGRAM-ID. PAYMENT-CHECK.
+
+       DATA DIVISION.
+       WORKING-STORAGE SECTION.
+       01  WS-AMOUNT        PIC 9(5)V99 VALUE 0012345.
+       01  WS-STATUS        PIC X(10).
+
+       PROCEDURE DIVISION.
+           IF WS-AMOUNT > 10000
+               MOVE "REVIEW" TO WS-STATUS
+           ELSE
+               MOVE "OK" TO WS-STATUS
+           END-IF
+           DISPLAY "STATUS: " WS-STATUS
+           STOP RUN.

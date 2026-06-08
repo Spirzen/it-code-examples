@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Rust — Состояние (State)",
+  "description": "Фрагмент из «Рекомендации по разработке на Rust»: Состояние (State).",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 10,
+  "series": "rust-513-101",
+  "seriesOrder": 10,
+  "seriesTitle": "Рекомендации по разработке на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/101"
+}

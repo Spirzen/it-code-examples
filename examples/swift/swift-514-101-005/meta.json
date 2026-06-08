@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Swift — Асинхронность с `async/await`",
+  "description": "Фрагмент из «Рекомендации по разработке на Swift»: Асинхронность с `async/await`.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 5,
+  "series": "swift-514-101",
+  "seriesOrder": 5,
+  "seriesTitle": "Рекомендации по разработке на Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/101"
+}

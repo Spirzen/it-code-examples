@@ -1,0 +1,14 @@
+{
+  "title": "Memcached - кэширование в оперативной памяти — Python (pymemcache, с поддержкой кластера)",
+  "description": "Фрагмент из «Memcached - кэширование в оперативной памяти»: Python (pymemcache, с поддержкой кластера).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "8"
+  ],
+  "order": 3,
+  "series": "nosql-8",
+  "seriesOrder": 3,
+  "seriesTitle": "Memcached - кэширование в оперативной памяти",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/8"
+}

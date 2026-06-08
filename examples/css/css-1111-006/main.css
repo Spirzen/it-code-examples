@@ -1,0 +1,14 @@
+:root {
+  --gradient-primary: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  --gradient-angle: 135deg;
+}
+
+.card {
+  background: var(--gradient-primary);
+}
+
+/* Частичная модификация */
+.hero {
+  --gradient-angle: 90deg;
+  background: linear-gradient(var(--gradient-angle), #667eea, #764ba2);
+}

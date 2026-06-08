@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по TypeScript — Тотальность (exhaustive check)",
+  "description": "Фрагмент из «Справочник по TypeScript»: Тотальность (exhaustive check).",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "301"
+  ],
+  "order": 3,
+  "series": "js-501-301",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/301"
+}

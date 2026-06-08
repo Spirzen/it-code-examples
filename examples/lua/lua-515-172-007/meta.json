@@ -1,0 +1,14 @@
+{
+  "title": "Работа со строками, таблицами и файлами — Паттерн \"Логгер\"",
+  "description": "Фрагмент из «Работа со строками, таблицами и файлами»: Паттерн \"Логгер\".",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "172"
+  ],
+  "order": 7,
+  "series": "lua-515-172",
+  "seriesOrder": 7,
+  "seriesTitle": "Работа со строками, таблицами и файлами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/172"
+}

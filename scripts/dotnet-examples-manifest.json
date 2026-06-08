@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-06-07T21:39:14.871Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-04-platforma-dotnet",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "csharp/dotnet-504-2-001",
+        "title": "Интеграция с другими технологиями .NET",
+        "section": "интеграция-с-другими-технологиями-net",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "2",
+        "slug": "nginx/dotnet-504-2-002",
+        "title": "За обратным прокси и балансировщиком",
+        "section": "за-обратным-прокси-и-балансировщиком",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "2",
+        "slug": "csharp/dotnet-504-2-003",
+        "title": "SignalR в контексте слоистой архитектуры приложения",
+        "section": "signalr-в-контексте-слоистой-архитектуры-приложе",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "2",
+        "slug": "csharp/dotnet-504-2-004",
+        "title": "Интеграция с фоновыми службами и внешними системами",
+        "section": "интеграция-с-фоновыми-службами-и-внешними-систем",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "2",
+        "slug": "csharp/dotnet-504-2-005",
+        "title": "Шаг 2. Модели данных",
+        "section": "шаг-2-модели-данных",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "2",
+        "slug": "csharp/dotnet-504-2-006",
+        "title": "Шаг 3. Хранилище (упрощённое)",
+        "section": "шаг-3-хранилище-упрощённое",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "2",
+        "slug": "csharp/dotnet-504-2-007",
+        "title": "Шаг 4. Хаб чата",
+        "section": "шаг-4-хаб-чата",
+        "blocks": 1,
+        "lines": 94
+      },
+      {
+        "article": "2",
+        "slug": "csharp/dotnet-504-2-008",
+        "title": "Шаг 5. Конфигурация приложения",
+        "section": "шаг-5-конфигурация-приложения",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "2",
+        "slug": "text/dotnet-504-2-009",
+        "title": "Blazor Server — SignalR как транспорт",
+        "section": "blazor-server-signalr-как-транспорт",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "2",
+        "slug": "text/dotnet-504-2-010",
+        "title": "Вариант A — Использование `HubConnection` напрямую",
+        "section": "вариант-a-использование-hubconnection-напрямую",
+        "blocks": 1,
+        "lines": 35
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "json/dotnet-504-14-001",
+        "title": "В .NET Core / .NET 5+ — `deps.json` и `runtimeconfig.json`",
+        "section": "в-net-core-net-5-deps-json-и-runtimeconfig-json",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "14",
+        "slug": "csharp/dotnet-504-14-002",
+        "title": "Генерация типов и методов",
+        "section": "генерация-типов-и-методов",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "bash/dotnet-504-15-001",
+        "title": "`dotnet list package`",
+        "section": "dotnet-list-package",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "xml/dotnet-504-17-001",
+        "title": "Типичное содержание",
+        "section": "типичное-содержание",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "17",
+        "slug": "json/dotnet-504-17-002",
+        "title": "Пример фрагмента",
+        "section": "пример-фрагмента",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "17",
+        "slug": "xml/dotnet-504-17-003",
+        "title": "2. Расширение метаданных пакета",
+        "section": "2-расширение-метаданных-пакета",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "181": [
+      {
+        "article": "181",
+        "slug": "xml/dotnet-504-181-001",
+        "title": "3. Настройки проекта (.fsproj)",
+        "section": "3-настройки-проекта-fsproj",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "181",
+        "slug": "fsharp/dotnet-504-181-002",
+        "title": "5. Продвинутые возможности языка",
+        "section": "5-продвинутые-возможности-языка",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "181",
+        "slug": "fsharp/dotnet-504-181-003",
+        "title": "4. Сетевые операции",
+        "section": "4-сетевые-операции",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "181",
+        "slug": "fsharp/dotnet-504-181-004",
+        "title": "6. Параллелизм и конкурентность",
+        "section": "6-параллелизм-и-конкурентность",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "181",
+        "slug": "yaml/dotnet-504-181-005",
+        "title": "2. Непрерывная интеграция и доставка (CI/CD)",
+        "section": "2-непрерывная-интеграция-и-доставка-ci-cd",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "182": [
+      {
+        "article": "182",
+        "slug": "fsharp/dotnet-504-182-001",
+        "title": "Функциональный подход к созданию программы",
+        "section": "функциональный-подход-к-созданию-программы",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "182",
+        "slug": "fsharp/dotnet-504-182-002",
+        "title": "Обработка списков и коллекций",
+        "section": "обработка-списков-и-коллекций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "182",
+        "slug": "fsharp/dotnet-504-182-003",
+        "title": "Модульная структура и безопасность",
+        "section": "модульная-структура-и-безопасность",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "189": [
+      {
+        "article": "189",
+        "slug": "fsharp/dotnet-504-189-001",
+        "title": "MailboxProcessor — агент с очередью",
+        "section": "mailboxprocessor-агент-с-очередью",
+        "blocks": 1,
+        "lines": 21
+      }
+    ]
+  }
+}

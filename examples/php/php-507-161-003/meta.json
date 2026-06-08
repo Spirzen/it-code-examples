@@ -1,0 +1,14 @@
+{
+  "title": "От HTML-формы до записи в базу данных на PHP — Шаг 3 — запись через PDO",
+  "description": "Фрагмент из «От HTML-формы до записи в базу данных на PHP»: Шаг 3 — запись через PDO.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "161"
+  ],
+  "order": 3,
+  "series": "php-507-161",
+  "seriesOrder": 3,
+  "seriesTitle": "От HTML-формы до записи в базу данных на PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/161"
+}

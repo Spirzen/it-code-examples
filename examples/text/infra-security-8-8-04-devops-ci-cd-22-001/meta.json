@@ -1,0 +1,14 @@
+{
+  "title": "Terraform — практический путь — Шаг 1 — один EC2",
+  "description": "Фрагмент из «Terraform — практический путь»: Шаг 1 — один EC2.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-22"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-22",
+  "seriesOrder": 1,
+  "seriesTitle": "Terraform — практический путь",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/22"
+}

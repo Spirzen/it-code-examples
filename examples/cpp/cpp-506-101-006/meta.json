@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на C++ — Принцип единственной ответственности",
+  "description": "Фрагмент из «Рекомендации по разработке на C++»: Принцип единственной ответственности.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 6,
+  "series": "cpp-506-101",
+  "seriesOrder": 6,
+  "seriesTitle": "Рекомендации по разработке на C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/101"
+}

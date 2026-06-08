@@ -1,0 +1,14 @@
+{
+  "title": "Управление конфигурациями и окружениями — Шифрование секретов в репозитории",
+  "description": "Фрагмент из «Управление конфигурациями и окружениями»: Шифрование секретов в репозитории.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-07-informatsionnaya-bezopasnost-1153"
+  ],
+  "order": 33,
+  "series": "infra-security-8-8-07-informatsionnaya-bezopasnost-1153",
+  "seriesOrder": 33,
+  "seriesTitle": "Управление конфигурациями и окружениями",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-07-informatsionnaya-bezopasnost/1153"
+}

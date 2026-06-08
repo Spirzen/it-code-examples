@@ -1,0 +1,27 @@
+@layer reset {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
+
+@layer base {
+  body {
+    margin: 0;
+    font-family: system-ui, sans-serif;
+    line-height: 1.5;
+  }
+}
+
+@layer components {
+  .btn {
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+}
+
+@layer utilities {
+  .hidden {
+    display: none !important;
+  }
+}

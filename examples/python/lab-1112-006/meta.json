@@ -1,0 +1,13 @@
+{
+  "title": "Matplotlib — графики — 1.4. Заливка между двумя кривыми (`fill_between`)",
+  "description": "Фрагмент из «Matplotlib — графики»: 1.4. Заливка между двумя кривыми (`fill_between`).",
+  "tags": [
+    "lab",
+    "1112"
+  ],
+  "order": 6,
+  "series": "lab-1112",
+  "seriesOrder": 6,
+  "seriesTitle": "Matplotlib — графики",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1112"
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Кружок робототехники для школьников 5–9 классов">
+  <title>Кружок «Робот» — запись</title>
+  <style>
+    body { margin: 0; font-family: system-ui, sans-serif; }
+    .hero { background: linear-gradient(135deg, #4361ee, #3a0ca3); color: #fff; padding: 3rem 1.25rem; text-align: center; }
+    .hero h1 { margin: 0 0 0.5rem; font-size: clamp(1.5rem, 4vw, 2.25rem); }
+    .btn { display: inline-block; margin-top: 1rem; padding: 0.65rem 1.25rem; background: #fff; color: #3a0ca3; font-weight: 700; text-decoration: none; border-radius: 8px; }
+    section { max-width: 48rem; margin: 0 auto; padding: 2rem 1.25rem; }
+    .cards { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr)); }
+    .card { border: 1px solid #e5e5e5; border-radius: 10px; padding: 1rem; }
+  </style>
+</head>
+<body>
+  <header class="hero">
+    <h1>Кружок «Робот»</h1>
+    <p>Собираем моторы, пишем код, участвуем в соревнованиях.</p>
+    <a class="btn" href="#signup">Записаться</a>
+  </header>
+
+  <section>
+    <h2>Почему к нам</h2>
+    <div class="cards">
+      <article class="card">
+        <h3>Наставники</h3>
+        <p>Инженеры из вуза и IT-компаний.</p>
+      </article>
+      <article class="card">
+        <h3>Оборудование</h3>
+        <p>Arduino, 3D-принтер, полигон для роботов.</p>
+      </article>
+      <article class="card">
+        <h3>Расписание</h3>
+        <p>Суббота 10:00–13:00, 2 раза в месяц — соревнования.</p>
+      </article>
+    </div>
+  </section>
+
+  <section id="signup">
+    <h2>Запись</h2>
+    <form action="#" method="post">
+      <p>
+        <label for="child">Имя ученика</label><br>
+        <input id="child" name="child" required>
+      </p>
+      <p>
+        <label for="parent">Телефон родителя</label><br>
+        <input id="parent" name="phone" type="tel" required>
+      </p>
+      <button type="submit">Отправить заявку</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© Кружок «Робот», школа №12 · <a href="mailto:robot@school.ru">robot@school.ru</a></p>
+  </footer>
+</body>
+</html>

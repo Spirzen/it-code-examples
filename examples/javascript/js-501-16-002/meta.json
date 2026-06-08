@@ -1,0 +1,14 @@
+{
+  "title": "Область видимости и замыкания в JavaScript — Arrow Function",
+  "description": "Фрагмент из «Область видимости и замыкания в JavaScript»: Arrow Function.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 2,
+  "series": "js-501-16",
+  "seriesOrder": 2,
+  "seriesTitle": "Область видимости и замыкания в JavaScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/16"
+}

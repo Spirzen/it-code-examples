@@ -1,0 +1,14 @@
+{
+  "title": "Gradle Groovy DSL — первая сборка — build.gradle — разбор по блокам",
+  "description": "Фрагмент из «Gradle Groovy DSL — первая сборка»: build.gradle — разбор по блокам.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "23"
+  ],
+  "order": 2,
+  "series": "groovy-512-23",
+  "seriesOrder": 2,
+  "seriesTitle": "Gradle Groovy DSL — первая сборка",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/23"
+}

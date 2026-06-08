@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Rust — Управление конкурентностью",
+  "description": "Фрагмент из «Рекомендации по разработке на Rust»: Управление конкурентностью.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 4,
+  "series": "rust-513-101",
+  "seriesOrder": 4,
+  "seriesTitle": "Рекомендации по разработке на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/101"
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="ru"
+      xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="jakarta.faces.html"
+      xmlns:f="jakarta.faces.core">
+
+<h:head>
+    <title>Список задач — JSF</title>
+</h:head>
+
+<h:body>
+    <div class="container">
+        <header>
+            <h1>Список задач</h1>
+            <p class="subtitle">Простое приложение на JavaServer Faces</p>
+        </header>
+
+        <h:form id="todoForm">
+            <h:messages globalOnly="true" styleClass="messages"/>
+
+            <div class="add-form">
+                <h:inputText id="newTask"
+                             value="#{todoBean.newTaskTitle}"
+                             placeholder="Новая задача..."
+                             styleClass="task-input"/>
+                <h:commandButton value="Добавить"
+                                 action="#{todoBean.addTask}"
+                                 styleClass="btn btn-primary"/>
+            </div>
+        </h:form>
+    </div>
+</h:body>
+</html>

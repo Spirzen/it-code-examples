@@ -1,0 +1,14 @@
+{
+  "title": "Windows x64, WinAPI и отличия от Linux — Импорт функций из DLL",
+  "description": "Фрагмент из «Windows x64, WinAPI и отличия от Linux»: Импорт функций из DLL.",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 1,
+  "series": "assembler-516-16",
+  "seriesOrder": 1,
+  "seriesTitle": "Windows x64, WinAPI и отличия от Linux",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/16"
+}

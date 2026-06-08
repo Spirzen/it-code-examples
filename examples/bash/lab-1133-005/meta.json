@@ -1,0 +1,13 @@
+{
+  "title": "curl / fetch — API-запросы — 8. Скрипт health-check для cron или отчёта",
+  "description": "Фрагмент из «curl / fetch — API-запросы»: 8. Скрипт health-check для cron или отчёта.",
+  "tags": [
+    "lab",
+    "1133"
+  ],
+  "order": 5,
+  "series": "lab-1133",
+  "seriesOrder": 5,
+  "seriesTitle": "curl / fetch — API-запросы",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1133"
+}

@@ -1,0 +1,19 @@
+<script>
+document.querySelectorAll('.tab-button').forEach(button => {
+  button.addEventListener('click', () => {
+    // Убираем активность со всех кнопок и панелей
+    document.querySelectorAll('.tab-button').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-panel').forEach(p => p.classList.add('hidden'));
+
+    // Делаем текущую вкладку активной
+    button.classList.add('active');
+    const panelId = button.getAttribute('aria-controls');
+    document.getElementById(panelId).classList.remove('hidden');
+
+    // Обновляем aria-selected
+    document.querySelectorAll('.tab-button').forEach(b => {
+      b.setAttribute('aria-selected', b === button ? 'true' : 'false');
+    });
+  });
+});
+</script>

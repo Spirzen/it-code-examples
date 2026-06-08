@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Ruby — Рефакторинг длинного метода",
+  "description": "Фрагмент из «Рекомендации по разработке на Ruby»: Рефакторинг длинного метода.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 14,
+  "series": "ruby-511-101",
+  "seriesOrder": 14,
+  "seriesTitle": "Рекомендации по разработке на Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/101"
+}

@@ -1,0 +1,29 @@
+# Alertmanager configuration
+route:
+  group_by: ['alertname', 'cluster', 'service']
+  group_wait: 30s
+  group_interval: 5m
+  repeat_interval: 4h
+  receiver: 'default'
+  
+  routes:
+    - match:
+        severity: critical
+      receiver: 'pagerduty-critical'
+      group_wait: 10s
+      repeat_interval: 1h
+
+inhibit_rules:
+  # Подавление предупреждений при критической проблеме
+  - source_match:
+      severity: 'critical'
+    target_match:
+      severity: 'warning'
+    equal: ['alertname', 'cluster', 'service']
+  
+  # Подавление алертов зависимостей при падении основного сервиса
+  - source_match:
+      alertname: 'ServiceDown'
+    target_match_re:
+      alertname: 'Dependency.*'
+    equal: ['cluster', 'service']

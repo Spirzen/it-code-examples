@@ -1,0 +1,15 @@
+<svg width="320" height="320" viewBox="-160 -160 320 320">
+  <path id="rose" fill="none" stroke="#db2777" stroke-width="2"/>
+</svg>
+<script>
+  const k = 5;
+  let d = '';
+  for (let deg = 0; deg <= 360; deg += 1) {
+    const rad = (deg * Math.PI) / 180;
+    const r = 100 * Math.cos(k * rad);
+    const x = r * Math.cos(rad);
+    const y = r * Math.sin(rad);
+    d += (deg === 0 ? 'M' : 'L') + ` ${x} ${y}`;
+  }
+  document.getElementById('rose').setAttribute('d', d + ' Z');
+</script>

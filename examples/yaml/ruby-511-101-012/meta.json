@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Ruby — CI/CD для Ruby",
+  "description": "Фрагмент из «Рекомендации по разработке на Ruby»: CI/CD для Ruby.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 12,
+  "series": "ruby-511-101",
+  "seriesOrder": 12,
+  "seriesTitle": "Рекомендации по разработке на Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/101"
+}

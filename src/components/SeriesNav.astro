@@ -1,12 +1,12 @@
 ---
-import type {ExampleEntry, SeriesGroup} from '@/lib/examples';
+import type {CatalogEntry, ExampleEntry, SeriesGroup} from '@/lib/examples';
 import {sitePath} from '@/lib/site';
 
 interface Props {
-  example: ExampleEntry;
+  example: ExampleEntry | CatalogEntry;
   series: SeriesGroup;
-  prev?: ExampleEntry;
-  next?: ExampleEntry;
+  prev?: CatalogEntry;
+  next?: CatalogEntry;
 }
 
 const {example, series, prev, next} = Astro.props;

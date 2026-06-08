@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Lua — Реализация объектов и классов",
+  "description": "Фрагмент из «Справочник по Lua»: Реализация объектов и классов.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "3"
+  ],
+  "order": 4,
+  "series": "lua-515-3",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/3"
+}

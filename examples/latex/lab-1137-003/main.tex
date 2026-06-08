@@ -1,0 +1,53 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[T2A]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+\usepackage{amsmath, amssymb, graphicx, booktabs, geometry, siunitx}
+\geometry{left=2.5cm, right=1.5cm, top=2cm, bottom=2cm}
+\sisetup{locale = DE}
+
+\title{Лабораторная работа №\___\\Название опыта}
+\author{ФИО, группа}
+\date{}
+
+\begin{document}
+\maketitle
+
+\section{Цель}
+Кратко — что измеряем или проверяем.
+
+\section{Оборудование}
+Перечень приборов.
+
+\section{Теория}
+Ключевая формула:
+\begin{equation}
+  v = \frac{s}{t}
+  \label{eq:main}
+\end{equation}
+где $s$ — путь, $t$ — время.
+
+\section{Ход работы}
+1. Установили…
+2. Измерили…
+По формуле~\eqref&#123;eq:main&#125; вычислили $v = \SI{5.2}{\meter\per\second}$.
+
+\section{Результаты}
+\begin{table}[h]
+  \centering
+  \caption{Измерения}
+  \label{tab:data}
+  \begin{tabular}{ccc}
+    \toprule
+    № & $t$, с & $s$, м \\
+    \midrule
+    1 & 1{,}0 & 5{,}1 \\
+    2 & 2{,}0 & 10{,}0 \\
+    \bottomrule
+  \end{tabular}
+\end{table}
+
+\section{Вывод}
+Экспериментально подтвердили зависимость~\eqref&#123;eq:main&#125;.
+
+\end{document}

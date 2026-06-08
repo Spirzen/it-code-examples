@@ -1,0 +1,541 @@
+{
+  "generatedAt": "2026-06-07T17:40:30.759Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-06-arhitektura-vypolneniya",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "javascript/code-406-1-001",
+        "title": "Стек вызовов",
+        "section": "стек-вызовов",
+        "blocks": 1,
+        "lines": 10
+      }
+    ],
+    "111": [
+      {
+        "article": "111",
+        "slug": "csharp/code-406-111-001",
+        "title": "Исключения — как они работают под капотом",
+        "section": "isklyucheniya-i-stek",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "111",
+        "slug": "python/code-406-111-002",
+        "title": "Исключения — как они работают под капотом",
+        "section": "isklyucheniya-i-stek",
+        "blocks": 1,
+        "lines": 11
+      },
+      {
+        "article": "111",
+        "slug": "go/code-406-111-003",
+        "title": "Когда использовать исключения, а когда — коды ошибок",
+        "section": "когда-использовать-исключения-а-когда-коды-ошибо",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "111",
+        "slug": "csharp/code-406-111-004",
+        "title": "Цепочка причин и повторный проброс",
+        "section": "цепочка-причин-и-повторный-проброс",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "111",
+        "slug": "python/code-406-111-005",
+        "title": "Неуправляемые исключения и их последствия",
+        "section": "неуправляемые-исключения-и-их-последствия",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "111",
+        "slug": "javascript/code-406-111-006",
+        "title": "Неуправляемые исключения и их последствия",
+        "section": "неуправляемые-исключения-и-их-последствия",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "111",
+        "slug": "csharp/code-406-111-007",
+        "title": "Логирование ошибок — что, когда и зачем записывать",
+        "section": "логирование-ошибок-что-когда-и-зачем-записывать",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "111",
+        "slug": "python/code-406-111-008",
+        "title": "Логирование ошибок — что, когда и зачем записывать",
+        "section": "логирование-ошибок-что-когда-и-зачем-записывать",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "111",
+        "slug": "csharp/code-406-111-009",
+        "title": "Игнорирование ошибок",
+        "section": "игнорирование-ошибок",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "111",
+        "slug": "python/code-406-111-010",
+        "title": "Игнорирование ошибок",
+        "section": "игнорирование-ошибок",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "111",
+        "slug": "csharp/code-406-111-011",
+        "title": "Игнорирование ошибок",
+        "section": "игнорирование-ошибок",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "111",
+        "slug": "csharp/code-406-111-012",
+        "title": "Мини-практика",
+        "section": "мини-практика",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "111",
+        "slug": "python/code-406-111-013",
+        "title": "Мини-практика",
+        "section": "мини-практика",
+        "blocks": 1,
+        "lines": 12
+      }
+    ],
+    "112": [
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-001",
+        "title": "Значения переменных",
+        "section": "значения-переменных",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "112",
+        "slug": "python/code-406-112-002",
+        "title": "Значения переменных",
+        "section": "значения-переменных",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "112",
+        "slug": "javascript/code-406-112-003",
+        "title": "Значения переменных",
+        "section": "значения-переменных",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-004",
+        "title": "Как меняются значения переменных",
+        "section": "как-меняются-значения-переменных",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "112",
+        "slug": "python/code-406-112-005",
+        "title": "Как меняются значения переменных",
+        "section": "как-меняются-значения-переменных",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "112",
+        "slug": "javascript/code-406-112-006",
+        "title": "Как меняются значения переменных",
+        "section": "как-меняются-значения-переменных",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-007",
+        "title": "Логирование — отладочные выводы, трассировка",
+        "section": "логирование-отладочные-выводы-трассировка",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "112",
+        "slug": "python/code-406-112-008",
+        "title": "Логирование — отладочные выводы, трассировка",
+        "section": "логирование-отладочные-выводы-трассировка",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "112",
+        "slug": "json/code-406-112-009",
+        "title": "Инспекция состояния в продакшене — телеметрия, метрики, логи",
+        "section": "инспекция-состояния-в-продакшене-телеметрия-метр",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-010",
+        "title": "Инспекция состояния в продакшене — телеметрия, метрики, логи",
+        "section": "инспекция-состояния-в-продакшене-телеметрия-метр",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-011",
+        "title": "1. Бесконечные циклы",
+        "section": "1-бесконечные-циклы",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "112",
+        "slug": "python/code-406-112-012",
+        "title": "1. Бесконечные циклы",
+        "section": "1-бесконечные-циклы",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-013",
+        "title": "2. Блокировки и взаимоблокировки (deadlock)",
+        "section": "2-блокировки-и-взаимоблокировки-deadlock",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-014",
+        "title": "3. Ожидание внешних ресурсов",
+        "section": "3-ожидание-внешних-ресурсов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-406-112-015",
+        "title": "4. Проблемы с памятью",
+        "section": "4-проблемы-с-памятью",
+        "blocks": 1,
+        "lines": 12
+      }
+    ],
+    "113": [
+      {
+        "article": "113",
+        "slug": "csharp/code-406-113-001",
+        "title": "Подпрограмма, процедура и функция",
+        "section": "подпрограмма-процедура-и-функция",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "113",
+        "slug": "python/code-406-113-002",
+        "title": "Подпрограмма, процедура и функция",
+        "section": "подпрограмма-процедура-и-функция",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-406-113-003",
+        "title": "Рекурсия — плюсы, минусы, переполнение стека",
+        "section": "рекурсия-плюсы-минусы-переполнение-стека",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-406-113-004",
+        "title": "Рекурсия — плюсы, минусы, переполнение стека",
+        "section": "рекурсия-плюсы-минусы-переполнение-стека",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-406-113-005",
+        "title": "Хвостовая рекурсия (концептуально)",
+        "section": "хвостовая-рекурсия-концептуально",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "113",
+        "slug": "javascript/code-406-113-006",
+        "title": "Обратные вызовы",
+        "section": "обратные-вызовы",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-406-113-007",
+        "title": "Обратные вызовы",
+        "section": "обратные-вызовы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "113",
+        "slug": "python/code-406-113-008",
+        "title": "Обратные вызовы",
+        "section": "обратные-вызовы",
+        "blocks": 1,
+        "lines": 12
+      }
+    ],
+    "114": [
+      {
+        "article": "114",
+        "slug": "bash/code-406-114-001",
+        "title": "CPU — на что обращать внимание",
+        "section": "cpu-на-что-обращать-внимание",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "114",
+        "slug": "csharp/code-406-114-002",
+        "title": "Память — на что обращать внимание",
+        "section": "память-на-что-обращать-внимание",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "114",
+        "slug": "python/code-406-114-003",
+        "title": "Память — на что обращать внимание",
+        "section": "память-на-что-обращать-внимание",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "114",
+        "slug": "bash/code-406-114-004",
+        "title": "Диск — на что обращать внимание",
+        "section": "диск-на-что-обращать-внимание",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "114",
+        "slug": "csharp/code-406-114-005",
+        "title": "Диск — на что обращать внимание",
+        "section": "диск-на-что-обращать-внимание",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "114",
+        "slug": "bash/code-406-114-006",
+        "title": "Сеть — на что обращать внимание",
+        "section": "сеть-на-что-обращать-внимание",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "114",
+        "slug": "csharp/code-406-114-007",
+        "title": "Сеть — на что обращать внимание",
+        "section": "сеть-на-что-обращать-внимание",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "114",
+        "slug": "csharp/code-406-114-008",
+        "title": "Метрики кода — cyclomatic complexity, cognitive complexity, coupling, cohesion",
+        "section": "метрики-кода-cyclomatic-complexity-cognitive-com",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "114",
+        "slug": "csharp/code-406-114-009",
+        "title": "Метрики кода — cyclomatic complexity, cognitive complexity, coupling, cohesion",
+        "section": "метрики-кода-cyclomatic-complexity-cognitive-com",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "114",
+        "slug": "csharp/code-406-114-010",
+        "title": "Профилировщики — CPU profiling, memory profiling, allocation tracking",
+        "section": "профилировщики-cpu-profiling-memory-profiling-al",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "114",
+        "slug": "json/code-406-114-011",
+        "title": "Бюджеты производительности — SLA, latency targets",
+        "section": "бюджеты-производительности-sla-latency-targets",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "114",
+        "slug": "csharp/code-406-114-012",
+        "title": "Бюджеты производительности — SLA, latency targets",
+        "section": "бюджеты-производительности-sla-latency-targets",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "115": [
+      {
+        "article": "115",
+        "slug": "csharp/code-406-115-001",
+        "title": "Мёртвый код",
+        "section": "мёртвый-код",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "115",
+        "slug": "json/code-406-115-002",
+        "title": "Как его находить — статический анализ, coverage",
+        "section": "как-его-находить-статический-анализ-coverage",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "115",
+        "slug": "bash/code-406-115-003",
+        "title": "Последствия — усложнение поддержки, рост времени сборки",
+        "section": "последствия-усложнение-поддержки-рост-времени-сб",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "115",
+        "slug": "csharp/code-406-115-004",
+        "title": "Удаление и комментирование",
+        "section": "удаление-и-комментирование",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "115",
+        "slug": "bash/code-406-115-005",
+        "title": "Удаление и комментирование",
+        "section": "удаление-и-комментирование",
+        "blocks": 1,
+        "lines": 10
+      }
+    ],
+    "116": [
+      {
+        "article": "116",
+        "slug": "csharp/code-406-116-001",
+        "title": "Ошибки компиляции и предупреждения",
+        "section": "ошибки-компиляции-и-предупреждения",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "116",
+        "slug": "csharp/code-406-116-002",
+        "title": "Ошибки компиляции и предупреждения",
+        "section": "ошибки-компиляции-и-предупреждения",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "116",
+        "slug": "bash/code-406-116-003",
+        "title": "Что делать если сборка поломалась",
+        "section": "что-делать-если-сборка-поломалась",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "116",
+        "slug": "csharp/code-406-116-004",
+        "title": "Факторы — зависимость, кэширование, параллелизация",
+        "section": "факторы-зависимость-кэширование-параллелизация",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "116",
+        "slug": "bash/code-406-116-005",
+        "title": "Инкрементальная сборка, hot reload",
+        "section": "инкрементальная-сборка-hot-reload",
+        "blocks": 1,
+        "lines": 11
+      },
+      {
+        "article": "116",
+        "slug": "javascript/code-406-116-006",
+        "title": "Инкрементальная сборка, hot reload",
+        "section": "инкрементальная-сборка-hot-reload",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "116",
+        "slug": "csharp/code-406-116-007",
+        "title": "Code review — как замечать узкие места",
+        "section": "code-review-как-замечать-узкие-места",
+        "blocks": 1,
+        "lines": 12
+      },
+      {
+        "article": "116",
+        "slug": "yaml/code-406-116-008",
+        "title": "Профилирование в CI/CD",
+        "section": "профилирование-в-ci-cd",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "116",
+        "slug": "csharp/code-406-116-009",
+        "title": "1. Разбор реальных утечек памяти",
+        "section": "1-разбор-реальных-утечек-памяти",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "116",
+        "slug": "java/code-406-116-010",
+        "title": "1. Разбор реальных утечек памяти",
+        "section": "1-разбор-реальных-утечек-памяти",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "116",
+        "slug": "java/code-406-116-011",
+        "title": "2. Анализ дампов процессора и блокировок",
+        "section": "2-анализ-дампов-процессора-и-блокировок",
+        "blocks": 1,
+        "lines": 14
+      }
+    ]
+  }
+}

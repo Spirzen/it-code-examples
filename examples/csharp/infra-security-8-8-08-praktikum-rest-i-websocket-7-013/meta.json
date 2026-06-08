@@ -1,0 +1,14 @@
+{
+  "title": "Практикум REST и WebSocket — OrderDesk — Hub в ASP.NET Core",
+  "description": "Фрагмент из «Практикум REST и WebSocket — OrderDesk»: Hub в ASP.NET Core.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-08-praktikum-rest-i-websocket-7"
+  ],
+  "order": 13,
+  "series": "infra-security-8-08-orderdesk-praktikum",
+  "seriesOrder": 13,
+  "seriesTitle": "Практикум REST и WebSocket — OrderDesk",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-08-praktikum-rest-i-websocket/intro"
+}

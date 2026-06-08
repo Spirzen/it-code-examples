@@ -1,0 +1,14 @@
+{
+  "title": "Реактивная коммуникация — Node.js (сервер на ws)",
+  "description": "Фрагмент из «Реактивная коммуникация»: Node.js (сервер на ws).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-116"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-116",
+  "seriesOrder": 2,
+  "seriesTitle": "Реактивная коммуникация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/116"
+}

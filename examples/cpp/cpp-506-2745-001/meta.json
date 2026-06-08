@@ -1,0 +1,14 @@
+{
+  "title": "OpenGL — 3D-графика на C++ — Минимальный каркас на C++ с GLFW и GLAD",
+  "description": "Фрагмент из «OpenGL — 3D-графика на C++»: Минимальный каркас на C++ с GLFW и GLAD.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "2745"
+  ],
+  "order": 1,
+  "series": "cpp-506-2745",
+  "seriesOrder": 1,
+  "seriesTitle": "OpenGL — 3D-графика на C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/2745"
+}

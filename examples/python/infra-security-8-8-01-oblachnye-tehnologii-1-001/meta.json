@@ -1,0 +1,14 @@
+{
+  "title": "Модели и сервисы облачных технологий — Пример — тот же смысл из Python (boto3)",
+  "description": "Фрагмент из «Модели и сервисы облачных технологий»: Пример — тот же смысл из Python (boto3).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-01-oblachnye-tehnologii-1"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-01-oblachnye-tehnologii-1",
+  "seriesOrder": 1,
+  "seriesTitle": "Модели и сервисы облачных технологий",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-01-oblachnye-tehnologii/1"
+}

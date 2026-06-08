@@ -1,0 +1,14 @@
+{
+  "title": "TCP и UDP в Go — UNIX domain sockets",
+  "description": "Фрагмент из «TCP и UDP в Go»: UNIX domain sockets.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "27"
+  ],
+  "order": 2,
+  "series": "go-510-27",
+  "seriesOrder": 2,
+  "seriesTitle": "TCP и UDP в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/27"
+}

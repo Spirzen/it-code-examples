@@ -1,0 +1,14 @@
+{
+  "title": "Числа с плавающей точкой и SIMD — Сохранение XMM при вызовах",
+  "description": "Фрагмент из «Числа с плавающей точкой и SIMD»: Сохранение XMM при вызовах.",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "15"
+  ],
+  "order": 1,
+  "series": "assembler-516-15",
+  "seriesOrder": 1,
+  "seriesTitle": "Числа с плавающей точкой и SIMD",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/15"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Примеры запросов в SQL — 5. Безопасное изменение (транзакция)",
+  "description": "Фрагмент из «Примеры запросов в SQL»: 5. Безопасное изменение (транзакция).",
+  "tags": [
+    "lab",
+    "118"
+  ],
+  "order": 1,
+  "series": "lab-118",
+  "seriesOrder": 1,
+  "seriesTitle": "Примеры запросов в SQL",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/118"
+}

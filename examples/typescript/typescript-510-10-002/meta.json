@@ -1,0 +1,14 @@
+{
+  "title": "Типы данных и типизация в TypeScript — Discriminated union и exhaustive check",
+  "description": "Фрагмент из «Типы данных и типизация в TypeScript»: Discriminated union и exhaustive check.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "10"
+  ],
+  "order": 2,
+  "series": "typescript-510-10",
+  "seriesOrder": 2,
+  "seriesTitle": "Типы данных и типизация в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/10"
+}

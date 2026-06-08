@@ -1,0 +1,14 @@
+{
+  "title": "Кнопка с загрузкой — React, Promise и поток обновлений — Поток значений — `async function*` и `yield`",
+  "description": "Фрагмент из «Кнопка с загрузкой — React, Promise и поток обновлений»: Поток значений — `async function*` и `yield`.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-2-frontend-frameworks-1-react-45"
+  ],
+  "order": 4,
+  "series": "js-501-3-ecosystem-2-frontend-frameworks-1-react-45",
+  "seriesOrder": 4,
+  "seriesTitle": "Кнопка с загрузкой — React, Promise и поток обновлений",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/2-frontend-frameworks/1-react/45"
+}

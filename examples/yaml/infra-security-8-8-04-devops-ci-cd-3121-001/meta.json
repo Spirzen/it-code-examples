@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Loki — Пример минимальной конфигурации (monolithic)",
+  "description": "Фрагмент из «Справочник по Loki»: Пример минимальной конфигурации (monolithic).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3121"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-3121",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Loki",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3121"
+}

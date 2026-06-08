@@ -1,0 +1,14 @@
+{
+  "title": "Автоматизация задач и DevOps-скрипты — 1. Автоархивация логов (`log_archiver.py`)",
+  "description": "Фрагмент из «Автоматизация задач и DevOps-скрипты»: 1. Автоархивация логов (`log_archiver.py`).",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "35"
+  ],
+  "order": 1,
+  "series": "py-502-35",
+  "seriesOrder": 1,
+  "seriesTitle": "Автоматизация задач и DevOps-скрипты",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/35"
+}

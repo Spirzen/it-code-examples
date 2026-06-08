@@ -1,0 +1,7 @@
+{
+  "title": "GitHub Actions — CI/CD с тестами и деплоем",
+  "description": "Тесты на PR, деплой в gh-pages только с main после npm test.",
+  "tags": ["lab", "case", "devops"],
+  "order": 3,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/3"
+}

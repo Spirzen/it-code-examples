@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Nginx — 3. Контекст `http`",
+  "description": "Фрагмент из «Справочник по Nginx»: 3. Контекст `http`.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3112"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-3112",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Nginx",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3112"
+}

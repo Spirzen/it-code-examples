@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Swift — Использование замыканий для асинхронных операций",
+  "description": "Фрагмент из «Рекомендации по разработке на Swift»: Использование замыканий для асинхронных операций.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 2,
+  "series": "swift-514-101",
+  "seriesOrder": 2,
+  "seriesTitle": "Рекомендации по разработке на Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/101"
+}

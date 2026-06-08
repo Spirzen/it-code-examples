@@ -1,0 +1,38 @@
+# Prometheus — правила алертинга на архитектурные сбои
+groups:
+  - name: architectural_alerts
+    rules:
+      # Обнаружение нагретых шардов
+      - alert: ShardHotspot
+        expr: |
+          (
+            max by (shard) (http_requests_total)
+            / avg by () (http_requests_total)
+          ) > 3.0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Обнаружен нагретый шард"
+      
+      # Обнаружение шторма повторных запросов
+      - alert: RetryStorm
+        expr: |
+          rate(http_requests_total{status="retry"}[5m])
+          > rate(http_requests_total[5m]) * 0.5
+        for: 2m
+        labels:
+          severity: critical
+        annotations:
+          summary: "Обнаружен шторм повторных запросов"
+      
+      # Обнаружение дрейфа времени
+      - alert: ClockDrift
+        expr: |
+          abs(node_time_seconds - node_time_seconds offset 1h)
+          > 1.0
+        for: 5m
+        labels:
+          severity: warning
+        annotations:
+          summary: "Обнаружен дрейф часов"

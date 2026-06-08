@@ -1,0 +1,14 @@
+{
+  "title": "Java, Python и Go — циклические ссылки и gc.collect()",
+  "description": "Python: refcount не видит цикл; модуль gc собирает замкнутый граф.",
+  "tags": [
+    "garbage-collection",
+    "encyclopedia",
+    "4"
+  ],
+  "order": 1,
+  "series": "code-415-4",
+  "seriesOrder": 1,
+  "seriesTitle": "Java, Python и Go — три модели GC",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-15-sborka-musora/4"
+}

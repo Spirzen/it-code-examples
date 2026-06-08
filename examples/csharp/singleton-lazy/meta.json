@@ -1,0 +1,7 @@
+{
+  "title": "C# — Singleton через Lazy<T>",
+  "description": "Потокобезопасная реализация AppConfig с закрытым конструктором.",
+  "tags": ["lab", "case", "patterns"],
+  "order": 5,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/5"
+}

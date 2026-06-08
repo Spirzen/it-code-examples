@@ -1,0 +1,87 @@
+{
+  "generatedAt": "2026-06-08T14:22:00.228Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-16-starye-yazyki/Pascal",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "pascal/pascal-516-2-001",
+        "title": "Пример структуры простой программы",
+        "section": "пример-структуры-простой-программы",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "pascal/pascal-516-3-001",
+        "title": "Структура программы на Pascal",
+        "section": "структура-программы-на-pascal",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "3",
+        "slug": "pascal/pascal-516-3-002",
+        "title": "Модульность как архитектурный принцип",
+        "section": "модульность-как-архитектурный-принцип",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "7": [
+      {
+        "article": "7",
+        "slug": "pascal/pascal-516-7-001",
+        "title": "Шаг 7 — Добавляем пользовательский ввод",
+        "section": "шаг-7-добавляем-пользовательский-ввод",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "711": [
+      {
+        "article": "711",
+        "slug": "pascal/pascal-516-711-001",
+        "title": "Общая структура программы",
+        "section": "общая-структура-программы",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "711",
+        "slug": "pascal/pascal-516-711-002",
+        "title": "Управление памятью (динамические структуры)",
+        "section": "управление-памятью-динамические-структуры",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "711",
+        "slug": "pascal/pascal-516-711-003",
+        "title": "Структура модуля",
+        "section": "структура-модуля",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "711",
+        "slug": "pascal/pascal-516-711-004",
+        "title": "Пример 1 — Работа с массивом",
+        "section": "пример-1-работа-с-массивом",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "711",
+        "slug": "pascal/pascal-516-711-005",
+        "title": "Пример 3 — Запись и файл",
+        "section": "пример-3-запись-и-файл",
+        "blocks": 1,
+        "lines": 18
+      }
+    ]
+  }
+}

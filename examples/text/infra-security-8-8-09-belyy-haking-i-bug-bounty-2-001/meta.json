@@ -1,0 +1,14 @@
+{
+  "title": "Как ищут и оформляют уязвимости — Пример заполнения (фрагмент для HackerOne)",
+  "description": "Фрагмент из «Как ищут и оформляют уязвимости»: Пример заполнения (фрагмент для HackerOne).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-09-belyy-haking-i-bug-bounty-2"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-09-belyy-haking-i-bug-bounty-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Как ищут и оформляют уязвимости",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-09-belyy-haking-i-bug-bounty/2"
+}

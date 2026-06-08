@@ -1,0 +1,14 @@
+{
+  "title": "GitHub Actions — Примеры применения",
+  "description": "Фрагмент из «GitHub Actions»: Примеры применения.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-2112"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-04-devops-ci-cd-2112",
+  "seriesOrder": 2,
+  "seriesTitle": "GitHub Actions",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/2112"
+}

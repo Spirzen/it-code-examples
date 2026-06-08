@@ -1,0 +1,14 @@
+{
+  "title": "Практикум REST и WebSocket — OrderDesk — HttpClient к каталогу",
+  "description": "Фрагмент из «Практикум REST и WebSocket — OrderDesk»: HttpClient к каталогу.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-08-praktikum-rest-i-websocket-5"
+  ],
+  "order": 9,
+  "series": "infra-security-8-08-orderdesk-praktikum",
+  "seriesOrder": 9,
+  "seriesTitle": "Практикум REST и WebSocket — OrderDesk",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-08-praktikum-rest-i-websocket/intro"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Ошибки, исключения и отказоустойчивость — Неуправляемые исключения и их последствия",
+  "description": "Фрагмент из «Ошибки, исключения и отказоустойчивость»: Неуправляемые исключения и их последствия.",
+  "tags": [
+    "runtime-architecture",
+    "encyclopedia",
+    "111"
+  ],
+  "order": 5,
+  "series": "code-406-111",
+  "seriesOrder": 5,
+  "seriesTitle": "Ошибки, исключения и отказоустойчивость",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-06-arhitektura-vypolneniya/111"
+}

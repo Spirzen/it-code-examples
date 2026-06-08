@@ -1,0 +1,14 @@
+{
+  "title": "Инструменты автоматизации и оркестрации — Пример — полный CI/CD-пайплайн в GitLab CI",
+  "description": "Фрагмент из «Инструменты автоматизации и оркестрации»: Пример — полный CI/CD-пайплайн в GitLab CI.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-16"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-16",
+  "seriesOrder": 1,
+  "seriesTitle": "Инструменты автоматизации и оркестрации",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/16"
+}

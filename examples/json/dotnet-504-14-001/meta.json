@@ -1,0 +1,14 @@
+{
+  "title": "Сборка и развёртывание .NET-приложений — В .NET Core / .NET 5+ — `deps.json` и `runtimeconfig.json`",
+  "description": "Фрагмент из «Сборка и развёртывание .NET-приложений»: В .NET Core / .NET 5+ — `deps.json` и `runtimeconfig.json`.",
+  "tags": [
+    "dotnet",
+    "encyclopedia",
+    "14"
+  ],
+  "order": 1,
+  "series": "dotnet-504-14",
+  "seriesOrder": 1,
+  "seriesTitle": "Сборка и развёртывание .NET-приложений",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-04-platforma-dotnet/14"
+}

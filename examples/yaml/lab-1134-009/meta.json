@@ -1,0 +1,13 @@
+{
+  "title": "GitHub Actions — CI/CD рецепты — 7. Расписание cron — ночной smoke test",
+  "description": "Фрагмент из «GitHub Actions — CI/CD рецепты»: 7. Расписание cron — ночной smoke test.",
+  "tags": [
+    "lab",
+    "1134"
+  ],
+  "order": 9,
+  "series": "lab-1134",
+  "seriesOrder": 9,
+  "seriesTitle": "GitHub Actions — CI/CD рецепты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1134"
+}

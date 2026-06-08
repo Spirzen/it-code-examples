@@ -1,0 +1,19 @@
+{
+  "id": "chatcmpl-..",
+  "model": "gpt-4o-mini",
+  "choices": [
+    {
+      "index": 0,
+      "message": {
+        "role": "assistant",
+        "content": "Текст ответа модели.."
+      },
+      "finish_reason": "stop"
+    }
+  ],
+  "usage": {
+    "prompt_tokens": 28,
+    "completion_tokens": 45,
+    "total_tokens": 73
+  }
+}

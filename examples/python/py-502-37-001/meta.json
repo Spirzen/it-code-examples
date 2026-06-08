@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование на pytest — `parametrize` — одна функция, много кейсов",
+  "description": "Фрагмент из «Тестирование на pytest»: `parametrize` — одна функция, много кейсов.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "37"
+  ],
+  "order": 1,
+  "series": "py-502-37",
+  "seriesOrder": 1,
+  "seriesTitle": "Тестирование на pytest",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/37"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Kubernetes YAML — минимальные манифесты — 2. Deployment — три копии приложения",
+  "description": "Фрагмент из «Kubernetes YAML — минимальные манифесты»: 2. Deployment — три копии приложения.",
+  "tags": [
+    "lab",
+    "11115"
+  ],
+  "order": 2,
+  "series": "lab-11115",
+  "seriesOrder": 2,
+  "seriesTitle": "Kubernetes YAML — минимальные манифесты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11115"
+}

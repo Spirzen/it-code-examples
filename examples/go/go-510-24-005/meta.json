@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Go — Простая табличная проверка функции",
+  "description": "Фрагмент из «Первая программа на Go»: Простая табличная проверка функции.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 5,
+  "series": "go-510-24",
+  "seriesOrder": 5,
+  "seriesTitle": "Первая программа на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/24"
+}

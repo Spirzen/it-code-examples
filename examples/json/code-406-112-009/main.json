@@ -1,0 +1,8 @@
+{
+  "timestamp": "2026-03-05T10:30:00Z",
+  "level": "ERROR",
+  "service": "order-service",
+  "message": "Ошибка обработки заказа",
+  "orderId": "ORD-12345",
+  "exception": "TimeoutException"
+}

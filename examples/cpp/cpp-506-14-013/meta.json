@@ -1,0 +1,14 @@
+{
+  "title": "Объектно-ориентированное программирование в C++ — Правило пяти (Rule of Five)",
+  "description": "Фрагмент из «Объектно-ориентированное программирование в C++»: Правило пяти (Rule of Five).",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "14"
+  ],
+  "order": 13,
+  "series": "cpp-506-14",
+  "seriesOrder": 13,
+  "seriesTitle": "Объектно-ориентированное программирование в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/14"
+}

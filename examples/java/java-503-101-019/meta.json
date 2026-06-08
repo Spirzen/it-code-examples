@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 10.2. Принцип AAA (Arrange-Act-Assert)",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 10.2. Принцип AAA (Arrange-Act-Assert).",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 19,
+  "series": "java-503-101",
+  "seriesOrder": 19,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}

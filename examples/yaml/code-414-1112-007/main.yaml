@@ -1,0 +1,24 @@
+# GitHub Actions workflow для проверки безопасности
+name: Security Check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  scan-secrets:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      
+      - name: Scan for secrets
+        uses: trufflesecurity/trufflehog@main
+        with:
+          path: ./
+      
+      - name: Check .env exists in repository
+        run: |
+          if git ls-files | grep ".env"; then
+            echo "ERROR: .env file detected in repository!"
+            exit 1
+          fi

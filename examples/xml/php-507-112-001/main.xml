@@ -1,0 +1,14 @@
+<Context path="/myapp"
+         docBase="C:/apps/myapp"
+         reloadable="true"
+         crossContext="false">
+    <Resource name="jdbc/MyDB"
+              auth="Container"
+              type="javax.sql.DataSource"
+              driverClassName="com.mysql.jdbc.Driver"
+              url="jdbc:mysql://localhost:3306/mydb"
+              username="appuser"
+              password="********"
+              maxTotal="20"
+              maxIdle="10"/>
+</Context>

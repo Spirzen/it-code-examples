@@ -1,0 +1,15 @@
+{
+  "title": "Сети Петри и формальные расписания — Справочно на C (POSIX threads)",
+  "description": "Фрагмент из «Сети Петри и формальные расписания»: Справочно на C (POSIX threads).",
+  "tags": [
+    "parallel-computing",
+    "hpc",
+    "encyclopedia",
+    "10"
+  ],
+  "order": 1,
+  "series": "code-416-10",
+  "seriesOrder": 1,
+  "seriesTitle": "Сети Петри и формальные расписания",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-16-parallelnye-vychisleniya/10"
+}

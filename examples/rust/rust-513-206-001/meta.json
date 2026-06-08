@@ -1,0 +1,14 @@
+{
+  "title": "GUI на Windows — выбор стека — Когда Slint, Iced, egui",
+  "description": "Фрагмент из «GUI на Windows — выбор стека»: Когда Slint, Iced, egui.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "206"
+  ],
+  "order": 1,
+  "series": "rust-513-206",
+  "seriesOrder": 1,
+  "seriesTitle": "GUI на Windows — выбор стека",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/206"
+}

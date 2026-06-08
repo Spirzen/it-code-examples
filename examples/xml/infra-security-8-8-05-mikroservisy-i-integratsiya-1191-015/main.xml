@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.timur.crm.CrmController">
+    <padding><Insets top="10" right="10" bottom="10" left="10"/></padding>
+
+    <!-- Заголовок -->
+    <Label text="Kafka CRM Demo" style="-fx-font-size: 24px; -fx-font-weight: bold;" alignment="CENTER"/>
+    <Separator/>
+
+    <!-- Статус подключения -->
+    <HBox spacing="10" alignment="CENTER_LEFT">
+        <Label text="Статус Kafka:"/>
+        <Label fx:id="kafkaStatus" text="Не подключено" style="-fx-text-fill: red;"/>
+        <Label text="Статус PostgreSQL:"/>
+        <Label fx:id="dbStatus" text="Не подключено" style="-fx-text-fill: red;"/>
+    </HBox>
+
+    <Separator/>
+
+    <!-- Форма клиента -->
+    <GridPane hgap="10" vgap="10">
+        <Label text="ID:" GridPane.rowIndex="0" GridPane.columnIndex="0"/>
+        <TextField fx:id="idField" GridPane.rowIndex="0" GridPane.columnIndex="1"/>
+
+        <Label text="Имя:" GridPane.rowIndex="1" GridPane.columnIndex="0"/>
+        <TextField fx:id="nameField" GridPane.rowIndex="1" GridPane.columnIndex="1"/>
+
+        <Label text="Email:" GridPane.rowIndex="2" GridPane.columnIndex="0"/>
+        <TextField fx:id="emailField" GridPane.rowIndex="2" GridPane.columnIndex="1"/>
+
+        <Label text="Телефон:" GridPane.rowIndex="3" GridPane.columnIndex="0"/>
+        <TextField fx:id="phoneField" GridPane.rowIndex="3" GridPane.columnIndex="1"/>
+
+        <Button text="Сгенерировать ID" onAction="#generateId" GridPane.rowIndex="0" GridPane.columnIndex="2"/>
+        <Button text="Отправить в Kafka" onAction="#sendToKafka" GridPane.rowIndex="4" GridPane.columnIndex="1"/>
+    </GridPane>
+
+    <Separator/>
+
+    <!-- Информация о топиках -->
+    <VBox spacing="5">
+        <Label text="Информация о топике 'customer-events':" style="-fx-font-weight: bold;"/>
+        <HBox spacing="20">
+            <VBox>
+                <Label text="Партиции:"/>
+                <Label fx:id="partitionsInfo" text="--"/>
+            </VBox>
+            <VBox>
+                <Label text="Общее кол-во сообщений:"/>
+                <Label fx:id="totalMessages" text="--"/>
+            </VBox>
+            <VBox>
+                <Label text="Группа потребителей:"/>
+                <Label text="crm-group-gui"/>
+            </VBox>
+        </HBox>
+    </VBox>
+
+    <Separator/>
+
+    <!-- Лог событий -->
+    <VBox VBox.vgrow="ALWAYS">
+        <Label text="Лог событий:" style="-fx-font-weight: bold;"/>
+        <TextArea fx:id="logArea" editable="false" wrapText="true" VBox.vgrow="ALWAYS"/>
+    </VBox>
+
+    <!-- Кнопки управления -->
+    <HBox spacing="10" alignment="CENTER">
+        <Button text="Подключиться к Kafka" onAction="#connectToKafka"/>
+        <Button text="Подключиться к БД" onAction="#connectToDb"/>
+        <Button text="Запустить потребитель" onAction="#startConsumer" style="-fx-background-color: #4CAF50; -fx-text-fill: white;"/>
+        <Button text="Остановить потребитель" onAction="#stopConsumer" style="-fx-background-color: #f44336; -fx-text-fill: white;"/>
+        <Button text="Загрузить клиентов из БД" onAction="#loadCustomersFromDb"/>
+        <Button text="Очистить лог" onAction="#clearLog"/>
+    </HBox>
+</VBox>

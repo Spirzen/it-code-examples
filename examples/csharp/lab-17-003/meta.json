@@ -1,0 +1,13 @@
+{
+  "title": "Excel парсер на CSharp — Расширенный парсер с поддержкой нескольких листов и ошибок",
+  "description": "Фрагмент из «Excel парсер на CSharp»: Расширенный парсер с поддержкой нескольких листов и ошибок.",
+  "tags": [
+    "lab",
+    "17"
+  ],
+  "order": 3,
+  "series": "lab-17",
+  "seriesOrder": 3,
+  "seriesTitle": "Excel парсер на CSharp",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/17"
+}

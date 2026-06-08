@@ -1,0 +1,20 @@
+<form class="rg">
+  <input type="radio" name="plan" id="p1" value="a" checked>
+  <label for="p1">Базовый</label>
+  <input type="radio" name="plan" id="p2" value="b">
+  <label for="p2">Про</label>
+  <input type="radio" name="plan" id="p3" value="c">
+  <label for="p3">Команда</label>
+</form>
+<style>
+.rg { max-width: 12rem; margin: 1rem auto; }
+.rg input { position: fixed; top: -10px; left: -10px; }
+.rg label {
+  display: block; padding: 0.5rem 0.75rem; margin-bottom: 0.5rem;
+  border: 2px solid #dee2e6; border-radius: 8px; cursor: pointer;
+  transition: border-color 0.2s, color 0.2s;
+}
+.rg input:checked + label {
+  border-color: #7b68ee; color: #7b68ee; font-weight: 600;
+}
+</style>

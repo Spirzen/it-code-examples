@@ -1,0 +1,13 @@
+{
+  "title": "Nginx — конфиги под задачу — 3. SPA — fallback на index.html",
+  "description": "Фрагмент из «Nginx — конфиги под задачу»: 3. SPA — fallback на index.html.",
+  "tags": [
+    "lab",
+    "11112"
+  ],
+  "order": 1,
+  "series": "lab-11112",
+  "seriesOrder": 1,
+  "seriesTitle": "Nginx — конфиги под задачу",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11112"
+}

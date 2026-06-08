@@ -1,0 +1,14 @@
+{
+  "title": "Пример реализации бэкенда на C# — 5.2. Реализация кэширования в контроллере",
+  "description": "Фрагмент из «Пример реализации бэкенда на C#»: 5.2. Реализация кэширования в контроллере.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "47"
+  ],
+  "order": 4,
+  "series": "csharp-505-47",
+  "seriesOrder": 4,
+  "seriesTitle": "Пример реализации бэкенда на C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/47"
+}

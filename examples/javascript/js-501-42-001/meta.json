@@ -1,0 +1,14 @@
+{
+  "title": "Чтение файлов в браузере — Выбор файла через input",
+  "description": "Фрагмент из «Чтение файлов в браузере»: Выбор файла через input.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "42"
+  ],
+  "order": 1,
+  "series": "js-501-42",
+  "seriesOrder": 1,
+  "seriesTitle": "Чтение файлов в браузере",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/42"
+}

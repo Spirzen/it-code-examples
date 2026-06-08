@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Страница-столбец</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="flex min-h-dvh flex-col bg-white text-slate-800">
+  <header class="bg-slate-900 px-5 py-4 text-slate-100">
+    <div class="mx-auto flex max-w-3xl flex-wrap items-center justify-between gap-3">
+      <strong>Мой сайт</strong>
+      <nav class="flex flex-wrap gap-4 text-sm">
+        <a href="#" class="text-sky-300 hover:text-white">Главная</a>
+        <a href="#" class="text-sky-300 hover:text-white">О проекте</a>
+        <a href="#" class="text-sky-300 hover:text-white">Контакты</a>
+      </nav>
+    </div>
+  </header>
+  <main class="mx-auto w-full max-w-3xl flex-1 px-5 py-6">
+    <h1 class="text-2xl font-bold">Контент</h1>
+    <p class="mt-2 text-slate-600">Мало текста — подвал всё равно внизу.</p>
+  </main>
+  <footer class="border-t border-slate-200 px-5 py-4 text-center text-sm text-slate-500">
+    © 2026
+  </footer>
+</body>
+</html>

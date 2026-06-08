@@ -1,0 +1,21 @@
+{
+  "batch_id": "BATCH-2026-02-27-001",
+  "total_records": 1000000,
+  "processed": 0,
+  "records": [
+    {
+      "id": "REC-000001",
+      "timestamp": "2026-02-27T00:00:00Z",
+      "value": 123.45,
+      "metadata": {"source": "sensor-A", "location": "zone-1"}
+    },
+    {
+      "id": "REC-000002",
+      "timestamp": "2026-02-27T00:00:01Z",
+      "value": 124.32,
+      "metadata": {"source": "sensor-A", "location": "zone-1"}
+    },
+    ...
+    (1 000 000 записей)
+  ]
+}

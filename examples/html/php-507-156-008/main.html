@@ -1,0 +1,23 @@
+<div class="tabs-container">
+  <ul class="tabs-list" role="tablist">
+    <li role="presentation">
+      <button id="tab1" class="tab-button active" role="tab" aria-selected="true" aria-controls="panel1">Общее</button>
+    </li>
+    <li role="presentation">
+      <button id="tab2" class="tab-button" role="tab" aria-selected="false" aria-controls="panel2">Настройки</button>
+    </li>
+    <li role="presentation">
+      <button id="tab3" class="tab-button" role="tab" aria-selected="false" aria-controls="panel3">Помощь</button>
+    </li>
+  </ul>
+
+  <div id="panel1" class="tab-panel" role="tabpanel" aria-labelledby="tab1">
+    <p>Это содержимое вкладки "Общее". Здесь может быть любая информация: текст, формы, таблицы и т.д.</p>
+  </div>
+  <div id="panel2" class="tab-panel hidden" role="tabpanel" aria-labelledby="tab2">
+    <p>Здесь находятся параметры настройки приложения или профиля пользователя.</p>
+  </div>
+  <div id="panel3" class="tab-panel hidden" role="tabpanel" aria-labelledby="tab3">
+    <p>Раздел помощи содержит инструкции, часто задаваемые вопросы и ссылки на поддержку.</p>
+  </div>
+</div>

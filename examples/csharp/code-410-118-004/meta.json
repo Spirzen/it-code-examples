@@ -1,0 +1,14 @@
+{
+  "title": "ORM на практике — Работа с отношениями между таблицами",
+  "description": "Фрагмент из «ORM на практике»: Работа с отношениями между таблицами.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "118"
+  ],
+  "order": 4,
+  "series": "code-410-118",
+  "seriesOrder": 4,
+  "seriesTitle": "ORM на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/118"
+}

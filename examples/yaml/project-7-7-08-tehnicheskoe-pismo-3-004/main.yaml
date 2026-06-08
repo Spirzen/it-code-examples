@@ -1,0 +1,14 @@
+requestBody:
+  required: true
+  content:
+    application/json:
+      schema:
+        $ref: '#/components/schemas/User'
+      examples:
+        user1:
+          summary: Пример обычного пользователя
+          value:
+            id: 5
+            username: ivanov_ivan
+            email: ivan@example.com
+            role: user

@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Terraform — Динамические провайдеры",
+  "description": "Фрагмент из «Справочник по Terraform»: Динамические провайдеры.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3"
+  ],
+  "order": 4,
+  "series": "infra-security-8-8-04-devops-ci-cd-3",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по Terraform",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3"
+}

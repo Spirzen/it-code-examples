@@ -1,0 +1,14 @@
+{
+  "title": "Обработка значения null — Rust — Перечисление Option",
+  "description": "Фрагмент из «Обработка значения null»: Rust — Перечисление Option.",
+  "tags": [
+    "code-basics",
+    "encyclopedia",
+    "44"
+  ],
+  "order": 6,
+  "series": "code-402-44",
+  "seriesOrder": 6,
+  "seriesTitle": "Обработка значения null",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-02-chto-takoe-kod-i-kak-on-rabotaet/44"
+}

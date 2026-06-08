@@ -1,0 +1,2873 @@
+{
+  "generatedAt": "2026-06-08T14:16:05.740Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/9-spinoff",
+  "articles": {
+    "9-01-velikie-lyudi-1": [
+      {
+        "article": "9-01-velikie-lyudi-1",
+        "slug": "python/sp-9-9-01-velikie-lyudi-1-001",
+        "title": "Эдсгер Дейкстра (1930–2002)",
+        "section": "эдсгер-дейкстра-1930-2002",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-01-velikie-lyudi-1",
+        "slug": "typescript/sp-9-9-01-velikie-lyudi-1-002",
+        "title": "Барбара Лисков (род. 1939)",
+        "section": "барбара-лисков-род-1939",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "9-03-igrovaya-industriya-game-studies-114": [
+      {
+        "article": "9-03-igrovaya-industriya-game-studies-114",
+        "slug": "python/sp-9-9-03-igrovaya-industriya-game-studies-114-001",
+        "title": "Хитбоксы и хёртбоксы",
+        "section": "хитбоксы-и-хёртбоксы",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "9-04-razrabotka-igr-114": [
+      {
+        "article": "9-04-razrabotka-igr-114",
+        "slug": "python/sp-9-9-04-razrabotka-igr-114-001",
+        "title": "Минимальный пример на Python (Pygame)",
+        "section": "минимальный-пример-на-python-pygame",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "9-04-razrabotka-igr-117": [
+      {
+        "article": "9-04-razrabotka-igr-117",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-117-001",
+        "title": "От дизайна к коду — один пример и дальше по треку",
+        "section": "от-дизайна-к-коду-один-пример-и-дальше-по-треку",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "9-04-razrabotka-igr-123": [
+      {
+        "article": "9-04-razrabotka-igr-123",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-123-001",
+        "title": "Производительность и стабильность кадрового ритма",
+        "section": "производительность-и-стабильность-кадрового-ритм",
+        "blocks": 1,
+        "lines": 35
+      }
+    ],
+    "9-04-razrabotka-igr-2": [
+      {
+        "article": "9-04-razrabotka-igr-2",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-2-001",
+        "title": "Как проверить порядок самому?",
+        "section": "как-проверить-порядок-самому",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "9-04-razrabotka-igr-2",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-2-002",
+        "title": "Пример, демонстрирующий разницу",
+        "section": "пример-демонстрирующий-разницу",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-2",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-2-003",
+        "title": "Шаг 3. Базовый шаблон скрипта",
+        "section": "шаг-3-базовый-шаблон-скрипта",
+        "blocks": 1,
+        "lines": 74
+      },
+      {
+        "article": "9-04-razrabotka-igr-2",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-2-004",
+        "title": "Пример — кнопка в GUI (клиентская версия)",
+        "section": "пример-кнопка-в-gui-клиентская-версия",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-2",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-2-005",
+        "title": "Реализация уровней",
+        "section": "реализация-уровней",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "9-04-razrabotka-igr-201": [
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-001",
+        "title": "5.2 `RemoteEvent` — односторонняя асинхронная передача",
+        "section": "5-2-remoteevent-односторонняя-асинхронная-переда",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-002",
+        "title": "6.2 Standard DataStore",
+        "section": "6-2-standard-datastore",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-003",
+        "title": "6.5 Обработка ошибок и отказоустойчивость",
+        "section": "6-5-обработка-ошибок-и-отказоустойчивость",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-004",
+        "title": "6.6 Промышленные паттерны",
+        "section": "6-6-промышленные-паттерны",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-005",
+        "title": "6.6 Промышленные паттерны",
+        "section": "6-6-промышленные-паттерны",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-006",
+        "title": "8.2 `CollectionService` — тегирование объектов",
+        "section": "8-2-collectionservice-тегирование-объектов",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-007",
+        "title": "8.3 `Binder` — управление жизненным циклом компонентов",
+        "section": "8-3-binder-управление-жизненным-циклом-компонент",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-008",
+        "title": "8.4 `Janitor` — управление ресурсами",
+        "section": "8-4-janitor-управление-ресурсами",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-009",
+        "title": "8.4 `Janitor` — управление ресурсами",
+        "section": "8-4-janitor-управление-ресурсами",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-010",
+        "title": "8.5 `Signal` — кастомные события",
+        "section": "8-5-signal-кастомные-события",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-011",
+        "title": "8.5 `Signal` — кастомные события",
+        "section": "8-5-signal-кастомные-события",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-012",
+        "title": "9.1 `MarketplaceService` — монетизация и виртуальные товары",
+        "section": "9-1-marketplaceservice-монетизация-и-виртуальные",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-013",
+        "title": "9.1 `MarketplaceService` — монетизация и виртуальные товары",
+        "section": "9-1-marketplaceservice-монетизация-и-виртуальные",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-014",
+        "title": "9.2 `BadgeService` — система достижений",
+        "section": "9-2-badgeservice-система-достижений",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-015",
+        "title": "9.3 `HttpService` — внешние HTTP-запросы",
+        "section": "9-3-httpservice-внешние-http-запросы",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-016",
+        "title": "10.1 `TestService` — встроенная система тестирования",
+        "section": "10-1-testservice-встроенная-система-тестирования",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-017",
+        "title": "10.2 `LogService` — централизованное логирование",
+        "section": "10-2-logservice-централизованное-логирование",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-201",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-201-018",
+        "title": "10.6 Studio Plugin API — автоматизация разработки",
+        "section": "10-6-studio-plugin-api-автоматизация-разработки",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "9-04-razrabotka-igr-202": [
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-001",
+        "title": "4.2. Проектирование структуры данных",
+        "section": "4-2-проектирование-структуры-данных",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-002",
+        "title": "4.3. Реализация клиент-серверного взаимодействия",
+        "section": "4-3-реализация-клиент-серверного-взаимодействия",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-003",
+        "title": "4.4. Интеграция с Robux (Developer Products)",
+        "section": "4-4-интеграция-с-robux-developer-products",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-004",
+        "title": "`ReplicatedStorage/Catalog/Items.lua` (ModuleScript)",
+        "section": "replicatedstorage-catalog-items-lua-modulescript",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-005",
+        "title": "`ReplicatedStorage/Services/DataStoreAdapter.lua` (ModuleScript)",
+        "section": "replicatedstorage-services-datastoreadapter-lua-",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-006",
+        "title": "`ReplicatedStorage/Services/CurrencyManager.lua`",
+        "section": "replicatedstorage-services-currencymanager-lua",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-007",
+        "title": "`ReplicatedStorage/Services/InventorySystem.lua`",
+        "section": "replicatedstorage-services-inventorysystem-lua",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-008",
+        "title": "`ReplicatedStorage/Services/TransactionProcessor.lua`",
+        "section": "replicatedstorage-services-transactionprocessor-",
+        "blocks": 1,
+        "lines": 97
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-009",
+        "title": "`ServerScriptService/MainEconomySystem.lua`",
+        "section": "serverscriptservice-maineconomysystem-lua",
+        "blocks": 1,
+        "lines": 98
+      },
+      {
+        "article": "9-04-razrabotka-igr-202",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-202-010",
+        "title": "`StarterGui/ShopGUI/ShopFrame.lua` (ScreenGui → Frame → LocalScript)",
+        "section": "startergui-shopgui-shopframe-lua-screengui-frame",
+        "blocks": 1,
+        "lines": 55
+      }
+    ],
+    "9-04-razrabotka-igr-204": [
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-001",
+        "title": "Модуль данных `DataModule`",
+        "section": "модуль-данных-datamodule",
+        "blocks": 1,
+        "lines": 102
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-002",
+        "title": "Рекурсивное копирование и API `get` / `set` / `increment`",
+        "section": "рекурсивное-копирование-и-api-get-set-increment",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-003",
+        "title": "Троттлинг `DataStore` и повторные попытки",
+        "section": "троттлинг-datastore-и-повторные-попытки",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-004",
+        "title": "Точка входа `GameMain`",
+        "section": "точка-входа-gamemain",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-005",
+        "title": "Kill и Damage",
+        "section": "kill-и-damage",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-006",
+        "title": "Чекпоинт `SpawnParts`",
+        "section": "чекпоинт-spawnparts",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-007",
+        "title": "Группы коллизий — игроки не толкают друг друга",
+        "section": "группы-коллизий-игроки-не-толкают-друг-друга",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-008",
+        "title": "Значки `BadgeService`",
+        "section": "значки-badgeservice",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-009",
+        "title": "Скрипт финиша (в `ServerScriptService` или ModuleScript)",
+        "section": "скрипт-финиша-в-serverscriptservice-или-modulesc",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-010",
+        "title": "Монеты и защита от повторного сбора",
+        "section": "монеты-и-защита-от-повторного-сбора",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-011",
+        "title": "RemoteEvent и клиентский HUD",
+        "section": "remoteevent-и-клиентский-hud",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-012",
+        "title": "Внутриигровая валюта — `ShopParts`",
+        "section": "внутриигровая-валюта-shopparts",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-013",
+        "title": "`ProcessReceipt` и история покупок",
+        "section": "processreceipt-и-история-покупок",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "9-04-razrabotka-igr-204",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-204-014",
+        "title": "Клиентские эффекты",
+        "section": "клиентские-эффекты",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "9-04-razrabotka-igr-205": [
+      {
+        "article": "9-04-razrabotka-igr-205",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-205-001",
+        "title": "Модуль `GameRunner`",
+        "section": "модуль-gamerunner",
+        "blocks": 1,
+        "lines": 68
+      },
+      {
+        "article": "9-04-razrabotka-igr-205",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-205-002",
+        "title": "Конфиг оружия",
+        "section": "конфиг-оружия",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-205",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-205-003",
+        "title": "Клиент — `ToolHandler` и Raycast",
+        "section": "клиент-toolhandler-и-raycast",
+        "blocks": 1,
+        "lines": 84
+      },
+      {
+        "article": "9-04-razrabotka-igr-205",
+        "slug": "lua/sp-9-9-04-razrabotka-igr-205-004",
+        "title": "Сервер — `verifyHit` и урон",
+        "section": "сервер-verifyhit-и-урон",
+        "blocks": 1,
+        "lines": 59
+      }
+    ],
+    "9-04-razrabotka-igr-21": [
+      {
+        "article": "9-04-razrabotka-igr-21",
+        "slug": "python/sp-9-9-04-razrabotka-igr-21-001",
+        "title": "2. **mcworld / mcapi**",
+        "section": "2-mcworld-mcapi",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-21",
+        "slug": "python/sp-9-9-04-razrabotka-igr-21-002",
+        "title": "Шаг 3. Настройка Python-окружения",
+        "section": "шаг-3-настройка-python-окружения",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-21",
+        "slug": "java/sp-9-9-04-razrabotka-igr-21-003",
+        "title": "Шаг 2. Реализация команды",
+        "section": "шаг-2-реализация-команды",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "9-04-razrabotka-igr-21",
+        "slug": "python/sp-9-9-04-razrabotka-igr-21-004",
+        "title": "Шаг 3. Написание скрипта",
+        "section": "шаг-3-написание-скрипта",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "9-04-razrabotka-igr-3": [
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-001",
+        "title": "Игровой цикл",
+        "section": "игровой-цикл",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-002",
+        "title": "Игровой цикл",
+        "section": "игровой-цикл",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-003",
+        "title": "Работа с UI (User Interface)",
+        "section": "работа-с-ui-user-interface",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-004",
+        "title": "Анимация и Timeline",
+        "section": "анимация-и-timeline",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-005",
+        "title": "Движение игрока — Vector3 и три подхода",
+        "section": "движение-игрока-vector3-и-три-подхода",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-006",
+        "title": "Стрельба — Instantiate и LayerMask",
+        "section": "стрельба-instantiate-и-layermask",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-007",
+        "title": "Стрельба — Instantiate и LayerMask",
+        "section": "стрельба-instantiate-и-layermask",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-008",
+        "title": "Переноска объектов (Raycast + Rigidbody)",
+        "section": "переноска-объектов-raycast-rigidbody",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-009",
+        "title": "Переноска объектов (Raycast + Rigidbody)",
+        "section": "переноска-объектов-raycast-rigidbody",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-010",
+        "title": "Сцены и загрузка уровней",
+        "section": "сцены-и-загрузка-уровней",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-011",
+        "title": "Сохранение данных — PlayerPrefs",
+        "section": "сохранение-данных-playerprefs",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-012",
+        "title": "Работа с коллайдерами — триггеры и физические столкновения",
+        "section": "работа-с-коллайдерами-триггеры-и-физические-стол",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-013",
+        "title": "Работа с коллайдерами — триггеры и физические столкновения",
+        "section": "работа-с-коллайдерами-триггеры-и-физические-стол",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-014",
+        "title": "ИИ и навигация — NavMesh",
+        "section": "ии-и-навигация-navmesh",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-015",
+        "title": "ИИ и навигация — NavMesh",
+        "section": "ии-и-навигация-navmesh",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-016",
+        "title": "Управление видимостью объектов — SetActive()",
+        "section": "управление-видимостью-объектов-setactive",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-3",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-3-017",
+        "title": "Оптимизация производительности — Object Pooling",
+        "section": "оптимизация-производительности-object-pooling",
+        "blocks": 1,
+        "lines": 50
+      }
+    ],
+    "9-04-razrabotka-igr-301": [
+      {
+        "article": "9-04-razrabotka-igr-301",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-301-001",
+        "title": "1. Job System и Burst Compiler",
+        "section": "1-job-system-и-burst-compiler",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-301",
+        "slug": "css/sp-9-9-04-razrabotka-igr-301-002",
+        "title": "1. UI Toolkit",
+        "section": "1-ui-toolkit",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9-04-razrabotka-igr-301",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-301-003",
+        "title": "5. Editor Scripting",
+        "section": "5-editor-scripting",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-301",
+        "slug": "csharp/sp-9-9-04-razrabotka-igr-301-004",
+        "title": "2. Сетевые решения",
+        "section": "2-сетевые-решения",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-301",
+        "slug": "yaml/sp-9-9-04-razrabotka-igr-301-005",
+        "title": "5. CI/CD",
+        "section": "5-ci-cd",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9-04-razrabotka-igr-301",
+        "slug": "groovy/sp-9-9-04-razrabotka-igr-301-006",
+        "title": "5. CI/CD",
+        "section": "5-ci-cd",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "9-04-razrabotka-igr-4": [
+      {
+        "article": "9-04-razrabotka-igr-4",
+        "slug": "cpp/sp-9-9-04-razrabotka-igr-4-001",
+        "title": "Минимальный C++ Actor",
+        "section": "минимальный-c-actor",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-4",
+        "slug": "cpp/sp-9-9-04-razrabotka-igr-4-002",
+        "title": "Минимальный C++ Actor",
+        "section": "минимальный-c-actor",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-10": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-001",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-002",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 95
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-003",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 202
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-004",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 228
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-005",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 208
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-006",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 345
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-007",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 349
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-008",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 383
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-009",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 410
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-010",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 424
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-011",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 436
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-10",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-10-012",
+        "title": "Теория на этом шаге",
+        "section": "теория-на-этом-шаге",
+        "blocks": 1,
+        "lines": 439
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-2": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-2",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-2-001",
+        "title": "Этап 0. Минимальный запуск",
+        "section": "stage-0",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-2",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-2-002",
+        "title": "Этап 1. Геометрия и перевод координат",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-2",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-2-003",
+        "title": "Этап 2. Градиентный фон и рамка доски",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-2",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-2-004",
+        "title": "Этап 5. Класс Match3Game и чистый старт",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-2",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-2-005",
+        "title": "Этап 6. Поиск совпадений",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-2",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-2-006",
+        "title": "Этап 9. Анимация обмена",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-2",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-2-007",
+        "title": "Этап 17. Финальная сборка",
+        "section": "stage-17",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-3": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-001",
+        "title": "Этап 0 — минимальный запускаемый код",
+        "section": "stage-0",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-002",
+        "title": "Этап 1 — константы и файл настроек",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-003",
+        "title": "Этап 1 — константы и файл настроек",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-004",
+        "title": "Этап 2 — игровое поле и центральная линия",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-005",
+        "title": "Этап 3 — две ракетки (статичные)",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-006",
+        "title": "Этап 5 — мяч в центре (без движения)",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-007",
+        "title": "Этап 6 — движение мяча и модули",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-008",
+        "title": "Этап 6 — движение мяча и модули",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-009",
+        "title": "Этап 6 — движение мяча и модули",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-010",
+        "title": "Этап 6 — движение мяча и модули",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-011",
+        "title": "Этап 8 — столкновение с ракеткой (простой отскок)",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-012",
+        "title": "Этап 9 — угол отскока от места удара",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-013",
+        "title": "Этап 12 — вторая ракетка и простой ИИ",
+        "section": "stage-12",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-014",
+        "title": "Этап 13 — HUD, меню, пауза и победа",
+        "section": "stage-13",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-015",
+        "title": "Этап 13 — HUD, меню, пауза и победа",
+        "section": "stage-13",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-016",
+        "title": "Этап 14 — класс `Game` и чистый `main.py`",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 113
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-017",
+        "title": "Этап 14 — класс `Game` и чистый `main.py`",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-018",
+        "title": "Substeps — дробление движения",
+        "section": "substeps-дробление-движения",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-019",
+        "title": "Звук без внешних ассетов",
+        "section": "звук-без-внешних-ассетов",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-020",
+        "title": "`settings.py`",
+        "section": "settings-py",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-021",
+        "title": "`main.py`",
+        "section": "main-py",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-022",
+        "title": "`game/court.py`",
+        "section": "game-court-py",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-023",
+        "title": "`game/paddle.py`",
+        "section": "game-paddle-py",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-024",
+        "title": "`game/ball.py`",
+        "section": "game-ball-py",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-025",
+        "title": "`game/hud.py`",
+        "section": "game-hud-py",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-026",
+        "title": "`game/ai.py`",
+        "section": "game-ai-py",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-3",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-3-027",
+        "title": "`game/game.py`",
+        "section": "game-game-py",
+        "blocks": 1,
+        "lines": 113
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-4": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-001",
+        "title": "Этап 0 — минимальный запускаемый код",
+        "section": "stage-0",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-002",
+        "title": "Этап 1 — конфиг и фон",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-003",
+        "title": "Этап 1 — конфиг и фон",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-004",
+        "title": "Этап 2 — овальная трасса",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-005",
+        "title": "Этап 3 — машина игрока (статичная)",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-006",
+        "title": "Сводный `main.py` после этапа 5",
+        "section": "сводный-main-py-после-этапа-5",
+        "blocks": 1,
+        "lines": 92
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-007",
+        "title": "Этап 6 — коллизии с бордюром",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-008",
+        "title": "Этап 7 — секторы трассы",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-009",
+        "title": "Этап 8 — таймер круга и лучший круг",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-010",
+        "title": "Этап 10 — соперник по waypoints",
+        "section": "stage-10",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-011",
+        "title": "Этап 11 — несколько соперников и простое столкновение",
+        "section": "stage-11",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-012",
+        "title": "Этап 12 — HUD (скорость, круг, таймер)",
+        "section": "stage-12",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-013",
+        "title": "Этап 13 — меню, отсчёт и пауза",
+        "section": "stage-13",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-014",
+        "title": "Этап 14 — класс `Game` и чистый `main.py`",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-015",
+        "title": "Этап 14 — класс `Game` и чистый `main.py`",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-016",
+        "title": "Этап 14 — класс `Game` и чистый `main.py`",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 126
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-017",
+        "title": "Этап 14 — класс `Game` и чистый `main.py`",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-018",
+        "title": "Подсчёт позиции",
+        "section": "подсчёт-позиции",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-019",
+        "title": "Мини-карта (radar)",
+        "section": "мини-карта-radar",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-020",
+        "title": "Nitro",
+        "section": "nitro",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-021",
+        "title": "Следы шин",
+        "section": "следы-шин",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-022",
+        "title": "Отладка на трассе",
+        "section": "debug-mode",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-023",
+        "title": "`config.py`",
+        "section": "config-py",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-024",
+        "title": "`main.py`",
+        "section": "main-py",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-025",
+        "title": "`game/car.py`",
+        "section": "game-car-py",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-026",
+        "title": "`game/track.py`",
+        "section": "game-track-py",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-027",
+        "title": "`game/progress.py`",
+        "section": "game-progress-py",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-028",
+        "title": "`game/ai.py`",
+        "section": "game-ai-py",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-029",
+        "title": "`game/hud.py`",
+        "section": "game-hud-py",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-4",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-4-030",
+        "title": "`game/states.py`",
+        "section": "game-states-py",
+        "blocks": 1,
+        "lines": 150
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-5": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-001",
+        "title": "Этап 0 — минимальный запускаемый код",
+        "section": "stage-0",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-002",
+        "title": "Этап 1 — константы и файл настроек",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-003",
+        "title": "Этап 1 — константы и файл настроек",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-004",
+        "title": "Этап 2 — отрисовка игрового поля",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-005",
+        "title": "Этап 3 — формы тетромино",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-006",
+        "title": "Этап 4 — класс `Piece`",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-007",
+        "title": "Этап 5 — пустая сетка `board` и отрисовка блоков",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-008",
+        "title": "Этап 8 — вращение",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-009",
+        "title": "Этап 9 — soft drop и подсчёт очков за падение",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-010",
+        "title": "Этап 10 — фиксация фигуры на поле",
+        "section": "stage-10",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-011",
+        "title": "Этап 14 — очередь «следующая фигура»",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-012",
+        "title": "Этап 14 — очередь «следующая фигура»",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-013",
+        "title": "Этап 16 — HUD и экраны состояний",
+        "section": "stage-16",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-014",
+        "title": "Этап 16 — HUD и экраны состояний",
+        "section": "stage-16",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-015",
+        "title": "Этап 17 — модули `game/`",
+        "section": "stage-17",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-016",
+        "title": "Этап 17 — модули `game/`",
+        "section": "stage-17",
+        "blocks": 1,
+        "lines": 80
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-017",
+        "title": "Этап 17 — модули `game/`",
+        "section": "stage-17",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-018",
+        "title": "Этап 17 — модули `game/`",
+        "section": "stage-17",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-019",
+        "title": "Этап 18 — класс `Game` и чистый `main.py`",
+        "section": "stage-18",
+        "blocks": 1,
+        "lines": 129
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-020",
+        "title": "Этап 18 — класс `Game` и чистый `main.py`",
+        "section": "stage-18",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-021",
+        "title": "Этап 19 — 7-bag randomizer",
+        "section": "stage-19",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-022",
+        "title": "Hold (клавиша `C`)",
+        "section": "hold-клавиша-c",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-023",
+        "title": "Lock delay",
+        "section": "lock-delay",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-024",
+        "title": "DAS (Delayed Auto Shift)",
+        "section": "das-delayed-auto-shift",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-025",
+        "title": "`settings.py`",
+        "section": "settings-py",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-026",
+        "title": "`main.py`",
+        "section": "main-py",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-027",
+        "title": "`game/tetrominoes.py`",
+        "section": "game-tetrominoes-py",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-028",
+        "title": "`game/board.py`",
+        "section": "game-board-py",
+        "blocks": 1,
+        "lines": 82
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-029",
+        "title": "`game/piece.py`",
+        "section": "game-piece-py",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-030",
+        "title": "`game/hud.py`",
+        "section": "game-hud-py",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-5",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-5-031",
+        "title": "`game/game.py`",
+        "section": "game-game-py",
+        "blocks": 1,
+        "lines": 135
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-6": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-001",
+        "title": "Этап 0 — минимальный запускаемый код",
+        "section": "stage-0",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-002",
+        "title": "Этап 1 — константы и конфигурация",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-003",
+        "title": "Этап 1 — константы и конфигурация",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-004",
+        "title": "Этап 2 — базовая сущность и игрок",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-005",
+        "title": "Этап 2 — базовая сущность и игрок",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-006",
+        "title": "Этап 3 — изометрический рендер и камера",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-007",
+        "title": "Этап 3 — изометрический рендер и камера",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-008",
+        "title": "Этап 4 — ввод и InputHandler",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-009",
+        "title": "Этап 5 — тайлы и процедурная карта",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-010",
+        "title": "Этап 5 — тайлы и процедурная карта",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-011",
+        "title": "Этап 5 — тайлы и процедурная карта",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-012",
+        "title": "Этап 6 — коллизии и движение",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-013",
+        "title": "Этап 6 — коллизии и движение",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-014",
+        "title": "Этап 7 — отрисовка карты в изометрии",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-015",
+        "title": "Этап 8 — ближний бой (полукруглый удар)",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-016",
+        "title": "Этап 8 — ближний бой (полукруглый удар)",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-017",
+        "title": "Этап 9 — враги и простой AI",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-018",
+        "title": "Этап 10 — EventBus и опыт",
+        "section": "stage-10",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-019",
+        "title": "Этап 10 — EventBus и опыт",
+        "section": "stage-10",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-020",
+        "title": "Этап 11 — лут на земле",
+        "section": "stage-11",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-021",
+        "title": "Этап 12 — инвентарь и экипировка (основа)",
+        "section": "stage-12",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-022",
+        "title": "Панель инвентаря (overlay)",
+        "section": "панель-инвентаря-overlay",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-023",
+        "title": "Этап 13 — активное умение (огненный шар)",
+        "section": "stage-13",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-024",
+        "title": "Этап 14 — HUD",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-025",
+        "title": "Этап 15 — меню и машина состояний",
+        "section": "stage-15",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-026",
+        "title": "Этап 18 — сборка класса `Game` и чистый `main.py`",
+        "section": "stage-18",
+        "blocks": 1,
+        "lines": 118
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-027",
+        "title": "Этап 19 (бонус) — pathfinding A*",
+        "section": "stage-19",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-028",
+        "title": "Этап 20 (бонус) — враги из JSON",
+        "section": "stage-20",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-029",
+        "title": "Этап 21 (бонус) — сохранение игры",
+        "section": "stage-21",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-030",
+        "title": "Этап 22 (бонус) — процедурный звук",
+        "section": "stage-22",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-031",
+        "title": "`core/config.py`",
+        "section": "core-config-py",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-032",
+        "title": "`core/event_bus.py`",
+        "section": "core-event-bus-py",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-033",
+        "title": "`core/game.py`",
+        "section": "core-game-py",
+        "blocks": 1,
+        "lines": 261
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-034",
+        "title": "`engine/renderer.py`",
+        "section": "engine-renderer-py",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-035",
+        "title": "`engine/camera.py`",
+        "section": "engine-camera-py",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-036",
+        "title": "`engine/input_handler.py`",
+        "section": "engine-input-handler-py",
+        "blocks": 1,
+        "lines": 96
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-037",
+        "title": "`engine/map_renderer.py`",
+        "section": "engine-map-renderer-py",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-038",
+        "title": "`entities/entity.py`",
+        "section": "entities-entity-py",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-039",
+        "title": "`entities/player.py`",
+        "section": "entities-player-py",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-040",
+        "title": "`entities/enemy.py`",
+        "section": "entities-enemy-py",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-041",
+        "title": "`player/stats.py`",
+        "section": "player-stats-py",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-042",
+        "title": "`player/experience.py`",
+        "section": "player-experience-py",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-043",
+        "title": "`player/equipment.py`",
+        "section": "player-equipment-py",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-044",
+        "title": "`world/tile.py`",
+        "section": "world-tile-py",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-045",
+        "title": "`world/level_generator.py`",
+        "section": "world-level-generator-py",
+        "blocks": 1,
+        "lines": 72
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-046",
+        "title": "`world/map.py`",
+        "section": "world-map-py",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-047",
+        "title": "`world/collision.py`",
+        "section": "world-collision-py",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-048",
+        "title": "`systems/movement_system.py`",
+        "section": "systems-movement-system-py",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-049",
+        "title": "`systems/combat_system.py`",
+        "section": "systems-combat-system-py",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-050",
+        "title": "`systems/ai_system.py`",
+        "section": "systems-ai-system-py",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-051",
+        "title": "`systems/loot_system.py`",
+        "section": "systems-loot-system-py",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-052",
+        "title": "`systems/skill_system.py`",
+        "section": "systems-skill-system-py",
+        "blocks": 1,
+        "lines": 67
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-053",
+        "title": "`ui/hud.py`",
+        "section": "ui-hud-py",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-6",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-6-054",
+        "title": "`ui/menu.py`",
+        "section": "ui-menu-py",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-7": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-001",
+        "title": "Этап 0 — минимальный запускаемый код",
+        "section": "stage-0",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-002",
+        "title": "Этап 1 — настройки и палитра",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "json/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-003",
+        "title": "Этап 2 — модель карты и JSON",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-004",
+        "title": "Этап 2 — модель карты и JSON",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-005",
+        "title": "Этап 3 — колода и рука",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-006",
+        "title": "Этап 4 — игрок (HP, энергия, блок)",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "json/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-007",
+        "title": "Этап 5 — враг, намерение, энкаунтер",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-008",
+        "title": "Этап 5 — враг, намерение, энкаунтер",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 81
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-009",
+        "title": "Этап 6 — CombatManager без UI",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 120
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-010",
+        "title": "Этап 7 — несколько врагов и выбор цели",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-011",
+        "title": "Этап 8 — боевой UI (рука, энергия, журнал)",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 74
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-012",
+        "title": "Этап 8 — боевой UI (рука, энергия, журнал)",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-013",
+        "title": "Двухшаговый ввод (карта → цель)",
+        "section": "двухшаговый-ввод-карта-цель",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-014",
+        "title": "Этап 9 — RunState и главное меню",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-015",
+        "title": "Этап 10 — процедурная карта узлов",
+        "section": "stage-10",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "json/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-016",
+        "title": "Этап 12 — реликвии",
+        "section": "stage-12",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-017",
+        "title": "Этап 14 — сохранения, локализация, полировка",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-018",
+        "title": "Минимальный реестр (5 эффектов)",
+        "section": "минимальный-реестр-5-эффектов",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-7",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-7-019",
+        "title": "Черновик и виджеты",
+        "section": "черновик-и-виджеты",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-8": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "xml/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-001",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-002",
+        "title": "Палитра (единые цвета)",
+        "section": "палитра-единые-цвета",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-003",
+        "title": "Этап 0 — минимальный запускаемый код",
+        "section": "stage-0",
+        "blocks": 1,
+        "lines": 67
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-004",
+        "title": "Этап 1 — состояния игры и ввод",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-005",
+        "title": "Этап 2 — игрок и движение",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-006",
+        "title": "Этап 2 — игрок и движение",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-007",
+        "title": "Этап 3 — враги и спавн с краёв",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-008",
+        "title": "Этап 3 — враги и спавн с краёв",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-009",
+        "title": "Этап 4 — снаряды и магический болт",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-010",
+        "title": "Этап 4 — снаряды и магический болт",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-011",
+        "title": "Этап 4 — снаряды и магический болт",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-012",
+        "title": "Этап 5 — урон, смерть врага, очки",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-013",
+        "title": "Этап 6 — опыт, магнит, уровень",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-014",
+        "title": "Этап 7 — пауза на выбор улучшений",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-015",
+        "title": "Этап 7 — пауза на выбор улучшений",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-016",
+        "title": "Этап 8 — HUD (HP, XP, время, счёт)",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-017",
+        "title": "Этап 8 — HUD (HP, XP, время, счёт)",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-018",
+        "title": "Этап 9 — несколько оружий (enum)",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-019",
+        "title": "Этап 9 — несколько оружий (enum)",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-020",
+        "title": "Этап 10 — контактный урон, броня, реген",
+        "section": "stage-10",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-021",
+        "title": "Этап 11 — рывок (dash)",
+        "section": "stage-11",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-022",
+        "title": "Этап 12 — всплывающий урон и частицы",
+        "section": "stage-12",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-023",
+        "title": "Этап 12 — всплывающий урон и частицы",
+        "section": "stage-12",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-024",
+        "title": "Этап 13 — меню, game over, перезапуск",
+        "section": "stage-13",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-025",
+        "title": "Скелет `update` к этапу 13",
+        "section": "скелет-update-к-этапу-13",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-026",
+        "title": "Этап 14 — типы врагов (enum)",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-027",
+        "title": "Этап 14 — типы врагов (enum)",
+        "section": "stage-14",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-028",
+        "title": "Этап 15 — усложнение спавна и босс (мини)",
+        "section": "stage-15",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-029",
+        "title": "Этап 15 — усложнение спавна и босс (мини)",
+        "section": "stage-15",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-8",
+        "slug": "java/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-8-030",
+        "title": "Этап 17 — спрайты и фон",
+        "section": "stage-17",
+        "blocks": 1,
+        "lines": 33
+      }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-9": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "json/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-001",
+        "title": "Зависимости эталона",
+        "section": "зависимости-эталона",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "css/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-002",
+        "title": "Файлы",
+        "section": "файлы",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-003",
+        "title": "`src/game/settings.ts`",
+        "section": "src-game-settings-ts",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-004",
+        "title": "`src/game/types.ts`",
+        "section": "src-game-types-ts",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "json/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-005",
+        "title": "`src/data/cards.json`",
+        "section": "src-data-cards-json",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-006",
+        "title": "`src/game/card.ts` (начало файла)",
+        "section": "src-game-card-ts-начало-файла",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-007",
+        "title": "Этап 3 — колода и рука",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-008",
+        "title": "`src/game/player.ts`",
+        "section": "src-game-player-ts",
+        "blocks": 1,
+        "lines": 96
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "json/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-009",
+        "title": "`src/data/enemies.json`",
+        "section": "src-data-enemies-json",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-010",
+        "title": "`src/game/enemy.ts` (ядро)",
+        "section": "src-game-enemy-ts-ядро",
+        "blocks": 1,
+        "lines": 135
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-011",
+        "title": "`src/game/combat.ts` (упрощённая версия)",
+        "section": "src-game-combat-ts-упрощённая-версия",
+        "blocks": 1,
+        "lines": 137
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-012",
+        "title": "`src/game/runState.ts` (минимум)",
+        "section": "src-game-runstate-ts-минимум",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-013",
+        "title": "`src/hooks/useGame.tsx`",
+        "section": "src-hooks-usegame-tsx",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-014",
+        "title": "`src/components/MenuScreen.tsx`",
+        "section": "src-components-menuscreen-tsx",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-015",
+        "title": "`src/App.tsx` — роутер экранов",
+        "section": "src-app-tsx-роутер-экранов",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-016",
+        "title": "Выбор цели (таргетинг)",
+        "section": "выбор-цели-таргетинг",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-017",
+        "title": "`src/components/CardView.tsx`",
+        "section": "src-components-cardview-tsx",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-018",
+        "title": "`src/components/CombatScreen.tsx` (скелет)",
+        "section": "src-components-combatscreen-tsx-скелет",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "css/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-019",
+        "title": "`src/components/CombatScreen.tsx` (скелет)",
+        "section": "src-components-combatscreen-tsx-скелет",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-020",
+        "title": "Этап 9 — полный роутер экранов",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-021",
+        "title": "`src/game/map.ts` (ядро)",
+        "section": "src-game-map-ts-ядро",
+        "blocks": 1,
+        "lines": 103
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-022",
+        "title": "`src/components/MapScreen.tsx`",
+        "section": "src-components-mapscreen-tsx",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-023",
+        "title": "`RunState.enterNode` и награды",
+        "section": "runstate-enternode-и-награды",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-024",
+        "title": "`RewardScreen`",
+        "section": "rewardscreen",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "json/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-025",
+        "title": "`src/data/relics.json`",
+        "section": "src-data-relics-json",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-026",
+        "title": "`src/game/relic.ts` — триггеры",
+        "section": "src-game-relic-ts-триггеры",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-027",
+        "title": "Классы (`src/game/classes.ts`)",
+        "section": "классы-src-game-classes-ts",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-028",
+        "title": "`src/game/rng.ts`",
+        "section": "src-game-rng-ts",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-029",
+        "title": "`src/game/stats.ts`",
+        "section": "src-game-stats-ts",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-030",
+        "title": "Vitest",
+        "section": "vitest",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-9",
+        "slug": "typescript/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-9-031",
+        "title": "PWA и offline",
+        "section": "pwa-и-offline",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "9-05-blokcheyn-kripta-i-nft-1": [
+      {
+        "article": "9-05-blokcheyn-kripta-i-nft-1",
+        "slug": "python/sp-9-9-05-blokcheyn-kripta-i-nft-1-001",
+        "title": "Структура блока",
+        "section": "структура-блока",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "9-05-blokcheyn-kripta-i-nft-1",
+        "slug": "python/sp-9-9-05-blokcheyn-kripta-i-nft-1-002",
+        "title": "Криптографическая подпись",
+        "section": "криптографическая-подпись",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "9-05-blokcheyn-kripta-i-nft-1",
+        "slug": "text/sp-9-9-05-blokcheyn-kripta-i-nft-1-003",
+        "title": "Особенности обработки смарт-контрактов",
+        "section": "особенности-обработки-смарт-контрактов",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "9-05-blokcheyn-kripta-i-nft-1011": [
+      {
+        "article": "9-05-blokcheyn-kripta-i-nft-1011",
+        "slug": "python/sp-9-9-05-blokcheyn-kripta-i-nft-1011-001",
+        "title": "Цепочка и проверка",
+        "section": "цепочка-и-проверка",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-05-blokcheyn-kripta-i-nft-1011",
+        "slug": "python/sp-9-9-05-blokcheyn-kripta-i-nft-1011-002",
+        "title": "Учебный майнинг (PoW)",
+        "section": "учебный-майнинг-pow",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "9-05-blokcheyn-kripta-i-nft-1012": [
+      {
+        "article": "9-05-blokcheyn-kripta-i-nft-1012",
+        "slug": "python/sp-9-9-05-blokcheyn-kripta-i-nft-1012-001",
+        "title": "Пара ключей Ed25519",
+        "section": "пара-ключей-ed25519",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-05-blokcheyn-kripta-i-nft-1012",
+        "slug": "python/sp-9-9-05-blokcheyn-kripta-i-nft-1012-002",
+        "title": "Подпись перевода",
+        "section": "подпись-перевода",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "9-06-otraslevoe-po-111": [
+      {
+        "article": "9-06-otraslevoe-po-111",
+        "slug": "javascript/sp-9-9-06-otraslevoe-po-111-001",
+        "title": "5.3. Автоматизация — Actions (`.ATN`)",
+        "section": "5-3-автоматизация-actions-atn",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-06-otraslevoe-po-111",
+        "slug": "javascript/sp-9-9-06-otraslevoe-po-111-002",
+        "title": "5.4. Скрипты — ExtendScript и UXP",
+        "section": "5-4-скрипты-extendscript-и-uxp",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "9-08-kompyuternaya-grafika-12": [
+      {
+        "article": "9-08-kompyuternaya-grafika-12",
+        "slug": "python/sp-9-9-08-kompyuternaya-grafika-12-001",
+        "title": "Разбор на Python — поворот и сдвиг в 2D",
+        "section": "разбор-на-python-поворот-и-сдвиг-в-2d",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "9-08-kompyuternaya-grafika-14": [
+      {
+        "article": "9-08-kompyuternaya-grafika-14",
+        "slug": "python/sp-9-9-08-kompyuternaya-grafika-14-001",
+        "title": "Растеризация прямых линий",
+        "section": "растеризация-прямых-линий",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "9-11-dlya-detey-2-video-games-27": [
+      {
+        "article": "9-11-dlya-detey-2-video-games-27",
+        "slug": "text/sp-9-9-11-dlya-detey-2-video-games-27-001",
+        "title": "Godot",
+        "section": "godot",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "9-11-dlya-detey-5-kod-5": [
+      {
+        "article": "9-11-dlya-detey-5-kod-5",
+        "slug": "python/sp-9-9-11-dlya-detey-5-kod-5-001",
+        "title": "Как это всё складывается в реальном проекте?",
+        "section": "как-это-всё-складывается-в-реальном-проекте",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "9-11-dlya-detey-5-kod-6": [
+      {
+        "article": "9-11-dlya-detey-5-kod-6",
+        "slug": "python/sp-9-9-11-dlya-detey-5-kod-6-001",
+        "title": "Что такое тип данных?",
+        "section": "что-такое-тип-данных",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-6",
+        "slug": "python/sp-9-9-11-dlya-detey-5-kod-6-002",
+        "title": "Изменение списка",
+        "section": "изменение-списка",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-6",
+        "slug": "python/sp-9-9-11-dlya-detey-5-kod-6-003",
+        "title": "Цвет, скорость, заливка",
+        "section": "цвет-скорость-заливка",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "9-11-dlya-detey-5-kod-7": [
+      {
+        "article": "9-11-dlya-detey-5-kod-7",
+        "slug": "javascript/sp-9-9-11-dlya-detey-5-kod-7-001",
+        "title": "Практика",
+        "section": "практика",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-7",
+        "slug": "html/sp-9-9-11-dlya-detey-5-kod-7-002",
+        "title": "Шаг 1. Создайте HTML-файл",
+        "section": "шаг-1-создайте-html-файл",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-7",
+        "slug": "javascript/sp-9-9-11-dlya-detey-5-kod-7-003",
+        "title": "JavaScript (`script.js`)",
+        "section": "javascript-script-js",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-7",
+        "slug": "javascript/sp-9-9-11-dlya-detey-5-kod-7-004",
+        "title": "Практика — возраст и доступ",
+        "section": "практика-возраст-и-доступ",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-7",
+        "slug": "javascript/sp-9-9-11-dlya-detey-5-kod-7-005",
+        "title": "Полный пример — приветствие по имени",
+        "section": "полный-пример-приветствие-по-имени",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-7",
+        "slug": "javascript/sp-9-9-11-dlya-detey-5-kod-7-006",
+        "title": "Типы полей ввода",
+        "section": "типы-полей-ввода",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9-11-dlya-detey-5-kod-7",
+        "slug": "javascript/sp-9-9-11-dlya-detey-5-kod-7-007",
+        "title": "JavaScript (`script.js`)",
+        "section": "javascript-script-js",
+        "blocks": 1,
+        "lines": 48
+      }
+    ]
+  }
+}

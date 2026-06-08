@@ -1,0 +1,15 @@
+<soap:Envelope
+    xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:soap12="http://www.w3.org/2003/05/soap-envelope"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  
+  <soap:Header> <!-- Необязательный -->
+    <!-- Заголовки SOAP -->
+  </soap:Header>
+
+  <soap:Body> <!-- Обязательный -->
+    <!-- Тело сообщения: вызов операции, ответ или Fault -->
+  </soap:Body>
+
+</soap:Envelope>

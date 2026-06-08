@@ -1,0 +1,989 @@
+{
+  "generatedAt": "2026-06-08T12:47:58.907Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-14-swift",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "swift/swift-514-1-001",
+        "title": "Метапрограммирование — от property wrappers к compile-time macros",
+        "section": "метапрограммирование-от-property-wrappers-к-comp",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-001",
+        "title": "1. Структуры (`struct`)",
+        "section": "1-структуры-struct",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-002",
+        "title": "2. Классы (`class`)",
+        "section": "2-классы-class",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-003",
+        "title": "7. Расширения (`extension`)",
+        "section": "7-расширения-extension",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-004",
+        "title": "2. Обобщённое программирование (`Generics`)",
+        "section": "2-обобщённое-программирование-generics",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-005",
+        "title": "5. Акторы (`Actor`)",
+        "section": "5-акторы-actor",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-006",
+        "title": "7. Паттерны проектирования в Swift",
+        "section": "7-паттерны-проектирования-в-swift",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-007",
+        "title": "7. Паттерны проектирования в Swift",
+        "section": "7-паттерны-проектирования-в-swift",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-008",
+        "title": "2. Тестирование",
+        "section": "2-тестирование",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-009",
+        "title": "3. Документирование кода",
+        "section": "3-документирование-кода",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3",
+        "slug": "swift/swift-514-3-010",
+        "title": "4. Инструменты разработки",
+        "section": "4-инструменты-разработки",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "10": [
+      {
+        "article": "10",
+        "slug": "swift/swift-514-10-001",
+        "title": "SwiftUI",
+        "section": "swiftui",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "10",
+        "slug": "swift/swift-514-10-002",
+        "title": "Swift Charts",
+        "section": "swift-charts",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "10",
+        "slug": "swift/swift-514-10-003",
+        "title": "Swift Concurrency (async/await, actors)",
+        "section": "swift-concurrency-async-await-actors",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "10",
+        "slug": "swift/swift-514-10-004",
+        "title": "Swift Package Manager (SPM)",
+        "section": "swift-package-manager-spm",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "10",
+        "slug": "swift/swift-514-10-005",
+        "title": "Tuist",
+        "section": "tuist",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "10",
+        "slug": "swift/swift-514-10-006",
+        "title": "Сквозной мини-кейс — стек для учебного iOS-приложения",
+        "section": "сквозной-мини-кейс-стек-для-учебного-ios-приложе",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "swift/swift-514-11-001",
+        "title": "Что такое Swift?",
+        "section": "что-такое-swift",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "11",
+        "slug": "swift/swift-514-11-002",
+        "title": "Система типов",
+        "section": "система-типов",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "swift/swift-514-11-003",
+        "title": "Swift Package Manager (SPM)",
+        "section": "swift-package-manager-spm",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "swift/swift-514-13-001",
+        "title": "Опциональные типы",
+        "section": "опциональные-типы",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "13",
+        "slug": "swift/swift-514-13-002",
+        "title": "Кортежи",
+        "section": "кортежи",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "13",
+        "slug": "swift/swift-514-13-003",
+        "title": "Пользовательские типы",
+        "section": "пользовательские-типы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "13",
+        "slug": "swift/swift-514-13-004",
+        "title": "Перечисления",
+        "section": "перечисления",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "13",
+        "slug": "swift/swift-514-13-005",
+        "title": "Сквозной мини-кейс — типизация профиля пользователя",
+        "section": "сквозной-мини-кейс-типизация-профиля-пользовател",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "swift/swift-514-14-001",
+        "title": "Операторы диапазонов",
+        "section": "операторы-диапазонов",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "14",
+        "slug": "swift/swift-514-14-002",
+        "title": "Сквозной мини-кейс — фильтрация и суммирование корзины",
+        "section": "сквозной-мини-кейс-фильтрация-и-суммирование-кор",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "swift/swift-514-15-001",
+        "title": "SwiftUI и UIKit — два подхода к построению интерфейса",
+        "section": "swiftui-и-uikit-два-подхода-к-построению-интерфе",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "15",
+        "slug": "swift/swift-514-15-002",
+        "title": "Сквозной мини-кейс — сетевой слой с адаптером",
+        "section": "сквозной-мини-кейс-сетевой-слой-с-адаптером",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "swift/swift-514-16-001",
+        "title": "Пример минимального Repository",
+        "section": "пример-минимального-repository",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "swift/swift-514-17-001",
+        "title": "Объявление и вызов асинхронных функций",
+        "section": "объявление-и-вызов-асинхронных-функций",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "17",
+        "slug": "swift/swift-514-17-002",
+        "title": "Асинхронность и жизненный цикл представлений в SwiftUI",
+        "section": "асинхронность-и-жизненный-цикл-представлений-в-s",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "17",
+        "slug": "swift/swift-514-17-003",
+        "title": "Работа с Core Data в асинхронном контексте",
+        "section": "работа-с-core-data-в-асинхронном-контексте",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "17",
+        "slug": "swift/swift-514-17-004",
+        "title": "Потоки значений — AsyncStream и AsyncThrowingStream",
+        "section": "потоки-значений-asyncstream-и-asyncthrowingstrea",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "17",
+        "slug": "swift/swift-514-17-005",
+        "title": "Загрузка изображений с кэшированием",
+        "section": "загрузка-изображений-с-кэшированием",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "17",
+        "slug": "swift/swift-514-17-006",
+        "title": "Retry-логика с экспоненциальной задержкой",
+        "section": "retry-логика-с-экспоненциальной-задержкой",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "17",
+        "slug": "swift/swift-514-17-007",
+        "title": "Сквозной пример для экрана",
+        "section": "сквозной-пример-для-экрана",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "swift/swift-514-18-001",
+        "title": "async/await (начиная с Swift 5.5)",
+        "section": "async-await-начиная-с-swift-5-5",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "18",
+        "slug": "swift/swift-514-18-002",
+        "title": "Combine Framework",
+        "section": "combine-framework",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "20": [
+      {
+        "article": "20",
+        "slug": "swift/swift-514-20-001",
+        "title": "Мини-план из трех упражнений",
+        "section": "мини-план-из-трех-упражнений",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-001",
+        "title": "Инициализация проекта в Xcode",
+        "section": "инициализация-проекта-в-xcode",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-002",
+        "title": "Роль класса AppDelegate",
+        "section": "роль-класса-appdelegate",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-003",
+        "title": "Последовательность методов жизненного цикла",
+        "section": "последовательность-методов-жизненного-цикла",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-004",
+        "title": "Последовательность методов жизненного цикла",
+        "section": "последовательность-методов-жизненного-цикла",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-005",
+        "title": "SceneDelegate и многозадачность",
+        "section": "scenedelegate-и-многозадачность",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-006",
+        "title": "Методы жизненного цикла ViewController",
+        "section": "методы-жизненного-цикла-viewcontroller",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-007",
+        "title": "Управление памятью в жизненном цикле",
+        "section": "управление-памятью-в-жизненном-цикле",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-008",
+        "title": "Типы фоновых операций",
+        "section": "типы-фоновых-операций",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "21",
+        "slug": "xml/swift-514-21-009",
+        "title": "Схемы сборки (Schemes)",
+        "section": "схемы-сборки-schemes",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-010",
+        "title": "Подготовка к публикации",
+        "section": "подготовка-к-публикации",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-011",
+        "title": "Тестирование перед релизом",
+        "section": "тестирование-перед-релизом",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-012",
+        "title": "Мини-шаблон контроллера",
+        "section": "мини-шаблон-контроллера",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "21",
+        "slug": "swift/swift-514-21-013",
+        "title": "SwiftUI — `scenePhase` и отмена задач",
+        "section": "swiftui-scenephase-и-отмена-задач",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "swift/swift-514-23-001",
+        "title": "Сквозной мини-кейс — API сервиса загрузки заказов",
+        "section": "сквозной-мини-кейс-api-сервиса-загрузки-заказов",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "swift/swift-514-24-001",
+        "title": "Enum с associated values",
+        "section": "enum-с-associated-values",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "24",
+        "slug": "swift/swift-514-24-002",
+        "title": "`if let` / `guard let`",
+        "section": "if-let-guard-let",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "swift/swift-514-25-001",
+        "title": "Минимальная своя обёртка",
+        "section": "минимальная-своя-обёртка",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "25",
+        "slug": "swift/swift-514-25-002",
+        "title": "Параметры обёртки",
+        "section": "параметры-обёртки",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "25",
+        "slug": "swift/swift-514-25-003",
+        "title": "Пример без UI — настройки приложения",
+        "section": "пример-без-ui-настройки-приложения",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "25",
+        "slug": "swift/swift-514-25-004",
+        "title": "Сквозной мини-кейс — настройки приложения",
+        "section": "сквозной-мини-кейс-настройки-приложения",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "swift/swift-514-101-001",
+        "title": "Расширения для организации кода",
+        "section": "расширения-для-организации-кода",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "swift/swift-514-101-002",
+        "title": "Использование замыканий для асинхронных операций",
+        "section": "использование-замыканий-для-асинхронных-операций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "swift/swift-514-101-003",
+        "title": "Документация через DocC",
+        "section": "документация-через-docc",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "swift/swift-514-101-004",
+        "title": "Использование свойств-обёрток",
+        "section": "использование-свойств-обёрток",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "swift/swift-514-101-005",
+        "title": "Асинхронность с `async/await`",
+        "section": "асинхронность-с-async-await",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "102": [
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-001",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-002",
+        "title": "Методы экземпляра",
+        "section": "методы-экземпляра",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-003",
+        "title": "Методы типа",
+        "section": "методы-типа",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-004",
+        "title": "Модифицирующие методы",
+        "section": "модифицирующие-методы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-005",
+        "title": "Сокрытие реализации",
+        "section": "сокрытие-реализации",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-006",
+        "title": "Интерфейс класса",
+        "section": "интерфейс-класса",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-007",
+        "title": "Базовые принципы наследования",
+        "section": "базовые-принципы-наследования",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-008",
+        "title": "Цепочка инициализации",
+        "section": "цепочка-инициализации",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-009",
+        "title": "Множественное наследование",
+        "section": "множественное-наследование",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-010",
+        "title": "Переопределение методов",
+        "section": "переопределение-методов",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-011",
+        "title": "Перегрузка методов",
+        "section": "перегрузка-методов",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-012",
+        "title": "Требования к переопределению",
+        "section": "требования-к-переопределению",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-013",
+        "title": "Вызов родительской реализации",
+        "section": "вызов-родительской-реализации",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-014",
+        "title": "Классы как типы",
+        "section": "классы-как-типы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-015",
+        "title": "Создание экземпляров",
+        "section": "создание-экземпляров",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-016",
+        "title": "Жизненный цикл объектов",
+        "section": "жизненный-цикл-объектов",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-017",
+        "title": "Сравнение экземпляров",
+        "section": "сравнение-экземпляров",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-018",
+        "title": "Принцип композиции",
+        "section": "принцип-композиции",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-019",
+        "title": "Отношения \"имеет\" и \"является\"",
+        "section": "отношения-имеет-и-является",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-020",
+        "title": "Агрегация и композиция",
+        "section": "агрегация-и-композиция",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-021",
+        "title": "Полиморфизм через наследование",
+        "section": "полиморфизм-через-наследование",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-022",
+        "title": "Полиморфизм через протоколы",
+        "section": "полиморфизм-через-протоколы",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-023",
+        "title": "Динамическое связывание",
+        "section": "динамическое-связывание",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-024",
+        "title": "Абстрактные классы и методы",
+        "section": "абстрактные-классы-и-методы",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-025",
+        "title": "Уровни доступа в Swift",
+        "section": "уровни-доступа-в-swift",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-026",
+        "title": "Public доступ",
+        "section": "public-доступ",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-027",
+        "title": "Internal доступ",
+        "section": "internal-доступ",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-028",
+        "title": "File-private доступ",
+        "section": "file-private-доступ",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-029",
+        "title": "Private доступ",
+        "section": "private-доступ",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-030",
+        "title": "Протоколы как контракты",
+        "section": "протоколы-как-контракты",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-031",
+        "title": "Расширения протоколов",
+        "section": "расширения-протоколов",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-032",
+        "title": "Условное соответствие протоколам",
+        "section": "условное-соответствие-протоколам",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-033",
+        "title": "Принцип работы ARC",
+        "section": "принцип-работы-arc",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-034",
+        "title": "Сильные ссылки",
+        "section": "сильные-ссылки",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-035",
+        "title": "Слабые ссылки",
+        "section": "слабые-ссылки",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-036",
+        "title": "Независимые ссылки",
+        "section": "независимые-ссылки",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-037",
+        "title": "Фазы инициализации",
+        "section": "фазы-инициализации",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-038",
+        "title": "Обязательные инициализаторы",
+        "section": "обязательные-инициализаторы",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-039",
+        "title": "Отложенная инициализация свойств",
+        "section": "отложенная-инициализация-свойств",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-040",
+        "title": "Обобщённые функции",
+        "section": "обобщённые-функции",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-041",
+        "title": "Обобщённые типы",
+        "section": "обобщённые-типы",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-042",
+        "title": "Ограничения обобщённых параметров",
+        "section": "ограничения-обобщённых-параметров",
+        "blocks": 1,
+        "lines": 67
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-043",
+        "title": "Семантика значений",
+        "section": "семантика-значений",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-044",
+        "title": "Семантика ссылок",
+        "section": "семантика-ссылок",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-045",
+        "title": "Выбор между структурами и классами",
+        "section": "выбор-между-структурами-и-классами",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "102",
+        "slug": "swift/swift-514-102-046",
+        "title": "Выбор между структурами и классами",
+        "section": "выбор-между-структурами-и-классами",
+        "blocks": 1,
+        "lines": 37
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "swift/swift-514-103-001",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "103",
+        "slug": "swift/swift-514-103-002",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "103",
+        "slug": "swift/swift-514-103-003",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "171": [
+      {
+        "article": "171",
+        "slug": "swift/swift-514-171-001",
+        "title": "`do-catch` — перехват и разбор ошибок",
+        "section": "do-catch-перехват-и-разбор-ошибок",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "171",
+        "slug": "swift/swift-514-171-002",
+        "title": "Проброс ошибки вверх по стеку",
+        "section": "проброс-ошибки-вверх-по-стеку",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "171",
+        "slug": "swift/swift-514-171-003",
+        "title": "`LocalizedError` — человекочитаемые сообщения",
+        "section": "localizederror-человекочитаемые-сообщения",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "171",
+        "slug": "swift/swift-514-171-004",
+        "title": "`Result` и `throws` — два способа выразить сбой",
+        "section": "result-и-throws-два-способа-выразить-сбой",
+        "blocks": 1,
+        "lines": 17
+      }
+    ]
+  }
+}

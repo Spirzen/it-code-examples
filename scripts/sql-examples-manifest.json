@@ -1,0 +1,1037 @@
+{
+  "generatedAt": "2026-06-07T15:29:34.810Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/3-data-markup/3-07-sql",
+  "articles": {
+    "7": [
+      {
+        "article": "7",
+        "slug": "sql/sql-7-001",
+        "title": "Ранжирование и нумерация строк",
+        "section": "ранжирование-и-нумерация-строк",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "7",
+        "slug": "sql/sql-7-002",
+        "title": "Аналитические отчёты без Excel",
+        "section": "аналитические-отчёты-без-excel",
+        "blocks": 2,
+        "lines": 51
+      },
+      {
+        "article": "7",
+        "slug": "sql/sql-7-003",
+        "title": "Практика — разбор кейсов",
+        "section": "практика-разбор-кейсов",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "sql/sql-21-001",
+        "title": "Подзапросы в FROM",
+        "section": "подзапросы-в-from",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "21",
+        "slug": "sql/sql-21-002",
+        "title": "Common Table Expressions (CTE)",
+        "section": "common-table-expressions-cte",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "21",
+        "slug": "sql/sql-21-003",
+        "title": "Рекурсивные CTE",
+        "section": "рекурсивные-cte",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "66": [
+      {
+        "article": "66",
+        "slug": "sql/sql-66-001",
+        "title": "Шаг 1 — структура таблиц",
+        "section": "шаг-1-структура-таблиц",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "66",
+        "slug": "sql/sql-66-002",
+        "title": "Шаг 2 — наполнение данными",
+        "section": "шаг-2-наполнение-данными",
+        "blocks": 1,
+        "lines": 97
+      },
+      {
+        "article": "66",
+        "slug": "sql/sql-66-003",
+        "title": "Ключевые операторы",
+        "section": "ключевые-операторы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "66",
+        "slug": "sql/sql-66-004",
+        "title": "Дополнительные функции и операторы, которые часто используют",
+        "section": "дополнительные-функции-и-операторы-которые-часто",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "66",
+        "slug": "sql/sql-66-005",
+        "title": "Шаг 9 — готовый мини-набор запросов для практики",
+        "section": "шаг-9-готовый-мини-набор-запросов-для-практики",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "88": [
+      {
+        "article": "88",
+        "slug": "sql/sql-88-001",
+        "title": "О процедурах",
+        "section": "о-процедурах",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "sql/sql-101-001",
+        "title": "Создание процедуры с использованием JOIN",
+        "section": "создание-процедуры-с-использованием-join",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "sql/sql-101-002",
+        "title": "Создание триггера",
+        "section": "создание-триггера",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "sql/sql-103-001",
+        "title": "Сущности и ключи",
+        "section": "сущности-и-ключи",
+        "blocks": 1,
+        "lines": 37
+      }
+    ],
+    "104": [
+      {
+        "article": "104",
+        "slug": "sql/sql-104-001",
+        "title": "Практика — декомпозиция \"Заказы\"",
+        "section": "практика-декомпозиция-заказы",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "105": [
+      {
+        "article": "105",
+        "slug": "sql/sql-105-001",
+        "title": "Запросы через information_schema",
+        "section": "запросы-через-information-schema",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "106": [
+      {
+        "article": "106",
+        "slug": "bash/sql-106-001",
+        "title": "Практический минимум",
+        "section": "практический-минимум",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "107": [
+      {
+        "article": "107",
+        "slug": "sql/sql-107-001",
+        "title": "Фильтрация WHERE",
+        "section": "фильтрация-where",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "107",
+        "slug": "sql/sql-107-002",
+        "title": "Правила форматирования",
+        "section": "правила-форматирования",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "107",
+        "slug": "sql/sql-107-003",
+        "title": "Тестовые данные для практики",
+        "section": "тестовые-данные-для-практики",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "108": [
+      {
+        "article": "108",
+        "slug": "sql/sql-108-001",
+        "title": "EXISTS и NOT EXISTS",
+        "section": "exists-и-not-exists",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "110": [
+      {
+        "article": "110",
+        "slug": "sql/sql-110-001",
+        "title": "Диагностика",
+        "section": "диагностика",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "111": [
+      {
+        "article": "111",
+        "slug": "sql/sql-111-001",
+        "title": "Подготовка схемы",
+        "section": "подготовка-схемы",
+        "blocks": 1,
+        "lines": 44
+      }
+    ],
+    "551": [
+      {
+        "article": "551",
+        "slug": "sql/sql-551-001",
+        "title": "Возможности операций выборки",
+        "section": "возможности-операций-выборки",
+        "blocks": 3,
+        "lines": 57
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-002",
+        "title": "Множественные последовательные выражения",
+        "section": "множественные-последовательные-выражения",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-003",
+        "title": "Рекурсивные общие табличные выражения",
+        "section": "рекурсивные-общие-табличные-выражения",
+        "blocks": 2,
+        "lines": 60
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-004",
+        "title": "Производительность и оптимизация",
+        "section": "производительность-и-оптимизация",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-005",
+        "title": "Материализация и повторное использование",
+        "section": "материализация-и-повторное-использование",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-006",
+        "title": "Взаимосвязанные общие табличные выражения",
+        "section": "взаимосвязанные-общие-табличные-выражения",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-007",
+        "title": "Рекурсивные выражения с ограничениями",
+        "section": "рекурсивные-выражения-с-ограничениями",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-008",
+        "title": "Примеры излишнего использования",
+        "section": "примеры-излишнего-использования",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-009",
+        "title": "Примеры оправданного использования",
+        "section": "примеры-оправданного-использования",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-010",
+        "title": "Рекурсивные структуры",
+        "section": "рекурсивные-структуры",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "551",
+        "slug": "sql/sql-551-011",
+        "title": "Повторное использование промежуточных результатов",
+        "section": "повторное-использование-промежуточных-результато",
+        "blocks": 1,
+        "lines": 36
+      }
+    ],
+    "882": [
+      {
+        "article": "882",
+        "slug": "sql/sql-882-001",
+        "title": "Хранимые процедуры",
+        "section": "хранимые-процедуры",
+        "blocks": 2,
+        "lines": 35
+      }
+    ],
+    "883": [
+      {
+        "article": "883",
+        "slug": "sql/sql-883-001",
+        "title": "1. DDL — Data Definition Language",
+        "section": "1-ddl-data-definition-language",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "883",
+        "slug": "sql/sql-883-002",
+        "title": "2. DML — Data Manipulation Language",
+        "section": "2-dml-data-manipulation-language",
+        "blocks": 2,
+        "lines": 31
+      },
+      {
+        "article": "883",
+        "slug": "sql/sql-883-003",
+        "title": "3. DCL — Data Control Language",
+        "section": "3-dcl-data-control-language",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "883",
+        "slug": "sql/sql-883-004",
+        "title": "5. DQL — Data Query Language",
+        "section": "5-dql-data-query-language",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "883",
+        "slug": "sql/sql-883-005",
+        "title": "7. CTE — Common Table Expressions",
+        "section": "7-cte-common-table-expressions",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "883",
+        "slug": "sql/sql-883-006",
+        "title": "10. Работа с JSON",
+        "section": "10-работа-с-json",
+        "blocks": 2,
+        "lines": 31
+      },
+      {
+        "article": "883",
+        "slug": "sql/sql-883-007",
+        "title": "11. Полнотекстовый поиск",
+        "section": "11-полнотекстовый-поиск",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "883",
+        "slug": "sql/sql-883-008",
+        "title": "12. Хранимые модули",
+        "section": "12-хранимые-модули",
+        "blocks": 2,
+        "lines": 61
+      }
+    ],
+    "885": [
+      {
+        "article": "885",
+        "slug": "sql/sql-885-001",
+        "title": "Связь многие-ко-многим (M:N)",
+        "section": "связь-многие-ко-многим-m-n",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-002",
+        "title": "Подзапрос в FROM как временная таблица",
+        "section": "подзапрос-в-from-как-временная-таблица",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-003",
+        "title": "Подзапрос в JOIN для виртуальной таблицы",
+        "section": "подзапрос-в-join-для-виртуальной-таблицы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-004",
+        "title": "Множественные CTE в одном запросе",
+        "section": "множественные-cte-в-одном-запросе",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-005",
+        "title": "Рекурсивный CTE для иерархических данных",
+        "section": "рекурсивный-cte-для-иерархических-данных",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-006",
+        "title": "Рекурсивный CTE для поиска всех предков узла",
+        "section": "рекурсивный-cte-для-поиска-всех-предков-узла",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-007",
+        "title": "Первый и последний элемент в окне",
+        "section": "первый-и-последний-элемент-в-окне",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-008",
+        "title": "Функция с табличным возвратом",
+        "section": "функция-с-табличным-возвратом",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-009",
+        "title": "Процедура с параметрами и транзакцией",
+        "section": "процедура-с-параметрами-и-транзакцией",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-010",
+        "title": "Функция с обработкой исключений",
+        "section": "функция-с-обработкой-исключений",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-011",
+        "title": "Функция для массовой обработки записей",
+        "section": "функция-для-массовой-обработки-записей",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-012",
+        "title": "Управление enum-типами",
+        "section": "управление-enum-типами",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-013",
+        "title": "Поиск упоминаний объекта в базе данных",
+        "section": "поиск-упоминаний-объекта-в-базе-данных",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-014",
+        "title": "Восстановление последовательности",
+        "section": "восстановление-последовательности",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-015",
+        "title": "Анализ использования индексов",
+        "section": "анализ-использования-индексов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-016",
+        "title": "Блокировки и ожидания",
+        "section": "блокировки-и-ожидания",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-017",
+        "title": "Ресурсоёмкие запросы",
+        "section": "ресурсоёмкие-запросы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-018",
+        "title": "Параметры конфигурации",
+        "section": "параметры-конфигурации",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-019",
+        "title": "Автовакуум и его мониторинг",
+        "section": "автовакуум-и-его-мониторинг",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-020",
+        "title": "Репликация и отставание",
+        "section": "репликация-и-отставание",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-021",
+        "title": "Управление ролями и объектами",
+        "section": "управление-ролями-и-объектами",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-022",
+        "title": "Сравнение конфигураций двух баз данных",
+        "section": "сравнение-конфигураций-двух-баз-данных",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-023",
+        "title": "Разбиение большого запроса на части",
+        "section": "разбиение-большого-запроса-на-части",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-024",
+        "title": "Измерение времени выполнения функции",
+        "section": "измерение-времени-выполнения-функции",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-025",
+        "title": "Ограничение количества зависимых записей",
+        "section": "ограничение-количества-зависимых-записей",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-026",
+        "title": "Журналирование изменений таблицы",
+        "section": "журналирование-изменений-таблицы",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-027",
+        "title": "Определение текущих блокировок",
+        "section": "определение-текущих-блокировок",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-028",
+        "title": "Автоматическое создание секций через функцию",
+        "section": "автоматическое-создание-секций-через-функцию",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "885",
+        "slug": "sql/sql-885-029",
+        "title": "Поиск блокирующих запросов",
+        "section": "поиск-блокирующих-запросов",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "887": [
+      {
+        "article": "887",
+        "slug": "csharp/sql-887-001",
+        "title": "C# — Microsoft.Data.Sqlite",
+        "section": "c-microsoft-data-sqlite",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "887",
+        "slug": "python/sql-887-002",
+        "title": "Python — sqlite3 (stdlib)",
+        "section": "python-sqlite3-stdlib",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "887",
+        "slug": "java/sql-887-003",
+        "title": "Java — JDBC + sqlite-jdbc",
+        "section": "java-jdbc-sqlite-jdbc",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "887",
+        "slug": "cpp/sql-887-004",
+        "title": "C — нативный SQLite C API",
+        "section": "c-нативный-sqlite-c-api",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "887",
+        "slug": "cpp/sql-887-005",
+        "title": "C++ — SQLiteCpp и нативный C API",
+        "section": "c-sqlitecpp-и-нативный-c-api",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "887",
+        "slug": "go/sql-887-006",
+        "title": "Go — database/sql + драйвер SQLite",
+        "section": "go-database-sql-драйвер-sqlite",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "887",
+        "slug": "kotlin/sql-887-007",
+        "title": "Kotlin — JDBC и Android SQLite API",
+        "section": "kotlin-jdbc-и-android-sqlite-api",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "887",
+        "slug": "rust/sql-887-008",
+        "title": "Rust — rusqlite",
+        "section": "rust-rusqlite",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "887",
+        "slug": "javascript/sql-887-009",
+        "title": "JavaScript — Node.js (better-sqlite3 и sqlite3)",
+        "section": "javascript-node-js-better-sqlite3-и-sqlite3",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "888": [
+      {
+        "article": "888",
+        "slug": "csharp/sql-888-001",
+        "title": "C# — Npgsql",
+        "section": "c-npgsql",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "888",
+        "slug": "python/sql-888-002",
+        "title": "Python — psycopg",
+        "section": "python-psycopg",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "888",
+        "slug": "java/sql-888-003",
+        "title": "Java — JDBC PostgreSQL Driver",
+        "section": "java-jdbc-postgresql-driver",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "888",
+        "slug": "cpp/sql-888-004",
+        "title": "C — libpq",
+        "section": "c-libpq",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "888",
+        "slug": "cpp/sql-888-005",
+        "title": "C++ — libpqxx",
+        "section": "c-libpqxx",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "888",
+        "slug": "go/sql-888-006",
+        "title": "Go — pgx или database/sql + pq",
+        "section": "go-pgx-или-database-sql-pq",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "888",
+        "slug": "kotlin/sql-888-007",
+        "title": "Kotlin — JDBC (PostgreSQL)",
+        "section": "kotlin-jdbc-postgresql",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "888",
+        "slug": "rust/sql-888-008",
+        "title": "Rust — tokio-postgres и sqlx",
+        "section": "rust-tokio-postgres-и-sqlx",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "888",
+        "slug": "javascript/sql-888-009",
+        "title": "JavaScript — node-postgres (pg)",
+        "section": "javascript-node-postgres-pg",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "889": [
+      {
+        "article": "889",
+        "slug": "csharp/sql-889-001",
+        "title": "C# — MySqlConnector",
+        "section": "c-mysqlconnector",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "889",
+        "slug": "python/sql-889-002",
+        "title": "Python — mysql-connector-python или PyMySQL",
+        "section": "python-mysql-connector-python-или-pymysql",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "889",
+        "slug": "java/sql-889-003",
+        "title": "Java — MySQL Connector/J",
+        "section": "java-mysql-connector-j",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "889",
+        "slug": "cpp/sql-889-004",
+        "title": "C — MySQL C API (libmysqlclient)",
+        "section": "c-mysql-c-api-libmysqlclient",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "889",
+        "slug": "go/sql-889-005",
+        "title": "Go — go-sql-driver/mysql",
+        "section": "go-go-sql-driver-mysql",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "889",
+        "slug": "kotlin/sql-889-006",
+        "title": "Kotlin — JDBC (MySQL)",
+        "section": "kotlin-jdbc-mysql",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "889",
+        "slug": "rust/sql-889-007",
+        "title": "Rust — mysql и sqlx",
+        "section": "rust-mysql-и-sqlx",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "889",
+        "slug": "javascript/sql-889-008",
+        "title": "JavaScript — mysql2",
+        "section": "javascript-mysql2",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "890": [
+      {
+        "article": "890",
+        "slug": "csharp/sql-890-001",
+        "title": "C# — Microsoft.Data.SqlClient",
+        "section": "c-microsoft-data-sqlclient",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "890",
+        "slug": "python/sql-890-002",
+        "title": "Python — pyodbc",
+        "section": "python-pyodbc",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "890",
+        "slug": "java/sql-890-003",
+        "title": "Java — Microsoft JDBC Driver",
+        "section": "java-microsoft-jdbc-driver",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "890",
+        "slug": "go/sql-890-004",
+        "title": "Go — go-mssqldb",
+        "section": "go-go-mssqldb",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "890",
+        "slug": "php/sql-890-005",
+        "title": "PHP — sqlsrv и PDO_SQLSRV",
+        "section": "php-sqlsrv-и-pdo-sqlsrv",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "890",
+        "slug": "kotlin/sql-890-006",
+        "title": "Kotlin — JDBC (SQL Server)",
+        "section": "kotlin-jdbc-sql-server",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "890",
+        "slug": "javascript/sql-890-007",
+        "title": "JavaScript — mssql",
+        "section": "javascript-mssql",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "892": [
+      {
+        "article": "892",
+        "slug": "sql/sql-892-001",
+        "title": "LIKE, AND, OR, CASE",
+        "section": "like-and-or-case",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "892",
+        "slug": "sql/sql-892-002",
+        "title": "Запись и удаление данных",
+        "section": "запись-и-удаление-данных",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "892",
+        "slug": "sql/sql-892-003",
+        "title": "Обходной путь SQLite (пересоздание TABLE1)",
+        "section": "обходной-путь-sqlite-пересоздание-table1",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8821": [
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-001",
+        "title": "Синтаксис подсказок",
+        "section": "синтаксис-подсказок",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-002",
+        "title": "Управление параллелизмом",
+        "section": "управление-параллелизмом",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-003",
+        "title": "Управление доступом к данным",
+        "section": "управление-доступом-к-данным",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-004",
+        "title": "Управление порядком выполнения",
+        "section": "управление-порядком-выполнения",
+        "blocks": 3,
+        "lines": 46
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-005",
+        "title": "Управление кэшированием и материализацией",
+        "section": "управление-кэшированием-и-материализацией",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-006",
+        "title": "Поддержка в различных СУБД",
+        "section": "поддержка-в-различных-субд",
+        "blocks": 4,
+        "lines": 74
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-007",
+        "title": "Оптимизация запросов к хранилищам данных",
+        "section": "оптимизация-запросов-к-хранилищам-данных",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-008",
+        "title": "Оптимизация сложных аналитических запросов",
+        "section": "оптимизация-сложных-аналитических-запросов",
+        "blocks": 1,
+        "lines": 75
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-009",
+        "title": "Оптимизация запросов с рекурсивными общими табличными выражениями",
+        "section": "оптимизация-запросов-с-рекурсивными-общими-табли",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-010",
+        "title": "Анализ плана выполнения",
+        "section": "анализ-плана-выполнения",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-011",
+        "title": "Тестирование и валидация",
+        "section": "тестирование-и-валидация",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-012",
+        "title": "Документирование подсказок",
+        "section": "документирование-подсказок",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-013",
+        "title": "Мониторинг и обслуживание",
+        "section": "мониторинг-и-обслуживание",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "8821",
+        "slug": "sql/sql-8821-014",
+        "title": "Ограничения и риски",
+        "section": "ограничения-и-риски",
+        "blocks": 1,
+        "lines": 16
+      }
+    ]
+  }
+}

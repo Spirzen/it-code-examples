@@ -1,0 +1,77 @@
+{
+  "generatedAt": "2026-06-08T13:30:47.609Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-16-starye-yazyki/Cobol",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "cobol/cobol-516-2-001",
+        "title": "3. DATA DIVISION — описание данных",
+        "section": "3-data-division-описание-данных",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "2",
+        "slug": "cobol/cobol-516-2-002",
+        "title": "Мини-кейс из реальной бизнес-логики",
+        "section": "мини-кейс-из-реальной-бизнес-логики",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "5": [
+      {
+        "article": "5",
+        "slug": "cobol/cobol-516-5-001",
+        "title": "Практический сценарий: пакетная обработка счетов",
+        "section": "практический-сценарий-пакетная-обработка-счетов",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "711": [
+      {
+        "article": "711",
+        "slug": "cobol/cobol-516-711-001",
+        "title": "11.1. Классы",
+        "section": "11-1-классы",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "711",
+        "slug": "cobol/cobol-516-711-002",
+        "title": "12.4. Курсоры для множественных строк",
+        "section": "12-4-курсоры-для-множественных-строк",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "711",
+        "slug": "cobol/cobol-516-711-003",
+        "title": "16.1. Обработка ошибок файлов",
+        "section": "16-1-обработка-ошибок-файлов",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "711",
+        "slug": "cobol/cobol-516-711-004",
+        "title": "19.1. Структурные слова разделов и секций",
+        "section": "19-1-структурные-слова-разделов-и-секций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "711",
+        "slug": "cobol/cobol-516-711-005",
+        "title": "19.3. Описание данных",
+        "section": "19-3-описание-данных",
+        "blocks": 1,
+        "lines": 20
+      }
+    ]
+  }
+}

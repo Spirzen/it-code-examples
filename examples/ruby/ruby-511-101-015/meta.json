@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Ruby — Использование сервисных объектов",
+  "description": "Фрагмент из «Рекомендации по разработке на Ruby»: Использование сервисных объектов.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 15,
+  "series": "ruby-511-101",
+  "seriesOrder": 15,
+  "seriesTitle": "Рекомендации по разработке на Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/101"
+}

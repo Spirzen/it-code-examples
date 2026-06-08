@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Обратная связь</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 28rem; margin: 2rem auto; padding: 0 1rem; }
+    label { display: block; margin-top: 0.75rem; font-weight: 600; }
+    input, textarea, select { width: 100%; padding: 0.5rem; margin-top: 0.25rem; font: inherit; }
+    button { margin-top: 1rem; padding: 0.6rem 1.2rem; font-weight: 600; cursor: pointer; }
+  </style>
+</head>
+<body>
+  <h1>Обратная связь</h1>
+  <p>Заполните форму. Для учебного примера данные никуда не отправляются.</p>
+
+  <form action="#" method="post">
+    <label for="name">Имя</label>
+    <input id="name" name="name" type="text" required autocomplete="name">
+
+    <label for="email">Email</label>
+    <input id="email" name="email" type="email" required autocomplete="email" placeholder="you@mail.ru">
+
+    <label for="topic">Тема</label>
+    <select id="topic" name="topic">
+      <option value="lesson">Вопрос по уроку</option>
+      <option value="bug">Ошибка на сайте</option>
+      <option value="other">Другое</option>
+    </select>
+
+    <label for="msg">Сообщение</label>
+    <textarea id="msg" name="message" rows="5" required minlength="10"></textarea>
+
+    <label>
+      <input type="checkbox" name="agree" required>
+      Согласен с обработкой данных (учебный пример)
+    </label>
+
+    <button type="submit">Отправить</button>
+  </form>
+</body>
+</html>

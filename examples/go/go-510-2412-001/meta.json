@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Gin — REST API \"Заметки\"",
+  "description": "Фрагмент из «Первая программа на Gin»: REST API \"Заметки\".",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2412"
+  ],
+  "order": 1,
+  "series": "go-510-2412",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа на Gin",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2412"
+}

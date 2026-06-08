@@ -1,0 +1,13 @@
+{
+  "title": "GitHub Actions — CI/CD рецепты — 5. Условный деплой только с main",
+  "description": "Фрагмент из «GitHub Actions — CI/CD рецепты»: 5. Условный деплой только с main.",
+  "tags": [
+    "lab",
+    "1134"
+  ],
+  "order": 7,
+  "series": "lab-1134",
+  "seriesOrder": 7,
+  "seriesTitle": "GitHub Actions — CI/CD рецепты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1134"
+}

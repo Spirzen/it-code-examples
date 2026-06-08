@@ -1,0 +1,14 @@
+{
+  "title": "Экосистема приложений на Rust — Actix Web",
+  "description": "Фрагмент из «Экосистема приложений на Rust»: Actix Web.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "110"
+  ],
+  "order": 6,
+  "series": "rust-513-110",
+  "seriesOrder": 6,
+  "seriesTitle": "Экосистема приложений на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/110"
+}

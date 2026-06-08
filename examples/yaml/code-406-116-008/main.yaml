@@ -1,0 +1,21 @@
+name: Performance Benchmark
+
+on: [pull_request]
+
+jobs:
+  benchmark:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+      - name: Run benchmarks
+        run: dotnet run --project Benchmarks/Benchmarks.csproj --configuration Release
+        
+      - name: Compare with base branch
+        run: |
+          BASE_COMMIT=$(git merge-base HEAD ${{ github.base_ref }})
+          git checkout $BASE_COMMIT
+          dotnet run --project Benchmarks/Benchmarks.csproj --configuration Release --export results-base.json
+          git checkout -
+          dotnet run --project Benchmarks/Benchmarks.csproj --configuration Release --export results-head.json
+          python scripts/compare_benchmarks.py results-base.json results-head.json

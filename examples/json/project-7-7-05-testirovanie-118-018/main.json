@@ -1,0 +1,34 @@
+{
+  "rules": [
+    {
+      "id": "passive-scan",
+      "name": "Passive Scan",
+      "type": "scan",
+      "params": {
+        "url": "https://example.com",
+        "contextName": "MyContext"
+      }
+    },
+    {
+      "id": "active-scan",
+      "name": "Active Scan",
+      "type": "scan",
+      "params": {
+        "url": "https://example.com",
+        "contextName": "MyContext",
+        "scanPolicyName": "Default Policy"
+      }
+    },
+    {
+      "id": "export-report",
+      "name": "Export Report",
+      "type": "report",
+      "params": {
+        "templateId": "traditional-json",
+        "outputPath": "/path/to/report.json"
+      }
+    }
+  ],
+  "urls": ["https://example.com"],
+  "contexts": ["MyContext"]
+}

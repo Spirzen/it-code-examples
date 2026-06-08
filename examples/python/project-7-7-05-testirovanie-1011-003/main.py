@@ -1,0 +1,14 @@
+
+import pytest
+
+from app.calculator import add
+
+def test_add_with_zero():
+    assert add(0, 5) == 5
+
+def test_add_negative_numbers():
+    assert add(-2, -3) == -5
+
+def test_add_wrong_types_raises_type_error():
+    with pytest.raises(TypeError):
+        add("2", 3)

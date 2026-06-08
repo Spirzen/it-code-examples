@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Стратегия\" (Strategy) в Java — выбор алгоритма в runtime' — Пример",
+  "description": "Фрагмент из «'Паттерн \"Стратегия\" (Strategy) в Java — выбор алгоритма в runtime'»: Пример.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-139"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-139",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Стратегия\" (Strategy) в Java — выбор алгоритма в runtime'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/139"
+}

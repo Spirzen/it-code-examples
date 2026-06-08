@@ -1,0 +1,14 @@
+{
+  "title": "Идиомы кода и обработка ошибок — Цепочка очистки с `goto`",
+  "description": "Фрагмент из «Идиомы кода и обработка ошибок»: Цепочка очистки с `goto`.",
+  "tags": [
+    "c",
+    "encyclopedia",
+    "412"
+  ],
+  "order": 2,
+  "series": "c-516-412",
+  "seriesOrder": 2,
+  "seriesTitle": "Идиомы кода и обработка ошибок",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/c-language/412"
+}

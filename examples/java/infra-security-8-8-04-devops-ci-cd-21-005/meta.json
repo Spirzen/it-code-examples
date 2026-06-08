@@ -1,0 +1,14 @@
+{
+  "title": "Pulumi — Java",
+  "description": "Фрагмент из «Pulumi»: Java.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-21"
+  ],
+  "order": 5,
+  "series": "infra-security-8-8-04-devops-ci-cd-21",
+  "seriesOrder": 5,
+  "seriesTitle": "Pulumi",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/21"
+}

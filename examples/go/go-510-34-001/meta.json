@@ -1,0 +1,14 @@
+{
+  "title": "WebSocket в Go — Upgrader и сервер",
+  "description": "Фрагмент из «WebSocket в Go»: Upgrader и сервер.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "34"
+  ],
+  "order": 1,
+  "series": "go-510-34",
+  "seriesOrder": 1,
+  "seriesTitle": "WebSocket в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/34"
+}

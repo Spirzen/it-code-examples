@@ -1,0 +1,14 @@
+{
+  "title": "Фреймворки и библиотеки Go — Привязка данных и валидация",
+  "description": "Фрагмент из «Фреймворки и библиотеки Go»: Привязка данных и валидация.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "19"
+  ],
+  "order": 2,
+  "series": "go-510-19",
+  "seriesOrder": 2,
+  "seriesTitle": "Фреймворки и библиотеки Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/19"
+}

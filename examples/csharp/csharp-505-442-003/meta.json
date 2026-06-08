@@ -1,0 +1,14 @@
+{
+  "title": "ADO.NET и Dapper — первая программа — Транзакция (два INSERT \"всё или ничего\")",
+  "description": "Фрагмент из «ADO.NET и Dapper — первая программа»: Транзакция (два INSERT \"всё или ничего\").",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "442"
+  ],
+  "order": 3,
+  "series": "csharp-505-442",
+  "seriesOrder": 3,
+  "seriesTitle": "ADO.NET и Dapper — первая программа",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/442"
+}

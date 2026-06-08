@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Kubernetes — CustomResourceDefinition (CRD)",
+  "description": "Фрагмент из «Справочник по Kubernetes»: CustomResourceDefinition (CRD).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-211"
+  ],
+  "order": 8,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211",
+  "seriesOrder": 8,
+  "seriesTitle": "Справочник по Kubernetes",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/211"
+}

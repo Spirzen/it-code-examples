@@ -1,0 +1,51 @@
+{
+  "generatedAt": "2026-06-07T20:30:30.713Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-15-sborka-musora",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "csharp/code-415-1-001",
+        "title": "Unity: забыли Destroy после столкновения",
+        "section": "примеры-gc-работает-правильно-ссылки-нет",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "1",
+        "slug": "csharp/code-415-1-002",
+        "title": "Unity: список activeProjectiles",
+        "section": "примеры-gc-работает-правильно-ссылки-нет",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1",
+        "slug": "javascript/code-415-1-003",
+        "title": "SPA: обработчик resize без отписки",
+        "section": "примеры-gc-работает-правильно-ссылки-нет",
+        "blocks": 1,
+        "lines": 12
+      },
+      {
+        "article": "1",
+        "slug": "json/code-415-1-004",
+        "title": "runtimeconfig.json: Server GC",
+        "section": "реализация-и-настройка-в-net-c",
+        "blocks": 1,
+        "lines": 8
+      }
+    ],
+    "4": [
+      {
+        "article": "4",
+        "slug": "python/code-415-4-001",
+        "title": "Циклические ссылки и gc.collect()",
+        "section": "два-уровня",
+        "blocks": 1,
+        "lines": 9
+      }
+    ]
+  }
+}

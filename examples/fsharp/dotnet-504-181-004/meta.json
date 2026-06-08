@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по F# — 6. Параллелизм и конкурентность",
+  "description": "Фрагмент из «Справочник по F#»: 6. Параллелизм и конкурентность.",
+  "tags": [
+    "dotnet",
+    "encyclopedia",
+    "181"
+  ],
+  "order": 4,
+  "series": "dotnet-504-181",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по F#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-04-platforma-dotnet/181"
+}

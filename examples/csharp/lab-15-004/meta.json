@@ -1,0 +1,13 @@
+{
+  "title": "XML парсер на CSharp — Шаг 2: Десериализация",
+  "description": "Фрагмент из «XML парсер на CSharp»: Шаг 2: Десериализация.",
+  "tags": [
+    "lab",
+    "15"
+  ],
+  "order": 4,
+  "series": "lab-15",
+  "seriesOrder": 4,
+  "seriesTitle": "XML парсер на CSharp",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/15"
+}

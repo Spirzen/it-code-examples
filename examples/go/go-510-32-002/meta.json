@@ -1,0 +1,14 @@
+{
+  "title": "gRPC в Go — Сервер",
+  "description": "Фрагмент из «gRPC в Go»: Сервер.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "32"
+  ],
+  "order": 2,
+  "series": "go-510-32",
+  "seriesOrder": 2,
+  "seriesTitle": "gRPC в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/32"
+}

@@ -1,0 +1,16 @@
+{
+  "id": 123,
+  "name": "Ivan",
+  "_links": {
+    "self": "/users/123",
+    "orders": "/users/123/orders",
+    "update": {
+      "href": "/users/123",
+      "method": "PUT"
+    },
+    "delete": {
+      "href": "/users/123",
+      "method": "DELETE"
+    }
+  }
+}

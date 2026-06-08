@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на C++ — Правила включения заголовков",
+  "description": "Фрагмент из «Рекомендации по разработке на C++»: Правила включения заголовков.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 5,
+  "series": "cpp-506-101",
+  "seriesOrder": 5,
+  "seriesTitle": "Рекомендации по разработке на C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/101"
+}

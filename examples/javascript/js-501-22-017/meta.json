@@ -1,0 +1,14 @@
+{
+  "title": "Работа с объектами и прототипами — Object.freeze(), seal(), preventExtensions()",
+  "description": "Фрагмент из «Работа с объектами и прототипами»: Object.freeze(), seal(), preventExtensions().",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 17,
+  "series": "js-501-22",
+  "seriesOrder": 17,
+  "seriesTitle": "Работа с объектами и прототипами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/22"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Строитель\" (Builder) в Java — сложная конфигурация без telescoping constructor' — Пример — HTTP-клиент с настройками",
+  "description": "Фрагмент из «'Паттерн \"Строитель\" (Builder) в Java — сложная конфигурация без telescoping constructor'»: Пример — HTTP-клиент с настройками.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-130"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-130",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Строитель\" (Builder) в Java — сложная конфигурация без telescoping constructor'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/130"
+}

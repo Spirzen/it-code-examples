@@ -1,0 +1,13 @@
+{
+  "title": "curl / fetch — API-запросы — 5. fetch — повтор при сбое сервера (retry)",
+  "description": "Фрагмент из «curl / fetch — API-запросы»: 5. fetch — повтор при сбое сервера (retry).",
+  "tags": [
+    "lab",
+    "1133"
+  ],
+  "order": 3,
+  "series": "lab-1133",
+  "seriesOrder": 3,
+  "seriesTitle": "curl / fetch — API-запросы",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1133"
+}

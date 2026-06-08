@@ -1,0 +1,14 @@
+{
+  "title": "Метатаблицы и метаметоды — Пример таблицы",
+  "description": "Фрагмент из «Метатаблицы и метаметоды»: Пример таблицы.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "18"
+  ],
+  "order": 1,
+  "series": "lua-515-18",
+  "seriesOrder": 1,
+  "seriesTitle": "Метатаблицы и метаметоды",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/18"
+}

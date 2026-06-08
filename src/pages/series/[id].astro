@@ -1,17 +1,17 @@
 ---
 import BaseLayout from '@/layouts/BaseLayout.astro';
-import {groupBySeries, loadAllExamples} from '@/lib/examples';
+import {groupBySeries, loadCatalog} from '@/lib/examples';
 import {sitePath} from '@/lib/site';
 
 export function getStaticPaths() {
-  return groupBySeries(loadAllExamples()).map((group) => ({
+  return groupBySeries(loadCatalog()).map((group) => ({
     params: {id: group.id},
     props: {group},
   }));
 }
 
 const {group} = Astro.props;
-const totalFiles = group.examples.reduce((sum, ex) => sum + ex.files.length, 0);
+const totalFiles = group.examples.reduce((sum, ex) => sum + ex.fileCount, 0);
 ---
 
 <BaseLayout title={`${group.title} — серия`} description={`Практикум: ${group.examples.length} шагов`}>
@@ -37,7 +37,7 @@ const totalFiles = group.examples.reduce((sum, ex) => sum + ex.files.length, 0);
                   <span class="series-page__step-desc">{step.description}</span>
                 )}
                 <span class="series-page__step-files">
-                  {step.files.length} файл(ов) · <code>{step.slug}</code>
+                  {step.fileCount} файл(ов) · <code>{step.slug}</code>
                 </span>
               </span>
             </a>

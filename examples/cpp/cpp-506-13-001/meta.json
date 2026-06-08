@@ -1,0 +1,14 @@
+{
+  "title": "Циклы и управляющие конструкции в C++ — Низкоуровневый контроль: `std::thread` и разделение диапазона",
+  "description": "Фрагмент из «Циклы и управляющие конструкции в C++»: Низкоуровневый контроль: `std::thread` и разделение диапазона.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "13"
+  ],
+  "order": 1,
+  "series": "cpp-506-13",
+  "seriesOrder": 1,
+  "seriesTitle": "Циклы и управляющие конструкции в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/13"
+}

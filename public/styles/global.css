@@ -448,6 +448,79 @@ html[data-theme='dark'] .stat-pill {
   font-size: 0.72rem;
 }
 
+.lang-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 0.65rem;
+}
+
+.lang-card {
+  display: grid;
+  gap: 0.25rem;
+  padding: 0.85rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 0.15s, box-shadow 0.15s;
+}
+
+.lang-card:hover {
+  border-color: color-mix(in srgb, var(--it-primary) 35%, var(--border));
+  box-shadow: var(--shadow-sm);
+}
+
+.lang-card__title {
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.lang-card__count {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
+.hero-panel--compact {
+  gap: 0.65rem;
+}
+
+.hero-panel--compact h1 {
+  margin: 0.35rem 0 0;
+  font-size: clamp(1.45rem, 3.5vw, 2rem);
+}
+
+.catalog-load-more {
+  display: grid;
+  justify-items: center;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  padding-bottom: 0.5rem;
+}
+
+.catalog-load-more__btn {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: inherit;
+  border-radius: 999px;
+  padding: 0.45rem 1.25rem;
+  font-size: 0.85rem;
+  font-family: var(--font);
+  cursor: pointer;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.catalog-load-more__btn:hover {
+  border-color: color-mix(in srgb, var(--it-primary) 35%, var(--border));
+  background: var(--accent-soft);
+}
+
+.catalog-load-more__meta {
+  margin: 0;
+  font-size: 0.78rem;
+  color: var(--muted);
+}
+
 .catalog-sections {
   display: grid;
   gap: 1.25rem;

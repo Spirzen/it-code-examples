@@ -1,0 +1,14 @@
+{
+  "title": "Первые шаги к микросервисам — Сервис обработки заказов на Java",
+  "description": "Фрагмент из «Первые шаги к микросервисам»: Сервис обработки заказов на Java.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-101"
+  ],
+  "order": 6,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-101",
+  "seriesOrder": 6,
+  "seriesTitle": "Первые шаги к микросервисам",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/101"
+}

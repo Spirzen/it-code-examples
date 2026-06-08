@@ -1,0 +1,40 @@
+<script>
+function showNotification(type, message, duration = 5000) {
+  const container = document.getElementById('notificationContainer');
+  const notification = document.createElement('div');
+  notification.className = `notification ${type}`;
+  notification.innerHTML = `
+    ${message}
+    <button class="close-notification" aria-label="Закрыть">&times;</button>
+`;
+  container.appendChild(notification);
+
+  // Автоматическое скрытие
+  const timer = setTimeout(() => {
+    removeNotification(notification);
+  }, duration);
+
+  // Закрытие по клику
+  notification.querySelector('.close-notification').addEventListener('click', () => {
+    clearTimeout(timer);
+    removeNotification(notification);
+  });
+}
+
+function removeNotification(el) {
+  el.style.animation = 'slideOutRight 0.3s forwards';
+  setTimeout(() => el.remove(), 300);
+}
+
+// Анимация исчезновения
+const style = document.createElement('style');
+style.textContent = `
+  @keyframes slideOutRight {
+    to {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+  }
+`;
+document.head.appendChild(style);
+</script>

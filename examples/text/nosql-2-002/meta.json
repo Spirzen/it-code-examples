@@ -1,0 +1,14 @@
+{
+  "title": "Основы NoSQL — 3. Колоночные (Wide‑Column Stores)",
+  "description": "Фрагмент из «Основы NoSQL»: 3. Колоночные (Wide‑Column Stores).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 2,
+  "series": "nosql-2",
+  "seriesOrder": 2,
+  "seriesTitle": "Основы NoSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/2"
+}

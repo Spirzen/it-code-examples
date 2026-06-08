@@ -1,0 +1,13 @@
+{
+  "title": "Nginx — конфиги под задачу — 5. PHP через PHP-FPM",
+  "description": "Фрагмент из «Nginx — конфиги под задачу»: 5. PHP через PHP-FPM.",
+  "tags": [
+    "lab",
+    "11112"
+  ],
+  "order": 3,
+  "series": "lab-11112",
+  "seriesOrder": 3,
+  "seriesTitle": "Nginx — конфиги под задачу",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11112"
+}

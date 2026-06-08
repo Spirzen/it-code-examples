@@ -1,0 +1,14 @@
+{
+  "title": "Объектно-ориентированное программирование в C++ — SFINAE — \"Substitution Failure Is Not An Error\"",
+  "description": "Фрагмент из «Объектно-ориентированное программирование в C++»: SFINAE — \"Substitution Failure Is Not An Error\".",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "14"
+  ],
+  "order": 16,
+  "series": "cpp-506-14",
+  "seriesOrder": 16,
+  "seriesTitle": "Объектно-ориентированное программирование в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/14"
+}

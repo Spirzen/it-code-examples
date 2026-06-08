@@ -1,0 +1,14 @@
+{
+  "title": "Практикум WPF — основы MVVM — Асинхронность и IsBusy",
+  "description": "Фрагмент из «Практикум WPF — основы MVVM»: Асинхронность и IsBusy.",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "wpf-praktikum-2"
+  ],
+  "order": 5,
+  "series": "code-411-wpf-praktikum-2",
+  "seriesOrder": 5,
+  "seriesTitle": "Практикум WPF — основы MVVM",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/wpf-praktikum/2"
+}

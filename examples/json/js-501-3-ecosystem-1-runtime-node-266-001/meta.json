@@ -1,0 +1,14 @@
+{
+  "title": "Структура Node-проекта и правила разработки — package.json как контракт проекта",
+  "description": "Фрагмент из «Структура Node-проекта и правила разработки»: package.json как контракт проекта.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-1-runtime-node-266"
+  ],
+  "order": 1,
+  "series": "js-501-3-ecosystem-1-runtime-node-266",
+  "seriesOrder": 1,
+  "seriesTitle": "Структура Node-проекта и правила разработки",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/1-runtime-node/266"
+}

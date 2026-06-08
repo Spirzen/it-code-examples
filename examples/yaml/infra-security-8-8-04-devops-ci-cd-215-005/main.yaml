@@ -1,0 +1,31 @@
+---
+- name: Установка и настройка Nginx
+  hosts: webservers
+  become: yes
+  vars:
+    nginx_port: 8080
+
+  tasks:
+    - name: Установить Nginx
+      apt:
+        name: nginx
+        state: present
+        update_cache: yes
+
+    - name: Скопировать конфигурационный файл
+      template:
+        src: nginx.conf.j2
+        dest: /etc/nginx/sites-available/default
+      notify: Перезапустить Nginx
+
+    - name: Убедиться, что Nginx запущен и включён в автозагрузку
+      systemd:
+        name: nginx
+        state: started
+        enabled: yes
+
+  handlers:
+    - name: Перезапустить Nginx
+      systemd:
+        name: nginx
+        state: restarted

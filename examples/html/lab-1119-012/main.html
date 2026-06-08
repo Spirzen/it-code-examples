@@ -1,0 +1,18 @@
+<svg width="240" height="240" viewBox="0 0 240 240" role="img" aria-label="Шахматная доска">
+  <g id="board"></g>
+  <script>
+    const g = document.getElementById('board');
+    const size = 30;
+    for (let row = 0; row < 8; row++) {
+      for (let col = 0; col < 8; col++) {
+        const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        rect.setAttribute('x', col * size);
+        rect.setAttribute('y', row * size);
+        rect.setAttribute('width', size);
+        rect.setAttribute('height', size);
+        rect.setAttribute('fill', (row + col) % 2 === 0 ? '#1e293b' : '#f8fafc');
+        g.appendChild(rect);
+      }
+    }
+  </script>
+</svg>

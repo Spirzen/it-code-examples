@@ -1,0 +1,14 @@
+{
+  "title": "Общие табличные выражения (CTE) — Повторное использование промежуточных результатов",
+  "description": "Фрагмент из «Общие табличные выражения (CTE)»: Повторное использование промежуточных результатов.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "551"
+  ],
+  "order": 11,
+  "series": "sql-551",
+  "seriesOrder": 11,
+  "seriesTitle": "Общие табличные выражения (CTE)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/551"
+}

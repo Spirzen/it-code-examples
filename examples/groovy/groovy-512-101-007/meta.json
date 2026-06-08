@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Groovy — Сервисный слой с транзакционной поддержкой",
+  "description": "Фрагмент из «Рекомендации по разработке на Groovy»: Сервисный слой с транзакционной поддержкой.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 7,
+  "series": "groovy-512-101",
+  "seriesOrder": 7,
+  "seriesTitle": "Рекомендации по разработке на Groovy",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/101"
+}

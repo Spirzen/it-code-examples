@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Node.js — Router — вынести маршруты",
+  "description": "Фрагмент из «Первая программа на Node.js»: Router — вынести маршруты.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-1-runtime-node-262"
+  ],
+  "order": 3,
+  "series": "js-501-3-ecosystem-1-runtime-node-262",
+  "seriesOrder": 3,
+  "seriesTitle": "Первая программа на Node.js",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/1-runtime-node/262"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Azure Repos Git — Webhook-события и payload",
+  "description": "Фрагмент из «Справочник по Azure Repos Git»: Webhook-события и payload.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3124"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-04-devops-ci-cd-3124",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по Azure Repos Git",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3124"
+}

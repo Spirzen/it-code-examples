@@ -1,0 +1,80 @@
+{
+  "generatedAt": "2026-06-08T14:38:11.028Z",
+  "minLines": 15,
+  "section": "elixir",
+  "encyclopediaPath": "/encyclopedia/5-languages/5-19-elixir",
+  "articles": {
+    "5": [
+      {
+        "article": "5",
+        "slug": "elixir/elixir-519-5-001",
+        "title": "Условные конструкции — if, unless, cond",
+        "section": "условные-конструкции-if-unless-cond",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "6": [
+      {
+        "article": "6",
+        "slug": "elixir/elixir-519-6-001",
+        "title": "Документирование функций",
+        "section": "документирование-функций",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "6",
+        "slug": "elixir/elixir-519-6-002",
+        "title": "Функции и процессы — основа конкурентности",
+        "section": "функции-и-процессы-основа-конкурентности",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "6",
+        "slug": "elixir/elixir-519-6-003",
+        "title": "Функции в контексте OTP",
+        "section": "функции-в-контексте-otp",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "6",
+        "slug": "elixir/elixir-519-6-004",
+        "title": "Мини-шаблон модуля для реальных задач",
+        "section": "мини-шаблон-модуля-для-реальных-задач",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "7": [
+      {
+        "article": "7",
+        "slug": "elixir/elixir-519-7-001",
+        "title": "Шаг 1. Генерация нового проекта",
+        "section": "шаг-1-генерация-нового-проекта",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "elixir/elixir-519-103-001",
+        "title": "Простой HTTP (Plug.Cowboy)",
+        "section": "простой-http-plug-cowboy",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "103",
+        "slug": "elixir/elixir-519-103-002",
+        "title": "Характерный пример — pipe и процессы",
+        "section": "характерный-пример-pipe-и-процессы",
+        "blocks": 1,
+        "lines": 16
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на ASP.NET Core — Минимальный API (без контроллеров)",
+  "description": "Фрагмент из «Первая программа на ASP.NET Core»: Минимальный API (без контроллеров).",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "4511"
+  ],
+  "order": 1,
+  "series": "csharp-505-4511",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа на ASP.NET Core",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/4511"
+}

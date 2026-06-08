@@ -1,0 +1,14 @@
+{
+  "title": "Управление конфигурациями и окружениями — Kustomize для декларативных переопределений",
+  "description": "Фрагмент из «Управление конфигурациями и окружениями»: Kustomize для декларативных переопределений.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-07-informatsionnaya-bezopasnost-1153"
+  ],
+  "order": 29,
+  "series": "infra-security-8-8-07-informatsionnaya-bezopasnost-1153",
+  "seriesOrder": 29,
+  "seriesTitle": "Управление конфигурациями и окружениями",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-07-informatsionnaya-bezopasnost/1153"
+}

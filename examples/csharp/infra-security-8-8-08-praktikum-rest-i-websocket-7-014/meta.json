@@ -1,0 +1,14 @@
+{
+  "title": "Практикум REST и WebSocket — OrderDesk — Middleware маршрута",
+  "description": "Фрагмент из «Практикум REST и WebSocket — OrderDesk»: Middleware маршрута.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-08-praktikum-rest-i-websocket-7"
+  ],
+  "order": 14,
+  "series": "infra-security-8-08-orderdesk-praktikum",
+  "seriesOrder": 14,
+  "seriesTitle": "Практикум REST и WebSocket — OrderDesk",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-08-praktikum-rest-i-websocket/intro"
+}

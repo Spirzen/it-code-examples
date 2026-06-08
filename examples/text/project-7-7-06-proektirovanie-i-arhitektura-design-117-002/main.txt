@@ -1,0 +1,21 @@
+HTTP/1.1 200 OK
+Content-Type: application/json
+Cache-Control: private, max-age=0
+
+{
+  "data": [
+    {
+      "id": "7b3e9f12-8c4a-4d2e-9f01-aa11bb22cc33",
+      "externalRef": "WMS-2026-00481",
+      "status": "ready_to_ship",
+      "createdAt": "2026-05-27T10:15:00Z",
+      "lineItems": [
+        { "sku": "SKU-42", "quantity": 2 }
+      ]
+    }
+  ],
+  "pagination": {
+    "nextCursor": "eyJvZmZzZXQiOjUwfQ==",
+    "hasMore": true
+  }
+}

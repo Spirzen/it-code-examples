@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sticky header</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; }
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 10;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0.75rem 1.25rem;
+      background: rgba(255, 255, 255, 0.92);
+      backdrop-filter: blur(8px);
+      border-bottom: 1px solid #e5e7eb;
+    }
+    main { padding: 1.25rem; max-width: 40rem; margin: 0 auto; }
+    main p { margin-bottom: 1.25rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <strong>Журнал</strong>
+    <span>Меню</span>
+  </header>
+  <main>
+    <h1>Длинная статья</h1>
+    <p>Прокрутите вниз — шапка останется сверху.</p>
+    <p>Добавьте сюда ещё абзацы для проверки…</p>
+    <p>…и ещё один абзац.</p>
+  </main>
+</body>
+</html>

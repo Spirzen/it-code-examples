@@ -1,0 +1,14 @@
+{
+  "title": "JVM, память и потоки — Пул строк",
+  "description": "Фрагмент из «JVM, память и потоки»: Пул строк.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "23"
+  ],
+  "order": 8,
+  "series": "java-503-23",
+  "seriesOrder": 8,
+  "seriesTitle": "JVM, память и потоки",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/23"
+}

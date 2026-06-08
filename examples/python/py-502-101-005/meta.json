@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Python — Инкапсуляция и сокрытие реализации",
+  "description": "Фрагмент из «Рекомендации по разработке на Python»: Инкапсуляция и сокрытие реализации.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 5,
+  "series": "py-502-101",
+  "seriesOrder": 5,
+  "seriesTitle": "Рекомендации по разработке на Python",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/101"
+}

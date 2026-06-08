@@ -1,0 +1,10 @@
+{
+  "title": "Рандомизация — Python (PRNG и CSPRNG)",
+  "description": "Фиксированный seed для воспроизводимости и secrets для криптостойких токенов.",
+  "tags": ["lab", "experiments", "random", "python"],
+  "order": 1,
+  "series": "lab-exp-6",
+  "seriesOrder": 1,
+  "seriesTitle": "Рандомизация",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Эксперименты/6"
+}

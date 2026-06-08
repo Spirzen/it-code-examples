@@ -1,0 +1,13 @@
+{
+  "title": "Dockerfile — 10 типовых образов — 4. Python (Flask / FastAPI)",
+  "description": "Фрагмент из «Dockerfile — 10 типовых образов»: 4. Python (Flask / FastAPI).",
+  "tags": [
+    "lab",
+    "11113"
+  ],
+  "order": 2,
+  "series": "lab-11113",
+  "seriesOrder": 2,
+  "seriesTitle": "Dockerfile — 10 типовых образов",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11113"
+}

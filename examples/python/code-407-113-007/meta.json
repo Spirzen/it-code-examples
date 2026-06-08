@@ -1,0 +1,14 @@
+{
+  "title": "Принципы SOLID в объектно-ориентированном проектировании — Корректная реализация через полиморфизм",
+  "description": "Фрагмент из «Принципы SOLID в объектно-ориентированном проектировании»: Корректная реализация через полиморфизм.",
+  "tags": [
+    "paradigms",
+    "encyclopedia",
+    "113"
+  ],
+  "order": 7,
+  "series": "code-407-113",
+  "seriesOrder": 7,
+  "seriesTitle": "Принципы SOLID в объектно-ориентированном проектировании",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-07-paradigmy-i-urovni-abstraktsii/113"
+}

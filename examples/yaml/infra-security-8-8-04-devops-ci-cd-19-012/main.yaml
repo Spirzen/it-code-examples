@@ -1,0 +1,37 @@
+# Плохо: алерт только на абсолютное значение
+groups:
+  - name: basic_alerts
+    rules:
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) > 0.05
+        for: 5m
+
+# Хорошо: алерты и на абсолютные значения, и на тренды
+groups:
+  - name: comprehensive_alerts
+    rules:
+      # Абсолютный порог
+      - alert: HighErrorRate
+        expr: rate(http_requests_total{status=~"5.."}[5m]) > 0.05
+        for: 5m
+        labels:
+          severity: critical
+      
+      # Отклонение от базовой линии (аномалия)
+      - alert: ErrorRateAnomaly
+        expr: |
+          rate(http_requests_total{status=~"5.."}[5m])
+          > 3 * avg_over_time(rate(http_requests_total{status=~"5.."}[5m])[7d:5m])
+        for: 10m
+        labels:
+          severity: warning
+      
+      # Постепенная деградация (тренд)
+      - alert: LatencyDegradation
+        expr: |
+          histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m]))
+          > histogram_quantile(0.95, rate(http_request_duration_seconds_bucket[5m] offset 1d))
+          * 1.5
+        for: 30m
+        labels:
+          severity: warning

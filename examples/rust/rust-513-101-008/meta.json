@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Rust — Построитель (Builder)",
+  "description": "Фрагмент из «Рекомендации по разработке на Rust»: Построитель (Builder).",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 8,
+  "series": "rust-513-101",
+  "seriesOrder": 8,
+  "seriesTitle": "Рекомендации по разработке на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/101"
+}

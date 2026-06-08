@@ -1,0 +1,14 @@
+{
+  "title": "Объектно-ориентированные концепции в Rust — Инкапсуляция",
+  "description": "Фрагмент из «Объектно-ориентированные концепции в Rust»: Инкапсуляция.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "141"
+  ],
+  "order": 3,
+  "series": "rust-513-141",
+  "seriesOrder": 3,
+  "seriesTitle": "Объектно-ориентированные концепции в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

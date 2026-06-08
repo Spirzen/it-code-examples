@@ -1,0 +1,14 @@
+{
+  "title": "Веб на стандартной библиотеке Go — Метрики Prometheus",
+  "description": "Фрагмент из «Веб на стандартной библиотеке Go»: Метрики Prometheus.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 3,
+  "series": "go-510-25",
+  "seriesOrder": 3,
+  "seriesTitle": "Веб на стандартной библиотеке Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/25"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в Swift — `LocalizedError` — человекочитаемые сообщения",
+  "description": "Фрагмент из «Обработка ошибок в Swift»: `LocalizedError` — человекочитаемые сообщения.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "171"
+  ],
+  "order": 3,
+  "series": "swift-514-171",
+  "seriesOrder": 3,
+  "seriesTitle": "Обработка ошибок в Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/171"
+}

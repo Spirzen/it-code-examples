@@ -1,0 +1,14 @@
+{
+  "title": "Обработка исключений в JavaScript — Синхронный код vs Promise и async/await",
+  "description": "Фрагмент из «Обработка исключений в JavaScript»: Синхронный код vs Promise и async/await.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "242"
+  ],
+  "order": 2,
+  "series": "js-501-242",
+  "seriesOrder": 2,
+  "seriesTitle": "Обработка исключений в JavaScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/242"
+}

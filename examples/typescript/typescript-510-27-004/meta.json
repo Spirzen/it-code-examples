@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в TypeScript — Единый формат API-ошибки",
+  "description": "Фрагмент из «Обработка ошибок в TypeScript»: Единый формат API-ошибки.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "27"
+  ],
+  "order": 4,
+  "series": "typescript-510-27",
+  "seriesOrder": 4,
+  "seriesTitle": "Обработка ошибок в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/27"
+}

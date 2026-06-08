@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  flex-wrap: wrap; /* Разрешает перенос элементов */
+  gap: 1rem;
+}
+
+.card {
+  flex: 1 1 100%; /* На мобильных — 100% ширины */
+}
+
+@media (min-width: 768px) {
+  .card {
+    flex: 1 1 calc(50% - 0.5rem); /* Две колонки */
+  }
+}
+
+@media (min-width: 1024px) {
+  .card {
+    flex: 1 1 calc(33.333% - 0.75rem); /* Три колонки */
+  }
+}

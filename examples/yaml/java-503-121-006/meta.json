@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по конфигурациям в Java — 8.2. Синтаксис `application.properties` и `application.yml`",
+  "description": "Фрагмент из «Справочник по конфигурациям в Java»: 8.2. Синтаксис `application.properties` и `application.yml`.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "121"
+  ],
+  "order": 6,
+  "series": "java-503-121",
+  "seriesOrder": 6,
+  "seriesTitle": "Справочник по конфигурациям в Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/121"
+}

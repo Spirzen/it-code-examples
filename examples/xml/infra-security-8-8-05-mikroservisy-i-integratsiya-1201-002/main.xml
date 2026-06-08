@@ -1,0 +1,19 @@
+<soap:Fault xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+  <soap:Code>
+    <soap:Value>soap:Sender</soap:Value>
+    <soap:Subcode>
+      <soap:Value>ns:InvalidFormat</soap:Value>
+    </soap:Subcode>
+  </soap:Code>
+  <soap:Reason>
+    <soap:Text xml:lang="en">Invalid XML format</soap:Text>
+    <soap:Text xml:lang="ru">Неверный формат XML</soap:Text>
+  </soap:Reason>
+  <soap:Node>http://example.com/node2</soap:Node>          <!-- ✅ аналог faultactor -->
+  <soap:Role>http://www.w3.org/2003/05/soap-envelope/role/next</soap:Role>
+  <soap:Detail>
+    <ns:AppError xmlns:ns="...">
+      <code>XSD-101</code>
+    </ns:AppError>
+  </soap:Detail>
+</soap:Fault>

@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 4.3. Неизменяемость",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 4.3. Неизменяемость.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 5,
+  "series": "java-503-101",
+  "seriesOrder": 5,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}

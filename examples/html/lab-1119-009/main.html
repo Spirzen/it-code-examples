@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>n-угольник SVG</title>
+  <style>
+    body { margin: 0; display: grid; place-items: center; min-height: 100dvh; background: #f8fafc; }
+  </style>
+</head>
+<body>
+  <svg width="300" height="300" viewBox="0 0 300 300" id="stage"></svg>
+  <script>
+    function regularPolygon(n, cx, cy, radius) {
+      const pts = [];
+      for (let i = 0; i < n; i++) {
+        const angle = (i / n) * 2 * Math.PI - Math.PI / 2;
+        pts.push(`${cx + radius * Math.cos(angle)},${cy + radius * Math.sin(angle)}`);
+      }
+      return pts.join(' ');
+    }
+
+    const svg = document.getElementById('stage');
+    const poly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+    poly.setAttribute('points', regularPolygon(8, 150, 150, 100));
+    poly.setAttribute('fill', '#c4b5fd');
+    poly.setAttribute('stroke', '#5b21b6');
+    poly.setAttribute('stroke-width', '2');
+    svg.appendChild(poly);
+  </script>
+</body>
+</html>

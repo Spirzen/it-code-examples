@@ -1,0 +1,19 @@
+{
+  "name": "checkServiceStatus",
+  "description": "Получение текущего статуса внешнего сервиса",
+  "inputSchema": {
+    "type": "object",
+    "properties": {
+      "serviceUrl": {
+        "type": "string",
+        "description": "URL проверяемого сервиса"
+      },
+      "timeout": {
+        "type": "integer",
+        "description": "Максимальное время ожидания в секундах"
+      }
+    },
+    "required": ["serviceUrl"]
+  },
+  "outputType": "JSON"
+}

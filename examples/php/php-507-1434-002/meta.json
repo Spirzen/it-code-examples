@@ -1,0 +1,14 @@
+{
+  "title": "Laravel и Livewire — `wire:model` — связь поля и свойства",
+  "description": "Фрагмент из «Laravel и Livewire»: `wire:model` — связь поля и свойства.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "1434"
+  ],
+  "order": 2,
+  "series": "php-507-1434",
+  "seriesOrder": 2,
+  "seriesTitle": "Laravel и Livewire",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/1434"
+}

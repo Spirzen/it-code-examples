@@ -1,0 +1,25 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: Безопасный S3 бакет для хранения логов
+
+Parameters:
+  BucketName:
+    Type: String
+    Description: Имя бакета
+
+Resources:
+  SecureBucket:
+    Type: AWS::S3::Bucket
+    Properties:
+      BucketName: !Ref BucketName
+      PublicAccessBlockConfiguration:
+        BlockPublicAcls: true
+        BlockPublicPolicy: true
+        IgnorePublicAcls: true
+        RestrictPublicBuckets: true
+      VersioningConfiguration:
+        Status: Enabled
+
+Outputs:
+  BucketArn:
+    Description: ARN созданного бакета
+    Value: !GetAtt SecureBucket.Arn

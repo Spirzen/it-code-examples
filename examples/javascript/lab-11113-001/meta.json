@@ -1,0 +1,13 @@
+{
+  "title": "Dockerfile — 10 типовых образов — 3. Node.js API (Express / Fastify)",
+  "description": "Фрагмент из «Dockerfile — 10 типовых образов»: 3. Node.js API (Express / Fastify).",
+  "tags": [
+    "lab",
+    "11113"
+  ],
+  "order": 1,
+  "series": "lab-11113",
+  "seriesOrder": 1,
+  "seriesTitle": "Dockerfile — 10 типовых образов",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11113"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Простые приложения на Scala — JSON-трекер (circe / uPickle — или java.nio + ручной JSON)",
+  "description": "Фрагмент из «Простые приложения на Scala»: JSON-трекер (circe / uPickle — или java.nio + ручной JSON).",
+  "tags": [
+    "scala",
+    "encyclopedia",
+    "103"
+  ],
+  "order": 1,
+  "series": "scala-518-103",
+  "seriesOrder": 1,
+  "seriesTitle": "Простые приложения на Scala",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-18-scala/103"
+}

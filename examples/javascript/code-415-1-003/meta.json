@@ -1,0 +1,14 @@
+{
+  "title": "Автоматическое управление памятью — SPA: обработчик resize без отписки",
+  "description": "JavaScript: утечка удержания через addEventListener без removeEventListener при destroy.",
+  "tags": [
+    "garbage-collection",
+    "encyclopedia",
+    "javascript"
+  ],
+  "order": 3,
+  "series": "code-415-1",
+  "seriesOrder": 3,
+  "seriesTitle": "Автоматическое управление памятью",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-15-sborka-musora/1"
+}

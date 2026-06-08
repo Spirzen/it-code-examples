@@ -1,0 +1,14 @@
+{
+  "title": "Практикум REST и WebSocket — OrderDesk — База данных (SQLite)",
+  "description": "Фрагмент из «Практикум REST и WebSocket — OrderDesk»: База данных (SQLite).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-08-praktikum-rest-i-websocket-4"
+  ],
+  "order": 6,
+  "series": "infra-security-8-08-orderdesk-praktikum",
+  "seriesOrder": 6,
+  "seriesTitle": "Практикум REST и WebSocket — OrderDesk",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-08-praktikum-rest-i-websocket/intro"
+}

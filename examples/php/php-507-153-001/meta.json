@@ -1,0 +1,14 @@
+{
+  "title": "Работа с составными типами в PHP — Реализация JsonSerializable",
+  "description": "Фрагмент из «Работа с составными типами в PHP»: Реализация JsonSerializable.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "153"
+  ],
+  "order": 1,
+  "series": "php-507-153",
+  "seriesOrder": 1,
+  "seriesTitle": "Работа с составными типами в PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/153"
+}

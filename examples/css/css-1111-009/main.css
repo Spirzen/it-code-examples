@@ -1,0 +1,17 @@
+.box {
+  --offset: 0;
+  transform: translateX(var(--offset));
+  animation: moveBox 1s infinite alternate;
+}
+
+@keyframes moveBox {
+  0% {
+    --offset: 0;
+  }
+  50% {
+    --offset: 50px;
+  }
+  100% {
+    --offset: 100px;
+  }
+}

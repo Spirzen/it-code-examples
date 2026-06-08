@@ -1,0 +1,25 @@
+@page "/notes"
+
+<h1>Заметки</h1>
+
+<input @bind="newText" placeholder="Текст" />
+<button @onclick="Add">Добавить</button>
+
+<ul>
+    @foreach (var note in items)
+    {
+        <li>@note</li>
+    }
+</ul>
+
+@code {
+    private string newText = "";
+    private List<string> items = new();
+
+    private void Add()
+    {
+        if (string.IsNullOrWhiteSpace(newText)) return;
+        items.Add(newText.Trim());
+        newText = "";
+    }
+}

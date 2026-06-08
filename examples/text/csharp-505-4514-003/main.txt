@@ -1,0 +1,18 @@
+@page
+@model NotesRazor.Pages.Notes.IndexModel
+
+<h1>Заметки</h1>
+
+<form method="post">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <input asp-for="NewText" class="form-control" placeholder="Новая заметка" />
+    <span asp-validation-for="NewText" class="text-danger"></span>
+    <button type="submit" class="btn btn-primary mt-2">Добавить</button>
+</form>
+
+<ul class="mt-4">
+    @foreach (var note in Model.Items)
+    {
+        <li><small>@note.Created.ToLocalTime():g</small> — @note.Text</li>
+    }
+</ul>

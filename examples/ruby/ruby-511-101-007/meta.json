@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Ruby — Обработка ошибок",
+  "description": "Фрагмент из «Рекомендации по разработке на Ruby»: Обработка ошибок.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 7,
+  "series": "ruby-511-101",
+  "seriesOrder": 7,
+  "seriesTitle": "Рекомендации по разработке на Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/101"
+}

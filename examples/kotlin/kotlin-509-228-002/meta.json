@@ -1,0 +1,14 @@
+{
+  "title": "Ktor Client — HTTP-запросы — GET и POST — разбор",
+  "description": "Фрагмент из «Ktor Client — HTTP-запросы»: GET и POST — разбор.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "228"
+  ],
+  "order": 2,
+  "series": "kotlin-509-228",
+  "seriesOrder": 2,
+  "seriesTitle": "Ktor Client — HTTP-запросы",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/228"
+}

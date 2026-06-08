@@ -1,0 +1,21 @@
+openapi: 3.0.3
+info:
+  title: Пример API для управления задачами
+  description: |
+    Этот сервис предоставляет возможности создания, чтения, обновления и удаления задач.
+    Документация генерируется автоматически из исходного кода.
+  version: 1.0.0
+  contact:
+    name: Техническая поддержка
+    email: support@example.com
+  license:
+    name: MIT
+    url: https://opensource.org/licenses/MIT
+servers:
+  - url: https://api.example.com/v1
+    description: Основной сервер
+  - url: https://staging-api.example.com/v1
+    description: Сервер для тестирования
+paths: {}
+components: {}
+tags: []

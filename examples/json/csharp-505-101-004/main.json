@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "dependencies": {
+    "net8.0": {
+      "Newtonsoft.Json/13.0.3": {
+        "type": "Direct",
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0",
+          "System.ComponentModel.TypeConverter": "4.3.0"
+        }
+      }
+    }
+  }
+}

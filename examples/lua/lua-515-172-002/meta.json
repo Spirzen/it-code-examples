@@ -1,0 +1,14 @@
+{
+  "title": "Работа со строками, таблицами и файлами — Пример 1 — Парсинг CSV-файла",
+  "description": "Фрагмент из «Работа со строками, таблицами и файлами»: Пример 1 — Парсинг CSV-файла.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "172"
+  ],
+  "order": 2,
+  "series": "lua-515-172",
+  "seriesOrder": 2,
+  "seriesTitle": "Работа со строками, таблицами и файлами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/172"
+}

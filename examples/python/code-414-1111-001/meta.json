@@ -1,0 +1,14 @@
+{
+  "title": "Настройка логирования — Python (`logging` + `structlog`)",
+  "description": "Фрагмент из «Настройка логирования»: Python (`logging` + `structlog`).",
+  "tags": [
+    "dev-debug",
+    "encyclopedia",
+    "1111"
+  ],
+  "order": 1,
+  "series": "code-414-1111",
+  "seriesOrder": 1,
+  "seriesTitle": "Настройка логирования",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-14-razrabotka-i-otladka/1111"
+}

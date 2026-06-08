@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на C++ — Инкапсуляция и сокрытие реализации",
+  "description": "Фрагмент из «Рекомендации по разработке на C++»: Инкапсуляция и сокрытие реализации.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 8,
+  "series": "cpp-506-101",
+  "seriesOrder": 8,
+  "seriesTitle": "Рекомендации по разработке на C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/101"
+}

@@ -1,0 +1,50 @@
+stages:
+  - lint
+  - build
+  - test
+  - deploy
+
+lint:
+  stage: lint
+  script:
+    - npm run lint
+    - python -m flake8 .
+  artifacts:
+    reports:
+      coverage_report: coverage.xml
+  only:
+    - main
+    - develop
+
+build:
+  stage: build
+  image: node:18-alpine
+  script:
+    - npm install
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 7 days
+
+test:
+  stage: test
+  image: node:18-alpine
+  script:
+    - npm test
+  coverage: '/Test Result.*([0-9]{1,3})%/'
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+    - if: $CI_COMMIT_BRANCH =~ /^release\/.*/
+
+deploy:
+  stage: deploy
+  image: alpine:latest
+  script:
+    - cp dist/* /var/www/html/
+  environment:
+    name: production
+    url: https://example.com
+  only:
+    - main
+    - tags

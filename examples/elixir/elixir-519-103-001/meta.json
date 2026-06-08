@@ -1,0 +1,14 @@
+{
+  "title": "Простые приложения на Elixir — Простой HTTP (Plug.Cowboy)",
+  "description": "Фрагмент из «Простые приложения на Elixir»: Простой HTTP (Plug.Cowboy).",
+  "tags": [
+    "elixir",
+    "encyclopedia",
+    "103"
+  ],
+  "order": 1,
+  "series": "elixir-519-103",
+  "seriesOrder": 1,
+  "seriesTitle": "Простые приложения на Elixir",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-19-elixir/103"
+}

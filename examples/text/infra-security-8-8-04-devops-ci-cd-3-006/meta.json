@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Terraform — Модуль Kubernetes Cluster (EKS)",
+  "description": "Фрагмент из «Справочник по Terraform»: Модуль Kubernetes Cluster (EKS).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3"
+  ],
+  "order": 6,
+  "series": "infra-security-8-8-04-devops-ci-cd-3",
+  "seriesOrder": 6,
+  "seriesTitle": "Справочник по Terraform",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3"
+}

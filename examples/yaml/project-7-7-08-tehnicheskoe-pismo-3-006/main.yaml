@@ -1,0 +1,25 @@
+components:
+  schemas:
+    BaseResource:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        createdAt:
+          type: string
+          format: date-time
+        updatedAt:
+          type: string
+          format: date-time
+    
+    Task:
+      allOf:
+        - $ref: '#/components/schemas/BaseResource'
+        - type: object
+          properties:
+            title:
+              type: string
+            status:
+              type: string
+              enum: [active, completed]

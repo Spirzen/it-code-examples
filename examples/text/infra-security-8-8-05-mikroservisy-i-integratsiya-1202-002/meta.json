@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по gRPC — 9.1. Объявление сервиса",
+  "description": "Фрагмент из «Справочник по gRPC»: 9.1. Объявление сервиса.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-1202"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-1202",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по gRPC",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/1202"
+}

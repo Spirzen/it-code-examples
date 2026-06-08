@@ -1,0 +1,14 @@
+{
+  "title": "Принцип инверсии зависимостей (DIP) — Как работает DI?",
+  "description": "Фрагмент из «Принцип инверсии зависимостей (DIP)»: Как работает DI?.",
+  "tags": [
+    "dependencies",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 2,
+  "series": "code-409-11",
+  "seriesOrder": 2,
+  "seriesTitle": "Принцип инверсии зависимостей (DIP)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-09-zavisimosti/11"
+}

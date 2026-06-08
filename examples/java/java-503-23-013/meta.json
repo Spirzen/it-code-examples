@@ -1,0 +1,14 @@
+{
+  "title": "JVM, память и потоки — Жизненный цикл объекта",
+  "description": "Фрагмент из «JVM, память и потоки»: Жизненный цикл объекта.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "23"
+  ],
+  "order": 13,
+  "series": "java-503-23",
+  "seriesOrder": 13,
+  "seriesTitle": "JVM, память и потоки",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/23"
+}

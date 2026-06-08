@@ -1,0 +1,7 @@
+{
+  "title": "Java — JSON-парсер (учебная реализация)",
+  "description": "Лексер, парсер рекурсивного спуска, объектная модель и сериализатор по RFC 8259.",
+  "tags": ["lab", "case", "parser", "java17"],
+  "order": 11,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/11"
+}

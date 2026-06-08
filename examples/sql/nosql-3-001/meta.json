@@ -1,0 +1,14 @@
+{
+  "title": "Синтаксис и знаки препинания в NoSQL-запросах — CQL (Apache Cassandra)",
+  "description": "Фрагмент из «Синтаксис и знаки препинания в NoSQL-запросах»: CQL (Apache Cassandra).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "3"
+  ],
+  "order": 1,
+  "series": "nosql-3",
+  "seriesOrder": 1,
+  "seriesTitle": "Синтаксис и знаки препинания в NoSQL-запросах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/3"
+}

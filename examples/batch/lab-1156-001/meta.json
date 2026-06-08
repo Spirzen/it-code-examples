@@ -1,0 +1,13 @@
+{
+  "title": "CLI — типовые сценарии (порты, процессы, dev-сервер) — Windows CMD",
+  "description": "Фрагмент из «CLI — типовые сценарии (порты, процессы, dev-сервер)»: Windows CMD.",
+  "tags": [
+    "lab",
+    "1156"
+  ],
+  "order": 1,
+  "series": "lab-1156",
+  "seriesOrder": 1,
+  "seriesTitle": "CLI — типовые сценарии (порты, процессы, dev-сервер)",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1156"
+}

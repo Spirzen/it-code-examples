@@ -1,0 +1,14 @@
+{
+  "title": "Полиморфизм - единый интерфейс для разных реализаций — Перегрузка",
+  "description": "Фрагмент из «Полиморфизм - единый интерфейс для разных реализаций»: Перегрузка.",
+  "tags": [
+    "oop",
+    "encyclopedia",
+    "5"
+  ],
+  "order": 3,
+  "series": "code-408-5",
+  "seriesOrder": 3,
+  "seriesTitle": "Полиморфизм - единый интерфейс для разных реализаций",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-08-oop/5"
+}

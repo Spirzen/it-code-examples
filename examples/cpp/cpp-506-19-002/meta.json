@@ -1,0 +1,14 @@
+{
+  "title": "Управление памятью в C++ — Пример — arena-аллокатор",
+  "description": "Фрагмент из «Управление памятью в C++»: Пример — arena-аллокатор.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "19"
+  ],
+  "order": 2,
+  "series": "cpp-506-19",
+  "seriesOrder": 2,
+  "seriesTitle": "Управление памятью в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/19"
+}

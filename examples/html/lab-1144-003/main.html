@@ -1,0 +1,14 @@
+<style>
+  .tab { padding: 0.5rem 1rem; border: 1px solid #cbd5e1; cursor: pointer; }
+  .tab.is-active { background: #2563eb; color: #fff; border-color: #2563eb; }
+</style>
+<button type="button" class="tab is-active" data-tab="a">Вкладка A</button>
+<button type="button" class="tab" data-tab="b">Вкладка B</button>
+<script>
+  document.querySelectorAll('.tab').forEach((tab) => {
+    tab.addEventListener('click', () => {
+      document.querySelectorAll('.tab').forEach((t) => t.classList.remove('is-active'));
+      tab.classList.add('is-active');
+    });
+  });
+</script>

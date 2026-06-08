@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Gin — Пример — middleware для API key",
+  "description": "Фрагмент из «Первая программа на Gin»: Пример — middleware для API key.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2412"
+  ],
+  "order": 3,
+  "series": "go-510-2412",
+  "seriesOrder": 3,
+  "seriesTitle": "Первая программа на Gin",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2412"
+}

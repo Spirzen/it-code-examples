@@ -1,0 +1,14 @@
+{
+  "title": "Проектирование баз данных — 2.1. Базовая таблица с аудитом и soft delete",
+  "description": "Фрагмент из «Проектирование баз данных»: 2.1. Базовая таблица с аудитом и soft delete.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-116"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-116",
+  "seriesOrder": 1,
+  "seriesTitle": "Проектирование баз данных",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design/116"
+}

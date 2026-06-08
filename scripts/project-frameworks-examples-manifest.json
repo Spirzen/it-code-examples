@@ -1,0 +1,65 @@
+{
+  "generatedAt": "2026-06-07T17:17:30.052Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-04-proekt-i-freymvorki",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "cpp/code-404-2-001",
+        "title": "C++ — модули (C++20)",
+        "section": "c-модули-c-20",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "2",
+        "slug": "ocaml/code-404-2-002",
+        "title": "OCaml — модули как первоклассные сущности",
+        "section": "ocaml-модули-как-первоклассные-сущности",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "2",
+        "slug": "python/code-404-2-003",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "2",
+        "slug": "javascript/code-404-2-004",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "2",
+        "slug": "csharp/code-404-2-005",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "2",
+        "slug": "java/code-404-2-006",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "2",
+        "slug": "rust/code-404-2-007",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 42
+      }
+    ]
+  }
+}

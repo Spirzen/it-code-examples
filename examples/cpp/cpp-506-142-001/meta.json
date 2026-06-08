@@ -1,0 +1,14 @@
+{
+  "title": "RTTI в C++ — typeid и dynamic_cast — typeid",
+  "description": "Фрагмент из «RTTI в C++ — typeid и dynamic_cast»: typeid.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "142"
+  ],
+  "order": 1,
+  "series": "cpp-506-142",
+  "seriesOrder": 1,
+  "seriesTitle": "RTTI в C++ — typeid и dynamic_cast",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/142"
+}

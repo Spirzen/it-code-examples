@@ -1,0 +1,14 @@
+{
+  "title": "Нормализация данных — Практика — декомпозиция \"Заказы\"",
+  "description": "Фрагмент из «Нормализация данных»: Практика — декомпозиция \"Заказы\".",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "104"
+  ],
+  "order": 1,
+  "series": "sql-104",
+  "seriesOrder": 1,
+  "seriesTitle": "Нормализация данных",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/104"
+}

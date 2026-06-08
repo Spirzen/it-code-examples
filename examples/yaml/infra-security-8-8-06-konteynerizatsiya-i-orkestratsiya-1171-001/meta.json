@@ -1,0 +1,14 @@
+{
+  "title": "Реализация Kubernetes — Упаковка микросервисов и недостающая информация",
+  "description": "Фрагмент из «Реализация Kubernetes»: Упаковка микросервисов и недостающая информация.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-1171"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171",
+  "seriesOrder": 1,
+  "seriesTitle": "Реализация Kubernetes",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/1171"
+}

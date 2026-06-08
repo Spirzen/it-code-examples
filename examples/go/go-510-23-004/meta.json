@@ -1,0 +1,14 @@
+{
+  "title": "Важные интерфейсы и типы Go — 5.3. Опциональное поведение через проверку интерфейса",
+  "description": "Фрагмент из «Важные интерфейсы и типы Go»: 5.3. Опциональное поведение через проверку интерфейса.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "23"
+  ],
+  "order": 4,
+  "series": "go-510-23",
+  "seriesOrder": 4,
+  "seriesTitle": "Важные интерфейсы и типы Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/23"
+}

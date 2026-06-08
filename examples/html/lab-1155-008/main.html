@@ -1,0 +1,27 @@
+<div class="toast" role="status">
+  <strong>Готово</strong>
+  <p>Настройки сохранены</p>
+</div>
+<style>
+.toast {
+  --bg: #fff;
+  --fg: #212529;
+  --accent: #7b68ee;
+  max-width: 16rem;
+  padding: 1rem 1.25rem;
+  border-left: 4px solid var(--accent);
+  background: var(--bg);
+  color: var(--fg);
+  border-radius: 8px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+  animation: toast-in 0.4s ease-out;
+}
+.toast p { margin: 0.25rem 0 0; font-size: 0.875rem; opacity: 0.85; }
+@keyframes toast-in {
+  from { opacity: 0; transform: translateY(-12px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+@media (prefers-color-scheme: dark) {
+  .toast { --bg: #2d2d3a; --fg: #f8f9fa; }
+}
+</style>

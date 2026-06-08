@@ -1,0 +1,14 @@
+{
+  "title": "Автоматическое управление памятью — Unity: забыли Destroy после столкновения",
+  "description": "C# (Unity): Projectile остаётся достижимым, если не вызвать Destroy или SetActive(false).",
+  "tags": [
+    "garbage-collection",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 1,
+  "series": "code-415-1",
+  "seriesOrder": 1,
+  "seriesTitle": "Автоматическое управление памятью",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-15-sborka-musora/1"
+}

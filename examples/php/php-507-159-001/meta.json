@@ -1,0 +1,14 @@
+{
+  "title": "Обработка исключений в прикладном коде PHP — Базовая конструкция try / catch / finally",
+  "description": "Фрагмент из «Обработка исключений в прикладном коде PHP»: Базовая конструкция try / catch / finally.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "159"
+  ],
+  "order": 1,
+  "series": "php-507-159",
+  "seriesOrder": 1,
+  "seriesTitle": "Обработка исключений в прикладном коде PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/159"
+}

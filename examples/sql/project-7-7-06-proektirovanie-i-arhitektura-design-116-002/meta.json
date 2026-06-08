@@ -1,0 +1,14 @@
+{
+  "title": "Проектирование баз данных — 2.2. Ассоциативная таблица для M:N с дополнительными атрибутами",
+  "description": "Фрагмент из «Проектирование баз данных»: 2.2. Ассоциативная таблица для M:N с дополнительными атрибутами.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-116"
+  ],
+  "order": 2,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-116",
+  "seriesOrder": 2,
+  "seriesTitle": "Проектирование баз данных",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design/116"
+}

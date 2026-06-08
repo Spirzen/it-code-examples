@@ -1,0 +1,84 @@
+# SecretStore — описание подключения к Vault
+apiVersion: external-secrets.io/v1beta1
+kind: SecretStore
+metadata:
+  name: vault-backend
+  namespace: production
+spec:
+  provider:
+    vault:
+      server: "https://vault.internal:8200"
+      path: "secret"
+      version: "v2"
+      auth:
+        kubernetes:
+          mountPath: "kubernetes"
+          role: "myapp"
+          serviceAccountRef:
+            name: "myapp-sa"
+
+---
+# ExternalSecret — описание синхронизации
+apiVersion: external-secrets.io/v1beta1
+kind: ExternalSecret
+metadata:
+  name: database-credentials
+  namespace: production
+spec:
+  refreshInterval: 1h
+  secretStoreRef:
+    name: vault-backend
+    kind: SecretStore
+  
+  target:
+    name: database-credentials
+    creationPolicy: Owner
+    template:
+      type: Opaque
+      metadata:
+        labels:
+          app: myapp
+      data:
+        DATABASE_URL: "postgresql://{{ .username }}:{{ .password }}@{{ .host }}:{{ .port }}/{{ .database }}"
+  
+  data:
+    - secretKey: username
+      remoteRef:
+        key: production/database/main
+        property: username
+    - secretKey: password
+      remoteRef:
+        key: production/database/main
+        property: password
+    - secretKey: host
+      remoteRef:
+        key: production/database/main
+        property: host
+    - secretKey: port
+      remoteRef:
+        key: production/database/main
+        property: port
+    - secretKey: database
+      remoteRef:
+        key: production/database/main
+        property: database
+
+---
+# Использование в Pod
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: myapp
+  namespace: production
+spec:
+  template:
+    spec:
+      containers:
+        - name: app
+          image: myapp:latest
+          env:
+            - name: DATABASE_URL
+              valueFrom:
+                secretKeyRef:
+                  name: database-credentials
+                  key: DATABASE_URL

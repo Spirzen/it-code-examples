@@ -1,0 +1,13 @@
+{
+  "title": "Dockerfile — 10 типовых образов — 9. ASP.NET Core",
+  "description": "Фрагмент из «Dockerfile — 10 типовых образов»: 9. ASP.NET Core.",
+  "tags": [
+    "lab",
+    "11113"
+  ],
+  "order": 5,
+  "series": "lab-11113",
+  "seriesOrder": 5,
+  "seriesTitle": "Dockerfile — 10 типовых образов",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11113"
+}

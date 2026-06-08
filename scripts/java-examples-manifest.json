@@ -1,0 +1,2651 @@
+{
+  "generatedAt": "2026-06-07T21:22:11.057Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-03-java",
+  "articles": {
+    "12": [
+      {
+        "article": "12",
+        "slug": "xml/java-503-12-001",
+        "title": "pom.xml",
+        "section": "pom-xml",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "12",
+        "slug": "xml/java-503-12-002",
+        "title": "Обычный JAR — maven-jar-plugin",
+        "section": "обычный-jar-maven-jar-plugin",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "12",
+        "slug": "groovy/java-503-12-003",
+        "title": "build.gradle",
+        "section": "build-gradle",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "12",
+        "slug": "kotlin/java-503-12-004",
+        "title": "build.gradle",
+        "section": "build-gradle",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "xml/java-503-13-001",
+        "title": "Добавление юнит-теста",
+        "section": "добавление-юнит-теста",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "13",
+        "slug": "xml/java-503-13-002",
+        "title": "Запуск вне IDE",
+        "section": "запуск-вне-ide",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "java/java-503-15-001",
+        "title": "Целочисленные типы",
+        "section": "целочисленные-типы",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-002",
+        "title": "Вещественные (с плавающей точкой) типы",
+        "section": "вещественные-с-плавающей-точкой-типы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-003",
+        "title": "Вещественные (с плавающей точкой) типы",
+        "section": "вещественные-с-плавающей-точкой-типы",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-004",
+        "title": "Символьный тип `char`",
+        "section": "символьный-тип-char",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-005",
+        "title": "Булев тип `boolean`",
+        "section": "булев-тип-boolean",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-006",
+        "title": "Строка — `java.lang.String`",
+        "section": "строка-java-lang-string",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-007",
+        "title": "Массивы",
+        "section": "массивы",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-008",
+        "title": "Сравнение примитивов и ссылочных типов",
+        "section": "сравнение-примитивов-и-ссылочных-типов",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-009",
+        "title": "Преобразования типов",
+        "section": "преобразования-типов",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-010",
+        "title": "Упаковка и распаковка (boxing / unboxing)",
+        "section": "upakovka-i-raspakovka-boxing--unboxing",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-011",
+        "title": "Тип `var` и вывод типов",
+        "section": "тип-var-и-вывод-типов",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "15",
+        "slug": "java/java-503-15-012",
+        "title": "Записи (`record`) как типы данных",
+        "section": "записи-record-как-типы-данных",
+        "blocks": 1,
+        "lines": 51
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "java/java-503-16-001",
+        "title": "Ввод и вывод",
+        "section": "ввод-и-вывод",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "16",
+        "slug": "java/java-503-16-002",
+        "title": "Ввод и вывод",
+        "section": "ввод-и-вывод",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "16",
+        "slug": "java/java-503-16-003",
+        "title": "Ввод и вывод",
+        "section": "ввод-и-вывод",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "16",
+        "slug": "java/java-503-16-004",
+        "title": "Случайные числа",
+        "section": "случайные-числа",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "16",
+        "slug": "java/java-503-16-005",
+        "title": "Инициализация",
+        "section": "инициализация",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "java/java-503-17-001",
+        "title": "Сравнение",
+        "section": "сравнение",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-002",
+        "title": "Сравнение",
+        "section": "сравнение",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-003",
+        "title": "Сравнение",
+        "section": "сравнение",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-004",
+        "title": "Сравнение",
+        "section": "сравнение",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-005",
+        "title": "Сравнение",
+        "section": "сравнение",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-006",
+        "title": "Сравнение",
+        "section": "сравнение",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-007",
+        "title": "Класс Object",
+        "section": "класс-object",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-008",
+        "title": "Класс Object",
+        "section": "класс-object",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-009",
+        "title": "Класс Object",
+        "section": "класс-object",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-010",
+        "title": "Класс Object",
+        "section": "класс-object",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-011",
+        "title": "if-else",
+        "section": "if-else",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-012",
+        "title": "switch",
+        "section": "switch",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-013",
+        "title": "while",
+        "section": "while",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-014",
+        "title": "do-while",
+        "section": "do-while",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "17",
+        "slug": "java/java-503-17-015",
+        "title": "do-while",
+        "section": "do-while",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "java/java-503-18-001",
+        "title": "Объектно-ориентированное программирование в Java",
+        "section": "объектно-ориентированное-программирование-в-java",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-002",
+        "title": "Пример класса в Java",
+        "section": "пример-класса-в-java",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-003",
+        "title": "Конструктор",
+        "section": "конструктор",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-004",
+        "title": "Свойство (JavaBean convention)",
+        "section": "свойство-javabean-convention",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-005",
+        "title": "Основы ООП в Java",
+        "section": "основы-ооп-в-java",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-006",
+        "title": "Контекст текущего объекта",
+        "section": "контекст-текущего-объекта",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-007",
+        "title": "Внешний и вложенный класс",
+        "section": "внешний-и-вложенный-класс",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-008",
+        "title": "Наследование и вложенность",
+        "section": "наследование-и-вложенность",
+        "blocks": 1,
+        "lines": 109
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-009",
+        "title": "protected",
+        "section": "protected",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-010",
+        "title": "Статические блоки инициализации",
+        "section": "статические-блоки-инициализации",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-011",
+        "title": "Статические вложенные классы",
+        "section": "статические-вложенные-классы",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-012",
+        "title": "Правила наследования в Java",
+        "section": "правила-наследования-в-java",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-013",
+        "title": "Правила наследования в Java",
+        "section": "правила-наследования-в-java",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-014",
+        "title": "Правила наследования в Java",
+        "section": "правила-наследования-в-java",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-015",
+        "title": "virtual, override, final",
+        "section": "virtual-override-final",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-016",
+        "title": "virtual, override, final",
+        "section": "virtual-override-final",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-017",
+        "title": "virtual, override, final",
+        "section": "virtual-override-final",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-018",
+        "title": "virtual, override, final",
+        "section": "virtual-override-final",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-019",
+        "title": "Конструкторы и цепочка инициализации",
+        "section": "конструкторы-и-цепочка-инициализации",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-020",
+        "title": "Когда использовать наследование — и когда избегать",
+        "section": "когда-использовать-наследование-и-когда-избегать",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-021",
+        "title": "Статический полиморфизм — перегрузка (overloading)",
+        "section": "статический-полиморфизм-перегрузка-overloading",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-022",
+        "title": "Полиморфизм и интерфейсы",
+        "section": "полиморфизм-и-интерфейсы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-023",
+        "title": "Абстрактные классы",
+        "section": "абстрактные-классы",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-024",
+        "title": "abstract",
+        "section": "abstract",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-025",
+        "title": "Когда использовать интерфейс, а когда абстрактный класс?",
+        "section": "когда-использовать-интерфейс-а-когда-абстрактный",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-026",
+        "title": "Эволюция абстракции — запечатанные классы (sealed classes) — Java 17+",
+        "section": "эволюция-абстракции-запечатанные-классы-sealed-c",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-027",
+        "title": "Объединение принципов",
+        "section": "объединение-принципов",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-028",
+        "title": "`clone()` — антипаттерн, которого следует избегать",
+        "section": "clone-антипаттерн-которого-следует-избегать",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-029",
+        "title": "Пример простейшей игры на Java",
+        "section": "пример-простейшей-игры-на-java",
+        "blocks": 1,
+        "lines": 416
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-030",
+        "title": "Ещё один пример",
+        "section": "ещё-один-пример",
+        "blocks": 1,
+        "lines": 279
+      },
+      {
+        "article": "18",
+        "slug": "java/java-503-18-031",
+        "title": "Пример - игра \"Три в ряд\"",
+        "section": "пример-игра-три-в-ряд",
+        "blocks": 1,
+        "lines": 483
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "java/java-503-19-001",
+        "title": "Анонимные классы",
+        "section": "анонимные-классы",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "20": [
+      {
+        "article": "20",
+        "slug": "java/java-503-20-001",
+        "title": "13. Работа с электронной почтой",
+        "section": "13-работа-с-электронной-почтой",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "20",
+        "slug": "java/java-503-20-002",
+        "title": "16. Работа с WebSocket",
+        "section": "16-работа-с-websocket",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "20",
+        "slug": "java/java-503-20-003",
+        "title": "21. Работа с датами и временем",
+        "section": "21-работа-с-датами-и-временем",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "20",
+        "slug": "java/java-503-20-004",
+        "title": "Практика — `Period` и `Duration`",
+        "section": "практика-period-и-duration",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "20",
+        "slug": "java/java-503-20-005",
+        "title": "22. Работа с командной строкой",
+        "section": "22-работа-с-командной-строкой",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "java/java-503-21-001",
+        "title": "Создание пользовательских исключений",
+        "section": "создание-пользовательских-исключений",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "xml/java-503-22-001",
+        "title": "Этап 2. Подключение JDBC-драйвера",
+        "section": "этап-2-подключение-jdbc-драйвера",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-002",
+        "title": "Этап 5. Формирование и выполнение запросов",
+        "section": "этап-5-формирование-и-выполнение-запросов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-003",
+        "title": "Этап 5. Формирование и выполнение запросов",
+        "section": "этап-5-формирование-и-выполнение-запросов",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-004",
+        "title": "1. Аннотации для описания сущностей",
+        "section": "1-аннотации-для-описания-сущностей",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-005",
+        "title": "2. `EntityManager` — центр управления состоянием",
+        "section": "2-entitymanager-центр-управления-состоянием",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "text/java-503-22-006",
+        "title": "Настройка Hibernate",
+        "section": "настройка-hibernate",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-007",
+        "title": "Базовый репозиторий",
+        "section": "базовый-репозиторий",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-008",
+        "title": "Спецификации и Querydsl",
+        "section": "спецификации-и-querydsl",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-009",
+        "title": "Декларативные транзакции в Spring",
+        "section": "декларативные-транзакции-в-spring",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "yaml/java-503-22-010",
+        "title": "Liquibase",
+        "section": "liquibase",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-011",
+        "title": "Стратегии",
+        "section": "стратегии",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-012",
+        "title": "1. Чистый JDBC + HikariCP",
+        "section": "1-чистый-jdbc-hikaricp",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-013",
+        "title": "1. Чистый JDBC + HikariCP",
+        "section": "1-чистый-jdbc-hikaricp",
+        "blocks": 1,
+        "lines": 152
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-014",
+        "title": "2. JPA (Hibernate) — сущность и `EntityManager`",
+        "section": "2-jpa-hibernate-сущность-и-entitymanager",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-015",
+        "title": "2. JPA (Hibernate) — сущность и `EntityManager`",
+        "section": "2-jpa-hibernate-сущность-и-entitymanager",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-016",
+        "title": "2. JPA (Hibernate) — сущность и `EntityManager`",
+        "section": "2-jpa-hibernate-сущность-и-entitymanager",
+        "blocks": 1,
+        "lines": 86
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-017",
+        "title": "3. Spring Data JPA",
+        "section": "3-spring-data-jpa",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-018",
+        "title": "3. Spring Data JPA",
+        "section": "3-spring-data-jpa",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-019",
+        "title": "4. Spring Data R2DBC (реактивный)",
+        "section": "4-spring-data-r2dbc-реактивный",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-020",
+        "title": "4. Spring Data R2DBC (реактивный)",
+        "section": "4-spring-data-r2dbc-реактивный",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "22",
+        "slug": "java/java-503-22-021",
+        "title": "4. Spring Data R2DBC (реактивный)",
+        "section": "4-spring-data-r2dbc-реактивный",
+        "blocks": 1,
+        "lines": 46
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "java/java-503-23-001",
+        "title": "JVM",
+        "section": "jvm",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-002",
+        "title": "JVM",
+        "section": "jvm",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-003",
+        "title": "Куча",
+        "section": "куча",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-004",
+        "title": "Куча",
+        "section": "куча",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-005",
+        "title": "Куча",
+        "section": "куча",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-006",
+        "title": "Куча",
+        "section": "куча",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-007",
+        "title": "Куча",
+        "section": "куча",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-008",
+        "title": "Пул строк",
+        "section": "пул-строк",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-009",
+        "title": "Пул строк",
+        "section": "пул-строк",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-010",
+        "title": "Metaspace",
+        "section": "metaspace",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-011",
+        "title": "Metaspace",
+        "section": "metaspace",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-012",
+        "title": "Сборщики и регионы G1",
+        "section": "сборщики-и-регионы-g1",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-013",
+        "title": "Жизненный цикл объекта",
+        "section": "жизненный-цикл-объекта",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-014",
+        "title": "Как создать поток?",
+        "section": "как-создать-поток",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-015",
+        "title": "Как создать поток?",
+        "section": "как-создать-поток",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-016",
+        "title": "Blocked",
+        "section": "blocked",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-017",
+        "title": "Waiting",
+        "section": "waiting",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-018",
+        "title": "Terminated",
+        "section": "terminated",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-019",
+        "title": "Гонка данных (race condition)",
+        "section": "гонка-данных-race-condition",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-020",
+        "title": "Синхронизация",
+        "section": "синхронизация",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-021",
+        "title": "Синхронизация",
+        "section": "синхронизация",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-022",
+        "title": "Синхронизация",
+        "section": "синхронизация",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-023",
+        "title": "JMM",
+        "section": "jmm",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-024",
+        "title": "Видимость",
+        "section": "видимость",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-025",
+        "title": "Упорядоченность",
+        "section": "упорядоченность",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "23",
+        "slug": "java/java-503-23-026",
+        "title": "Упорядоченность",
+        "section": "упорядоченность",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "java/java-503-24-001",
+        "title": "ArrayList",
+        "section": "arraylist",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "24",
+        "slug": "java/java-503-24-002",
+        "title": "Set",
+        "section": "set",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "24",
+        "slug": "java/java-503-24-003",
+        "title": "Map",
+        "section": "map",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "24",
+        "slug": "java/java-503-24-004",
+        "title": "Queue",
+        "section": "queue",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "24",
+        "slug": "java/java-503-24-005",
+        "title": "Общие методы коллекций",
+        "section": "общие-методы-коллекций",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "java/java-503-25-001",
+        "title": "От managed beans к CDI-бинам",
+        "section": "от-managed-beans-к-cdi-бинам",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "25",
+        "slug": "java/java-503-25-002",
+        "title": "1. **Unit-тестирование бинов и сервисов**",
+        "section": "1-unit-тестирование-бинов-и-сервисов",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "26": [
+      {
+        "article": "26",
+        "slug": "java/java-503-26-001",
+        "title": "Примеры корректных и некорректных свойств",
+        "section": "примеры-корректных-и-некорректных-свойств",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "27": [
+      {
+        "article": "27",
+        "slug": "java/java-503-27-001",
+        "title": "Конфигурация — Java DSL",
+        "section": "конфигурация-java-dsl",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "27",
+        "slug": "java/java-503-27-002",
+        "title": "Расширение через `BeanPostProcessor` и `BeanFactoryPostProcessor`",
+        "section": "расширение-через-beanpostprocessor-и-beanfactory",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "27",
+        "slug": "java/java-503-27-003",
+        "title": "CQRS (Command Query Responsibility Segregation)",
+        "section": "cqrs-command-query-responsibility-segregation",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "java/java-503-101-001",
+        "title": "1.4. Именование переменных и параметров",
+        "section": "1-4-именование-переменных-и-параметров",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-002",
+        "title": "2.2. Фигурные скобки и стиль Олмана",
+        "section": "2-2-фигурные-скобки-и-стиль-олмана",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-003",
+        "title": "4.1. Принцип единственной ответственности",
+        "section": "4-1-принцип-единственной-ответственности",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-004",
+        "title": "4.2. Инкапсуляция и сокрытие реализации",
+        "section": "4-2-инкапсуляция-и-сокрытие-реализации",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-005",
+        "title": "4.3. Неизменяемость",
+        "section": "4-3-неизменяемость",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-006",
+        "title": "4.4. Интерфейсы и абстракции",
+        "section": "4-4-интерфейсы-и-абстракции",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-007",
+        "title": "5.1. Длина и сложность методов",
+        "section": "5-1-длина-и-сложность-методов",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-008",
+        "title": "5.2. Количество параметров",
+        "section": "5-2-количество-параметров",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-009",
+        "title": "5.3. Побочные эффекты",
+        "section": "5-3-побочные-эффекты",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-010",
+        "title": "6.1. Использование исключений по назначению",
+        "section": "6-1-использование-исключений-по-назначению",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-011",
+        "title": "6.2. Типы исключений",
+        "section": "6-2-типы-исключений",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-012",
+        "title": "6.4. Освобождение ресурсов",
+        "section": "6-4-освобождение-ресурсов",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-013",
+        "title": "7.2. Потоки (Streams API)",
+        "section": "7-2-потоки-streams-api",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-014",
+        "title": "7.3. Избегание модификации коллекций во время итерации",
+        "section": "7-3-избегание-модификации-коллекций-во-время-ите",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-015",
+        "title": "8.2. Обработка ошибок в асинхронном коде",
+        "section": "8-2-обработка-ошибок-в-асинхронном-коде",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-016",
+        "title": "9.2. Javadoc для публичного API",
+        "section": "9-2-javadoc-для-публичного-api",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-017",
+        "title": "9.3. Комментарии для сложной логики",
+        "section": "9-3-комментарии-для-сложной-логики",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-018",
+        "title": "10.1. Структура тестов",
+        "section": "10-1-структура-тестов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-019",
+        "title": "10.2. Принцип AAA (Arrange-Act-Assert)",
+        "section": "10-2-принцип-aaa-arrange-act-assert",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-020",
+        "title": "10.3. Тестирование граничных значений",
+        "section": "10-3-тестирование-граничных-значений",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-021",
+        "title": "10.4. Mock-объекты и зависимости",
+        "section": "10-4-mock-объекты-и-зависимости",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-022",
+        "title": "11.2. Эффективная работа со строками",
+        "section": "11-2-эффективная-работа-со-строками",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-023",
+        "title": "11.3. Кэширование результатов",
+        "section": "11-3-кэширование-результатов",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-024",
+        "title": "11.4. Ленивая инициализация",
+        "section": "11-4-ленивая-инициализация",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-025",
+        "title": "12.1. Валидация входных данных",
+        "section": "12-1-валидация-входных-данных",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-026",
+        "title": "12.2. Защита от SQL-инъекций",
+        "section": "12-2-защита-от-sql-инъекций",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-027",
+        "title": "12.3. Хеширование паролей",
+        "section": "12-3-хеширование-паролей",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-028",
+        "title": "12.4. Защита от XSS",
+        "section": "12-4-защита-от-xss",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-029",
+        "title": "13.1. Уровни логирования",
+        "section": "13-1-уровни-логирования",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-030",
+        "title": "13.2. Структурированное логирование",
+        "section": "13-2-структурированное-логирование",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-031",
+        "title": "14.1. Использование java.time",
+        "section": "14-1-использование-java-time",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-032",
+        "title": "14.2. Работа с часовыми поясами",
+        "section": "14-2-работа-с-часовыми-поясами",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-033",
+        "title": "15.1. Потоковая обработка больших файлов",
+        "section": "15-1-потоковая-обработка-больших-файлов",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-034",
+        "title": "15.2. Работа с ресурсами классов",
+        "section": "15-2-работа-с-ресурсами-классов",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-035",
+        "title": "16.1. Синхронизация и блокировки",
+        "section": "16-1-синхронизация-и-блокировки",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-036",
+        "title": "16.2. Потокобезопасные коллекции",
+        "section": "16-2-потокобезопасные-коллекции",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-037",
+        "title": "16.3. CompletableFuture для асинхронных операций",
+        "section": "16-3-completablefuture-для-асинхронных-операций",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-038",
+        "title": "17.2. Избегайте глубокой вложенности",
+        "section": "17-2-избегайте-глубокой-вложенности",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-039",
+        "title": "17.3. Избегайте магических чисел и строк",
+        "section": "17-3-избегайте-магических-чисел-и-строк",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-040",
+        "title": "17.4. Избегайте длинных методов",
+        "section": "17-4-избегайте-длинных-методов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-041",
+        "title": "18.3. Агрегаты и границы транзакций",
+        "section": "18-3-агрегаты-и-границы-транзакций",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-042",
+        "title": "18.4. Событийно-ориентированная архитектура",
+        "section": "18-4-событийно-ориентированная-архитектура",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-043",
+        "title": "19.1. Репозитории и спецификации",
+        "section": "19-1-репозитории-и-спецификации",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-044",
+        "title": "19.1. Репозитории и спецификации",
+        "section": "19-1-репозитории-и-спецификации",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "101",
+        "slug": "sql/java-503-101-045",
+        "title": "19.3. Миграции базы данных",
+        "section": "19-3-миграции-базы-данных",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-046",
+        "title": "20.1. Конструкторная инъекция",
+        "section": "20-1-конструкторная-инъекция",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-047",
+        "title": "20.2. Конфигурационные свойства",
+        "section": "20-2-конфигурационные-свойства",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-048",
+        "title": "21.1. Стратегии версионирования",
+        "section": "21-1-стратегии-версионирования",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-049",
+        "title": "22.1. Аннотации валидации Jakarta Bean Validation",
+        "section": "22-1-аннотации-валидации-jakarta-bean-validation",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-050",
+        "title": "22.2. Кастомные валидаторы",
+        "section": "22-2-кастомные-валидаторы",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-051",
+        "title": "23.1. Сбор метрик приложения",
+        "section": "23-1-сбор-метрик-приложения",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-052",
+        "title": "23.2. Распределённое трассирование",
+        "section": "23-2-распределённое-трассирование",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-053",
+        "title": "24.2. Использование MessageLookup",
+        "section": "24-2-использование-messagelookup",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-054",
+        "title": "25.1. Health checks",
+        "section": "25-1-health-checks",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-055",
+        "title": "25.2. Graceful shutdown",
+        "section": "25-2-graceful-shutdown",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-056",
+        "title": "26.1. Хранение дат рождения",
+        "section": "26-1-хранение-дат-рождения",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-057",
+        "title": "26.2. Защита персональных данных",
+        "section": "26-2-защита-персональных-данных",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "101",
+        "slug": "text/java-503-101-058",
+        "title": "27.1. Форматирование кода с Spotless",
+        "section": "27-1-форматирование-кода-с-spotless",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "101",
+        "slug": "text/java-503-101-059",
+        "title": "27.2. Статический анализ с SonarQube",
+        "section": "27-2-статический-анализ-с-sonarqube",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "java/java-503-101-060",
+        "title": "27.3. Генерация документации API",
+        "section": "27-3-генерация-документации-api",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "110": [
+      {
+        "article": "110",
+        "slug": "java/java-503-110-001",
+        "title": "Apache Kafka и потоковая обработка событий",
+        "section": "apache-kafka-и-потоковая-обработка-событий",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "110",
+        "slug": "java/java-503-110-002",
+        "title": "Apache Hadoop",
+        "section": "apache-hadoop",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "110",
+        "slug": "java/java-503-110-003",
+        "title": "Jakarta NoSQL",
+        "section": "jakarta-nosql",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "110",
+        "slug": "java/java-503-110-004",
+        "title": "JMH — точное измерение производительности",
+        "section": "jmh-точное-измерение-производительности",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "121": [
+      {
+        "article": "121",
+        "slug": "text/java-503-121-001",
+        "title": "3.2. Файлы политики (`.policy`)",
+        "section": "3-2-файлы-политики-policy",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "121",
+        "slug": "xml/java-503-121-002",
+        "title": "4.3. Logback",
+        "section": "4-3-logback",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "121",
+        "slug": "xml/java-503-121-003",
+        "title": "4.4. Log4j 2",
+        "section": "4-4-log4j-2",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "121",
+        "slug": "bash/java-503-121-004",
+        "title": "6.5. `jpackage` — сборка native-установщиков",
+        "section": "6-5-jpackage-сборка-native-установщиков",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "121",
+        "slug": "text/java-503-121-005",
+        "title": "8.2. Синтаксис `application.properties` и `application.yml`",
+        "section": "8-2-синтаксис-application-properties-и-applicati",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "121",
+        "slug": "yaml/java-503-121-006",
+        "title": "8.2. Синтаксис `application.properties` и `application.yml`",
+        "section": "8-2-синтаксис-application-properties-и-applicati",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "121",
+        "slug": "yaml/java-503-121-007",
+        "title": "8.3. Профили (`spring.profiles.active`)",
+        "section": "8-3-профили-spring-profiles-active",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "121",
+        "slug": "java/java-503-121-008",
+        "title": "9.4. Программное API — `Config`, `ConfigProvider`",
+        "section": "9-4-программное-api-config-configprovider",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "121",
+        "slug": "java/java-503-121-009",
+        "title": "9.5. CDI-инъекция — `@ConfigProperty`",
+        "section": "9-5-cdi-инъекция-configproperty",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "121",
+        "slug": "java/java-503-121-010",
+        "title": "9.7. Расширение — кастомные `ConfigSource`",
+        "section": "9-7-расширение-кастомные-configsource",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "121",
+        "slug": "java/java-503-121-011",
+        "title": "10.3. Прокси-настройки",
+        "section": "10-3-прокси-настройки",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "121",
+        "slug": "java/java-503-121-012",
+        "title": "10.4. TLS/SSL-конфигурация",
+        "section": "10-4-tls-ssl-конфигурация",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "121",
+        "slug": "java/java-503-121-013",
+        "title": "10.4. TLS/SSL-конфигурация",
+        "section": "10-4-tls-ssl-конфигурация",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "121",
+        "slug": "java/java-503-121-014",
+        "title": "10.9. Диагностика и отладка",
+        "section": "10-9-диагностика-и-отладка",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "131": [
+      {
+        "article": "131",
+        "slug": "java/java-503-131-001",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-002",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-003",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-004",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 78
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-005",
+        "title": "Простой HTTP-сервер и клиент",
+        "section": "простой-http-сервер-и-клиент",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-006",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-007",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-008",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-009",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-010",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-011",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-012",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-013",
+        "title": "Текстовая игра — композиция классов",
+        "section": "текстовая-игра-композиция-классов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-014",
+        "title": "Текстовая игра — композиция классов",
+        "section": "текстовая-игра-композиция-классов",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-015",
+        "title": "Текстовая игра — композиция классов",
+        "section": "текстовая-игра-композиция-классов",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-016",
+        "title": "Текстовая игра — композиция классов",
+        "section": "текстовая-игра-композиция-классов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-017",
+        "title": "Архитектура окна",
+        "section": "архитектура-окна",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-018",
+        "title": "Компоненты и обработка событий",
+        "section": "компоненты-и-обработка-событий",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "131",
+        "slug": "java/java-503-131-019",
+        "title": "Форма с валидацией",
+        "section": "форма-с-валидацией",
+        "blocks": 1,
+        "lines": 43
+      }
+    ],
+    "132": [
+      {
+        "article": "132",
+        "slug": "java/java-503-132-001",
+        "title": "Точка останова и запуск",
+        "section": "точка-останова-и-запуск",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "132",
+        "slug": "java/java-503-132-002",
+        "title": "Пример — отладка алгоритма",
+        "section": "пример-отладка-алгоритма",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "132",
+        "slug": "java/java-503-132-003",
+        "title": "Пример — отладка рекурсии",
+        "section": "пример-отладка-рекурсии",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "231": [
+      {
+        "article": "231",
+        "slug": "java/java-503-231-001",
+        "title": "Пример 2 — Поиск максимального элемента",
+        "section": "пример-2-поиск-максимального-элемента",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "231",
+        "slug": "java/java-503-231-002",
+        "title": "Пример 3 — Работа с двумерным массивом (матрицей)",
+        "section": "пример-3-работа-с-двумерным-массивом-матрицей",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "251": [
+      {
+        "article": "251",
+        "slug": "xml/java-503-251-001",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "251",
+        "slug": "xml/java-503-251-002",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "251",
+        "slug": "java/java-503-251-003",
+        "title": "Управляемый Bean (Managed Bean)",
+        "section": "управляемый-bean-managed-bean",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "251",
+        "slug": "xml/java-503-251-004",
+        "title": "Страница представления (XHTML)",
+        "section": "страница-представления-xhtml",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "251",
+        "slug": "css/java-503-251-005",
+        "title": "Стили оформления",
+        "section": "стили-оформления",
+        "blocks": 1,
+        "lines": 64
+      }
+    ],
+    "252": [
+      {
+        "article": "252",
+        "slug": "xml/java-503-252-001",
+        "title": "Этап 1 — `pom.xml`",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 93
+      },
+      {
+        "article": "252",
+        "slug": "xml/java-503-252-002",
+        "title": "`web.xml` — дескриптор web-приложения",
+        "section": "web-xml-дескриптор-web-приложения",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "252",
+        "slug": "java/java-503-252-003",
+        "title": "Этап 3 — модель `Task`",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "252",
+        "slug": "java/java-503-252-004",
+        "title": "Этап 4 — managed bean `TodoBean`",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "252",
+        "slug": "xml/java-503-252-005",
+        "title": "Этап 5 — страница `index.xhtml`, форма",
+        "section": "stage-5",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "252",
+        "slug": "xml/java-503-252-006",
+        "title": "Этап 6 — таблица, статистика и AJAX",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "252",
+        "slug": "css/java-503-252-007",
+        "title": "Этап 7 — стили CSS",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 148
+      }
+    ],
+    "253": [
+      {
+        "article": "253",
+        "slug": "xml/java-503-253-001",
+        "title": "Зависимости и JDK-модули",
+        "section": "зависимости-и-jdk-модули",
+        "blocks": 1,
+        "lines": 77
+      },
+      {
+        "article": "253",
+        "slug": "java/java-503-253-002",
+        "title": "Зачем отдельная model, а не `boolean`",
+        "section": "зачем-отдельная-model-а-не-boolean",
+        "blocks": 1,
+        "lines": 82
+      },
+      {
+        "article": "253",
+        "slug": "java/java-503-253-003",
+        "title": "Два публичных метода `validate`",
+        "section": "два-публичных-метода-validate",
+        "blocks": 1,
+        "lines": 120
+      },
+      {
+        "article": "253",
+        "slug": "java/java-503-253-004",
+        "title": "Компоненты Swing в этой панели",
+        "section": "компоненты-swing-в-этой-панели",
+        "blocks": 1,
+        "lines": 93
+      },
+      {
+        "article": "253",
+        "slug": "java/java-503-253-005",
+        "title": "Машина состояний UI",
+        "section": "машина-состояний-ui",
+        "blocks": 1,
+        "lines": 83
+      },
+      {
+        "article": "253",
+        "slug": "java/java-503-253-006",
+        "title": "Почему `SwingWorker`, а не голый `Thread`",
+        "section": "почему-swingworker-а-не-голый-thread",
+        "blocks": 1,
+        "lines": 141
+      },
+      {
+        "article": "253",
+        "slug": "xml/java-503-253-007",
+        "title": "Схема `book.xsd`",
+        "section": "схема-book-xsd",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "253",
+        "slug": "java/java-503-253-008",
+        "title": "Unit-тест сервиса",
+        "section": "unit-тест-сервиса",
+        "blocks": 1,
+        "lines": 59
+      }
+    ],
+    "254": [
+      {
+        "article": "254",
+        "slug": "xml/java-503-254-001",
+        "title": "Этап 1 — `pom.xml`",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "254",
+        "slug": "java/java-503-254-002",
+        "title": "Этап 4 — сущность `Customer`",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 121
+      },
+      {
+        "article": "254",
+        "slug": "java/java-503-254-003",
+        "title": "Этап 6 — `CustomerService` и исключение",
+        "section": "stage-6",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "254",
+        "slug": "java/java-503-254-004",
+        "title": "Этап 7 — `CustomerRestController`",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "254",
+        "slug": "java/java-503-254-005",
+        "title": "Этап 8 — `RestExceptionHandler`",
+        "section": "stage-8",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "254",
+        "slug": "java/java-503-254-006",
+        "title": "Этап 9 — `DataInitializer`",
+        "section": "stage-9",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "254",
+        "slug": "java/java-503-254-007",
+        "title": "Этап 10 — `CustomerWebController`",
+        "section": "stage-10",
+        "blocks": 1,
+        "lines": 89
+      },
+      {
+        "article": "254",
+        "slug": "html/java-503-254-008",
+        "title": "Этап 11 — шаблон `list.html`",
+        "section": "stage-11",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "254",
+        "slug": "html/java-503-254-009",
+        "title": "Этап 12 — шаблон `form.html`",
+        "section": "stage-12",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "254",
+        "slug": "css/java-503-254-010",
+        "title": "Этап 13 — `style.css`",
+        "section": "stage-13",
+        "blocks": 1,
+        "lines": 292
+      }
+    ],
+    "261": [
+      {
+        "article": "261",
+        "slug": "xml/java-503-261-001",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "261",
+        "slug": "java/java-503-261-002",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "261",
+        "slug": "java/java-503-261-003",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 59
+      }
+    ],
+    "271": [
+      {
+        "article": "271",
+        "slug": "bash/java-503-271-001",
+        "title": "Что получится",
+        "section": "что-получится",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "271",
+        "slug": "java/java-503-271-002",
+        "title": "Что получится",
+        "section": "что-получится",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "271",
+        "slug": "java/java-503-271-003",
+        "title": "Что получится",
+        "section": "что-получится",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "271",
+        "slug": "java/java-503-271-004",
+        "title": "Что получится",
+        "section": "что-получится",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "272": [
+      {
+        "article": "272",
+        "slug": "java/java-503-272-001",
+        "title": "Как выглядит запрос с Basic-авторизацией",
+        "section": "как-выглядит-запрос-с-basic-авторизацией",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "272",
+        "slug": "java/java-503-272-002",
+        "title": "Как выглядит запрос с Basic-авторизацией",
+        "section": "как-выглядит-запрос-с-basic-авторизацией",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "272",
+        "slug": "java/java-503-272-003",
+        "title": "Как выглядит запрос с Basic-авторизацией",
+        "section": "как-выглядит-запрос-с-basic-авторизацией",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "273": [
+      {
+        "article": "273",
+        "slug": "xml/java-503-273-001",
+        "title": "Зависимости (Maven)",
+        "section": "зависимости-maven",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "273",
+        "slug": "java/java-503-273-002",
+        "title": "Зависимости (Maven)",
+        "section": "зависимости-maven",
+        "blocks": 1,
+        "lines": 41
+      }
+    ],
+    "274": [
+      {
+        "article": "274",
+        "slug": "java/java-503-274-001",
+        "title": "Что получится",
+        "section": "что-получится",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "274",
+        "slug": "java/java-503-274-002",
+        "title": "Что получится",
+        "section": "что-получится",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "274",
+        "slug": "java/java-503-274-003",
+        "title": "Что получится",
+        "section": "что-получится",
+        "blocks": 1,
+        "lines": 44
+      }
+    ],
+    "275": [
+      {
+        "article": "275",
+        "slug": "java/java-503-275-001",
+        "title": "Пример — фрагмент prod-конфигурации",
+        "section": "пример-фрагмент-prod-конфигурации",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "291": [
+      {
+        "article": "291",
+        "slug": "java/java-503-291-001",
+        "title": "JUnit 5 — основы",
+        "section": "junit-5-основы",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "291",
+        "slug": "java/java-503-291-002",
+        "title": "Mockito",
+        "section": "mockito",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "292": [
+      {
+        "article": "292",
+        "slug": "kotlin/java-503-292-001",
+        "title": "build.gradle.kts (минимум)",
+        "section": "build-gradle-kts-минимум",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "293": [
+      {
+        "article": "293",
+        "slug": "java/java-503-293-001",
+        "title": "Сущность",
+        "section": "сущность",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "293",
+        "slug": "java/java-503-293-002",
+        "title": "REST-контроллер",
+        "section": "rest-контроллер",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "293",
+        "slug": "java/java-503-293-003",
+        "title": "Сервисный слой и транзакции",
+        "section": "сервисный-слой-и-транзакции",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "293",
+        "slug": "java/java-503-293-004",
+        "title": "Связи сущностей на минимальном примере",
+        "section": "связи-сущностей-на-минимальном-примере",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "294": [
+      {
+        "article": "294",
+        "slug": "yaml/java-503-294-001",
+        "title": "Мини-пайплайн GitHub Actions для Java",
+        "section": "мини-пайплайн-github-actions-для-java",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "298": [
+      {
+        "article": "298",
+        "slug": "java/java-503-298-001",
+        "title": "CompletableFuture",
+        "section": "completablefuture",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "302": [
+      {
+        "article": "302",
+        "slug": "java/java-503-302-001",
+        "title": "Пример — учебная утечка",
+        "section": "пример-учебная-утечка",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "303": [
+      {
+        "article": "303",
+        "slug": "java/java-503-303-001",
+        "title": "Простой сервис (в памяти)",
+        "section": "простой-сервис-в-памяти",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "303",
+        "slug": "java/java-503-303-002",
+        "title": "Контроллер",
+        "section": "контроллер",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "303",
+        "slug": "java/java-503-303-003",
+        "title": "@ControllerAdvice",
+        "section": "controlleradvice",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "304": [
+      {
+        "article": "304",
+        "slug": "java/java-503-304-001",
+        "title": "DI и компоненты",
+        "section": "di-и-компоненты",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "304",
+        "slug": "java/java-503-304-002",
+        "title": "Web (Spring MVC)",
+        "section": "web-spring-mvc",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "304",
+        "slug": "java/java-503-304-003",
+        "title": "Условная загрузка и профили",
+        "section": "условная-загрузка-и-профили",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "311": [
+      {
+        "article": "311",
+        "slug": "java/java-503-311-001",
+        "title": "Архитектура JavaFX",
+        "section": "архитектура-javafx",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-002",
+        "title": "Пример простого приложения с кнопкой",
+        "section": "пример-простого-приложения-с-кнопкой",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-003",
+        "title": "Инициализация приложения",
+        "section": "инициализация-приложения",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "311",
+        "slug": "xml/java-503-311-004",
+        "title": "Подключение JavaFX через Maven",
+        "section": "подключение-javafx-через-maven",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-005",
+        "title": "Контролы JavaFX",
+        "section": "контролы-javafx",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-006",
+        "title": "Динамическое обновление текста и привязки",
+        "section": "динамическое-обновление-текста-и-привязки",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-007",
+        "title": "FXML и контроллер",
+        "section": "fxml-и-контроллер",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-008",
+        "title": "Swing — встроенный GUI JDK",
+        "section": "swing-встроенный-gui-jdk",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-009",
+        "title": "Таймер обратного отсчёта (JavaFX)",
+        "section": "таймер-обратного-отсчёта-javafx",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-010",
+        "title": "Форма входа с валидацией (JavaFX)",
+        "section": "форма-входа-с-валидацией-javafx",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "311",
+        "slug": "java/java-503-311-011",
+        "title": "Таблица и меню (Swing)",
+        "section": "таблица-и-меню-swing",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "3111": [
+      {
+        "article": "3111",
+        "slug": "xml/java-503-3111-001",
+        "title": "Подготовка проекта (Maven)",
+        "section": "подготовка-проекта-maven",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "3111",
+        "slug": "xml/java-503-3111-002",
+        "title": "Запуск — Maven, IDEA и module-path",
+        "section": "запуск-maven-idea-и-module-path",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "3111",
+        "slug": "java/java-503-3111-003",
+        "title": "Минимальное окно",
+        "section": "минимальное-окно",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "3111",
+        "slug": "java/java-503-3111-004",
+        "title": "Конвертер температуры",
+        "section": "конвертер-температуры",
+        "blocks": 1,
+        "lines": 81
+      },
+      {
+        "article": "3111",
+        "slug": "java/java-503-3111-005",
+        "title": "Каркас — BorderPane, заголовок, вкладки и статус",
+        "section": "каркас-borderpane-заголовок-вкладки-и-статус",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "3111",
+        "slug": "java/java-503-3111-006",
+        "title": "Кнопка \"Применить\" и сбор данных формы",
+        "section": "кнопка-применить-и-сбор-данных-формы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3111",
+        "slug": "java/java-503-3111-007",
+        "title": "Вкладка \"Прогресс\"",
+        "section": "вкладка-прогресс",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "3111",
+        "slug": "java/java-503-3111-008",
+        "title": "Диалоги и меню",
+        "section": "диалоги-и-меню",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "3112": [
+      {
+        "article": "3112",
+        "slug": "java/java-503-3112-001",
+        "title": "Главное окно (Stage + Scene)",
+        "section": "главное-окно-stage-scene",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3112",
+        "slug": "java/java-503-3112-002",
+        "title": "Контейнер (VBox / GridPane / BorderPane)",
+        "section": "контейнер-vbox-gridpane-borderpane",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "3112",
+        "slug": "java/java-503-3112-003",
+        "title": "DataGrid (TableView)",
+        "section": "datagrid-tableview",
+        "blocks": 1,
+        "lines": 22
+      }
+    ]
+  }
+}

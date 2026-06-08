@@ -1,0 +1,14 @@
+{
+  "title": "ORM на практике — Паттерны проектирования в ORM",
+  "description": "Фрагмент из «ORM на практике»: Паттерны проектирования в ORM.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "118"
+  ],
+  "order": 10,
+  "series": "code-410-118",
+  "seriesOrder": 10,
+  "seriesTitle": "ORM на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/118"
+}

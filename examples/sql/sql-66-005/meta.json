@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL по JSONB — Шаг 9 — готовый мини-набор запросов для практики",
+  "description": "Фрагмент из «Практикум PostgreSQL по JSONB»: Шаг 9 — готовый мини-набор запросов для практики.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "66"
+  ],
+  "order": 5,
+  "series": "sql-66",
+  "seriesOrder": 5,
+  "seriesTitle": "Практикум PostgreSQL по JSONB",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/66"
+}

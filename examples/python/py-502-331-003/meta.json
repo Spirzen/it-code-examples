@@ -1,0 +1,14 @@
+{
+  "title": "Pandas — объединение таблиц, своды и временные ряды — Типовой мини-пайплайн \"CSV → отчёт\"",
+  "description": "Фрагмент из «Pandas — объединение таблиц, своды и временные ряды»: Типовой мини-пайплайн \"CSV → отчёт\".",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "331"
+  ],
+  "order": 3,
+  "series": "py-502-331",
+  "seriesOrder": 3,
+  "seriesTitle": "Pandas — объединение таблиц, своды и временные ряды",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/331"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL по JSONB — Шаг 2 — наполнение данными",
+  "description": "Фрагмент из «Практикум PostgreSQL по JSONB»: Шаг 2 — наполнение данными.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "66"
+  ],
+  "order": 2,
+  "series": "sql-66",
+  "seriesOrder": 2,
+  "seriesTitle": "Практикум PostgreSQL по JSONB",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/66"
+}

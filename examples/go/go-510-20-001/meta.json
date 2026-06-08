@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Go — Пакет `database/sql` — контракт, а не реализация",
+  "description": "Фрагмент из «Работа с базами данных из Go»: Пакет `database/sql` — контракт, а не реализация.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "20"
+  ],
+  "order": 1,
+  "series": "go-510-20",
+  "seriesOrder": 1,
+  "seriesTitle": "Работа с базами данных из Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/20"
+}

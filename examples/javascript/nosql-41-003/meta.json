@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по MongoDB — Управление индексами",
+  "description": "Фрагмент из «Справочник по MongoDB»: Управление индексами.",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "41"
+  ],
+  "order": 3,
+  "series": "nosql-41",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по MongoDB",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/41"
+}

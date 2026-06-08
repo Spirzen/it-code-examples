@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package example.v1;
+
+import "google/protobuf/timestamp.proto";
+import "google/api/annotations.proto";
+
+option go_package = "example/v1;examplev1";
+option java_multiple_files = true;
+option java_package = "com.example.v1";
+option java_outer_classname = "ExampleProto";
+option csharp_namespace = "Example.V1";
+option objc_class_prefix = "EXM";
+option optimize_for = SPEED;
+
+// Внешние определения (custom options, расширения — только proto2)
+// extend google.protobuf.MessageOptions { ... }
+
+message MyRequest {
+  string user_id = 1;
+  int32 page = 2;
+}
+
+message MyResponse {
+  repeated string items = 1;
+  google.protobuf.Timestamp created_at = 2;
+}
+
+service ExampleService {
+  rpc GetItems(MyRequest) returns (MyResponse) {
+    option (google.api.http) = {
+      get: "/v1/items"
+    };
+  }
+}

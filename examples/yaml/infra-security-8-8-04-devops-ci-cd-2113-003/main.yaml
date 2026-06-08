@@ -1,0 +1,17 @@
+backend_pipeline:
+  stage: validate
+  trigger:
+    include: backend/.gitlab-ci.yml
+    strategy: depend
+  rules:
+    - changes:
+        - backend/**/*
+
+frontend_pipeline:
+  stage: validate
+  trigger:
+    include: frontend/.gitlab-ci.yml
+    strategy: depend
+  rules:
+    - changes:
+        - frontend/**/*

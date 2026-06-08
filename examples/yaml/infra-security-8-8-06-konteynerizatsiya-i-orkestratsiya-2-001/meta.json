@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Docker — Базовая структура",
+  "description": "Фрагмент из «Справочник по Docker»: Базовая структура.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-2"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Docker",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/2"
+}

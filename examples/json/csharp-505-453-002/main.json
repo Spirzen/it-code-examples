@@ -1,0 +1,20 @@
+{
+    "Logging": {
+        "LogLevel": {
+            "Default": "Information",
+            "Microsoft.AspNetCore": "Warning"
+        }
+    },
+    "AllowedHosts": "*",
+    "ConnectionStrings": {
+        "DefaultConnection": "Host=localhost;Port=5432;Database=s3_media_db;Username=postgres;Password=1"
+    },
+    "S3": {
+        "Endpoint": "http://localhost:9000",
+        "Region": "us-east-1",
+        "BucketName": "s3-media-manager-files",
+        "UseSSL": false,
+        "AccessKey": "minioadmin",
+        "SecretKey": "minioadmin"
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Простые приложения на Nim — HTTP (httpclient)",
+  "description": "Фрагмент из «Простые приложения на Nim»: HTTP (httpclient).",
+  "tags": [
+    "nim",
+    "encyclopedia",
+    "103"
+  ],
+  "order": 2,
+  "series": "nim-521-103",
+  "seriesOrder": 2,
+  "seriesTitle": "Простые приложения на Nim",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-21-nim/103"
+}

@@ -1,0 +1,23 @@
+@property --ring-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #235ad1;
+}
+
+@property --ring-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+.badge {
+  --ring-color: #5b8cff;
+  --ring-angle: 0deg;
+  background: conic-gradient(from var(--ring-angle), var(--ring-color), transparent);
+  transition: --ring-angle 400ms ease, --ring-color 300ms ease;
+}
+
+.badge:hover {
+  --ring-angle: 180deg;
+  --ring-color: #8b5cf6;
+}

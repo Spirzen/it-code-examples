@@ -1,0 +1,14 @@
+{
+  "title": "Архитектура выполнения и встраиваемость — Встраивание Lua в приложения на C/C++",
+  "description": "Фрагмент из «Архитектура выполнения и встраиваемость»: Встраивание Lua в приложения на C/C++.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 1,
+  "series": "lua-515-22",
+  "seriesOrder": 1,
+  "seriesTitle": "Архитектура выполнения и встраиваемость",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/22"
+}

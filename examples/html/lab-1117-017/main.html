@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru" class="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dark mode</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = { darkMode: 'class' };
+  </script>
+</head>
+<body class="min-h-dvh bg-white text-slate-900 dark:bg-slate-900 dark:text-slate-100">
+  <main class="mx-auto max-w-md p-8">
+    <h1 class="text-2xl font-bold">Тёмная тема</h1>
+    <p class="mt-2 text-slate-600 dark:text-slate-400">
+      Класс <code class="rounded bg-slate-200 px-1 dark:bg-slate-700">dark</code> на <code>&lt;html&gt;</code> включает варианты <code>dark:</code>.
+    </p>
+    <button
+      type="button"
+      onclick="document.documentElement.classList.toggle('dark')"
+      class="mt-4 rounded-lg bg-indigo-600 px-4 py-2 font-medium text-white hover:bg-indigo-500"
+    >
+      Переключить тему
+    </button>
+  </main>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "title": "C++ — олимпиадные шаблоны — BFS на сетке (лабиринт)",
+  "description": "Фрагмент из «C++ — олимпиадные шаблоны»: BFS на сетке (лабиринт).",
+  "tags": [
+    "lab",
+    "1125"
+  ],
+  "order": 7,
+  "series": "lab-1125",
+  "seriesOrder": 7,
+  "seriesTitle": "C++ — олимпиадные шаблоны",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1125"
+}

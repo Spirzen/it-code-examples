@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Debug Practice</title>
+</head>
+<body>
+  <button id="clickme">Нажми меня</button>
+  <p id="output"></p>
+
+  <script>
+    function sayHello(name) {
+      const age = 25;
+      const message = `Привет, ${name}! Тебе ${age} лет.`;
+      document.getElementById('output').textContent = message;
+      return message;
+    }
+
+    document.getElementById('clickme').addEventListener('click', () => {
+      const name = prompt('Как вас зовут?');
+      if (name) {
+        sayHello(name);
+      }
+    });
+  </script>
+</body>
+</html>

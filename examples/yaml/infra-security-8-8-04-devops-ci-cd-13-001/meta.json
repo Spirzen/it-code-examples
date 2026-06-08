@@ -1,0 +1,14 @@
+{
+  "title": "Особенности настройки и эксплуатации CI/CD-конвейеров — Предварительная валидация (pre-merge checks)",
+  "description": "Фрагмент из «Особенности настройки и эксплуатации CI/CD-конвейеров»: Предварительная валидация (pre-merge checks).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-13"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-13",
+  "seriesOrder": 1,
+  "seriesTitle": "Особенности настройки и эксплуатации CI/CD-конвейеров",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/13"
+}

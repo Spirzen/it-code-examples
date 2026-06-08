@@ -1,0 +1,14 @@
+components:
+  securitySchemes:
+    oauth2:
+      type: oauth2
+      flows:
+        implicit:
+          authorizationUrl: https://auth.example.com/oauth/authorize
+          scopes:
+            read: Чтение данных
+            write: Изменение данных
+        clientCredentials:
+          tokenUrl: https://auth.example.com/oauth/token
+          scopes:
+            admin: Полный доступ

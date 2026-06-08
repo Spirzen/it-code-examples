@@ -1,0 +1,14 @@
+{
+  "title": "Автоматизация задач и DevOps-скрипты — 3. Pre-commit хук для документации (`doc_validator.py`)",
+  "description": "Фрагмент из «Автоматизация задач и DevOps-скрипты»: 3. Pre-commit хук для документации (`doc_validator.py`).",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "35"
+  ],
+  "order": 3,
+  "series": "py-502-35",
+  "seriesOrder": 3,
+  "seriesTitle": "Автоматизация задач и DevOps-скрипты",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/35"
+}

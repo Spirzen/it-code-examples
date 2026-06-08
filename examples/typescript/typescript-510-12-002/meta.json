@@ -1,0 +1,14 @@
+{
+  "title": "Операторы и условные ветвления в TypeScript — Ветвления и тип `never`",
+  "description": "Фрагмент из «Операторы и условные ветвления в TypeScript»: Ветвления и тип `never`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 2,
+  "series": "typescript-510-12",
+  "seriesOrder": 2,
+  "seriesTitle": "Операторы и условные ветвления в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/12"
+}

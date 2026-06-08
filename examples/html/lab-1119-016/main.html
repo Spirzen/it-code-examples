@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>SVG + CSS</title>
+  <style>
+    body { margin: 0; display: grid; place-items: center; min-height: 100dvh; background: #0f172a; }
+    .pulse { animation: pulse 2s ease-in-out infinite; transform-origin: center; }
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.15); opacity: 0.85; }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .pulse { animation: none; }
+    }
+  </style>
+</head>
+<body>
+  <svg width="200" height="200" viewBox="0 0 200 200" class="pulse" role="img" aria-label="Пульсирующий круг">
+    <circle cx="100" cy="100" r="60" fill="#22d3ee"/>
+  </svg>
+</body>
+</html>

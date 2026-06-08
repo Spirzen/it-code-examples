@@ -1,0 +1,14 @@
+{
+  "title": "Логирование, мониторинг и наблюдаемость систем — Аудит покрытия метриками",
+  "description": "Фрагмент из «Логирование, мониторинг и наблюдаемость систем»: Аудит покрытия метриками.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-19"
+  ],
+  "order": 30,
+  "series": "infra-security-8-8-04-devops-ci-cd-19",
+  "seriesOrder": 30,
+  "seriesTitle": "Логирование, мониторинг и наблюдаемость систем",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/19"
+}

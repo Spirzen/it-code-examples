@@ -1,0 +1,14 @@
+{
+  "title": "DevOps — шпаргалка — Multi-stage и `.dockerignore`",
+  "description": "Фрагмент из «DevOps — шпаргалка»: Multi-stage и `.dockerignore`.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-118"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-118",
+  "seriesOrder": 1,
+  "seriesTitle": "DevOps — шпаргалка",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/118"
+}

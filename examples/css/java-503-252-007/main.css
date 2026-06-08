@@ -1,0 +1,147 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Segoe UI", system-ui, -apple-system, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    padding: 2rem 1rem;
+    color: #333;
+}
+
+.container {
+    max-width: 720px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+    padding: 2rem;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+header h1 {
+    font-size: 1.75rem;
+    color: #2d3748;
+}
+
+.subtitle {
+    color: #718096;
+    margin-top: 0.25rem;
+    font-size: 0.95rem;
+}
+
+.add-form {
+    display: flex;
+    gap: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+.task-input {
+    flex: 1;
+    padding: 0.65rem 1rem;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 1rem;
+    transition: border-color 0.2s;
+}
+
+.task-input:focus {
+    outline: none;
+    border-color: #667eea;
+}
+
+.btn {
+    padding: 0.65rem 1.25rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.1s;
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn-primary {
+    background: #667eea;
+    color: #fff;
+}
+
+.btn-primary:hover {
+    background: #5a67d8;
+}
+
+.btn-danger {
+    background: #fc8181;
+    color: #fff;
+    padding: 0.4rem 0.75rem;
+    font-size: 0.85rem;
+}
+
+.btn-danger:hover {
+    background: #f56565;
+}
+
+.stats {
+    color: #718096;
+    font-size: 0.9rem;
+    margin-bottom: 1rem;
+}
+
+.task-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.task-table th {
+    text-align: left;
+    padding: 0.75rem;
+    border-bottom: 2px solid #e2e8f0;
+    color: #4a5568;
+    font-size: 0.85rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.task-table td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #edf2f7;
+    vertical-align: middle;
+}
+
+.task-table tr:hover td {
+    background: #f7fafc;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #a0aec0;
+}
+
+.empty-hint {
+    text-align: center;
+    color: #a0aec0;
+    padding: 2rem;
+    font-style: italic;
+}
+
+.messages {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.messages li {
+    padding: 0.75rem 1rem;
+    border-radius: 8px;
+    background: #fef3c7;
+    color: #92400e;
+    border: 1px solid #fcd34d;
+}

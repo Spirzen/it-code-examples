@@ -1,0 +1,14 @@
+{
+  "title": "Сборка и культура производительности — Code review — как замечать узкие места",
+  "description": "Фрагмент из «Сборка и культура производительности»: Code review — как замечать узкие места.",
+  "tags": [
+    "runtime-architecture",
+    "encyclopedia",
+    "116"
+  ],
+  "order": 7,
+  "series": "code-406-116",
+  "seriesOrder": 7,
+  "seriesTitle": "Сборка и культура производительности",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-06-arhitektura-vypolneniya/116"
+}

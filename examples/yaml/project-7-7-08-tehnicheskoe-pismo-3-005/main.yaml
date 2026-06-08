@@ -1,0 +1,41 @@
+components:
+  schemas:
+    Task:
+      type: object
+      required:
+        - title
+        - status
+      properties:
+        id:
+          type: string
+          format: uuid
+          readOnly: true
+          description: Уникальный идентификатор задачи
+        title:
+          type: string
+          minLength: 1
+          maxLength: 200
+          description: Название задачи
+        description:
+          type: string
+          nullable: true
+          description: Подробное описание задачи
+        status:
+          type: string
+          enum: [active, completed, archived]
+          default: active
+        createdAt:
+          type: string
+          format: date-time
+          readOnly: true
+        updatedAt:
+          type: string
+          format: date-time
+          readOnly: true
+      example:
+        id: "550e8400-e29b-41d4-a716-446655440000"
+        title: "Подготовить отчет"
+        description: "Собрать данные за квартал"
+        status: "active"
+        createdAt: "2026-03-10T10:00:00Z"
+        updatedAt: "2026-03-10T10:00:00Z"

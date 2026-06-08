@@ -1,0 +1,14 @@
+{
+  "title": "Entity Framework Core — первая программа — CRUD в `Program.cs`",
+  "description": "Фрагмент из «Entity Framework Core — первая программа»: CRUD в `Program.cs`.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "441"
+  ],
+  "order": 2,
+  "series": "csharp-505-441",
+  "seriesOrder": 2,
+  "seriesTitle": "Entity Framework Core — первая программа",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/441"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по C# — 5. Продвинутые механизмы — `IValueTaskSource`, `ManualResetValueTaskSourceCore`",
+  "description": "Фрагмент из «Справочник по C#»: 5. Продвинутые механизмы — `IValueTaskSource`, `ManualResetValueTaskSourceCore`.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "471"
+  ],
+  "order": 4,
+  "series": "csharp-505-471",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/471"
+}

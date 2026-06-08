@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Lua — Приватные поля через замыкания",
+  "description": "Фрагмент из «Рекомендации по разработке на Lua»: Приватные поля через замыкания.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 8,
+  "series": "lua-515-101",
+  "seriesOrder": 8,
+  "seriesTitle": "Рекомендации по разработке на Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/101"
+}

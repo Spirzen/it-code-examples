@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL — практическая работа и API — C++ — libpqxx",
+  "description": "Фрагмент из «PostgreSQL — практическая работа и API»: C++ — libpqxx.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "888"
+  ],
+  "order": 5,
+  "series": "sql-888",
+  "seriesOrder": 5,
+  "seriesTitle": "PostgreSQL — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/888"
+}

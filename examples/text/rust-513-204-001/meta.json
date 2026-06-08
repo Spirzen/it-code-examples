@@ -1,0 +1,14 @@
+{
+  "title": "Cargo — workspace, features и профили — Workspace (монорепозиторий)",
+  "description": "Фрагмент из «Cargo — workspace, features и профили»: Workspace (монорепозиторий).",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "204"
+  ],
+  "order": 1,
+  "series": "rust-513-204",
+  "seriesOrder": 1,
+  "seriesTitle": "Cargo — workspace, features и профили",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/204"
+}

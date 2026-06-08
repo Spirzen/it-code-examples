@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Первая программа на Laravel</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+        }
+        .container {
+            background: white;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            width: 300px;
+        }
+        h1 {
+            color: #ff4d4d; /* Фирменный красный цвет Laravel */
+            margin-bottom: 30px;
+        }
+        .counter-box {
+            background: #fff0f0;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        .value {
+            font-size: 48px;
+            font-weight: bold;
+            color: #333;
+            margin: 10px 0;
+        }
+        .buttons {
+            display: flex;
+            justify-content: space-around;
+            gap: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: transform 0.2s;
+            background: #ff4d4d;
+            color: white;
+        }
+        button:hover {
+            background: #e60000;
+            transform: scale(1.05);
+        }
+        button:active {
+            transform: scale(0.95);
+        }
+        .message {
+            color: green;
+            margin-top: 15px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Счетчик Laravel</h1>
+        
+        <div class="counter-box">
+            <p>Текущее значение:</p>
+            <div class="value">{{ $counter->value }}</div>
+        </div>
+
+        <form action="{{ route('counter.increment') }}" method="POST" style="display:inline;">
+            @csrf
+            <button type="submit">+</button>
+        </form>
+
+        <form action="{{ route('counter.reset') }}" method="POST" style="display:inline;">
+            @csrf
+            <button type="submit">Сброс</button>
+        </form>
+
+        <form action="{{ route('counter.decrement') }}" method="POST" style="display:inline;">
+            @csrf
+            <button type="submit">-</button>
+        </form>
+
+        @if(session('success'))
+            <div class="message">{{ session('success') }}</div>
+        @endif
+    </div>
+</body>
+</html>

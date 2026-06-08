@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Ruby — EditorConfig",
+  "description": "Фрагмент из «Рекомендации по разработке на Ruby»: EditorConfig.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 11,
+  "series": "ruby-511-101",
+  "seriesOrder": 11,
+  "seriesTitle": "Рекомендации по разработке на Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/101"
+}

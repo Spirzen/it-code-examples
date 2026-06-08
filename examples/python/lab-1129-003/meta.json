@@ -1,0 +1,13 @@
+{
+  "title": "NumPy — массивы и матрицы — arange и linspace — последовательности и сетка для графика",
+  "description": "Фрагмент из «NumPy — массивы и матрицы»: arange и linspace — последовательности и сетка для графика.",
+  "tags": [
+    "lab",
+    "1129"
+  ],
+  "order": 3,
+  "series": "lab-1129",
+  "seriesOrder": 3,
+  "seriesTitle": "NumPy — массивы и матрицы",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1129"
+}

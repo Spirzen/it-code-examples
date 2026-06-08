@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по PowerShell — Паттерн \"Pipeline Processing\"",
+  "description": "Фрагмент из «Справочник по PowerShell»: Паттерн \"Pipeline Processing\".",
+  "tags": [
+    "powershell",
+    "encyclopedia",
+    "123"
+  ],
+  "order": 4,
+  "series": "powershell-526-123",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по PowerShell",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-26-powershell/123"
+}

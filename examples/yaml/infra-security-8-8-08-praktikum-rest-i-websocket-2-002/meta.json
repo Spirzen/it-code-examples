@@ -1,0 +1,14 @@
+{
+  "title": "Практикум REST и WebSocket — OrderDesk — Фрагмент OpenAPI 3.1 (catalog)",
+  "description": "Фрагмент из «Практикум REST и WebSocket — OrderDesk»: Фрагмент OpenAPI 3.1 (catalog).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-08-praktikum-rest-i-websocket-2"
+  ],
+  "order": 2,
+  "series": "infra-security-8-08-orderdesk-praktikum",
+  "seriesOrder": 2,
+  "seriesTitle": "Практикум REST и WebSocket — OrderDesk",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-08-praktikum-rest-i-websocket/intro"
+}

@@ -1,0 +1,155 @@
+{
+  "generatedAt": "2026-06-07T15:38:02.681Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/3-data-markup/3-09-html",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "html/html-1-001",
+        "title": "Иерархическая структура документа",
+        "section": "иерархическая-структура-документа",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1",
+        "slug": "html/html-1-002",
+        "title": "DOM-дерево",
+        "section": "dom-дерево",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "2": [
+      {
+        "article": "2",
+        "slug": "html/html-2-001",
+        "title": "Поведение при различных настройках",
+        "section": "поведение-при-различных-настройках",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "2",
+        "slug": "html/html-2-002",
+        "title": "Пример структуры",
+        "section": "пример-структуры",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "2",
+        "slug": "html/html-2-003",
+        "title": "Пример полной формы с выпадающими списками",
+        "section": "пример-полной-формы-с-выпадающими-списками",
+        "blocks": 1,
+        "lines": 114
+      },
+      {
+        "article": "2",
+        "slug": "html/html-2-004",
+        "title": "Простая таблица с заголовками",
+        "section": "простая-таблица-с-заголовками",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "2",
+        "slug": "html/html-2-005",
+        "title": "Таблица с объединёнными ячейками (`colspan`, `rowspan`)",
+        "section": "таблица-с-объединёнными-ячейками-colspan-rowspan",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "2",
+        "slug": "html/html-2-006",
+        "title": "Таблица с разделением на секции (`<thead>`, `<tbody>`, `<tfoot>`)",
+        "section": "таблица-с-разделением-на-секции",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "2",
+        "slug": "html/html-2-007",
+        "title": "Таблица для расписания (сложная структура)",
+        "section": "таблица-для-расписания-сложная-структура",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "2",
+        "slug": "html/html-2-008",
+        "title": "Как закрыть",
+        "section": "как-закрыть",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "html/html-3-001",
+        "title": "Простая практика",
+        "section": "простая-практика",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "html/html-21-001",
+        "title": "Общая структура",
+        "section": "общая-структура",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "21",
+        "slug": "html/html-21-002",
+        "title": "`<th>`, `<td>`",
+        "section": "",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "html/html-22-001",
+        "title": "Змейка",
+        "section": "змейка",
+        "blocks": 1,
+        "lines": 194
+      },
+      {
+        "article": "22",
+        "slug": "html/html-22-002",
+        "title": "2048",
+        "section": "2048",
+        "blocks": 1,
+        "lines": 310
+      },
+      {
+        "article": "22",
+        "slug": "html/html-22-003",
+        "title": "Три в ряд",
+        "section": "best",
+        "blocks": 1,
+        "lines": 262
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "javascript/html-24-001",
+        "title": "Базовый API элемента",
+        "section": "базовый-api-элемента",
+        "blocks": 1,
+        "lines": 29
+      }
+    ]
+  }
+}

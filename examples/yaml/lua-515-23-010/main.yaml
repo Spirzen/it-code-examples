@@ -1,0 +1,16 @@
+name: Build & Test
+on: [push]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: Roblox/setup-foreman@v2
+      - run: foreman install rojo selene
+      - run: rojo build default.project.json -o game.rbxlx
+      - run: selene src/
+      - run: run-in-roblox --place game.rbxlx --script tests/
+      - run: rbx-cli publish --cookie "$ROBLOSECURITY" --place-id 123456789 game.rbxlx
+        env:
+          ROBLOSECURITY: ${{ secrets.ROBLOSECURITY }}

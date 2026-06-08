@@ -1,0 +1,14 @@
+{
+  "title": "Логирование, мониторинг и наблюдаемость систем — Сквозное тестирование наблюдаемости",
+  "description": "Фрагмент из «Логирование, мониторинг и наблюдаемость систем»: Сквозное тестирование наблюдаемости.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-19"
+  ],
+  "order": 32,
+  "series": "infra-security-8-8-04-devops-ci-cd-19",
+  "seriesOrder": 32,
+  "seriesTitle": "Логирование, мониторинг и наблюдаемость систем",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/19"
+}

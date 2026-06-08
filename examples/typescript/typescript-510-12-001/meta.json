@@ -1,0 +1,14 @@
+{
+  "title": "Операторы и условные ветвления в TypeScript — Discriminated union и `switch`",
+  "description": "Фрагмент из «Операторы и условные ветвления в TypeScript»: Discriminated union и `switch`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 1,
+  "series": "typescript-510-12",
+  "seriesOrder": 1,
+  "seriesTitle": "Операторы и условные ветвления в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/12"
+}

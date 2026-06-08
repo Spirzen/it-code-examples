@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL — Terraform — managed PostgreSQL",
+  "description": "Фрагмент из «Практикум PostgreSQL»: Terraform — managed PostgreSQL.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-11-praktikum-postgresql-12"
+  ],
+  "order": 2,
+  "series": "infra-security-8-11-postgresql-praktikum",
+  "seriesOrder": 2,
+  "seriesTitle": "Практикум PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-11-praktikum-postgresql/intro"
+}

@@ -1,0 +1,29 @@
+<svg width="320" height="320" viewBox="-160 -140 320 280">
+  <path id="koch" fill="none" stroke="#0284c7" stroke-width="2"/>
+</svg>
+<script>
+  function kochSegment(x1, y1, x2, y2, depth) {
+    if (depth === 0) return `M ${x1} ${y1} L ${x2} ${y2}`;
+    const dx = x2 - x1, dy = y2 - y1;
+    const ax = x1 + dx / 3, ay = y1 + dy / 3;
+    const bx = x1 + 2 * dx / 3, by = y1 + 2 * dy / 3;
+    const len = Math.hypot(dx, dy) / 3;
+    const ang = Math.atan2(dy, dx) - Math.PI / 2;
+    const px = ax + len * Math.cos(ang + Math.PI / 3);
+    const py = ay + len * Math.sin(ang + Math.PI / 3);
+    return [
+      kochSegment(x1, y1, ax, ay, depth - 1),
+      kochSegment(ax, ay, px, py, depth - 1),
+      kochSegment(px, py, bx, by, depth - 1),
+      kochSegment(bx, by, x2, y2, depth - 1),
+    ].join(' ');
+  }
+
+  const h = 120;
+  const d = [
+    kochSegment(-h, 0, h, 0, 4),
+    kochSegment(h, 0, 0, -h * Math.sqrt(3) / 2, 4),
+    kochSegment(0, -h * Math.sqrt(3) / 2, -h, 0, 4),
+  ].join(' ');
+  document.getElementById('koch').setAttribute('d', d);
+</script>

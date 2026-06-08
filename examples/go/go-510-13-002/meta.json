@@ -1,0 +1,14 @@
+{
+  "title": "Особенности языка Go — Композиция вместо наследования",
+  "description": "Фрагмент из «Особенности языка Go»: Композиция вместо наследования.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "13"
+  ],
+  "order": 2,
+  "series": "go-510-13",
+  "seriesOrder": 2,
+  "seriesTitle": "Особенности языка Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/13"
+}

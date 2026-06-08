@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+app:
+  name: MyApp
+  version: 1.2.0
+  features:
+    - auth
+    - logging
+    - metrics
+  ports:
+    - 8080
+    - 8081
+    - 8082
+  datasource:
+    url: jdbc:postgresql://localhost:5432/mydb
+    username: admin
+    password: secret
+    pool:
+      size: 10
+      timeout: 30s
+
+  id: ${random.uuid}
+  port: ${random.int[8000,9000]}

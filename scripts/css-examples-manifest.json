@@ -1,0 +1,521 @@
+{
+  "generatedAt": "2026-06-07T15:50:35.364Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/3-data-markup/3-10-css",
+  "articles": {
+    "6": [
+      {
+        "article": "6",
+        "slug": "css/css-6-001",
+        "title": "Анимация градиента (shimmer)",
+        "section": "анимация-градиента-shimmer",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6",
+        "slug": "css/css-6-002",
+        "title": "Баннеры и промо-блоки",
+        "section": "баннеры-и-промо-блоки",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "7": [
+      {
+        "article": "7",
+        "slug": "css/css-7-001",
+        "title": "Медиа-запросы",
+        "section": "медиа-запросы",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "7",
+        "slug": "css/css-7-002",
+        "title": "Гибкие макеты — Flexbox и Grid",
+        "section": "гибкие-макеты-flexbox-и-grid",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "7",
+        "slug": "css/css-7-003",
+        "title": "Контекст использования",
+        "section": "контекст-использования",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7",
+        "slug": "css/css-7-004",
+        "title": "Шаг 3. Применяйте подход **mobile-first**",
+        "section": "шаг-3-применяйте-подход-mobile-first",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "7",
+        "slug": "css/css-7-005",
+        "title": "Шаг 5. Используйте Flexbox или Grid для макета",
+        "section": "шаг-5-используйте-flexbox-или-grid-для-макета",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8": [
+      {
+        "article": "8",
+        "slug": "html/css-8-001",
+        "title": "Практика",
+        "section": "практика",
+        "blocks": 2,
+        "lines": 133
+      }
+    ],
+    "111": [
+      {
+        "article": "111",
+        "slug": "html/css-111-001",
+        "title": "Тег `<style>`: внутренние стили",
+        "section": "тег-внутренние-стили",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "112": [
+      {
+        "article": "112",
+        "slug": "html/css-112-001",
+        "title": "Пример каскадности",
+        "section": "пример-каскадности",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "113": [
+      {
+        "article": "113",
+        "slug": "css/css-113-001",
+        "title": "Цвета",
+        "section": "цвета",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-002",
+        "title": "Шрифты",
+        "section": "шрифты",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-003",
+        "title": "Ссылки",
+        "section": "ссылки",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "113",
+        "slug": "html/css-113-004",
+        "title": "Таблицы",
+        "section": "таблицы",
+        "blocks": 2,
+        "lines": 59
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-005",
+        "title": "Карточки",
+        "section": "карточки",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-006",
+        "title": "Кнопки",
+        "section": "кнопки",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-007",
+        "title": "Поля ввода",
+        "section": "поля-ввода",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-008",
+        "title": "Поиск с раскрытием (только CSS)",
+        "section": "поиск-с-раскрытием-только-css",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-009",
+        "title": "Выпадающие списки (select)",
+        "section": "выпадающие-списки-select",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-010",
+        "title": "Слайдеры (range)",
+        "section": "слайдеры-range",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-011",
+        "title": "Переключатели (switch)",
+        "section": "переключатели-switch",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-012",
+        "title": "Переключатель темы и `:has()`",
+        "section": "переключатель-темы-и-has",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-013",
+        "title": "Чекбоксы",
+        "section": "theme-label",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-014",
+        "title": "Радиокнопки (radio)",
+        "section": "радиокнопки-radio",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-015",
+        "title": "Меню",
+        "section": "меню",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-016",
+        "title": "Панели навигации (Navigation Bars)",
+        "section": "панели-навигации-navigation-bars",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-017",
+        "title": "Хлебные крошки (Breadcrumbs)",
+        "section": "хлебные-крошки-breadcrumbs",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-018",
+        "title": "Пагинация",
+        "section": "пагинация",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "113",
+        "slug": "html/css-113-019",
+        "title": "Боковые панели (Sidebars)",
+        "section": "боковые-панели-sidebars",
+        "blocks": 2,
+        "lines": 61
+      },
+      {
+        "article": "113",
+        "slug": "html/css-113-020",
+        "title": "Хэдеры и футеры",
+        "section": "хэдеры-и-футеры",
+        "blocks": 2,
+        "lines": 71
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-021",
+        "title": "Уведомления (Notifications / Alerts)",
+        "section": "уведомления-notifications-alerts",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-022",
+        "title": "Подсказки (tooltip)",
+        "section": "подсказки-tooltip",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-023",
+        "title": "Контекстные меню",
+        "section": "tip-save",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-024",
+        "title": "Анимации и переходы",
+        "section": "анимации-и-переходы",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "113",
+        "slug": "html/css-113-025",
+        "title": "Модальные окна (Modal Windows)",
+        "section": "модальные-окна-modal-windows",
+        "blocks": 2,
+        "lines": 83
+      },
+      {
+        "article": "113",
+        "slug": "html/css-113-026",
+        "title": "HTML — семантика и доступность",
+        "section": "html-семантика-и-доступность",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-027",
+        "title": "CSS — стопка слайдов и плавная смена",
+        "section": "css-стопка-слайдов-и-плавная-смена",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-028",
+        "title": "Скелетон загрузки (skeleton)",
+        "section": "скелетон-загрузки-skeleton",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "113",
+        "slug": "css/css-113-029",
+        "title": "Индикаторы прогресса (Progress Bars)",
+        "section": "индикаторы-прогресса-progress-bars",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "114": [
+      {
+        "article": "114",
+        "slug": "css/css-114-001",
+        "title": "`:has()` — родитель по потомку",
+        "section": "has-родитель-по-потомку",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "115": [
+      {
+        "article": "115",
+        "slug": "css/css-115-001",
+        "title": "Объявление слоёв",
+        "section": "объявление-слоёв",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "116": [
+      {
+        "article": "116",
+        "slug": "css/css-116-001",
+        "title": "Практика — форма и карточка",
+        "section": "практика-форма-и-карточка",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "116",
+        "slug": "css/css-116-002",
+        "title": "Subgrid в CSS Grid",
+        "section": "subgrid-в-css-grid",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "117": [
+      {
+        "article": "117",
+        "slug": "css/css-117-001",
+        "title": "prefers-color-scheme",
+        "section": "prefers-color-scheme",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "119": [
+      {
+        "article": "119",
+        "slug": "css/css-119-001",
+        "title": "Две семьи «функций»",
+        "section": "две-семьи-функций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "119",
+        "slug": "css/css-119-002",
+        "title": "Фильтры, трансформации, анимация",
+        "section": "фильтры-трансформации-анимация",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "119",
+        "slug": "css/css-119-003",
+        "title": "Функции в селекторах — кратко",
+        "section": "функции-в-селекторах-кратко",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "119",
+        "slug": "css/css-119-004",
+        "title": "Тема через `color-mix` и `prefers-color-scheme`",
+        "section": "тема-через-color-mix-и-prefers-color-scheme",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "711": [
+      {
+        "article": "711",
+        "slug": "csharp/css-711-001",
+        "title": "Динамическая адаптация интерфейса",
+        "section": "динамическая-адаптация-интерфейса",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "1111": [
+      {
+        "article": "1111",
+        "slug": "css/css-1111-001",
+        "title": "Глобальные переменные",
+        "section": "глобальные-переменные",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-002",
+        "title": "Пример иерархии видимости",
+        "section": "пример-иерархии-видимости",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-003",
+        "title": "Переопределение переменных",
+        "section": "переопределение-переменных",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-004",
+        "title": "Управление цветовой схемой",
+        "section": "управление-цветовой-схемой",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-005",
+        "title": "Медиазапросы и адаптивность",
+        "section": "медиазапросы-и-адаптивность",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-006",
+        "title": "Градиенты",
+        "section": "градиенты",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-007",
+        "title": "Работа с CSS Grid и Flexbox",
+        "section": "работа-с-css-grid-и-flexbox",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-008",
+        "title": "Вычисления со значениями переменных",
+        "section": "вычисления-со-значениями-переменных",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-009",
+        "title": "Анимация и переменные",
+        "section": "анимация-и-переменные",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-010",
+        "title": "Частые типы в `syntax`",
+        "section": "частые-типы-в-syntax",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-011",
+        "title": "Пример с цветом и углом",
+        "section": "пример-с-цветом-и-углом",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1111",
+        "slug": "css/css-1111-012",
+        "title": "Группировка переменных",
+        "section": "группировка-переменных",
+        "blocks": 1,
+        "lines": 26
+      }
+    ]
+  }
+}

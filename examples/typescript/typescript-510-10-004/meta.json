@@ -1,0 +1,14 @@
+{
+  "title": "Типы данных и типизация в TypeScript — `Exclude`, `Extract` и `NonNullable`",
+  "description": "Фрагмент из «Типы данных и типизация в TypeScript»: `Exclude`, `Extract` и `NonNullable`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "10"
+  ],
+  "order": 4,
+  "series": "typescript-510-10",
+  "seriesOrder": 4,
+  "seriesTitle": "Типы данных и типизация в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/10"
+}

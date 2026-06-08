@@ -1,0 +1,18 @@
+[
+  {
+    "id": "burning_blood",
+    "name": "Горящая кровь",
+    "description": "После боя восстанавливает 6 HP.",
+    "effect": "heal_after_combat",
+    "value": 6,
+    "rarity": "common"
+  },
+  {
+    "id": "bag_of_marbles",
+    "name": "Мешок шариков",
+    "description": "В начале боя все враги получают Уязвимость на 1 ход.",
+    "effect": "start_vulnerable",
+    "value": 1,
+    "rarity": "common"
+  }
+]

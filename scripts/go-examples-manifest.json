@@ -1,0 +1,891 @@
+{
+  "generatedAt": "2026-06-08T12:16:49.941Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-10-go",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "go/go-510-1-001",
+        "title": "Что такое Go?",
+        "section": "что-такое-go",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "1",
+        "slug": "go/go-510-1-002",
+        "title": "Что такое Go?",
+        "section": "что-такое-go",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "1",
+        "slug": "go/go-510-1-003",
+        "title": "Что такое Go?",
+        "section": "что-такое-go",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "1",
+        "slug": "go/go-510-1-004",
+        "title": "Что такое Go?",
+        "section": "что-такое-go",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "go/go-510-3-001",
+        "title": "13.3. Параметризованные типы",
+        "section": "13-3-параметризованные-типы",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "go/go-510-13-001",
+        "title": "Как бы реализовали класс",
+        "section": "как-бы-реализовали-класс",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "13",
+        "slug": "go/go-510-13-002",
+        "title": "Композиция вместо наследования",
+        "section": "композиция-вместо-наследования",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "13",
+        "slug": "go/go-510-13-003",
+        "title": "Оптимизация и производительность",
+        "section": "оптимизация-и-производительность",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "go/go-510-14-001",
+        "title": "ООП-идеи без классического наследования",
+        "section": "ооп-идеи-без-классического-наследования",
+        "blocks": 1,
+        "lines": 98
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "go/go-510-18-001",
+        "title": "Замыкания",
+        "section": "замыкания",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "18",
+        "slug": "go/go-510-18-002",
+        "title": "Конвейеры обработки данных",
+        "section": "конвейеры-обработки-данных",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "go/go-510-19-001",
+        "title": "Обработка ошибок и graceful shutdown",
+        "section": "обработка-ошибок-и-graceful-shutdown",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "19",
+        "slug": "go/go-510-19-002",
+        "title": "Привязка данных и валидация",
+        "section": "привязка-данных-и-валидация",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "19",
+        "slug": "go/go-510-19-003",
+        "title": "Грейсфул шатдаун и тестирование",
+        "section": "грейсфул-шатдаун-и-тестирование",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "19",
+        "slug": "go/go-510-19-004",
+        "title": "Привязка данных и валидация",
+        "section": "привязка-данных-и-валидация",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "20": [
+      {
+        "article": "20",
+        "slug": "go/go-510-20-001",
+        "title": "Пакет `database/sql` — контракт, а не реализация",
+        "section": "пакет-database-sql-контракт-а-не-реализация",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "20",
+        "slug": "go/go-510-20-002",
+        "title": "Декларативные ORM — Ent",
+        "section": "декларативные-orm-ent",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "20",
+        "slug": "go/go-510-20-003",
+        "title": "Unit-тесты с моками — sqlmock",
+        "section": "unit-тесты-с-моками-sqlmock",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "20",
+        "slug": "go/go-510-20-004",
+        "title": "Интеграционные тесты",
+        "section": "интеграционные-тесты",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "20",
+        "slug": "go/go-510-20-005",
+        "title": "Практический каркас слоя данных",
+        "section": "практический-каркас-слоя-данных",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "20",
+        "slug": "go/go-510-20-006",
+        "title": "Практический каркас слоя данных",
+        "section": "практический-каркас-слоя-данных",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "go/go-510-21-001",
+        "title": "1. Producer–Consumer (производитель–потребитель)",
+        "section": "1-producer-consumer-производитель-потребитель",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "21",
+        "slug": "go/go-510-21-002",
+        "title": "2. Fan-in / Fan-out (\"веерное\" слияние и разветвление)",
+        "section": "2-fan-in-fan-out-веерное-слияние-и-разветвление",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "21",
+        "slug": "go/go-510-21-003",
+        "title": "3. Worker Pool (пул обработчиков)",
+        "section": "3-worker-pool-пул-обработчиков",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "21",
+        "slug": "go/go-510-21-004",
+        "title": "Отмена и таймауты",
+        "section": "отмена-и-таймауты",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "21",
+        "slug": "go/go-510-21-005",
+        "title": "`sync.Mutex` и `sync.RWMutex`",
+        "section": "sync-mutex-и-sync-rwmutex",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "21",
+        "slug": "go/go-510-21-006",
+        "title": "1. Границы ответственности — где запускать горутину?",
+        "section": "1-границы-ответственности-где-запускать-горутину",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "21",
+        "slug": "go/go-510-21-007",
+        "title": "Практическая модель устойчивого worker-пула",
+        "section": "практическая-модель-устойчивого-worker-пула",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "go/go-510-23-001",
+        "title": "1. Основы типовой системы",
+        "section": "1-основы-типовой-системы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "23",
+        "slug": "go/go-510-23-002",
+        "title": "4.1. `sync.Mutex` и `sync.RWMutex`",
+        "section": "4-1-sync-mutex-и-sync-rwmutex",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "23",
+        "slug": "go/go-510-23-003",
+        "title": "5.1. Интерфейс как адаптер",
+        "section": "5-1-интерфейс-как-адаптер",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "23",
+        "slug": "go/go-510-23-004",
+        "title": "5.3. Опциональное поведение через проверку интерфейса",
+        "section": "5-3-опциональное-поведение-через-проверку-интерф",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "23",
+        "slug": "go/go-510-23-005",
+        "title": "10.2. Тестирование — `testing.T`, таблицы тестов, моки",
+        "section": "10-2-тестирование-testing-t-таблицы-тестов-моки",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "go/go-510-24-001",
+        "title": "Расширение программы",
+        "section": "расширение-программы",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "24",
+        "slug": "go/go-510-24-002",
+        "title": "Тестирование и верификация",
+        "section": "тестирование-и-верификация",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "24",
+        "slug": "go/go-510-24-003",
+        "title": "Тестирование и верификация",
+        "section": "тестирование-и-верификация",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "24",
+        "slug": "go/go-510-24-004",
+        "title": "Зависимости и управление версиями",
+        "section": "зависимости-и-управление-версиями",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "24",
+        "slug": "go/go-510-24-005",
+        "title": "Простая табличная проверка функции",
+        "section": "простая-табличная-проверка-функции",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "go/go-510-25-001",
+        "title": "HTML-шаблоны",
+        "section": "html-шаблоны",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "25",
+        "slug": "go/go-510-25-002",
+        "title": "Корректная остановка сервера",
+        "section": "корректная-остановка-сервера",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "25",
+        "slug": "go/go-510-25-003",
+        "title": "Метрики Prometheus",
+        "section": "метрики-prometheus",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "25",
+        "slug": "go/go-510-25-004",
+        "title": "Пример — декодирование JSON-запроса",
+        "section": "пример-декодирование-json-запроса",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "27": [
+      {
+        "article": "27",
+        "slug": "go/go-510-27-001",
+        "title": "TCP-сервер (echo)",
+        "section": "tcp-сервер-echo",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "27",
+        "slug": "go/go-510-27-002",
+        "title": "UNIX domain sockets",
+        "section": "unix-domain-sockets",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "31": [
+      {
+        "article": "31",
+        "slug": "go/go-510-31-001",
+        "title": "Практический пример — generic-стек",
+        "section": "практический-пример-generic-стек",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "32": [
+      {
+        "article": "32",
+        "slug": "text/go-510-32-001",
+        "title": "Файл `.proto`",
+        "section": "файл-proto",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "32",
+        "slug": "go/go-510-32-002",
+        "title": "Сервер",
+        "section": "сервер",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "33": [
+      {
+        "article": "33",
+        "slug": "go/go-510-33-001",
+        "title": "Каркас cobra",
+        "section": "каркас-cobra",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "34": [
+      {
+        "article": "34",
+        "slug": "go/go-510-34-001",
+        "title": "Upgrader и сервер",
+        "section": "upgrader-и-сервер",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "34",
+        "slug": "go/go-510-34-002",
+        "title": "Hub — рассылка нескольким клиентам",
+        "section": "hub-рассылка-нескольким-клиентам",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "go/go-510-101-001",
+        "title": "Минимальные интерфейсы",
+        "section": "минимальные-интерфейсы",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "go/go-510-101-002",
+        "title": "Инверсия зависимостей",
+        "section": "инверсия-зависимостей",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "go/go-510-101-003",
+        "title": "Таблицные тесты",
+        "section": "таблицные-тесты",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "101",
+        "slug": "go/go-510-101-004",
+        "title": "Тестирование конкурентности",
+        "section": "тестирование-конкурентности",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "yaml/go-510-101-005",
+        "title": "Linters",
+        "section": "linters",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "text/go-510-101-006",
+        "title": "Makefile для автоматизации",
+        "section": "makefile-для-автоматизации",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "go/go-510-101-007",
+        "title": "Чистая функция обработки данных",
+        "section": "чистая-функция-обработки-данных",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "go/go-510-101-008",
+        "title": "Структура с методами",
+        "section": "структура-с-методами",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "101",
+        "slug": "go/go-510-101-009",
+        "title": "Обработка ошибок с контекстом",
+        "section": "обработка-ошибок-с-контекстом",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "191": [
+      {
+        "article": "191",
+        "slug": "go/go-510-191-001",
+        "title": "3. Пакет `errors` (начиная с Go 1.13) предоставляет поддержку",
+        "section": "3-пакет-errors-начиная-с-go-1-13-предоставляет-п",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "192": [
+      {
+        "article": "192",
+        "slug": "go/go-510-192-001",
+        "title": "Table-driven tests",
+        "section": "table-driven-tests",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "192",
+        "slug": "go/go-510-192-002",
+        "title": "Моки через интерфейсы",
+        "section": "моки-через-интерфейсы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "192",
+        "slug": "go/go-510-192-003",
+        "title": "Что попробовать",
+        "section": "что-попробовать",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "211": [
+      {
+        "article": "211",
+        "slug": "go/go-510-211-001",
+        "title": "Файл internal/fetch/fetch.go",
+        "section": "файл-internal-fetch-fetch-go",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "211",
+        "slug": "go/go-510-211-002",
+        "title": "Проверка из main.go",
+        "section": "проверка-из-main-go",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "211",
+        "slug": "go/go-510-211-003",
+        "title": "Файл internal/parse/parse.go",
+        "section": "файл-internal-parse-parse-go",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "211",
+        "slug": "go/go-510-211-004",
+        "title": "Проверка из main.go",
+        "section": "проверка-из-main-go",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "211",
+        "slug": "go/go-510-211-005",
+        "title": "Файл main.go (финальная версия)",
+        "section": "файл-main-go-финальная-версия",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "211",
+        "slug": "go/go-510-211-006",
+        "title": "Файл internal/parse/parse_test.go",
+        "section": "файл-internal-parse-parse-test-go",
+        "blocks": 1,
+        "lines": 54
+      }
+    ],
+    "212": [
+      {
+        "article": "212",
+        "slug": "go/go-510-212-001",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "212",
+        "slug": "go/go-510-212-002",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "212",
+        "slug": "go/go-510-212-003",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "212",
+        "slug": "go/go-510-212-004",
+        "title": "Код `Verify`",
+        "section": "код-verify",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "212",
+        "slug": "go/go-510-212-005",
+        "title": "Код `ParseDomain`",
+        "section": "код-parsedomain",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "212",
+        "slug": "go/go-510-212-006",
+        "title": "Вывод результата",
+        "section": "вывод-результата",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "212",
+        "slug": "go/go-510-212-007",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "212",
+        "slug": "go/go-510-212-008",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 53
+      }
+    ],
+    "241": [
+      {
+        "article": "241",
+        "slug": "go/go-510-241-001",
+        "title": "Написание кода сервера",
+        "section": "написание-кода-сервера",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "241",
+        "slug": "dockerfile/go-510-241-002",
+        "title": "Конфигурация Dockerfile",
+        "section": "конфигурация-dockerfile",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "241",
+        "slug": "go/go-510-241-003",
+        "title": "Graceful shutdown",
+        "section": "graceful-shutdown",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "2411": [
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-001",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-002",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-003",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 53
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-004",
+        "title": "Код реализации",
+        "section": "код-реализации",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-005",
+        "title": "Серверная часть",
+        "section": "серверная-часть",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-006",
+        "title": "Клиентская часть",
+        "section": "клиентская-часть",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-007",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-008",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-009",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-010",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-011",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-012",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-013",
+        "title": "Код примера",
+        "section": "код-примера",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "2411",
+        "slug": "go/go-510-2411-014",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 73
+      }
+    ],
+    "2412": [
+      {
+        "article": "2412",
+        "slug": "go/go-510-2412-001",
+        "title": "REST API \"Заметки\"",
+        "section": "rest-api-заметки",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "2412",
+        "slug": "go/go-510-2412-002",
+        "title": "Graceful shutdown",
+        "section": "graceful-shutdown",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "2412",
+        "slug": "go/go-510-2412-003",
+        "title": "Пример — middleware для API key",
+        "section": "пример-middleware-для-api-key",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "2412",
+        "slug": "go/go-510-2412-004",
+        "title": "Загрузка и скачивание файлов",
+        "section": "загрузка-и-скачивание-файлов",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "2413": [
+      {
+        "article": "2413",
+        "slug": "go/go-510-2413-001",
+        "title": "REST API \"Заметки\"",
+        "section": "rest-api-заметки",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "2413",
+        "slug": "go/go-510-2413-002",
+        "title": "Handlers",
+        "section": "handlers",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "2413",
+        "slug": "go/go-510-2413-003",
+        "title": "Валидация (опционально, но полезно)",
+        "section": "валидация-опционально-но-полезно",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "2413",
+        "slug": "go/go-510-2413-004",
+        "title": "Централизованный обработчик ошибок",
+        "section": "централизованный-обработчик-ошибок",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "2414": [
+      {
+        "article": "2414",
+        "slug": "go/go-510-2414-001",
+        "title": "REST API \"Заметки\"",
+        "section": "rest-api-заметки",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "2414",
+        "slug": "go/go-510-2414-002",
+        "title": "Handlers",
+        "section": "handlers",
+        "blocks": 1,
+        "lines": 16
+      }
+    ]
+  }
+}

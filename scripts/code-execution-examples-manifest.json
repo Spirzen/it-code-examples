@@ -1,0 +1,61 @@
+{
+  "generatedAt": "2026-06-07T17:14:14.714Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-03-vypolnenie-koda",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "java/code-403-1-001",
+        "title": "2. Определение шаблона (класса)",
+        "section": "2-определение-шаблона-класса",
+        "blocks": 1,
+        "lines": 14
+      }
+    ],
+    "114": [
+      {
+        "article": "114",
+        "slug": "python/code-403-114-001",
+        "title": "Цепочка `if-elif-else`",
+        "section": "цепочка-if-elif-else",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "114",
+        "slug": "python/code-403-114-002",
+        "title": "Порядок выполнения и вложенность",
+        "section": "порядок-выполнения-и-вложенность",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "114",
+        "slug": "sql/code-403-114-003",
+        "title": "Различия в реализации между языками программирования",
+        "section": "различия-в-реализации-между-языками-программиров",
+        "blocks": 1,
+        "lines": 8
+      }
+    ],
+    "315": [
+      {
+        "article": "315",
+        "slug": "csharp/code-403-315-001",
+        "title": "Декомпиляция",
+        "section": "декомпиляция",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "315",
+        "slug": "cpp/code-403-315-002",
+        "title": "Декомпиляция",
+        "section": "декомпиляция",
+        "blocks": 1,
+        "lines": 10
+      }
+    ]
+  }
+}

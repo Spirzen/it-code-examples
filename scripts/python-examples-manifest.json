@@ -1,0 +1,2045 @@
+{
+  "generatedAt": "2026-06-07T21:20:20.623Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-02-python",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "python/py-502-1-001",
+        "title": "Структура скрипта",
+        "section": "структура-скрипта",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "bash/py-502-13-001",
+        "title": "Практический пример полного цикла работы",
+        "section": "практический-пример-полного-цикла-работы",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "python/py-502-15-001",
+        "title": "1. Красивое лучше, чем уродливое",
+        "section": "1-красивое-лучше-чем-уродливое",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-002",
+        "title": "2. Явное лучше, чем неявное",
+        "section": "2-явное-лучше-чем-неявное",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-003",
+        "title": "3. Простое лучше, чем сложное",
+        "section": "3-простое-лучше-чем-сложное",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-004",
+        "title": "5. Плоское лучше, чем вложенное",
+        "section": "5-плоское-лучше-чем-вложенное",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-005",
+        "title": "6. Разреженное лучше, чем плотное",
+        "section": "6-разреженное-лучше-чем-плотное",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-006",
+        "title": "7. Читаемость имеет значение",
+        "section": "7-читаемость-имеет-значение",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-007",
+        "title": "8. Особые случаи не настолько особые, чтобы нарушать правила",
+        "section": "8-особые-случаи-не-настолько-особые-чтобы-наруша",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-008",
+        "title": "10. Ошибки никогда не должны замалчиваться",
+        "section": "10-ошибки-никогда-не-должны-замалчиваться",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "15",
+        "slug": "python/py-502-15-009",
+        "title": "15. Пространства имён — отличная штука! Сделаем их побольше!",
+        "section": "15-пространства-имён-отличная-штука-сделаем-их-п",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "python/py-502-19-001",
+        "title": "Функция",
+        "section": "функция",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "20": [
+      {
+        "article": "20",
+        "slug": "python/py-502-20-001",
+        "title": "Области видимости",
+        "section": "области-видимости",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "python/py-502-22-001",
+        "title": "Методы словаря",
+        "section": "metody-slovarya",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "python/py-502-23-001",
+        "title": "Сравнительные операторы",
+        "section": "сравнительные-операторы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "23",
+        "slug": "python/py-502-23-002",
+        "title": "for",
+        "section": "for",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "python/py-502-24-001",
+        "title": "Области видимости",
+        "section": "области-видимости",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "24",
+        "slug": "python/py-502-24-002",
+        "title": "Примеры декораторов",
+        "section": "примеры-декораторов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "24",
+        "slug": "python/py-502-24-003",
+        "title": "Примеры декораторов",
+        "section": "примеры-декораторов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "24",
+        "slug": "python/py-502-24-004",
+        "title": "Декораторы с параметрами",
+        "section": "декораторы-с-параметрами",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "python/py-502-25-001",
+        "title": "Итераторы",
+        "section": "итераторы",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "26": [
+      {
+        "article": "26",
+        "slug": "python/py-502-26-001",
+        "title": "ООП в Python",
+        "section": "ооп-в-python",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-002",
+        "title": "Пример класса в Python",
+        "section": "пример-класса-в-python",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-003",
+        "title": "Всё является объектом",
+        "section": "всё-является-объектом",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-004",
+        "title": "Утиная типизация",
+        "section": "утиная-типизация",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-005",
+        "title": "Метаклассы",
+        "section": "метаклассы",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-006",
+        "title": "Метаклассы",
+        "section": "метаклассы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-007",
+        "title": "Объект",
+        "section": "объект",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-008",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-009",
+        "title": "Обращение к атрибутам и методам",
+        "section": "обращение-к-атрибутам-и-методам",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-010",
+        "title": "Обращение к атрибутам и методам",
+        "section": "обращение-к-атрибутам-и-методам",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-011",
+        "title": "Поля, свойства и атрибуты",
+        "section": "поля-свойства-и-атрибуты",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-012",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-013",
+        "title": "Наследование",
+        "section": "наследование",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-014",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-015",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-016",
+        "title": "Абстракция",
+        "section": "абстракция",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-017",
+        "title": "Абстракция",
+        "section": "абстракция",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-018",
+        "title": "Абстракция",
+        "section": "абстракция",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "26",
+        "slug": "python/py-502-26-019",
+        "title": "Магические методы",
+        "section": "магические-методы",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "30": [
+      {
+        "article": "30",
+        "slug": "bash/py-502-30-001",
+        "title": "Что такое Django?",
+        "section": "что-такое-django",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "30",
+        "slug": "python/py-502-30-002",
+        "title": "Как это работает \"под капотом\"",
+        "section": "как-это-работает-под-капотом",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "31": [
+      {
+        "article": "31",
+        "slug": "python/py-502-31-001",
+        "title": "Строка режима open()",
+        "section": "строка-режима-open",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-002",
+        "title": "Строка режима open()",
+        "section": "строка-режима-open",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-003",
+        "title": "Строка режима open()",
+        "section": "строка-режима-open",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-004",
+        "title": "Проверка подстроки, замена и фиксированные переносы строк",
+        "section": "проверка-подстроки-замена-и-фиксированные-перено",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-005",
+        "title": "Организация и сортировка каталогов",
+        "section": "организация-и-сортировка-каталогов",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-006",
+        "title": "Парсинг, фильтрация и агрегация (лог, CSV, JSON, XML, Markdown)",
+        "section": "парсинг-фильтрация-и-агрегация-лог-csv-json-xml-",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-007",
+        "title": "Парсинг, фильтрация и агрегация (лог, CSV, JSON, XML, Markdown)",
+        "section": "парсинг-фильтрация-и-агрегация-лог-csv-json-xml-",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-008",
+        "title": "Архивирование, сжатие, разбиение и склейка",
+        "section": "архивирование-сжатие-разбиение-и-склейка",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-009",
+        "title": "Резервное копирование и синхронизация каталогов",
+        "section": "резервное-копирование-и-синхронизация-каталогов",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-010",
+        "title": "Мониторинг файловой системы (события)",
+        "section": "мониторинг-файловой-системы-события",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-011",
+        "title": "Криптография — хеш, шифрование, безопасное затирание",
+        "section": "криптография-хеш-шифрование-безопасное-затирание",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-012",
+        "title": "Генерация из шаблонов и scaffolding проекта",
+        "section": "генерация-из-шаблонов-и-scaffolding-проекта",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-013",
+        "title": "Валидация целостности и синтаксиса",
+        "section": "валидация-целостности-и-синтаксиса",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-014",
+        "title": "Форматы данных — JSON, CSV, XML",
+        "section": "форматы-данных-json-csv-xml",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-015",
+        "title": "Форматы данных — JSON, CSV, XML",
+        "section": "форматы-данных-json-csv-xml",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-016",
+        "title": "Парсинг и веб-скрапинг",
+        "section": "парсинг-и-веб-скрапинг",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-017",
+        "title": "Парсинг и веб-скрапинг",
+        "section": "парсинг-и-веб-скрапинг",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "31",
+        "slug": "python/py-502-31-018",
+        "title": "Парсинг и веб-скрапинг",
+        "section": "парсинг-и-веб-скрапинг",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "32": [
+      {
+        "article": "32",
+        "slug": "python/py-502-32-001",
+        "title": "Черепашья графика",
+        "section": "черепашья-графика",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "32",
+        "slug": "python/py-502-32-002",
+        "title": "Черепашья графика",
+        "section": "черепашья-графика",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "32",
+        "slug": "python/py-502-32-003",
+        "title": "Черепашья графика",
+        "section": "черепашья-графика",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "32",
+        "slug": "python/py-502-32-004",
+        "title": "Черепашья графика",
+        "section": "черепашья-графика",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "32",
+        "slug": "python/py-502-32-005",
+        "title": "Логика и циклы",
+        "section": "логика-и-циклы",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "32",
+        "slug": "python/py-502-32-006",
+        "title": "Логика и циклы",
+        "section": "логика-и-циклы",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "32",
+        "slug": "python/py-502-32-007",
+        "title": "Логика и циклы",
+        "section": "логика-и-циклы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "32",
+        "slug": "python/py-502-32-008",
+        "title": "Логика и циклы",
+        "section": "логика-и-циклы",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "34": [
+      {
+        "article": "34",
+        "slug": "python/py-502-34-001",
+        "title": "Маршрутизация и обработка GET/POST",
+        "section": "маршрутизация-и-обработка-get-post",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "34",
+        "slug": "html/py-502-34-002",
+        "title": "Шаблоны, статика, сессии",
+        "section": "шаблоны-статика-сессии",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "34",
+        "slug": "python/py-502-34-003",
+        "title": "Шаблоны, статика, сессии",
+        "section": "шаблоны-статика-сессии",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "34",
+        "slug": "python/py-502-34-004",
+        "title": "REST API",
+        "section": "rest-api",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "34",
+        "slug": "python/py-502-34-005",
+        "title": "Пример — получение данных с GitHub API",
+        "section": "пример-получение-данных-с-github-api",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "34",
+        "slug": "python/py-502-34-006",
+        "title": "smtplib — отправка писем",
+        "section": "smtplib-отправка-писем",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "34",
+        "slug": "python/py-502-34-007",
+        "title": "Персонализированные рассылки",
+        "section": "персонализированные-рассылки",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "34",
+        "slug": "python/py-502-34-008",
+        "title": "Telegram-боты — python-telegram-bot",
+        "section": "telegram-боты-python-telegram-bot",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "34",
+        "slug": "python/py-502-34-009",
+        "title": "Пример — уведомление об ошибках",
+        "section": "пример-уведомление-об-ошибках",
+        "blocks": 1,
+        "lines": 60
+      }
+    ],
+    "35": [
+      {
+        "article": "35",
+        "slug": "python/py-502-35-001",
+        "title": "1. Автоархивация логов (`log_archiver.py`)",
+        "section": "1-автоархивация-логов-log-archiver-py",
+        "blocks": 1,
+        "lines": 199
+      },
+      {
+        "article": "35",
+        "slug": "python/py-502-35-002",
+        "title": "2. Health-check бот с алертингом (`health_monitor.py`)",
+        "section": "2-health-check-бот-с-алертингом-health-monitor-p",
+        "blocks": 1,
+        "lines": 161
+      },
+      {
+        "article": "35",
+        "slug": "python/py-502-35-003",
+        "title": "3. Pre-commit хук для документации (`doc_validator.py`)",
+        "section": "3-pre-commit-хук-для-документации-doc-validator-",
+        "blocks": 1,
+        "lines": 91
+      }
+    ],
+    "36": [
+      {
+        "article": "36",
+        "slug": "yaml/py-502-36-001",
+        "title": "3.15 DevOps и инфраструктура",
+        "section": "3-15-devops-и-инфраструктура",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "37": [
+      {
+        "article": "37",
+        "slug": "python/py-502-37-001",
+        "title": "`parametrize` — одна функция, много кейсов",
+        "section": "parametrize-одна-функция-много-кейсов",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "37",
+        "slug": "python/py-502-37-002",
+        "title": "FastAPI — `TestClient`",
+        "section": "fastapi-testclient",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "37",
+        "slug": "python/py-502-37-003",
+        "title": "JWT в тестах",
+        "section": "jwt-в-тестах",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "37",
+        "slug": "python/py-502-37-004",
+        "title": "Flask — тестовый клиент",
+        "section": "flask-тестовый-клиент",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "39": [
+      {
+        "article": "39",
+        "slug": "text/py-502-39-001",
+        "title": "pyproject.toml — современный манифест проекта",
+        "section": "pyproject-toml",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "python/py-502-101-001",
+        "title": "Основные правила именования",
+        "section": "основные-правила-именования",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-002",
+        "title": "Оформление многострочных конструкций",
+        "section": "оформление-многострочных-конструкций",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-003",
+        "title": "Организация модулей",
+        "section": "организация-модулей",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-004",
+        "title": "Принцип единственной ответственности",
+        "section": "принцип-единственной-ответственности",
+        "blocks": 1,
+        "lines": 75
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-005",
+        "title": "Инкапсуляция и сокрытие реализации",
+        "section": "инкапсуляция-и-сокрытие-реализации",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-006",
+        "title": "Композиция вместо наследования",
+        "section": "композиция-вместо-наследования",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-007",
+        "title": "Создание пользовательских исключений",
+        "section": "создание-пользовательских-исключений",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-008",
+        "title": "Логирование ошибок",
+        "section": "логирование-ошибок",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-009",
+        "title": "Документирование модулей и функций",
+        "section": "документирование-модулей-и-функций",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-010",
+        "title": "Структура тестов",
+        "section": "структура-тестов",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "101",
+        "slug": "text/py-502-101-011",
+        "title": "Статический анализ",
+        "section": "статический-анализ",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-012",
+        "title": "Работа с конфигурацией",
+        "section": "работа-с-конфигурацией",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-013",
+        "title": "Работа с внешними сервисами",
+        "section": "работа-с-внешними-сервисами",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-014",
+        "title": "Логирование",
+        "section": "логирование",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "python/py-502-101-015",
+        "title": "Управление состоянием и мутабельностью",
+        "section": "управление-состоянием-и-мутабельностью",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "102": [
+      {
+        "article": "102",
+        "slug": "python/py-502-102-001",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-002",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-003",
+        "title": "Консольный калькулятор",
+        "section": "консольный-калькулятор",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-004",
+        "title": "Трекер задач в JSON",
+        "section": "трекер-задач-в-json",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-005",
+        "title": "Клиент",
+        "section": "клиент",
+        "blocks": 1,
+        "lines": 275
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-006",
+        "title": "Сервер",
+        "section": "сервер",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-007",
+        "title": "Сервер",
+        "section": "сервер",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-008",
+        "title": "Клиент",
+        "section": "клиент",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-009",
+        "title": "Отправитель HTTP-запросов",
+        "section": "отправитель-http-запросов",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-010",
+        "title": "Утилита для сканирования директорий",
+        "section": "утилита-для-сканирования-директорий",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-011",
+        "title": "Скрипт для создания резервного копирования файлов",
+        "section": "скрипт-для-создания-резервного-копирования-файло",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-012",
+        "title": "Мониторинг дискового пространства",
+        "section": "мониторинг-дискового-пространства",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-013",
+        "title": "Парсер URL и проверка доступности ресурса",
+        "section": "парсер-url-и-проверка-доступности-ресурса",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-014",
+        "title": "Конвертер форматов дат",
+        "section": "конвертер-форматов-дат",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-015",
+        "title": "Утилита для просмотра запущенных процессов",
+        "section": "утилита-для-просмотра-запущенных-процессов",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "102",
+        "slug": "python/py-502-102-016",
+        "title": "Характерный пример для Python — Использование декораторов",
+        "section": "характерный-пример-для-python-использование-деко",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "python/py-502-103-001",
+        "title": "Исключения",
+        "section": "исключения",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "103",
+        "slug": "python/py-502-103-002",
+        "title": "Пример 1 — Работа со списками и словарями",
+        "section": "пример-1-работа-со-списками-и-словарями",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "121": [
+      {
+        "article": "121",
+        "slug": "bash/py-502-121-001",
+        "title": "Графические интерфейсы",
+        "section": "графические-интерфейсы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "121",
+        "slug": "bash/py-502-121-002",
+        "title": "Веб-фреймворки и серверы",
+        "section": "веб-фреймворки-и-серверы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "121",
+        "slug": "bash/py-502-121-003",
+        "title": "Тестирование",
+        "section": "тестирование",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "121",
+        "slug": "bash/py-502-121-004",
+        "title": "Научные вычисления и машинное обучение",
+        "section": "научные-вычисления-и-машинное-обучение",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "122": [
+      {
+        "article": "122",
+        "slug": "python/py-502-122-001",
+        "title": "Модуль math",
+        "section": "модуль-math",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-002",
+        "title": "Модуль random",
+        "section": "модуль-random",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-003",
+        "title": "Модуль datetime",
+        "section": "модуль-datetime",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-004",
+        "title": "Модуль os и sys",
+        "section": "модуль-os-и-sys",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-005",
+        "title": "Модуль os и sys",
+        "section": "модуль-os-и-sys",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-006",
+        "title": "Модуль socket",
+        "section": "модуль-socket",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-007",
+        "title": "Модуль http",
+        "section": "модуль-http",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-008",
+        "title": "Модуль tkinter",
+        "section": "модуль-tkinter",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-009",
+        "title": "Модуль re",
+        "section": "модуль-re",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-010",
+        "title": "Модуль json",
+        "section": "модуль-json",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-011",
+        "title": "Модуль pickle",
+        "section": "модуль-pickle",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-012",
+        "title": "Модуль csv",
+        "section": "модуль-csv",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-013",
+        "title": "Модуль logging",
+        "section": "модуль-logging",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "122",
+        "slug": "python/py-502-122-014",
+        "title": "Модуль pprint",
+        "section": "модуль-pprint",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "231": [
+      {
+        "article": "231",
+        "slug": "python/py-502-231-001",
+        "title": "Классы и dataclass",
+        "section": "классы-и-dataclass",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "301": [
+      {
+        "article": "301",
+        "slug": "python/py-502-301-001",
+        "title": "Встроенные CBV аутентификации",
+        "section": "встроенные-cbv-аутентификации",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "301",
+        "slug": "python/py-502-301-002",
+        "title": "**Логирование**",
+        "section": "логирование",
+        "blocks": 1,
+        "lines": 41
+      }
+    ],
+    "311": [
+      {
+        "article": "311",
+        "slug": "python/py-502-311-001",
+        "title": "GUI в Python",
+        "section": "gui-в-python",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-002",
+        "title": "Пример простого приложения с кнопкой",
+        "section": "пример-простого-приложения-с-кнопкой",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-003",
+        "title": "Виджеты (Widgets)",
+        "section": "виджеты-widgets",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-004",
+        "title": "Динамическое обновление текста",
+        "section": "динамическое-обновление-текста",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-005",
+        "title": "Частые анти-паттерны в Tkinter",
+        "section": "частые-анти-паттерны-в-tkinter",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-006",
+        "title": "Шрифты",
+        "section": "шрифты",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-007",
+        "title": "Шрифты",
+        "section": "шрифты",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-008",
+        "title": "Таймер обратного отсчёта",
+        "section": "таймер-обратного-отсчёта",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-009",
+        "title": "Метка с рамкой и тенью",
+        "section": "метка-с-рамкой-и-тенью",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-010",
+        "title": "Выравнивание текста",
+        "section": "выравнивание-текста",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "311",
+        "slug": "python/py-502-311-011",
+        "title": "Смена изображений по клику",
+        "section": "смена-изображений-по-клику",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "312": [
+      {
+        "article": "312",
+        "slug": "python/py-502-312-001",
+        "title": "Консольные игры",
+        "section": "консольные-игры",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-002",
+        "title": "Pygame",
+        "section": "pygame",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-003",
+        "title": "Простое управление спрайтом",
+        "section": "простое-управление-спрайтом",
+        "blocks": 1,
+        "lines": 109
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-004",
+        "title": "Пошаговое расширение — враг, столкновения, снаряды",
+        "section": "пошаговое-расширение-враг-столкновения-снаряды",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-005",
+        "title": "Пошаговое расширение — враг, столкновения, снаряды",
+        "section": "пошаговое-расширение-враг-столкновения-снаряды",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-006",
+        "title": "Спрайты (Sprites)",
+        "section": "спрайты-sprites",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-007",
+        "title": "Звуки и музыка",
+        "section": "звуки-и-музыка",
+        "blocks": 1,
+        "lines": 122
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-008",
+        "title": "Создание спрайта игрока с анимацией",
+        "section": "создание-спрайта-игрока-с-анимацией",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-009",
+        "title": "Спрайт противника и движение",
+        "section": "спрайт-противника-и-движение",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-010",
+        "title": "Спрайт противника и движение",
+        "section": "спрайт-противника-и-движение",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-011",
+        "title": "Платформа с коллизией",
+        "section": "платформа-с-коллизией",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-012",
+        "title": "Пуля или снаряд",
+        "section": "пуля-или-снаряд",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-013",
+        "title": "Бонусы и сбор предметов",
+        "section": "бонусы-и-сбор-предметов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-014",
+        "title": "Передвижение спрайта с ускорением",
+        "section": "передвижение-спрайта-с-ускорением",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-015",
+        "title": "Полный пример структуры игры",
+        "section": "полный-пример-структуры-игры",
+        "blocks": 1,
+        "lines": 110
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-016",
+        "title": "Play",
+        "section": "play",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-017",
+        "title": "Play",
+        "section": "play",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-018",
+        "title": "Обработка столкновений (Collision Detection)",
+        "section": "обработка-столкновений-collision-detection",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-019",
+        "title": "Система частиц (Particle System)",
+        "section": "система-частиц-particle-system",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-020",
+        "title": "Тайловый фон (Tilemap)",
+        "section": "тайловый-фон-tilemap",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-021",
+        "title": "Камера (Camera Follow)",
+        "section": "камера-camera-follow",
+        "blocks": 1,
+        "lines": 95
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-022",
+        "title": "Простой инвентарь (Grid UI)",
+        "section": "простой-инвентарь-grid-ui",
+        "blocks": 1,
+        "lines": 100
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-023",
+        "title": "Анимация спрайта (Sprite Sheet)",
+        "section": "анимация-спрайта-sprite-sheet",
+        "blocks": 1,
+        "lines": 104
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-024",
+        "title": "Пауза и Меню (Game State Management)",
+        "section": "пауза-и-меню-game-state-management",
+        "blocks": 1,
+        "lines": 127
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-025",
+        "title": "Система здоровья с визуальным эффектом (Hit Flash)",
+        "section": "система-здоровья-с-визуальным-эффектом-hit-flash",
+        "blocks": 1,
+        "lines": 98
+      },
+      {
+        "article": "312",
+        "slug": "python/py-502-312-026",
+        "title": "Сохранение и загрузка данных (JSON)",
+        "section": "сохранение-и-загрузка-данных-json",
+        "blocks": 1,
+        "lines": 122
+      }
+    ],
+    "314": [
+      {
+        "article": "314",
+        "slug": "python/py-502-314-001",
+        "title": "СУБД, драйверы и когда что выбирать",
+        "section": "субд-драйверы-и-когда-что-выбирать",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "314",
+        "slug": "python/py-502-314-002",
+        "title": "ORM и уровни абстракции",
+        "section": "orm-и-уровни-абстракции",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "315": [
+      {
+        "article": "315",
+        "slug": "python/py-502-315-001",
+        "title": "TCP — эхо-сервер — разбор построчно",
+        "section": "tcp-эхо-сервер-разбор-построчно",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "316": [
+      {
+        "article": "316",
+        "slug": "python/py-502-316-001",
+        "title": "Типовой сценарий — каталог",
+        "section": "типовой-сценарий-каталог",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "317": [
+      {
+        "article": "317",
+        "slug": "python/py-502-317-001",
+        "title": "Минимальный бот",
+        "section": "минимальный-бот",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "317",
+        "slug": "python/py-502-317-002",
+        "title": "Inline-кнопки (под сообщением)",
+        "section": "inline-кнопки-под-сообщением",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "317",
+        "slug": "python/py-502-317-003",
+        "title": "Пошаговый диалог (состояния)",
+        "section": "пошаговый-диалог-состояния",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "317",
+        "slug": "python/py-502-317-004",
+        "title": "SQLite",
+        "section": "sqlite",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "318": [
+      {
+        "article": "318",
+        "slug": "python/py-502-318-001",
+        "title": "Установка и первый запуск",
+        "section": "установка-и-первый-запуск",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "318",
+        "slug": "python/py-502-318-002",
+        "title": "Текстура на карточке",
+        "section": "текстура-на-карточке",
+        "blocks": 1,
+        "lines": 76
+      },
+      {
+        "article": "318",
+        "slug": "python/py-502-318-003",
+        "title": "Куб из вершин и нормалей",
+        "section": "куб-из-вершин-и-нормалей",
+        "blocks": 1,
+        "lines": 89
+      }
+    ],
+    "321": [
+      {
+        "article": "321",
+        "slug": "python/py-502-321-001",
+        "title": "6. Градиенты (ручная реализация)",
+        "section": "6-градиенты-ручная-реализация",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "321",
+        "slug": "python/py-502-321-002",
+        "title": "3. Интеграция в `tkinter` — `TurtleScreen` и `RawTurtle`",
+        "section": "3-интеграция-в-tkinter-turtlescreen-и-rawturtle",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "321",
+        "slug": "python/py-502-321-003",
+        "title": "5. Домик",
+        "section": "5-домик",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "321",
+        "slug": "python/py-502-321-004",
+        "title": "9. Снежинка Коха (рекурсивная, глубина 3)",
+        "section": "9-снежинка-коха-рекурсивная-глубина-3",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "321",
+        "slug": "python/py-502-321-005",
+        "title": "10. Дракон Хартера-Хейтуэя (итеративный, 12 итераций)",
+        "section": "10-дракон-хартера-хейтуэя-итеративный-12-итераци",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "321",
+        "slug": "python/py-502-321-006",
+        "title": "11. Часы с движущимися стрелками",
+        "section": "11-часы-с-движущимися-стрелками",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "321",
+        "slug": "python/py-502-321-007",
+        "title": "12. Простая солнечная система (2D, без физики)",
+        "section": "12-простая-солнечная-система-2d-без-физики",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "321",
+        "slug": "python/py-502-321-008",
+        "title": "4. Интеграция с другими библиотеками",
+        "section": "4-интеграция-с-другими-библиотеками",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "331": [
+      {
+        "article": "331",
+        "slug": "python/py-502-331-001",
+        "title": "pivot_table и melt",
+        "section": "pivot-table-и-melt",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "331",
+        "slug": "python/py-502-331-002",
+        "title": "Временные ряды",
+        "section": "временные-ряды",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "331",
+        "slug": "python/py-502-331-003",
+        "title": "Типовой мини-пайплайн \"CSV → отчёт\"",
+        "section": "типовой-мини-пайплайн-csv-отчёт",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "332": [
+      {
+        "article": "332",
+        "slug": "python/py-502-332-001",
+        "title": "Минимальный пример классификации",
+        "section": "минимальный-пример-классификации",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "332",
+        "slug": "python/py-502-332-002",
+        "title": "Pipeline — единый контракт",
+        "section": "pipeline-единый-контракт",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "333": [
+      {
+        "article": "333",
+        "slug": "python/py-502-333-001",
+        "title": "Градиентный спуск — ручной и автоматический",
+        "section": "градиентный-спуск-ручной-и-автоматический",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "333",
+        "slug": "python/py-502-333-002",
+        "title": "Модель как nn.Module",
+        "section": "модель-как-nn-module",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "333",
+        "slug": "python/py-502-333-003",
+        "title": "Dataset и DataLoader",
+        "section": "dataset-и-dataloader",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "333",
+        "slug": "python/py-502-333-004",
+        "title": "Сквозной ML-пайплайн",
+        "section": "сквозной-ml-пайплайн",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "333",
+        "slug": "python/py-502-333-005",
+        "title": "Цикл обучения",
+        "section": "цикл-обучения",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "333",
+        "slug": "python/py-502-333-006",
+        "title": "Цикл обучения",
+        "section": "цикл-обучения",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "334": [
+      {
+        "article": "334",
+        "slug": "python/py-502-334-001",
+        "title": "Слои интерфейса",
+        "section": "слои-интерфейса",
+        "blocks": 1,
+        "lines": 81
+      },
+      {
+        "article": "334",
+        "slug": "python/py-502-334-002",
+        "title": "Форматы и функции чтения",
+        "section": "форматы-и-функции-чтения",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "334",
+        "slug": "python/py-502-334-003",
+        "title": "Почему не выводить DataFrame напрямую",
+        "section": "почему-не-выводить-dataframe-напрямую",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "334",
+        "slug": "python/py-502-334-004",
+        "title": "Идея фильтра",
+        "section": "идея-фильтра",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "334",
+        "slug": "python/py-502-334-005",
+        "title": "Что такое описательная статистика",
+        "section": "что-такое-описательная-статистика",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "335": [
+      {
+        "article": "335",
+        "slug": "python/py-502-335-001",
+        "title": "Теория в двух абзацах",
+        "section": "теория-в-двух-абзацах",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "335",
+        "slug": "python/py-502-335-002",
+        "title": "Гиперпараметры учебного запуска",
+        "section": "гиперпараметры-учебного-запуска",
+        "blocks": 1,
+        "lines": 76
+      },
+      {
+        "article": "335",
+        "slug": "python/py-502-335-003",
+        "title": "Слои интерфейса",
+        "section": "слои-интерфейса",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "335",
+        "slug": "python/py-502-335-004",
+        "title": "Конвенция пикселей MNIST vs canvas",
+        "section": "конвенция-пикселей-mnist-vs-canvas",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "335",
+        "slug": "python/py-502-335-005",
+        "title": "Train vs inference в одном приложении",
+        "section": "train-vs-inference-в-одном-приложении",
+        "blocks": 1,
+        "lines": 55
+      }
+    ],
+    "341": [
+      {
+        "article": "341",
+        "slug": "python/py-502-341-001",
+        "title": "Тестирование",
+        "section": "тестирование",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "343": [
+      {
+        "article": "343",
+        "slug": "python/py-502-343-001",
+        "title": "Работа с данными — модели, ORM и сериализация",
+        "section": "работа-с-данными-модели-orm-и-сериализация",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "3011": [
+      {
+        "article": "3011",
+        "slug": "bash/py-502-3011-001",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "3011",
+        "slug": "html/py-502-3011-002",
+        "title": "Создание шаблона",
+        "section": "создание-шаблона",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "3011",
+        "slug": "python/py-502-3011-003",
+        "title": "Добавление сообщения через ModelForm",
+        "section": "добавление-сообщения-через-modelform",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "3013": [
+      {
+        "article": "3013",
+        "slug": "python/py-502-3013-001",
+        "title": "Модели предметной области",
+        "section": "модели-предметной-области",
+        "blocks": 1,
+        "lines": 41
+      }
+    ],
+    "3111": [
+      {
+        "article": "3111",
+        "slug": "python/py-502-3111-001",
+        "title": "Конвертер температуры",
+        "section": "конвертер-температуры",
+        "blocks": 1,
+        "lines": 41
+      }
+    ],
+    "3112": [
+      {
+        "article": "3112",
+        "slug": "python/py-502-3112-001",
+        "title": "Tooltip (подсказка)",
+        "section": "tooltip-подсказка",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "3131": [
+      {
+        "article": "3131",
+        "slug": "python/py-502-3131-001",
+        "title": "Код с разбором",
+        "section": "код-с-разбором",
+        "blocks": 1,
+        "lines": 59
+      }
+    ],
+    "3411": [
+      {
+        "article": "3411",
+        "slug": "python/py-502-3411-001",
+        "title": "`app.py`",
+        "section": "app-py",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "3411",
+        "slug": "html/py-502-3411-002",
+        "title": "`templates/index.html`",
+        "section": "templates-index-html",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "3411",
+        "slug": "python/py-502-3411-003",
+        "title": "Часть 2. SQLite и Flask-SQLAlchemy",
+        "section": "часть-2-sqlite-и-flask-sqlalchemy",
+        "blocks": 1,
+        "lines": 63
+      }
+    ],
+    "3432": [
+      {
+        "article": "3432",
+        "slug": "python/py-502-3432-001",
+        "title": "`main.py`",
+        "section": "main-py",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "3432",
+        "slug": "python/py-502-3432-002",
+        "title": "Часть 2. JWT-авторизация",
+        "section": "часть-2-jwt-авторизация",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "3432",
+        "slug": "python/py-502-3432-003",
+        "title": "Часть 2. JWT-авторизация",
+        "section": "часть-2-jwt-авторизация",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "3433": [
+      {
+        "article": "3433",
+        "slug": "python/py-502-3433-001",
+        "title": "Таблица (SQLAlchemy)",
+        "section": "таблица-sqlalchemy",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3433",
+        "slug": "python/py-502-3433-002",
+        "title": "CRUD с разбором шагов",
+        "section": "crud-с-разбором-шагов",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "kivy-praktikum-1": [
+      {
+        "article": "kivy-praktikum-1",
+        "slug": "python/py-502-kivy-praktikum-1-001",
+        "title": "Этап 2 — виджет `Tile`",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "kivy-praktikum-2": [
+      {
+        "article": "kivy-praktikum-2",
+        "slug": "python/py-502-kivy-praktikum-2-001",
+        "title": "Теория",
+        "section": "теория",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "kivy-praktikum-2",
+        "slug": "python/py-502-kivy-praktikum-2-002",
+        "title": "Этап 1 — `Paddle`",
+        "section": "stage-1",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "kivy-praktikum-2",
+        "slug": "python/py-502-kivy-praktikum-2-003",
+        "title": "Этап 2 — `Ball`",
+        "section": "stage-2",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "kivy-praktikum-2",
+        "slug": "python/py-502-kivy-praktikum-2-004",
+        "title": "Этап 4 — игровой цикл",
+        "section": "stage-4",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "kivy-praktikum-2",
+        "slug": "python/py-502-kivy-praktikum-2-005",
+        "title": "Этап 7 — сенсорное управление",
+        "section": "stage-7",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "kivy-praktikum-3": [
+      {
+        "article": "kivy-praktikum-3",
+        "slug": "python/py-502-kivy-praktikum-3-001",
+        "title": "Теория",
+        "section": "теория",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "kivy-praktikum-3",
+        "slug": "python/py-502-kivy-praktikum-3-002",
+        "title": "Этап 3 — тик и движение",
+        "section": "stage-3",
+        "blocks": 1,
+        "lines": 22
+      }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Потоки и синхронные каналы в Rust — Канал mpsc",
+  "description": "Фрагмент из «Потоки и синхронные каналы в Rust»: Канал mpsc.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "203"
+  ],
+  "order": 1,
+  "series": "rust-513-203",
+  "seriesOrder": 1,
+  "seriesTitle": "Потоки и синхронные каналы в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/203"
+}

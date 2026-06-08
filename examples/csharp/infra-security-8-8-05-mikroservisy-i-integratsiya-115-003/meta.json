@@ -1,0 +1,14 @@
+{
+  "title": "Синхронная коммуникация — Реализация на C#",
+  "description": "Фрагмент из «Синхронная коммуникация»: Реализация на C#.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-115"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-115",
+  "seriesOrder": 3,
+  "seriesTitle": "Синхронная коммуникация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/115"
+}

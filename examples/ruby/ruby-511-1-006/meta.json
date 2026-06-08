@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка Ruby — Замыкания — захват состояния, а не копирование",
+  "description": "Фрагмент из «Основы языка Ruby»: Замыкания — захват состояния, а не копирование.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 6,
+  "series": "ruby-511-1",
+  "seriesOrder": 6,
+  "seriesTitle": "Основы языка Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/1"
+}

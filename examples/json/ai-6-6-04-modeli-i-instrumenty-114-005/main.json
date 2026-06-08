@@ -1,0 +1,16 @@
+{
+  "policies": [
+    {
+      "role": "developer",
+      "permissions": ["read", "execute"],
+      "resources": ["/code/*", "/logs/app/*"],
+      "tools": ["analyzeCode", "runTests"]
+    },
+    {
+      "role": "admin",
+      "permissions": ["read", "write", "execute", "admin"],
+      "resources": ["*"],
+      "tools": ["*"]
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Пример реализации бэкенда на C# — 7.2. Регистрация в DI-контейнере",
+  "description": "Фрагмент из «Пример реализации бэкенда на C#»: 7.2. Регистрация в DI-контейнере.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "47"
+  ],
+  "order": 6,
+  "series": "csharp-505-47",
+  "seriesOrder": 6,
+  "seriesTitle": "Пример реализации бэкенда на C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/47"
+}

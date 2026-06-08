@@ -1,0 +1,21 @@
+syntax = "proto3";
+
+package phonebook.v1;
+option go_package = "example.com/phonebook/pb;pb";
+
+message Contact {
+  string name = 1;
+  string phone = 2;
+}
+
+message GetRequest {
+  string name = 1;
+}
+
+message GetResponse {
+  Contact contact = 1;
+}
+
+service PhoneBook {
+  rpc Get(GetRequest) returns (GetResponse);
+}

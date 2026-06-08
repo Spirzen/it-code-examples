@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность в Ruby — Синхронизация доступа к разделяемым данным",
+  "description": "Фрагмент из «Асинхронность в Ruby»: Синхронизация доступа к разделяемым данным.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 2,
+  "series": "ruby-511-17",
+  "seriesOrder": 2,
+  "seriesTitle": "Асинхронность в Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/17"
+}

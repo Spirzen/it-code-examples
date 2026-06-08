@@ -1,0 +1,34 @@
+services:
+  wordpress:
+    image: wordpress:6.7-apache
+    ports:
+      - "8080:80"
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wppass
+      WORDPRESS_DB_NAME: wpdb
+    volumes:
+      - wp_uploads:/var/www/html/wp-content/uploads
+    depends_on:
+      db:
+        condition: service_healthy
+
+  db:
+    image: mariadb:11
+    environment:
+      MARIADB_USER: wp
+      MARIADB_PASSWORD: wppass
+      MARIADB_DATABASE: wpdb
+      MARIADB_ROOT_PASSWORD: rootpass
+    volumes:
+      - mariadb_data:/var/lib/mysql
+    healthcheck:
+      test: ["CMD", "healthcheck.sh", "--connect", "--innodb_initialized"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  wp_uploads:
+  mariadb_data:

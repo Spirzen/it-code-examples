@@ -1,0 +1,15 @@
+{
+  "title": "Управление потоками в многозадачных системах — Go",
+  "description": "Фрагмент из «Управление потоками в многозадачных системах»: Go.",
+  "tags": [
+    "async",
+    "concurrency",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 5,
+  "series": "code-405-11",
+  "seriesOrder": 5,
+  "seriesTitle": "Управление потоками в многозадачных системах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/11"
+}

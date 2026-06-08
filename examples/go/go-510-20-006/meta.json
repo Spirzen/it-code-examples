@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Go — Практический каркас слоя данных",
+  "description": "Фрагмент из «Работа с базами данных из Go»: Практический каркас слоя данных.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "20"
+  ],
+  "order": 6,
+  "series": "go-510-20",
+  "seriesOrder": 6,
+  "seriesTitle": "Работа с базами данных из Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/20"
+}

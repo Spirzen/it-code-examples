@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность и горутины — Практическая модель устойчивого worker-пула",
+  "description": "Фрагмент из «Асинхронность и горутины»: Практическая модель устойчивого worker-пула.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 7,
+  "series": "go-510-21",
+  "seriesOrder": 7,
+  "seriesTitle": "Асинхронность и горутины",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/21"
+}

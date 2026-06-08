@@ -1,0 +1,14 @@
+{
+  "title": "REST — HATEOAS",
+  "description": "Фрагмент из «REST»: HATEOAS.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-1151"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-1151",
+  "seriesOrder": 1,
+  "seriesTitle": "REST",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/1151"
+}

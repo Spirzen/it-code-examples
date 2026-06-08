@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Компоновщик\" (Composite) в Java — дерево отдела и единый интерфейс' — Пример — структура отдела",
+  "description": "Фрагмент из «'Паттерн \"Компоновщик\" (Composite) в Java — дерево отдела и единый интерфейс'»: Пример — структура отдела.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-132"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-132",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Компоновщик\" (Composite) в Java — дерево отдела и единый интерфейс'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/132"
+}

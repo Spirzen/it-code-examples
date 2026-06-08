@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL — Row-level triggers",
+  "description": "Фрагмент из «Практикум PostgreSQL»: Row-level triggers.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-11-praktikum-postgresql-5"
+  ],
+  "order": 4,
+  "series": "infra-security-8-11-postgresql-praktikum",
+  "seriesOrder": 4,
+  "seriesTitle": "Практикум PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-11-praktikum-postgresql/intro"
+}

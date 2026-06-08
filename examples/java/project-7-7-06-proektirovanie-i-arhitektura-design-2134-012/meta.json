@@ -1,0 +1,14 @@
+{
+  "title": "Надежность и доступность — Изоляция сбоев через Bulkhead",
+  "description": "Фрагмент из «Надежность и доступность»: Изоляция сбоев через Bulkhead.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-2134"
+  ],
+  "order": 12,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-2134",
+  "seriesOrder": 12,
+  "seriesTitle": "Надежность и доступность",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design/2134"
+}

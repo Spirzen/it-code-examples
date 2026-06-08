@@ -1,0 +1,14 @@
+{
+  "title": "Пакеты и зависимости в .NET — `dotnet list package`",
+  "description": "Фрагмент из «Пакеты и зависимости в .NET»: `dotnet list package`.",
+  "tags": [
+    "dotnet",
+    "encyclopedia",
+    "15"
+  ],
+  "order": 1,
+  "series": "dotnet-504-15",
+  "seriesOrder": 1,
+  "seriesTitle": "Пакеты и зависимости в .NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-04-platforma-dotnet/15"
+}

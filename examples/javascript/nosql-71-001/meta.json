@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Cypher — 13.3 Выявление сообществ (Community Detection через Label Propagation — упрощённо)",
+  "description": "Фрагмент из «Справочник по Cypher»: 13.3 Выявление сообществ (Community Detection через Label Propagation — упрощённо).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "71"
+  ],
+  "order": 1,
+  "series": "nosql-71",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Cypher",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/71"
+}

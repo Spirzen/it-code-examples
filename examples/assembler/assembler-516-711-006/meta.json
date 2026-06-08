@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по ассемблеру — Сборка программы без libc (чистый системный вызов)",
+  "description": "Фрагмент из «Справочник по ассемблеру»: Сборка программы без libc (чистый системный вызов).",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "711"
+  ],
+  "order": 6,
+  "series": "assembler-516-711",
+  "seriesOrder": 6,
+  "seriesTitle": "Справочник по ассемблеру",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/711"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 16.3. CompletableFuture для асинхронных операций",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 16.3. CompletableFuture для асинхронных операций.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 37,
+  "series": "java-503-101",
+  "seriesOrder": 37,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}

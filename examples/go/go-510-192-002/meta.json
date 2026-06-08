@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование в Go — Моки через интерфейсы",
+  "description": "Фрагмент из «Тестирование в Go»: Моки через интерфейсы.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "192"
+  ],
+  "order": 2,
+  "series": "go-510-192",
+  "seriesOrder": 2,
+  "seriesTitle": "Тестирование в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/192"
+}

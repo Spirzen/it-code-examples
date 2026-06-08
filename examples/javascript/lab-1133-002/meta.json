@@ -1,0 +1,13 @@
+{
+  "title": "curl / fetch — API-запросы — 4. fetch — таймаут (не ждать вечно)",
+  "description": "Фрагмент из «curl / fetch — API-запросы»: 4. fetch — таймаут (не ждать вечно).",
+  "tags": [
+    "lab",
+    "1133"
+  ],
+  "order": 2,
+  "series": "lab-1133",
+  "seriesOrder": 2,
+  "seriesTitle": "curl / fetch — API-запросы",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1133"
+}

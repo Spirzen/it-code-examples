@@ -1,0 +1,26 @@
+-- tests/utils/string_spec.lua
+local String = require("utils.string")
+local assert = require("luassert")
+
+describe("String utilities", function()
+  describe("trim", function()
+    it("removes whitespace from both ends", function()
+      assert.equals("hello", String.trim("  hello  "))
+    end)
+    
+    it("handles empty strings", function()
+      assert.equals("", String.trim(""))
+      assert.equals("", String.trim("   "))
+    end)
+  end)
+  
+  describe("split", function()
+    it("splits string by delimiter", function()
+      local parts = String.split("a,b,c", ",")
+      assert.equals(3, #parts)
+      assert.equals("a", parts[1])
+      assert.equals("b", parts[2])
+      assert.equals("c", parts[3])
+    end)
+  end)
+end)

@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL: отложенные ограничения и .NET — Схема с взаимными ссылками",
+  "description": "Фрагмент из «PostgreSQL: отложенные ограничения и .NET»: Схема с взаимными ссылками.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "119"
+  ],
+  "order": 1,
+  "series": "code-410-119",
+  "seriesOrder": 1,
+  "seriesTitle": "PostgreSQL: отложенные ограничения и .NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/119"
+}

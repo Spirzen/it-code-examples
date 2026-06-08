@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по TypeScript — Мини-шпаргалка",
+  "description": "Фрагмент из «Справочник по TypeScript»: Мини-шпаргалка.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 1,
+  "series": "typescript-510-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/2"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Веб на стандартной библиотеке Go — Корректная остановка сервера",
+  "description": "Фрагмент из «Веб на стандартной библиотеке Go»: Корректная остановка сервера.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 2,
+  "series": "go-510-25",
+  "seriesOrder": 2,
+  "seriesTitle": "Веб на стандартной библиотеке Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/25"
+}

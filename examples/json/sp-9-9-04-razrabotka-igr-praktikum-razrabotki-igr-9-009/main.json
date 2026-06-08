@@ -1,0 +1,18 @@
+{
+  "cultist": {
+    "name": "Культист",
+    "hp": 48,
+    "intent_pattern": ["buff", "attack", "attack"],
+    "attack_damage": 6,
+    "buff_value": 3,
+    "description": "Накапливает силу, затем бьёт."
+  },
+  "slime": {
+    "name": "Слизь",
+    "hp": 32,
+    "intent_pattern": ["attack", "block", "attack"],
+    "attack_damage": 5,
+    "block_value": 4,
+    "description": "Простой противник для обучения."
+  }
+}

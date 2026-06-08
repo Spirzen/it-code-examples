@@ -1,0 +1,68 @@
+# .github/workflows/config-drift-check.yml
+name: Configuration Drift Check
+
+on:
+  pull_request:
+    paths:
+      - 'config_matrix.yaml'
+      - 'config/**'
+
+jobs:
+  detect_drift:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Установка Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      
+      - name: Установка зависимостей
+        run: pip install pyyaml
+      
+      - name: Генерация конфигураций
+        run: python scripts/generate_configs.py
+      
+      - name: Проверка дрейфа staging vs production
+        run: |
+          python scripts/compare_configs.py staging production > drift_report.txt
+          
+          # Проверка наличия неожиданных различий
+          if grep -q "UNEXPECTED CHANGES" drift_report.txt; then
+            echo "⚠ Обнаружен неожиданный дрейф конфигураций!"
+            cat drift_report.txt
+            exit 1
+          fi
+          
+          echo "✓ Дрейф конфигураций в допустимых пределах"
+      
+      - name: Валидация сгенерированных конфигураций
+        run: |
+          for env in development staging production; do
+            echo "Валидация конфигурации: $env"
+            python -c "
+          import yaml
+          import sys
+          from config_validator import validate_config
+          
+          with open('config/${env}.yaml') as f:
+              config = yaml.safe_load(f)
+          
+          errors = validate_config(config, '${env}')
+          if errors:
+              print(f'Ошибки валидации для ${env}:')
+              for error in errors:
+                  print(f'  - {error}')
+              sys.exit(1)
+          print(f'✓ Конфигурация ${env} валидна')
+          "
+          done
+      
+      - name: Публикация отчёта
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: config-drift-report
+          path: drift_report.txt

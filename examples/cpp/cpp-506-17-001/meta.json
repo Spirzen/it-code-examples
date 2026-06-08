@@ -1,0 +1,14 @@
+{
+  "title": "Функции и лямбда-выражения в C++ — `std::function` — универсальная обёртка",
+  "description": "Фрагмент из «Функции и лямбда-выражения в C++»: `std::function` — универсальная обёртка.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 1,
+  "series": "cpp-506-17",
+  "seriesOrder": 1,
+  "seriesTitle": "Функции и лямбда-выражения в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/17"
+}

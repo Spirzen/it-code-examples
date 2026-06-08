@@ -1,0 +1,14 @@
+{
+  "title": "PyTorch для разработчика — Dataset и DataLoader",
+  "description": "Фрагмент из «PyTorch для разработчика»: Dataset и DataLoader.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "333"
+  ],
+  "order": 3,
+  "series": "py-502-333",
+  "seriesOrder": 3,
+  "seriesTitle": "PyTorch для разработчика",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/333"
+}

@@ -1,0 +1,743 @@
+{
+  "generatedAt": "2026-06-08T12:12:03.573Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-09-kotlin",
+  "articles": {
+    "3": [
+      {
+        "article": "3",
+        "slug": "kotlin/kotlin-509-3-001",
+        "title": "Вложенные и внутренние классы",
+        "section": "вложенные-и-внутренние-классы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3",
+        "slug": "kotlin/kotlin-509-3-002",
+        "title": "DSL (Domain-Specific Languages)",
+        "section": "dsl-domain-specific-languages",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3",
+        "slug": "kotlin/kotlin-509-3-003",
+        "title": "Настройки проекта (build.gradle.kts)",
+        "section": "настройки-проекта-build-gradle-kts",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "3",
+        "slug": "kotlin/kotlin-509-3-004",
+        "title": "Идиомы и паттерны Kotlin",
+        "section": "идиомы-и-паттерны-kotlin",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "10": [
+      {
+        "article": "10",
+        "slug": "kotlin/kotlin-509-10-001",
+        "title": "ViewModel, LiveData, Room, Navigation",
+        "section": "viewmodel-livedata-room-navigation",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "10",
+        "slug": "kotlin/kotlin-509-10-002",
+        "title": "Kotest (ранее KotlinTest)",
+        "section": "kotest-ранее-kotlintest",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "10",
+        "slug": "kotlin/kotlin-509-10-003",
+        "title": "Gradle с Kotlin DSL",
+        "section": "gradle-с-kotlin-dsl",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "10",
+        "slug": "kotlin/kotlin-509-10-004",
+        "title": "KVision",
+        "section": "kvision",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "kotlin/kotlin-509-11-001",
+        "title": "2. Межплатформенная архитектура (Kotlin Multiplatform, KMP)",
+        "section": "2-межплатформенная-архитектура-kotlin-multiplatf",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "11",
+        "slug": "kotlin/kotlin-509-11-002",
+        "title": "4. Backend и серверная разработка (Ktor, Exposed)",
+        "section": "4-backend-и-серверная-разработка-ktor-exposed",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "11",
+        "slug": "kotlin/kotlin-509-11-003",
+        "title": "Делегирование",
+        "section": "делегирование",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "kotlin/kotlin-509-11-004",
+        "title": "Практические сниппеты",
+        "section": "практические-сниппеты",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "kotlin/kotlin-509-12-001",
+        "title": "1. \"Сырые\" данные из внешнего API",
+        "section": "1-сырые-данные-из-внешнего-api",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "kotlin/kotlin-509-14-001",
+        "title": "Пользовательские итераторы — адаптация сторонних типов под `for`",
+        "section": "пользовательские-итераторы-адаптация-сторонних-т",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "kotlin/kotlin-509-15-001",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 36
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "kotlin/kotlin-509-17-001",
+        "title": "10.1. Делегирование классов через `by`",
+        "section": "10-1-делегирование-классов-через-by",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "kotlin/kotlin-509-18-001",
+        "title": "Как работает типичный JDBC-запрос",
+        "section": "как-работает-типичный-jdbc-запрос",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "kotlin/kotlin-509-18-002",
+        "title": "Kotlin-расширения для облегчения JDBC",
+        "section": "kotlin-расширения-для-облегчения-jdbc",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "18",
+        "slug": "kotlin/kotlin-509-18-003",
+        "title": "DAO API (Entity-based)",
+        "section": "dao-api-entity-based",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "18",
+        "slug": "kotlin/kotlin-509-18-004",
+        "title": "Вставка и обновление",
+        "section": "вставка-и-обновление",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "18",
+        "slug": "kotlin/kotlin-509-18-005",
+        "title": "MongoDB",
+        "section": "mongodb",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "18",
+        "slug": "kotlin/kotlin-509-18-006",
+        "title": "Гибридные архитектуры",
+        "section": "гибридные-архитектуры",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "18",
+        "slug": "kotlin/kotlin-509-18-007",
+        "title": "Тестирование",
+        "section": "тестирование",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-001",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-002",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-003",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-004",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-005",
+        "title": "Сервер",
+        "section": "сервер",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-006",
+        "title": "Клиент",
+        "section": "клиент",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-007",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-008",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-009",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-010",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-011",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-012",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-013",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "21",
+        "slug": "kotlin/kotlin-509-21-014",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "kotlin/kotlin-509-22-001",
+        "title": "Файл `app/build.gradle.kts`",
+        "section": "файл-app-build-gradle-kts",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "22",
+        "slug": "kotlin/kotlin-509-22-002",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "22",
+        "slug": "kotlin/kotlin-509-22-003",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "22",
+        "slug": "kotlin/kotlin-509-22-004",
+        "title": "Код",
+        "section": "код",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "kotlin/kotlin-509-22-005",
+        "title": "Использование в Compose",
+        "section": "использование-в-compose",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "kotlin/kotlin-509-23-001",
+        "title": "Код `model/PetState.kt`",
+        "section": "код-model-petstate-kt",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "23",
+        "slug": "kotlin/kotlin-509-23-002",
+        "title": "Код `data/PetRepository.kt`",
+        "section": "код-data-petrepository-kt",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "23",
+        "slug": "kotlin/kotlin-509-23-003",
+        "title": "Каркас класса",
+        "section": "каркас-класса",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "23",
+        "slug": "kotlin/kotlin-509-23-004",
+        "title": "Действия игрока — `onAction`",
+        "section": "действия-игрока-onaction",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "23",
+        "slug": "kotlin/kotlin-509-23-005",
+        "title": "Ключевые фрагменты",
+        "section": "ключевые-фрагменты",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "kotlin/kotlin-509-101-001",
+        "title": "Конструкторы и инициализация",
+        "section": "конструкторы-и-инициализация",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "kotlin/kotlin-509-101-002",
+        "title": "Структура корутин",
+        "section": "структура-корутин",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "kotlin/kotlin-509-101-003",
+        "title": "KDoc для публичного API",
+        "section": "kdoc-для-публичного-api",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "221": [
+      {
+        "article": "221",
+        "slug": "kotlin/kotlin-509-221-001",
+        "title": "Вариант 2 — Gradle вручную",
+        "section": "вариант-2-gradle-вручную",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "221",
+        "slug": "kotlin/kotlin-509-221-002",
+        "title": "Полный код `Application.kt`",
+        "section": "полный-код-application-kt",
+        "blocks": 1,
+        "lines": 52
+      }
+    ],
+    "222": [
+      {
+        "article": "222",
+        "slug": "kotlin/kotlin-509-222-001",
+        "title": "Первый пример — `launch` и `runBlocking`",
+        "section": "первый-пример-launch-и-runblocking",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "222",
+        "slug": "kotlin/kotlin-509-222-002",
+        "title": "Scope в приложении",
+        "section": "scope-в-приложении",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "223": [
+      {
+        "article": "223",
+        "slug": "kotlin/kotlin-509-223-001",
+        "title": "Пример — сервис с suspend-репозиторием",
+        "section": "пример-сервис-с-suspend-репозиторием",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "223",
+        "slug": "kotlin/kotlin-509-223-002",
+        "title": "Ktor — тест без внешнего сервера",
+        "section": "ktor-тест-без-внешнего-сервера",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "223",
+        "slug": "kotlin/kotlin-509-223-003",
+        "title": "Дополнительный пример — проверка порядка вызовов",
+        "section": "дополнительный-пример-проверка-порядка-вызовов",
+        "blocks": 1,
+        "lines": 40
+      }
+    ],
+    "224": [
+      {
+        "article": "224",
+        "slug": "kotlin/kotlin-509-224-001",
+        "title": "Зависимости (`build.gradle.kts`, фрагмент)",
+        "section": "зависимости-build-gradle-kts-фрагмент",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "224",
+        "slug": "kotlin/kotlin-509-224-002",
+        "title": "Общий UI — `commonMain/App.kt`",
+        "section": "общий-ui-commonmain-app-kt",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "224",
+        "slug": "kotlin/kotlin-509-224-003",
+        "title": "Дополнительный сниппет — управление состоянием формы",
+        "section": "дополнительный-сниппет-управление-состоянием-фор",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "225": [
+      {
+        "article": "225",
+        "slug": "kotlin/kotlin-509-225-001",
+        "title": "Группировка и Map из списка",
+        "section": "группировка-и-map-из-списка",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "225",
+        "slug": "kotlin/kotlin-509-225-002",
+        "title": "Дополнительный пример — безопасная обработка nullable-коллекций",
+        "section": "дополнительный-пример-безопасная-обработка-nulla",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "226": [
+      {
+        "article": "226",
+        "slug": "kotlin/kotlin-509-226-001",
+        "title": "Холодный Flow",
+        "section": "холодный-flow",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "226",
+        "slug": "kotlin/kotlin-509-226-002",
+        "title": "Поиск по мере ввода — полный шаблон",
+        "section": "поиск-по-мере-ввода-полный-шаблон",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "226",
+        "slug": "kotlin/kotlin-509-226-003",
+        "title": "Дополнительный пример — retry с ограничением попыток",
+        "section": "дополнительный-пример-retry-с-ограничением-попыт",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "227": [
+      {
+        "article": "227",
+        "slug": "kotlin/kotlin-509-227-001",
+        "title": "Цикл \"меню\"",
+        "section": "цикл-меню",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "227",
+        "slug": "kotlin/kotlin-509-227-002",
+        "title": "Дополнительный пример — простая команда `sum`",
+        "section": "дополнительный-пример-простая-команда-sum",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "228": [
+      {
+        "article": "228",
+        "slug": "kotlin/kotlin-509-228-001",
+        "title": "Создание клиента",
+        "section": "создание-клиента",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "228",
+        "slug": "kotlin/kotlin-509-228-002",
+        "title": "GET и POST — разбор",
+        "section": "get-и-post-разбор",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "228",
+        "slug": "kotlin/kotlin-509-228-003",
+        "title": "Ретраи и таймауты на уровне политики",
+        "section": "ретраи-и-таймауты-на-уровне-политики",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "229": [
+      {
+        "article": "229",
+        "slug": "kotlin/kotlin-509-229-001",
+        "title": "Создание проекта",
+        "section": "создание-проекта",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "229",
+        "slug": "kotlin/kotlin-509-229-002",
+        "title": "MainActivity — подключение Compose",
+        "section": "mainactivity-подключение-compose",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "229",
+        "slug": "kotlin/kotlin-509-229-003",
+        "title": "Состояние на экране",
+        "section": "состояние-на-экране",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "229",
+        "slug": "kotlin/kotlin-509-229-004",
+        "title": "ViewModel — состояние переживает поворот",
+        "section": "viewmodel-состояние-переживает-поворот",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "229",
+        "slug": "kotlin/kotlin-509-229-005",
+        "title": "ViewModel — состояние переживает поворот",
+        "section": "viewmodel-состояние-переживает-поворот",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "229",
+        "slug": "kotlin/kotlin-509-229-006",
+        "title": "Загрузка данных с сети",
+        "section": "загрузка-данных-с-сети",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "229",
+        "slug": "kotlin/kotlin-509-229-007",
+        "title": "Навигация между экранами",
+        "section": "навигация-между-экранами",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "230": [
+      {
+        "article": "230",
+        "slug": "kotlin/kotlin-509-230-001",
+        "title": "Свой мини-DSL — меню",
+        "section": "свой-мини-dsl-меню",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "230",
+        "slug": "kotlin/kotlin-509-230-002",
+        "title": "`@DslMarker` — не перепутать вложенные блоки",
+        "section": "dslmarker-не-перепутать-вложенные-блоки",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "230",
+        "slug": "kotlin/kotlin-509-230-003",
+        "title": "Упрощённый аналог Ktor `routing`",
+        "section": "упрощённый-аналог-ktor-routing",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "230",
+        "slug": "kotlin/kotlin-509-230-004",
+        "title": "Дополнительный сниппет — вложенный билдер",
+        "section": "дополнительный-сниппет-вложенный-билдер",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "231": [
+      {
+        "article": "231",
+        "slug": "kotlin/kotlin-509-231-001",
+        "title": "Сущность и DAO",
+        "section": "сущность-и-dao",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "231",
+        "slug": "kotlin/kotlin-509-231-002",
+        "title": "ViewModel",
+        "section": "viewmodel",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "231",
+        "slug": "kotlin/kotlin-509-231-003",
+        "title": "Compose-экран",
+        "section": "compose-экран",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "232": [
+      {
+        "article": "232",
+        "slug": "kotlin/kotlin-509-232-001",
+        "title": "Проект (Gradle Kotlin DSL)",
+        "section": "проект-gradle-kotlin-dsl",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "232",
+        "slug": "kotlin/kotlin-509-232-002",
+        "title": "Тест контроллера",
+        "section": "тест-контроллера",
+        "blocks": 1,
+        "lines": 16
+      }
+    ]
+  }
+}

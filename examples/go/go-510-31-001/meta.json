@@ -1,0 +1,14 @@
+{
+  "title": "Дженерики в Go — Практический пример — generic-стек",
+  "description": "Фрагмент из «Дженерики в Go»: Практический пример — generic-стек.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "31"
+  ],
+  "order": 1,
+  "series": "go-510-31",
+  "seriesOrder": 1,
+  "seriesTitle": "Дженерики в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/31"
+}

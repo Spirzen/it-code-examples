@@ -1,0 +1,14 @@
+{
+  "title": "Типы данных и владение памятью — Скалярные типы",
+  "description": "Фрагмент из «Типы данных и владение памятью»: Скалярные типы.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "13"
+  ],
+  "order": 3,
+  "series": "rust-513-13",
+  "seriesOrder": 3,
+  "seriesTitle": "Типы данных и владение памятью",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/13"
+}

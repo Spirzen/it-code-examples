@@ -1,0 +1,13 @@
+{
+  "title": "Шаблоны — Минимальный SQL-запрос (CRUD)",
+  "description": "Фрагмент из «Шаблоны»: Минимальный SQL-запрос (CRUD).",
+  "tags": [
+    "lab",
+    "2"
+  ],
+  "order": 1,
+  "series": "lab-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Шаблоны",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/2"
+}

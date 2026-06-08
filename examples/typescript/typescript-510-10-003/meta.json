@@ -1,0 +1,14 @@
+{
+  "title": "Типы данных и типизация в TypeScript — Type predicates (`value is T`)",
+  "description": "Фрагмент из «Типы данных и типизация в TypeScript»: Type predicates (`value is T`).",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "10"
+  ],
+  "order": 3,
+  "series": "typescript-510-10",
+  "seriesOrder": 3,
+  "seriesTitle": "Типы данных и типизация в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/10"
+}

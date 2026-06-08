@@ -1,0 +1,14 @@
+{
+  "title": "Чистая архитектура — Сквозной пример — todo-list на C#",
+  "description": "Фрагмент из «Чистая архитектура»: Сквозной пример — todo-list на C#.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-2132"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-2132",
+  "seriesOrder": 1,
+  "seriesTitle": "Чистая архитектура",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design/2132"
+}

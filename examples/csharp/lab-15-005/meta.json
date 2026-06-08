@@ -1,0 +1,13 @@
+{
+  "title": "XML парсер на CSharp — Обработка ошибок и валидация",
+  "description": "Фрагмент из «XML парсер на CSharp»: Обработка ошибок и валидация.",
+  "tags": [
+    "lab",
+    "15"
+  ],
+  "order": 5,
+  "series": "lab-15",
+  "seriesOrder": 5,
+  "seriesTitle": "XML парсер на CSharp",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/15"
+}

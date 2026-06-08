@@ -1,0 +1,14 @@
+{
+  "title": "Важные интерфейсы и типы Go — 10.2. Тестирование — `testing.T`, таблицы тестов, моки",
+  "description": "Фрагмент из «Важные интерфейсы и типы Go»: 10.2. Тестирование — `testing.T`, таблицы тестов, моки.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "23"
+  ],
+  "order": 5,
+  "series": "go-510-23",
+  "seriesOrder": 5,
+  "seriesTitle": "Важные интерфейсы и типы Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/23"
+}

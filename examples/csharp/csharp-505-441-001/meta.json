@@ -1,0 +1,14 @@
+{
+  "title": "Entity Framework Core — первая программа — DbContext — точка входа в БД",
+  "description": "Фрагмент из «Entity Framework Core — первая программа»: DbContext — точка входа в БД.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "441"
+  ],
+  "order": 1,
+  "series": "csharp-505-441",
+  "seriesOrder": 1,
+  "seriesTitle": "Entity Framework Core — первая программа",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/441"
+}

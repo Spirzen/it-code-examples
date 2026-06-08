@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по GitHub Actions — Мультиплатформенная сборка и тестирование",
+  "description": "Фрагмент из «Справочник по GitHub Actions»: Мультиплатформенная сборка и тестирование.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3113"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-3113",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по GitHub Actions",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3113"
+}

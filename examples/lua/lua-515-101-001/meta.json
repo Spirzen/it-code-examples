@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Lua — Длинные строки и переносы",
+  "description": "Фрагмент из «Рекомендации по разработке на Lua»: Длинные строки и переносы.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 1,
+  "series": "lua-515-101",
+  "seriesOrder": 1,
+  "seriesTitle": "Рекомендации по разработке на Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/101"
+}

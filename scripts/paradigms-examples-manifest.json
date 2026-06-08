@@ -1,0 +1,185 @@
+{
+  "generatedAt": "2026-06-07T17:54:38.538Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-07-paradigmy-i-urovni-abstraktsii",
+  "articles": {
+    "113": [
+      {
+        "article": "113",
+        "slug": "python/code-407-113-001",
+        "title": "Пример нарушения",
+        "section": "пример-нарушения",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-002",
+        "title": "Корректная реализация",
+        "section": "корректная-реализация",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "113",
+        "slug": "java/code-407-113-003",
+        "title": "Аналог на Java",
+        "section": "аналог-на-java",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "113",
+        "slug": "java/code-407-113-004",
+        "title": "Аналог на Java",
+        "section": "аналог-на-java",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-407-113-005",
+        "title": "Аналог на C#",
+        "section": "аналог-на-c",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-006",
+        "title": "Пример нарушения",
+        "section": "пример-нарушения",
+        "blocks": 1,
+        "lines": 11
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-007",
+        "title": "Корректная реализация через полиморфизм",
+        "section": "корректная-реализация-через-полиморфизм",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "113",
+        "slug": "java/code-407-113-008",
+        "title": "Аналог на Java",
+        "section": "аналог-на-java",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-407-113-009",
+        "title": "Аналог на C#",
+        "section": "аналог-на-c",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-010",
+        "title": "Классический пример нарушения",
+        "section": "классический-пример-нарушения",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-011",
+        "title": "Корректный подход",
+        "section": "корректный-подход",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "113",
+        "slug": "java/code-407-113-012",
+        "title": "Аналог на Java",
+        "section": "аналог-на-java",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-407-113-013",
+        "title": "Аналог на C#",
+        "section": "аналог-на-c",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-014",
+        "title": "Пример нарушения",
+        "section": "пример-нарушения",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-015",
+        "title": "Пример нарушения",
+        "section": "пример-нарушения",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-016",
+        "title": "Корректная реализация",
+        "section": "корректная-реализация",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "113",
+        "slug": "java/code-407-113-017",
+        "title": "Аналог на Java",
+        "section": "аналог-на-java",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-407-113-018",
+        "title": "Аналог на C#",
+        "section": "аналог-на-c",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-019",
+        "title": "Пример нарушения",
+        "section": "пример-нарушения",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "113",
+        "slug": "python/code-407-113-020",
+        "title": "Корректная реализация",
+        "section": "корректная-реализация",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "113",
+        "slug": "java/code-407-113-021",
+        "title": "Аналог на Java",
+        "section": "аналог-на-java",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-407-113-022",
+        "title": "Аналог на C#",
+        "section": "аналог-на-c",
+        "blocks": 1,
+        "lines": 38
+      }
+    ]
+  }
+}

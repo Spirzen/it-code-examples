@@ -1,0 +1,14 @@
+{
+  "title": "Дженерики в TypeScript — Пути во вложенном объекте: `Path` и `PathType`",
+  "description": "Фрагмент из «Дженерики в TypeScript»: Пути во вложенном объекте: `Path` и `PathType`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 6,
+  "series": "typescript-510-24",
+  "seriesOrder": 6,
+  "seriesTitle": "Дженерики в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/24"
+}

@@ -12,6 +12,9 @@
     'http://127.0.0.1:3001',
   ];
 
+  var lastPosted = 0;
+  var rafId = 0;
+
   function measureHeight() {
     var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
     if (root) {
@@ -20,8 +23,13 @@
     return Math.ceil(document.documentElement.offsetHeight);
   }
 
-  function postHeight() {
+  function postHeightNow() {
+    rafId = 0;
     var height = Math.max(measureHeight(), 80);
+    if (Math.abs(height - lastPosted) < 2) {
+      return;
+    }
+    lastPosted = height;
     if (window.parent && window.parent !== window) {
       allowed.forEach(function (origin) {
         try {
@@ -33,12 +41,18 @@
     }
   }
 
-  window.addEventListener('load', postHeight);
-  window.addEventListener('resize', postHeight);
-  if (typeof ResizeObserver !== 'undefined') {
-    new ResizeObserver(postHeight).observe(document.body);
+  function schedulePostHeight() {
+    if (rafId) return;
+    rafId = requestAnimationFrame(postHeightNow);
   }
-  [0, 80, 160, 320, 600, 1200].forEach(function (ms) {
-    setTimeout(postHeight, ms);
+
+  window.addEventListener('load', schedulePostHeight);
+  window.addEventListener('resize', schedulePostHeight);
+  if (typeof ResizeObserver !== 'undefined') {
+    var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
+    new ResizeObserver(schedulePostHeight).observe(root || document.body);
+  }
+  [0, 120, 400, 1000].forEach(function (ms) {
+    setTimeout(schedulePostHeight, ms);
   });
 })();

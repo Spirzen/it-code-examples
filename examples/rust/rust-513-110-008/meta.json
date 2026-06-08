@@ -1,0 +1,14 @@
+{
+  "title": "Экосистема приложений на Rust — Background workers — tokio::task, async-channel, sqlx + cron",
+  "description": "Фрагмент из «Экосистема приложений на Rust»: Background workers — tokio::task, async-channel, sqlx + cron.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "110"
+  ],
+  "order": 8,
+  "series": "rust-513-110",
+  "seriesOrder": 8,
+  "seriesTitle": "Экосистема приложений на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/110"
+}

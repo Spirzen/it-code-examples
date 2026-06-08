@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по ассемблеру — Пример 5 — Использование SIMD (SSE) для ускорения",
+  "description": "Фрагмент из «Справочник по ассемблеру»: Пример 5 — Использование SIMD (SSE) для ускорения.",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "711"
+  ],
+  "order": 13,
+  "series": "assembler-516-711",
+  "seriesOrder": 13,
+  "seriesTitle": "Справочник по ассемблеру",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/711"
+}

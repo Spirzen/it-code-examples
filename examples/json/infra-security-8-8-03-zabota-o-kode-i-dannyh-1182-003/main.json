@@ -1,0 +1,20 @@
+// package.json
+{
+  "name": "sourcecraft-vscode",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.75.0"
+  },
+  "activationEvents": [
+    "onLanguage:python",
+    "onLanguage:javascript"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "sourcecraft.sync",
+        "title": "Sync to SourceCraft"
+      }
+    ]
+  }
+}

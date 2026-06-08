@@ -1,0 +1,14 @@
+{
+  "title": "Работа с объектами и прототипами — Object.assign()",
+  "description": "Фрагмент из «Работа с объектами и прототипами»: Object.assign().",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 15,
+  "series": "js-501-22",
+  "seriesOrder": 15,
+  "seriesTitle": "Работа с объектами и прототипами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/22"
+}

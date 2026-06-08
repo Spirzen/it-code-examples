@@ -1,0 +1,14 @@
+{
+  "title": "Дженерики в TypeScript — Сопоставленные типы и обобщённая индексация",
+  "description": "Фрагмент из «Дженерики в TypeScript»: Сопоставленные типы и обобщённая индексация.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 5,
+  "series": "typescript-510-24",
+  "seriesOrder": 5,
+  "seriesTitle": "Дженерики в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/24"
+}

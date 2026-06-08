@@ -1,0 +1,13 @@
+{
+  "title": "Docker Compose — готовые стеки — 5. Redis рядом с PostgreSQL",
+  "description": "Фрагмент из «Docker Compose — готовые стеки»: 5. Redis рядом с PostgreSQL.",
+  "tags": [
+    "lab",
+    "11111"
+  ],
+  "order": 3,
+  "series": "lab-11111",
+  "seriesOrder": 3,
+  "seriesTitle": "Docker Compose — готовые стеки",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11111"
+}

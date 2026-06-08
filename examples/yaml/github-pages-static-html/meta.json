@@ -1,0 +1,7 @@
+{
+  "title": "GitHub Actions — статический HTML (deploy-pages)",
+  "description": "Официальный actions/deploy-pages для готовых HTML-файлов в main.",
+  "tags": ["lab", "case", "devops"],
+  "order": 2,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/3"
+}

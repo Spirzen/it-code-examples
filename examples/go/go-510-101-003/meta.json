@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Go — Таблицные тесты",
+  "description": "Фрагмент из «Рекомендации по разработке на Go»: Таблицные тесты.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 3,
+  "series": "go-510-101",
+  "seriesOrder": 3,
+  "seriesTitle": "Рекомендации по разработке на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/101"
+}

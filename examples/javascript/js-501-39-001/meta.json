@@ -1,0 +1,14 @@
+{
+  "title": "Хранение данных в браузере — IndexedDB",
+  "description": "Фрагмент из «Хранение данных в браузере»: IndexedDB.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "39"
+  ],
+  "order": 1,
+  "series": "js-501-39",
+  "seriesOrder": 1,
+  "seriesTitle": "Хранение данных в браузере",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/39"
+}

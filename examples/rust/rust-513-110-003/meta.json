@@ -1,0 +1,14 @@
+{
+  "title": "Экосистема приложений на Rust — Iced",
+  "description": "Фрагмент из «Экосистема приложений на Rust»: Iced.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "110"
+  ],
+  "order": 3,
+  "series": "rust-513-110",
+  "seriesOrder": 3,
+  "seriesTitle": "Экосистема приложений на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/110"
+}

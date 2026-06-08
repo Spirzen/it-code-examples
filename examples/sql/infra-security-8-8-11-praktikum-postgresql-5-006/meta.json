@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL — NOTIFY и LISTEN",
+  "description": "Фрагмент из «Практикум PostgreSQL»: NOTIFY и LISTEN.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-11-praktikum-postgresql-5"
+  ],
+  "order": 6,
+  "series": "infra-security-8-11-postgresql-praktikum",
+  "seriesOrder": 6,
+  "seriesTitle": "Практикум PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-11-praktikum-postgresql/intro"
+}

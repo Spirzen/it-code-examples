@@ -1,0 +1,14 @@
+{
+  "title": "Jetpack Compose — первый экран — ViewModel — состояние переживает поворот",
+  "description": "Фрагмент из «Jetpack Compose — первый экран»: ViewModel — состояние переживает поворот.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "229"
+  ],
+  "order": 4,
+  "series": "kotlin-509-229",
+  "seriesOrder": 4,
+  "seriesTitle": "Jetpack Compose — первый экран",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/229"
+}

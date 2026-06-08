@@ -1,0 +1,14 @@
+{
+  "title": "Неиспользуемый код и технический долг — Как его находить — статический анализ, coverage",
+  "description": "Фрагмент из «Неиспользуемый код и технический долг»: Как его находить — статический анализ, coverage.",
+  "tags": [
+    "runtime-architecture",
+    "encyclopedia",
+    "115"
+  ],
+  "order": 2,
+  "series": "code-406-115",
+  "seriesOrder": 2,
+  "seriesTitle": "Неиспользуемый код и технический долг",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-06-arhitektura-vypolneniya/115"
+}

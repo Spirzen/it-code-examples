@@ -1,0 +1,30 @@
+{
+  "Logging": {
+    "LogLevel": {
+      "Default": "Information",
+      "Microsoft.AspNetCore": "Warning"
+    }
+  },
+  "AllowedHosts": [ "example.com", "localhost" ],
+  "FeatureFlags": {
+    "EnableBeta": true,
+    "MaxRetries": 5
+  },
+  "ConnectionStrings": {
+    "Default": "Server=.;Database=MyDb;Trusted_Connection=true;"
+  },
+  "Kestrel": {
+    "Endpoints": {
+      "Http": {
+        "Url": "http://localhost:5000"
+      },
+      "Https": {
+        "Url": "https://localhost:5001",
+        "Certificate": {
+          "Path": "localhost.pfx",
+          "Password": "dev"
+        }
+      }
+    }
+  }
+}

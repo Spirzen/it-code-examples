@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по GitHub Actions — Работа с артефактами между job’ами",
+  "description": "Фрагмент из «Справочник по GitHub Actions»: Работа с артефактами между job’ами.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3113"
+  ],
+  "order": 5,
+  "series": "infra-security-8-8-04-devops-ci-cd-3113",
+  "seriesOrder": 5,
+  "seriesTitle": "Справочник по GitHub Actions",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3113"
+}

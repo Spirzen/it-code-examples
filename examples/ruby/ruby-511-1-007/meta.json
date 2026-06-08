@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка Ruby — `method_missing` — перехват неопределённых сообщений как инструмент проектирования",
+  "description": "Фрагмент из «Основы языка Ruby»: `method_missing` — перехват неопределённых сообщений как инструмент проектирования.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 7,
+  "series": "ruby-511-1",
+  "seriesOrder": 7,
+  "seriesTitle": "Основы языка Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/1"
+}

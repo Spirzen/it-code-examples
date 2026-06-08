@@ -1,0 +1,17 @@
+# docker-compose.test.yml
+version: '3.8'
+services:
+  db:
+    image: postgres:14.5
+    environment:
+      POSTGRES_DB: xenon_test
+      POSTGRES_USER: tester
+      POSTGRES_PASSWORD: securepass
+    volumes:
+      - ./init.sql:/docker-entrypoint-initdb.d/init.sql
+  app:
+    build: .
+    depends_on: [db]
+    environment:
+      DB_CONN: "Host=db;Database=xenon_test;..."
+    ports: ["8080:8080"]

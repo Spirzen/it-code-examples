@@ -1,0 +1,299 @@
+{
+  "generatedAt": "2026-06-07T18:07:15.365Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-08-oop",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "python/code-408-1-001",
+        "title": "Что такое класс?",
+        "section": "что-такое-класс",
+        "blocks": 1,
+        "lines": 12
+      },
+      {
+        "article": "1",
+        "slug": "java/code-408-1-002",
+        "title": "Что такое класс?",
+        "section": "что-такое-класс",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "1",
+        "slug": "csharp/code-408-1-003",
+        "title": "Свойства",
+        "section": "свойства",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1",
+        "slug": "python/code-408-1-004",
+        "title": "Свойства",
+        "section": "свойства",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "1",
+        "slug": "java/code-408-1-005",
+        "title": "Конструктор",
+        "section": "конструктор",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1",
+        "slug": "csharp/code-408-1-006",
+        "title": "Конструктор",
+        "section": "конструктор",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "1",
+        "slug": "java/code-408-1-007",
+        "title": "Жизненный цикл",
+        "section": "жизненный-цикл",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "1",
+        "slug": "java/code-408-1-008",
+        "title": "Жизненный цикл",
+        "section": "жизненный-цикл",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "2": [
+      {
+        "article": "2",
+        "slug": "java/code-408-2-001",
+        "title": "Абстракный класс",
+        "section": "абстракный-класс",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "2",
+        "slug": "java/code-408-2-002",
+        "title": "Абстрактный метод",
+        "section": "абстрактный-метод",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "2",
+        "slug": "java/code-408-2-003",
+        "title": "Интерфейс",
+        "section": "интерфейс",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "2",
+        "slug": "java/code-408-2-004",
+        "title": "Интерфейс",
+        "section": "интерфейс",
+        "blocks": 1,
+        "lines": 36
+      }
+    ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "java/code-408-3-001",
+        "title": "`protected` и открытый список друзей",
+        "section": "protected-и-открытый-список-друзей",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-002",
+        "title": "`protected` и открытый список друзей",
+        "section": "protected-и-открытый-список-друзей",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-003",
+        "title": "public",
+        "section": "public",
+        "blocks": 1,
+        "lines": 11
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-004",
+        "title": "private",
+        "section": "private",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-005",
+        "title": "protected",
+        "section": "protected",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3",
+        "slug": "csharp/code-408-3-006",
+        "title": "internal и default",
+        "section": "internal-и-default",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-007",
+        "title": "Приватные поля",
+        "section": "приватные-поля",
+        "blocks": 1,
+        "lines": 12
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-008",
+        "title": "Контролируемый доступ",
+        "section": "контролируемый-доступ",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "3",
+        "slug": "csharp/code-408-3-009",
+        "title": "Контролируемый доступ",
+        "section": "контролируемый-доступ",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-010",
+        "title": "Контролируемый доступ",
+        "section": "контролируемый-доступ",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3",
+        "slug": "csharp/code-408-3-011",
+        "title": "Иммутабельность",
+        "section": "иммутабельность",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "3",
+        "slug": "csharp/code-408-3-012",
+        "title": "Применение инкапсуляции",
+        "section": "применение-инкапсуляции",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "3",
+        "slug": "java/code-408-3-013",
+        "title": "Применение инкапсуляции",
+        "section": "применение-инкапсуляции",
+        "blocks": 1,
+        "lines": 9
+      }
+    ],
+    "4": [
+      {
+        "article": "4",
+        "slug": "java/code-408-4-001",
+        "title": "Базовый класс",
+        "section": "базовый-класс",
+        "blocks": 1,
+        "lines": 9
+      },
+      {
+        "article": "4",
+        "slug": "java/code-408-4-002",
+        "title": "Подкласс",
+        "section": "подкласс",
+        "blocks": 1,
+        "lines": 12
+      },
+      {
+        "article": "4",
+        "slug": "java/code-408-4-003",
+        "title": "Интерфейс",
+        "section": "интерфейс",
+        "blocks": 1,
+        "lines": 10
+      },
+      {
+        "article": "4",
+        "slug": "java/code-408-4-004",
+        "title": "Интерфейс",
+        "section": "интерфейс",
+        "blocks": 1,
+        "lines": 14
+      },
+      {
+        "article": "4",
+        "slug": "java/code-408-4-005",
+        "title": "Множественное наследование",
+        "section": "множественное-наследование",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "4",
+        "slug": "java/code-408-4-006",
+        "title": "Множественное наследование",
+        "section": "множественное-наследование",
+        "blocks": 1,
+        "lines": 9
+      }
+    ],
+    "5": [
+      {
+        "article": "5",
+        "slug": "java/code-408-5-001",
+        "title": "Позднее связывание",
+        "section": "позднее-связывание",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "5",
+        "slug": "java/code-408-5-002",
+        "title": "Переопределение",
+        "section": "переопределение",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "5",
+        "slug": "java/code-408-5-003",
+        "title": "Перегрузка",
+        "section": "перегрузка",
+        "blocks": 1,
+        "lines": 10
+      }
+    ],
+    "6": [
+      {
+        "article": "6",
+        "slug": "csharp/code-408-6-001",
+        "title": "Перечисления",
+        "section": "перечисления",
+        "blocks": 1,
+        "lines": 8
+      }
+    ]
+  }
+}

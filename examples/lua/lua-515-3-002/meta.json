@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Lua — Стандартные функции высшего порядка",
+  "description": "Фрагмент из «Справочник по Lua»: Стандартные функции высшего порядка.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "3"
+  ],
+  "order": 2,
+  "series": "lua-515-3",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/3"
+}

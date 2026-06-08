@@ -1,0 +1,14 @@
+# В Deployment
+spec:
+  selector:
+    matchLabels:
+      app: web
+  template:
+    metadata:
+      labels:
+        app: web
+
+# В Service
+spec:
+  selector:
+    app: web

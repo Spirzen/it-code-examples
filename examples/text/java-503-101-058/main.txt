@@ -1,0 +1,21 @@
+plugins {
+    id 'com.diffplug.spotless' version '6.25.0'
+}
+
+spotless {
+    java {
+        target fileTree('.') {
+            include '**/*.java'
+            exclude '**/build/**', '**/.gradle/**'
+        }
+        
+        toggleOffOn()
+        importOrder()
+        removeUnusedImports()
+        
+        eclipse().configFile('spotless/eclipse-format.xml')
+        
+        indentWithSpaces(4)
+        endWithNewline()
+    }
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Go — Linters",
+  "description": "Фрагмент из «Рекомендации по разработке на Go»: Linters.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 5,
+  "series": "go-510-101",
+  "seriesOrder": 5,
+  "seriesTitle": "Рекомендации по разработке на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/101"
+}

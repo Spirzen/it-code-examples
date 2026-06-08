@@ -1,0 +1,15 @@
+spec:
+  selector:
+    matchLabels:
+      app: fluentd
+  template: # шаблон Pod
+    metadata:
+      labels:
+        app: fluentd
+    spec:
+      containers: [...]
+  updateStrategy:
+    type: RollingUpdate|OnDelete
+    rollingUpdate:
+      maxUnavailable: <целое или процент>
+  minReadySeconds: <целое>

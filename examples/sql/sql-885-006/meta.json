@@ -1,0 +1,14 @@
+{
+  "title": "Шпаргалка с типичными задачами по SQL — Рекурсивный CTE для поиска всех предков узла",
+  "description": "Фрагмент из «Шпаргалка с типичными задачами по SQL»: Рекурсивный CTE для поиска всех предков узла.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "885"
+  ],
+  "order": 6,
+  "series": "sql-885",
+  "seriesOrder": 6,
+  "seriesTitle": "Шпаргалка с типичными задачами по SQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/885"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Dockerfile — 3. Go-сервис (минимальный образ)",
+  "description": "Фрагмент из «Dockerfile»: 3. Go-сервис (минимальный образ).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-116"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116",
+  "seriesOrder": 3,
+  "seriesTitle": "Dockerfile",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/116"
+}

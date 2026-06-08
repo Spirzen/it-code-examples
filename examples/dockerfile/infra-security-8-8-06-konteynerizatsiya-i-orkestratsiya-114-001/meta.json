@@ -1,0 +1,14 @@
+{
+  "title": "Работа с Docker — Сборка",
+  "description": "Фрагмент из «Работа с Docker»: Сборка.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-114"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-114",
+  "seriesOrder": 1,
+  "seriesTitle": "Работа с Docker",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/114"
+}

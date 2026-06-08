@@ -1,0 +1,14 @@
+{
+  "title": "Объекты и классы в TypeScript — `implements` нескольких интерфейсов",
+  "description": "Фрагмент из «Объекты и классы в TypeScript»: `implements` нескольких интерфейсов.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "18"
+  ],
+  "order": 5,
+  "series": "typescript-510-18",
+  "seriesOrder": 5,
+  "seriesTitle": "Объекты и классы в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/18"
+}

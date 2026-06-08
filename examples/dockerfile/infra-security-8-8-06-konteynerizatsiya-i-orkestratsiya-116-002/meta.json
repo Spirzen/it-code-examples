@@ -1,0 +1,14 @@
+{
+  "title": "Dockerfile — 2. Python (Flask / FastAPI)",
+  "description": "Фрагмент из «Dockerfile»: 2. Python (Flask / FastAPI).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-116"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116",
+  "seriesOrder": 2,
+  "seriesTitle": "Dockerfile",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/116"
+}

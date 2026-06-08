@@ -1,0 +1,35 @@
+{
+  "generatedAt": "2026-06-07T16:32:42.647Z",
+  "minLines": 12,
+  "encyclopediaPath": "/encyclopedia/3-data-markup/3-12-matematicheskoe-programmirovanie",
+  "articles": {
+    "8": [
+      {
+        "article": "8",
+        "slug": "python/mp-8-001",
+        "title": "Реализация в коде (скелет)",
+        "section": "реализация-в-коде-скелет",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "9": [
+      {
+        "article": "9",
+        "slug": "python/mp-9-001",
+        "title": "Пример — станки и сырьё",
+        "section": "пример-станки-и-сырьё",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9",
+        "slug": "python/mp-9-002",
+        "title": "Скелет OR-Tools (LP)",
+        "section": "скелет-or-tools-lp",
+        "blocks": 1,
+        "lines": 12
+      }
+    ]
+  }
+}

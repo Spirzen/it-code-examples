@@ -1,0 +1,14 @@
+{
+  "title": "Push, Pull, Webhooks — Кратковременный опрос с экспоненциальной задержкой (C#)",
+  "description": "Фрагмент из «Push, Pull, Webhooks»: Кратковременный опрос с экспоненциальной задержкой (C#).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-120"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-120",
+  "seriesOrder": 2,
+  "seriesTitle": "Push, Pull, Webhooks",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/120"
+}

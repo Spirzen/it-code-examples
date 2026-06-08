@@ -1,0 +1,547 @@
+{
+  "generatedAt": "2026-06-08T12:22:19.178Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-10-typescript",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "typescript/typescript-510-2-001",
+        "title": "Мини-шпаргалка",
+        "section": "мини-шпаргалка",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "5": [
+      {
+        "article": "5",
+        "slug": "typescript/typescript-510-5-001",
+        "title": "Цель",
+        "section": "цель",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "5",
+        "slug": "typescript/typescript-510-5-002",
+        "title": "Цель",
+        "section": "цель",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "5",
+        "slug": "typescript/typescript-510-5-003",
+        "title": "Цель",
+        "section": "цель",
+        "blocks": 1,
+        "lines": 33
+      }
+    ],
+    "10": [
+      {
+        "article": "10",
+        "slug": "typescript/typescript-510-10-001",
+        "title": "Специальные типы TypeScript",
+        "section": "специальные-типы-typescript",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "10",
+        "slug": "typescript/typescript-510-10-002",
+        "title": "Discriminated union и exhaustive check",
+        "section": "discriminated-union-и-exhaustive-check",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "10",
+        "slug": "typescript/typescript-510-10-003",
+        "title": "Type predicates (`value is T`)",
+        "section": "type-predicates-value-is-t",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "10",
+        "slug": "typescript/typescript-510-10-004",
+        "title": "`Exclude`, `Extract` и `NonNullable`",
+        "section": "exclude-extract-и-nonnullable",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "typescript/typescript-510-12-001",
+        "title": "Discriminated union и `switch`",
+        "section": "discriminated-union-и-switch",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "12",
+        "slug": "typescript/typescript-510-12-002",
+        "title": "Ветвления и тип `never`",
+        "section": "ветвления-и-тип-never",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "typescript/typescript-510-13-001",
+        "title": "`for await...of` (асинхронные итерируемые)",
+        "section": "for-await-of-асинхронные-итерируемые",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "typescript/typescript-510-14-001",
+        "title": "Callback и события",
+        "section": "callback-и-события",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "14",
+        "slug": "typescript/typescript-510-14-002",
+        "title": "Стрелочные функции и `this`",
+        "section": "стрелочные-функции-и-this",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "14",
+        "slug": "typescript/typescript-510-14-003",
+        "title": "Type-driven handler",
+        "section": "type-driven-handler",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "typescript/typescript-510-17-001",
+        "title": "Типизация `fetch` и JSON",
+        "section": "типизация-fetch-и-json",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "17",
+        "slug": "typescript/typescript-510-17-002",
+        "title": "Состояние загрузки как discriminated union",
+        "section": "состояние-загрузки-как-discriminated-union",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "17",
+        "slug": "typescript/typescript-510-17-003",
+        "title": "Параллельные запросы: `Promise.all`",
+        "section": "параллельные-запросы-promise-all",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "17",
+        "slug": "typescript/typescript-510-17-004",
+        "title": "Обработка ошибок: `unknown` в `catch`",
+        "section": "обработка-ошибок-unknown-в-catch",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "17",
+        "slug": "typescript/typescript-510-17-005",
+        "title": "Retry для нестабильных API",
+        "section": "retry-для-нестабильных-api",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "17",
+        "slug": "typescript/typescript-510-17-006",
+        "title": "Async в callback-API",
+        "section": "async-в-callback-api",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "typescript/typescript-510-18-001",
+        "title": "Класс с параметрами конструктора",
+        "section": "класс-с-параметрами-конструктора",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "typescript/typescript-510-18-002",
+        "title": "Модификаторы доступа",
+        "section": "модификаторы-доступа",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "typescript/typescript-510-18-003",
+        "title": "Наследование и `super`",
+        "section": "наследование-и-super",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "18",
+        "slug": "typescript/typescript-510-18-004",
+        "title": "Абстрактные классы",
+        "section": "абстрактные-классы",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "18",
+        "slug": "typescript/typescript-510-18-005",
+        "title": "`implements` нескольких интерфейсов",
+        "section": "implements-нескольких-интерфейсов",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "typescript/typescript-510-18-006",
+        "title": "Композиция против наследования",
+        "section": "композиция-против-наследования",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "typescript/typescript-510-19-001",
+        "title": "`Map<K, V>` и `Set<T>`",
+        "section": "map-и-set",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "20": [
+      {
+        "article": "20",
+        "slug": "typescript/typescript-510-20-001",
+        "title": "Типы DOM-событий",
+        "section": "типы-dom-событий",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "20",
+        "slug": "typescript/typescript-510-20-002",
+        "title": "Пользовательские события",
+        "section": "пользовательские-события",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-001",
+        "title": "Компонент и `props`",
+        "section": "компонент-и-props",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-002",
+        "title": "Типизация UI-компонентов",
+        "section": "типизация-ui-компонентов",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-003",
+        "title": "Типизация UI-компонентов",
+        "section": "типизация-ui-компонентов",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-004",
+        "title": "LoadState в компоненте",
+        "section": "loadstate-в-компоненте",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-005",
+        "title": "`useReducer` с типизированными actions",
+        "section": "usereducer-с-типизированными-actions",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-006",
+        "title": "`ComponentProps` — переиспользование props",
+        "section": "componentprops-переиспользование-props",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-007",
+        "title": "События форм",
+        "section": "события-форм",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-008",
+        "title": "Контекст с типом",
+        "section": "контекст-с-типом",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "21",
+        "slug": "typescript/typescript-510-21-009",
+        "title": "Дженерики в компонентах",
+        "section": "дженерики-в-компонентах",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "typescript/typescript-510-22-001",
+        "title": "Слои: DTO, domain, persistence",
+        "section": "слои-dto-domain-persistence",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "typescript/typescript-510-22-002",
+        "title": "Сервис и Result",
+        "section": "сервис-и-result",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "22",
+        "slug": "typescript/typescript-510-22-003",
+        "title": "Handler в стиле Express",
+        "section": "handler-в-стиле-express",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "typescript/typescript-510-23-001",
+        "title": "Декоратор метода: логирование",
+        "section": "декоратор-метода-логирование",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "typescript/typescript-510-24-001",
+        "title": "Связанные generic: выбор по группе (`Compat`)",
+        "section": "связанные-generic-выбор-по-группе-compat",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "24",
+        "slug": "typescript/typescript-510-24-002",
+        "title": "Паттерн: type-safe updater",
+        "section": "паттерн-type-safe-updater",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "24",
+        "slug": "typescript/typescript-510-24-003",
+        "title": "Generic-класс: репозиторий",
+        "section": "generic-класс-репозиторий",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "24",
+        "slug": "typescript/typescript-510-24-004",
+        "title": "Дженерики в стандартной библиотеке",
+        "section": "дженерики-в-стандартной-библиотеке",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "24",
+        "slug": "typescript/typescript-510-24-005",
+        "title": "Сопоставленные типы и обобщённая индексация",
+        "section": "сопоставленные-типы-и-обобщённая-индексация",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "24",
+        "slug": "typescript/typescript-510-24-006",
+        "title": "Пути во вложенном объекте: `Path` и `PathType`",
+        "section": "пути-во-вложенном-объекте-path-и-pathtype",
+        "blocks": 1,
+        "lines": 33
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "typescript/typescript-510-25-001",
+        "title": "`AsyncGenerator` и `for await...of`",
+        "section": "asyncgenerator-и-for-await-of",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "26": [
+      {
+        "article": "26",
+        "slug": "typescript/typescript-510-26-001",
+        "title": "Инициализация DataSource",
+        "section": "инициализация-datasource",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "26",
+        "slug": "typescript/typescript-510-26-002",
+        "title": "Связь one-to-many",
+        "section": "связь-one-to-many",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "27": [
+      {
+        "article": "27",
+        "slug": "typescript/typescript-510-27-001",
+        "title": "`Result<T, E>`",
+        "section": "result",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "27",
+        "slug": "typescript/typescript-510-27-002",
+        "title": "`Option<T>` (отсутствие значения)",
+        "section": "option-отсутствие-значения",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "27",
+        "slug": "typescript/typescript-510-27-003",
+        "title": "`try/catch` и `unknown`",
+        "section": "try-catch-и-unknown",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "27",
+        "slug": "typescript/typescript-510-27-004",
+        "title": "Единый формат API-ошибки",
+        "section": "единый-формат-api-ошибки",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "27",
+        "slug": "typescript/typescript-510-27-005",
+        "title": "Zod на границе",
+        "section": "zod-на-границе",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "28": [
+      {
+        "article": "28",
+        "slug": "typescript/typescript-510-28-001",
+        "title": "Discriminated union (команды и состояния)",
+        "section": "discriminated-union-команды-и-состояния",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "28",
+        "slug": "typescript/typescript-510-28-002",
+        "title": "Factory по интерфейсу",
+        "section": "factory-по-интерфейсу",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "28",
+        "slug": "typescript/typescript-510-28-003",
+        "title": "DTO + mapper между слоями",
+        "section": "dto-mapper-между-слоями",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "28",
+        "slug": "typescript/typescript-510-28-004",
+        "title": "Type-safe event bus",
+        "section": "type-safe-event-bus",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "28",
+        "slug": "typescript/typescript-510-28-005",
+        "title": "Builder с цепочкой",
+        "section": "builder-с-цепочкой",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "28",
+        "slug": "typescript/typescript-510-28-006",
+        "title": "Repository (интерфейс + реализация)",
+        "section": "repository-интерфейс-реализация",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "28",
+        "slug": "typescript/typescript-510-28-007",
+        "title": "Примеси (mixins)",
+        "section": "примеси-mixins",
+        "blocks": 1,
+        "lines": 28
+      }
+    ]
+  }
+}

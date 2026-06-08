@@ -1,0 +1,27 @@
+type __Type {
+  kind: __TypeKind!
+  name: String
+  description: String
+
+  # Для OBJECT, INTERFACE, INPUT_OBJECT
+  fields(includeDeprecated: Boolean = false): [__Field!]
+
+  # Для OBJECT, INTERFACE
+  interfaces: [__Type!]
+
+  # Для OBJECT, UNION
+  possibleTypes: [__Type!]
+
+  # Для ENUM
+  enumValues(includeDeprecated: Boolean = false): [__EnumValue!]
+
+  # Для INPUT_OBJECT
+  inputFields: [__InputValue!]
+
+  # Для INTERFACE, UNION, ENUM, INPUT_OBJECT
+  ofType: __Type
+
+  # Federation: используется в composition
+  specifiedByUrl: String
+  isOneOf: Boolean        # для input объектов с @oneOf (Federation 2.3+)
+}

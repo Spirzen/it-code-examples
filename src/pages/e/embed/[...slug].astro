@@ -1,16 +1,18 @@
 ---
 import EmbedLayout from '@/layouts/EmbedLayout.astro';
 import ExampleViewer from '@/components/ExampleViewer.astro';
-import {loadAllExamples} from '@/lib/examples';
+import {loadCatalog, loadExampleBySlug} from '@/lib/examples';
 
 export function getStaticPaths() {
-  return loadAllExamples().map((ex) => ({
-    params: {slug: ex.slug},
-    props: {example: ex},
+  return loadCatalog().map((entry) => ({
+    params: {slug: entry.slug},
+    props: {slug: entry.slug},
   }));
 }
 
-const {example} = Astro.props;
+const {slug} = Astro.props;
+const example = loadExampleBySlug(slug)!;
+
 const pageTitle = `${example.title} — embed`;
 ---
 

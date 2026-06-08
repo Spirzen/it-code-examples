@@ -1,0 +1,15 @@
+# Плохо: одинаковый приоритет для всех проблем
+- alert: DiskSpaceLow
+  expr: node_filesystem_free_bytes / node_filesystem_size_bytes < 0.2
+  labels:
+    severity: warning
+
+- alert: DatabaseDown
+  expr: up{job="postgres"} == 0
+  labels:
+    severity: warning
+
+- alert: CertificateExpiringSoon
+  expr: ssl_certificate_days_remaining < 30
+  labels:
+    severity: warning

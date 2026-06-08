@@ -1,0 +1,14 @@
+{
+  "title": "Пространства имён и автозагрузка в PHP — Ручная автозагрузка (без Composer)",
+  "description": "Фрагмент из «Пространства имён и автозагрузка в PHP»: Ручная автозагрузка (без Composer).",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "157"
+  ],
+  "order": 2,
+  "series": "php-507-157",
+  "seriesOrder": 2,
+  "seriesTitle": "Пространства имён и автозагрузка в PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/157"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в TypeScript — `Option<T>` (отсутствие значения)",
+  "description": "Фрагмент из «Обработка ошибок в TypeScript»: `Option<T>` (отсутствие значения).",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "27"
+  ],
+  "order": 2,
+  "series": "typescript-510-27",
+  "seriesOrder": 2,
+  "seriesTitle": "Обработка ошибок в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/27"
+}

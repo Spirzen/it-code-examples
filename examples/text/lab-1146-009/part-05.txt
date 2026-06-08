@@ -1,0 +1,43 @@
+import { useState } from 'react';
+import { Button } from './components/Button';
+import { ProfileCard } from './components/ProfileCard';
+import { ThemeSwitch } from './components/ThemeSwitch';
+import { Tooltip } from './components/Tooltip';
+import './App.css';
+
+export default function App() {
+  const [busy, setBusy] = useState(false);
+
+  function simulateSave() {
+    setBusy(true);
+    window.setTimeout(() => setBusy(false), 1200);
+  }
+
+  return (
+    <div className="app">
+      <header className="app-header">
+        <ThemeSwitch />
+      </header>
+      <main>
+        <h1>UI на TypeScript</h1>
+        <section>
+          <h2>Кнопки</h2>
+          <div className="button-row">
+            <Button variant="primary">Сохранить</Button>
+            <Button variant="outline">Отмена</Button>
+            <Button variant="danger">Удалить</Button>
+            <Tooltip label="Имитация отправки на сервер">
+              <Button variant="primary" loading={busy} onClick={simulateSave}>
+                Отправить
+              </Button>
+            </Tooltip>
+          </div>
+        </section>
+        <section>
+          <h2>Профиль</h2>
+          <ProfileCard />
+        </section>
+      </main>
+    </div>
+  );
+}

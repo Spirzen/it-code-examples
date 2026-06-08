@@ -1,0 +1,14 @@
+{
+  "title": "PyTorch для разработчика — Модель как nn.Module",
+  "description": "Фрагмент из «PyTorch для разработчика»: Модель как nn.Module.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "333"
+  ],
+  "order": 2,
+  "series": "py-502-333",
+  "seriesOrder": 2,
+  "seriesTitle": "PyTorch для разработчика",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/333"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Push, Pull, Webhooks — Обработка входящего webhook (Python + FastAPI)",
+  "description": "Фрагмент из «Push, Pull, Webhooks»: Обработка входящего webhook (Python + FastAPI).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-120"
+  ],
+  "order": 4,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-120",
+  "seriesOrder": 4,
+  "seriesTitle": "Push, Pull, Webhooks",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/120"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Инженерия параллельных алгоритмов — Справочно на C (MPI + OpenMP)",
+  "description": "Фрагмент из «Инженерия параллельных алгоритмов»: Справочно на C (MPI + OpenMP).",
+  "tags": [
+    "parallel-computing",
+    "hpc",
+    "encyclopedia",
+    "8"
+  ],
+  "order": 1,
+  "series": "code-416-8",
+  "seriesOrder": 1,
+  "seriesTitle": "Инженерия параллельных алгоритмов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-16-parallelnye-vychisleniya/8"
+}

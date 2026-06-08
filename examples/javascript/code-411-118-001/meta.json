@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа Electron с React — Main process — окно и IPC",
+  "description": "Фрагмент из «Первая программа Electron с React»: Main process — окно и IPC.",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "118"
+  ],
+  "order": 1,
+  "series": "code-411-118",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа Electron с React",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/118"
+}

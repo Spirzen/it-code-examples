@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Stagger list</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      padding: 2rem;
+      font-family: system-ui, sans-serif;
+      background: #fff;
+    }
+    .list { list-style: none; margin: 0; padding: 0; max-width: 20rem; }
+    .list li {
+      padding: 0.75rem 1rem;
+      margin-bottom: 0.5rem;
+      background: #f1f5f9;
+      border-radius: 8px;
+      opacity: 0;
+      transform: translateX(-16px);
+      animation: staggerIn 0.45s ease forwards;
+    }
+    .list li:nth-child(1) { animation-delay: 0.05s; }
+    .list li:nth-child(2) { animation-delay: 0.15s; }
+    .list li:nth-child(3) { animation-delay: 0.25s; }
+    .list li:nth-child(4) { animation-delay: 0.35s; }
+    @keyframes staggerIn {
+      to {
+        opacity: 1;
+        transform: translateX(0);
+      }
+    }
+  </style>
+</head>
+<body>
+  <ul class="list">
+    <li>Первый пункт</li>
+    <li>Второй пункт</li>
+    <li>Третий пункт</li>
+    <li>Четвёртый пункт</li>
+  </ul>
+</body>
+</html>

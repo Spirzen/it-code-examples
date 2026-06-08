@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Ansible — Плейбук с использованием ролей и коллекций",
+  "description": "Фрагмент из «Справочник по Ansible»: Плейбук с использованием ролей и коллекций.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3111"
+  ],
+  "order": 4,
+  "series": "infra-security-8-8-04-devops-ci-cd-3111",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по Ansible",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3111"
+}

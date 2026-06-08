@@ -1,0 +1,14 @@
+{
+  "title": "Популярные утилиты и примеры скриптов — Скрипт мониторинга нагрузки с использованием `htop` и `vmstat`",
+  "description": "Фрагмент из «Популярные утилиты и примеры скриптов»: Скрипт мониторинга нагрузки с использованием `htop` и `vmstat`.",
+  "tags": [
+    "bash",
+    "encyclopedia",
+    "121"
+  ],
+  "order": 1,
+  "series": "bash-525-121",
+  "seriesOrder": 1,
+  "seriesTitle": "Популярные утилиты и примеры скриптов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-25-bash/121"
+}

@@ -1,0 +1,14 @@
+mutation {
+  createPost(
+    title: "GraphQL vs REST",
+    content: "Сравнительный анализ...",
+    authorId: "1"
+  ) {
+    id
+    title
+    author {
+      name
+      email
+    }
+  }
+}

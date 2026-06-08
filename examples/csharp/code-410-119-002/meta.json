@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL: отложенные ограничения и .NET — Npgsql: одна транзакция",
+  "description": "Фрагмент из «PostgreSQL: отложенные ограничения и .NET»: Npgsql: одна транзакция.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "119"
+  ],
+  "order": 2,
+  "series": "code-410-119",
+  "seriesOrder": 2,
+  "seriesTitle": "PostgreSQL: отложенные ограничения и .NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/119"
+}

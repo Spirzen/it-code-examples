@@ -1,0 +1,217 @@
+{
+  "generatedAt": "2026-06-07T19:10:00.626Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-12-mobilnye-prilozheniya",
+  "articles": {
+    "113": [
+      {
+        "article": "113",
+        "slug": "python/code-412-113-001",
+        "title": "Пример структуры модульного ядра супераппа",
+        "section": "пример-структуры-модульного-ядра-супераппа",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-412-113-002",
+        "title": "Пример структуры модульного ядра супераппа",
+        "section": "пример-структуры-модульного-ядра-супераппа",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "113",
+        "slug": "javascript/code-412-113-003",
+        "title": "Пример реализации мини-приложения для заказа еды",
+        "section": "пример-реализации-мини-приложения-для-заказа-еды",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "113",
+        "slug": "java/code-412-113-004",
+        "title": "Пример обработки OAuth 2.0 токенов в единой авторизации",
+        "section": "пример-обработки-oauth-2-0-токенов-в-единой-авто",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-412-113-005",
+        "title": "Пример типизированного интерфейса обмена данными между модулями",
+        "section": "пример-типизированного-интерфейса-обмена-данными",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "113",
+        "slug": "python/code-412-113-006",
+        "title": "Пример маршрутизатора запросов между компонентами",
+        "section": "пример-маршрутизатора-запросов-между-компонентам",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "113",
+        "slug": "java/code-412-113-007",
+        "title": "Пример динамической загрузки компонентов",
+        "section": "пример-динамической-загрузки-компонентов",
+        "blocks": 1,
+        "lines": 45
+      }
+    ],
+    "1134": [
+      {
+        "article": "1134",
+        "slug": "groovy/code-412-1134-001",
+        "title": "Инструменты сборки и Gradle",
+        "section": "инструменты-сборки-и-gradle",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1134",
+        "slug": "dart/code-412-1134-002",
+        "title": "Шаг 4 — Запуск приложения",
+        "section": "шаг-4-запуск-приложения",
+        "blocks": 1,
+        "lines": 46
+      }
+    ],
+    "1135": [
+      {
+        "article": "1135",
+        "slug": "xml/code-412-1135-001",
+        "title": "Создание первого приложения — пошаговое руководство",
+        "section": "создание-первого-приложения-пошаговое-руководств",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "1135",
+        "slug": "kotlin/code-412-1135-002",
+        "title": "Создание первого приложения — пошаговое руководство",
+        "section": "создание-первого-приложения-пошаговое-руководств",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "1137": [
+      {
+        "article": "1137",
+        "slug": "swift/code-412-1137-001",
+        "title": "Шаг 4. Разработка интерфейса",
+        "section": "шаг-4-разработка-интерфейса",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "1138": [
+      {
+        "article": "1138",
+        "slug": "html/code-412-1138-001",
+        "title": "Создание первого приложения",
+        "section": "создание-первого-приложения",
+        "blocks": 1,
+        "lines": 107
+      },
+      {
+        "article": "1138",
+        "slug": "json/code-412-1138-002",
+        "title": "Создание первого приложения",
+        "section": "создание-первого-приложения",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1138",
+        "slug": "javascript/code-412-1138-003",
+        "title": "Создание первого приложения",
+        "section": "создание-первого-приложения",
+        "blocks": 1,
+        "lines": 59
+      }
+    ],
+    "1140": [
+      {
+        "article": "1140",
+        "slug": "csharp/code-412-1140-001",
+        "title": "Шаг 4 — Написание скрипта",
+        "section": "шаг-4-написание-скрипта",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "1141": [
+      {
+        "article": "1141",
+        "slug": "groovy/code-412-1141-001",
+        "title": "Groovy (`app/build.gradle`)",
+        "section": "groovy-app-build-gradle",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "1141",
+        "slug": "kotlin/code-412-1141-002",
+        "title": "Kotlin DSL (`app/build.gradle.kts`)",
+        "section": "kotlin-dsl-app-build-gradle-kts",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "11311": [
+      {
+        "article": "11311",
+        "slug": "javascript/code-412-11311-001",
+        "title": "Flexbox в React Native",
+        "section": "flexbox-в-react-native",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "11311",
+        "slug": "javascript/code-412-11311-002",
+        "title": "`useState` на одном экране",
+        "section": "usestate-на-одном-экране",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "11311",
+        "slug": "javascript/code-412-11311-003",
+        "title": "`FlatList` для списков",
+        "section": "flatlist-для-списков",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "11311",
+        "slug": "javascript/code-412-11311-004",
+        "title": "Навигация между экранами",
+        "section": "navigatsiya-mezhdu-ekranami",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "11311",
+        "slug": "javascript/code-412-11311-005",
+        "title": "Запрос к REST API",
+        "section": "запрос-к-rest-api",
+        "blocks": 1,
+        "lines": 61
+      }
+    ],
+    "11321": [
+      {
+        "article": "11321",
+        "slug": "javascript/code-412-11321-001",
+        "title": "Экран приветствия",
+        "section": "экран-приветствия",
+        "blocks": 1,
+        "lines": 27
+      }
+    ]
+  }
+}

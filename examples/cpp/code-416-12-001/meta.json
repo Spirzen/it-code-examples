@@ -1,0 +1,15 @@
+{
+  "title": "Параллельное решение СЛАУ — метод Гаусса — OpenMP на одном узле",
+  "description": "Фрагмент из «Параллельное решение СЛАУ — метод Гаусса»: OpenMP на одном узле.",
+  "tags": [
+    "parallel-computing",
+    "hpc",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 1,
+  "series": "code-416-12",
+  "seriesOrder": 1,
+  "seriesTitle": "Параллельное решение СЛАУ — метод Гаусса",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-16-parallelnye-vychisleniya/12"
+}

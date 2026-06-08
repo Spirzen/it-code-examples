@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по PHP — 18.2. Простой DI-контейнер (PSR-11-like)",
+  "description": "Фрагмент из «Справочник по PHP»: 18.2. Простой DI-контейнер (PSR-11-like).",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "211"
+  ],
+  "order": 2,
+  "series": "php-507-211",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/211"
+}

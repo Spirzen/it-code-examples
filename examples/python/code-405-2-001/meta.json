@@ -1,0 +1,15 @@
+{
+  "title": "Асинхронность простым языком — живые примеры — Асинхронно (I/O-bound, один поток)",
+  "description": "Фрагмент из «Асинхронность простым языком — живые примеры»: Асинхронно (I/O-bound, один поток).",
+  "tags": [
+    "async",
+    "concurrency",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 1,
+  "series": "code-405-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Асинхронность простым языком — живые примеры",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/2"
+}

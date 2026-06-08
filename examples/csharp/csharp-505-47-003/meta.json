@@ -1,0 +1,14 @@
+{
+  "title": "Пример реализации бэкенда на C# — 4.2. Через Razor Pages (серверный рендеринг)",
+  "description": "Фрагмент из «Пример реализации бэкенда на C#»: 4.2. Через Razor Pages (серверный рендеринг).",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "47"
+  ],
+  "order": 3,
+  "series": "csharp-505-47",
+  "seriesOrder": 3,
+  "seriesTitle": "Пример реализации бэкенда на C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/47"
+}

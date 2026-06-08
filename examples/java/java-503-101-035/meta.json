@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 16.1. Синхронизация и блокировки",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 16.1. Синхронизация и блокировки.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 35,
+  "series": "java-503-101",
+  "seriesOrder": 35,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}

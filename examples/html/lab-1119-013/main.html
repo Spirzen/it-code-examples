@@ -1,0 +1,24 @@
+<svg width="320" height="280" viewBox="0 0 320 280">
+  <g id="hex" fill="#fde68a" stroke="#92400e" stroke-width="1"></g>
+  <script>
+    function hexPoints(cx, cy, r) {
+      return Array.from({length: 6}, (_, i) => {
+        const a = (Math.PI / 3) * i - Math.PI / 6;
+        return `${cx + r * Math.cos(a)},${cy + r * Math.sin(a)}`;
+      }).join(' ');
+    }
+    const g = document.getElementById('hex');
+    const r = 28;
+    const dx = r * 3;
+    const dy = r * Math.sqrt(3);
+    for (let row = 0; row < 4; row++) {
+      for (let col = 0; col < 5; col++) {
+        const cx = 40 + col * dx + (row % 2 ? dx / 2 : 0);
+        const cy = 40 + row * dy;
+        const poly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+        poly.setAttribute('points', hexPoints(cx, cy, r));
+        g.appendChild(poly);
+      }
+    }
+  </script>
+</svg>

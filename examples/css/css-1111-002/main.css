@@ -1,0 +1,21 @@
+/* Уровень 1: Глобальный */
+:root {
+  --theme-color: #235ad1;
+  --spacing-base: 8px;
+}
+
+/* Уровень 2: Компонентный */
+.panel {
+  --theme-color: #d12374;
+  padding: var(--spacing-base);
+  color: var(--theme-color);
+}
+
+/* Уровень 3: Вложенный компонент */
+.panel--feature {
+  --theme-color: #00c9a7;
+}
+
+.feature-content {
+  color: var(--theme-color);
+}

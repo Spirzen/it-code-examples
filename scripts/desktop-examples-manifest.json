@@ -1,0 +1,449 @@
+{
+  "generatedAt": "2026-06-07T19:05:30.498Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "python/code-411-1-001",
+        "title": "Пример десктопного приложения на Python",
+        "section": "пример-десктопного-приложения-на-python",
+        "blocks": 1,
+        "lines": 268
+      }
+    ],
+    "112": [
+      {
+        "article": "112",
+        "slug": "xml/code-411-112-001",
+        "title": "1. Асинхронная операция с обновлением UI (C# / WPF, MVVM)",
+        "section": "1-асинхронная-операция-с-обновлением-ui-c-wpf-mv",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-411-112-002",
+        "title": "1. Асинхронная операция с обновлением UI (C# / WPF, MVVM)",
+        "section": "1-асинхронная-операция-с-обновлением-ui-c-wpf-mv",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "112",
+        "slug": "python/code-411-112-003",
+        "title": "2. Работа с локальным хранилищем (Python / PyQt6)",
+        "section": "2-работа-с-локальным-хранилищем-python-pyqt6",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "112",
+        "slug": "csharp/code-411-112-004",
+        "title": "3. Безопасное хранение учётных данных (C# / .NET, Windows)",
+        "section": "3-безопасное-хранение-учётных-данных-c-net-windo",
+        "blocks": 1,
+        "lines": 111
+      },
+      {
+        "article": "112",
+        "slug": "json/code-411-112-005",
+        "title": "4. Кроссплатформенное окно с WebView (Rust / Tauri)",
+        "section": "4-кроссплатформенное-окно-с-webview-rust-tauri",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "112",
+        "slug": "rust/code-411-112-006",
+        "title": "4. Кроссплатформенное окно с WebView (Rust / Tauri)",
+        "section": "4-кроссплатформенное-окно-с-webview-rust-tauri",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "112",
+        "slug": "html/code-411-112-007",
+        "title": "4. Кроссплатформенное окно с WebView (Rust / Tauri)",
+        "section": "4-кроссплатформенное-окно-с-webview-rust-tauri",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "112",
+        "slug": "java/code-411-112-008",
+        "title": "5. Локализация через ресурсы (Java / JavaFX)",
+        "section": "5-локализация-через-ресурсы-java-javafx",
+        "blocks": 1,
+        "lines": 45
+      }
+    ],
+    "113": [
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-001",
+        "title": "Android WebView",
+        "section": "android-webview",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "113",
+        "slug": "text/code-411-113-002",
+        "title": "iOS WKWebView",
+        "section": "ios-wkwebview",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "113",
+        "slug": "csharp/code-411-113-003",
+        "title": "Desktop-реализации",
+        "section": "desktop-реализации",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "113",
+        "slug": "javascript/code-411-113-004",
+        "title": "Архитектура JavaScript Bridge",
+        "section": "архитектура-javascript-bridge",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-005",
+        "title": "Регистрация нативных обработчиков",
+        "section": "регистрация-нативных-обработчиков",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-006",
+        "title": "Виртуальный хостинг",
+        "section": "виртуальный-хостинг",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-007",
+        "title": "Настройка безопасной конфигурации",
+        "section": "настройка-безопасной-конфигурации",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-008",
+        "title": "Certificate Pinning",
+        "section": "certificate-pinning",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-009",
+        "title": "Предзагрузка на Android",
+        "section": "предзагрузка-на-android",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "113",
+        "slug": "javascript/code-411-113-010",
+        "title": "Мониторинг производительности",
+        "section": "мониторинг-производительности",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "113",
+        "slug": "typescript/code-411-113-011",
+        "title": "Архитектура Capacitor",
+        "section": "архитектура-capacitor",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-012",
+        "title": "Кастомные URL-схемы",
+        "section": "кастомные-url-схемы",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "113",
+        "slug": "text/code-411-113-013",
+        "title": "Инъекция пользовательских стилей",
+        "section": "инъекция-пользовательских-стилей",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "113",
+        "slug": "kotlin/code-411-113-014",
+        "title": "Печать и экспорт в PDF",
+        "section": "печать-и-экспорт-в-pdf",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "114": [
+      {
+        "article": "114",
+        "slug": "javascript/code-411-114-001",
+        "title": "Минимальный проект",
+        "section": "минимальный-проект",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "118": [
+      {
+        "article": "118",
+        "slug": "javascript/code-411-118-001",
+        "title": "Main process — окно и IPC",
+        "section": "main-process-окно-и-ipc",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "118",
+        "slug": "javascript/code-411-118-002",
+        "title": "React — интерфейс",
+        "section": "react-интерфейс",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "119": [
+      {
+        "article": "119",
+        "slug": "csharp/code-411-119-001",
+        "title": "Шаг 2 — ViewModel и команда",
+        "section": "шаг-2-viewmodel-и-команда",
+        "blocks": 1,
+        "lines": 81
+      },
+      {
+        "article": "119",
+        "slug": "xml/code-411-119-002",
+        "title": "Шаг 3 — ресурсы и стили в App.xaml",
+        "section": "шаг-3-ресурсы-и-стили-в-app-xaml",
+        "blocks": 1,
+        "lines": 75
+      },
+      {
+        "article": "119",
+        "slug": "xml/code-411-119-003",
+        "title": "Шаг 4 — разметка формы MainWindow.xaml",
+        "section": "шаг-4-разметка-формы-mainwindow-xaml",
+        "blocks": 1,
+        "lines": 95
+      },
+      {
+        "article": "119",
+        "slug": "xml/code-411-119-004",
+        "title": "Шаг 5 — ControlTemplate для кнопки \"Добавить\"",
+        "section": "шаг-5-controltemplate-для-кнопки-добавить",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "120": [
+      {
+        "article": "120",
+        "slug": "text/code-411-120-001",
+        "title": "Inno Setup",
+        "section": "inno-setup",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "120",
+        "slug": "powershell/code-411-120-002",
+        "title": "Скрипт на PowerShell",
+        "section": "скрипт-на-powershell",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "120",
+        "slug": "python/code-411-120-003",
+        "title": "Скрипт на Python и PyInstaller",
+        "section": "скрипт-на-python-и-pyinstaller",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "120",
+        "slug": "csharp/code-411-120-004",
+        "title": "Установщик на C# (WinForms / WPF)",
+        "section": "установщик-на-c-winforms-wpf",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "1152": [
+      {
+        "article": "1152",
+        "slug": "csharp/code-411-1152-001",
+        "title": "TextBox — однострочный",
+        "section": "textbox-однострочный",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "1192": [
+      {
+        "article": "1192",
+        "slug": "xml/code-411-1192-001",
+        "title": "Контейнер (Grid / StackPanel)",
+        "section": "контейнер-grid-stackpanel",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "wpf-praktikum-2": [
+      {
+        "article": "wpf-praktikum-2",
+        "slug": "csharp/code-411-wpf-praktikum-2-001",
+        "title": "Model — данные и правила",
+        "section": "model-данные-и-правила",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "wpf-praktikum-2",
+        "slug": "csharp/code-411-wpf-praktikum-2-002",
+        "title": "ViewModel — INotifyPropertyChanged",
+        "section": "viewmodel-inotifypropertychanged",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "wpf-praktikum-2",
+        "slug": "csharp/code-411-wpf-praktikum-2-003",
+        "title": "Команды — ICommand вместо Click",
+        "section": "команды-icommand-вместо-click",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "wpf-praktikum-2",
+        "slug": "csharp/code-411-wpf-praktikum-2-004",
+        "title": "CommunityToolkit.Mvvm — меньше boilerplate",
+        "section": "communitytoolkit-mvvm-меньше-boilerplate",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "wpf-praktikum-2",
+        "slug": "csharp/code-411-wpf-praktikum-2-005",
+        "title": "Асинхронность и IsBusy",
+        "section": "асинхронность-и-isbusy",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "wpf-praktikum-2",
+        "slug": "xml/code-411-wpf-praktikum-2-006",
+        "title": "View — только привязки",
+        "section": "view-только-привязки",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "wpf-praktikum-3": [
+      {
+        "article": "wpf-praktikum-3",
+        "slug": "csharp/code-411-wpf-praktikum-3-001",
+        "title": "Хранилище и DI",
+        "section": "хранилище-и-di",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "wpf-praktikum-3",
+        "slug": "csharp/code-411-wpf-praktikum-3-002",
+        "title": "Контроллер REST",
+        "section": "контроллер-rest",
+        "blocks": 1,
+        "lines": 57
+      },
+      {
+        "article": "wpf-praktikum-3",
+        "slug": "csharp/code-411-wpf-praktikum-3-003",
+        "title": "Program.cs — pipeline, Swagger, CORS",
+        "section": "program-cs-pipeline-swagger-cors",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "wpf-praktikum-4": [
+      {
+        "article": "wpf-praktikum-4",
+        "slug": "csharp/code-411-wpf-praktikum-4-001",
+        "title": "PrismApplication — точка входа",
+        "section": "prismapplication-точка-входа",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "wpf-praktikum-4",
+        "slug": "xml/code-411-wpf-praktikum-4-002",
+        "title": "Shell — окно с регионом",
+        "section": "shell-окно-с-регионом",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "wpf-praktikum-4",
+        "slug": "csharp/code-411-wpf-praktikum-4-003",
+        "title": "ApiTaskRepository — HttpClient к API",
+        "section": "apitaskrepository-httpclient-к-api",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "wpf-praktikum-4",
+        "slug": "csharp/code-411-wpf-praktikum-4-004",
+        "title": "ViewModel с загрузкой при навигации",
+        "section": "viewmodel-с-загрузкой-при-навигации",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "wpf-praktikum-4",
+        "slug": "csharp/code-411-wpf-praktikum-4-005",
+        "title": "Обработка ошибок сети",
+        "section": "обработка-ошибок-сети",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "wpf-praktikum-5": [
+      {
+        "article": "wpf-praktikum-5",
+        "slug": "csharp/code-411-wpf-praktikum-5-001",
+        "title": "Интеграционные тесты API",
+        "section": "интеграционные-тесты-api",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "wpf-praktikum-5",
+        "slug": "csharp/code-411-wpf-praktikum-5-002",
+        "title": "Unit-тесты ViewModel",
+        "section": "unit-тесты-viewmodel",
+        "blocks": 1,
+        "lines": 28
+      }
+    ]
+  }
+}

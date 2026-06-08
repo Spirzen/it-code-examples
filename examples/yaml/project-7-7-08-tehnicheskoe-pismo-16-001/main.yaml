@@ -1,0 +1,20 @@
+# 3.3.1. Сетевые настройки
+Сеть:
+  # Порт для приёма метрик (UDP)
+  ingest_port: 9100           # integer, default: 9100, range: 1024–65535
+  # Интерфейс привязки (0.0.0.0 — все)
+  bind_address: "0.0.0.0"     # string, IPv4/IPv6
+
+# 3.3.2. Буферизация
+buffer:
+  # Размер кольцевого буфера (в элементах)
+  capacity: 10000             # integer ≥ 1000, default: 5000
+  # Задержка сброса при неполном буфере (мс)
+  flush_timeout_ms: 500       # integer 10–5000, default: 200
+
+# 3.3.3. Логирование
+logging:
+  level: "INFO"              # enum: DEBUG, INFO, WARN, ERROR
+  file: "/var/log/xcore/main.log"
+  rotate: true
+  max_size_mb: 100

@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-06-08T14:26:48.994Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-16-starye-yazyki/visual-basic",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "vb/vb-516-2-001",
+        "title": "Минимальная \"скелетная\" программа и что в ней важно",
+        "section": "минимальная-скелетная-программа-и-что-в-ней-важн",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "7": [
+      {
+        "article": "7",
+        "slug": "vb/vb-516-7-001",
+        "title": "Мини-проект для закрепления после \"Hello, World!\"",
+        "section": "мини-проект-для-закрепления-после-hello-world",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "10": [
+      {
+        "article": "10",
+        "slug": "vb/vb-516-10-001",
+        "title": "Какую коллекцию выбрать",
+        "section": "какую-коллекцию-выбрать",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "vb/vb-516-11-001",
+        "title": "Перегрузка операторов",
+        "section": "перегрузка-операторов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "11",
+        "slug": "vb/vb-516-11-002",
+        "title": "Индексатор (свойство по умолчанию)",
+        "section": "индексатор-свойство-по-умолчанию",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "11",
+        "slug": "vb/vb-516-11-003",
+        "title": "Своя коллекция и For Each",
+        "section": "своя-коллекция-и-for-each",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "711": [
+      {
+        "article": "711",
+        "slug": "vb/vb-516-711-001",
+        "title": "Циклы",
+        "section": "циклы",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "711",
+        "slug": "vb/vb-516-711-002",
+        "title": "Объявление класса",
+        "section": "объявление-класса",
+        "blocks": 1,
+        "lines": 17
+      }
+    ]
+  }
+}

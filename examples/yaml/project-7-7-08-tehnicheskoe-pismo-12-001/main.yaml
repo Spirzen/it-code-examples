@@ -1,0 +1,17 @@
+openapi: 3.0.3
+info:
+  title: SUIT-EDU-2025 API
+  version: 1.0.0
+paths:
+  /api/v1/projects:
+    post:
+      summary: Создание проекта
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/ProjectCreate'
+      responses:
+        '201':
+          description: Успешно создан

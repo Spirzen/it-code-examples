@@ -1,0 +1,14 @@
+{
+  "title": "Автоматическое управление памятью — Unity: список activeProjectiles",
+  "description": "C# (Unity): Projectile удерживается в List без удаления после OnCollision.",
+  "tags": [
+    "garbage-collection",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 2,
+  "series": "code-415-1",
+  "seriesOrder": 2,
+  "seriesTitle": "Автоматическое управление памятью",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-15-sborka-musora/1"
+}

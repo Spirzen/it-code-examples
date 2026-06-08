@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Go — Зависимости и управление версиями",
+  "description": "Фрагмент из «Первая программа на Go»: Зависимости и управление версиями.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 4,
+  "series": "go-510-24",
+  "seriesOrder": 4,
+  "seriesTitle": "Первая программа на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/24"
+}

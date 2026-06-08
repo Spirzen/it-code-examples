@@ -1,0 +1,19 @@
+#resetForm {
+  max-width: 450px;
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #fafafa;
+}
+
+#resetForm h2 {
+  text-align: center;
+  margin-bottom: 0.5rem;
+}
+
+#resetForm p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 1.5rem;
+}

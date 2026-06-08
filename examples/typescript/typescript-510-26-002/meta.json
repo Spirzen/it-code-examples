@@ -1,0 +1,14 @@
+{
+  "title": "TypeORM — Связь one-to-many",
+  "description": "Фрагмент из «TypeORM»: Связь one-to-many.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "26"
+  ],
+  "order": 2,
+  "series": "typescript-510-26",
+  "seriesOrder": 2,
+  "seriesTitle": "TypeORM",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/26"
+}

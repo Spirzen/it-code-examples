@@ -1,0 +1,14 @@
+{
+  "title": "Laravel API с Sanctum — Контроллер API",
+  "description": "Фрагмент из «Laravel API с Sanctum»: Контроллер API.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "1433"
+  ],
+  "order": 2,
+  "series": "php-507-1433",
+  "seriesOrder": 2,
+  "seriesTitle": "Laravel API с Sanctum",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/1433"
+}

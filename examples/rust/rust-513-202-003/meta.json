@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование в Rust — Моки зависимостей — mockall",
+  "description": "Фрагмент из «Тестирование в Rust»: Моки зависимостей — mockall.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "202"
+  ],
+  "order": 3,
+  "series": "rust-513-202",
+  "seriesOrder": 3,
+  "seriesTitle": "Тестирование в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/202"
+}

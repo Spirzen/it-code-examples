@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Портфолио ученика 11 класса — проекты по информатике и вебу">
+  <title>Анна Смирнова — портфолио</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; line-height: 1.55; color: #1a1a2e; }
+    header { background: #1e1e2e; color: #cdd6f4; padding: 1rem 1.25rem; }
+    header a { color: #89b4fa; text-decoration: none; margin-right: 1rem; }
+    header a:hover { text-decoration: underline; }
+    main { max-width: 48rem; margin: 0 auto; padding: 1.5rem 1.25rem 3rem; }
+    .projects { display: grid; gap: 1rem; }
+    article.project { border: 1px solid #e5e5e5; border-radius: 10px; padding: 1rem; }
+    footer { text-align: center; padding: 1rem; background: #f4f4f9; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p><strong>Анна Смирнова</strong> · ученица 11 «Б»</p>
+    <nav aria-label="Разделы">
+      <a href="#about">Обо мне</a>
+      <a href="#projects">Проекты</a>
+      <a href="#contact">Контакты</a>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>Обо мне</h1>
+      <p>Интересуюсь веб-разработкой и анализом данных. Цель — поступить на программную инженерию.</p>
+      <ul>
+        <li>Языки: HTML, CSS, Python</li>
+        <li>Кружок: робототехника и 3D-печать</li>
+      </ul>
+    </section>
+
+    <section id="projects">
+      <h2>Проекты</h2>
+      <div class="projects">
+        <article class="project">
+          <h3>Сайт кружка «Робот»</h3>
+          <p>Одностраничный HTML+CSS, адаптив под телефон.</p>
+          <p><a href="#">Скриншот в отчёте (ссылка-заглушка)</a></p>
+        </article>
+        <article class="project">
+          <h3>Игра на Turtle</h3>
+          <p>Графика на Python, .</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Контакты</h2>
+      <address>
+        Email: <a href="mailto:anna@example.com">anna@example.com</a><br>
+        Город: Казань
+      </address>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 Анна Смирнова · Учебное портфолио</p>
+  </footer>
+</body>
+</html>

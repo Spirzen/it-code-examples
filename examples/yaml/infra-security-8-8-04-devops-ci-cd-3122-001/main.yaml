@@ -1,0 +1,18 @@
+distributor:
+  replicas: 2
+  resources:
+    requests:
+      memory: "512Mi"
+      cpu: "200m"
+ingester:
+  replicas: 3
+  persistence:
+    enabled: true
+    size: "10Gi"
+querier:
+  replicas: 2
+compactor:
+  enabled: true
+  resources:
+    requests:
+      memory: "1Gi"

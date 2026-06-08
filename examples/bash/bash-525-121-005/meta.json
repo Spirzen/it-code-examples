@@ -1,0 +1,14 @@
+{
+  "title": "Популярные утилиты и примеры скриптов — Скрипт резервного копирования с использованием `rsync`",
+  "description": "Фрагмент из «Популярные утилиты и примеры скриптов»: Скрипт резервного копирования с использованием `rsync`.",
+  "tags": [
+    "bash",
+    "encyclopedia",
+    "121"
+  ],
+  "order": 5,
+  "series": "bash-525-121",
+  "seriesOrder": 5,
+  "seriesTitle": "Популярные утилиты и примеры скриптов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-25-bash/121"
+}

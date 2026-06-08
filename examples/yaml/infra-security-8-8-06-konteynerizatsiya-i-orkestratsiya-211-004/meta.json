@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Kubernetes — StatefulSet",
+  "description": "Фрагмент из «Справочник по Kubernetes»: StatefulSet.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-211"
+  ],
+  "order": 4,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-211",
+  "seriesOrder": 4,
+  "seriesTitle": "Справочник по Kubernetes",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/211"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Реализация Kubernetes — Распределение подов и обеспечение отказоустойчивости",
+  "description": "Фрагмент из «Реализация Kubernetes»: Распределение подов и обеспечение отказоустойчивости.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-1171"
+  ],
+  "order": 6,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-1171",
+  "seriesOrder": 6,
+  "seriesTitle": "Реализация Kubernetes",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/1171"
+}

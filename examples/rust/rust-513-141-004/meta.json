@@ -1,0 +1,14 @@
+{
+  "title": "Объектно-ориентированные концепции в Rust — Полиморфизм",
+  "description": "Фрагмент из «Объектно-ориентированные концепции в Rust»: Полиморфизм.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "141"
+  ],
+  "order": 4,
+  "series": "rust-513-141",
+  "seriesOrder": 4,
+  "seriesTitle": "Объектно-ориентированные концепции в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

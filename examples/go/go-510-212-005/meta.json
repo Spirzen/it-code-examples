@@ -1,0 +1,14 @@
+{
+  "title": "GoEmailVerifier — практикум — Код `ParseDomain`",
+  "description": "Фрагмент из «GoEmailVerifier — практикум»: Код `ParseDomain`.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "212"
+  ],
+  "order": 5,
+  "series": "go-510-212",
+  "seriesOrder": 5,
+  "seriesTitle": "GoEmailVerifier — практикум",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/212"
+}

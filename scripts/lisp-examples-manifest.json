@@ -1,0 +1,27 @@
+{
+  "generatedAt": "2026-06-08T14:09:53.524Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-16-starye-yazyki/Lisp",
+  "articles": {
+    "5": [
+      {
+        "article": "5",
+        "slug": "lisp/lisp-516-5-001",
+        "title": "Мини-шаблоны для реальных задач",
+        "section": "мини-шаблоны-для-реальных-задач",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "811": [
+      {
+        "article": "811",
+        "slug": "lisp/lisp-516-811-001",
+        "title": "10. Пример — полиморфный рендеринг",
+        "section": "10-пример-полиморфный-рендеринг",
+        "blocks": 1,
+        "lines": 22
+      }
+    ]
+  }
+}

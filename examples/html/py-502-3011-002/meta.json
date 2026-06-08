@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Django — Создание шаблона",
+  "description": "Фрагмент из «Первая программа на Django»: Создание шаблона.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "3011"
+  ],
+  "order": 2,
+  "series": "py-502-3011",
+  "seriesOrder": 2,
+  "seriesTitle": "Первая программа на Django",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/3011"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Фабричный метод\" (Factory Method) в Java — создание через подклассы' — Пример",
+  "description": "Фрагмент из «'Паттерн \"Фабричный метод\" (Factory Method) в Java — создание через подклассы'»: Пример.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-136"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-136",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Фабричный метод\" (Factory Method) в Java — создание через подклассы'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/136"
+}

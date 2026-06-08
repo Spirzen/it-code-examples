@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL — PL/pgSQL — функции и процедуры",
+  "description": "Фрагмент из «Практикум PostgreSQL»: PL/pgSQL — функции и процедуры.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-11-praktikum-postgresql-5"
+  ],
+  "order": 3,
+  "series": "infra-security-8-11-postgresql-praktikum",
+  "seriesOrder": 3,
+  "seriesTitle": "Практикум PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-11-praktikum-postgresql/intro"
+}

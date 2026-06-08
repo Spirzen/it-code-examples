@@ -1,0 +1,81 @@
+{
+  "generatedAt": "2026-06-07T20:55:19.503Z",
+  "minLines": 8,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-16-parallelnye-vychisleniya",
+  "articles": {
+    "8": [
+      {
+        "article": "8",
+        "slug": "cpp/code-416-8-001",
+        "title": "Справочно на C (MPI + OpenMP)",
+        "section": "справочно-на-c-mpi-openmp",
+        "blocks": 1,
+        "lines": 12
+      }
+    ],
+    "9": [
+      {
+        "article": "9",
+        "slug": "cpp/code-416-9-001",
+        "title": "Справочно на C++ (OpenMP)",
+        "section": "справочно-на-c-openmp",
+        "blocks": 1,
+        "lines": 9
+      }
+    ],
+    "10": [
+      {
+        "article": "10",
+        "slug": "cpp/code-416-10-001",
+        "title": "Справочно на C (POSIX threads)",
+        "section": "справочно-на-c-posix-threads",
+        "blocks": 1,
+        "lines": 9
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "cpp/code-416-11-001",
+        "title": "Справочно на C++ (OpenMP)",
+        "section": "справочно-на-c-openmp",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "11",
+        "slug": "cpp/code-416-11-002",
+        "title": "Справочно на C",
+        "section": "справочно-на-c",
+        "blocks": 1,
+        "lines": 13
+      },
+      {
+        "article": "11",
+        "slug": "cpp/code-416-11-003",
+        "title": "Справочно на C",
+        "section": "справочно-на-c",
+        "blocks": 1,
+        "lines": 8
+      },
+      {
+        "article": "11",
+        "slug": "cpp/code-416-11-004",
+        "title": "Справочно на C (фрагмент шага *k*)",
+        "section": "справочно-на-c-фрагмент-шага-k",
+        "blocks": 1,
+        "lines": 40
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "cpp/code-416-12-001",
+        "title": "OpenMP на одном узле",
+        "section": "openmp-на-одном-узле",
+        "blocks": 1,
+        "lines": 14
+      }
+    ]
+  }
+}

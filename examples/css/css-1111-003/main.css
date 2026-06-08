@@ -1,0 +1,14 @@
+.actions {
+  --item-size: 50px;
+  display: flex;
+  gap: calc(var(--item-size) / 2);
+}
+
+.actions__item {
+  width: var(--item-size);
+  height: var(--item-size);
+}
+
+.actions--large {
+  --item-size: 80px;
+}

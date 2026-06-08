@@ -1,0 +1,25 @@
+<script>
+const modal = document.getElementById('myModal');
+const openBtn = document.getElementById('openModalBtn');
+const closeBtn = document.querySelector('.close');
+const cancelBtn = document.getElementById('cancelBtn');
+
+function openModal() {
+  modal.style.display = 'block';
+  modal.setAttribute('aria-hidden', 'false');
+}
+
+function closeModal() {
+  modal.style.display = 'none';
+  modal.setAttribute('aria-hidden', 'true');
+}
+
+openBtn.addEventListener('click', openModal);
+closeBtn.addEventListener('click', closeModal);
+cancelBtn.addEventListener('click', closeModal);
+
+// Закрытие по клику вне окна
+window.addEventListener('click', (e) => {
+  if (e.target === modal) closeModal();
+});
+</script>

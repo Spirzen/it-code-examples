@@ -1,0 +1,14 @@
+{
+  "title": "Экосистема приложений на Rust — Tower / Hyper",
+  "description": "Фрагмент из «Экосистема приложений на Rust»: Tower / Hyper.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "110"
+  ],
+  "order": 7,
+  "series": "rust-513-110",
+  "seriesOrder": 7,
+  "seriesTitle": "Экосистема приложений на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/110"
+}

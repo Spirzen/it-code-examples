@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration>
+  <configSections>
+    <!-- объявление секций -->
+  </configSections>
+
+  <!-- системные секции -->
+  <startup>...</startup>
+  <runtime>...</runtime>
+  <System.web>...</System.web>
+  <System.serviceModel>...</System.serviceModel>
+  <System.Data>...</System.Data>
+
+  <!-- пользовательские секции -->
+  <appSettings>...</appSettings>
+  <userSettings>...</userSettings>
+  <connectionStrings>...</connectionStrings>
+
+  <!-- кастомные секции -->
+  <mySection type="MyNamespace.MySectionHandler, MyAssembly">...</mySection>
+</configuration>

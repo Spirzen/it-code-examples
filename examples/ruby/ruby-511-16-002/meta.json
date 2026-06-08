@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Ruby — Пул соединений",
+  "description": "Фрагмент из «Работа с базами данных из Ruby»: Пул соединений.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 2,
+  "series": "ruby-511-16",
+  "seriesOrder": 2,
+  "seriesTitle": "Работа с базами данных из Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/16"
+}

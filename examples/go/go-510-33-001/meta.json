@@ -1,0 +1,14 @@
+{
+  "title": "CLI на cobra и viper — Каркас cobra",
+  "description": "Фрагмент из «CLI на cobra и viper»: Каркас cobra.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "33"
+  ],
+  "order": 1,
+  "series": "go-510-33",
+  "seriesOrder": 1,
+  "seriesTitle": "CLI на cobra и viper",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/33"
+}

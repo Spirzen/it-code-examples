@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Azure Repos Git — Интеграция с Azure Pipelines — триггеры на Pull Request",
+  "description": "Фрагмент из «Справочник по Azure Repos Git»: Интеграция с Azure Pipelines — триггеры на Pull Request.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3124"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-3124",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Azure Repos Git",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3124"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Ktor Client — HTTP-запросы — Ретраи и таймауты на уровне политики",
+  "description": "Фрагмент из «Ktor Client — HTTP-запросы»: Ретраи и таймауты на уровне политики.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "228"
+  ],
+  "order": 3,
+  "series": "kotlin-509-228",
+  "seriesOrder": 3,
+  "seriesTitle": "Ktor Client — HTTP-запросы",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/228"
+}

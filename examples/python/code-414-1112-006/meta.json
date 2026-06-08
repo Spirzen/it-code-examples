@@ -1,0 +1,14 @@
+{
+  "title": "Безопасность окружения и .env файлы — Конфигурация для тестирования",
+  "description": "Фрагмент из «Безопасность окружения и .env файлы»: Конфигурация для тестирования.",
+  "tags": [
+    "dev-debug",
+    "encyclopedia",
+    "1112"
+  ],
+  "order": 6,
+  "series": "code-414-1112",
+  "seriesOrder": 6,
+  "seriesTitle": "Безопасность окружения и .env файлы",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-14-razrabotka-i-otladka/1112"
+}

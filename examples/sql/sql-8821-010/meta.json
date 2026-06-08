@@ -1,0 +1,14 @@
+{
+  "title": "Подсказки оптимизатору (query hints) — Анализ плана выполнения",
+  "description": "Фрагмент из «Подсказки оптимизатору (query hints)»: Анализ плана выполнения.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "8821"
+  ],
+  "order": 10,
+  "series": "sql-8821",
+  "seriesOrder": 10,
+  "seriesTitle": "Подсказки оптимизатору (query hints)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/8821"
+}

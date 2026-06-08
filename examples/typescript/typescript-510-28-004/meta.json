@@ -1,0 +1,14 @@
+{
+  "title": "Паттерны в TypeScript — Type-safe event bus",
+  "description": "Фрагмент из «Паттерны в TypeScript»: Type-safe event bus.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "28"
+  ],
+  "order": 4,
+  "series": "typescript-510-28",
+  "seriesOrder": 4,
+  "seriesTitle": "Паттерны в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/28"
+}

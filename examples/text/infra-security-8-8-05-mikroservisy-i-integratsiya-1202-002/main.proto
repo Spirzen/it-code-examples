@@ -1,0 +1,19 @@
+service UserService {
+  option (google.api.default_host) = "api.example.com";
+  option (google.api.oauth_scopes) = "https://www.googleapis.com/auth/userinfo.email";
+
+  rpc GetUser(GetUserRequest) returns (User) {
+    option (google.api.http) = {
+      get: "/v1/users/{user_id}"
+    };
+    option (grpc.gateway.protoc_gen_openapiv2.options.openapiv2_operation) = {
+      summary: "Получить пользователя по ID";
+      description: "Возвращает полную информацию о пользователе.";
+      tags: "Users";
+    };
+  }
+
+  rpc StreamEvents(StreamEventsRequest) returns (stream Event) {}
+  rpc UploadAvatar(stream AvatarChunk) returns (AvatarMetadata) {}
+  rpc Chat(stream Message) returns (stream Message) {}
+}

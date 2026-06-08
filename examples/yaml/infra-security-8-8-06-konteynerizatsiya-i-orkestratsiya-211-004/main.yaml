@@ -1,0 +1,26 @@
+spec:
+  replicas: <целое>
+  serviceName: <строка> # Headless Service для DNS
+  selector:
+    matchLabels:
+      app: mysql
+  template: # шаблон Pod
+    metadata:
+      labels:
+        app: mysql
+    spec:
+      containers: [...]
+  volumeClaimTemplates: # список PVC, создаваемых для каждого Pod’а
+    - metadata:
+        name: data
+      spec:
+        accessModes: ["ReadWriteOnce"]
+        resources:
+          requests:
+            storage: 10Gi
+        storageClassName: fast-ssd
+  podManagementPolicy: OrderedReady|Parallel
+  updateStrategy:
+    type: RollingUpdate|OnDelete
+    rollingUpdate:
+      partition: <целое> # для канареечных обновлений

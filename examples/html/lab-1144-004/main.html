@@ -1,0 +1,15 @@
+<button type="button" id="faq-btn" aria-expanded="false" aria-controls="faq-panel">
+  Показать ответ
+</button>
+<div id="faq-panel" hidden>
+  <p>DOM — это дерево объектов HTML-страницы.</p>
+</div>
+<script>
+  const btn = document.getElementById('faq-btn');
+  const panel = document.getElementById('faq-panel');
+  btn.addEventListener('click', () => {
+    const open = btn.getAttribute('aria-expanded') === 'true';
+    btn.setAttribute('aria-expanded', String(!open));
+    panel.hidden = open;
+  });
+</script>

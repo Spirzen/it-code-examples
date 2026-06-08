@@ -1,0 +1,14 @@
+{
+  "title": "Типы данных в C++ — Структуры (`struct`) и классы (`class`)",
+  "description": "Фрагмент из «Типы данных в C++»: Структуры (`struct`) и классы (`class`).",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 40,
+  "series": "cpp-506-11",
+  "seriesOrder": 40,
+  "seriesTitle": "Типы данных в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/11"
+}

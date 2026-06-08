@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по конфигурациям в Java — 9.5. CDI-инъекция — `@ConfigProperty`",
+  "description": "Фрагмент из «Справочник по конфигурациям в Java»: 9.5. CDI-инъекция — `@ConfigProperty`.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "121"
+  ],
+  "order": 9,
+  "series": "java-503-121",
+  "seriesOrder": 9,
+  "seriesTitle": "Справочник по конфигурациям в Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/121"
+}

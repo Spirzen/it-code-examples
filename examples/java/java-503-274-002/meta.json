@@ -1,0 +1,14 @@
+{
+  "title": "JWT и OAuth2 Resource Server в Spring Boot — Что получится",
+  "description": "Фрагмент из «JWT и OAuth2 Resource Server в Spring Boot»: Что получится.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "274"
+  ],
+  "order": 2,
+  "series": "java-503-274",
+  "seriesOrder": 2,
+  "seriesTitle": "JWT и OAuth2 Resource Server в Spring Boot",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/274"
+}

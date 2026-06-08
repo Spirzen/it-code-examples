@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в Swift — `Result` и `throws` — два способа выразить сбой",
+  "description": "Фрагмент из «Обработка ошибок в Swift»: `Result` и `throws` — два способа выразить сбой.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "171"
+  ],
+  "order": 4,
+  "series": "swift-514-171",
+  "seriesOrder": 4,
+  "seriesTitle": "Обработка ошибок в Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/171"
+}

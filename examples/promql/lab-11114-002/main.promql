@@ -1,0 +1,14 @@
+# точное совпадение
+http_requests_total{job="api", method="GET"}
+
+# regex «начинается с prod»
+up{instance=~"prod-.*"}
+
+# исключить namespace
+http_requests_total{namespace!="kube-system"}
+
+# несколько jobs через «или»
+up{job=~"prometheus|node"}
+
+# математика — labels слева и справа должны совпадать
+node_filesystem_avail_bytes / node_filesystem_size_bytes

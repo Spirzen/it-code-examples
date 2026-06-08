@@ -1,0 +1,26 @@
+.modal-backdrop {
+  backdrop-filter: blur(8px) brightness(0.9);
+}
+
+.card:hover {
+  transform: translateY(-4px) rotate(1deg);
+  filter: drop-shadow(0 8px 16px rgb(0 0 0 / 0.12));
+}
+
+.spinner {
+  animation: spin 1s linear infinite;
+  animation-timing-function: cubic-bezier(0.4, 0, 0.6, 1);
+}
+
+@keyframes steps-demo {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0.5;
+  }
+}
+
+.stepped {
+  animation-timing-function: steps(4, end);
+}

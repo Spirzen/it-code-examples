@@ -1,0 +1,21 @@
+# Все .log файлы в любом месте
+*.log
+
+# Только папка build в корне (не src/build)
+/build/
+
+# Любая папка node_modules на любом уровне
+node_modules/
+
+# Все .env, кроме примера для команды
+.env
+.env.*
+!.env.example
+
+# Игнорировать всё в папке data, но сохранить .gitkeep
+data/*
+!data/.gitkeep
+
+# Скомпилированные Python-файлы
+__pycache__/
+*.py[cod]

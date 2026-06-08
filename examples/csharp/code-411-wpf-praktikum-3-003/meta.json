@@ -1,0 +1,14 @@
+{
+  "title": "Практикум WPF — сервер ASP.NET Core Web API — Program.cs — pipeline, Swagger, CORS",
+  "description": "Фрагмент из «Практикум WPF — сервер ASP.NET Core Web API»: Program.cs — pipeline, Swagger, CORS.",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "wpf-praktikum-3"
+  ],
+  "order": 3,
+  "series": "code-411-wpf-praktikum-3",
+  "seriesOrder": 3,
+  "seriesTitle": "Практикум WPF — сервер ASP.NET Core Web API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/wpf-praktikum/3"
+}

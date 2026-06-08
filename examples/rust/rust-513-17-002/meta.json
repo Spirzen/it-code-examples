@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронное программирование в Rust — Синхронизация и взаимодействие между задачами",
+  "description": "Фрагмент из «Асинхронное программирование в Rust»: Синхронизация и взаимодействие между задачами.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 2,
+  "series": "rust-513-17",
+  "seriesOrder": 2,
+  "seriesTitle": "Асинхронное программирование в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/17"
+}

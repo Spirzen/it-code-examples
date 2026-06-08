@@ -1,0 +1,379 @@
+{
+  "generatedAt": "2026-06-08T18:43:31.257Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-26-powershell",
+  "articles": {
+    "11": [
+      {
+        "article": "11",
+        "slug": "yaml/powershell-526-11-001",
+        "title": "Автоматизация развертывания",
+        "section": "автоматизация-развертывания",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "11",
+        "slug": "powershell/powershell-526-11-002",
+        "title": "Структура конфигураций",
+        "section": "структура-конфигураций",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "powershell/powershell-526-12-001",
+        "title": "Логирование и аудит ошибок",
+        "section": "логирование-и-аудит-ошибок",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "12",
+        "slug": "powershell/powershell-526-12-002",
+        "title": "Специфика работы с внешними ресурсами",
+        "section": "специфика-работы-с-внешними-ресурсами",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "12",
+        "slug": "powershell/powershell-526-12-003",
+        "title": "Stop-Service с таймаутом",
+        "section": "stop-service-с-таймаутом",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "111": [
+      {
+        "article": "111",
+        "slug": "powershell/powershell-526-111-001",
+        "title": "Заголовок и метаинформация",
+        "section": "заголовок-и-метаинформация",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "111",
+        "slug": "powershell/powershell-526-111-002",
+        "title": "Инициализация окружения",
+        "section": "инициализация-окружения",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "111",
+        "slug": "powershell/powershell-526-111-003",
+        "title": "Использование try-catch-finally",
+        "section": "использование-try-catch-finally",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "111",
+        "slug": "powershell/powershell-526-111-004",
+        "title": "Использование плейсхолдеров и шаблонизации",
+        "section": "использование-плейсхолдеров-и-шаблонизации",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "112": [
+      {
+        "article": "112",
+        "slug": "powershell/powershell-526-112-001",
+        "title": "Структура файла .ps1",
+        "section": "структура-файла-ps1",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "112",
+        "slug": "powershell/powershell-526-112-002",
+        "title": "Комментарии и документация",
+        "section": "комментарии-и-документация",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "114": [
+      {
+        "article": "114",
+        "slug": "powershell/powershell-526-114-001",
+        "title": "Сводка для условий",
+        "section": "сводка-для-условий",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "114",
+        "slug": "powershell/powershell-526-114-002",
+        "title": "Пример 1 — Обработка файлов с условиями",
+        "section": "пример-1-обработка-файлов-с-условиями",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "114",
+        "slug": "powershell/powershell-526-114-003",
+        "title": "Пример 2 — Цикл с обработкой ошибок",
+        "section": "пример-2-цикл-с-обработкой-ошибок",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "114",
+        "slug": "powershell/powershell-526-114-004",
+        "title": "Пример 4 — Работа с параметрами функции",
+        "section": "пример-4-работа-с-параметрами-функции",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "117": [
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-001",
+        "title": "Операторы числового сравнения",
+        "section": "операторы-числового-сравнения",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-002",
+        "title": "Операторы соответствия шаблонам",
+        "section": "операторы-соответствия-шаблонам",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-003",
+        "title": "Логические операторы",
+        "section": "логические-операторы",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-004",
+        "title": "Обработка ошибок и пустых значений",
+        "section": "обработка-ошибок-и-пустых-значений",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-005",
+        "title": "Вложенные условия",
+        "section": "вложенные-условия",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-006",
+        "title": "Базовый синтаксис Switch",
+        "section": "базовый-синтаксис-switch",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-007",
+        "title": "Поддержка множественных совпадений",
+        "section": "поддержка-множественных-совпадений",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-008",
+        "title": "Работа с регулярными выражения",
+        "section": "работа-с-регулярными-выражения",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "117",
+        "slug": "powershell/powershell-526-117-009",
+        "title": "Режим точного совпадения и режим шаблонов",
+        "section": "режим-точного-совпадения-и-режим-шаблонов",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "118": [
+      {
+        "article": "118",
+        "slug": "powershell/powershell-526-118-001",
+        "title": "Служебные блоки внутри функций",
+        "section": "служебные-блоки-внутри-функций",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "118",
+        "slug": "powershell/powershell-526-118-002",
+        "title": "Управление параметрами и их поведение",
+        "section": "управление-параметрами-и-их-поведение",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "118",
+        "slug": "powershell/powershell-526-118-003",
+        "title": "Лучшие практики написания функций",
+        "section": "лучшие-практики-написания-функций",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "118",
+        "slug": "powershell/powershell-526-118-004",
+        "title": "Лучшие практики написания функций",
+        "section": "лучшие-практики-написания-функций",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "118",
+        "slug": "powershell/powershell-526-118-005",
+        "title": "Лучшие практики написания функций",
+        "section": "лучшие-практики-написания-функций",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "119": [
+      {
+        "article": "119",
+        "slug": "powershell/powershell-526-119-001",
+        "title": "Примеры использования",
+        "section": "примеры-использования",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "121": [
+      {
+        "article": "121",
+        "slug": "powershell/powershell-526-121-001",
+        "title": "Скрипт автоматического обновления ПО",
+        "section": "скрипт-автоматического-обновления-по",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "121",
+        "slug": "powershell/powershell-526-121-002",
+        "title": "Скрипт резервного копирования сжатых архивов",
+        "section": "скрипт-резервного-копирования-сжатых-архивов",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "123": [
+      {
+        "article": "123",
+        "slug": "powershell/powershell-526-123-001",
+        "title": "Синтаксис объявления переменных",
+        "section": "синтаксис-объявления-переменных",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "123",
+        "slug": "powershell/powershell-526-123-002",
+        "title": "Определение функций",
+        "section": "определение-функций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "123",
+        "slug": "powershell/powershell-526-123-003",
+        "title": "XML и JSON",
+        "section": "xml-и-json",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "123",
+        "slug": "powershell/powershell-526-123-004",
+        "title": "Паттерн \"Pipeline Processing\"",
+        "section": "паттерн-pipeline-processing",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "124": [
+      {
+        "article": "124",
+        "slug": "powershell/powershell-526-124-001",
+        "title": "Действия и стандартные блоки",
+        "section": "действия-и-стандартные-блоки",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "125": [
+      {
+        "article": "125",
+        "slug": "powershell/powershell-526-125-001",
+        "title": "Пример — уникальное имя архива",
+        "section": "пример-уникальное-имя-архива",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "125",
+        "slug": "powershell/powershell-526-125-002",
+        "title": "Пример — файлы старше N дней",
+        "section": "пример-файлы-старше-n-дней",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "125",
+        "slug": "powershell/powershell-526-125-003",
+        "title": "Сборка скрипта из блоков",
+        "section": "сборка-скрипта-из-блоков",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "126": [
+      {
+        "article": "126",
+        "slug": "powershell/powershell-526-126-001",
+        "title": "Скрипт-наблюдатель и исполнитель",
+        "section": "скрипт-наблюдатель-и-исполнитель",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "128": [
+      {
+        "article": "128",
+        "slug": "powershell/powershell-526-128-001",
+        "title": "JSON-конфигурация",
+        "section": "json-конфигурация",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "128",
+        "slug": "powershell/powershell-526-128-002",
+        "title": "Data-driven функции",
+        "section": "data-driven-функции",
+        "blocks": 1,
+        "lines": 27
+      }
+    ]
+  }
+}

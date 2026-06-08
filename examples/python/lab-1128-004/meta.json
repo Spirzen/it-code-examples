@@ -1,0 +1,13 @@
+{
+  "title": "Big-O — шпаргалка с примерами — Печать всех перестановок (backtracking)",
+  "description": "Фрагмент из «Big-O — шпаргалка с примерами»: Печать всех перестановок (backtracking).",
+  "tags": [
+    "lab",
+    "1128"
+  ],
+  "order": 4,
+  "series": "lab-1128",
+  "seriesOrder": 4,
+  "seriesTitle": "Big-O — шпаргалка с примерами",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1128"
+}

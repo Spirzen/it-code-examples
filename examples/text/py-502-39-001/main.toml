@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "url-checker"
+version = "0.1.0"
+description = "Проверка доступности URL"
+requires-python = ">=3.11"
+dependencies = [
+    "requests>=2.31.0",
+]
+
+[tool.setuptools.py-modules]
+check_url = {}

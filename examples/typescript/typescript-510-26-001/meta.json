@@ -1,0 +1,14 @@
+{
+  "title": "TypeORM — Инициализация DataSource",
+  "description": "Фрагмент из «TypeORM»: Инициализация DataSource.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "26"
+  ],
+  "order": 1,
+  "series": "typescript-510-26",
+  "seriesOrder": 1,
+  "seriesTitle": "TypeORM",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/26"
+}

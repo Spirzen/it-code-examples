@@ -1,0 +1,47 @@
+# meta-prometheus.yaml - независимый Prometheus для мониторинга основного
+global:
+  scrape_interval: 30s
+
+scrape_configs:
+  # Мониторинг основного Prometheus
+  - job_name: 'primary-prometheus'
+    static_configs:
+      - targets: ['prometheus-primary:9090']
+    metrics_path: /metrics
+  
+  # Мониторинг агентов
+  - job_name: 'exporters-health'
+    static_configs:
+      - targets: 
+        - 'node-exporter-01:9100'
+        - 'node-exporter-02:9100'
+        - 'node-exporter-03:9100'
+  
+  # Синтетические проверки (blackbox)
+  - job_name: 'synthetic_checks'
+    metrics_path: /probe
+    params:
+      module: [http_2xx]
+    static_configs:
+      - targets:
+        - https://api.company.com/health
+        - https://grafana.company.com/api/health
+        - https://prometheus.company.com/-/healthy
+    relabel_configs:
+      - source_labels: [__address__]
+        target_label: __param_target
+      - source_labels: [__param_target]
+        target_label: instance
+      - target_label: __address__
+        replacement: blackbox-exporter:9115
+
+# Алерт на отказ основного мониторинга
+alerts:
+  - alert: PrimaryMonitoringDown
+    expr: up{job="primary-prometheus"} == 0
+    for: 3m
+    labels:
+      severity: critical
+      notify: pagerduty
+    annotations:
+      summary: "Основная система мониторинга недоступна"

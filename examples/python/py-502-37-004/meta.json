@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование на pytest — Flask — тестовый клиент",
+  "description": "Фрагмент из «Тестирование на pytest»: Flask — тестовый клиент.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "37"
+  ],
+  "order": 4,
+  "series": "py-502-37",
+  "seriesOrder": 4,
+  "seriesTitle": "Тестирование на pytest",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/37"
+}

@@ -1,0 +1,15 @@
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgb(0 0 0 / 45%);
+  display: grid;
+  place-items: center;
+  z-index: 1000;
+}
+.modal {
+  background: #fff;
+  padding: 1rem 1.25rem;
+  border-radius: 8px;
+  min-width: 280px;
+  box-shadow: 0 8px 32px rgb(0 0 0 / 20%);
+}

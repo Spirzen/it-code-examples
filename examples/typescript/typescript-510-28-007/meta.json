@@ -1,0 +1,14 @@
+{
+  "title": "Паттерны в TypeScript — Примеси (mixins)",
+  "description": "Фрагмент из «Паттерны в TypeScript»: Примеси (mixins).",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "28"
+  ],
+  "order": 7,
+  "series": "typescript-510-28",
+  "seriesOrder": 7,
+  "seriesTitle": "Паттерны в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/28"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Docker Compose — готовые стеки — 14. Стек для CI-тестов",
+  "description": "Фрагмент из «Docker Compose — готовые стеки»: 14. Стек для CI-тестов.",
+  "tags": [
+    "lab",
+    "11111"
+  ],
+  "order": 11,
+  "series": "lab-11111",
+  "seriesOrder": 11,
+  "seriesTitle": "Docker Compose — готовые стеки",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11111"
+}

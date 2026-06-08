@@ -1,0 +1,31 @@
+asyncapi: 3.0.0
+info:
+  title: Payments Platform Events
+  version: 1.0.0
+channels:
+  payoutEvents:
+    address: payments.payout.v1
+    messages:
+      payoutCompleted:
+        name: payout.completed
+        payload:
+          $ref: '#/components/schemas/PayoutCompleted'
+  partnerWebhook:
+    address: https://bank.example/hooks/payments
+    messages:
+      payoutCompletedWebhook:
+        name: payout.completed
+        payload:
+          $ref: '#/components/schemas/PayoutCompleted'
+components:
+  schemas:
+    PayoutCompleted:
+      type: object
+      required: [id, type, createdAt, data]
+      properties:
+        id: { type: string }
+        type: { const: payout.completed }
+        createdAt: { type: string, format: date-time }
+        data:
+          type: object
+          required: [payoutId, amount, status]

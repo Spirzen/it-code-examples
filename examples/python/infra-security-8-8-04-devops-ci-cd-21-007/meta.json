@@ -1,0 +1,14 @@
+{
+  "title": "Pulumi — Модульное тестирование",
+  "description": "Фрагмент из «Pulumi»: Модульное тестирование.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-21"
+  ],
+  "order": 7,
+  "series": "infra-security-8-8-04-devops-ci-cd-21",
+  "seriesOrder": 7,
+  "seriesTitle": "Pulumi",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/21"
+}

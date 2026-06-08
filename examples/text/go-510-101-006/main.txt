@@ -1,0 +1,16 @@
+.PHONY: fmt vet test lint build
+
+fmt:
+	gofmt -w .
+
+vet:
+	go vet ./...
+
+test:
+	go test -v ./...
+
+lint:
+	golangci-lint run ./...
+
+build:
+	go build -o bin/app ./cmd/app

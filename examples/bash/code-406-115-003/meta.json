@@ -1,0 +1,14 @@
+{
+  "title": "Неиспользуемый код и технический долг — Последствия — усложнение поддержки, рост времени сборки",
+  "description": "Фрагмент из «Неиспользуемый код и технический долг»: Последствия — усложнение поддержки, рост времени сборки.",
+  "tags": [
+    "runtime-architecture",
+    "encyclopedia",
+    "115"
+  ],
+  "order": 3,
+  "series": "code-406-115",
+  "seriesOrder": 3,
+  "seriesTitle": "Неиспользуемый код и технический долг",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-06-arhitektura-vypolneniya/115"
+}

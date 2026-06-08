@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Go — Интеграционные тесты",
+  "description": "Фрагмент из «Работа с базами данных из Go»: Интеграционные тесты.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "20"
+  ],
+  "order": 4,
+  "series": "go-510-20",
+  "seriesOrder": 4,
+  "seriesTitle": "Работа с базами данных из Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/20"
+}

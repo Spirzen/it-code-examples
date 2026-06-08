@@ -1,0 +1,611 @@
+{
+  "generatedAt": "2026-06-08T13:08:08.411Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-15-lua-i-luau",
+  "articles": {
+    "3": [
+      {
+        "article": "3",
+        "slug": "lua/lua-515-3-001",
+        "title": "Замыкания",
+        "section": "замыкания",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3",
+        "slug": "lua/lua-515-3-002",
+        "title": "Стандартные функции высшего порядка",
+        "section": "стандартные-функции-высшего-порядка",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "3",
+        "slug": "lua/lua-515-3-003",
+        "title": "Метаметоды и метатаблицы",
+        "section": "метаметоды-и-метатаблицы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "3",
+        "slug": "lua/lua-515-3-004",
+        "title": "Реализация объектов и классов",
+        "section": "реализация-объектов-и-классов",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "lua/lua-515-18-001",
+        "title": "Пример таблицы",
+        "section": "пример-таблицы",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "18",
+        "slug": "lua/lua-515-18-002",
+        "title": "Арифметические метаметоды",
+        "section": "арифметические-метаметоды",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "lua/lua-515-19-001",
+        "title": "Модуль",
+        "section": "модуль",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "19",
+        "slug": "lua/lua-515-19-002",
+        "title": "Проблемы",
+        "section": "проблемы",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "lua/lua-515-21-001",
+        "title": "Механизм приостановки и возобновления",
+        "section": "механизм-приостановки-и-возобновления",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "21",
+        "slug": "lua/lua-515-21-002",
+        "title": "Пошаговые события",
+        "section": "пошаговые-события",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "21",
+        "slug": "lua/lua-515-21-003",
+        "title": "Конечные автоматы",
+        "section": "конечные-автоматы",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "cpp/lua-515-22-001",
+        "title": "Встраивание Lua в приложения на C/C++",
+        "section": "встраивание-lua-в-приложения-на-c-c",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "json/lua-515-23-008",
+        "title": "Rojo",
+        "section": "rojo",
+        "blocks": 1,
+        "lines": 0
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-001",
+        "title": "Клиентская часть (`LocalScript` в `StarterPlayerScripts`)",
+        "section": "клиентская-часть-localscript-в-starterplayerscri",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-002",
+        "title": "Серверная часть (`Script` в `ServerScriptService`)",
+        "section": "серверная-часть-script-в-serverscriptservice",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-003",
+        "title": "Серверный скрипт спавна",
+        "section": "серверный-скрипт-спавна",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-004",
+        "title": "Signal",
+        "section": "signal",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-005",
+        "title": "Service Locator и модульная архитектура",
+        "section": "service-locator-и-модульная-архитектура",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-006",
+        "title": "Service Locator и модульная архитектура",
+        "section": "service-locator-и-модульная-архитектура",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-007",
+        "title": "Promise-подобные конструкции (без async/await)",
+        "section": "promise-подобные-конструкции-без-async-await",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "23",
+        "slug": "lua/lua-515-23-009",
+        "title": "TestEZ и запуск тестов",
+        "section": "testez-и-запуск-тестов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "23",
+        "slug": "yaml/lua-515-23-010",
+        "title": "CI/CD",
+        "section": "ci-cd",
+        "blocks": 1,
+        "lines": 0
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-001",
+        "title": "Длинные строки и переносы",
+        "section": "длинные-строки-и-переносы",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-002",
+        "title": "Модульная система",
+        "section": "модульная-система",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-003",
+        "title": "Копирование таблиц",
+        "section": "копирование-таблиц",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-004",
+        "title": "Объявление и сигнатуры",
+        "section": "объявление-и-сигнатуры",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-005",
+        "title": "Параметры и возврат значений",
+        "section": "параметры-и-возврат-значений",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-006",
+        "title": "Прототипное наследование",
+        "section": "прототипное-наследование",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-007",
+        "title": "Наследование через метатаблицы",
+        "section": "наследование-через-метатаблицы",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-008",
+        "title": "Приватные поля через замыкания",
+        "section": "приватные-поля-через-замыкания",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-009",
+        "title": "Утверждения и валидация",
+        "section": "утверждения-и-валидация",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-010",
+        "title": "Документирование модулей",
+        "section": "документирование-модулей",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-011",
+        "title": "Аллокации памяти",
+        "section": "аллокации-памяти",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-012",
+        "title": "Структура тестов",
+        "section": "структура-тестов",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "101",
+        "slug": "lua/lua-515-101-013",
+        "title": "Тестирование асинхронного кода",
+        "section": "тестирование-асинхронного-кода",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "171": [
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-001",
+        "title": "Классы, объекты и элементы классов (свойства и методы)",
+        "section": "классы-объекты-и-элементы-классов-свойства-и-мет",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-002",
+        "title": "Создание класса и экземпляра",
+        "section": "создание-класса-и-экземпляра",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-003",
+        "title": "Создание класса и экземпляра",
+        "section": "создание-класса-и-экземпляра",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-004",
+        "title": "Создание класса и экземпляра",
+        "section": "создание-класса-и-экземпляра",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-005",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-006",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-007",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-008",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-009",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-010",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-011",
+        "title": "Наследование",
+        "section": "наследование",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-012",
+        "title": "Наследование",
+        "section": "наследование",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-013",
+        "title": "Наследование",
+        "section": "наследование",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-014",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-015",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-016",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-017",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-018",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-019",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-020",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "171",
+        "slug": "lua/lua-515-171-021",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 47
+      }
+    ],
+    "172": [
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-001",
+        "title": "Разбиение строк",
+        "section": "разбиение-строк",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-002",
+        "title": "Парсинг CSV-файла",
+        "section": "парсинг-csv-файла",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-003",
+        "title": "Сохранение и загрузка конфигурации",
+        "section": "сохранение-и-загрузка-конфигурации",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-004",
+        "title": "Обработка больших файлов",
+        "section": "обработка-больших-файлов",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-005",
+        "title": "Работа с бинарными файлами",
+        "section": "работа-с-бинарными-файлами",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-006",
+        "title": "Паттерн \"Фабрика файлов\"",
+        "section": "паттерн-фабрика-файлов",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-007",
+        "title": "Паттерн \"Логгер\"",
+        "section": "паттерн-логгер",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "172",
+        "slug": "lua/lua-515-172-008",
+        "title": "Паттерн \"Кэш конфигурации\"",
+        "section": "паттерн-кэш-конфигурации",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "173": [
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-001",
+        "title": "Функция pcall",
+        "section": "функция-pcall",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-002",
+        "title": "Функция xpcall",
+        "section": "функция-xpcall",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-003",
+        "title": "Стек вызовов и трассировка ошибок",
+        "section": "стек-вызовов-и-трассировка-ошибок",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-004",
+        "title": "Использование pcall для защиты критических участков",
+        "section": "использование-pcall-для-защиты-критических-участ",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-005",
+        "title": "Обработка множественных ошибок",
+        "section": "обработка-множественных-ошибок",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-006",
+        "title": "Создание универсальных обёрток",
+        "section": "создание-универсальных-обёрток",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-007",
+        "title": "Расширенные объекты ошибок",
+        "section": "расширенные-объекты-ошибок",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-008",
+        "title": "Обработка ошибок в метатаблицах",
+        "section": "обработка-ошибок-в-метатаблицах",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "173",
+        "slug": "lua/lua-515-173-009",
+        "title": "Обработка ошибок в файлах",
+        "section": "обработка-ошибок-в-файлах",
+        "blocks": 1,
+        "lines": 15
+      }
+    ]
+  }
+}

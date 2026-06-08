@@ -1,0 +1,62 @@
+{
+  "generatedAt": "2026-06-08T14:38:11.315Z",
+  "minLines": 15,
+  "section": "nim",
+  "encyclopediaPath": "/encyclopedia/5-languages/5-21-nim",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "nim/nim-521-2-001",
+        "title": "Обработка ошибок",
+        "section": "обработка-ошибок",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "4": [
+      {
+        "article": "4",
+        "slug": "nim/nim-521-4-001",
+        "title": "Логический тип",
+        "section": "логический-тип",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "4",
+        "slug": "nim/nim-521-4-002",
+        "title": "Объекты",
+        "section": "объекты",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "nim/nim-521-103-001",
+        "title": "JSON-трекер задач",
+        "section": "json-трекер-задач",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "103",
+        "slug": "nim/nim-521-103-002",
+        "title": "HTTP (httpclient)",
+        "section": "http-httpclient",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "103",
+        "slug": "nim/nim-521-103-003",
+        "title": "Характерный пример — подсчёт слов и `Table`",
+        "section": "характерный-пример-подсчёт-слов-и-table",
+        "blocks": 1,
+        "lines": 16
+      }
+    ]
+  }
+}

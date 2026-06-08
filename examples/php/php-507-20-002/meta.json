@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из PHP — stmt",
+  "description": "Фрагмент из «Работа с базами данных из PHP»: stmt.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "20"
+  ],
+  "order": 2,
+  "series": "php-507-20",
+  "seriesOrder": 2,
+  "seriesTitle": "Работа с базами данных из PHP",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/20"
+}

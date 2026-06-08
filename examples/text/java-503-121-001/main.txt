@@ -1,0 +1,14 @@
+grant codeBase "file:/opt/app/lib/-" {
+    permission java.io.FilePermission "/tmp/app.log", "write";
+    permission java.net.SocketPermission "api.example.com:443", "connect,resolve";
+    permission java.util.PropertyPermission "user.timezone", "read";
+    permission java.lang.RuntimePermission "accessDeclaredMembers";
+};
+
+grant codeBase "file:${java.home}/lib/ext/-" {
+    permission java.security.AllPermission;
+};
+
+grant Principal com.sun.security.auth.UnixPrincipal "timur" {
+    permission javax.security.auth.AuthPermission "doAs";
+};

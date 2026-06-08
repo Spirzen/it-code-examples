@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка С — Ручное управление памятью — malloc и free",
+  "description": "Фрагмент из «Основы языка С»: Ручное управление памятью — malloc и free.",
+  "tags": [
+    "c",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 1,
+  "series": "c-516-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Основы языка С",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/c-language/2"
+}

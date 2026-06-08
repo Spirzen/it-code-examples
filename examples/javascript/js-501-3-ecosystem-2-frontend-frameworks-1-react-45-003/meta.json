@@ -1,0 +1,14 @@
+{
+  "title": "Кнопка с загрузкой — React, Promise и поток обновлений — Сокращение через `useAsyncCallback` (библиотека)",
+  "description": "Фрагмент из «Кнопка с загрузкой — React, Promise и поток обновлений»: Сокращение через `useAsyncCallback` (библиотека).",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-2-frontend-frameworks-1-react-45"
+  ],
+  "order": 3,
+  "series": "js-501-3-ecosystem-2-frontend-frameworks-1-react-45",
+  "seriesOrder": 3,
+  "seriesTitle": "Кнопка с загрузкой — React, Promise и поток обновлений",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/2-frontend-frameworks/1-react/45"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Работа с БД на CSharp — 1. Работа через ADO.NET (низкоуровневый подход)",
+  "description": "Фрагмент из «Работа с БД на CSharp»: 1. Работа через ADO.NET (низкоуровневый подход).",
+  "tags": [
+    "lab",
+    "14"
+  ],
+  "order": 1,
+  "series": "lab-14",
+  "seriesOrder": 1,
+  "seriesTitle": "Работа с БД на CSharp",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/14"
+}

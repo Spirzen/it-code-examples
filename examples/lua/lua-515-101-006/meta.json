@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Lua — Прототипное наследование",
+  "description": "Фрагмент из «Рекомендации по разработке на Lua»: Прототипное наследование.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 6,
+  "series": "lua-515-101",
+  "seriesOrder": 6,
+  "seriesTitle": "Рекомендации по разработке на Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/101"
+}

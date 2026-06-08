@@ -1,0 +1,13 @@
+{
+  "title": "Dockerfile — 10 типовых образов — 5. Go-сервис (multi-stage)",
+  "description": "Фрагмент из «Dockerfile — 10 типовых образов»: 5. Go-сервис (multi-stage).",
+  "tags": [
+    "lab",
+    "11113"
+  ],
+  "order": 3,
+  "series": "lab-11113",
+  "seriesOrder": 3,
+  "seriesTitle": "Dockerfile — 10 типовых образов",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11113"
+}

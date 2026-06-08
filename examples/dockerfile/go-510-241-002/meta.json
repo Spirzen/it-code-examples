@@ -1,0 +1,14 @@
+{
+  "title": "Пример микросервиса на Go — Конфигурация Dockerfile",
+  "description": "Фрагмент из «Пример микросервиса на Go»: Конфигурация Dockerfile.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "241"
+  ],
+  "order": 2,
+  "series": "go-510-241",
+  "seriesOrder": 2,
+  "seriesTitle": "Пример микросервиса на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/241"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Cassandra — 1. Time-Series (логи, метрики, IoT)",
+  "description": "Фрагмент из «Справочник по Cassandra»: 1. Time-Series (логи, метрики, IoT).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "61"
+  ],
+  "order": 1,
+  "series": "nosql-61",
+  "seriesOrder": 1,
+  "seriesTitle": "Справочник по Cassandra",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/61"
+}

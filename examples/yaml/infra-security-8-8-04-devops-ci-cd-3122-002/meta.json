@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Tempo — Пример минимальной конфигурации (`tempo.yaml`)",
+  "description": "Фрагмент из «Справочник по Tempo»: Пример минимальной конфигурации (`tempo.yaml`).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3122"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-04-devops-ci-cd-3122",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по Tempo",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3122"
+}

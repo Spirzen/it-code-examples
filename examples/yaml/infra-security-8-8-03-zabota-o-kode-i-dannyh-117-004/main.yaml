@@ -1,0 +1,15 @@
+# Пример политики доступа IAM
+roles:
+  backup_admin:
+    permissions:
+      - s3:ReadObject
+      - s3:WriteObject
+      - s3:DeleteObject
+    resources:
+      - arn:aws:s3:::company-backups/*
+    
+  backup_viewer:
+    permissions:
+      - s3:ReadObject
+    resources:
+      - arn:aws:s3:::company-backups/*

@@ -1,0 +1,14 @@
+{
+  "title": "Длинная целочисленная арифметика — Сдвиг всего числа на один бит влево",
+  "description": "Фрагмент из «Длинная целочисленная арифметика»: Сдвиг всего числа на один бит влево.",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "8"
+  ],
+  "order": 2,
+  "series": "assembler-516-8",
+  "seriesOrder": 2,
+  "seriesTitle": "Длинная целочисленная арифметика",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/8"
+}

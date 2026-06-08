@@ -1,0 +1,653 @@
+{
+  "generatedAt": "2026-06-08T12:27:46.139Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-11-ruby",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-001",
+        "title": "Порядок поиска методов",
+        "section": "порядок-поиска-методов",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-002",
+        "title": "Модули — композиция поведения без наследования",
+        "section": "модули-композиция-поведения-без-наследования",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-003",
+        "title": "Модули — композиция поведения без наследования",
+        "section": "модули-композиция-поведения-без-наследования",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-004",
+        "title": "Открытые классы и динамическое поведение",
+        "section": "открытые-классы-и-динамическое-поведение",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-005",
+        "title": "Семантика `return`",
+        "section": "семантика-return",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-006",
+        "title": "Замыкания — захват состояния, а не копирование",
+        "section": "замыкания-захват-состояния-а-не-копирование",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-007",
+        "title": "`method_missing` — перехват неопределённых сообщений как инструмент проектирования",
+        "section": "method-missing-перехват-неопределённых-сообщений",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-008",
+        "title": "Пример — реализация DSL для HTTP-запросов",
+        "section": "пример-реализация-dsl-для-http-запросов",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "1",
+        "slug": "ruby/ruby-511-1-009",
+        "title": "Производительность и кэширование",
+        "section": "производительность-и-кэширование",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "ruby/ruby-511-15-001",
+        "title": "Cuba",
+        "section": "cuba",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "15",
+        "slug": "ruby/ruby-511-15-002",
+        "title": "Roda",
+        "section": "roda",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "15",
+        "slug": "ruby/ruby-511-15-003",
+        "title": "Фоновые процессы и очередь задач",
+        "section": "фоновые-процессы-и-очередь-задач",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-001",
+        "title": "Пример — прямая работа через драйвер `pg`",
+        "section": "пример-прямая-работа-через-драйвер-pg",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-002",
+        "title": "Пул соединений",
+        "section": "пул-соединений",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-003",
+        "title": "Обработка транзакций",
+        "section": "обработка-транзакций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-004",
+        "title": "Ядро: `ActiveRecord::Base`",
+        "section": "ядро-activerecord-base",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-005",
+        "title": "Ассоциации — связи между сущностями",
+        "section": "ассоциации-связи-между-сущностями",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-006",
+        "title": "Миграции — управление схемой как код",
+        "section": "миграции-управление-схемой-как-код",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-007",
+        "title": "Коллбэки и валидации — поведение объекта",
+        "section": "коллбэки-и-валидации-поведение-объекта",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-008",
+        "title": "Optimistic Locking",
+        "section": "optimistic-locking",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-009",
+        "title": "Кастомные типы",
+        "section": "кастомные-типы",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-010",
+        "title": "Scope",
+        "section": "scope",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-011",
+        "title": "Enum",
+        "section": "enum",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-012",
+        "title": "Сериализация в JSON/Hash",
+        "section": "сериализация-в-json-hash",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-013",
+        "title": "Использование Sequel внутри Rails",
+        "section": "использование-sequel-внутри-rails",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "16",
+        "slug": "ruby/ruby-511-16-014",
+        "title": "Фикстуры и Factories",
+        "section": "фикстуры-и-factories",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "ruby/ruby-511-17-001",
+        "title": "Синхронизация доступа к разделяемым данным",
+        "section": "синхронизация-доступа-к-разделяемым-данным",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "17",
+        "slug": "ruby/ruby-511-17-002",
+        "title": "Синхронизация доступа к разделяемым данным",
+        "section": "синхронизация-доступа-к-разделяемым-данным",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "17",
+        "slug": "ruby/ruby-511-17-003",
+        "title": "Синхронизация доступа к разделяемым данным",
+        "section": "синхронизация-доступа-к-разделяемым-данным",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "17",
+        "slug": "ruby/ruby-511-17-004",
+        "title": "EventMachine",
+        "section": "eventmachine",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "17",
+        "slug": "ruby/ruby-511-17-005",
+        "title": "Архитектурные последствия событийной модели",
+        "section": "архитектурные-последствия-событийной-модели",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "17",
+        "slug": "ruby/ruby-511-17-006",
+        "title": "Что такое `Fiber` и чем он отличается от `Thread`",
+        "section": "что-такое-fiber-и-чем-он-отличается-от-thread",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "17",
+        "slug": "ruby/ruby-511-17-007",
+        "title": "`Fiber.scheduler`",
+        "section": "fiber-scheduler",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-001",
+        "title": "Организация модулей и пространств имён",
+        "section": "организация-модулей-и-пространств-имён",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-002",
+        "title": "Принцип единственной ответственности",
+        "section": "принцип-единственной-ответственности",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-003",
+        "title": "Использование модулей для примесей",
+        "section": "использование-модулей-для-примесей",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-004",
+        "title": "Композиция вместо наследования",
+        "section": "композиция-вместо-наследования",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-005",
+        "title": "Инкапсуляция состояния",
+        "section": "инкапсуляция-состояния",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-006",
+        "title": "Количество параметров",
+        "section": "количество-параметров",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-007",
+        "title": "Обработка ошибок",
+        "section": "обработка-ошибок",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-008",
+        "title": "Стиль написания тестов",
+        "section": "стиль-написания-тестов",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-009",
+        "title": "Тестирование граничных случаев",
+        "section": "тестирование-граничных-случаев",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "yaml/ruby-511-101-010",
+        "title": "RuboCop",
+        "section": "rubocop",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "text/ruby-511-101-011",
+        "title": "EditorConfig",
+        "section": "editorconfig",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "yaml/ruby-511-101-012",
+        "title": "CI/CD для Ruby",
+        "section": "ci-cd-для-ruby",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-013",
+        "title": "Рефакторинг длинного метода",
+        "section": "рефакторинг-длинного-метода",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-014",
+        "title": "Рефакторинг длинного метода",
+        "section": "рефакторинг-длинного-метода",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "101",
+        "slug": "ruby/ruby-511-101-015",
+        "title": "Использование сервисных объектов",
+        "section": "использование-сервисных-объектов",
+        "blocks": 1,
+        "lines": 62
+      }
+    ],
+    "102": [
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-001",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-002",
+        "title": "Мини-сниппет — композиция вместо наследования",
+        "section": "мини-сниппет-композиция-вместо-наследования",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-003",
+        "title": "Переменные экземпляра",
+        "section": "переменные-экземпляра",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-004",
+        "title": "Методы экземпляра",
+        "section": "методы-экземпляра",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-005",
+        "title": "Переменные экземпляра и их защита",
+        "section": "переменные-экземпляра-и-их-защита",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-006",
+        "title": "Методы доступа",
+        "section": "методы-доступа",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-007",
+        "title": "Сокращения для методов доступа",
+        "section": "сокращения-для-методов-доступа",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-008",
+        "title": "Модификаторы доступа",
+        "section": "модификаторы-доступа",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-009",
+        "title": "Одиночное наследование",
+        "section": "одиночное-наследование",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-010",
+        "title": "Переопределение методов",
+        "section": "переопределение-методов",
+        "blocks": 1,
+        "lines": 62
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-011",
+        "title": "Метод super",
+        "section": "метод-super",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-012",
+        "title": "Иерархия классов",
+        "section": "иерархия-классов",
+        "blocks": 1,
+        "lines": 72
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-013",
+        "title": "Полиморфизм через наследование",
+        "section": "полиморфизм-через-наследование",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-014",
+        "title": "Утиная типизация",
+        "section": "утиная-типизация",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-015",
+        "title": "Полиморфизм в коллекциях",
+        "section": "полиморфизм-в-коллекциях",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-016",
+        "title": "Определение модулей",
+        "section": "определение-модулей",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-017",
+        "title": "Включение модулей",
+        "section": "включение-модулей",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-018",
+        "title": "Расширение классов",
+        "section": "расширение-классов",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-019",
+        "title": "Комбинированное использование модулей",
+        "section": "комбинированное-использование-модулей",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-020",
+        "title": "Всё есть объект",
+        "section": "всё-есть-объект",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-021",
+        "title": "Динамическая природа языка",
+        "section": "динамическая-природа-языка",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-022",
+        "title": "Метапрограммирование",
+        "section": "метапрограммирование",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-023",
+        "title": "Расширенные возможности атрибутов",
+        "section": "расширенные-возможности-атрибутов",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-024",
+        "title": "Защита данных через приватные методы доступа",
+        "section": "защита-данных-через-приватные-методы-доступа",
+        "blocks": 1,
+        "lines": 69
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-025",
+        "title": "Эволюция языка",
+        "section": "эволюция-языка",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-026",
+        "title": "Влияние на современную разработку",
+        "section": "влияние-на-современную-разработку",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "102",
+        "slug": "ruby/ruby-511-102-027",
+        "title": "Современное состояние",
+        "section": "современное-состояние",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "ruby/ruby-511-103-001",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "103",
+        "slug": "ruby/ruby-511-103-002",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "103",
+        "slug": "ruby/ruby-511-103-003",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "103",
+        "slug": "ruby/ruby-511-103-004",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 15
+      }
+    ]
+  }
+}

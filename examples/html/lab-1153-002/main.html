@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Как устроена HTML-страница</title>
+  <style>
+    body { font-family: Georgia, serif; max-width: 40rem; margin: 0 auto; padding: 1.25rem; line-height: 1.6; }
+    nav { background: #f4f4f9; padding: 0.75rem 1rem; border-radius: 8px; margin-bottom: 1.5rem; }
+    nav a { margin-right: 1rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <p><small>Учебный пример · 2026</small></p>
+    <h1>Как устроена HTML-страница</h1>
+    <p>Краткий конспект для урока информатики.</p>
+  </header>
+
+  <nav aria-label="Содержание">
+    <strong>Содержание:</strong>
+    <a href="#vvedenie">Введение</a>
+    <a href="#tegi">Теги</a>
+    <a href="#itog">Итог</a>
+  </nav>
+
+  <main>
+    <article>
+      <h2 id="vvedenie">Введение</h2>
+      <p>Браузер читает файл и строит <strong>DOM</strong> — дерево элементов.</p>
+
+      <h2 id="tegi">Теги</h2>
+      <p>Теги бывают парными: <code>&lt;p&gt;…&lt;/p&gt;</code> и одиночными: <code>&lt;img&gt;</code>, <code>&lt;br&gt;</code>.</p>
+
+      <h2 id="itog">Итог</h2>
+      <p>Сохраните страницу в UTF-8 и откройте локально — сервер для первого урока не обязателен.</p>
+    </article>
+  </main>
+
+  <footer>
+    <p>Автор: Иван Иванов · <a href="mailto:ivan@example.com">ivan@example.com</a></p>
+  </footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по языку Rust — 24.2. Совместный доступ к данным",
+  "description": "Фрагмент из «Справочник по языку Rust»: 24.2. Совместный доступ к данным.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "3"
+  ],
+  "order": 3,
+  "series": "rust-513-3",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по языку Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/3"
+}

@@ -1,0 +1,34 @@
+{
+  "server": {
+    "port": 3000,
+    "host": "0.0.0.0",
+    "sslEnabled": true
+  },
+  "resources": [
+    {
+      "type": "filesystem",
+      "path": "/data/resources",
+      "readonly": false
+    },
+    {
+      "type": "database",
+      "connectionString": "postgresql://localhost:5432/mcp_db",
+      "readonly": true
+    }
+  ],
+  "tools": [
+    {
+      "name": "checkDiskSpace",
+      "enabled": true
+    },
+    {
+      "name": "listProcesses",
+      "enabled": false
+    }
+  ],
+  "authentication": {
+    "method": "jwt",
+    "secret": "<your_secret_key>",
+    "expireMinutes": 60
+  }
+}

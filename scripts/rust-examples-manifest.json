@@ -1,0 +1,757 @@
+{
+  "generatedAt": "2026-06-08T12:39:56.165Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-13-rust",
+  "articles": {
+    "3": [
+      {
+        "article": "3",
+        "slug": "rust/rust-513-3-001",
+        "title": "10.4. Методы для структур",
+        "section": "10-4-методы-для-структур",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "3",
+        "slug": "rust/rust-513-3-002",
+        "title": "20.1. Модульные тесты (unit tests)",
+        "section": "20-1-модульные-тесты-unit-tests",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "3",
+        "slug": "rust/rust-513-3-003",
+        "title": "24.2. Совместный доступ к данным",
+        "section": "24-2-совместный-доступ-к-данным",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "rust/rust-513-11-001",
+        "title": "Безопасность памяти без сборщика мусора",
+        "section": "безопасность-памяти-без-сборщика-мусора",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "rust/rust-513-11-002",
+        "title": "Безопасность памяти без сборщика мусора",
+        "section": "безопасность-памяти-без-сборщика-мусора",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "11",
+        "slug": "rust/rust-513-11-003",
+        "title": "Безопасность памяти без сборщика мусора",
+        "section": "безопасность-памяти-без-сборщика-мусора",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "rust/rust-513-12-001",
+        "title": "Фигурные скобки, макросы и атрибуты",
+        "section": "фигурные-скобки-макросы-и-атрибуты",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-001",
+        "title": "Скалярные типы",
+        "section": "скалярные-типы",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-002",
+        "title": "Скалярные типы",
+        "section": "скалярные-типы",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-003",
+        "title": "Скалярные типы",
+        "section": "скалярные-типы",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-004",
+        "title": "Скалярные типы",
+        "section": "скалярные-типы",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-005",
+        "title": "Составные типы",
+        "section": "составные-типы",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-006",
+        "title": "Составные типы",
+        "section": "составные-типы",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-007",
+        "title": "Составные типы",
+        "section": "составные-типы",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-008",
+        "title": "Сопоставление с образцом — декларативный доступ к данным",
+        "section": "сопоставление-с-образцом-декларативный-доступ-к-",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "13",
+        "slug": "rust/rust-513-13-009",
+        "title": "Пример — работа с пользовательскими данными",
+        "section": "пример-работа-с-пользовательскими-данными",
+        "blocks": 1,
+        "lines": 27
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "rust/rust-513-14-001",
+        "title": "Арифметические операторы",
+        "section": "арифметические-операторы",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "14",
+        "slug": "rust/rust-513-14-002",
+        "title": "Условные конструкции: `if` и `match`",
+        "section": "условные-конструкции-if-и-match",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "14",
+        "slug": "rust/rust-513-14-003",
+        "title": "Условные конструкции: `if` и `match`",
+        "section": "условные-конструкции-if-и-match",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "14",
+        "slug": "rust/rust-513-14-004",
+        "title": "Бесконечный цикл `loop`",
+        "section": "бесконечный-цикл-loop",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "14",
+        "slug": "rust/rust-513-14-005",
+        "title": "Условный цикл `while`",
+        "section": "условный-цикл-while",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "rust/rust-513-15-001",
+        "title": "Axum",
+        "section": "axum",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "15",
+        "slug": "rust/rust-513-15-002",
+        "title": "Фреймворки для CLI-приложений",
+        "section": "фреймворки-для-cli-приложений",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-001",
+        "title": "Низкоуровневые драйверы",
+        "section": "низкоуровневые-драйверы",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-002",
+        "title": "ORM — Diesel",
+        "section": "orm-diesel",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-003",
+        "title": "ORM — SeaORM",
+        "section": "orm-seaorm",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-004",
+        "title": "MongoDB",
+        "section": "mongodb",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-005",
+        "title": "SeaORM и миграции",
+        "section": "seaorm-и-миграции",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-006",
+        "title": "Сериализация моделей в JSON и обмен данными",
+        "section": "сериализация-моделей-в-json-и-обмен-данными",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-007",
+        "title": "Валидация данных",
+        "section": "валидация-данных",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-008",
+        "title": "Unit-тесты",
+        "section": "unit-тесты",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "16",
+        "slug": "rust/rust-513-16-009",
+        "title": "Интеграционные тесты",
+        "section": "интеграционные-тесты",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "rust/rust-513-17-001",
+        "title": "async/await — синтаксис для последовательного стиля",
+        "section": "async-await-синтаксис-для-последовательного-стил",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "17",
+        "slug": "rust/rust-513-17-002",
+        "title": "Синхронизация и взаимодействие между задачами",
+        "section": "синхронизация-и-взаимодействие-между-задачами",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-001",
+        "title": "Принцип единственной ответственности",
+        "section": "принцип-единственной-ответственности",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-002",
+        "title": "Правила передачи владения",
+        "section": "правила-передачи-владения",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-003",
+        "title": "Возврат владения",
+        "section": "возврат-владения",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-004",
+        "title": "Управление конкурентностью",
+        "section": "управление-конкурентностью",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-005",
+        "title": "Мокирование зависимостей",
+        "section": "мокирование-зависимостей",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-006",
+        "title": "Избегание ненужных аллокаций",
+        "section": "избегание-ненужных-аллокаций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "text/rust-513-101-007",
+        "title": "Конфигурация Cargo.toml",
+        "section": "конфигурация-cargo-toml",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-008",
+        "title": "Построитель (Builder)",
+        "section": "построитель-builder",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-009",
+        "title": "Обёртка (Wrapper)",
+        "section": "обёртка-wrapper",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "101",
+        "slug": "rust/rust-513-101-010",
+        "title": "Состояние (State)",
+        "section": "состояние-state",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "102": [
+      {
+        "article": "102",
+        "slug": "rust/rust-513-102-001",
+        "title": "Обработка ошибок",
+        "section": "обработка-ошибок",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "102",
+        "slug": "rust/rust-513-102-002",
+        "title": "Обобщения и трейты (Traits)",
+        "section": "обобщения-и-трейты-traits",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "102",
+        "slug": "rust/rust-513-102-003",
+        "title": "Асинхронность и задачи",
+        "section": "асинхронность-и-задачи",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "102",
+        "slug": "rust/rust-513-102-004",
+        "title": "Асинхронность и задачи",
+        "section": "асинхронность-и-задачи",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "rust/rust-513-103-001",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "103",
+        "slug": "rust/rust-513-103-002",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "103",
+        "slug": "rust/rust-513-103-003",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "103",
+        "slug": "rust/rust-513-103-004",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "103",
+        "slug": "rust/rust-513-103-005",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "103",
+        "slug": "rust/rust-513-103-006",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "103",
+        "slug": "rust/rust-513-103-007",
+        "title": "Как запустить",
+        "section": "как-запустить",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "110": [
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-001",
+        "title": "Как использовать эту карту на практике",
+        "section": "как-использовать-эту-карту-на-практике",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-002",
+        "title": "Tauri",
+        "section": "tauri",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-003",
+        "title": "Iced",
+        "section": "iced",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "110",
+        "slug": "text/rust-513-110-004",
+        "title": "Slint",
+        "section": "slint",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-005",
+        "title": "Dioxus",
+        "section": "dioxus",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-006",
+        "title": "Actix Web",
+        "section": "actix-web",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-007",
+        "title": "Tower / Hyper",
+        "section": "tower-hyper",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-008",
+        "title": "Background workers — tokio::task, async-channel, sqlx + cron",
+        "section": "background-workers-tokio-task-async-channel-sqlx",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-009",
+        "title": "Встроенная система тестирования (`#[test]`)",
+        "section": "встроенная-система-тестирования-test",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-010",
+        "title": "Criterion.rs",
+        "section": "criterion-rs",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-011",
+        "title": "Mockall, Wiremock",
+        "section": "mockall-wiremock",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-012",
+        "title": "Mockall, Wiremock",
+        "section": "mockall-wiremock",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-013",
+        "title": "Proptest",
+        "section": "proptest",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-014",
+        "title": "Embedded Rust — HAL, RTFM, Embassy",
+        "section": "embedded-rust-hal-rtfm-embassy",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "110",
+        "slug": "rust/rust-513-110-015",
+        "title": "Blockchain — Substrate, Solana programs",
+        "section": "blockchain-substrate-solana-programs",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "111": [
+      {
+        "article": "111",
+        "slug": "rust/rust-513-111-001",
+        "title": "Безопасная многопоточность",
+        "section": "безопасная-многопоточность",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "141": [
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-001",
+        "title": "Объектно-ориентированные концепции в Rust",
+        "section": "объектно-ориентированные-концепции-в-rust",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-002",
+        "title": "Пример структуры",
+        "section": "пример-структуры",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-003",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-004",
+        "title": "Полиморфизм",
+        "section": "полиморфизм",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-005",
+        "title": "Отсутствие наследования",
+        "section": "отсутствие-наследования",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-006",
+        "title": "Моделирование поведения через трейты",
+        "section": "моделирование-поведения-через-трейты",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-007",
+        "title": "Композиция вместо наследования",
+        "section": "композиция-вместо-наследования",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-008",
+        "title": "Композиция вместо наследования",
+        "section": "композиция-вместо-наследования",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-009",
+        "title": "Ассоциированные типы и обобщённые трейты",
+        "section": "ассоциированные-типы-и-обобщённые-трейты",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "141",
+        "slug": "rust/rust-513-141-010",
+        "title": "Отсутствие множественного наследования — не недостаток",
+        "section": "отсутствие-множественного-наследования-не-недост",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "201": [
+      {
+        "article": "201",
+        "slug": "rust/rust-513-201-001",
+        "title": "Полный `main.rs` и общая схема",
+        "section": "полный-main-rs-и-общая-схема",
+        "blocks": 1,
+        "lines": 77
+      }
+    ],
+    "202": [
+      {
+        "article": "202",
+        "slug": "rust/rust-513-202-001",
+        "title": "Тест HTTP-приложения (Axum)",
+        "section": "тест-http-приложения-axum",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "202",
+        "slug": "rust/rust-513-202-002",
+        "title": "Тест HTTP-приложения (Axum)",
+        "section": "тест-http-приложения-axum",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "202",
+        "slug": "rust/rust-513-202-003",
+        "title": "Моки зависимостей — mockall",
+        "section": "моки-зависимостей-mockall",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "203": [
+      {
+        "article": "203",
+        "slug": "rust/rust-513-203-001",
+        "title": "Канал mpsc",
+        "section": "канал-mpsc",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "203",
+        "slug": "rust/rust-513-203-002",
+        "title": "Общее изменяемое состояние — `Arc` + `Mutex`",
+        "section": "общее-изменяемое-состояние-arc-mutex",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "204": [
+      {
+        "article": "204",
+        "slug": "text/rust-513-204-001",
+        "title": "Workspace (монорепозиторий)",
+        "section": "workspace-монорепозиторий",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "206": [
+      {
+        "article": "206",
+        "slug": "rust/rust-513-206-001",
+        "title": "Когда Slint, Iced, egui",
+        "section": "когда-slint-iced-egui",
+        "blocks": 1,
+        "lines": 25
+      }
+    ]
+  }
+}

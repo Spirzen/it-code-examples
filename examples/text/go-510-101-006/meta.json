@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Go — Makefile для автоматизации",
+  "description": "Фрагмент из «Рекомендации по разработке на Go»: Makefile для автоматизации.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 6,
+  "series": "go-510-101",
+  "seriesOrder": 6,
+  "seriesTitle": "Рекомендации по разработке на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/101"
+}

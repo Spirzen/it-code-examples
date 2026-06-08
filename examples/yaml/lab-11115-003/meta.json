@@ -1,0 +1,13 @@
+{
+  "title": "Kubernetes YAML — минимальные манифесты — 5. ConfigMap — настройки без пересборки образа",
+  "description": "Фрагмент из «Kubernetes YAML — минимальные манифесты»: 5. ConfigMap — настройки без пересборки образа.",
+  "tags": [
+    "lab",
+    "11115"
+  ],
+  "order": 3,
+  "series": "lab-11115",
+  "seriesOrder": 3,
+  "seriesTitle": "Kubernetes YAML — минимальные манифесты",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11115"
+}

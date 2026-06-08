@@ -1,0 +1,14 @@
+{
+  "title": "Ошибки REST — @Valid и @ControllerAdvice — Простой сервис (в памяти)",
+  "description": "Фрагмент из «Ошибки REST — @Valid и @ControllerAdvice»: Простой сервис (в памяти).",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "303"
+  ],
+  "order": 1,
+  "series": "java-503-303",
+  "seriesOrder": 1,
+  "seriesTitle": "Ошибки REST — @Valid и @ControllerAdvice",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/303"
+}

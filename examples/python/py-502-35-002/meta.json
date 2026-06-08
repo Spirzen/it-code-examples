@@ -1,0 +1,14 @@
+{
+  "title": "Автоматизация задач и DevOps-скрипты — 2. Health-check бот с алертингом (`health_monitor.py`)",
+  "description": "Фрагмент из «Автоматизация задач и DevOps-скрипты»: 2. Health-check бот с алертингом (`health_monitor.py`).",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "35"
+  ],
+  "order": 2,
+  "series": "py-502-35",
+  "seriesOrder": 2,
+  "seriesTitle": "Автоматизация задач и DevOps-скрипты",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/35"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по ассемблеру — Использование libc вместо прямых системных вызовов",
+  "description": "Фрагмент из «Справочник по ассемблеру»: Использование libc вместо прямых системных вызовов.",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "711"
+  ],
+  "order": 5,
+  "series": "assembler-516-711",
+  "seriesOrder": 5,
+  "seriesTitle": "Справочник по ассемблеру",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/711"
+}

@@ -1,0 +1,22 @@
+trigger: none  # отключаем обычный push-триггер
+
+pr:
+  branches:
+    include:
+      - main
+      - release/*
+  paths:
+    include:
+      - src/
+    exclude:
+      - docs/
+
+pool:
+  vmImage: 'ubuntu-latest'
+
+steps:
+- script: echo "Running PR validation"
+- task: DotNetCoreCLI@2
+  inputs:
+    command: 'test'
+    projects: '**/*Tests/*.csproj'

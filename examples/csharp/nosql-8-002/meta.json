@@ -1,0 +1,14 @@
+{
+  "title": "Memcached - кэширование в оперативной памяти — C# (.NET 6+, EnyimMemcachedCore)",
+  "description": "Фрагмент из «Memcached - кэширование в оперативной памяти»: C# (.NET 6+, EnyimMemcachedCore).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "8"
+  ],
+  "order": 2,
+  "series": "nosql-8",
+  "seriesOrder": 2,
+  "seriesTitle": "Memcached - кэширование в оперативной памяти",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/8"
+}

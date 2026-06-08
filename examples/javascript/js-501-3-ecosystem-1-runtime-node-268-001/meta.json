@@ -1,0 +1,14 @@
+{
+  "title": "Встроенные модули Node.js — fs, потоки и http — Минимальный HTTP-сервер",
+  "description": "Фрагмент из «Встроенные модули Node.js — fs, потоки и http»: Минимальный HTTP-сервер.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-1-runtime-node-268"
+  ],
+  "order": 1,
+  "series": "js-501-3-ecosystem-1-runtime-node-268",
+  "seriesOrder": 1,
+  "seriesTitle": "Встроенные модули Node.js — fs, потоки и http",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/1-runtime-node/268"
+}

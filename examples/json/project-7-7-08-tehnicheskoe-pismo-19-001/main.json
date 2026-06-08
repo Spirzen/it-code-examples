@@ -1,0 +1,22 @@
+  {
+    "version": "2.1.3",
+    "run_id": "diag-20251111T1420Z",
+    "cluster_id": "xc-prod-eu1",
+    "timestamp": "2025-11-11T14:20:03Z",
+    "mode": "full",
+    "summary": {
+      "nodes_total": 12,
+      "nodes_ok": 11,
+      "nodes_failed": 1,
+      "shards_checked": 96,
+      "shards_corrupted": 0,
+      "exit_code": 1
+    },
+    "nodes": [
+      {
+        "id": "node-07",
+        "status": "UNREACHABLE",
+        "error": "connection refused: 10.42.7.15:8080"
+      }
+    ]
+  }

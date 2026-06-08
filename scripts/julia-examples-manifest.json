@@ -1,0 +1,26 @@
+{
+  "generatedAt": "2026-06-08T14:38:11.646Z",
+  "minLines": 15,
+  "section": "julia",
+  "encyclopediaPath": "/encyclopedia/5-languages/5-24-julia",
+  "articles": {
+    "4": [
+      {
+        "article": "4",
+        "slug": "julia/julia-524-4-001",
+        "title": "Обобщённое программирование и диспетчеризация",
+        "section": "обобщённое-программирование-и-диспетчеризация",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "4",
+        "slug": "julia/julia-524-4-002",
+        "title": "Мини-практикум по типам",
+        "section": "мини-практикум-по-типам",
+        "blocks": 1,
+        "lines": 15
+      }
+    ]
+  }
+}

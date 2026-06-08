@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Echo — REST API \"Заметки\"",
+  "description": "Фрагмент из «Первая программа на Echo»: REST API \"Заметки\".",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2413"
+  ],
+  "order": 1,
+  "series": "go-510-2413",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа на Echo",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2413"
+}

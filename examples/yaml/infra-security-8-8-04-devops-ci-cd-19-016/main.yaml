@@ -1,0 +1,29 @@
+groups:
+  - name: escalation_policy
+    rules:
+      # Страница - немедленная реакция (будит инженера ночью)
+      - alert: ServiceCompletelyDown
+        expr: sum(up{job=~"critical-.*"}) == 0
+        for: 2m
+        labels:
+          severity: page
+          notify: pagerduty-oncall
+      
+      # Тикет - реакция в рабочее время
+      - alert: ServiceDegraded
+        expr: |
+          sum(rate(http_requests_total{status=~"5.."}[15m]))
+          / sum(rate(http_requests_total[15m]))
+          > 0.05
+        for: 15m
+        labels:
+          severity: ticket
+          notify: jira-platform-team
+      
+      # Информационный - только запись в дашборд
+      - alert: ResourceTrendWarning
+        expr: predict_linear(node_filesystem_free_bytes[6h], 24*3600) < 0
+        for: 1h
+        labels:
+          severity: info
+          notify: slack-infra-warnings

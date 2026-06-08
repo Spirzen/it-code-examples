@@ -1,0 +1,14 @@
+{
+  "title": "Webhooks — Минимальный обработчик webhook (Node.js)",
+  "description": "Фрагмент из «Webhooks»: Минимальный обработчик webhook (Node.js).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-212"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-212",
+  "seriesOrder": 1,
+  "seriesTitle": "Webhooks",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/212"
+}

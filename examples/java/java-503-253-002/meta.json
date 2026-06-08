@@ -1,0 +1,14 @@
+{
+  "title": "Практикум Swing — XML-валидатор — Зачем отдельная model, а не `boolean`",
+  "description": "Фрагмент из «Практикум Swing — XML-валидатор»: Зачем отдельная model, а не `boolean`.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "253"
+  ],
+  "order": 2,
+  "series": "java-503-253",
+  "seriesOrder": 2,
+  "seriesTitle": "Практикум Swing — XML-валидатор",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/253"
+}

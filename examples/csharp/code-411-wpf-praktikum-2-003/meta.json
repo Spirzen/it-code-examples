@@ -1,0 +1,14 @@
+{
+  "title": "Практикум WPF — основы MVVM — Команды — ICommand вместо Click",
+  "description": "Фрагмент из «Практикум WPF — основы MVVM»: Команды — ICommand вместо Click.",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "wpf-praktikum-2"
+  ],
+  "order": 3,
+  "series": "code-411-wpf-praktikum-2",
+  "seriesOrder": 3,
+  "seriesTitle": "Практикум WPF — основы MVVM",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/wpf-praktikum/2"
+}

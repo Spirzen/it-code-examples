@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Logstash — 3. Фильтрация и клонирование для архива",
+  "description": "Фрагмент из «Справочник по Logstash»: 3. Фильтрация и клонирование для архива.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3119"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-04-devops-ci-cd-3119",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по Logstash",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3119"
+}

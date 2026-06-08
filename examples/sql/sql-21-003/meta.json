@@ -1,0 +1,14 @@
+{
+  "title": "Чтение и анализ сложных SQL-запросов — Рекурсивные CTE",
+  "description": "Фрагмент из «Чтение и анализ сложных SQL-запросов»: Рекурсивные CTE.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 3,
+  "series": "sql-21",
+  "seriesOrder": 3,
+  "seriesTitle": "Чтение и анализ сложных SQL-запросов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/21"
+}

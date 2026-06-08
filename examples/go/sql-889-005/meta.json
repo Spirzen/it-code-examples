@@ -1,0 +1,14 @@
+{
+  "title": "MySQL — практическая работа и API — Go — go-sql-driver/mysql",
+  "description": "Фрагмент из «MySQL — практическая работа и API»: Go — go-sql-driver/mysql.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "889"
+  ],
+  "order": 5,
+  "series": "sql-889",
+  "seriesOrder": 5,
+  "seriesTitle": "MySQL — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/889"
+}

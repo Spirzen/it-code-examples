@@ -1,0 +1,14 @@
+{
+  "title": "Основы JavaScript — Среда выполнения",
+  "description": "Фрагмент из «Основы JavaScript»: Среда выполнения.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 3,
+  "series": "js-501-1",
+  "seriesOrder": 3,
+  "seriesTitle": "Основы JavaScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/1"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Go для микросервисов — Практические примеры реализации",
+  "description": "Фрагмент из «Go для микросервисов»: Практические примеры реализации.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-102"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-102",
+  "seriesOrder": 3,
+  "seriesTitle": "Go для микросервисов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/102"
+}

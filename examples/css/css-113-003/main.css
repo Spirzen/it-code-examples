@@ -1,0 +1,20 @@
+.link {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.link:hover,
+.link:focus {
+  color: var(--color-dark);
+  text-decoration: underline;
+}
+
+.link--primary {
+  font-weight: var(--font-weight-semibold);
+}
+
+.link--primary:hover,
+.link--primary:focus {
+  color: #5A4FCF;
+}

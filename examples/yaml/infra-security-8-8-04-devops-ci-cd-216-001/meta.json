@@ -1,0 +1,14 @@
+{
+  "title": "Ansible — Плейбуки",
+  "description": "Фрагмент из «Ansible»: Плейбуки.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-216"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-216",
+  "seriesOrder": 1,
+  "seriesTitle": "Ansible",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/216"
+}

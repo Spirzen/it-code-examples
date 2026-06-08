@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL — практическая работа и API — Kotlin — JDBC (PostgreSQL)",
+  "description": "Фрагмент из «PostgreSQL — практическая работа и API»: Kotlin — JDBC (PostgreSQL).",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "888"
+  ],
+  "order": 7,
+  "series": "sql-888",
+  "seriesOrder": 7,
+  "seriesTitle": "PostgreSQL — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/888"
+}

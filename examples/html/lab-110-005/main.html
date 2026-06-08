@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Две колонки</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, sans-serif; }
+    .split {
+      display: grid;
+      gap: 1.5rem;
+      padding: 1.5rem;
+      max-width: 56rem;
+      margin: 0 auto;
+    }
+    @media (min-width: 40rem) {
+      .split { grid-template-columns: 1fr 1fr; align-items: center; }
+    }
+    .media {
+      aspect-ratio: 4 / 3;
+      border-radius: 12px;
+      background: linear-gradient(135deg, #667eea, #764ba2);
+    }
+  </style>
+</head>
+<body>
+  <section class="split">
+    <div>
+      <h1>Заголовок</h1>
+      <p>Узкий экран — блоки друг под другом. От 640px — в два столбца.</p>
+    </div>
+    <div class="media" aria-hidden="true"></div>
+  </section>
+</body>
+</html>

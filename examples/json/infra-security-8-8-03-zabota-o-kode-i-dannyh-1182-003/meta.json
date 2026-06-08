@@ -1,0 +1,14 @@
+{
+  "title": "SourceCraft - отечественная альтернатива Git — Расширение для VSCode",
+  "description": "Фрагмент из «SourceCraft - отечественная альтернатива Git»: Расширение для VSCode.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-03-zabota-o-kode-i-dannyh-1182"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-03-zabota-o-kode-i-dannyh-1182",
+  "seriesOrder": 3,
+  "seriesTitle": "SourceCraft - отечественная альтернатива Git",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-03-zabota-o-kode-i-dannyh/1182"
+}

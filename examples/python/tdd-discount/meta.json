@@ -1,0 +1,7 @@
+{
+  "title": "Python — TDD: расчёт скидки",
+  "description": "Цикл Red-Green-Refactor: pytest-тесты и функция get_discount_percent.",
+  "tags": ["lab", "case", "tdd"],
+  "order": 7,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/7"
+}

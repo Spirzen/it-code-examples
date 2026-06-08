@@ -1,0 +1,14 @@
+{
+  "title": "ADO.NET и Dapper — первая программа — ADO.NET — чтение `DbDataReader`",
+  "description": "Фрагмент из «ADO.NET и Dapper — первая программа»: ADO.NET — чтение `DbDataReader`.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "442"
+  ],
+  "order": 2,
+  "series": "csharp-505-442",
+  "seriesOrder": 2,
+  "seriesTitle": "ADO.NET и Dapper — первая программа",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/442"
+}

@@ -1,0 +1,30 @@
+# helm/myapp/values.yaml (значения по умолчанию)
+replicaCount: 1
+
+image:
+  repository: myapp
+  tag: latest
+  pullPolicy: IfNotPresent
+
+config:
+  environment: development
+  logLevel: debug
+  logFormat: json
+  metricsEnabled: true
+  tracingEnabled: true
+  requestTimeout: 30
+  cacheTtl: 300
+
+database:
+  host: localhost
+  port: 5432
+  name: myapp_dev
+  poolSize: 5
+
+resources:
+  requests:
+    cpu: 100m
+    memory: 256Mi
+  limits:
+    cpu: 500m
+    memory: 512Mi

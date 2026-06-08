@@ -1,0 +1,24 @@
+<UserControl x:Class="TaskDesk.Client.Views.TaskListView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <Grid Margin="16">
+    <Grid.RowDefinitions>
+      <RowDefinition Height="Auto"/>
+      <RowDefinition Height="*"/>
+    </Grid.RowDefinitions>
+    <StackPanel Orientation="Horizontal" Margin="0,0,0,12">
+      <TextBox Width="280" Text="{Binding NewTitle, UpdateSourceTrigger=PropertyChanged}"/>
+      <Button Margin="8,0,0,0" Content="Добавить" Command="{Binding AddTaskCommand}"/>
+    </StackPanel>
+    <ListBox Grid.Row="1" ItemsSource="{Binding Tasks}">
+      <ListBox.ItemTemplate>
+        <DataTemplate>
+          <StackPanel>
+            <TextBlock Text="{Binding Title}" FontWeight="SemiBold"/>
+            <TextBlock Text="{Binding StatusLabel}" Opacity="0.7"/>
+          </StackPanel>
+        </DataTemplate>
+      </ListBox.ItemTemplate>
+    </ListBox>
+  </Grid>
+</UserControl>

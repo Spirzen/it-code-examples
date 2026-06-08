@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: java-backend
+spec:
+  replicas: 3
+  selector:
+    matchLabels:
+      app: java-backend
+  template:
+    metadata:
+      labels:
+        app: java-backend
+    spec:
+      affinity:
+        podAntiAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+          - labelSelector:
+              matchLabels:
+                app: java-backend
+            topologyKey: kubernetes.io/hostname
+      containers:
+      - name: app
+        image: myregistry/java-backend:v1.2.0

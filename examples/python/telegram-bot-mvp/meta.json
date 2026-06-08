@@ -1,0 +1,7 @@
+{
+  "title": "Python — Telegram Bot MVP",
+  "description": "Минимальный бот: /start, /help, /task, /list с хранением в памяти.",
+  "tags": ["lab", "case", "telegram"],
+  "order": 6,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/6"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Ruby — Сериализация в JSON/Hash",
+  "description": "Фрагмент из «Работа с базами данных из Ruby»: Сериализация в JSON/Hash.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 12,
+  "series": "ruby-511-16",
+  "seriesOrder": 12,
+  "seriesTitle": "Работа с базами данных из Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/16"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Ruby — Композиция вместо наследования",
+  "description": "Фрагмент из «Рекомендации по разработке на Ruby»: Композиция вместо наследования.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 4,
+  "series": "ruby-511-101",
+  "seriesOrder": 4,
+  "seriesTitle": "Рекомендации по разработке на Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/101"
+}

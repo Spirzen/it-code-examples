@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность в Ruby — Что такое `Fiber` и чем он отличается от `Thread`",
+  "description": "Фрагмент из «Асинхронность в Ruby»: Что такое `Fiber` и чем он отличается от `Thread`.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 6,
+  "series": "ruby-511-17",
+  "seriesOrder": 6,
+  "seriesTitle": "Асинхронность в Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/17"
+}

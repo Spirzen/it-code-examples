@@ -1,0 +1,105 @@
+{
+  "generatedAt": "2026-06-07T19:27:24.987Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/4-code-dev/4-13-osnovy-raboty-s-git",
+  "articles": {
+    "116": [
+      {
+        "article": "116",
+        "slug": "text/code-413-116-001",
+        "title": "Примеры паттернов",
+        "section": "примеры-паттернов",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-002",
+        "title": "1. Секреты и ключи",
+        "section": "1-секреты-и-ключи",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-003",
+        "title": "Универсальный базовый шаблон",
+        "section": "универсальный-базовый-шаблон",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-004",
+        "title": "Node.js / JavaScript / TypeScript",
+        "section": "node-js-javascript-typescript",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-005",
+        "title": "Python",
+        "section": "python",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-006",
+        "title": "Java / Kotlin (Maven и Gradle)",
+        "section": "java-kotlin-maven-и-gradle",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-007",
+        "title": "C# / .NET",
+        "section": "c-net",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-008",
+        "title": "Go",
+        "section": "go",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-009",
+        "title": "PHP (Composer)",
+        "section": "php-composer",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-010",
+        "title": "Ruby",
+        "section": "ruby",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-011",
+        "title": "Android",
+        "section": "android",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "116",
+        "slug": "text/code-413-116-012",
+        "title": "iOS / Xcode",
+        "section": "ios-xcode",
+        "blocks": 1,
+        "lines": 20
+      }
+    ]
+  }
+}

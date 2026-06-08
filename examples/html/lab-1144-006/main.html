@@ -1,0 +1,14 @@
+<ul id="comments"></ul>
+<input type="text" id="text">
+<button type="button" id="send">Отправить</button>
+<script>
+  const list = document.getElementById('comments');
+  document.getElementById('send').addEventListener('click', () => {
+    const text = document.getElementById('text').value.trim();
+    if (!text) return;
+    const li = document.createElement('li');
+    li.textContent = text; // НЕ innerHTML с сырым вводом
+    list.append(li);
+    document.getElementById('text').value = '';
+  });
+</script>

@@ -1,0 +1,14 @@
+{
+  "title": "Docker — Список команд и шаблон построения команд для Docker",
+  "description": "Фрагмент из «Docker»: Список команд и шаблон построения команд для Docker.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-111"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-111",
+  "seriesOrder": 2,
+  "seriesTitle": "Docker",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/111"
+}

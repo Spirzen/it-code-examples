@@ -1,0 +1,14 @@
+{
+  "title": "SignalR - реализация реального времени в .NET — SignalR в контексте слоистой архитектуры приложения",
+  "description": "Фрагмент из «SignalR - реализация реального времени в .NET»: SignalR в контексте слоистой архитектуры приложения.",
+  "tags": [
+    "dotnet",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 3,
+  "series": "dotnet-504-2",
+  "seriesOrder": 3,
+  "seriesTitle": "SignalR - реализация реального времени в .NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-04-platforma-dotnet/2"
+}

@@ -1,0 +1,113 @@
+<form id="registration-form" action="/register" method="post">
+  <fieldset>
+    <legend>Основные данные</legend>
+    
+    <div class="form-row">
+      <label for="role-select">Роль в системе</label>
+      <select id="role-select" name="role" required>
+        <option value="" disabled selected>Выберите вашу роль</option>
+        <option value="admin">Администратор</option>
+        <option value="manager">Менеджер проекта</option>
+        <option value="developer">Разработчик</option>
+        <option value="tester">Тестировщик</option>
+        <option value="designer">Дизайнер</option>
+      </select>
+    </div>
+    
+    <div class="form-row">
+      <label for="department-select">Отдел</label>
+      <select id="department-select" name="department" required>
+        <option value="" disabled selected>Выберите отдел</option>
+        <optgroup label="Технический">
+          <option value="frontend">Frontend</option>
+          <option value="backend">Backend</option>
+          <option value="devops">DevOps</option>
+          <option value="qa">QA</option>
+        </optgroup>
+        <optgroup label="Нетехнический">
+          <option value="marketing">Маркетинг</option>
+          <option value="sales">Продажи</option>
+          <option value="hr">HR</option>
+          <option value="finance">Финансы</option>
+        </optgroup>
+      </select>
+    </div>
+    
+    <div class="form-row">
+      <label for="experience-select">Опыт работы</label>
+      <select id="experience-select" name="experience" required>
+        <option value="">Выберите диапазон</option>
+        <option value="junior">0-1 год (Junior)</option>
+        <option value="middle">1-3 года (Middle)</option>
+        <option value="senior">3-5 лет (Senior)</option>
+        <option value="lead">5+ лет (Lead)</option>
+      </select>
+    </div>
+    
+    <div class="form-actions">
+      <button type="reset">Очистить</button>
+      <button type="submit">Зарегистрироваться</button>
+    </div>
+  </fieldset>
+</form>
+
+<style>
+.form-row {
+  margin-bottom: 20px;
+}
+
+.form-row label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+.form-row select {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 16px;
+  border: 2px solid #e0e0e0;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.form-row select:focus {
+  border-color: #0066cc;
+  box-shadow: 0 0 10px rgba(0, 102, 204, 0.2);
+  outline: none;
+}
+
+.form-actions {
+  display: flex;
+  gap: 16px;
+  margin-top: 30px;
+}
+
+.form-actions button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.form-actions button[type="reset"] {
+  background-color: #f5f5f5;
+  color: #333;
+}
+
+.form-actions button[type="reset"]:hover {
+  background-color: #e0e0e0;
+}
+
+.form-actions button[type="submit"] {
+  background-color: #0066cc;
+  color: white;
+}
+
+.form-actions button[type="submit"]:hover {
+  background-color: #0052a3;
+}
+</style>

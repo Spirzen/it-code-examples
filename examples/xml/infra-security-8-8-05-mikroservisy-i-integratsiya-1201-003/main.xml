@@ -1,0 +1,35 @@
+<definitions targetNamespace="http://example.com/">
+  <types> <!-- XSD-схемы типов -->
+    <xsd:schema>...</xsd:schema>
+  </types>
+  
+  <message name="GetUserRequest">
+    <part name="parameters" element="tns:GetUser"/>
+  </message>
+
+  <portType name="UserServicePortType">
+    <operation name="GetUser">
+      <input message="tns:GetUserRequest"/>
+      <output message="tns:GetUserResponse"/>
+    </operation>
+  </portType>
+
+  <binding name="UserServiceBinding" type="tns:UserServicePortType">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <operation name="GetUser">
+      <soap:operation soapAction="http://example.com/GetUser"/>
+      <input>
+        <soap:body use="literal"/>
+      </input>
+      <output>
+        <soap:body use="literal"/>
+      </output>
+    </operation>
+  </binding>
+
+  <service name="UserService">
+    <port name="UserServicePort" binding="tns:UserServiceBinding">
+      <soap:address location="https://api.example.com/user"/>
+    </port>
+  </service>
+</definitions>

@@ -1,0 +1,26 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "5000:80"
+    depends_on:
+      - db
+      - redis
+    environment:
+      - ConnectionStrings__DefaultConnection=Host=db;Database=shop;Username=postgres;Password=secret
+      - ConnectionStrings__Redis=redis:6379
+
+  db:
+    image: postgres:15
+    environment:
+      POSTGRES_DB: shop
+      POSTGRES_PASSWORD: secret
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  redis:
+    image: redis:7-alpine
+
+volumes:
+  pgdata:

@@ -1,0 +1,14 @@
+{
+  "title": "Работа с данными и коллекциями — Пример минимального Repository",
+  "description": "Фрагмент из «Работа с данными и коллекциями»: Пример минимального Repository.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 1,
+  "series": "swift-514-16",
+  "seriesOrder": 1,
+  "seriesTitle": "Работа с данными и коллекциями",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/16"
+}

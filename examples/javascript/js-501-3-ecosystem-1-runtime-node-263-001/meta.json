@@ -1,0 +1,14 @@
+{
+  "title": "Express — middleware, маршруты и ошибки — Валидация тела запроса",
+  "description": "Фрагмент из «Express — middleware, маршруты и ошибки»: Валидация тела запроса.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-1-runtime-node-263"
+  ],
+  "order": 1,
+  "series": "js-501-3-ecosystem-1-runtime-node-263",
+  "seriesOrder": 1,
+  "seriesTitle": "Express — middleware, маршруты и ошибки",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/1-runtime-node/263"
+}

@@ -1,0 +1,13 @@
+{
+  "title": "Nginx — конфиги под задачу — 7. Балансировка между двумя app-серверами",
+  "description": "Фрагмент из «Nginx — конфиги под задачу»: 7. Балансировка между двумя app-серверами.",
+  "tags": [
+    "lab",
+    "11112"
+  ],
+  "order": 5,
+  "series": "lab-11112",
+  "seriesOrder": 5,
+  "seriesTitle": "Nginx — конфиги под задачу",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11112"
+}

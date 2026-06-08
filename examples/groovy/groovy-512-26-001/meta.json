@@ -1,0 +1,14 @@
+{
+  "title": "Jenkins Shared Library — общий Groovy-код CI — Global var — vars/standardPipeline.groovy",
+  "description": "Фрагмент из «Jenkins Shared Library — общий Groovy-код CI»: Global var — vars/standardPipeline.groovy.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "26"
+  ],
+  "order": 1,
+  "series": "groovy-512-26",
+  "seriesOrder": 1,
+  "seriesTitle": "Jenkins Shared Library — общий Groovy-код CI",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/26"
+}

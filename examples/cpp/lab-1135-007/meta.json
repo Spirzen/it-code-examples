@@ -1,0 +1,13 @@
+{
+  "title": "Arduino и micro:bit — примеры с разбором — Переключение LED по нажатию (один щелчок — одно переключение)",
+  "description": "Фрагмент из «Arduino и micro:bit — примеры с разбором»: Переключение LED по нажатию (один щелчок — одно переключение).",
+  "tags": [
+    "lab",
+    "1135"
+  ],
+  "order": 7,
+  "series": "lab-1135",
+  "seriesOrder": 7,
+  "seriesTitle": "Arduino и micro:bit — примеры с разбором",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1135"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка Rust — Безопасность памяти без сборщика мусора",
+  "description": "Фрагмент из «Основы языка Rust»: Безопасность памяти без сборщика мусора.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 3,
+  "series": "rust-513-11",
+  "seriesOrder": 3,
+  "seriesTitle": "Основы языка Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/11"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Публичный API, OAuth 2.0 и webhooks — Фрагмент OpenAPI — security",
+  "description": "Фрагмент из «Публичный API, OAuth 2.0 и webhooks»: Фрагмент OpenAPI — security.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-1171"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-1171",
+  "seriesOrder": 1,
+  "seriesTitle": "Публичный API, OAuth 2.0 и webhooks",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design/1171"
+}

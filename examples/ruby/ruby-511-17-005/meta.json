@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность в Ruby — Архитектурные последствия событийной модели",
+  "description": "Фрагмент из «Асинхронность в Ruby»: Архитектурные последствия событийной модели.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 5,
+  "series": "ruby-511-17",
+  "seriesOrder": 5,
+  "seriesTitle": "Асинхронность в Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/17"
+}

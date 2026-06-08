@@ -1,0 +1,17 @@
+parameters:
+  - name: page
+    in: query
+    description: Номер страницы результатов
+    required: false
+    schema:
+      type: integer
+      minimum: 1
+      default: 1
+  - name: sort
+    in: query
+    description: Поле для сортировки
+    required: false
+    schema:
+      type: string
+      enum: [created_at, updated_at, title]
+      default: created_at

@@ -48,6 +48,24 @@ export type ExampleEntry = {
   dir: string;
 };
 
+/** Лёгкая запись каталога — без содержимого файлов. */
+export type CatalogEntry = {
+  slug: string;
+  language: string;
+  title: string;
+  description: string;
+  tags: string[];
+  encyclopediaUrl?: string;
+  order: number;
+  series?: string;
+  seriesOrder?: number;
+  seriesTitle?: string;
+  fileCount: number;
+  versionCount: number;
+  /** Относительный путь от EXAMPLES_ROOT для быстрой загрузки примера. */
+  dir: string;
+};
+
 export type SearchIndexEntry = {
   slug: string;
   title: string;
@@ -56,14 +74,16 @@ export type SearchIndexEntry = {
   language: string;
   series?: string;
   seriesTitle?: string;
-  fileNames: string[];
+  fileCount: number;
 };
 
 export type SeriesGroup = {
   id: string;
   title: string;
-  examples: ExampleEntry[];
+  examples: CatalogEntry[];
 };
+
+let catalogCache: CatalogEntry[] | null = null;
 
 function readMeta(dir: string): ExampleMeta {
   const metaPath = path.join(dir, 'meta.json');
@@ -109,6 +129,25 @@ function listFiles(dir: string, base = dir, skipDirs = new Set<string>()): Examp
   return out.sort((a, b) => a.relativePath.localeCompare(b.relativePath, 'ru'));
 }
 
+function countCodeFiles(dir: string, skipDirs = new Set<string>()): number {
+  let count = 0;
+  for (const entry of fs.readdirSync(dir, {withFileTypes: true})) {
+    if (entry.name === 'meta.json' || entry.name.startsWith('.')) {
+      continue;
+    }
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) {
+      if (skipDirs.has(entry.name)) {
+        continue;
+      }
+      count += countCodeFiles(full, skipDirs);
+      continue;
+    }
+    count++;
+  }
+  return count;
+}
+
 function loadVersions(dir: string, meta: ExampleMeta): ExampleVersion[] {
   if (!meta.versions?.length) {
     return [];
@@ -128,6 +167,85 @@ function loadVersions(dir: string, meta: ExampleMeta): ExampleVersion[] {
     .filter((v): v is ExampleVersion => v !== null);
 }
 
+function sortCatalogEntries(a: CatalogEntry, b: CatalogEntry): number {
+  if (a.language !== b.language) {
+    return a.language.localeCompare(b.language, 'ru');
+  }
+  if (a.order !== b.order) {
+    return a.order - b.order;
+  }
+  return a.title.localeCompare(b.title, 'ru');
+}
+
+function walkCatalogDirs(root: string, language: string, acc: CatalogEntry[] = []) {
+  if (!fs.existsSync(root)) {
+    return acc;
+  }
+  for (const entry of fs.readdirSync(root, {withFileTypes: true})) {
+    if (!entry.isDirectory() || entry.name.startsWith('.')) {
+      continue;
+    }
+    const dir = path.join(root, entry.name);
+    const metaPath = path.join(dir, 'meta.json');
+    const meta = readMeta(dir);
+    const versionDirs = new Set((meta.versions ?? []).map((v) => v.dir));
+    const hasCode = fs
+      .readdirSync(dir)
+      .some((f) => f !== 'meta.json' && !f.startsWith('.') && !versionDirs.has(f));
+    if (hasCode || fs.existsSync(metaPath)) {
+      const fileCount = countCodeFiles(dir, versionDirs);
+      const versionCount = meta.versions?.filter((v) => fs.existsSync(path.join(dir, v.dir))).length ?? 0;
+      if (fileCount === 0 && versionCount === 0) {
+        continue;
+      }
+      const slug = `${language}/${entry.name}`;
+      acc.push({
+        slug,
+        language,
+        title: meta.title ?? humanizeSlug(entry.name),
+        description: meta.description ?? '',
+        tags: meta.tags ?? [],
+        encyclopediaUrl: meta.encyclopediaUrl,
+        order: meta.order ?? 999,
+        series: meta.series,
+        seriesOrder: meta.seriesOrder,
+        seriesTitle: meta.seriesTitle,
+        fileCount,
+        versionCount,
+        dir: path.relative(EXAMPLES_ROOT, dir).replace(/\\/g, '/'),
+      });
+    } else {
+      walkCatalogDirs(dir, language, acc);
+    }
+  }
+  return acc;
+}
+
+function loadExampleFromDir(dir: string, language: string, folderName: string): ExampleEntry | undefined {
+  const meta = readMeta(dir);
+  const versionDirs = new Set((meta.versions ?? []).map((v) => v.dir));
+  const files = listFiles(dir, dir, versionDirs);
+  const versions = loadVersions(dir, meta);
+  if (files.length === 0 && versions.length === 0) {
+    return undefined;
+  }
+  return {
+    slug: `${language}/${folderName}`,
+    language,
+    title: meta.title ?? humanizeSlug(folderName),
+    description: meta.description ?? '',
+    tags: meta.tags ?? [],
+    encyclopediaUrl: meta.encyclopediaUrl,
+    order: meta.order ?? 999,
+    series: meta.series,
+    seriesOrder: meta.seriesOrder,
+    seriesTitle: meta.seriesTitle,
+    files,
+    versions,
+    dir,
+  };
+}
+
 function walkExampleDirs(root: string, language: string, acc: ExampleEntry[] = []) {
   if (!fs.existsSync(root)) {
     return acc;
@@ -144,27 +262,10 @@ function walkExampleDirs(root: string, language: string, acc: ExampleEntry[] = [
       .readdirSync(dir)
       .some((f) => f !== 'meta.json' && !f.startsWith('.') && !versionDirs.has(f));
     if (hasCode || fs.existsSync(metaPath)) {
-      const files = listFiles(dir, dir, versionDirs);
-      const versions = loadVersions(dir, meta);
-      if (files.length === 0 && versions.length === 0) {
-        continue;
+      const example = loadExampleFromDir(dir, language, entry.name);
+      if (example) {
+        acc.push(example);
       }
-      const slug = `${language}/${entry.name}`;
-      acc.push({
-        slug,
-        language,
-        title: meta.title ?? humanizeSlug(entry.name),
-        description: meta.description ?? '',
-        tags: meta.tags ?? [],
-        encyclopediaUrl: meta.encyclopediaUrl,
-        order: meta.order ?? 999,
-        series: meta.series,
-        seriesOrder: meta.seriesOrder,
-        seriesTitle: meta.seriesTitle,
-        files,
-        versions,
-        dir,
-      });
     } else {
       walkExampleDirs(dir, language, acc);
     }
@@ -172,6 +273,38 @@ function walkExampleDirs(root: string, language: string, acc: ExampleEntry[] = [
   return acc;
 }
 
+/** Каталог без содержимого файлов — для главной, поиска и списков. */
+export function loadCatalog(): CatalogEntry[] {
+  if (catalogCache) {
+    return catalogCache;
+  }
+  if (!fs.existsSync(EXAMPLES_ROOT)) {
+    catalogCache = [];
+    return catalogCache;
+  }
+  const all: CatalogEntry[] = [];
+  for (const langDir of fs.readdirSync(EXAMPLES_ROOT, {withFileTypes: true})) {
+    if (!langDir.isDirectory() || langDir.name.startsWith('.')) {
+      continue;
+    }
+    walkCatalogDirs(path.join(EXAMPLES_ROOT, langDir.name), langDir.name, all);
+  }
+  catalogCache = all.sort(sortCatalogEntries);
+  return catalogCache;
+}
+
+/** Загрузка одного примера с файлами — для страниц /e/… */
+export function loadExampleBySlug(slug: string): ExampleEntry | undefined {
+  const entry = loadCatalog().find((e) => e.slug === slug);
+  if (!entry) {
+    return undefined;
+  }
+  const dir = path.join(EXAMPLES_ROOT, entry.dir);
+  const folderName = entry.slug.slice(entry.language.length + 1);
+  return loadExampleFromDir(dir, entry.language, folderName);
+}
+
+/** @deprecated Используйте loadCatalog / loadExampleBySlug */
 export function loadAllExamples(): ExampleEntry[] {
   if (!fs.existsSync(EXAMPLES_ROOT)) {
     return [];
@@ -195,11 +328,11 @@ export function loadAllExamples(): ExampleEntry[] {
 }
 
 export function getExampleBySlug(slug: string): ExampleEntry | undefined {
-  return loadAllExamples().find((e) => e.slug === slug);
+  return loadExampleBySlug(slug);
 }
 
-export function groupByLanguage(examples: ExampleEntry[]) {
-  const map = new Map<string, ExampleEntry[]>();
+export function groupByLanguage(examples: CatalogEntry[]) {
+  const map = new Map<string, CatalogEntry[]>();
   for (const ex of examples) {
     const list = map.get(ex.language) ?? [];
     list.push(ex);
@@ -208,8 +341,8 @@ export function groupByLanguage(examples: ExampleEntry[]) {
   return map;
 }
 
-export function groupBySeries(examples: ExampleEntry[]): SeriesGroup[] {
-  const map = new Map<string, ExampleEntry[]>();
+export function groupBySeries(examples: CatalogEntry[]): SeriesGroup[] {
+  const map = new Map<string, CatalogEntry[]>();
   for (const ex of examples) {
     if (!ex.series) {
       continue;
@@ -237,11 +370,11 @@ export function groupBySeries(examples: ExampleEntry[]): SeriesGroup[] {
   return groups.sort((a, b) => a.title.localeCompare(b.title, 'ru'));
 }
 
-export function getSeriesNeighbors(example: ExampleEntry, examples: ExampleEntry[]) {
+export function getSeriesNeighbors(example: CatalogEntry | ExampleEntry, catalog: CatalogEntry[]) {
   if (!example.series) {
     return {prev: undefined, next: undefined, series: undefined};
   }
-  const series = groupBySeries(examples).find((g) => g.id === example.series);
+  const series = groupBySeries(catalog).find((g) => g.id === example.series);
   if (!series) {
     return {prev: undefined, next: undefined, series: undefined};
   }
@@ -253,7 +386,7 @@ export function getSeriesNeighbors(example: ExampleEntry, examples: ExampleEntry
   };
 }
 
-export function buildSearchIndex(examples: ExampleEntry[]): SearchIndexEntry[] {
+export function buildSearchIndex(examples: CatalogEntry[]): SearchIndexEntry[] {
   return examples.map((ex) => ({
     slug: ex.slug,
     title: ex.title,
@@ -262,6 +395,6 @@ export function buildSearchIndex(examples: ExampleEntry[]): SearchIndexEntry[] {
     language: ex.language,
     series: ex.series,
     seriesTitle: ex.seriesTitle,
-    fileNames: ex.files.map((f) => f.relativePath),
+    fileCount: ex.fileCount,
   }));
 }

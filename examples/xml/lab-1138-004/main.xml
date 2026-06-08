@@ -1,0 +1,18 @@
+<Window x:Class="TempConverter.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Конвертер температуры" Height="180" Width="340"
+        ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <StackPanel Margin="20">
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="80"/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Температура (°C):" VerticalAlignment="Center"/>
+            <TextBox x:Name="TempBox" Grid.Column="1" Margin="8,0,0,0" KeyDown="OnTempKeyDown"/>
+        </Grid>
+        <TextBlock x:Name="ResultText" Margin="0,12,0,0" FontSize="12" Text="—"/>
+        <Button Content="Перевести" Click="OnConvert" Margin="0,12,0,0" HorizontalAlignment="Left"/>
+    </StackPanel>
+</Window>

@@ -1,0 +1,15 @@
+<script>
+  import { invoke } from '@tauri-apps/api';
+
+  async function greetUser() {
+    try {
+      const response = await invoke('greet', { name: 'Тимур' });
+      document.getElementById('output').innerText = response;
+    } catch (error) {
+      console.error('Ошибка вызова команды:', error);
+    }
+  }
+</script>
+
+<button onclick="greetUser()">Поприветствовать</button>
+<div id="output"></div>

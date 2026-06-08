@@ -1,0 +1,35 @@
+<div class="panel">
+  <label class="sw">
+    <input type="checkbox" role="switch" class="sw__in">
+    <span class="sw__track"></span>
+    <span class="sw__sr">Тёмная тема</span>
+  </label>
+</div>
+<style>
+.panel {
+  padding: 2rem;
+  border-radius: 12px;
+  background: #f0f0f0;
+  transition: background 0.3s, color 0.3s;
+}
+.panel:has(.sw__in:checked) {
+  background: #1a1a2e;
+  color: #eee;
+}
+.sw { display: inline-flex; align-items: center; gap: 0.5rem; cursor: pointer; }
+.sw__in { position: absolute; opacity: 0; }
+.sw__track {
+  width: 48px; height: 24px; border-radius: 12px;
+  background: #adb5bd; position: relative;
+}
+.sw__track::before {
+  content: ""; position: absolute; width: 20px; height: 20px;
+  left: 2px; top: 2px; border-radius: 50%; background: #fff;
+  transition: transform 0.25s ease;
+}
+.sw__in:checked + .sw__track { background: #7b68ee; }
+.sw__in:checked + .sw__track::before { transform: translateX(24px); }
+.sw__sr {
+  position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0,0,0,0);
+}
+</style>

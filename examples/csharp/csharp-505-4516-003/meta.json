@@ -1,0 +1,14 @@
+{
+  "title": "Тесты ASP.NET Core — юнит и интеграция — Подмена базы данных",
+  "description": "Фрагмент из «Тесты ASP.NET Core — юнит и интеграция»: Подмена базы данных.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "4516"
+  ],
+  "order": 3,
+  "series": "csharp-505-4516",
+  "seriesOrder": 3,
+  "seriesTitle": "Тесты ASP.NET Core — юнит и интеграция",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/4516"
+}

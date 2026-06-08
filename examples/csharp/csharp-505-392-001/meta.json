@@ -1,0 +1,14 @@
+{
+  "title": "Task и async/await в C# — Сколько `Task` можно создать на практике",
+  "description": "Фрагмент из «Task и async/await в C#»: Сколько `Task` можно создать на практике.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "392"
+  ],
+  "order": 1,
+  "series": "csharp-505-392",
+  "seriesOrder": 1,
+  "seriesTitle": "Task и async/await в C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/392"
+}

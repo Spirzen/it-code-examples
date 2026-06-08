@@ -1,0 +1,14 @@
+{
+  "title": "Экосистема приложений на Rust — Embedded Rust — HAL, RTFM, Embassy",
+  "description": "Фрагмент из «Экосистема приложений на Rust»: Embedded Rust — HAL, RTFM, Embassy.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "110"
+  ],
+  "order": 14,
+  "series": "rust-513-110",
+  "seriesOrder": 14,
+  "seriesTitle": "Экосистема приложений на Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/110"
+}

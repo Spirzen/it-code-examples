@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 12.4. Защита от XSS",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 12.4. Защита от XSS.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 28,
+  "series": "java-503-101",
+  "seriesOrder": 28,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}

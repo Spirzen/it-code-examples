@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Итератор\" в Java — Iterable, пагинация и for-each' — Пагинация из БД — свой Iterator",
+  "description": "Фрагмент из «'Паттерн \"Итератор\" в Java — Iterable, пагинация и for-each'»: Пагинация из БД — свой Iterator.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-123"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-123",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Итератор\" в Java — Iterable, пагинация и for-each'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/123"
+}

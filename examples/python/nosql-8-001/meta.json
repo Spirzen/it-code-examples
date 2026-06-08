@@ -1,0 +1,14 @@
+{
+  "title": "Memcached - кэширование в оперативной памяти — Общая схема — cache-aside по шагам",
+  "description": "Фрагмент из «Memcached - кэширование в оперативной памяти»: Общая схема — cache-aside по шагам.",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "8"
+  ],
+  "order": 1,
+  "series": "nosql-8",
+  "seriesOrder": 1,
+  "seriesTitle": "Memcached - кэширование в оперативной памяти",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/8"
+}

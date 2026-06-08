@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование в Go — Table-driven tests",
+  "description": "Фрагмент из «Тестирование в Go»: Table-driven tests.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "192"
+  ],
+  "order": 1,
+  "series": "go-510-192",
+  "seriesOrder": 1,
+  "seriesTitle": "Тестирование в Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/192"
+}

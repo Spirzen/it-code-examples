@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронное программирование в TypeScript — Retry для нестабильных API",
+  "description": "Фрагмент из «Асинхронное программирование в TypeScript»: Retry для нестабильных API.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 5,
+  "series": "typescript-510-17",
+  "seriesOrder": 5,
+  "seriesTitle": "Асинхронное программирование в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/17"
+}

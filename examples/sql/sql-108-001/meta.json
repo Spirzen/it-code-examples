@@ -1,0 +1,14 @@
+{
+  "title": "Подзапросы, EXISTS и IN — EXISTS и NOT EXISTS",
+  "description": "Фрагмент из «Подзапросы, EXISTS и IN»: EXISTS и NOT EXISTS.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "108"
+  ],
+  "order": 1,
+  "series": "sql-108",
+  "seriesOrder": 1,
+  "seriesTitle": "Подзапросы, EXISTS и IN",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/108"
+}

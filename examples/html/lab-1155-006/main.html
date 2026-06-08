@@ -1,0 +1,29 @@
+<button type="button" class="tip" data-tooltip="Поделиться ссылкой">Share</button>
+<style>
+.tip {
+  position: relative;
+  padding: 0.6rem 1.2rem;
+  border: none;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #6e8efb, #a777e3);
+  color: #fff;
+  cursor: pointer;
+}
+.tip::after {
+  content: attr(data-tooltip);
+  position: absolute;
+  left: 50%;
+  bottom: calc(100% + 6px);
+  transform: translateX(-50%);
+  padding: 0.35rem 0.6rem;
+  font-size: 0.75rem;
+  background: #212529;
+  color: #fff;
+  border-radius: 6px;
+  white-space: nowrap;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s;
+}
+.tip:hover::after, .tip:focus-visible::after { opacity: 1; }
+</style>

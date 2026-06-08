@@ -1,0 +1,14 @@
+{
+  "title": "Google Test и Catch2 в C++ — Google Test + CMake (FetchContent)",
+  "description": "Фрагмент из «Google Test и Catch2 в C++»: Google Test + CMake (FetchContent).",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "1007"
+  ],
+  "order": 1,
+  "series": "cpp-506-1007",
+  "seriesOrder": 1,
+  "seriesTitle": "Google Test и Catch2 в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/1007"
+}

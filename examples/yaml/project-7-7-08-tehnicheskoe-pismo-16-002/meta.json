@@ -1,0 +1,14 @@
+{
+  "title": "Руководство системного программиста по ГОСТ — 3.3. Пример конфигурации (`/etc/xcore/xcore.yaml`)",
+  "description": "Фрагмент из «Руководство системного программиста по ГОСТ»: 3.3. Пример конфигурации (`/etc/xcore/xcore.yaml`).",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-08-tehnicheskoe-pismo-16"
+  ],
+  "order": 2,
+  "series": "project-7-7-08-tehnicheskoe-pismo-16",
+  "seriesOrder": 2,
+  "seriesTitle": "Руководство системного программиста по ГОСТ",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-08-tehnicheskoe-pismo/16"
+}

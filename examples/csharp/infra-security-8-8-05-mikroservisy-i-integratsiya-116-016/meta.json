@@ -1,0 +1,14 @@
+{
+  "title": "Реактивная коммуникация — C# (.NET) с Confluent Kafka",
+  "description": "Фрагмент из «Реактивная коммуникация»: C# (.NET) с Confluent Kafka.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-116"
+  ],
+  "order": 16,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-116",
+  "seriesOrder": 16,
+  "seriesTitle": "Реактивная коммуникация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/116"
+}

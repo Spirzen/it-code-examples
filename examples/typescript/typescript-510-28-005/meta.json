@@ -1,0 +1,14 @@
+{
+  "title": "Паттерны в TypeScript — Builder с цепочкой",
+  "description": "Фрагмент из «Паттерны в TypeScript»: Builder с цепочкой.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "28"
+  ],
+  "order": 5,
+  "series": "typescript-510-28",
+  "seriesOrder": 5,
+  "seriesTitle": "Паттерны в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/28"
+}

@@ -1,0 +1,90 @@
+{
+  "generatedAt": "2026-06-08T14:38:11.424Z",
+  "minLines": 15,
+  "section": "dart",
+  "encyclopediaPath": "/encyclopedia/5-languages/5-22-dart",
+  "articles": {
+    "6": [
+      {
+        "article": "6",
+        "slug": "dart/dart-522-6-001",
+        "title": "Функции в контексте классов",
+        "section": "функции-в-контексте-классов",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "8": [
+      {
+        "article": "8",
+        "slug": "dart/dart-522-8-001",
+        "title": "Record и именованные поля",
+        "section": "record-и-именованные-поля",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "8",
+        "slug": "dart/dart-522-8-002",
+        "title": "Sealed class и исчерпывающий switch",
+        "section": "sealed-class-и-исчерпывающий-switch",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "9": [
+      {
+        "article": "9",
+        "slug": "dart/dart-522-9-001",
+        "title": "JSON — сохранение и загрузка",
+        "section": "json-сохранение-и-загрузка",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "9",
+        "slug": "dart/dart-522-9-002",
+        "title": "HTTP-клиент",
+        "section": "http-клиент",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "9",
+        "slug": "dart/dart-522-9-003",
+        "title": "Минимальный HTTP-сервер",
+        "section": "минимальный-http-сервер",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "dart/dart-522-103-001",
+        "title": "Трекер задач (jsonEncode)",
+        "section": "трекер-задач-jsonencode",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "311": [
+      {
+        "article": "311",
+        "slug": "yaml/dart-522-311-001",
+        "title": "Структура проекта",
+        "section": "структура-проекта",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "311",
+        "slug": "dart/dart-522-311-002",
+        "title": "Виджеты — основа всего",
+        "section": "виджеты-основа-всего",
+        "blocks": 1,
+        "lines": 26
+      }
+    ]
+  }
+}

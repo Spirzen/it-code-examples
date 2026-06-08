@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Lua — Наследование через метатаблицы",
+  "description": "Фрагмент из «Рекомендации по разработке на Lua»: Наследование через метатаблицы.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 7,
+  "series": "lua-515-101",
+  "seriesOrder": 7,
+  "seriesTitle": "Рекомендации по разработке на Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/101"
+}

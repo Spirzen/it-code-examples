@@ -1,0 +1,34 @@
+@page "/chat"
+@using Microsoft.AspNetCore.SignalR.Client
+
+<ul>
+@foreach (var msg in messages) { <li>@msg</li> }
+</ul>
+
+@code {
+    private HubConnection? connection;
+    private List<string> messages = new();
+
+    protected override async Task OnInitializedAsync()
+    {
+        connection = new HubConnectionBuilder()
+            .WithUrl(NavigationManager.ToAbsoluteUri("/chathub"))
+            .Build();
+
+        connection.On<string, string>("ReceiveMessage", (user, message) =>
+        {
+            messages.Add($"{user}: {message}");
+            InvokeAsync(StateHasChanged);
+        });
+
+        await connection.StartAsync();
+    }
+
+    public async ValueTask DisposeAsync()
+    {
+        if (connection is not null)
+        {
+            await connection.DisposeAsync();
+        }
+    }
+}

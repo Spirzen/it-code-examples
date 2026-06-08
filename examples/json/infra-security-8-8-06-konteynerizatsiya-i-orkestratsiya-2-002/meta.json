@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Docker — Структура `daemon.json`",
+  "description": "Фрагмент из «Справочник по Docker»: Структура `daemon.json`.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-2"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-2",
+  "seriesOrder": 2,
+  "seriesTitle": "Справочник по Docker",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/2"
+}

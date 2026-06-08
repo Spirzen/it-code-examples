@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL: отложенные ограничения и .NET — EF Core: только через миграцию",
+  "description": "Фрагмент из «PostgreSQL: отложенные ограничения и .NET»: EF Core: только через миграцию.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "119"
+  ],
+  "order": 3,
+  "series": "code-410-119",
+  "seriesOrder": 3,
+  "seriesTitle": "PostgreSQL: отложенные ограничения и .NET",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/119"
+}

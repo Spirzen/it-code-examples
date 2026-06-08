@@ -1,0 +1,14 @@
+{
+  "title": "Генераторы и итераторы в TypeScript — `AsyncGenerator` и `for await...of`",
+  "description": "Фрагмент из «Генераторы и итераторы в TypeScript»: `AsyncGenerator` и `for await...of`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 1,
+  "series": "typescript-510-25",
+  "seriesOrder": 1,
+  "seriesTitle": "Генераторы и итераторы в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/25"
+}

@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Каркас Grid</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: grid;
+      grid-template-columns: 12rem 1fr;
+      grid-template-rows: auto 1fr auto;
+      grid-template-areas:
+        "header header"
+        "nav    main"
+        "footer footer";
+      font-family: system-ui, sans-serif;
+    }
+    header { grid-area: header; padding: 1rem 1.25rem; background: #313244; color: #cdd6f4; }
+    nav {
+      grid-area: nav;
+      padding: 1rem;
+      background: #45475a;
+      color: #bac2de;
+    }
+    nav a { display: block; color: inherit; text-decoration: none; margin-bottom: 0.5rem; }
+    main { grid-area: main; padding: 1.25rem; }
+    footer {
+      grid-area: footer;
+      padding: 0.75rem 1.25rem;
+      background: #1e1e2e;
+      color: #a6adc8;
+      font-size: 0.9rem;
+    }
+    @media (max-width: 48rem) {
+      body {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+          "header"
+          "nav"
+          "main"
+          "footer";
+      }
+      nav { display: flex; gap: 1rem; flex-wrap: wrap; }
+      nav a { margin: 0; }
+    }
+  </style>
+</head>
+<body>
+  <header><strong>Панель</strong></header>
+  <nav>
+    <a href="#">Раздел 1</a>
+    <a href="#">Раздел 2</a>
+    <a href="#">Раздел 3</a>
+  </nav>
+  <main>
+    <h1>Контент</h1>
+    <p>Сетка из именованных областей <code>grid-template-areas</code>.</p>
+  </main>
+  <footer>Подвал</footer>
+</body>
+</html>

@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL — практическая работа и API — C# — Npgsql",
+  "description": "Фрагмент из «PostgreSQL — практическая работа и API»: C# — Npgsql.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "888"
+  ],
+  "order": 1,
+  "series": "sql-888",
+  "seriesOrder": 1,
+  "seriesTitle": "PostgreSQL — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/888"
+}

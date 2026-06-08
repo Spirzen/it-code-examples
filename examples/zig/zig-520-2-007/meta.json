@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка Zig — Практический пример — CLI-утилита для чтения файла",
+  "description": "Фрагмент из «Основы языка Zig»: Практический пример — CLI-утилита для чтения файла.",
+  "tags": [
+    "zig",
+    "encyclopedia",
+    "2"
+  ],
+  "order": 7,
+  "series": "zig-520-2",
+  "seriesOrder": 7,
+  "seriesTitle": "Основы языка Zig",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-20-zig/2"
+}

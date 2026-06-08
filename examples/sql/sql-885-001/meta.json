@@ -1,0 +1,14 @@
+{
+  "title": "Шпаргалка с типичными задачами по SQL — Связь многие-ко-многим (M:N)",
+  "description": "Фрагмент из «Шпаргалка с типичными задачами по SQL»: Связь многие-ко-многим (M:N).",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "885"
+  ],
+  "order": 1,
+  "series": "sql-885",
+  "seriesOrder": 1,
+  "seriesTitle": "Шпаргалка с типичными задачами по SQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/885"
+}

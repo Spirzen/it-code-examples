@@ -1,0 +1,18 @@
+{
+  "generatedAt": "2026-06-08T14:38:10.927Z",
+  "minLines": 15,
+  "section": "scala",
+  "encyclopediaPath": "/encyclopedia/5-languages/5-18-scala",
+  "articles": {
+    "103": [
+      {
+        "article": "103",
+        "slug": "scala/scala-518-103-001",
+        "title": "JSON-трекер (circe / uPickle — или java.nio + ручной JSON)",
+        "section": "json-трекер-circe-upickle-или-java-nio-ручной-js",
+        "blocks": 1,
+        "lines": 19
+      }
+    ]
+  }
+}

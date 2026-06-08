@@ -1,0 +1,14 @@
+{
+  "title": "Job DSL Playground — jobs Jenkins как код — pipelineJob — Pipeline from SCM",
+  "description": "Фрагмент из «Job DSL Playground — jobs Jenkins как код»: pipelineJob — Pipeline from SCM.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 1,
+  "series": "groovy-512-25",
+  "seriesOrder": 1,
+  "seriesTitle": "Job DSL Playground — jobs Jenkins как код",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/25"
+}

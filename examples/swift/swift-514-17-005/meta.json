@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность и Concurrency в Swift — Загрузка изображений с кэшированием",
+  "description": "Фрагмент из «Асинхронность и Concurrency в Swift»: Загрузка изображений с кэшированием.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "17"
+  ],
+  "order": 5,
+  "series": "swift-514-17",
+  "seriesOrder": 5,
+  "seriesTitle": "Асинхронность и Concurrency в Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/17"
+}

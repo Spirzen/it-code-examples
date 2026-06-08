@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Фасад\" в Java — один метод над подсистемой' — Пример — оформление заказа",
+  "description": "Фрагмент из «'Паттерн \"Фасад\" в Java — один метод над подсистемой'»: Пример — оформление заказа.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-129"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-129",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Фасад\" в Java — один метод над подсистемой'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/129"
+}

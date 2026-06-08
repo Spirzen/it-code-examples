@@ -1,0 +1,36 @@
+# terraform/environments/production/main.tf
+
+module "app_config" {
+  source = "../../modules/app-config"
+  
+  environment = "production"
+  
+  # Общие параметры
+  common_settings = {
+    log_level         = "warn"
+    max_connections   = 200
+    request_timeout   = 30
+    cache_ttl_seconds = 600
+    enable_profiling  = false
+    mock_apis         = false
+  }
+  
+  # Специфичные параметры
+  database = {
+    instance_class    = "db.r6g.2xlarge"
+    multi_az          = true
+    backup_retention  = 30
+    encryption        = true
+  }
+  
+  cache = {
+    node_type         = "cache.r6g.xlarge"
+    num_clusters      = 3
+    snapshot_retention = 7
+  }
+}
+
+output "app_environment_variables" {
+  value = module.app_config.environment_variables
+  sensitive = true
+}

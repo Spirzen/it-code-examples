@@ -1,0 +1,14 @@
+{
+  "title": "Clean Architecture на ASP.NET Core — Application — команда и обработчик",
+  "description": "Фрагмент из «Clean Architecture на ASP.NET Core»: Application — команда и обработчик.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-2143"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-2143",
+  "seriesOrder": 1,
+  "seriesTitle": "Clean Architecture на ASP.NET Core",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design/2143"
+}

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Progress bar</title>
+  <style>
+    body {
+      margin: 0;
+      min-height: 100dvh;
+      display: grid;
+      place-items: center;
+      padding: 1rem;
+      font-family: system-ui, sans-serif;
+    }
+    .progress {
+      width: min(100%, 280px);
+      height: 8px;
+      background: #e2e8f0;
+      border-radius: 999px;
+      overflow: hidden;
+    }
+    .progress__bar {
+      height: 100%;
+      width: 0;
+      background: linear-gradient(90deg, #22c55e, #16a34a);
+      border-radius: inherit;
+      animation: fillBar 2.5s ease-out forwards;
+    }
+    @keyframes fillBar {
+      to { width: 75%; }
+    }
+  </style>
+</head>
+<body>
+  <div class="progress" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" aria-label="Загрузка">
+    <div class="progress__bar"></div>
+  </div>
+</body>
+</html>

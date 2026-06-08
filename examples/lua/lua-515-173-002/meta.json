@@ -1,0 +1,14 @@
+{
+  "title": "Обработка ошибок в Lua — Функция xpcall",
+  "description": "Фрагмент из «Обработка ошибок в Lua»: Функция xpcall.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "173"
+  ],
+  "order": 2,
+  "series": "lua-515-173",
+  "seriesOrder": 2,
+  "seriesTitle": "Обработка ошибок в Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/173"
+}

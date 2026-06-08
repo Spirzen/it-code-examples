@@ -1,0 +1,33 @@
+# prometheus.yml - контроль кардинальности
+global:
+  scrape_interval: 15s
+  evaluation_interval: 15s
+  
+  # Ограничение количества выборок за один сбор
+  scrape_configs:
+    - job_name: 'application'
+      # Лимит выборок с одного инстанса
+      sample_limit: 10000
+      # Лимит уникальных лейблов на метрику
+      label_limit: 30
+      # Лимит длины имени лейбла
+      label_name_length_limit: 128
+      # Лимит длины значения лейбла
+      label_value_length_limit: 512
+      
+      metric_relabel_configs:
+        # Удаление метрик с высокой кардинальностью
+        - source_labels: [__name__]
+          regex: 'http_request_duration_seconds_bucket'
+          action: drop
+        
+        # Нормализация путей URL (убираем идентификаторы)
+        - source_labels: [path]
+          regex: '/api/users/[0-9]+'
+          target_label: path
+          replacement: '/api/users/:id'
+        
+        - source_labels: [path]
+          regex: '/api/orders/[0-9]+'
+          target_label: path
+          replacement: '/api/orders/:id'

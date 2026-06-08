@@ -1,0 +1,14 @@
+{
+  "title": "Инкапсуляция - защита внутреннего состояния объекта — public",
+  "description": "Фрагмент из «Инкапсуляция - защита внутреннего состояния объекта»: public.",
+  "tags": [
+    "oop",
+    "encyclopedia",
+    "3"
+  ],
+  "order": 3,
+  "series": "code-408-3",
+  "seriesOrder": 3,
+  "seriesTitle": "Инкапсуляция - защита внутреннего состояния объекта",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-08-oop/3"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Первые шаги с SQL — Создание триггера",
+  "description": "Фрагмент из «Первые шаги с SQL»: Создание триггера.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 2,
+  "series": "sql-101",
+  "seriesOrder": 2,
+  "seriesTitle": "Первые шаги с SQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/101"
+}

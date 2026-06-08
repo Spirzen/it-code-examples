@@ -1,0 +1,14 @@
+{
+  "title": "Docker Swarm и Kubernetes — Инициализация кластера",
+  "description": "Фрагмент из «Docker Swarm и Kubernetes»: Инициализация кластера.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-117"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-117",
+  "seriesOrder": 1,
+  "seriesTitle": "Docker Swarm и Kubernetes",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/117"
+}

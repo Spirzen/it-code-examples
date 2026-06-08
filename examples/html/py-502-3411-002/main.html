@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Flask — задачи</title>
+</head>
+<body>
+  <h1>Мои задачи</h1>
+  <form method="post" action="{{ url_for('add') }}">
+    <input name="title" placeholder="Новая задача" required>
+    <button type="submit">Добавить</button>
+  </form>
+  <ul>
+    {% for t in tasks %}
+      <li>{{ t.title }}</li>
+    {% else %}
+      <li>Пока пусто</li>
+    {% endfor %}
+  </ul>
+</body>
+</html>

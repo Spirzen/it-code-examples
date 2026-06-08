@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мое первое PWA</title>
+    <link rel="manifest" href="manifest.json">
+    <meta name="theme-color" content="#4a90e2">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="icon" type="image/png" sizes="192x192" href="/icons/icon-192.png">
+    <link rel="apple-touch-icon" href="/icons/icon-192.png">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+            color: #333;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+            padding: 20px;
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #4a90e2;
+        }
+        button {
+            background-color: #4a90e2;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 15px;
+        }
+        button:hover {
+            background-color: #357abd;
+        }
+        .status {
+            margin-top: 20px;
+            padding: 10px;
+            border-radius: 6px;
+            display: none;
+        }
+        .online {
+            background-color: #d4edda;
+            color: #155724;
+        }
+        .offline {
+            background-color: #f8d7da;
+            color: #721c24;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Прогрессивное веб-приложение</h1>
+        <p>Это пример простейшего PWA.</p>
+        <button id="checkStatus">Проверить соединение</button>
+        <div id="statusMessage" class="status"></div>
+    </div>
+
+    <script>
+        // Регистрация Service Worker
+        if ('serviceWorker' in navigator) {
+            window.addEventListener('load', () => {
+                navigator.serviceWorker.register('/service-worker.js')
+                    .then(registration => {
+                        console.log('Service Worker зарегистрирован:', registration.scope);
+                    })
+                    .catch(error => {
+                        console.log('Ошибка регистрации Service Worker:', error);
+                    });
+            });
+        }
+
+        // Логика проверки статуса сети
+        const statusDiv = document.getElementById('statusMessage');
+        const checkBtn = document.getElementById('checkStatus');
+
+        function updateStatus() {
+            if (navigator.onLine) {
+                statusDiv.textContent = 'Вы подключены к интернету';
+                statusDiv.className = 'status online';
+                statusDiv.style.display = 'block';
+            } else {
+                statusDiv.textContent = 'Вы в автономном режиме! Приложение работает.';
+                statusDiv.className = 'status offline';
+                statusDiv.style.display = 'block';
+            }
+        }
+
+        window.addEventListener('online', updateStatus);
+        window.addEventListener('offline', updateStatus);
+        
+        checkBtn.addEventListener('click', updateStatus);
+    </script>
+</body>
+</html>

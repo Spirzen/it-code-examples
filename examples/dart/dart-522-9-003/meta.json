@@ -1,0 +1,14 @@
+{
+  "title": "Консоль, файлы и HTTP в Dart — Минимальный HTTP-сервер",
+  "description": "Фрагмент из «Консоль, файлы и HTTP в Dart»: Минимальный HTTP-сервер.",
+  "tags": [
+    "dart",
+    "encyclopedia",
+    "9"
+  ],
+  "order": 3,
+  "series": "dart-522-9",
+  "seriesOrder": 3,
+  "seriesTitle": "Консоль, файлы и HTTP в Dart",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-22-dart/9"
+}

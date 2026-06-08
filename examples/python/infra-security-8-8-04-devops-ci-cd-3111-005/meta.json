@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по Ansible — Пример простого модуля `hello.py`",
+  "description": "Фрагмент из «Справочник по Ansible»: Пример простого модуля `hello.py`.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-3111"
+  ],
+  "order": 5,
+  "series": "infra-security-8-8-04-devops-ci-cd-3111",
+  "seriesOrder": 5,
+  "seriesTitle": "Справочник по Ansible",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/3111"
+}

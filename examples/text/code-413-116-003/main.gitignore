@@ -1,0 +1,32 @@
+# --- Секреты ---
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+credentials.json
+
+# --- Зависимости и сборка (раскомментируйте нужное по стеку) ---
+# node_modules/
+# vendor/
+# dist/
+# build/
+# target/
+# bin/
+# obj/
+
+# --- Логи и кэш ---
+*.log
+*.tmp
+.cache/
+coverage/
+
+# --- ОС ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# --- IDE (настройте под команду) ---
+.idea/
+.vscode/*
+!.vscode/extensions.json

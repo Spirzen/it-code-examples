@@ -1,0 +1,14 @@
+{
+  "title": "Использование Git и GitFlow в DevOps-процессах — Конфигурация",
+  "description": "Фрагмент из «Использование Git и GitFlow в DevOps-процессах»: Конфигурация.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-12"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-12",
+  "seriesOrder": 1,
+  "seriesTitle": "Использование Git и GitFlow в DevOps-процессах",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/12"
+}

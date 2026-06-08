@@ -1,0 +1,275 @@
+{
+  "generatedAt": "2026-06-08T13:13:29.398Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-16-starye-yazyki/assembler",
+  "articles": {
+    "2": [
+      {
+        "article": "2",
+        "slug": "assembler/assembler-516-2-001",
+        "title": "Простые программы",
+        "section": "простые-программы",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "2",
+        "slug": "assembler/assembler-516-2-002",
+        "title": "Простые программы",
+        "section": "простые-программы",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "6": [
+      {
+        "article": "6",
+        "slug": "assembler/assembler-516-6-001",
+        "title": "Пример — подпрограмма сложения двух чисел",
+        "section": "пример-подпрограмма-сложения-двух-чисел",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "7": [
+      {
+        "article": "7",
+        "slug": "assembler/assembler-516-7-001",
+        "title": "Написание первой программы — Hello, World!",
+        "section": "написание-первой-программы-hello-world",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "7",
+        "slug": "assembler/assembler-516-7-002",
+        "title": "Стек и вызовы функций",
+        "section": "стек-и-вызовы-функций",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "7",
+        "slug": "assembler/assembler-516-7-003",
+        "title": "Альтернативный подход — DOS и эмуляторы",
+        "section": "альтернативный-подход-dos-и-эмуляторы",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "8": [
+      {
+        "article": "8",
+        "slug": "assembler/assembler-516-8-001",
+        "title": "Сложение — ADC по словам",
+        "section": "сложение-adc-по-словам",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "8",
+        "slug": "assembler/assembler-516-8-002",
+        "title": "Сдвиг всего числа на один бит влево",
+        "section": "сдвиг-всего-числа-на-один-бит-влево",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "8",
+        "slug": "assembler/assembler-516-8-003",
+        "title": "Умножение и деление \"в лоб\"",
+        "section": "умножение-и-деление-в-лоб",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "10": [
+      {
+        "article": "10",
+        "slug": "assembler/assembler-516-10-001",
+        "title": "Локальные метки в макросах",
+        "section": "локальные-метки-в-макросах",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "10",
+        "slug": "assembler/assembler-516-10-002",
+        "title": "Макрос для системного вызова (Linux x86-64)",
+        "section": "макрос-для-системного-вызова-linux-x86-64",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "assembler/assembler-516-11-001",
+        "title": "Данные в разных модулях",
+        "section": "данные-в-разных-модулях",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "assembler/assembler-516-12-001",
+        "title": "Ассемблер вызывается из C",
+        "section": "ассемблер-вызывается-из-c",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "12",
+        "slug": "assembler/assembler-516-12-002",
+        "title": "Ассемблер вызывается из C",
+        "section": "ассемблер-вызывается-из-c",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "12",
+        "slug": "assembler/assembler-516-12-003",
+        "title": "C вызывается из ассемблера",
+        "section": "c-вызывается-из-ассемблера",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "12",
+        "slug": "assembler/assembler-516-12-004",
+        "title": "Практический минимум для горячего пути",
+        "section": "практический-минимум-для-горячего-пути",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "assembler/assembler-516-15-001",
+        "title": "Сохранение XMM при вызовах",
+        "section": "сохранение-xmm-при-вызовах",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "assembler/assembler-516-16-001",
+        "title": "Импорт функций из DLL",
+        "section": "импорт-функций-из-dll",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "711": [
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-001",
+        "title": "Динамическое выделение памяти",
+        "section": "динамическое-выделение-памяти",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-002",
+        "title": "Основы вызова функции",
+        "section": "основы-вызова-функции",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-003",
+        "title": "Стековый фрейм (stack frame)",
+        "section": "стековый-фрейм-stack-frame",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-004",
+        "title": "Работа с несколькими файлами",
+        "section": "работа-с-несколькими-файлами",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-005",
+        "title": "Использование libc вместо прямых системных вызовов",
+        "section": "использование-libc-вместо-прямых-системных-вызов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-006",
+        "title": "Сборка программы без libc (чистый системный вызов)",
+        "section": "сборка-программы-без-libc-чистый-системный-вызов",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-007",
+        "title": "Сборка с использованием libc",
+        "section": "сборка-с-использованием-libc",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "711",
+        "slug": "text/assembler-516-711-008",
+        "title": "Автоматизация — Makefile",
+        "section": "автоматизация-makefile",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-009",
+        "title": "Пример 1 — Рекурсивный факториал (чистый системный вызов)",
+        "section": "пример-1-рекурсивный-факториал-чистый-системный-",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-010",
+        "title": "Пример 2 — Обход массива и поиск максимума",
+        "section": "пример-2-обход-массива-и-поиск-максимума",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-011",
+        "title": "Пример 3 — Чтение файла и подсчёт байтов",
+        "section": "пример-3-чтение-файла-и-подсчёт-байтов",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-012",
+        "title": "Пример 4 — Оптимизированный цикл — сумма массива",
+        "section": "пример-4-оптимизированный-цикл-сумма-массива",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "711",
+        "slug": "assembler/assembler-516-711-013",
+        "title": "Пример 5 — Использование SIMD (SSE) для ускорения",
+        "section": "пример-5-использование-simd-sse-для-ускорения",
+        "blocks": 1,
+        "lines": 24
+      }
+    ]
+  }
+}

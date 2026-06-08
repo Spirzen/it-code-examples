@@ -1,0 +1,16 @@
+query GetUserById($userId: ID!) {
+  user(id: $userId) {
+    id
+    name
+    posts {
+      id
+      title
+      content
+    }
+  }
+}
+
+# Variables —
+# {
+#   "userId" — "1"
+# }

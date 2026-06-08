@@ -1,0 +1,14 @@
+{
+  "title": "Сопоставление с образцом в Swift — `if let` / `guard let`",
+  "description": "Фрагмент из «Сопоставление с образцом в Swift»: `if let` / `guard let`.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "24"
+  ],
+  "order": 2,
+  "series": "swift-514-24",
+  "seriesOrder": 2,
+  "seriesTitle": "Сопоставление с образцом в Swift",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/24"
+}

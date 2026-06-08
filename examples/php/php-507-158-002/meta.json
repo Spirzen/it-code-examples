@@ -1,0 +1,14 @@
+{
+  "title": "Современный PHP 8 — enum, readonly и атрибуты — Unit enum (без значения)",
+  "description": "Фрагмент из «Современный PHP 8 — enum, readonly и атрибуты»: Unit enum (без значения).",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "158"
+  ],
+  "order": 2,
+  "series": "php-507-158",
+  "seriesOrder": 2,
+  "seriesTitle": "Современный PHP 8 — enum, readonly и атрибуты",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/158"
+}

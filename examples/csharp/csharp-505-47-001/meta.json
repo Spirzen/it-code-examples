@@ -1,0 +1,14 @@
+{
+  "title": "Пример реализации бэкенда на C# — 3.1. Простой API-контроллер",
+  "description": "Фрагмент из «Пример реализации бэкенда на C#»: 3.1. Простой API-контроллер.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "47"
+  ],
+  "order": 1,
+  "series": "csharp-505-47",
+  "seriesOrder": 1,
+  "seriesTitle": "Пример реализации бэкенда на C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/47"
+}

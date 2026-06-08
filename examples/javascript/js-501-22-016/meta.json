@@ -1,0 +1,14 @@
+{
+  "title": "Работа с объектами и прототипами — Object.defineProperty() и Object.defineProperties()",
+  "description": "Фрагмент из «Работа с объектами и прототипами»: Object.defineProperty() и Object.defineProperties().",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 16,
+  "series": "js-501-22",
+  "seriesOrder": 16,
+  "seriesTitle": "Работа с объектами и прототипами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/22"
+}

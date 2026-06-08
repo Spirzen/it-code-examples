@@ -1,0 +1,14 @@
+{
+  "title": "DevOps — шпаргалка — Порядок слоёв, `ENV` и `USER`",
+  "description": "Фрагмент из «DevOps — шпаргалка»: Порядок слоёв, `ENV` и `USER`.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-118"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-118",
+  "seriesOrder": 2,
+  "seriesTitle": "DevOps — шпаргалка",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/118"
+}

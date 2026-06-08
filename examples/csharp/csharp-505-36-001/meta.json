@@ -1,0 +1,14 @@
+{
+  "title": "Лямбда-выражения и отложенная инициализация — Как компилятор переписывает лямбду",
+  "description": "Фрагмент из «Лямбда-выражения и отложенная инициализация»: Как компилятор переписывает лямбду.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "36"
+  ],
+  "order": 1,
+  "series": "csharp-505-36",
+  "seriesOrder": 1,
+  "seriesTitle": "Лямбда-выражения и отложенная инициализация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/36"
+}

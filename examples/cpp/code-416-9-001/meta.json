@@ -1,0 +1,15 @@
+{
+  "title": "Параллельное умножение матриц — Справочно на C++ (OpenMP)",
+  "description": "Фрагмент из «Параллельное умножение матриц»: Справочно на C++ (OpenMP).",
+  "tags": [
+    "parallel-computing",
+    "hpc",
+    "encyclopedia",
+    "9"
+  ],
+  "order": 1,
+  "series": "code-416-9",
+  "seriesOrder": 1,
+  "seriesTitle": "Параллельное умножение матриц",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-16-parallelnye-vychisleniya/9"
+}

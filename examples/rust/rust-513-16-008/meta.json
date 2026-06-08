@@ -1,0 +1,14 @@
+{
+  "title": "Работа с данными и структурами — Unit-тесты",
+  "description": "Фрагмент из «Работа с данными и структурами»: Unit-тесты.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 8,
+  "series": "rust-513-16",
+  "seriesOrder": 8,
+  "seriesTitle": "Работа с данными и структурами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/16"
+}

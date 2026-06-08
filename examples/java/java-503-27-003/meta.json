@@ -1,0 +1,14 @@
+{
+  "title": "Spring Framework — CQRS (Command Query Responsibility Segregation)",
+  "description": "Фрагмент из «Spring Framework»: CQRS (Command Query Responsibility Segregation).",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "27"
+  ],
+  "order": 3,
+  "series": "java-503-27",
+  "seriesOrder": 3,
+  "seriesTitle": "Spring Framework",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/27"
+}

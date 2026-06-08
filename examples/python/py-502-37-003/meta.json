@@ -1,0 +1,14 @@
+{
+  "title": "Тестирование на pytest — JWT в тестах",
+  "description": "Фрагмент из «Тестирование на pytest»: JWT в тестах.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "37"
+  ],
+  "order": 3,
+  "series": "py-502-37",
+  "seriesOrder": 3,
+  "seriesTitle": "Тестирование на pytest",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/37"
+}

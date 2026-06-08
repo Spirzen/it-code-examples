@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка Ruby — Модули — композиция поведения без наследования",
+  "description": "Фрагмент из «Основы языка Ruby»: Модули — композиция поведения без наследования.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 2,
+  "series": "ruby-511-1",
+  "seriesOrder": 2,
+  "seriesTitle": "Основы языка Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/1"
+}

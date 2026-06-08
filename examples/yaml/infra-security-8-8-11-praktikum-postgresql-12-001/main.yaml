@@ -1,0 +1,16 @@
+- name: Install PostgreSQL
+  ansible.builtin.package:
+    name: postgresql-16
+    state: present
+
+- name: Deploy postgresql.conf
+  ansible.builtin.template:
+    src: postgresql.conf.j2
+    dest: "/etc/postgresql/16/main/postgresql.conf"
+  notify: Restart postgres
+
+- name: Ensure PostgreSQL started
+  ansible.builtin.service:
+    name: postgresql
+    state: started
+    enabled: true

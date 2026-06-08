@@ -1,0 +1,14 @@
+:root {
+  --global-primary: #235ad1;
+  --global-spacing: 1rem;
+  --global-font-stack: 'Roboto', sans-serif;
+}
+
+body {
+  font-family: var(--global-font-stack);
+  margin: var(--global-spacing);
+}
+
+.sidebar {
+  background-color: var(--global-primary);
+}

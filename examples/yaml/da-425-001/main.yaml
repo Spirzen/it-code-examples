@@ -1,0 +1,40 @@
+version: '1.0'
+pipeline:
+  name: daily_sales_report
+  schedule: "0 6 * * *" # Ежедневно в 06:00
+  
+  Задачи:
+    - id: extract_data
+      type: source
+      source: postgresql://user:pass@host/db
+      query: "SELECT * FROM sales WHERE date > '{{ yesterday }}'"
+      retry: 3
+      timeout: 300
+      
+    - id: clean_data
+      type: transform
+      input: extract_data
+      script: python scripts/clean.py
+      retry: 2
+      timeout: 600
+      
+    - id: load_to_dwh
+      type: sink
+      target: snowflake://user:pass@account/warehouse
+      table: raw_sales
+      input: clean_data
+      mode: append
+      
+    - id: generate_report
+      type: action
+      input: load_to_dwh
+      script: python scripts/report.py
+      notify:
+        channel: slack
+        message: "Отчет сформирован"
+        
+    - id: send_email
+      type: action
+      input: generate_report
+      script: python scripts/email.py
+      only_on_success: true

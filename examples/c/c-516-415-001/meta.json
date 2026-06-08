@@ -1,0 +1,14 @@
+{
+  "title": "Многопоточность на С — POSIX threads (pthreads)",
+  "description": "Фрагмент из «Многопоточность на С»: POSIX threads (pthreads).",
+  "tags": [
+    "c",
+    "encyclopedia",
+    "415"
+  ],
+  "order": 1,
+  "series": "c-516-415",
+  "seriesOrder": 1,
+  "seriesTitle": "Многопоточность на С",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/c-language/415"
+}

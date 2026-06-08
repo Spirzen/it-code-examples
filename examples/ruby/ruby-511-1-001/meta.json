@@ -1,0 +1,14 @@
+{
+  "title": "Основы языка Ruby — Порядок поиска методов",
+  "description": "Фрагмент из «Основы языка Ruby»: Порядок поиска методов.",
+  "tags": [
+    "ruby",
+    "encyclopedia",
+    "1"
+  ],
+  "order": 1,
+  "series": "ruby-511-1",
+  "seriesOrder": 1,
+  "seriesTitle": "Основы языка Ruby",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-11-ruby/1"
+}

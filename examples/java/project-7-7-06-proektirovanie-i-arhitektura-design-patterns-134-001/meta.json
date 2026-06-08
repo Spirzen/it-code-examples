@@ -1,0 +1,14 @@
+{
+  "title": "'Паттерн \"Прототип\" (Prototype) в Java — копирование вместо создания с нуля' — Пример — прототип отчета",
+  "description": "Фрагмент из «'Паттерн \"Прототип\" (Prototype) в Java — копирование вместо создания с нуля'»: Пример — прототип отчета.",
+  "tags": [
+    "project",
+    "encyclopedia",
+    "7-06-proektirovanie-i-arhitektura-design-patterns-134"
+  ],
+  "order": 1,
+  "series": "project-7-7-06-proektirovanie-i-arhitektura-design-patterns-134",
+  "seriesOrder": 1,
+  "seriesTitle": "'Паттерн \"Прототип\" (Prototype) в Java — копирование вместо создания с нуля'",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/7-project/7-06-proektirovanie-i-arhitektura/design-patterns/134"
+}

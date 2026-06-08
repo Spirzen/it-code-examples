@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 11.4. Ленивая инициализация",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 11.4. Ленивая инициализация.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 24,
+  "series": "java-503-101",
+  "seriesOrder": 24,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}

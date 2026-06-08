@@ -1,0 +1,7 @@
+{
+  "title": "Spring Boot — REST API Todo",
+  "description": "Минимальный backend: сущность, репозиторий, сервис, контроллер и конфиг H2.",
+  "tags": ["lab", "case", "spring"],
+  "order": 10,
+  "encyclopediaUrl": "https://spirzen.ru/lab/Кейсы/4"
+}

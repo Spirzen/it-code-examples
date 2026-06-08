@@ -1,0 +1,14 @@
+{
+  "title": "Веб на стандартной библиотеке Go — Пример — декодирование JSON-запроса",
+  "description": "Фрагмент из «Веб на стандартной библиотеке Go»: Пример — декодирование JSON-запроса.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 4,
+  "series": "go-510-25",
+  "seriesOrder": 4,
+  "seriesTitle": "Веб на стандартной библиотеке Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/25"
+}

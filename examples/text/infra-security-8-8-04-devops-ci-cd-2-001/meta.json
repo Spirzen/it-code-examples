@@ -1,0 +1,14 @@
+{
+  "title": "Terraform — Условные выражения и циклы",
+  "description": "Фрагмент из «Terraform»: Условные выражения и циклы.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-04-devops-ci-cd-2"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-04-devops-ci-cd-2",
+  "seriesOrder": 1,
+  "seriesTitle": "Terraform",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-04-devops-ci-cd/2"
+}

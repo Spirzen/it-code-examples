@@ -1,0 +1,14 @@
+{
+  "title": "Балансировка нагрузки — Запуск HAProxy в Docker",
+  "description": "Фрагмент из «Балансировка нагрузки»: Запуск HAProxy в Docker.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-111"
+  ],
+  "order": 2,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-111",
+  "seriesOrder": 2,
+  "seriesTitle": "Балансировка нагрузки",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/111"
+}

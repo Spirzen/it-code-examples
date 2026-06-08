@@ -1,0 +1,14 @@
+{
+  "title": "Пример реализации бэкенда на C# — 10.2. Аутентификация через JWT",
+  "description": "Фрагмент из «Пример реализации бэкенда на C#»: 10.2. Аутентификация через JWT.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "47"
+  ],
+  "order": 8,
+  "series": "csharp-505-47",
+  "seriesOrder": 8,
+  "seriesTitle": "Пример реализации бэкенда на C#",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/47"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по ассемблеру — Стековый фрейм (stack frame)",
+  "description": "Фрагмент из «Справочник по ассемблеру»: Стековый фрейм (stack frame).",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "711"
+  ],
+  "order": 3,
+  "series": "assembler-516-711",
+  "seriesOrder": 3,
+  "seriesTitle": "Справочник по ассемблеру",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/711"
+}

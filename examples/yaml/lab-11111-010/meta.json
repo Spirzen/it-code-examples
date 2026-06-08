@@ -1,0 +1,13 @@
+{
+  "title": "Docker Compose — готовые стеки — 13. Переменные из `.env`",
+  "description": "Фрагмент из «Docker Compose — готовые стеки»: 13. Переменные из `.env`.",
+  "tags": [
+    "lab",
+    "11111"
+  ],
+  "order": 10,
+  "series": "lab-11111",
+  "seriesOrder": 10,
+  "seriesTitle": "Docker Compose — готовые стеки",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11111"
+}

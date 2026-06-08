@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность в F#: async, task и агенты — MailboxProcessor — агент с очередью",
+  "description": "Фрагмент из «Асинхронность в F#: async, task и агенты»: MailboxProcessor — агент с очередью.",
+  "tags": [
+    "dotnet",
+    "encyclopedia",
+    "189"
+  ],
+  "order": 1,
+  "series": "dotnet-504-189",
+  "seriesOrder": 1,
+  "seriesTitle": "Асинхронность в F#: async, task и агенты",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-04-platforma-dotnet/189"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "ORM на практике — Архитектура взаимодействия ORM и базы данных",
+  "description": "Фрагмент из «ORM на практике»: Архитектура взаимодействия ORM и базы данных.",
+  "tags": [
+    "orm",
+    "encyclopedia",
+    "118"
+  ],
+  "order": 1,
+  "series": "code-410-118",
+  "seriesOrder": 1,
+  "seriesTitle": "ORM на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-10-orm-i-rabota-s-dannymi/118"
+}

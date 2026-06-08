@@ -1,0 +1,2197 @@
+{
+  "generatedAt": "2026-06-07T21:15:18.867Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-01-javascript",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "html/js-501-1-001",
+        "title": "Запуск программы на JavaScript",
+        "section": "запуск-программы-на-javascript",
+        "blocks": 1,
+        "lines": 184
+      },
+      {
+        "article": "1",
+        "slug": "javascript/js-501-1-002",
+        "title": "Модальное окно",
+        "section": "модальное-окно",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "1",
+        "slug": "javascript/js-501-1-003",
+        "title": "Среда выполнения",
+        "section": "среда-выполнения",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "html/js-501-11-001",
+        "title": "До появления JS",
+        "section": "до-появления-js",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "javascript/js-501-13-001",
+        "title": "Структура кода",
+        "section": "структура-кода",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "15": [
+      {
+        "article": "15",
+        "slug": "javascript/js-501-15-001",
+        "title": "Функции как объекты первого класса",
+        "section": "функции-как-объекты-первого-класса",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "15",
+        "slug": "javascript/js-501-15-002",
+        "title": "Неявный return",
+        "section": "неявный-return",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "15",
+        "slug": "javascript/js-501-15-003",
+        "title": "Контекст this в стрелочных функциях",
+        "section": "контекст-this-в-стрелочных-функциях",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "15",
+        "slug": "javascript/js-501-15-004",
+        "title": "Контекст this в стрелочных функциях",
+        "section": "контекст-this-в-стрелочных-функциях",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "15",
+        "slug": "javascript/js-501-15-005",
+        "title": "Контекст this в стрелочных функциях",
+        "section": "контекст-this-в-стрелочных-функциях",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "javascript/js-501-16-001",
+        "title": "Лексическое окружение",
+        "section": "лексическое-окружение",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "16",
+        "slug": "javascript/js-501-16-002",
+        "title": "Arrow Function",
+        "section": "arrow-function",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "javascript/js-501-17-001",
+        "title": "Объявление переменных",
+        "section": "объявление-переменных",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "17",
+        "slug": "javascript/js-501-17-002",
+        "title": "Hoisting",
+        "section": "hoisting",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "17",
+        "slug": "javascript/js-501-17-003",
+        "title": "Функциональная область видимости",
+        "section": "функциональная-область-видимости",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "17",
+        "slug": "javascript/js-501-17-004",
+        "title": "Блочная область видимости",
+        "section": "блочная-область-видимости",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "17",
+        "slug": "javascript/js-501-17-005",
+        "title": "Глобальное пространство имён",
+        "section": "глобальное-пространство-имён",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "17",
+        "slug": "javascript/js-501-17-006",
+        "title": "Создание собственных disposable объектов",
+        "section": "создание-собственных-disposable-объектов",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "17",
+        "slug": "javascript/js-501-17-007",
+        "title": "Создание собственных disposable объектов",
+        "section": "создание-собственных-disposable-объектов",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-001",
+        "title": "Методы объекта",
+        "section": "методы-объекта",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-002",
+        "title": "Методы объекта",
+        "section": "методы-объекта",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-003",
+        "title": "Методы объекта",
+        "section": "методы-объекта",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-004",
+        "title": "Функция",
+        "section": "функция",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-005",
+        "title": "Ложные значения (falsy values)",
+        "section": "ложные-значения-falsy-values",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-006",
+        "title": "Практические примеры преобразований",
+        "section": "практические-примеры-преобразований",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-007",
+        "title": "Практические примеры преобразований",
+        "section": "практические-примеры-преобразований",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-008",
+        "title": "Поверхностное копирование",
+        "section": "поверхностное-копирование",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-009",
+        "title": "Глубокое копирование",
+        "section": "глубокое-копирование",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-010",
+        "title": "Сравнение объектов",
+        "section": "сравнение-объектов",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-011",
+        "title": "Практические примеры работы со ссылками",
+        "section": "практические-примеры-работы-со-ссылками",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "18",
+        "slug": "javascript/js-501-18-012",
+        "title": "Практические примеры работы со ссылками",
+        "section": "практические-примеры-работы-со-ссылками",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-001",
+        "title": "2. Идентификаторы",
+        "section": "2-идентификаторы",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-002",
+        "title": "2. Идентификаторы",
+        "section": "2-идентификаторы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-003",
+        "title": "2. Идентификаторы",
+        "section": "2-идентификаторы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-004",
+        "title": "2. Идентификаторы",
+        "section": "2-идентификаторы",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-005",
+        "title": "3. Ключевое слово `this`",
+        "section": "3-ключевое-слово-this",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-006",
+        "title": "3. Ключевое слово `this`",
+        "section": "3-ключевое-слово-this",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-007",
+        "title": "3. Ключевое слово `this`",
+        "section": "3-ключевое-слово-this",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-008",
+        "title": "3. Ключевое слово `this`",
+        "section": "3-ключевое-слово-this",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-009",
+        "title": "3. Ключевое слово `this`",
+        "section": "3-ключевое-слово-this",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "19",
+        "slug": "javascript/js-501-19-010",
+        "title": "3. Ключевое слово `this`",
+        "section": "3-ключевое-слово-this",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "20": [
+      {
+        "article": "20",
+        "slug": "javascript/js-501-20-001",
+        "title": "Цикл for...in",
+        "section": "цикл-for-in",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "20",
+        "slug": "javascript/js-501-20-002",
+        "title": "Цикл for...of",
+        "section": "цикл-for-of",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-001",
+        "title": "Promise",
+        "section": "promise",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-002",
+        "title": "Promise",
+        "section": "promise",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-003",
+        "title": "Управляемый Promise: `Promise.withResolvers()`",
+        "section": "управляемый-promise-promise-withresolvers",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-004",
+        "title": "Управляемый Promise: `Promise.withResolvers()`",
+        "section": "управляемый-promise-promise-withresolvers",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-005",
+        "title": "Управляемый Promise: `Promise.withResolvers()`",
+        "section": "управляемый-promise-promise-withresolvers",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-006",
+        "title": "AJAX, XHR и модели Comet",
+        "section": "ajax-xhr-и-модели-comet",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-007",
+        "title": "fetch API",
+        "section": "fetch-api",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-008",
+        "title": "FormData — формы и файлы",
+        "section": "formdata-формы-и-файлы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "21",
+        "slug": "javascript/js-501-21-009",
+        "title": "Паттерны использования промисов",
+        "section": "паттерны-использования-промисов",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-001",
+        "title": "Работа с объектами",
+        "section": "работа-с-объектами",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-002",
+        "title": "Работа с объектами",
+        "section": "работа-с-объектами",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-003",
+        "title": "Работа с объектами",
+        "section": "работа-с-объектами",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-004",
+        "title": "Работа с объектами",
+        "section": "работа-с-объектами",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-005",
+        "title": "this",
+        "section": "this",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-006",
+        "title": "this",
+        "section": "this",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-007",
+        "title": "Пример класса в JS",
+        "section": "пример-класса-в-js",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-008",
+        "title": "Простые примеры прототипов",
+        "section": "простые-примеры-прототипов",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-009",
+        "title": "Простые примеры прототипов",
+        "section": "простые-примеры-прототипов",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-010",
+        "title": "Простые примеры прототипов",
+        "section": "простые-примеры-прототипов",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-011",
+        "title": "Простые примеры прототипов",
+        "section": "простые-примеры-прототипов",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-012",
+        "title": "Базовые операции с объектами и классами",
+        "section": "базовые-операции-с-объектами-и-классами",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-013",
+        "title": "Геттеры и сеттеры",
+        "section": "геттеры-и-сеттеры",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-014",
+        "title": "Дескрипторы свойств",
+        "section": "дескрипторы-свойств",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-015",
+        "title": "Object.assign()",
+        "section": "object-assign",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-016",
+        "title": "Object.defineProperty() и Object.defineProperties()",
+        "section": "object-defineproperty-и-object-defineproperties",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-017",
+        "title": "Object.freeze(), seal(), preventExtensions()",
+        "section": "object-freeze-seal-preventextensions",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-018",
+        "title": "Базовый класс",
+        "section": "базовый-класс",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-019",
+        "title": "Конструктор",
+        "section": "конструктор",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-020",
+        "title": "Наследование через extends",
+        "section": "наследование-через-extends",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-021",
+        "title": "Методы super",
+        "section": "методы-super",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-022",
+        "title": "Статические методы и поля",
+        "section": "статические-методы-и-поля",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-023",
+        "title": "Приватные поля и методы",
+        "section": "приватные-поля-и-методы",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-024",
+        "title": "Статические блоки инициализации",
+        "section": "статические-блоки-инициализации",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-025",
+        "title": "Построение иерархии классов",
+        "section": "построение-иерархии-классов",
+        "blocks": 1,
+        "lines": 52
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-026",
+        "title": "Фабрика объектов",
+        "section": "фабрика-объектов",
+        "blocks": 1,
+        "lines": 79
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-027",
+        "title": "encodeURIComponent()",
+        "section": "encodeuricomponent",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-028",
+        "title": "decodeURIComponent()",
+        "section": "decodeuricomponent",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-029",
+        "title": "Boolean",
+        "section": "boolean",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-030",
+        "title": "Boolean",
+        "section": "boolean",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-031",
+        "title": "Symbol",
+        "section": "symbol",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-032",
+        "title": "Symbol",
+        "section": "symbol",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-033",
+        "title": "Error и его подтипы",
+        "section": "error-и-его-подтипы",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-034",
+        "title": "RangeError",
+        "section": "rangeerror",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-035",
+        "title": "ReferenceError",
+        "section": "referenceerror",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-036",
+        "title": "SyntaxError",
+        "section": "syntaxerror",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-037",
+        "title": "TypeError",
+        "section": "typeerror",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-038",
+        "title": "URIError",
+        "section": "urierror",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-039",
+        "title": "AggregateError",
+        "section": "aggregateerror",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-040",
+        "title": "SuppressedError",
+        "section": "suppressederror",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-041",
+        "title": "Валидация данных с использованием глобальных функций",
+        "section": "валидация-данных-с-использованием-глобальных-фун",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-042",
+        "title": "Создание кастомных ошибок",
+        "section": "создание-кастомных-ошибок",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-043",
+        "title": "ArrayBuffer и SharedArrayBuffer",
+        "section": "arraybuffer-и-sharedarraybuffer",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-044",
+        "title": "DataView",
+        "section": "dataview",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-045",
+        "title": "Atomics",
+        "section": "atomics",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-046",
+        "title": "JSON",
+        "section": "json",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-047",
+        "title": "JSON",
+        "section": "json",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-048",
+        "title": "JSON",
+        "section": "json",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-049",
+        "title": "WeakRef",
+        "section": "weakref",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-050",
+        "title": "FinalizationRegistry",
+        "section": "finalizationregistry",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-051",
+        "title": "FinalizationRegistry",
+        "section": "finalizationregistry",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-052",
+        "title": "Iterator и AsyncIterator",
+        "section": "iterator-и-asynciterator",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-053",
+        "title": "Iterator и AsyncIterator",
+        "section": "iterator-и-asynciterator",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-054",
+        "title": "Promise",
+        "section": "promise",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-055",
+        "title": "Promise",
+        "section": "promise",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-056",
+        "title": "Generator и GeneratorFunction",
+        "section": "generator-и-generatorfunction",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-057",
+        "title": "DisposableStack и AsyncDisposableStack",
+        "section": "disposablestack-и-asyncdisposablestack",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-058",
+        "title": "DisposableStack и AsyncDisposableStack",
+        "section": "disposablestack-и-asyncdisposablestack",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-059",
+        "title": "Reflect",
+        "section": "reflect",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-060",
+        "title": "Proxy",
+        "section": "proxy",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-061",
+        "title": "Proxy",
+        "section": "proxy",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-062",
+        "title": "Proxy",
+        "section": "proxy",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-063",
+        "title": "Intl.Collator",
+        "section": "intl-collator",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-064",
+        "title": "Intl.DateTimeFormat",
+        "section": "intl-datetimeformat",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-065",
+        "title": "Intl.NumberFormat",
+        "section": "intl-numberformat",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-066",
+        "title": "Intl.RelativeTimeFormat",
+        "section": "intl-relativetimeformat",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-067",
+        "title": "Intl.ListFormat",
+        "section": "intl-listformat",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-068",
+        "title": "Intl.PluralRules",
+        "section": "intl-pluralrules",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-069",
+        "title": "Intl.DisplayNames",
+        "section": "intl-displaynames",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-070",
+        "title": "Intl.Segmenter",
+        "section": "intl-segmenter",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-071",
+        "title": "Intl.Locale",
+        "section": "intl-locale",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-072",
+        "title": "Создание кэша с автоматической очисткой",
+        "section": "создание-кэша-с-автоматической-очисткой",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "22",
+        "slug": "javascript/js-501-22-073",
+        "title": "Интернационализированный форматтер дат",
+        "section": "интернационализированный-форматтер-дат",
+        "blocks": 1,
+        "lines": 51
+      }
+    ],
+    "23": [
+      {
+        "article": "23",
+        "slug": "javascript/js-501-23-001",
+        "title": "Делегирование событий",
+        "section": "делегирование-событий",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "23",
+        "slug": "javascript/js-501-23-002",
+        "title": "Drag-and-drop (перетаскивание)",
+        "section": "drag-and-drop-перетаскивание",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "23",
+        "slug": "javascript/js-501-23-003",
+        "title": "Пример работы с данными в пользовательском событии",
+        "section": "пример-работы-с-данными-в-пользовательском-событ",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "23",
+        "slug": "javascript/js-501-23-004",
+        "title": "Практический шаблон работы с событиями",
+        "section": "практический-шаблон-работы-с-событиями",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-001",
+        "title": "Структура стека вызовов",
+        "section": "структура-стека-вызовов",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-002",
+        "title": "Методы console для отладки",
+        "section": "методы-console-для-отладки",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-003",
+        "title": "Интерактивное выполнение кода",
+        "section": "интерактивное-выполнение-кода",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-004",
+        "title": "Глобальный обработчик ошибок",
+        "section": "глобальный-обработчик-ошибок",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-005",
+        "title": "Мониторинг производительности",
+        "section": "мониторинг-производительности",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-006",
+        "title": "Цепочка вызовов и распространение ошибок",
+        "section": "цепочка-вызовов-и-распространение-ошибок",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-007",
+        "title": "Ошибки в асинхронном коде",
+        "section": "ошибки-в-асинхронном-коде",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "24",
+        "slug": "javascript/js-501-24-008",
+        "title": "Сбор информации об ошибках",
+        "section": "сбор-информации-об-ошибках",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "javascript/js-501-25-001",
+        "title": "Системы модулей (AMD, CommonJS, ES Modules).",
+        "section": "системы-модулей-amd-commonjs-es-modules",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "25",
+        "slug": "javascript/js-501-25-002",
+        "title": "Общее о фреймворках и транслируемых языках",
+        "section": "общее-о-фреймворках-и-транслируемых-языках",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "32": [
+      {
+        "article": "32",
+        "slug": "javascript/js-501-32-001",
+        "title": "Продолжаем работу с калькулятором",
+        "section": "продолжаем-работу-с-калькулятором",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "32",
+        "slug": "javascript/js-501-32-002",
+        "title": "Проверка типа данных",
+        "section": "проверка-типа-данных",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "32",
+        "slug": "javascript/js-501-32-003",
+        "title": "Создание DOM-элемента",
+        "section": "создание-dom-элемента",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "32",
+        "slug": "javascript/js-501-32-004",
+        "title": "Подключение внешнего API и SDK",
+        "section": "подключение-внешнего-api-и-sdk",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "32",
+        "slug": "javascript/js-501-32-005",
+        "title": "Полезные методы `console` для отладки",
+        "section": "полезные-методы-console-для-отладки",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "33": [
+      {
+        "article": "33",
+        "slug": "javascript/js-501-33-001",
+        "title": "React + Testing Library",
+        "section": "react-testing-library",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "34": [
+      {
+        "article": "34",
+        "slug": "javascript/js-501-34-001",
+        "title": "Класс PromoCarousel — обзор",
+        "section": "класс-promocarousel-обзор",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "34",
+        "slug": "javascript/js-501-34-002",
+        "title": "createIndicators() — не дублировать HTML",
+        "section": "createindicators-не-дублировать-html",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "34",
+        "slug": "javascript/js-501-34-003",
+        "title": "showSlide(index) — связка с CSS",
+        "section": "showslide-index-связка-с-css",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "34",
+        "slug": "javascript/js-501-34-004",
+        "title": "Автопрокрутка — setInterval и сброс",
+        "section": "автопрокрутка-setinterval-и-сброс",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "36": [
+      {
+        "article": "36",
+        "slug": "javascript/js-501-36-001",
+        "title": "Пример — форма с единым блоком ошибок",
+        "section": "пример-форма-с-единым-блоком-ошибок",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "36",
+        "slug": "javascript/js-501-36-002",
+        "title": "Отправка данных — FormData",
+        "section": "отправка-данных-formdata",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "37": [
+      {
+        "article": "37",
+        "slug": "javascript/js-501-37-001",
+        "title": "AbortController и fetch",
+        "section": "abortcontroller-и-fetch",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "37",
+        "slug": "javascript/js-501-37-002",
+        "title": "Один контроллер на компонент",
+        "section": "один-контроллер-на-компонент",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "37",
+        "slug": "javascript/js-501-37-003",
+        "title": "EventSource (Server-Sent Events)",
+        "section": "eventsource-server-sent-events",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "38": [
+      {
+        "article": "38",
+        "slug": "javascript/js-501-38-001",
+        "title": "IntersectionObserver",
+        "section": "intersectionobserver",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "38",
+        "slug": "javascript/js-501-38-002",
+        "title": "Бесконечный список",
+        "section": "бесконечный-список",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "39": [
+      {
+        "article": "39",
+        "slug": "javascript/js-501-39-001",
+        "title": "IndexedDB",
+        "section": "indexeddb",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "41": [
+      {
+        "article": "41",
+        "slug": "javascript/js-501-41-001",
+        "title": "Геолокация — `navigator.geolocation`",
+        "section": "геолокация-navigator-geolocation",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "42": [
+      {
+        "article": "42",
+        "slug": "javascript/js-501-42-001",
+        "title": "Выбор файла через input",
+        "section": "выбор-файла-через-input",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "43": [
+      {
+        "article": "43",
+        "slug": "javascript/js-501-43-001",
+        "title": "Custom Elements",
+        "section": "custom-elements",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "43",
+        "slug": "javascript/js-501-43-002",
+        "title": "Shadow DOM",
+        "section": "shadow-dom",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "44": [
+      {
+        "article": "44",
+        "slug": "javascript/js-501-44-001",
+        "title": "Полный пример `share.js` с пояснениями",
+        "section": "полный-пример-share-js-с-пояснениями",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "44",
+        "slug": "javascript/js-501-44-002",
+        "title": "Полный пример `share.js` с пояснениями",
+        "section": "полный-пример-share-js-с-пояснениями",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "46": [
+      {
+        "article": "46",
+        "slug": "javascript/js-501-46-001",
+        "title": "Пример с кнопкой и `new Notification`",
+        "section": "пример-с-кнопкой-и-new-notification",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "46",
+        "slug": "javascript/js-501-46-002",
+        "title": "Когда нужен Service Worker",
+        "section": "когда-нужен-service-worker",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "47": [
+      {
+        "article": "47",
+        "slug": "javascript/js-501-47-001",
+        "title": "Пути — линии, дуги, фигуры",
+        "section": "пути-линии-дуги-фигуры",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "javascript/js-501-101-001",
+        "title": "Фигурные скобки",
+        "section": "фигурные-скобки",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "javascript/js-501-101-002",
+        "title": "Объявление классов",
+        "section": "объявление-классов",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "102": [
+      {
+        "article": "102",
+        "slug": "html/js-501-102-001",
+        "title": "События",
+        "section": "события",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "102",
+        "slug": "html/js-501-102-002",
+        "title": "События",
+        "section": "события",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "102",
+        "slug": "html/js-501-102-003",
+        "title": "Поиск по имени атрибута (Name)",
+        "section": "поиск-по-имени-атрибута-name",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "102",
+        "slug": "javascript/js-501-102-004",
+        "title": "Создание формы из JavaScript",
+        "section": "создание-формы-из-javascript",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "102",
+        "slug": "javascript/js-501-102-005",
+        "title": "Пример комплексного взаимодействия",
+        "section": "пример-комплексного-взаимодействия",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "103": [
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-001",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 50
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-002",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-003",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 59
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-004",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 78
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-005",
+        "title": "Пример кода (Сервер)",
+        "section": "пример-кода-сервер",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-006",
+        "title": "Пример кода (Клиент)",
+        "section": "пример-кода-клиент",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-007",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-008",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-009",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-010",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-011",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 79
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-012",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-013",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 88
+      },
+      {
+        "article": "103",
+        "slug": "javascript/js-501-103-014",
+        "title": "Универсальный счетчик слов",
+        "section": "универсальный-счетчик-слов",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "104": [
+      {
+        "article": "104",
+        "slug": "typescript/js-501-104-001",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "104",
+        "slug": "typescript/js-501-104-002",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "211": [
+      {
+        "article": "211",
+        "slug": "javascript/js-501-211-001",
+        "title": "«Ассоциативный массив» и объект",
+        "section": "ассоциативный-массив-и-объект",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "211",
+        "slug": "javascript/js-501-211-002",
+        "title": "Итерация и обработка коллекций",
+        "section": "итерация-и-обработка-коллекций",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "211",
+        "slug": "javascript/js-501-211-003",
+        "title": "Многомерные массивы и структура данных",
+        "section": "многомерные-массивы-и-структура-данных",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "211",
+        "slug": "javascript/js-501-211-004",
+        "title": "Практическое применение и примеры",
+        "section": "практическое-применение-и-примеры",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "211",
+        "slug": "javascript/js-501-211-005",
+        "title": "Практическое применение и примеры",
+        "section": "практическое-применение-и-примеры",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "242": [
+      {
+        "article": "242",
+        "slug": "javascript/js-501-242-001",
+        "title": "Синтаксис: try / catch / finally",
+        "section": "синтаксис-try-catch-finally",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "242",
+        "slug": "javascript/js-501-242-002",
+        "title": "Синхронный код vs Promise и async/await",
+        "section": "синхронный-код-vs-promise-и-async-await",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "251": [
+      {
+        "article": "251",
+        "slug": "javascript/js-501-251-001",
+        "title": "Итерабельность и протоколы",
+        "section": "итерабельность-и-протоколы",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "251",
+        "slug": "javascript/js-501-251-002",
+        "title": "Генераторы (`function*`)",
+        "section": "генераторы-function",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "251",
+        "slug": "javascript/js-501-251-003",
+        "title": "Асинхронность — `Promise`, `async`/`await`, очередь задач",
+        "section": "асинхронность-promise-async-await-очередь-задач",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "251",
+        "slug": "javascript/js-501-251-004",
+        "title": "Web APIs (вне DOM, но в браузере)",
+        "section": "web-apis-вне-dom-но-в-браузере",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "251",
+        "slug": "javascript/js-501-251-005",
+        "title": "Системные типы и API (низкоуровневые)",
+        "section": "системные-типы-и-api-низкоуровневые",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "301": [
+      {
+        "article": "301",
+        "slug": "typescript/js-501-301-001",
+        "title": "Комбо-паттерн: безопасное обновление полей модели",
+        "section": "комбо-паттерн-безопасное-обновление-полей-модели",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "301",
+        "slug": "typescript/js-501-301-002",
+        "title": "Сопоставленные типы и обобщённая индексация",
+        "section": "сопоставленные-типы-и-обобщённая-индексация",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "301",
+        "slug": "typescript/js-501-301-003",
+        "title": "Тотальность (exhaustive check)",
+        "section": "тотальность-exhaustive-check",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "301",
+        "slug": "typescript/js-501-301-004",
+        "title": "Option и Result",
+        "section": "option-и-result",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "301",
+        "slug": "typescript/js-501-301-005",
+        "title": "24. Мини-шпаргалка по теме \"полное API\"",
+        "section": "24-мини-шпаргалка-по-теме-полное-api",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "3-ecosystem-1-runtime-node-261": [
+      {
+        "article": "3-ecosystem-1-runtime-node-261",
+        "slug": "json/js-501-3-ecosystem-1-runtime-node-261-001",
+        "title": "Пример `package.json`",
+        "section": "пример-package-json",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "3-ecosystem-1-runtime-node-261",
+        "slug": "javascript/js-501-3-ecosystem-1-runtime-node-261-002",
+        "title": "Сервер на чистом Node.js",
+        "section": "сервер-на-чистом-node-js",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "3-ecosystem-1-runtime-node-262": [
+      {
+        "article": "3-ecosystem-1-runtime-node-262",
+        "slug": "javascript/js-501-3-ecosystem-1-runtime-node-262-001",
+        "title": "Шаг 6 — HTTP-сервер на встроенном `http`",
+        "section": "шаг-6-http-сервер-на-встроенном-http",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "3-ecosystem-1-runtime-node-262",
+        "slug": "javascript/js-501-3-ecosystem-1-runtime-node-262-002",
+        "title": "Минимальный сервер Express",
+        "section": "минимальный-сервер-express",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "3-ecosystem-1-runtime-node-262",
+        "slug": "javascript/js-501-3-ecosystem-1-runtime-node-262-003",
+        "title": "Router — вынести маршруты",
+        "section": "router-вынести-маршруты",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "3-ecosystem-1-runtime-node-263": [
+      {
+        "article": "3-ecosystem-1-runtime-node-263",
+        "slug": "javascript/js-501-3-ecosystem-1-runtime-node-263-001",
+        "title": "Валидация тела запроса",
+        "section": "валидация-тела-запроса",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "3-ecosystem-1-runtime-node-266": [
+      {
+        "article": "3-ecosystem-1-runtime-node-266",
+        "slug": "json/js-501-3-ecosystem-1-runtime-node-266-001",
+        "title": "package.json как контракт проекта",
+        "section": "package-json-как-контракт-проекта",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "3-ecosystem-1-runtime-node-267": [
+      {
+        "article": "3-ecosystem-1-runtime-node-267",
+        "slug": "dockerfile/js-501-3-ecosystem-1-runtime-node-267-001",
+        "title": "Docker (production-ориентир)",
+        "section": "docker-production-ориентир",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "3-ecosystem-1-runtime-node-268": [
+      {
+        "article": "3-ecosystem-1-runtime-node-268",
+        "slug": "javascript/js-501-3-ecosystem-1-runtime-node-268-001",
+        "title": "Минимальный HTTP-сервер",
+        "section": "минимальный-http-сервер",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3-ecosystem-1-runtime-node-268",
+        "slug": "javascript/js-501-3-ecosystem-1-runtime-node-268-002",
+        "title": "req и res как потоки",
+        "section": "req-и-res-как-потоки",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-1-react-271": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-271",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-271-001",
+        "title": "`ErrorBoundary`",
+        "section": "errorboundary",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-271",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-271-002",
+        "title": "`useTransition`",
+        "section": "usetransition",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-271",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-271-003",
+        "title": "`useLocalStorage`",
+        "section": "uselocalstorage",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-1-react-272": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-272",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-272-001",
+        "title": "Компонент и `useState`",
+        "section": "компонент-и-usestate",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-272",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-272-002",
+        "title": "Загрузка данных — `fetch` и Node API",
+        "section": "загрузка-данных-fetch-и-node-api",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-272",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-272-003",
+        "title": "React Router v6 — минимум",
+        "section": "react-router-v6-минимум",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-272",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-272-004",
+        "title": "Композиция главной страницы из секций",
+        "section": "композиция-главной-страницы-из-секций",
+        "blocks": 1,
+        "lines": 31
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-1-react-277": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-277",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-277-001",
+        "title": "React Router (v6)",
+        "section": "react-router-v6",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-277",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-277-002",
+        "title": "Данные с сервера",
+        "section": "данные-с-сервера",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-1-react-45": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-45",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-45-001",
+        "title": "Базовый паттерн — `useState` и `isLoading`",
+        "section": "базовый-паттерн-usestate-и-isloading",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-45",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-45-002",
+        "title": "Обёртка `LoadingButton`",
+        "section": "обёртка-loadingbutton",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-45",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-45-003",
+        "title": "Сокращение через `useAsyncCallback` (библиотека)",
+        "section": "сокращение-через-useasynccallback-библиотека",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-1-react-45",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-1-react-45-004",
+        "title": "Поток значений — `async function*` и `yield`",
+        "section": "поток-значений-async-function-и-yield",
+        "blocks": 1,
+        "lines": 67
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-2-vue-28": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-28",
+        "slug": "vue/js-501-3-ecosystem-2-frontend-frameworks-2-vue-28-001",
+        "title": "Однофайловые компоненты",
+        "section": "однофайловые-компоненты",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-28",
+        "slug": "html/js-501-3-ecosystem-2-frontend-frameworks-2-vue-28-002",
+        "title": "От минимального приложения к полноценному SPA",
+        "section": "от-минимального-приложения-к-полноценному-spa",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-28",
+        "slug": "typescript/js-501-3-ecosystem-2-frontend-frameworks-2-vue-28-003",
+        "title": "Тестирование в промышленных масштабах — стратегия и инструменты",
+        "section": "тестирование-в-промышленных-масштабах-стратегия-",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-2-vue-281": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-281",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-2-vue-281-001",
+        "title": "Базовая настройка",
+        "section": "базовая-настройка",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-281",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-2-vue-281-002",
+        "title": "Pinia (официальная библиотека для Vue 3)",
+        "section": "pinia-официальная-библиотека-для-vue-3",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-281",
+        "slug": "vue/js-501-3-ecosystem-2-frontend-frameworks-2-vue-281-003",
+        "title": "Форма с валидацией",
+        "section": "форма-с-валидацией",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-281",
+        "slug": "vue/js-501-3-ecosystem-2-frontend-frameworks-2-vue-281-004",
+        "title": "Список с фильтрацией",
+        "section": "список-с-фильтрацией",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-2-vue-282": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-282",
+        "slug": "vue/js-501-3-ecosystem-2-frontend-frameworks-2-vue-282-001",
+        "title": "Composition API и `<script setup>`",
+        "section": "composition-api-и",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-282",
+        "slug": "vue/js-501-3-ecosystem-2-frontend-frameworks-2-vue-282-002",
+        "title": "`onMounted` и заметки с API",
+        "section": "onmounted-и-заметки-с-api",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-282",
+        "slug": "vue/js-501-3-ecosystem-2-frontend-frameworks-2-vue-282-003",
+        "title": "Дочерний компонент",
+        "section": "дочерний-компонент",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-282",
+        "slug": "vue/js-501-3-ecosystem-2-frontend-frameworks-2-vue-282-004",
+        "title": "Options API — устаревший стиль",
+        "section": "options-api-устаревший-стиль",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-2-vue-284": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-2-vue-284",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-2-vue-284-001",
+        "title": "Pinia — state",
+        "section": "pinia-state",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-3-angular-291": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-3-angular-291",
+        "slug": "typescript/js-501-3-ecosystem-2-frontend-frameworks-3-angular-291-001",
+        "title": "26.2. Шаблон сервиса с HttpClient",
+        "section": "26-2-шаблон-сервиса-с-httpclient",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-3-angular-291",
+        "slug": "typescript/js-501-3-ecosystem-2-frontend-frameworks-3-angular-291-002",
+        "title": "26.3. Шаблон guard",
+        "section": "26-3-шаблон-guard",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-3-angular-291",
+        "slug": "json/js-501-3-ecosystem-2-frontend-frameworks-3-angular-291-003",
+        "title": "2.2. Архитектор (`architect`)",
+        "section": "2-2-архитектор-architect",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-3-angular-292": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-3-angular-292",
+        "slug": "typescript/js-501-3-ecosystem-2-frontend-frameworks-3-angular-292-001",
+        "title": "Компонент с логикой",
+        "section": "компонент-с-логикой",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-3-angular-292",
+        "slug": "html/js-501-3-ecosystem-2-frontend-frameworks-3-angular-292-002",
+        "title": "Компонент с логикой",
+        "section": "компонент-с-логикой",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-3-angular-292",
+        "slug": "typescript/js-501-3-ecosystem-2-frontend-frameworks-3-angular-292-003",
+        "title": "Подключение модулей",
+        "section": "подключение-модулей",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-3-angular-292",
+        "slug": "css/js-501-3-ecosystem-2-frontend-frameworks-3-angular-292-004",
+        "title": "Стилизация интерфейса",
+        "section": "стилизация-интерфейса",
+        "blocks": 1,
+        "lines": 45
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-4-ext-js-31": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-4-ext-js-31",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-4-ext-js-31-001",
+        "title": "РџСЂРёРјРµСЂ вЂ” РґРµРєР»Р°СЂР°С‚РёРІРЅРѕРµ РѕРїРёСЃР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚Р° Рё СЂР°Р±РѕС‚Р° СЃ РґР°РЅРЅС‹РјРё",
+        "section": "р-с-рёр-р-с-в-р-р-р-рр-с-р-с-рёр-р-р-р-р-р-рёс-р",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-4-ext-js-31",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-4-ext-js-31-002",
+        "title": "РџСЂРёРјРµСЂ вЂ” РґРµРєР»Р°СЂР°С‚РёРІРЅРѕРµ РѕРїРёСЃР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚Р° Рё СЂР°Р±РѕС‚Р° СЃ РґР°РЅРЅС‹РјРё",
+        "section": "р-с-рёр-р-с-в-р-р-р-рр-с-р-с-рёр-р-р-р-р-р-рёс-р",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-4-ext-js-31",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-4-ext-js-31-003",
+        "title": "РџСЂРёРјРµСЂ вЂ” РґРµРєР»Р°СЂР°С‚РёРІРЅРѕРµ РѕРїРёСЃР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚Р° Рё СЂР°Р±РѕС‚Р° СЃ РґР°РЅРЅС‹РјРё",
+        "section": "р-с-рёр-р-с-в-р-р-р-рр-с-р-с-рёр-р-р-р-р-р-рёс-р",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-4-ext-js-31",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-4-ext-js-31-004",
+        "title": "РџСЂРёРјРµСЂ вЂ” РґРµРєР»Р°СЂР°С‚РёРІРЅРѕРµ РѕРїРёСЃР°РЅРёРµ РєРѕРјРїРѕРЅРµРЅС‚Р° Рё СЂР°Р±РѕС‚Р° СЃ РґР°РЅРЅС‹РјРё",
+        "section": "р-с-рёр-р-с-в-р-р-р-рр-с-р-с-рёр-р-р-р-р-р-рёс-р",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-4-ext-js-31",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-4-ext-js-31-005",
+        "title": "РњРёРєСЃРёРЅС‹",
+        "section": "р-рёр-с-рёр-с",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "3-ecosystem-2-frontend-frameworks-4-ext-js-311": [
+      {
+        "article": "3-ecosystem-2-frontend-frameworks-4-ext-js-311",
+        "slug": "javascript/js-501-3-ecosystem-2-frontend-frameworks-4-ext-js-311-001",
+        "title": "Базовый шаблон",
+        "section": "базовый-шаблон",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "3-ecosystem-3-meta-frameworks-273": [
+      {
+        "article": "3-ecosystem-3-meta-frameworks-273",
+        "slug": "typescript/js-501-3-ecosystem-3-meta-frameworks-273-001",
+        "title": "Мини-демо композиции домашней страницы",
+        "section": "мини-демо-композиции-домашней-страницы",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "3-ecosystem-3-meta-frameworks-2731": [
+      {
+        "article": "3-ecosystem-3-meta-frameworks-2731",
+        "slug": "typescript/js-501-3-ecosystem-3-meta-frameworks-2731-001",
+        "title": "Layout и навигация",
+        "section": "layout-и-навигация",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "3-ecosystem-3-meta-frameworks-2731",
+        "slug": "typescript/js-501-3-ecosystem-3-meta-frameworks-2731-002",
+        "title": "Пример композиции страницы в стиле Next.js",
+        "section": "пример-композиции-страницы-в-стиле-next-js",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "3-ecosystem-3-meta-frameworks-2731",
+        "slug": "typescript/js-501-3-ecosystem-3-meta-frameworks-2731-003",
+        "title": "Client Component — интерактивность",
+        "section": "client-component-интерактивность",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "3-ecosystem-3-meta-frameworks-2731",
+        "slug": "typescript/js-501-3-ecosystem-3-meta-frameworks-2731-004",
+        "title": "Заметки — fetch на клиенте",
+        "section": "заметки-fetch-на-клиенте",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "3-ecosystem-3-meta-frameworks-2731",
+        "slug": "typescript/js-501-3-ecosystem-3-meta-frameworks-2731-005",
+        "title": "Загрузка данных на сервере (Server Component)",
+        "section": "загрузка-данных-на-сервере-server-component",
+        "blocks": 1,
+        "lines": 21
+      }
+    ]
+  }
+}

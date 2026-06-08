@@ -1,0 +1,40 @@
+# --- База данных ---
+DB_HOST=prod-postgres.company.internal
+DB_PORT=5432
+DB_NAME=production_db
+DB_USER=app_user
+DB_PASSWORD=SuperSecret123!
+
+# --- Облачный провайдер ---
+AWS_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE
+AWS_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY
+AWS_REGION=us-east-1
+
+# --- Платёжные системы ---
+STRIPE_API_KEY=sk_live_4eC39HqLyjWDarjtT1zdp7dc
+PAYPAL_CLIENT_ID=AaBbCcDdEeFfGgHh
+PAYPAL_SECRET_KEY=XxYyZz123456
+
+# --- Аутентификация ---
+JWT_SECRET=your-256-bit-secret-dont-share-with-anyone-ever
+SESSION_SECRET=7d4a8f3b2c1e9f5d8a6b7c4e3f2a1d
+COOKIE_SECRET=random-hexadecimal-string-for-signing
+
+# --- Коммуникации ---
+SENDGRID_API_KEY=SG.xxx.yyy
+TWILIO_AUTH_TOKEN=abcdef1234567890
+SMTP_HOST=smtp.company.com
+SMTP_PORT=587
+SMTP_USERNAME=noreply@company.com
+SMTP_PASSWORD=EmailPassword123!
+
+# --- Внутренние сервисы ---
+REDIS_PASSWORD=redis_secure_password
+RABBITMQ_PASSWORD=rabbit_secret
+ELASTICSEARCH_PASSWORD=elastic_password
+KAFKA_BROKER=kafka.internal:9092
+
+# --- Аналитика и мониторинг ---
+SENTRY_DSN=https://xxx@sentry.io/123456
+PROMETHEUS_TOKEN=prometheus_auth_token_here
+GRAFANA_ADMIN_PASSWORD=AdminGraphana999!

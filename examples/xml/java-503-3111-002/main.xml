@@ -1,0 +1,17 @@
+<plugin>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-dependency-plugin</artifactId>
+    <version>3.7.1</version>
+    <executions>
+        <execution>
+            <id>copy-javafx</id>
+            <phase>process-resources</phase>
+            <goals><goal>copy-dependencies</goal></goals>
+            <configuration>
+                <outputDirectory>${project.build.directory}/javafx-lib</outputDirectory>
+                <includeGroupIds>org.openjfx</includeGroupIds>
+                <includeClassifiers>win</includeClassifiers>
+            </configuration>
+        </execution>
+    </executions>
+</plugin>

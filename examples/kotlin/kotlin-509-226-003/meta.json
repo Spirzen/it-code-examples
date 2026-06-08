@@ -1,0 +1,14 @@
+{
+  "title": "Flow в Kotlin — Дополнительный пример — retry с ограничением попыток",
+  "description": "Фрагмент из «Flow в Kotlin»: Дополнительный пример — retry с ограничением попыток.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "226"
+  ],
+  "order": 3,
+  "series": "kotlin-509-226",
+  "seriesOrder": 3,
+  "seriesTitle": "Flow в Kotlin",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/226"
+}

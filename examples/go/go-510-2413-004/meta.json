@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Echo — Централизованный обработчик ошибок",
+  "description": "Фрагмент из «Первая программа на Echo»: Централизованный обработчик ошибок.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2413"
+  ],
+  "order": 4,
+  "series": "go-510-2413",
+  "seriesOrder": 4,
+  "seriesTitle": "Первая программа на Echo",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2413"
+}

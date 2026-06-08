@@ -1,0 +1,14 @@
+{
+  "title": "Первые шаги с Cassandra — Сквозной практикум (15 минут)",
+  "description": "Фрагмент из «Первые шаги с Cassandra»: Сквозной практикум (15 минут).",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "611"
+  ],
+  "order": 1,
+  "series": "nosql-611",
+  "seriesOrder": 1,
+  "seriesTitle": "Первые шаги с Cassandra",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/611"
+}

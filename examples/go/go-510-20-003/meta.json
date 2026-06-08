@@ -1,0 +1,14 @@
+{
+  "title": "Работа с базами данных из Go — Unit-тесты с моками — sqlmock",
+  "description": "Фрагмент из «Работа с базами данных из Go»: Unit-тесты с моками — sqlmock.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "20"
+  ],
+  "order": 3,
+  "series": "go-510-20",
+  "seriesOrder": 3,
+  "seriesTitle": "Работа с базами данных из Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/20"
+}

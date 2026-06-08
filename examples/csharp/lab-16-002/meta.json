@@ -1,0 +1,13 @@
+{
+  "title": "JSON CSV конвертер на CSharp — Шаг 3: Конвертер CSV → JSON",
+  "description": "Фрагмент из «JSON CSV конвертер на CSharp»: Шаг 3: Конвертер CSV → JSON.",
+  "tags": [
+    "lab",
+    "16"
+  ],
+  "order": 2,
+  "series": "lab-16",
+  "seriesOrder": 2,
+  "seriesTitle": "JSON CSV конвертер на CSharp",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/16"
+}

@@ -1,0 +1,33 @@
+## My Service
+
+### Архитектура
+
+Микросервис на FastAPI, слоистая архитектура:
+- api/ — HTTP-роутеры и DTO
+- services/ — бизнес-логика
+- repositories/ — доступ к данным
+- domain/ — сущности и исключения
+
+#### Команды
+
+- `make test` — запуск pytest
+- `make lint` — ruff + mypy
+- `make format` — black + isort
+- `make migrate` — alembic upgrade head
+- `make run` — uvicorn с hot-reload
+
+#### Соглашения
+
+- Все endpoint-ы возвращают Pydantic-модели
+- Исключения бизнес-логики наследуются от DomainError
+- Репозитории работают только через SQLAlchemy-сессии
+- Тесты используют pytest-asyncio и фабрики factory_boy
+- Миграции БД создаются через alembic revision --autogenerate
+- Все публичные функции покрыты docstrings
+
+#### Запрещено
+
+- Прямые SQL-запросы вне repositories/
+- Импорт из api/ в domain/
+- Синхронный I/O в асинхронных endpoint-ах
+- Использование global-состояния

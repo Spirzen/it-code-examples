@@ -1,0 +1,14 @@
+{
+  "title": "Отмена запросов и поток событий с сервера — AbortController и fetch",
+  "description": "Фрагмент из «Отмена запросов и поток событий с сервера»: AbortController и fetch.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "37"
+  ],
+  "order": 1,
+  "series": "js-501-37",
+  "seriesOrder": 1,
+  "seriesTitle": "Отмена запросов и поток событий с сервера",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/37"
+}

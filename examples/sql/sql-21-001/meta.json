@@ -1,0 +1,14 @@
+{
+  "title": "Чтение и анализ сложных SQL-запросов — Подзапросы в FROM",
+  "description": "Фрагмент из «Чтение и анализ сложных SQL-запросов»: Подзапросы в FROM.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 1,
+  "series": "sql-21",
+  "seriesOrder": 1,
+  "seriesTitle": "Чтение и анализ сложных SQL-запросов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/21"
+}

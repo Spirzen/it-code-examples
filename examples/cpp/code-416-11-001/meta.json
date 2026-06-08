@@ -1,0 +1,15 @@
+{
+  "title": "Практика — OpenMP, MPI и профилирование — Справочно на C++ (OpenMP)",
+  "description": "Фрагмент из «Практика — OpenMP, MPI и профилирование»: Справочно на C++ (OpenMP).",
+  "tags": [
+    "parallel-computing",
+    "hpc",
+    "encyclopedia",
+    "11"
+  ],
+  "order": 1,
+  "series": "code-416-11",
+  "seriesOrder": 1,
+  "seriesTitle": "Практика — OpenMP, MPI и профилирование",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-16-parallelnye-vychisleniya/11"
+}

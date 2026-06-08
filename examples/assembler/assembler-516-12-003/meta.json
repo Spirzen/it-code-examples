@@ -1,0 +1,14 @@
+{
+  "title": "Взаимодействие с C и C++ — C вызывается из ассемблера",
+  "description": "Фрагмент из «Взаимодействие с C и C++»: C вызывается из ассемблера.",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "12"
+  ],
+  "order": 3,
+  "series": "assembler-516-12",
+  "seriesOrder": 3,
+  "seriesTitle": "Взаимодействие с C и C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/12"
+}

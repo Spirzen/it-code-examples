@@ -1,0 +1,44 @@
+<script>
+document.getElementById('feedbackFormJS').addEventListener('submit', function(e) {
+  e.preventDefault();
+  let valid = true;
+
+  // Очистка ошибок
+  document.querySelectorAll('.error').forEach(el => el.textContent = '');
+
+  // Проверка имени
+  const name = document.getElementById('jsName');
+  if (!name.value.trim() || name.value.length < 2) {
+    document.getElementById('nameError').textContent = 'Имя должно содержать минимум 2 символа.';
+    valid = false;
+  }
+
+  // Проверка email
+  const email = document.getElementById('jsEmail');
+  const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+  if (!emailRegex.test(email.value)) {
+    document.getElementById('emailError').textContent = 'Введите корректный email.';
+    valid = false;
+  }
+
+  // Проверка темы
+  const subject = document.getElementById('jsSubject');
+  if (!subject.value) {
+    document.getElementById('subjectError').textContent = 'Выберите тему обращения.';
+    valid = false;
+  }
+
+  // Проверка сообщения
+  const message = document.getElementById('jsMessage');
+  if (!message.value.trim() || message.value.length < 10) {
+    document.getElementById('messageError').textContent = 'Сообщение должно содержать минимум 10 символов.';
+    valid = false;
+  }
+
+  if (valid) {
+    alert('Форма отправлена! (В реальном проекте — AJAX-запрос)');
+    // Здесь можно отправить форму через fetch()
+    // fetch('send_feedback.php', { method: 'POST', body: new FormData(this) })
+  }
+});
+</script>

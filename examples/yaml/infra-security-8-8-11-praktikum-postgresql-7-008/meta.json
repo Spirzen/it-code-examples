@@ -1,0 +1,14 @@
+{
+  "title": "Практикум PostgreSQL — Сеть и несколько контейнеров",
+  "description": "Фрагмент из «Практикум PostgreSQL»: Сеть и несколько контейнеров.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-11-praktikum-postgresql-7"
+  ],
+  "order": 8,
+  "series": "infra-security-8-11-postgresql-praktikum",
+  "seriesOrder": 8,
+  "seriesTitle": "Практикум PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-11-praktikum-postgresql/intro"
+}

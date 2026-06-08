@@ -1,0 +1,13 @@
+{
+  "title": "Pandas — типовые операции — 4. Временной ряд — продажи по месяцам",
+  "description": "Фрагмент из «Pandas — типовые операции»: 4. Временной ряд — продажи по месяцам.",
+  "tags": [
+    "lab",
+    "1113"
+  ],
+  "order": 9,
+  "series": "lab-1113",
+  "seriesOrder": 9,
+  "seriesTitle": "Pandas — типовые операции",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1113"
+}

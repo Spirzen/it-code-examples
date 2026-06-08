@@ -1,0 +1,14 @@
+{
+  "title": "RabbitMQ — JavaScript (Node.js) - библиотека amqplib.",
+  "description": "Фрагмент из «RabbitMQ»: JavaScript (Node.js) - библиотека amqplib..",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-118"
+  ],
+  "order": 5,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-118",
+  "seriesOrder": 5,
+  "seriesTitle": "RabbitMQ",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/118"
+}

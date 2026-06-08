@@ -1,0 +1,15 @@
+.avatar {
+  --base-size: 40px;
+  --multiplier: 1.5;
+  
+  width: calc(var(--base-size) * var(--multiplier));
+  height: calc(var(--base-size) * var(--multiplier));
+}
+
+.prose {
+  --line-height: 1.6;
+  --font-size-base: 16px;
+  
+  font-size: var(--font-size-base);
+  line-height: var(--line-height);
+}

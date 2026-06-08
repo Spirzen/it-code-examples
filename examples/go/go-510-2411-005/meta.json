@@ -1,0 +1,14 @@
+{
+  "title": "Простые приложения на Go — Серверная часть",
+  "description": "Фрагмент из «Простые приложения на Go»: Серверная часть.",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2411"
+  ],
+  "order": 5,
+  "series": "go-510-2411",
+  "seriesOrder": 5,
+  "seriesTitle": "Простые приложения на Go",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2411"
+}

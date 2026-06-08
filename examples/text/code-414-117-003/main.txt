@@ -1,0 +1,25 @@
+# billing-sync
+
+Сервис синхронизации счетов между 1С и биллингом. **Внутренний** репозиторий Acme Corp.
+
+## Владелец
+
+Команда Billing, канал `#billing-dev` в Slack.
+
+## Окружения
+
+| Окружение | URL | Deploy |
+|-----------|-----|--------|
+| dev | https://billing-sync.dev.internal | auto из `main` |
+| prod | https://billing-sync.prod.internal | ручной, см. runbook |
+
+## Локальный запуск
+
+1. Запросите доступ к Vault (роль `billing-dev`).
+2. `cp .env.example .env` — значения в [Confluence: Billing Sync](https://wiki.internal/...).
+3. `docker compose up`
+4. `dotnet run --project src/BillingSync`
+
+## On-call
+
+Runbook: [docs/runbook.md](./docs/runbook.md). Алерты в PagerDuty: сервис `billing-sync`.

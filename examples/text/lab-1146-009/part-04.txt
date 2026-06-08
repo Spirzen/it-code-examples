@@ -1,0 +1,32 @@
+import { useId, useState, type ReactElement } from 'react';
+
+export type TooltipProps = {
+  label: string;
+  children: ReactElement;
+};
+
+export function Tooltip({ label, children }: TooltipProps) {
+  const [open, setOpen] = useState(false);
+  const tipId = useId();
+
+  const trigger = (
+    <span aria-describedby={open ? tipId : undefined}>{children}</span>
+  );
+
+  return (
+    <span
+      className="tooltip-wrap"
+      onMouseEnter={() => setOpen(true)}
+      onMouseLeave={() => setOpen(false)}
+      onFocus={() => setOpen(true)}
+      onBlur={() => setOpen(false)}
+    >
+      {trigger}
+      {open ? (
+        <span id={tipId} role="tooltip" className="tooltip-bubble">
+          {label}
+        </span>
+      ) : null}
+    </span>
+  );
+}

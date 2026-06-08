@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Lua — Структура тестов",
+  "description": "Фрагмент из «Рекомендации по разработке на Lua»: Структура тестов.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 12,
+  "series": "lua-515-101",
+  "seriesOrder": 12,
+  "seriesTitle": "Рекомендации по разработке на Lua",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/101"
+}

@@ -1,0 +1,1165 @@
+{
+  "generatedAt": "2026-06-08T18:52:43.339Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/6-ai",
+  "articles": {
+    "6-02-mashinnoe-obuchenie-1": [
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-001",
+        "title": "Мини-пример — классификация от \"А\" до \"Г\"",
+        "section": "мини-пример-классификация-от-а-до-г",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-002",
+        "title": "Линейная регрессия",
+        "section": "линейная-регрессия",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-003",
+        "title": "Логистическая регрессия",
+        "section": "логистическая-регрессия",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-004",
+        "title": "Дерево решений",
+        "section": "дерево-решений",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-005",
+        "title": "Случайный лес",
+        "section": "случайный-лес",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-006",
+        "title": "SVM (Support Vector Machine)",
+        "section": "svm-support-vector-machine",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-007",
+        "title": "Многослойный перцептрон",
+        "section": "многослойный-перцептрон",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "csharp/ai-6-6-02-mashinnoe-obuchenie-1-008",
+        "title": "Многослойный перцептрон",
+        "section": "многослойный-перцептрон",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "java/ai-6-6-02-mashinnoe-obuchenie-1-009",
+        "title": "Многослойный перцептрон",
+        "section": "многослойный-перцептрон",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-010",
+        "title": "Пример сверточной сети",
+        "section": "пример-сверточной-сети",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-011",
+        "title": "LSTM и GRU",
+        "section": "lstm-и-gru",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-012",
+        "title": "Предобработка данных",
+        "section": "предобработка-данных",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-013",
+        "title": "Для задач классификации",
+        "section": "для-задач-классификации",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-014",
+        "title": "Для задач регрессии",
+        "section": "для-задач-регрессии",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-015",
+        "title": "Кросс-валидация",
+        "section": "кросс-валидация",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-016",
+        "title": "Scikit-learn",
+        "section": "scikit-learn",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-017",
+        "title": "TensorFlow и Keras",
+        "section": "tensorflow-и-keras",
+        "blocks": 1,
+        "lines": 41
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-018",
+        "title": "Pandas",
+        "section": "pandas",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-019",
+        "title": "NumPy",
+        "section": "numpy",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-020",
+        "title": "Matplotlib",
+        "section": "matplotlib",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-021",
+        "title": "Seaborn",
+        "section": "seaborn",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-022",
+        "title": "Пример 1 — Классификация изображений с помощью CNN",
+        "section": "пример-1-классификация-изображений-с-помощью-cnn",
+        "blocks": 1,
+        "lines": 81
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-023",
+        "title": "Пример 2 — Анализ тональности текста с помощью LSTM",
+        "section": "пример-2-анализ-тональности-текста-с-помощью-lst",
+        "blocks": 1,
+        "lines": 81
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-024",
+        "title": "Пример 3 — Прогнозирование временных рядов",
+        "section": "пример-3-прогнозирование-временных-рядов",
+        "blocks": 1,
+        "lines": 94
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-1",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-1-025",
+        "title": "Пример 4 — Кластеризация без учителя",
+        "section": "пример-4-кластеризация-без-учителя",
+        "blocks": 1,
+        "lines": 100
+      }
+    ],
+    "6-02-mashinnoe-obuchenie-10": [
+      {
+        "article": "6-02-mashinnoe-obuchenie-10",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-10-001",
+        "title": "Регрессия — прогноз числа",
+        "section": "регрессия-прогноз-числа",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-10",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-10-002",
+        "title": "Подбор гиперпараметров",
+        "section": "подбор-гиперпараметров",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "6-02-mashinnoe-obuchenie-2": [
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-001",
+        "title": "Практические аспекты разделения",
+        "section": "практические-аспекты-разделения",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-002",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-003",
+        "title": "Пример реализации на нескольких языках",
+        "section": "пример-реализации-на-нескольких-языках",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "java/ai-6-6-02-mashinnoe-obuchenie-2-004",
+        "title": "Пример реализации на нескольких языках",
+        "section": "пример-реализации-на-нескольких-языках",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-005",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-006",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-007",
+        "title": "Пример реализации на нескольких языках",
+        "section": "пример-реализации-на-нескольких-языках",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "java/ai-6-6-02-mashinnoe-obuchenie-2-008",
+        "title": "Пример реализации на нескольких языках",
+        "section": "пример-реализации-на-нескольких-языках",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-009",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-010",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-011",
+        "title": "Особенности работы с категориальными признаками",
+        "section": "особенности-работы-с-категориальными-признаками",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-012",
+        "title": "Пример реализации на Python с TensorFlow",
+        "section": "пример-реализации-на-python-с-tensorflow",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-013",
+        "title": "Пример реализации на Python с TensorFlow",
+        "section": "пример-реализации-на-python-с-tensorflow",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "csharp/ai-6-6-02-mashinnoe-obuchenie-2-014",
+        "title": "Реализация на C# с ML.NET",
+        "section": "реализация-на-c-с-ml-net",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-015",
+        "title": "Пример реализации K-средних на Python",
+        "section": "пример-реализации-k-средних-на-python",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-016",
+        "title": "Пример реализации K-средних на Python",
+        "section": "пример-реализации-k-средних-на-python",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-017",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-018",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-019",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-020",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-021",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-022",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-023",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 82
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-024",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 56
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-025",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-026",
+        "title": "Пример реализации стекинга на Python",
+        "section": "пример-реализации-стекинга-на-python",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-027",
+        "title": "Пример реализации стекинга на Python",
+        "section": "пример-реализации-стекинга-на-python",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-028",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-029",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-030",
+        "title": "Пример вычисления метрик на Python",
+        "section": "пример-вычисления-метрик-на-python",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-031",
+        "title": "Пример вычисления метрик на Python",
+        "section": "пример-вычисления-метрик-на-python",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-032",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-033",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-034",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 105
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-035",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-036",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-037",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-038",
+        "title": "Пример реализации матричной факторизации",
+        "section": "пример-реализации-матричной-факторизации",
+        "blocks": 1,
+        "lines": 48
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-039",
+        "title": "Пример реализации матричной факторизации",
+        "section": "пример-реализации-матричной-факторизации",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-040",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-041",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 89
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-042",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 86
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-043",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 86
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-044",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 110
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-045",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 49
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-046",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 105
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-047",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 74
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-048",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-049",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 155
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-050",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 105
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-051",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 82
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-052",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 64
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-053",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 100
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "csharp/ai-6-6-02-mashinnoe-obuchenie-2-054",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 112
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-055",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 111
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-056",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 66
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-057",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 123
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-058",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 143
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-059",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 178
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-060",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 73
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-061",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 101
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-062",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 240
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-2",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-2-063",
+        "title": "Пример реализации на Python",
+        "section": "пример-реализации-на-python",
+        "blocks": 1,
+        "lines": 212
+      }
+    ],
+    "6-02-mashinnoe-obuchenie-21": [
+      {
+        "article": "6-02-mashinnoe-obuchenie-21",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-21-001",
+        "title": "Освоение ключевых библиотек для работы с данными",
+        "section": "освоение-ключевых-библиотек-для-работы-с-данными",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-21",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-21-002",
+        "title": "Регрессия",
+        "section": "регрессия",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "6-02-mashinnoe-obuchenie-4": [
+      {
+        "article": "6-02-mashinnoe-obuchenie-4",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-4-001",
+        "title": "Пример — несколько кодировщиков",
+        "section": "пример-несколько-кодировщиков",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "6-02-mashinnoe-obuchenie-7": [
+      {
+        "article": "6-02-mashinnoe-obuchenie-7",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-7-001",
+        "title": "GridSearchCV",
+        "section": "gridsearchcv",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "6-02-mashinnoe-obuchenie-7",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-7-002",
+        "title": "Production-вариант — Pipeline",
+        "section": "production-вариант-pipeline",
+        "blocks": 1,
+        "lines": 23
+      }
+    ],
+    "6-02-mashinnoe-obuchenie-9": [
+      {
+        "article": "6-02-mashinnoe-obuchenie-9",
+        "slug": "python/ai-6-6-02-mashinnoe-obuchenie-9-001",
+        "title": "Мини-пример — Iris",
+        "section": "мини-пример-iris",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "6-03-neyroseti-1": [
+      {
+        "article": "6-03-neyroseti-1",
+        "slug": "python/ai-6-6-03-neyroseti-1-001",
+        "title": "Компоненты нейронной сети",
+        "section": "компоненты-нейронной-сети",
+        "blocks": 1,
+        "lines": 37
+      }
+    ],
+    "6-03-neyroseti-112": [
+      {
+        "article": "6-03-neyroseti-112",
+        "slug": "python/ai-6-6-03-neyroseti-112-001",
+        "title": "Обучение с учителем",
+        "section": "обучение-с-учителем",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "6-03-neyroseti-112",
+        "slug": "csharp/ai-6-6-03-neyroseti-112-002",
+        "title": "Обучение с учителем",
+        "section": "обучение-с-учителем",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "6-03-neyroseti-112",
+        "slug": "python/ai-6-6-03-neyroseti-112-003",
+        "title": "Обучение без учителя",
+        "section": "обучение-без-учителя",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "6-03-neyroseti-112",
+        "slug": "python/ai-6-6-03-neyroseti-112-004",
+        "title": "Слои нейронных сетей",
+        "section": "слои-нейронных-сетей",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "6-03-neyroseti-112",
+        "slug": "python/ai-6-6-03-neyroseti-112-005",
+        "title": "Дообучение моделей",
+        "section": "дообучение-моделей",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "6-03-neyroseti-114": [
+      {
+        "article": "6-03-neyroseti-114",
+        "slug": "python/ai-6-6-03-neyroseti-114-001",
+        "title": "Sequential — слои друг за другом",
+        "section": "sequential-слои-друг-за-другом",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "6-03-neyroseti-114",
+        "slug": "python/ai-6-6-03-neyroseti-114-002",
+        "title": "MNIST — первая свёрточная сеть",
+        "section": "mnist-первая-свёрточная-сеть",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "6-03-neyroseti-2": [
+      {
+        "article": "6-03-neyroseti-2",
+        "slug": "python/ai-6-6-03-neyroseti-2-001",
+        "title": "Данные и матрица весов `syn0`",
+        "section": "данные-и-матрица-весов-syn0",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "6-03-neyroseti-2",
+        "slug": "python/ai-6-6-03-neyroseti-2-002",
+        "title": "Полный скрипт",
+        "section": "полный-скрипт",
+        "blocks": 1,
+        "lines": 41
+      }
+    ],
+    "6-04-modeli-i-instrumenty-114": [
+      {
+        "article": "6-04-modeli-i-instrumenty-114",
+        "slug": "json/ai-6-6-04-modeli-i-instrumenty-114-001",
+        "title": "Типы инструментов",
+        "section": "типы-инструментов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "6-04-modeli-i-instrumenty-114",
+        "slug": "json/ai-6-6-04-modeli-i-instrumenty-114-002",
+        "title": "Развертывание сервера",
+        "section": "развертывание-сервера",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "6-04-modeli-i-instrumenty-114",
+        "slug": "javascript/ai-6-6-04-modeli-i-instrumenty-114-003",
+        "title": "Использование сервера",
+        "section": "использование-сервера",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "6-04-modeli-i-instrumenty-114",
+        "slug": "python/ai-6-6-04-modeli-i-instrumenty-114-004",
+        "title": "Использование сервера",
+        "section": "использование-сервера",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "6-04-modeli-i-instrumenty-114",
+        "slug": "json/ai-6-6-04-modeli-i-instrumenty-114-005",
+        "title": "Безопасность и контроль доступа",
+        "section": "безопасность-и-контроль-доступа",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "6-04-modeli-i-instrumenty-118": [
+      {
+        "article": "6-04-modeli-i-instrumenty-118",
+        "slug": "python/ai-6-6-04-modeli-i-instrumenty-118-001",
+        "title": "Пример (OpenAI-совместимый API)",
+        "section": "пример-openai-совместимый-api",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "6-05-razrabotka-ii-1": [
+      {
+        "article": "6-05-razrabotka-ii-1",
+        "slug": "csharp/ai-6-6-05-razrabotka-ii-1-001",
+        "title": "Архитектура",
+        "section": "архитектура",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "6-05-razrabotka-ii-111": [
+      {
+        "article": "6-05-razrabotka-ii-111",
+        "slug": "yaml/ai-6-6-05-razrabotka-ii-111-001",
+        "title": "Варианты размещения",
+        "section": "варианты-размещения",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "6-05-razrabotka-ii-111",
+        "slug": "python/ai-6-6-05-razrabotka-ii-111-002",
+        "title": "1. Адаптер с единой точкой входа",
+        "section": "1-адаптер-с-единой-точкой-входа",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "6-05-razrabotka-ii-111",
+        "slug": "python/ai-6-6-05-razrabotka-ii-111-003",
+        "title": "2. Синхронный клиент для легаси-кода",
+        "section": "2-синхронный-клиент-для-легаси-кода",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "6-05-razrabotka-ii-111",
+        "slug": "python/ai-6-6-05-razrabotka-ii-111-004",
+        "title": "Обработка ошибок и отказоустойчивость",
+        "section": "обработка-ошибок-и-отказоустойчивость",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "6-05-razrabotka-ii-111",
+        "slug": "python/ai-6-6-05-razrabotka-ii-111-005",
+        "title": "Асинхронная интеграция с очередями",
+        "section": "асинхронная-интеграция-с-очередями",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "6-05-razrabotka-ii-111",
+        "slug": "python/ai-6-6-05-razrabotka-ii-111-006",
+        "title": "Кэширование семантически эквивалентных запросов",
+        "section": "кэширование-семантически-эквивалентных-запросов",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "6-05-razrabotka-ii-111",
+        "slug": "python/ai-6-6-05-razrabotka-ii-111-007",
+        "title": "Тестирование интеграции",
+        "section": "тестирование-интеграции",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "6-05-razrabotka-ii-112": [
+      {
+        "article": "6-05-razrabotka-ii-112",
+        "slug": "python/ai-6-6-05-razrabotka-ii-112-001",
+        "title": "1. Адаптер с единой точкой входа",
+        "section": "1-адаптер-с-единой-точкой-входа",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "6-05-razrabotka-ii-112",
+        "slug": "python/ai-6-6-05-razrabotka-ii-112-002",
+        "title": "2. Синхронный клиент для легаси-кода",
+        "section": "2-синхронный-клиент-для-легаси-кода",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "6-05-razrabotka-ii-112",
+        "slug": "python/ai-6-6-05-razrabotka-ii-112-003",
+        "title": "Обработка ошибок и отказоустойчивость",
+        "section": "обработка-ошибок-и-отказоустойчивость",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "6-05-razrabotka-ii-112",
+        "slug": "python/ai-6-6-05-razrabotka-ii-112-004",
+        "title": "Асинхронная интеграция с очередями",
+        "section": "асинхронная-интеграция-с-очередями",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "6-05-razrabotka-ii-112",
+        "slug": "python/ai-6-6-05-razrabotka-ii-112-005",
+        "title": "Кэширование семантически эквивалентных запросов",
+        "section": "кэширование-семантически-эквивалентных-запросов",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "6-05-razrabotka-ii-112",
+        "slug": "python/ai-6-6-05-razrabotka-ii-112-006",
+        "title": "Тестирование интеграции",
+        "section": "тестирование-интеграции",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "6-05-razrabotka-ii-113": [
+      {
+        "article": "6-05-razrabotka-ii-113",
+        "slug": "python/ai-6-6-05-razrabotka-ii-113-001",
+        "title": "Пример настройки в коде (через `llama-cpp-python`)",
+        "section": "пример-настройки-в-коде-через-llama-cpp-python",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "6-05-razrabotka-ii-113",
+        "slug": "python/ai-6-6-05-razrabotka-ii-113-002",
+        "title": "Пример скрипта индексации (`index.py`)",
+        "section": "пример-скрипта-индексации-index-py",
+        "blocks": 1,
+        "lines": 35
+      },
+      {
+        "article": "6-05-razrabotka-ii-113",
+        "slug": "python/ai-6-6-05-razrabotka-ii-113-003",
+        "title": "Шаг 4. RAG-запрос к модели",
+        "section": "шаг-4-rag-запрос-к-модели",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "6-05-razrabotka-ii-113",
+        "slug": "python/ai-6-6-05-razrabotka-ii-113-004",
+        "title": "LangChain",
+        "section": "langchain",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "6-05-razrabotka-ii-120": [
+      {
+        "article": "6-05-razrabotka-ii-120",
+        "slug": "python/ai-6-6-05-razrabotka-ii-120-001",
+        "title": "Пример — Azure AI Vision (анализ изображения)",
+        "section": "пример-azure-ai-vision-анализ-изображения",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "6-06-primenenie-ii-113": [
+      {
+        "article": "6-06-primenenie-ii-113",
+        "slug": "python/ai-6-6-06-primenenie-ii-113-001",
+        "title": "Экспорт моделей - ONNX, TFLite и Core ML",
+        "section": "экспорт-моделей-onnx-tflite-и-core-ml",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "6-07-vayb-koding-i-neurokontent-4": [
+      {
+        "article": "6-07-vayb-koding-i-neurokontent-4",
+        "slug": "json/ai-6-6-07-vayb-koding-i-neurokontent-4-001",
+        "title": "Hooks — детерминированная автоматизация",
+        "section": "hooks-детерминированная-автоматизация",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "6-09-transformery-i-nlp-3": [
+      {
+        "article": "6-09-transformery-i-nlp-3",
+        "slug": "python/ai-6-6-09-transformery-i-nlp-3-001",
+        "title": "Scaled dot-product attention",
+        "section": "scaled-dot-product-attention",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "6-09-transformery-i-nlp-3",
+        "slug": "python/ai-6-6-09-transformery-i-nlp-3-002",
+        "title": "Multi-head attention",
+        "section": "multi-head-attention",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "6-09-transformery-i-nlp-3",
+        "slug": "python/ai-6-6-09-transformery-i-nlp-3-003",
+        "title": "Encoder block",
+        "section": "encoder-block",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "6-09-transformery-i-nlp-3",
+        "slug": "python/ai-6-6-09-transformery-i-nlp-3-004",
+        "title": "Мини-модель для классификации",
+        "section": "мини-модель-для-классификации",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "6-09-transformery-i-nlp-4": [
+      {
+        "article": "6-09-transformery-i-nlp-4",
+        "slug": "python/ai-6-6-09-transformery-i-nlp-4-001",
+        "title": "Пример — классификация на Hugging Face Trainer",
+        "section": "пример-классификация-на-hugging-face-trainer",
+        "blocks": 1,
+        "lines": 30
+      }
+    ],
+    "6-09-transformery-i-nlp-6": [
+      {
+        "article": "6-09-transformery-i-nlp-6",
+        "slug": "python/ai-6-6-09-transformery-i-nlp-6-001",
+        "title": "Явный inference",
+        "section": "явный-inference",
+        "blocks": 1,
+        "lines": 15
+      }
+    ]
+  }
+}

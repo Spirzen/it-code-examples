@@ -1,0 +1,30 @@
+/* Базовые стили — для мобильных */
+.card {
+  width: 100%;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+/* Планшеты и больше */
+@media (min-width: 768px) {
+  .card {
+    width: calc(50% - 0.5rem);
+    float: left;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  .card:nth-child(2n) {
+    margin-right: 0;
+  }
+}
+
+/* Десктопы */
+@media (min-width: 1024px) {
+  .card {
+    width: calc(33.333% - 0.75rem);
+    margin-right: 1.5rem;
+  }
+  .card:nth-child(3n) {
+    margin-right: 0;
+  }
+}

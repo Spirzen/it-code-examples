@@ -1,0 +1,55 @@
+stages:
+  - lint
+  - test
+  - build
+  - deploy
+
+lint_code:
+  stage: lint
+  script:
+    - npm run lint
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+
+unit_tests:
+  stage: test
+  script:
+    - npm run test:unit
+  coverage: '/Coverage: (\d+\.\d+)%/'
+
+integration_tests:
+  stage: test
+  script:
+    - npm run test:integration
+  dependencies:
+    - unit_tests
+
+build_app:
+  stage: build
+  script:
+    - npm run build
+  artifacts:
+    paths:
+      - dist/
+    expire_in: 7 days
+
+deploy_staging:
+  stage: deploy
+  script:
+    - ./deploy-staging.sh
+  environment:
+    name: staging
+    url: https://staging.example.com
+  rules:
+    - if: $CI_COMMIT_BRANCH == "develop"
+
+deploy_production:
+  stage: deploy
+  script:
+    - ./deploy-production.sh
+  environment:
+    name: production
+    url: https://example.com
+  rules:
+    - if: $CI_COMMIT_BRANCH == "main"
+  when: manual

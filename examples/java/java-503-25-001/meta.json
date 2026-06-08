@@ -1,0 +1,14 @@
+{
+  "title": "JavaServer Faces - фреймворк для веб-интерфейсов — От managed beans к CDI-бинам",
+  "description": "Фрагмент из «JavaServer Faces - фреймворк для веб-интерфейсов»: От managed beans к CDI-бинам.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "25"
+  ],
+  "order": 1,
+  "series": "java-503-25",
+  "seriesOrder": 1,
+  "seriesTitle": "JavaServer Faces - фреймворк для веб-интерфейсов",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/25"
+}

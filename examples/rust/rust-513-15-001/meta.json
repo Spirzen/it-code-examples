@@ -1,0 +1,14 @@
+{
+  "title": "Фреймворки и инструменты Rust — Axum",
+  "description": "Фрагмент из «Фреймворки и инструменты Rust»: Axum.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "15"
+  ],
+  "order": 1,
+  "series": "rust-513-15",
+  "seriesOrder": 1,
+  "seriesTitle": "Фреймворки и инструменты Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/15"
+}

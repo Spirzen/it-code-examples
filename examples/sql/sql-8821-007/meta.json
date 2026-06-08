@@ -1,0 +1,14 @@
+{
+  "title": "Подсказки оптимизатору (query hints) — Оптимизация запросов к хранилищам данных",
+  "description": "Фрагмент из «Подсказки оптимизатору (query hints)»: Оптимизация запросов к хранилищам данных.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "8821"
+  ],
+  "order": 7,
+  "series": "sql-8821",
+  "seriesOrder": 7,
+  "seriesTitle": "Подсказки оптимизатору (query hints)",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/8821"
+}

@@ -1,0 +1,48 @@
+<form method="POST" action="calculator.php">
+  <h2>Калькулятор</h2>
+  <div class="form-group">
+    <input type="number" name="a" step="any" value="<?= htmlspecialchars($_POST['a'] ?? '') ?>" required placeholder="Первое число">
+  </div>
+  <div class="form-group">
+    <select name="op" required>
+      <option value="+" <?= ($_POST['op'] ?? '') === '+' ? 'selected' : '' ?>>+</option>
+      <option value="-" <?= ($_POST['op'] ?? '') === '-' ? 'selected' : '' ?>>−</option>
+      <option value="*" <?= ($_POST['op'] ?? '') === '*' ? 'selected' : '' ?>>×</option>
+      <option value="/" <?= ($_POST['op'] ?? '') === '/' ? 'selected' : '' ?>>÷</option>
+    </select>
+  </div>
+  <div class="form-group">
+    <input type="number" name="b" step="any" value="<?= htmlspecialchars($_POST['b'] ?? '') ?>" required placeholder="Второе число">
+  </div>
+  <button type="submit">Вычислить</button>
+  <?php if ($_SERVER['REQUEST_METHOD'] === 'POST'): ?>
+    <?php
+    $a = $_POST['a'];
+    $b = $_POST['b'];
+    $op = $_POST['op'];
+    $result = null;
+    $error = null;
+
+    if (!is_numeric($a) || !is_numeric($b)) {
+        $error = 'Оба значения должны быть числами.';
+    } elseif ($op === '/' && $b == 0) {
+        $error = 'Деление на ноль невозможно.';
+    } else {
+        switch ($op) {
+            case '+': $result = $a + $b; break;
+            case '-': $result = $a - $b; break;
+            case '*': $result = $a * $b; break;
+            case '/': $result = $a / $b; break;
+            default: $error = 'Неизвестная операция.';
+        }
+    }
+    ?>
+    <div class="calc-result">
+      <?php if ($error): ?>
+        <p style="color: #dc3545;"><?= htmlspecialchars($error) ?></p>
+      <?php else: ?>
+        <p><strong>Результат:</strong> <?= htmlspecialchars(number_format($result, 6, '.', '')) ?></p>
+      <?php endif; ?>
+    </div>
+  <?php endif; ?>
+</form>

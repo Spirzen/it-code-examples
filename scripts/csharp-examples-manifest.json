@@ -1,0 +1,1375 @@
+{
+  "generatedAt": "2026-06-07T22:17:23.032Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-05-csharp",
+  "articles": {
+    "14": [
+      {
+        "article": "14",
+        "slug": "csharp/csharp-505-14-001",
+        "title": "if, else, else if",
+        "section": "if-else-else-if",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "14",
+        "slug": "csharp/csharp-505-14-002",
+        "title": "switch, case",
+        "section": "switch-case",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "16": [
+      {
+        "article": "16",
+        "slug": "csharp/csharp-505-16-001",
+        "title": "C# и Visual Studio - старт в .NET",
+        "section": "c-и-visual-studio-старт-в-net",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "16",
+        "slug": "csharp/csharp-505-16-002",
+        "title": "C# и Visual Studio - старт в .NET",
+        "section": "c-и-visual-studio-старт-в-net",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "16",
+        "slug": "csharp/csharp-505-16-003",
+        "title": "C# и Visual Studio - старт в .NET",
+        "section": "c-и-visual-studio-старт-в-net",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "16",
+        "slug": "csharp/csharp-505-16-004",
+        "title": "C# и Visual Studio - старт в .NET",
+        "section": "c-и-visual-studio-старт-в-net",
+        "blocks": 1,
+        "lines": 39
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "csharp/csharp-505-17-001",
+        "title": "Модификаторы параметров",
+        "section": "модификаторы-параметров",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "csharp/csharp-505-19-001",
+        "title": "Стек",
+        "section": "стек",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "24": [
+      {
+        "article": "24",
+        "slug": "csharp/csharp-505-24-001",
+        "title": "Анонимные типы и кортежи",
+        "section": "анонимные-типы-и-кортежи",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-001",
+        "title": "C# в Unity — `MonoBehaviour` и компоненты",
+        "section": "c-в-unity-monobehaviour-и-компоненты",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-002",
+        "title": "ООП в C#",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-003",
+        "title": "ООП в C#",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-004",
+        "title": "ООП в C#",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-005",
+        "title": "ООП в C#",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-006",
+        "title": "ООП в C#",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-007",
+        "title": "Пример класса в C#",
+        "section": "пример-класса-в-c",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-008",
+        "title": "Объект",
+        "section": "объект",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-009",
+        "title": "this",
+        "section": "this",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-010",
+        "title": "Порядок объявления",
+        "section": "порядок-объявления",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-011",
+        "title": "Инкапсуляция",
+        "section": "инкапсуляция",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-012",
+        "title": "private",
+        "section": "private",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-013",
+        "title": "protected",
+        "section": "protected",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-014",
+        "title": "Статические поля",
+        "section": "статические-поля",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-015",
+        "title": "Статический конструктор",
+        "section": "статический-конструктор",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-016",
+        "title": "Статический класс",
+        "section": "статический-класс",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-017",
+        "title": "Наследование и base",
+        "section": "наследование-и-base",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-018",
+        "title": "base",
+        "section": "base",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-019",
+        "title": "base",
+        "section": "base",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "25",
+        "slug": "csharp/csharp-505-25-020",
+        "title": "overloading",
+        "section": "overloading",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "28": [
+      {
+        "article": "28",
+        "slug": "csharp/csharp-505-28-001",
+        "title": "Коллекции",
+        "section": "коллекции",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "29": [
+      {
+        "article": "29",
+        "slug": "csharp/csharp-505-29-001",
+        "title": "Расширяемость LINQ",
+        "section": "расширяемость-linq",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "30": [
+      {
+        "article": "30",
+        "slug": "csharp/csharp-505-30-001",
+        "title": "Создание пользовательских итераторов",
+        "section": "создание-пользовательских-итераторов",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "30",
+        "slug": "csharp/csharp-505-30-002",
+        "title": "Сравнение с ручной реализацией `IEnumerator<T>`",
+        "section": "сравнение-с-ручной-реализацией-ienumerator",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "30",
+        "slug": "csharp/csharp-505-30-003",
+        "title": "Под капотом: конечный автомат \\",
+        "section": "под-капотом-конечный-автомат-под-капотом-конечны",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "34": [
+      {
+        "article": "34",
+        "slug": "csharp/csharp-505-34-001",
+        "title": "Практическое применение вложенных типов",
+        "section": "практическое-применение-вложенных-типов",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "35": [
+      {
+        "article": "35",
+        "slug": "csharp/csharp-505-35-001",
+        "title": "Dependency Injection",
+        "section": "dependency-injection",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "36": [
+      {
+        "article": "36",
+        "slug": "csharp/csharp-505-36-001",
+        "title": "Как компилятор переписывает лямбду",
+        "section": "как-компилятор-переписывает-лямбду",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "39": [
+      {
+        "article": "39",
+        "slug": "csharp/csharp-505-39-001",
+        "title": "Пул объектов",
+        "section": "пул-объектов",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "44": [
+      {
+        "article": "44",
+        "slug": "csharp/csharp-505-44-001",
+        "title": "Как подключиться к базе данных в С#",
+        "section": "как-подключиться-к-базе-данных-в-с",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "44",
+        "slug": "csharp/csharp-505-44-002",
+        "title": "ORM и LINQ",
+        "section": "orm-и-linq",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "44",
+        "slug": "csharp/csharp-505-44-003",
+        "title": "ORM и LINQ",
+        "section": "orm-и-linq",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "44",
+        "slug": "csharp/csharp-505-44-004",
+        "title": "Entity Framework",
+        "section": "entity-framework",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "44",
+        "slug": "csharp/csharp-505-44-005",
+        "title": "Модели данных",
+        "section": "модели-данных",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "44",
+        "slug": "csharp/csharp-505-44-006",
+        "title": "Атрибуты",
+        "section": "атрибуты",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "45": [
+      {
+        "article": "45",
+        "slug": "csharp/csharp-505-45-001",
+        "title": "Ветвление по статус-кодам",
+        "section": "ветвление-по-статус-кодам",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "45",
+        "slug": "csharp/csharp-505-45-002",
+        "title": "Шаблон \"Template Method\" для кастомизации",
+        "section": "шаблон-template-method-для-кастомизации",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "45",
+        "slug": "csharp/csharp-505-45-003",
+        "title": "Шаблон \"Template Method\" для кастомизации",
+        "section": "шаблон-template-method-для-кастомизации",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "47": [
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-001",
+        "title": "3.1. Простой API-контроллер",
+        "section": "3-1-простой-api-контроллер",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "47",
+        "slug": "html/csharp-505-47-002",
+        "title": "4.1. Через JavaScript (SPA или статический HTML)",
+        "section": "4-1-через-javascript-spa-или-статический-html",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-003",
+        "title": "4.2. Через Razor Pages (серверный рендеринг)",
+        "section": "4-2-через-razor-pages-серверный-рендеринг",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-004",
+        "title": "5.2. Реализация кэширования в контроллере",
+        "section": "5-2-реализация-кэширования-в-контроллере",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-005",
+        "title": "7.1. Интерфейс и реализация репозитория",
+        "section": "7-1-интерфейс-и-реализация-репозитория",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-006",
+        "title": "7.2. Регистрация в DI-контейнере",
+        "section": "7-2-регистрация-в-di-контейнере",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-007",
+        "title": "8.1. Глобальный обработчик исключений",
+        "section": "8-1-глобальный-обработчик-исключений",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-008",
+        "title": "10.2. Аутентификация через JWT",
+        "section": "10-2-аутентификация-через-jwt",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "47",
+        "slug": "yaml/csharp-505-47-009",
+        "title": "11. Docker-развёртывание и внешние зависимости",
+        "section": "11-docker-развёртывание-и-внешние-зависимости",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-010",
+        "title": "12.1. Unit-тесты для репозитория",
+        "section": "12-1-unit-тесты-для-репозитория",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "47",
+        "slug": "csharp/csharp-505-47-011",
+        "title": "12.2. Интеграционные тесты с TestServer",
+        "section": "12-2-интеграционные-тесты-с-testserver",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "json/csharp-505-101-001",
+        "title": "4.1. Корневые секции",
+        "section": "4-1-корневые-секции",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "json/csharp-505-101-002",
+        "title": "5.2. Поддерживаемые типы значений",
+        "section": "5-2-поддерживаемые-типы-значений",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "101",
+        "slug": "json/csharp-505-101-003",
+        "title": "6.1. Структура",
+        "section": "6-1-структура",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "json/csharp-505-101-004",
+        "title": "8.1. Структура",
+        "section": "8-1-структура",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "xml/csharp-505-101-005",
+        "title": "9.1. Основные секции",
+        "section": "9-1-основные-секции",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "101",
+        "slug": "xml/csharp-505-101-006",
+        "title": "12.1. Структура (минимальная)",
+        "section": "12-1-структура-минимальная",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "101",
+        "slug": "xml/csharp-505-101-007",
+        "title": "14.1. Корневая структура",
+        "section": "14-1-корневая-структура",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "101",
+        "slug": "xml/csharp-505-101-008",
+        "title": "19.1. Структура",
+        "section": "19-1-структура",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "101",
+        "slug": "xml/csharp-505-101-009",
+        "title": "20.2. Пример",
+        "section": "20-2-пример",
+        "blocks": 1,
+        "lines": 32
+      }
+    ],
+    "102": [
+      {
+        "article": "102",
+        "slug": "csharp/csharp-505-102-001",
+        "title": "Проверка аргументов",
+        "section": "проверка-аргументов",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "102",
+        "slug": "csharp/csharp-505-102-002",
+        "title": "Возвращаемые типы коллекций",
+        "section": "возвращаемые-типы-коллекций",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "102",
+        "slug": "csharp/csharp-505-102-003",
+        "title": "Избегание двунаправленной зависимости",
+        "section": "избегание-двунаправленной-зависимости",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "102",
+        "slug": "csharp/csharp-505-102-004",
+        "title": "Инкапсуляция сложных выражений",
+        "section": "инкапсуляция-сложных-выражений",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "102",
+        "slug": "csharp/csharp-505-102-005",
+        "title": "Конструкторы и инициализация",
+        "section": "конструкторы-и-инициализация",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "161": [
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-001",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-002",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-003",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 61
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-004",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-005",
+        "title": "Пример кода Сервера",
+        "section": "пример-кода-сервера",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-006",
+        "title": "Пример кода Клиента",
+        "section": "пример-кода-клиента",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-007",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-008",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 47
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-009",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-010",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-011",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-012",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "161",
+        "slug": "csharp/csharp-505-161-013",
+        "title": "Пример кода",
+        "section": "пример-кода",
+        "blocks": 1,
+        "lines": 48
+      }
+    ],
+    "291": [
+      {
+        "article": "291",
+        "slug": "csharp/csharp-505-291-001",
+        "title": "Важные сигнатуры",
+        "section": "важные-сигнатуры",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "391": [
+      {
+        "article": "391",
+        "slug": "csharp/csharp-505-391-001",
+        "title": "Пример с отменой",
+        "section": "пример-с-отменой",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "392": [
+      {
+        "article": "392",
+        "slug": "csharp/csharp-505-392-001",
+        "title": "Сколько `Task` можно создать на практике",
+        "section": "сколько-task-можно-создать-на-практике",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "441": [
+      {
+        "article": "441",
+        "slug": "csharp/csharp-505-441-001",
+        "title": "DbContext — точка входа в БД",
+        "section": "dbcontext-точка-входа-в-бд",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "441",
+        "slug": "csharp/csharp-505-441-002",
+        "title": "CRUD в `Program.cs`",
+        "section": "crud-в-program-cs",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "442": [
+      {
+        "article": "442",
+        "slug": "csharp/csharp-505-442-001",
+        "title": "ADO.NET — создать таблицу и записать данные",
+        "section": "ado-net-создать-таблицу-и-записать-данные",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "442",
+        "slug": "csharp/csharp-505-442-002",
+        "title": "ADO.NET — чтение `DbDataReader`",
+        "section": "ado-net-чтение-dbdatareader",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "442",
+        "slug": "csharp/csharp-505-442-003",
+        "title": "Транзакция (два INSERT \"всё или ничего\")",
+        "section": "транзакция-два-insert-всё-или-ничего",
+        "blocks": 1,
+        "lines": 22
+      }
+    ],
+    "451": [
+      {
+        "article": "451",
+        "slug": "csharp/csharp-505-451-001",
+        "title": "Где жить логике: Middleware, Endpoint Filters, Policy Pipeline",
+        "section": "где-жить-логике-middleware-endpoint-filters-poli",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "451",
+        "slug": "csharp/csharp-505-451-002",
+        "title": "Параметры маршрутов и ограничения",
+        "section": "параметры-маршрутов-и-ограничения",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "451",
+        "slug": "csharp/csharp-505-451-003",
+        "title": "Создание кастомных поставщиков",
+        "section": "создание-кастомных-поставщиков",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "451",
+        "slug": "csharp/csharp-505-451-004",
+        "title": "Создание кастомных поставщиков",
+        "section": "создание-кастомных-поставщиков",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "451",
+        "slug": "csharp/csharp-505-451-005",
+        "title": "DI в различных контекстах",
+        "section": "di-в-различных-контекстах",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "451",
+        "slug": "csharp/csharp-505-451-006",
+        "title": "DI в различных контекстах",
+        "section": "di-в-различных-контекстах",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "451",
+        "slug": "csharp/csharp-505-451-007",
+        "title": "Валидация — ModelState и политики",
+        "section": "валидация-modelstate-и-политики",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "452": [
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-001",
+        "title": "3. Внедрение зависимостей (`IServiceCollection`)",
+        "section": "3-внедрение-зависимостей-iservicecollection",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-002",
+        "title": "4. Middleware",
+        "section": "4-middleware",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-003",
+        "title": "5. Minimal APIs",
+        "section": "5-minimal-apis",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-004",
+        "title": "7. Версионирование API",
+        "section": "7-версионирование-api",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-005",
+        "title": "8. OpenAPI (Swagger) через Swashbuckle.AspNetCore",
+        "section": "8-openapi-swagger-через-swashbuckle-aspnetcore",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-006",
+        "title": "1. Аутентификация (`IAuthenticationService`)",
+        "section": "1-аутентификация-iauthenticationservice",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-007",
+        "title": "1. Аутентификация (`IAuthenticationService`)",
+        "section": "1-аутентификация-iauthenticationservice",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-008",
+        "title": "2. Авторизация (`IAuthorizationService`)",
+        "section": "2-авторизация-iauthorizationservice",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-009",
+        "title": "2. Авторизация (`IAuthorizationService`)",
+        "section": "2-авторизация-iauthorizationservice",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-010",
+        "title": "3. Кэширование",
+        "section": "3-кэширование",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-011",
+        "title": "3. Кэширование",
+        "section": "3-кэширование",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-012",
+        "title": "4. Логирование (`ILogger<T>`)",
+        "section": "4-логирование-ilogger",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-013",
+        "title": "1. SignalR",
+        "section": "1-signalr",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "452",
+        "slug": "text/csharp-505-452-014",
+        "title": "2. gRPC",
+        "section": "2-grpc",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-015",
+        "title": "2. gRPC",
+        "section": "2-grpc",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-016",
+        "title": "2. gRPC",
+        "section": "2-grpc",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-017",
+        "title": "3. Health Checks",
+        "section": "3-health-checks",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-018",
+        "title": "3. Health Checks",
+        "section": "3-health-checks",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-019",
+        "title": "4. Тестирование",
+        "section": "4-тестирование",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-020",
+        "title": "4. Тестирование",
+        "section": "4-тестирование",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-021",
+        "title": "4. Тестирование",
+        "section": "4-тестирование",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-022",
+        "title": "4. Тестирование",
+        "section": "4-тестирование",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-023",
+        "title": "4. Тестирование",
+        "section": "4-тестирование",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-024",
+        "title": "1. Локализация и интернационализация",
+        "section": "1-локализация-и-интернационализация",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-025",
+        "title": "1. Локализация и интернационализация",
+        "section": "1-локализация-и-интернационализация",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-026",
+        "title": "1. Локализация и интернационализация",
+        "section": "1-локализация-и-интернационализация",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-027",
+        "title": "1. Локализация и интернационализация",
+        "section": "1-локализация-и-интернационализация",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-028",
+        "title": "2. Фоновые задачи",
+        "section": "2-фоновые-задачи",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-029",
+        "title": "2. Фоновые задачи",
+        "section": "2-фоновые-задачи",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-030",
+        "title": "2. Фоновые задачи",
+        "section": "2-фоновые-задачи",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-031",
+        "title": "2. Фоновые задачи",
+        "section": "2-фоновые-задачи",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-032",
+        "title": "2. Фоновые задачи",
+        "section": "2-фоновые-задачи",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "452",
+        "slug": "csharp/csharp-505-452-033",
+        "title": "2. Фоновые задачи",
+        "section": "2-фоновые-задачи",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "453": [
+      {
+        "article": "453",
+        "slug": "csharp/csharp-505-453-001",
+        "title": "Файл Program.cs",
+        "section": "файл-program-cs",
+        "blocks": 1,
+        "lines": 80
+      },
+      {
+        "article": "453",
+        "slug": "json/csharp-505-453-002",
+        "title": "Файл appsettings.json",
+        "section": "файл-appsettings-json",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "453",
+        "slug": "csharp/csharp-505-453-003",
+        "title": "Файл FilesController.cs",
+        "section": "файл-filescontroller-cs",
+        "blocks": 1,
+        "lines": 120
+      }
+    ],
+    "471": [
+      {
+        "article": "471",
+        "slug": "csharp/csharp-505-471-001",
+        "title": "2. `IDisposable`, `IAsyncDisposable` и управление ресурсами",
+        "section": "2-idisposable-iasyncdisposable-и-управление-ресу",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "471",
+        "slug": "csharp/csharp-505-471-002",
+        "title": "3. `Span<T>`, `ReadOnlySpan<T>`, `Memory<T>`, `ReadOnlyMemory<T>`",
+        "section": "3-span-readonlyspan-memory-readonlymemory",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "471",
+        "slug": "csharp/csharp-505-471-003",
+        "title": "5. `System.Runtime.CompilerServices.Unsafe`",
+        "section": "5-system-runtime-compilerservices-unsafe",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "471",
+        "slug": "csharp/csharp-505-471-004",
+        "title": "5. Продвинутые механизмы — `IValueTaskSource`, `ManualResetValueTaskSourceCore`",
+        "section": "5-продвинутые-механизмы-ivaluetasksource-manualr",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "471",
+        "slug": "csharp/csharp-505-471-005",
+        "title": "3. Пользовательские атрибуты",
+        "section": "3-пользовательские-атрибуты",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "471",
+        "slug": "csharp/csharp-505-471-006",
+        "title": "5. Source Generators (C# 9+)",
+        "section": "5-source-generators-c-9",
+        "blocks": 1,
+        "lines": 24
+      }
+    ],
+    "4511": [
+      {
+        "article": "4511",
+        "slug": "csharp/csharp-505-4511-001",
+        "title": "Минимальный API (без контроллеров)",
+        "section": "минимальный-api-без-контроллеров",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "4511",
+        "slug": "csharp/csharp-505-4511-002",
+        "title": "Вариант с контроллером",
+        "section": "вариант-с-контроллером",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "4512": [
+      {
+        "article": "4512",
+        "slug": "text/csharp-505-4512-001",
+        "title": "Модель компонента Razor",
+        "section": "модель-компонента-razor",
+        "blocks": 1,
+        "lines": 26
+      }
+    ],
+    "4513": [
+      {
+        "article": "4513",
+        "slug": "csharp/csharp-505-4513-001",
+        "title": "Логика счётчика",
+        "section": "логика-счётчика",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "4513",
+        "slug": "csharp/csharp-505-4513-002",
+        "title": "Список заметок",
+        "section": "список-заметок",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "4514": [
+      {
+        "article": "4514",
+        "slug": "csharp/csharp-505-4514-001",
+        "title": "Модель заметки",
+        "section": "модель-заметки",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "4514",
+        "slug": "csharp/csharp-505-4514-002",
+        "title": "PageModel — список и добавление",
+        "section": "pagemodel-список-и-добавление",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "4514",
+        "slug": "text/csharp-505-4514-003",
+        "title": "Разметка страницы",
+        "section": "разметка-страницы",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "4515": [
+      {
+        "article": "4515",
+        "slug": "csharp/csharp-505-4515-001",
+        "title": "`Program.cs` — Identity + Bearer",
+        "section": "program-cs-identity-bearer",
+        "blocks": 1,
+        "lines": 63
+      },
+      {
+        "article": "4515",
+        "slug": "csharp/csharp-505-4515-002",
+        "title": "DTO и контроллер аутентификации",
+        "section": "dto-и-контроллер-аутентификации",
+        "blocks": 1,
+        "lines": 75
+      },
+      {
+        "article": "4515",
+        "slug": "csharp/csharp-505-4515-003",
+        "title": "Защищённый API",
+        "section": "защищённый-api",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "4515",
+        "slug": "csharp/csharp-505-4515-004",
+        "title": "Роли при старте приложения",
+        "section": "роли-при-старте-приложения",
+        "blocks": 1,
+        "lines": 63
+      }
+    ],
+    "4516": [
+      {
+        "article": "4516",
+        "slug": "csharp/csharp-505-4516-001",
+        "title": "Базовый тест",
+        "section": "базовый-тест",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "4516",
+        "slug": "csharp/csharp-505-4516-002",
+        "title": "Тест CRUD",
+        "section": "тест-crud",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "4516",
+        "slug": "csharp/csharp-505-4516-003",
+        "title": "Подмена базы данных",
+        "section": "подмена-базы-данных",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "4516",
+        "slug": "csharp/csharp-505-4516-004",
+        "title": "Пример из учебного MVC",
+        "section": "пример-из-учебного-mvc",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "4516",
+        "slug": "csharp/csharp-505-4516-005",
+        "title": "Проект тестов и Moq",
+        "section": "проект-тестов-и-moq",
+        "blocks": 1,
+        "lines": 33
+      }
+    ],
+    "4517": [
+      {
+        "article": "4517",
+        "slug": "csharp/csharp-505-4517-001",
+        "title": "Эндпоинты и DTO",
+        "section": "эндпоинты-и-dto",
+        "blocks": 1,
+        "lines": 56
+      }
+    ],
+    "4518": [
+      {
+        "article": "4518",
+        "slug": "csharp/csharp-505-4518-001",
+        "title": "Команда и обработчик",
+        "section": "команда-и-обработчик",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "4518",
+        "slug": "csharp/csharp-505-4518-002",
+        "title": "Pipeline behaviours",
+        "section": "pipeline-behaviours",
+        "blocks": 1,
+        "lines": 23
+      }
+    ]
+  }
+}

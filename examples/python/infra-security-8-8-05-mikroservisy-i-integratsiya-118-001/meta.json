@@ -1,0 +1,14 @@
+{
+  "title": "RabbitMQ — Управление очередями и обменниками",
+  "description": "Фрагмент из «RabbitMQ»: Управление очередями и обменниками.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-118"
+  ],
+  "order": 1,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-118",
+  "seriesOrder": 1,
+  "seriesTitle": "RabbitMQ",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/118"
+}

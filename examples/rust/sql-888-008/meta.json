@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL — практическая работа и API — Rust — tokio-postgres и sqlx",
+  "description": "Фрагмент из «PostgreSQL — практическая работа и API»: Rust — tokio-postgres и sqlx.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "888"
+  ],
+  "order": 8,
+  "series": "sql-888",
+  "seriesOrder": 8,
+  "seriesTitle": "PostgreSQL — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/888"
+}

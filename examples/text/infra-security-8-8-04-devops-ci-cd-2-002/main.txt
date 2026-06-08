@@ -1,0 +1,19 @@
+provider "aws" {
+  region = "us-west-2"
+}
+
+provider "azurerm" {
+  features {}
+}
+
+resource "aws_s3_bucket" "logs" {
+  bucket = "my-app-logs"
+}
+
+resource "azurerm_storage_account" "main" {
+  name                     = "myappstorage"
+  location                 = "West Europe"
+  resource_group_name      = "rg-prod"
+  account_tier             = "Standard"
+  account_replication_type = "LRS"
+}

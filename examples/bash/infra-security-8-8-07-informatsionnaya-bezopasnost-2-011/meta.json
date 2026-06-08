@@ -1,0 +1,14 @@
+{
+  "title": "Обеспечение безопасности — 14.3. Фазы пентеста и bash-инструменты на каждой стадии",
+  "description": "Фрагмент из «Обеспечение безопасности»: 14.3. Фазы пентеста и bash-инструменты на каждой стадии.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-07-informatsionnaya-bezopasnost-2"
+  ],
+  "order": 11,
+  "series": "infra-security-8-8-07-informatsionnaya-bezopasnost-2",
+  "seriesOrder": 11,
+  "seriesTitle": "Обеспечение безопасности",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-07-informatsionnaya-bezopasnost/2"
+}

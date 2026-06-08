@@ -1,0 +1,14 @@
+{
+  "title": "FastAPI и база данных — Таблица (SQLAlchemy)",
+  "description": "Фрагмент из «FastAPI и база данных»: Таблица (SQLAlchemy).",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "3433"
+  ],
+  "order": 1,
+  "series": "py-502-3433",
+  "seriesOrder": 1,
+  "seriesTitle": "FastAPI и база данных",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/3433"
+}

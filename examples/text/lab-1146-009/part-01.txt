@@ -1,0 +1,36 @@
+import type { ButtonHTMLAttributes, ReactNode } from 'react';
+import type { ButtonVariant } from '../types/ui';
+
+const VARIANT_CLASS: Record<ButtonVariant, string> = {
+  primary: 'button button--primary',
+  outline: 'button button--outline',
+  danger: 'button button--danger',
+};
+
+export type ButtonProps = {
+  variant?: ButtonVariant;
+  loading?: boolean;
+  children: ReactNode;
+} & ButtonHTMLAttributes<HTMLButtonElement>;
+
+export function Button({
+  variant = 'primary',
+  loading = false,
+  disabled,
+  children,
+  ...rest
+}: ButtonProps) {
+  const isDisabled = Boolean(disabled) || loading;
+
+  return (
+    <button
+      type="button"
+      className={VARIANT_CLASS[variant]}
+      disabled={isDisabled}
+      aria-busy={loading || undefined}
+      {...rest}
+    >
+      {loading ? 'Загрузка…' : children}
+    </button>
+  );
+}

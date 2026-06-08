@@ -1,0 +1,14 @@
+{
+  "title": "ETL-ELT и оркестрация — Пример конфигурации пайплайна",
+  "description": "Фрагмент из «ETL-ELT и оркестрация»: Пример конфигурации пайплайна.",
+  "tags": [
+    "data-analysis",
+    "encyclopedia",
+    "425"
+  ],
+  "order": 1,
+  "series": "da-425",
+  "seriesOrder": 1,
+  "seriesTitle": "ETL-ELT и оркестрация",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-11-analiz-dannyh/425"
+}

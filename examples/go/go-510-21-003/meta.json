@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность и горутины — 3. Worker Pool (пул обработчиков)",
+  "description": "Фрагмент из «Асинхронность и горутины»: 3. Worker Pool (пул обработчиков).",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "21"
+  ],
+  "order": 3,
+  "series": "go-510-21",
+  "seriesOrder": 3,
+  "seriesTitle": "Асинхронность и горутины",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/21"
+}

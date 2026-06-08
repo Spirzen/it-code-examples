@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Vue.js — Composition API и `<script setup>`",
+  "description": "Фрагмент из «Первая программа на Vue.js»: Composition API и `<script setup>`.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "3-ecosystem-2-frontend-frameworks-2-vue-282"
+  ],
+  "order": 1,
+  "series": "js-501-3-ecosystem-2-frontend-frameworks-2-vue-282",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа на Vue.js",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/3-ecosystem/2-frontend-frameworks/2-vue/282"
+}

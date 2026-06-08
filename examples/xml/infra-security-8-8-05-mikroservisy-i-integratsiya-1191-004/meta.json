@@ -1,0 +1,14 @@
+{
+  "title": "Java-приложение с Apache Kafka и PostgreSQL — Настройка Maven",
+  "description": "Фрагмент из «Java-приложение с Apache Kafka и PostgreSQL»: Настройка Maven.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-1191"
+  ],
+  "order": 4,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-1191",
+  "seriesOrder": 4,
+  "seriesTitle": "Java-приложение с Apache Kafka и PostgreSQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/1191"
+}

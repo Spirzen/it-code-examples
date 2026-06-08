@@ -1,0 +1,14 @@
+{
+  "title": "MediatR и pipeline в слое Application — Pipeline behaviours",
+  "description": "Фрагмент из «MediatR и pipeline в слое Application»: Pipeline behaviours.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "4518"
+  ],
+  "order": 2,
+  "series": "csharp-505-4518",
+  "seriesOrder": 2,
+  "seriesTitle": "MediatR и pipeline в слое Application",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/4518"
+}

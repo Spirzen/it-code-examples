@@ -1,0 +1,14 @@
+{
+  "title": "SQLite — практическая работа и API — C++ — SQLiteCpp и нативный C API",
+  "description": "Фрагмент из «SQLite — практическая работа и API»: C++ — SQLiteCpp и нативный C API.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "887"
+  ],
+  "order": 5,
+  "series": "sql-887",
+  "seriesOrder": 5,
+  "seriesTitle": "SQLite — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/887"
+}

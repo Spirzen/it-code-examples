@@ -1,0 +1,14 @@
+{
+  "title": "Работа с данными и структурами — ORM — Diesel",
+  "description": "Фрагмент из «Работа с данными и структурами»: ORM — Diesel.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "16"
+  ],
+  "order": 2,
+  "series": "rust-513-16",
+  "seriesOrder": 2,
+  "seriesTitle": "Работа с данными и структурами",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/16"
+}

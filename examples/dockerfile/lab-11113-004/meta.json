@@ -1,0 +1,13 @@
+{
+  "title": "Dockerfile — 10 типовых образов — 7. Java Spring Boot (JAR)",
+  "description": "Фрагмент из «Dockerfile — 10 типовых образов»: 7. Java Spring Boot (JAR).",
+  "tags": [
+    "lab",
+    "11113"
+  ],
+  "order": 4,
+  "series": "lab-11113",
+  "seriesOrder": 4,
+  "seriesTitle": "Dockerfile — 10 типовых образов",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/11113"
+}

@@ -1,0 +1,16 @@
+@keyframes pulse-dot {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+/* последний «лист» контента в блоке со статусом running */
+.aui-md[data-status="running"]:empty::after,
+.aui-md[data-status="running"] > :where(:not(ol):not(ul):not(pre)):last-child::after,
+.aui-md[data-status="running"] > pre:last-child code::after,
+.aui-md[data-status="running"] :where(ol, ul):last-child > li:last-child:not(:has(> li))::after {
+  content: "\25cf";
+  margin-left: 0.25rem;
+  animation: pulse-dot 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+  font-family: ui-sans-serif, system-ui, sans-serif;
+}

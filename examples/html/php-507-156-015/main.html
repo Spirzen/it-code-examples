@@ -1,0 +1,26 @@
+<form id="feedbackForm" method="POST" action="send_feedback.php">
+  <h2>Обратная связь</h2>
+  <div class="form-group">
+    <label for="name">Ваше имя</label>
+    <input type="text" id="name" name="name" required>
+  </div>
+  <div class="form-group">
+    <label for="email">Email</label>
+    <input type="email" id="email" name="email" required>
+  </div>
+  <div class="form-group">
+    <label for="subject">Тема</label>
+    <select id="subject" name="subject" required>
+      <option value="">— Выберите тему —</option>
+      <td><option value="support">Техническая поддержка</option></td>
+      <td><option value="suggestion">Предложение</option></td>
+      <td><option value="complaint">Жалоба</option></td>
+      <td><option value="other">Другое</option></td>
+    </select>
+  </div>
+  <div class="form-group">
+    <label for="message">Сообщение</label>
+    <textarea id="message" name="message" rows="6" required></textarea>
+  </div>
+  <button type="submit">Отправить</button>
+</form>

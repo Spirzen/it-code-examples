@@ -1,0 +1,1091 @@
+{
+  "generatedAt": "2026-06-07T22:24:15.661Z",
+  "minLines": 15,
+  "encyclopediaPath": "/encyclopedia/5-languages/5-06-cpp",
+  "articles": {
+    "1": [
+      {
+        "article": "1",
+        "slug": "cpp/cpp-506-1-001",
+        "title": "Добро пожаловать в мир C++",
+        "section": "добро-пожаловать-в-мир-c",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "cpp/cpp-506-3-001",
+        "title": "Пример класса",
+        "section": "пример-класса",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "11": [
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-001",
+        "title": "Логический тип `bool`",
+        "section": "логический-тип-bool",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-002",
+        "title": "Логический тип `bool`",
+        "section": "логический-тип-bool",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-003",
+        "title": "Логический тип `bool`",
+        "section": "логический-тип-bool",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-004",
+        "title": "Логический тип `bool`",
+        "section": "логический-тип-bool",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-005",
+        "title": "Символьные типы — `char`, `wchar_t`, `char16_t`, `char32_t`",
+        "section": "символьные-типы-char-wchar-t-char16-t-char32-t",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-006",
+        "title": "Символьные типы — `char`, `wchar_t`, `char16_t`, `char32_t`",
+        "section": "символьные-типы-char-wchar-t-char16-t-char32-t",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-007",
+        "title": "Символьные типы — `char`, `wchar_t`, `char16_t`, `char32_t`",
+        "section": "символьные-типы-char-wchar-t-char16-t-char32-t",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-008",
+        "title": "Символьные типы — `char`, `wchar_t`, `char16_t`, `char32_t`",
+        "section": "символьные-типы-char-wchar-t-char16-t-char32-t",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-009",
+        "title": "Целочисленные типы — `short`, `int`, `long`, `long long`",
+        "section": "целочисленные-типы-short-int-long-long-long",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-010",
+        "title": "Целочисленные типы — `short`, `int`, `long`, `long long`",
+        "section": "целочисленные-типы-short-int-long-long-long",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-011",
+        "title": "Целочисленные типы — `short`, `int`, `long`, `long long`",
+        "section": "целочисленные-типы-short-int-long-long-long",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-012",
+        "title": "Целочисленные типы — `short`, `int`, `long`, `long long`",
+        "section": "целочисленные-типы-short-int-long-long-long",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-013",
+        "title": "Целочисленные типы — `short`, `int`, `long`, `long long`",
+        "section": "целочисленные-типы-short-int-long-long-long",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-014",
+        "title": "Целочисленные типы — `short`, `int`, `long`, `long long`",
+        "section": "целочисленные-типы-short-int-long-long-long",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-015",
+        "title": "Вещественные типы — `float`, `double`",
+        "section": "вещественные-типы-float-double",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-016",
+        "title": "Вещественные типы — `float`, `double`",
+        "section": "вещественные-типы-float-double",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-017",
+        "title": "Вещественные типы — `float`, `double`",
+        "section": "вещественные-типы-float-double",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-018",
+        "title": "Вещественные типы — `float`, `double`",
+        "section": "вещественные-типы-float-double",
+        "blocks": 1,
+        "lines": 32
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-019",
+        "title": "Вещественные типы — `float`, `double`",
+        "section": "вещественные-типы-float-double",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-020",
+        "title": "Вещественные типы — `float`, `double`",
+        "section": "вещественные-типы-float-double",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-021",
+        "title": "Вещественные типы — `float`, `double`",
+        "section": "вещественные-типы-float-double",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-022",
+        "title": "Служебный тип `void`",
+        "section": "служебный-тип-void",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-023",
+        "title": "Служебный тип `void`",
+        "section": "служебный-тип-void",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-024",
+        "title": "Служебный тип `void`",
+        "section": "служебный-тип-void",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-025",
+        "title": "Служебный тип `void`",
+        "section": "служебный-тип-void",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-026",
+        "title": "Служебный тип `void`",
+        "section": "служебный-тип-void",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-027",
+        "title": "`signed` и `unsigned`",
+        "section": "signed-и-unsigned",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-028",
+        "title": "`const`",
+        "section": "const",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-029",
+        "title": "`const`",
+        "section": "const",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-030",
+        "title": "`volatile`",
+        "section": "volatile",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-031",
+        "title": "`mutable`",
+        "section": "mutable",
+        "blocks": 1,
+        "lines": 33
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-032",
+        "title": "Указатели",
+        "section": "указатели",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-033",
+        "title": "Ссылки",
+        "section": "ссылки",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-034",
+        "title": "Статический массив (размер известен на этапе компиляции)",
+        "section": "статический-массив-размер-известен-на-этапе-комп",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-035",
+        "title": "Многомерный массив",
+        "section": "многомерный-массив",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-036",
+        "title": "Массив символов (C-style строка)",
+        "section": "массив-символов-c-style-строка",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-037",
+        "title": "Перечисления (`enum`)",
+        "section": "перечисления-enum",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-038",
+        "title": "Объединения (`union`)",
+        "section": "объединения-union",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-039",
+        "title": "Структуры (`struct`) и классы (`class`)",
+        "section": "структуры-struct-и-классы-class",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-040",
+        "title": "Структуры (`struct`) и классы (`class`)",
+        "section": "структуры-struct-и-классы-class",
+        "blocks": 1,
+        "lines": 42
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-041",
+        "title": "C-style строки (массивы символов)",
+        "section": "c-style-строки-массивы-символов",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-042",
+        "title": "Строки через `std::string`",
+        "section": "строки-через-std-string",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-043",
+        "title": "Практические примеры — типы данных в действии",
+        "section": "практические-примеры-типы-данных-в-действии",
+        "blocks": 1,
+        "lines": 71
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-044",
+        "title": "Пользовательские литералы",
+        "section": "пользовательские-литералы",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "11",
+        "slug": "cpp/cpp-506-11-045",
+        "title": "SFINAE — Substitution Failure Is Not An Error",
+        "section": "sfinae-substitution-failure-is-not-an-error",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "12": [
+      {
+        "article": "12",
+        "slug": "cpp/cpp-506-12-001",
+        "title": "Перегрузка операторов",
+        "section": "перегрузка-операторов",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "12",
+        "slug": "cpp/cpp-506-12-002",
+        "title": "Пример — минимальный \"умный указатель\"",
+        "section": "пример-минимальный-умный-указатель",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "12",
+        "slug": "cpp/cpp-506-12-003",
+        "title": "Рекомендуемый способ — свободная функция `friend`",
+        "section": "рекомендуемый-способ-свободная-функция-friend",
+        "blocks": 1,
+        "lines": 47
+      }
+    ],
+    "13": [
+      {
+        "article": "13",
+        "slug": "cpp/cpp-506-13-001",
+        "title": "Низкоуровневый контроль: `std::thread` и разделение диапазона",
+        "section": "низкоуровневый-контроль-std-thread-и-разделение-",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "13",
+        "slug": "cpp/cpp-506-13-002",
+        "title": "Методы-члены",
+        "section": "методы-члены",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "14": [
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-001",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 43
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-002",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 34
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-003",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 26
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-004",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-005",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 27
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-006",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-007",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-008",
+        "title": "ООП в C++",
+        "section": "ооп-в-c",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-009",
+        "title": "Пример класса в C++",
+        "section": "пример-класса-в-c",
+        "blocks": 1,
+        "lines": 60
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-010",
+        "title": "Модификаторы доступа",
+        "section": "модификаторы-доступа",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-011",
+        "title": "Множественное наследование и виртуальное наследование",
+        "section": "множественное-наследование-и-виртуальное-наследо",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-012",
+        "title": "Конструкторы",
+        "section": "конструкторы",
+        "blocks": 1,
+        "lines": 20
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-013",
+        "title": "Правило пяти (Rule of Five)",
+        "section": "правило-пяти-rule-of-five",
+        "blocks": 1,
+        "lines": 46
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-014",
+        "title": "Перегрузка операторов",
+        "section": "перегрузка-операторов",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-015",
+        "title": "Специализации",
+        "section": "специализации",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-016",
+        "title": "SFINAE — \"Substitution Failure Is Not An Error\"",
+        "section": "sfinae-substitution-failure-is-not-an-error",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-017",
+        "title": "Концепции (C++20) — читаемость вместо SFINAE",
+        "section": "концепции-c-20-читаемость-вместо-sfinae",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "14",
+        "slug": "cpp/cpp-506-14-018",
+        "title": "Алгоритмы",
+        "section": "алгоритмы",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "17": [
+      {
+        "article": "17",
+        "slug": "cpp/cpp-506-17-001",
+        "title": "`std::function` — универсальная обёртка",
+        "section": "std-function-универсальная-обёртка",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "18": [
+      {
+        "article": "18",
+        "slug": "cpp/cpp-506-18-001",
+        "title": "Структура пользовательской библиотеки",
+        "section": "структура-пользовательской-библиотеки",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "19": [
+      {
+        "article": "19",
+        "slug": "cpp/cpp-506-19-001",
+        "title": "RAII — Resource Acquisition Is Initialization",
+        "section": "raii-resource-acquisition-is-initialization",
+        "blocks": 1,
+        "lines": 28
+      },
+      {
+        "article": "19",
+        "slug": "cpp/cpp-506-19-002",
+        "title": "Пример — arena-аллокатор",
+        "section": "пример-arena-аллокатор",
+        "blocks": 1,
+        "lines": 52
+      }
+    ],
+    "21": [
+      {
+        "article": "21",
+        "slug": "cpp/cpp-506-21-001",
+        "title": "Мини-практика — безопасная обёртка над файловым дескриптором",
+        "section": "мини-практика-безопасная-обёртка-над-файловым-де",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "22": [
+      {
+        "article": "22",
+        "slug": "cpp/cpp-506-22-001",
+        "title": "Мини-практика — каркас игрового цикла",
+        "section": "мини-практика-каркас-игрового-цикла",
+        "blocks": 1,
+        "lines": 17
+      }
+    ],
+    "25": [
+      {
+        "article": "25",
+        "slug": "cpp/cpp-506-25-001",
+        "title": "Мини-практика — TCP клиент с базовой проверкой ошибок",
+        "section": "мини-практика-tcp-клиент-с-базовой-проверкой-оши",
+        "blocks": 1,
+        "lines": 34
+      }
+    ],
+    "26": [
+      {
+        "article": "26",
+        "slug": "cpp/cpp-506-26-001",
+        "title": "Move-конструктор и move-оператор присваивания",
+        "section": "move-конструктор-и-move-оператор-присваивания",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "26",
+        "slug": "cpp/cpp-506-26-002",
+        "title": "CRTP (Curiously Recurring Template Pattern)",
+        "section": "crtp-curiously-recurring-template-pattern",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "26",
+        "slug": "cpp/cpp-506-26-003",
+        "title": "Policy-Based Проектирование",
+        "section": "policy-based-проектирование",
+        "blocks": 1,
+        "lines": 20
+      }
+    ],
+    "28": [
+      {
+        "article": "28",
+        "slug": "cpp/cpp-506-28-001",
+        "title": "Классы",
+        "section": "классы",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "28",
+        "slug": "cpp/cpp-506-28-002",
+        "title": "Стандартная библиотека C++",
+        "section": "стандартная-библиотека-c",
+        "blocks": 1,
+        "lines": 28
+      }
+    ],
+    "30": [
+      {
+        "article": "30",
+        "slug": "cpp/cpp-506-30-001",
+        "title": "`std::unique_ptr` с custom deleter",
+        "section": "std-unique-ptr-с-custom-deleter",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "101": [
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-001",
+        "title": "Фигурные скобки",
+        "section": "фигурные-скобки",
+        "blocks": 1,
+        "lines": 17
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-002",
+        "title": "Пустые строки",
+        "section": "пустые-строки",
+        "blocks": 1,
+        "lines": 16
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-003",
+        "title": "Заголовочные файлы и файлы реализации",
+        "section": "заголовочные-файлы-и-файлы-реализации",
+        "blocks": 1,
+        "lines": 24
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-004",
+        "title": "Заголовочные файлы и файлы реализации",
+        "section": "заголовочные-файлы-и-файлы-реализации",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-005",
+        "title": "Правила включения заголовков",
+        "section": "правила-включения-заголовков",
+        "blocks": 1,
+        "lines": 15
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-006",
+        "title": "Принцип единственной ответственности",
+        "section": "принцип-единственной-ответственности",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-007",
+        "title": "RAII и управление ресурсами",
+        "section": "raii-и-управление-ресурсами",
+        "blocks": 1,
+        "lines": 45
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-008",
+        "title": "Инкапсуляция и сокрытие реализации",
+        "section": "инкапсуляция-и-сокрытие-реализации",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-009",
+        "title": "Интерфейсы и абстрактные базовые классы",
+        "section": "интерфейсы-и-абстрактные-базовые-классы",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-010",
+        "title": "Умные указатели",
+        "section": "умные-указатели",
+        "blocks": 1,
+        "lines": 18
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-011",
+        "title": "Перемещение и копирование",
+        "section": "перемещение-и-копирование",
+        "blocks": 1,
+        "lines": 29
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-012",
+        "title": "Проверка входных параметров",
+        "section": "проверка-входных-параметров",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "101",
+        "slug": "cpp/cpp-506-101-013",
+        "title": "Тестирование взаимодействия с внешними системами",
+        "section": "тестирование-взаимодействия-с-внешними-системами",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "141": [
+      {
+        "article": "141",
+        "slug": "cpp/cpp-506-141-001",
+        "title": "Интерфейсы без наследования реализации",
+        "section": "интерфейсы-без-наследования-реализации",
+        "blocks": 1,
+        "lines": 19
+      }
+    ],
+    "142": [
+      {
+        "article": "142",
+        "slug": "cpp/cpp-506-142-001",
+        "title": "typeid",
+        "section": "typeid",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "143": [
+      {
+        "article": "143",
+        "slug": "cpp/cpp-506-143-001",
+        "title": "Вложенные классы (nested)",
+        "section": "вложенные-классы-nested",
+        "blocks": 1,
+        "lines": 16
+      }
+    ],
+    "192": [
+      {
+        "article": "192",
+        "slug": "cpp/cpp-506-192-001",
+        "title": "Базовый синтаксис",
+        "section": "базовый-синтаксис",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "192",
+        "slug": "cpp/cpp-506-192-002",
+        "title": "Раскрутка стека (stack unwinding)",
+        "section": "раскрутка-стека-stack-unwinding",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "1002": [
+      {
+        "article": "1002",
+        "slug": "cpp/cpp-506-1002-001",
+        "title": "Запуск проекта",
+        "section": "запуск-проекта",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "1005": [
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-001",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 44
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-002",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-003",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 39
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-004",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-005",
+        "title": "Код сервера",
+        "section": "код-сервера",
+        "blocks": 1,
+        "lines": 54
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-006",
+        "title": "Код клиента",
+        "section": "код-клиента",
+        "blocks": 1,
+        "lines": 30
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-007",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 58
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-008",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 36
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-009",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 38
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-010",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 31
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-011",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 88
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-012",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 37
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-013",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "1005",
+        "slug": "cpp/cpp-506-1005-014",
+        "title": "Код программы",
+        "section": "код-программы",
+        "blocks": 1,
+        "lines": 73
+      }
+    ],
+    "1007": [
+      {
+        "article": "1007",
+        "slug": "text/cpp-506-1007-001",
+        "title": "Google Test + CMake (FetchContent)",
+        "section": "google-test-cmake-fetchcontent",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "2731": [
+      {
+        "article": "2731",
+        "slug": "cpp/cpp-506-2731-001",
+        "title": "main.cpp — полный код и разбор",
+        "section": "main-cpp-полный-код-и-разбор",
+        "blocks": 1,
+        "lines": 29
+      }
+    ],
+    "2732": [
+      {
+        "article": "2732",
+        "slug": "text/cpp-506-2732-001",
+        "title": "CMakeLists.txt",
+        "section": "cmakelists-txt",
+        "blocks": 1,
+        "lines": 22
+      },
+      {
+        "article": "2732",
+        "slug": "cpp/cpp-506-2732-002",
+        "title": "Модель на C++ — `Q_PROPERTY`",
+        "section": "модель-на-c-q-property",
+        "blocks": 1,
+        "lines": 25
+      },
+      {
+        "article": "2732",
+        "slug": "cpp/cpp-506-2732-003",
+        "title": "main.cpp — движок и контекст",
+        "section": "main-cpp-движок-и-контекст",
+        "blocks": 1,
+        "lines": 19
+      },
+      {
+        "article": "2732",
+        "slug": "text/cpp-506-2732-004",
+        "title": "Main.qml — разбор",
+        "section": "main-qml-разбор",
+        "blocks": 1,
+        "lines": 25
+      }
+    ],
+    "2741": [
+      {
+        "article": "2741",
+        "slug": "cpp/cpp-506-2741-001",
+        "title": "Минимальное окно и игровой цикл",
+        "section": "минимальное-окно-и-игровой-цикл",
+        "blocks": 1,
+        "lines": 21
+      }
+    ],
+    "2742": [
+      {
+        "article": "2742",
+        "slug": "cpp/cpp-506-2742-001",
+        "title": "Минимальный цикл на SDL_Renderer",
+        "section": "минимальный-цикл-на-sdl-renderer",
+        "blocks": 1,
+        "lines": 35
+      }
+    ],
+    "2743": [
+      {
+        "article": "2743",
+        "slug": "cpp/cpp-506-2743-001",
+        "title": "Минимальный 2D-пример",
+        "section": "минимальный-2d-пример",
+        "blocks": 1,
+        "lines": 15
+      }
+    ],
+    "2744": [
+      {
+        "article": "2744",
+        "slug": "cpp/cpp-506-2744-001",
+        "title": "Минимальный 2D-цикл",
+        "section": "минимальный-2d-цикл",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "2744",
+        "slug": "cpp/cpp-506-2744-002",
+        "title": "Простой 3D",
+        "section": "простой-3d",
+        "blocks": 1,
+        "lines": 18
+      }
+    ],
+    "2745": [
+      {
+        "article": "2745",
+        "slug": "cpp/cpp-506-2745-001",
+        "title": "Минимальный каркас на C++ с GLFW и GLAD",
+        "section": "минимальный-каркас-на-c-с-glfw-и-glad",
+        "blocks": 1,
+        "lines": 32
+      }
+    ]
+  }
+}

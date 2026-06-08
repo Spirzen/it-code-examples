@@ -1,0 +1,14 @@
+{
+  "title": "Первые шаги с SQL — Создание процедуры с использованием JOIN",
+  "description": "Фрагмент из «Первые шаги с SQL»: Создание процедуры с использованием JOIN.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 1,
+  "series": "sql-101",
+  "seriesOrder": 1,
+  "seriesTitle": "Первые шаги с SQL",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/101"
+}

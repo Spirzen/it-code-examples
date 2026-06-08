@@ -1,0 +1,14 @@
+{
+  "title": "Практикум Swing — XML-валидатор — Почему `SwingWorker`, а не голый `Thread`",
+  "description": "Фрагмент из «Практикум Swing — XML-валидатор»: Почему `SwingWorker`, а не голый `Thread`.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "253"
+  ],
+  "order": 6,
+  "series": "java-503-253",
+  "seriesOrder": 6,
+  "seriesTitle": "Практикум Swing — XML-валидатор",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/253"
+}

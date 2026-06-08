@@ -1,0 +1,14 @@
+{
+  "title": "Справочник по ассемблеру — Сборка с использованием libc",
+  "description": "Фрагмент из «Справочник по ассемблеру»: Сборка с использованием libc.",
+  "tags": [
+    "assembler",
+    "encyclopedia",
+    "711"
+  ],
+  "order": 7,
+  "series": "assembler-516-711",
+  "seriesOrder": 7,
+  "seriesTitle": "Справочник по ассемблеру",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-16-starye-yazyki/assembler/711"
+}

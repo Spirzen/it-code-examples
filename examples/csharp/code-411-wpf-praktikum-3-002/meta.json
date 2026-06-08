@@ -1,0 +1,14 @@
+{
+  "title": "Практикум WPF — сервер ASP.NET Core Web API — Контроллер REST",
+  "description": "Фрагмент из «Практикум WPF — сервер ASP.NET Core Web API»: Контроллер REST.",
+  "tags": [
+    "desktop",
+    "encyclopedia",
+    "wpf-praktikum-3"
+  ],
+  "order": 2,
+  "series": "code-411-wpf-praktikum-3",
+  "seriesOrder": 2,
+  "seriesTitle": "Практикум WPF — сервер ASP.NET Core Web API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-11-desktopnye-prilozheniya/wpf-praktikum/3"
+}

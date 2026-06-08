@@ -1,0 +1,14 @@
+{
+  "title": "Асинхронность в Java — CompletableFuture",
+  "description": "Фрагмент из «Асинхронность в Java»: CompletableFuture.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "298"
+  ],
+  "order": 1,
+  "series": "java-503-298",
+  "seriesOrder": 1,
+  "seriesTitle": "Асинхронность в Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/298"
+}

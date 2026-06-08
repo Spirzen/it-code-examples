@@ -1,0 +1,14 @@
+{
+  "title": "Первая программа на Fiber — REST API \"Заметки\"",
+  "description": "Фрагмент из «Первая программа на Fiber»: REST API \"Заметки\".",
+  "tags": [
+    "go",
+    "encyclopedia",
+    "2414"
+  ],
+  "order": 1,
+  "series": "go-510-2414",
+  "seriesOrder": 1,
+  "seriesTitle": "Первая программа на Fiber",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-go/2414"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "TypeScript и Node.js — Слои: DTO, domain, persistence",
+  "description": "Фрагмент из «TypeScript и Node.js»: Слои: DTO, domain, persistence.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "22"
+  ],
+  "order": 1,
+  "series": "typescript-510-22",
+  "seriesOrder": 1,
+  "seriesTitle": "TypeScript и Node.js",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/22"
+}

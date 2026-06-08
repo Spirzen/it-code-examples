@@ -1,0 +1,17 @@
+- alert: MemcachedLowHitRatio
+  expr: rate(memcached_get_hits_total[5m]) / (rate(memcached_get_hits_total[5m]) + rate(memcached_get_misses_total[5m])) < 0.85
+  for: 10m
+  labels:
+    severity: warning
+
+- alert: MemcachedEvictionNonZero
+  expr: rate(memcached_evicted_nonzero_total[5m]) > 0.1  # >1 раз в 10 сек
+  for: 5m
+  labels:
+    severity: warning
+
+- alert: MemcachedOutOfMemory
+  expr: memcached_listen_disabled_num > 0
+  for: 1m
+  labels:
+    severity: critical

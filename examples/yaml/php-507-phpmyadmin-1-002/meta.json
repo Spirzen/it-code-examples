@@ -1,0 +1,14 @@
+{
+  "title": "phpMyAdmin — что это и где встретить — Разбор — phpMyAdmin в Docker Compose",
+  "description": "Фрагмент из «phpMyAdmin — что это и где встретить»: Разбор — phpMyAdmin в Docker Compose.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "phpmyadmin-1"
+  ],
+  "order": 2,
+  "series": "php-507-phpmyadmin-1",
+  "seriesOrder": 2,
+  "seriesTitle": "phpMyAdmin — что это и где встретить",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/phpmyadmin/1"
+}

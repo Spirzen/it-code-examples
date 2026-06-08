@@ -1,0 +1,14 @@
+{
+  "title": "PostgreSQL — практическая работа и API — Java — JDBC PostgreSQL Driver",
+  "description": "Фрагмент из «PostgreSQL — практическая работа и API»: Java — JDBC PostgreSQL Driver.",
+  "tags": [
+    "sql",
+    "encyclopedia",
+    "888"
+  ],
+  "order": 3,
+  "series": "sql-888",
+  "seriesOrder": 3,
+  "seriesTitle": "PostgreSQL — практическая работа и API",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-07-sql/888"
+}

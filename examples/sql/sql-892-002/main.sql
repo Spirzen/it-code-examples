@@ -1,0 +1,19 @@
+INSERT INTO TABLE1 (ID1, NAME1, DESCRIPTION1, NUM1, IDFROMTABLE2, IDFROMTABLE3)
+VALUES (1, 'Пример', 'Описание', 100, 2, 3);
+
+UPDATE TABLE1
+SET NAME1 = 'Новое имя', NUM1 = 200
+WHERE ID1 = 1;
+
+UPDATE TABLE1
+SET DESCRIPTION1 = 'Новое описание'
+WHERE ID1 = 1;
+
+-- без WHERE затронет все строки — только осознанно
+UPDATE TABLE1
+SET DESCRIPTION1 = 'Обновленное описание';
+
+DELETE FROM TABLE1
+WHERE ID1 = 1;
+
+DROP TABLE IF EXISTS TABLE1;

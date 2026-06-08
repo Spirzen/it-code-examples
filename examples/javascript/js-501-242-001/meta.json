@@ -1,0 +1,14 @@
+{
+  "title": "Обработка исключений в JavaScript — Синтаксис: try / catch / finally",
+  "description": "Фрагмент из «Обработка исключений в JavaScript»: Синтаксис: try / catch / finally.",
+  "tags": [
+    "javascript",
+    "encyclopedia",
+    "242"
+  ],
+  "order": 1,
+  "series": "js-501-242",
+  "seriesOrder": 1,
+  "seriesTitle": "Обработка исключений в JavaScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-01-javascript/242"
+}

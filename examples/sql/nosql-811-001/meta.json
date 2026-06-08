@@ -1,0 +1,14 @@
+{
+  "title": "NewSQL - гибридные системы нового поколения — Мини-практикум — CockroachDB и SQL",
+  "description": "Фрагмент из «NewSQL - гибридные системы нового поколения»: Мини-практикум — CockroachDB и SQL.",
+  "tags": [
+    "nosql",
+    "encyclopedia",
+    "811"
+  ],
+  "order": 1,
+  "series": "nosql-811",
+  "seriesOrder": 1,
+  "seriesTitle": "NewSQL - гибридные системы нового поколения",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/3-data-markup/3-06-nosql/811"
+}

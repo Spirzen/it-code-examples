@@ -1,0 +1,14 @@
+{
+  "performanceBudget": {
+    "timeToInteractive": 3500,
+    "firstContentfulPaint": 1800,
+    "largestContentfulPaint": 2500,
+    "cumulativeLayoutShift": 0.1,
+    "totalBlockingTime": 200,
+    "resourceSizes": {
+      "total": 1572864,
+      "scripts": 524288,
+      "images": 786432
+    }
+  }
+}

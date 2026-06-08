@@ -1,0 +1,14 @@
+{
+  "title": "Интеграции — Basic, Bearer и mTLS на практике — TypeScript",
+  "description": "Фрагмент из «Интеграции — Basic, Bearer и mTLS на практике»: TypeScript.",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-05-mikroservisy-i-integratsiya-134"
+  ],
+  "order": 3,
+  "series": "infra-security-8-8-05-mikroservisy-i-integratsiya-134",
+  "seriesOrder": 3,
+  "seriesTitle": "Интеграции — Basic, Bearer и mTLS на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-05-mikroservisy-i-integratsiya/134"
+}

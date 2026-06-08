@@ -1,0 +1,14 @@
+{
+  "title": "Объектно-ориентированные концепции в Rust — Ассоциированные типы и обобщённые трейты",
+  "description": "Фрагмент из «Объектно-ориентированные концепции в Rust»: Ассоциированные типы и обобщённые трейты.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "141"
+  ],
+  "order": 9,
+  "series": "rust-513-141",
+  "seriesOrder": 9,
+  "seriesTitle": "Объектно-ориентированные концепции в Rust",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

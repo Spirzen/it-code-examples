@@ -1,0 +1,16 @@
+{
+  "service": {
+    "name": "payment-service",
+    "tags": ["v1", "production"],
+    "port": 8080,
+    "address": "10.0.1.5",
+    "checks": [
+      {
+        "name": "HTTP health check",
+        "http": "http://10.0.1.5:8080/health",
+        "interval": "10s",
+        "timeout": "3s"
+      }
+    ]
+  }
+}

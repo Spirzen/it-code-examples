@@ -1,0 +1,14 @@
+{
+  "title": "Коллекции и массивы в TypeScript — `Map<K, V>` и `Set<T>`",
+  "description": "Фрагмент из «Коллекции и массивы в TypeScript»: `Map<K, V>` и `Set<T>`.",
+  "tags": [
+    "typescript",
+    "encyclopedia",
+    "19"
+  ],
+  "order": 1,
+  "series": "typescript-510-19",
+  "seriesOrder": 1,
+  "seriesTitle": "Коллекции и массивы в TypeScript",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-10-typescript/19"
+}

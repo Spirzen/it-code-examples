@@ -1,0 +1,14 @@
+{
+  "title": "Dockerfile — 5. Java Spring Boot (JAR)",
+  "description": "Фрагмент из «Dockerfile»: 5. Java Spring Boot (JAR).",
+  "tags": [
+    "infra-security",
+    "encyclopedia",
+    "8-06-konteynerizatsiya-i-orkestratsiya-116"
+  ],
+  "order": 5,
+  "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-116",
+  "seriesOrder": 5,
+  "seriesTitle": "Dockerfile",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/116"
+}

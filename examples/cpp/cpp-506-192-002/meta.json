@@ -1,0 +1,14 @@
+{
+  "title": "Обработка исключений в C++ — Раскрутка стека (stack unwinding)",
+  "description": "Фрагмент из «Обработка исключений в C++»: Раскрутка стека (stack unwinding).",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "192"
+  ],
+  "order": 2,
+  "series": "cpp-506-192",
+  "seriesOrder": 2,
+  "seriesTitle": "Обработка исключений в C++",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/192"
+}

@@ -1,0 +1,14 @@
+{
+  "title": "Рекомендации по разработке на Java — 8.2. Обработка ошибок в асинхронном коде",
+  "description": "Фрагмент из «Рекомендации по разработке на Java»: 8.2. Обработка ошибок в асинхронном коде.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "101"
+  ],
+  "order": 15,
+  "series": "java-503-101",
+  "seriesOrder": 15,
+  "seriesTitle": "Рекомендации по разработке на Java",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/101"
+}
