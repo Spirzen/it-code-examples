@@ -232,8 +232,8 @@ const CHAPTERS = [
   },
 ];
 
-const MARKER = '<!-- oop-practice-examples -->';
-const END_MARKER = '<!-- /oop-practice-examples -->';
+const MARKER = '{/* oop-practice-examples */}';
+const END_MARKER = '{/* /oop-practice-examples */}';
 
 function padNum(n) {
   return String(n).padStart(3, '0');
