@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Наследование",
+  "description": "Родитель Animal и дочерние Cat и Dog с общим eat() и своим speak().",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "oop-practice",
+    "25"
+  ],
+  "order": 3,
+  "series": "csharp-505-25-practice",
+  "seriesOrder": 3,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/25"
+}

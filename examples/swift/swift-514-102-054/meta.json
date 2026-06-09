@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Пользователь",
+  "description": "Скрытый пароль, вход в систему и публикация сообщений.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "oop-practice",
+    "102"
+  ],
+  "order": 8,
+  "series": "swift-514-102-practice",
+  "seriesOrder": 8,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/102"
+}

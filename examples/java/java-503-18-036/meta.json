@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Студент",
+  "description": "Список оценок, средний балл и проходной порог.",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "oop-practice",
+    "18"
+  ],
+  "order": 5,
+  "series": "java-503-18-practice",
+  "seriesOrder": 5,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/18"
+}

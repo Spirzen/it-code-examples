@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Смартфон",
+  "description": "Состояние объекта: заряд батареи, звонки и подзарядка.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "oop-practice",
+    "26"
+  ],
+  "order": 4,
+  "series": "py-502-26-practice",
+  "seriesOrder": 4,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/26"
+}

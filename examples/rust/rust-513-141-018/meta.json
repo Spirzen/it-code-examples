@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Пользователь",
+  "description": "Скрытый пароль, вход в систему и публикация сообщений.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "oop-practice",
+    "141"
+  ],
+  "order": 8,
+  "series": "rust-513-141-practice",
+  "seriesOrder": 8,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

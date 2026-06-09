@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Пользователь",
+  "description": "Скрытый пароль, вход в систему и публикация сообщений.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "oop-practice",
+    "25"
+  ],
+  "order": 8,
+  "series": "csharp-505-25-practice",
+  "seriesOrder": 8,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/25"
+}

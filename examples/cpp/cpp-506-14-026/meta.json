@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Пользователь",
+  "description": "Скрытый пароль, вход в систему и публикация сообщений.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "oop-practice",
+    "14"
+  ],
+  "order": 8,
+  "series": "cpp-506-14-practice",
+  "seriesOrder": 8,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/14"
+}

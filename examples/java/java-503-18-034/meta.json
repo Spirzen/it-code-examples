@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Наследование",
+  "description": "Родитель Animal и дочерние Cat и Dog с общим eat() и своим speak().",
+  "tags": [
+    "java",
+    "encyclopedia",
+    "oop-practice",
+    "18"
+  ],
+  "order": 3,
+  "series": "java-503-18-practice",
+  "seriesOrder": 3,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-03-java/18"
+}

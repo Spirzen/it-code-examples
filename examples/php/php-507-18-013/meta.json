@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Класс и объект",
+  "description": "Чертёж класса Figure и конкретные объекты — круг и квадрат.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "oop-practice",
+    "18"
+  ],
+  "order": 1,
+  "series": "php-507-18-practice",
+  "seriesOrder": 1,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/18"
+}

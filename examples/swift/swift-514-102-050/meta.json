@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Смартфон",
+  "description": "Состояние объекта: заряд батареи, звонки и подзарядка.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "oop-practice",
+    "102"
+  ],
+  "order": 4,
+  "series": "swift-514-102-practice",
+  "seriesOrder": 4,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/102"
+}

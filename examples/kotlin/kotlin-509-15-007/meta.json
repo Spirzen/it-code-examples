@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Корзина покупок",
+  "description": "Взаимодействие Product, Cart и Order при оформлении заказа.",
+  "tags": [
+    "kotlin",
+    "encyclopedia",
+    "oop-practice",
+    "15"
+  ],
+  "order": 6,
+  "series": "kotlin-509-15-practice",
+  "seriesOrder": 6,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-09-kotlin/15"
+}

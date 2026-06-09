@@ -56,7 +56,8 @@
     "migrate:dart-section": "node scripts/migrate-language-section-examples-from-kb.mjs dart",
     "migrate:r-section": "node scripts/migrate-language-section-examples-from-kb.mjs r",
     "migrate:julia": "node scripts/migrate-language-section-examples-from-kb.mjs julia",
-    "migrate:infra-security": "node scripts/migrate-infra-security-examples-from-kb.mjs"
+    "migrate:infra-security": "node scripts/migrate-infra-security-examples-from-kb.mjs",
+    "generate:oop-practice": "node scripts/generate-oop-practice-examples.mjs"
   },
   "dependencies": {
     "astro": "^5.10.0"

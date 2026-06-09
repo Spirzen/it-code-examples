@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Класс и объект",
+  "description": "Чертёж класса Figure и конкретные объекты — круг и квадрат.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "oop-practice",
+    "26"
+  ],
+  "order": 1,
+  "series": "py-502-26-practice",
+  "seriesOrder": 1,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/26"
+}

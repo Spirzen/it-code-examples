@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Наследование",
+  "description": "Родитель Animal и дочерние Cat и Dog с общим eat() и своим speak().",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "oop-practice",
+    "141"
+  ],
+  "order": 3,
+  "series": "rust-513-141-practice",
+  "seriesOrder": 3,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

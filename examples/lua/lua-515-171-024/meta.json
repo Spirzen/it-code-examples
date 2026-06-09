@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Наследование",
+  "description": "Родитель Animal и дочерние Cat и Dog с общим eat() и своим speak().",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "oop-practice",
+    "171"
+  ],
+  "order": 3,
+  "series": "lua-515-171-practice",
+  "seriesOrder": 3,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/171"
+}

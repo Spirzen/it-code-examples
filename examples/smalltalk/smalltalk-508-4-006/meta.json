@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Смартфон",
+  "description": "Состояние объекта: заряд батареи, звонки и подзарядка.",
+  "tags": [
+    "smalltalk",
+    "encyclopedia",
+    "oop-practice",
+    "4"
+  ],
+  "order": 4,
+  "series": "smalltalk-508-4-practice",
+  "seriesOrder": 4,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-08-smalltalk/4"
+}

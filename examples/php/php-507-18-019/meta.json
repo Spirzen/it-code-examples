@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Автомобиль",
+  "description": "Пробег, расход топлива и напоминание о техобслуживании.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "oop-practice",
+    "18"
+  ],
+  "order": 7,
+  "series": "php-507-18-practice",
+  "seriesOrder": 7,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/18"
+}

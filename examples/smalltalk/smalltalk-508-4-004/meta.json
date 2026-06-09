@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Банковский счёт",
+  "description": "Инкапсуляция: скрытое поле баланса и методы deposit/withdraw.",
+  "tags": [
+    "smalltalk",
+    "encyclopedia",
+    "oop-practice",
+    "4"
+  ],
+  "order": 2,
+  "series": "smalltalk-508-4-practice",
+  "seriesOrder": 2,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-08-smalltalk/4"
+}

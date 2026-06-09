@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Банковский счёт",
+  "description": "Инкапсуляция: скрытое поле баланса и методы deposit/withdraw.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "oop-practice",
+    "15"
+  ],
+  "order": 2,
+  "series": "groovy-512-15-practice",
+  "seriesOrder": 2,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/15"
+}

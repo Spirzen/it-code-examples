@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Студент",
+  "description": "Список оценок, средний балл и проходной порог.",
+  "tags": [
+    "smalltalk",
+    "encyclopedia",
+    "oop-practice",
+    "4"
+  ],
+  "order": 5,
+  "series": "smalltalk-508-4-practice",
+  "seriesOrder": 5,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-08-smalltalk/4"
+}

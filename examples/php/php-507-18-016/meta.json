@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Смартфон",
+  "description": "Состояние объекта: заряд батареи, звонки и подзарядка.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "oop-practice",
+    "18"
+  ],
+  "order": 4,
+  "series": "php-507-18-practice",
+  "seriesOrder": 4,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/18"
+}

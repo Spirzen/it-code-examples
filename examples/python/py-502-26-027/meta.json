@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Пользователь",
+  "description": "Скрытый пароль, вход в систему и публикация сообщений.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "oop-practice",
+    "26"
+  ],
+  "order": 8,
+  "series": "py-502-26-practice",
+  "seriesOrder": 8,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/26"
+}

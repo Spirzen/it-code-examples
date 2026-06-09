@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Банковский счёт",
+  "description": "Инкапсуляция: скрытое поле баланса и методы deposit/withdraw.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "oop-practice",
+    "25"
+  ],
+  "order": 2,
+  "series": "csharp-505-25-practice",
+  "seriesOrder": 2,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/25"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Банковский счёт",
+  "description": "Инкапсуляция: скрытое поле баланса и методы deposit/withdraw.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "oop-practice",
+    "141"
+  ],
+  "order": 2,
+  "series": "rust-513-141-practice",
+  "seriesOrder": 2,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

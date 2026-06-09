@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Корзина покупок",
+  "description": "Взаимодействие Product, Cart и Order при оформлении заказа.",
+  "tags": [
+    "rust",
+    "encyclopedia",
+    "oop-practice",
+    "141"
+  ],
+  "order": 6,
+  "series": "rust-513-141-practice",
+  "seriesOrder": 6,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-13-rust/141"
+}

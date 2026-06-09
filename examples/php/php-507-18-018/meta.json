@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Корзина покупок",
+  "description": "Взаимодействие Product, Cart и Order при оформлении заказа.",
+  "tags": [
+    "php",
+    "encyclopedia",
+    "oop-practice",
+    "18"
+  ],
+  "order": 6,
+  "series": "php-507-18-practice",
+  "seriesOrder": 6,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-07-php/18"
+}

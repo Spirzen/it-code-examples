@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Наследование",
+  "description": "Родитель Animal и дочерние Cat и Dog с общим eat() и своим speak().",
+  "tags": [
+    "smalltalk",
+    "encyclopedia",
+    "oop-practice",
+    "4"
+  ],
+  "order": 3,
+  "series": "smalltalk-508-4-practice",
+  "seriesOrder": 3,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-08-smalltalk/4"
+}

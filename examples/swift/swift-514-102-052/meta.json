@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Корзина покупок",
+  "description": "Взаимодействие Product, Cart и Order при оформлении заказа.",
+  "tags": [
+    "swift",
+    "encyclopedia",
+    "oop-practice",
+    "102"
+  ],
+  "order": 6,
+  "series": "swift-514-102-practice",
+  "seriesOrder": 6,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-14-swift/102"
+}

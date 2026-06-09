@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Студент",
+  "description": "Список оценок, средний балл и проходной порог.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "oop-practice",
+    "26"
+  ],
+  "order": 5,
+  "series": "py-502-26-practice",
+  "seriesOrder": 5,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-02-python/26"
+}

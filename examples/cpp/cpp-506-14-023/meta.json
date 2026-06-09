@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Студент",
+  "description": "Список оценок, средний балл и проходной порог.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "oop-practice",
+    "14"
+  ],
+  "order": 5,
+  "series": "cpp-506-14-practice",
+  "seriesOrder": 5,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/14"
+}

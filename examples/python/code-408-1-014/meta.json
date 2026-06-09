@@ -1,0 +1,15 @@
+{
+  "title": "ООП на практике — Корзина покупок",
+  "description": "Взаимодействие Product, Cart и Order при оформлении заказа.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "oop-practice",
+    "oop-practice"
+  ],
+  "order": 6,
+  "series": "code-408-1-practice",
+  "seriesOrder": 6,
+  "seriesTitle": "ООП на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-08-oop/1"
+}

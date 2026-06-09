@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Класс и объект",
+  "description": "Чертёж класса Figure и конкретные объекты — круг и квадрат.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "oop-practice",
+    "171"
+  ],
+  "order": 1,
+  "series": "lua-515-171-practice",
+  "seriesOrder": 1,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/171"
+}

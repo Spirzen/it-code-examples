@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Банковский счёт",
+  "description": "Инкапсуляция: скрытое поле баланса и методы deposit/withdraw.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "oop-practice",
+    "171"
+  ],
+  "order": 2,
+  "series": "lua-515-171-practice",
+  "seriesOrder": 2,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/171"
+}

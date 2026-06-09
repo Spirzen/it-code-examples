@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Корзина покупок",
+  "description": "Взаимодействие Product, Cart и Order при оформлении заказа.",
+  "tags": [
+    "smalltalk",
+    "encyclopedia",
+    "oop-practice",
+    "4"
+  ],
+  "order": 6,
+  "series": "smalltalk-508-4-practice",
+  "seriesOrder": 6,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-08-smalltalk/4"
+}

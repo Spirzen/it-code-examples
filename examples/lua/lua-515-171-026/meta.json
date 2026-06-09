@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Студент",
+  "description": "Список оценок, средний балл и проходной порог.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "oop-practice",
+    "171"
+  ],
+  "order": 5,
+  "series": "lua-515-171-practice",
+  "seriesOrder": 5,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/171"
+}

@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Класс и объект",
+  "description": "Чертёж класса Figure и конкретные объекты — круг и квадрат.",
+  "tags": [
+    "cpp",
+    "encyclopedia",
+    "oop-practice",
+    "14"
+  ],
+  "order": 1,
+  "series": "cpp-506-14-practice",
+  "seriesOrder": 1,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-06-cpp/14"
+}

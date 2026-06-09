@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Автомобиль",
+  "description": "Пробег, расход топлива и напоминание о техобслуживании.",
+  "tags": [
+    "lua",
+    "encyclopedia",
+    "oop-practice",
+    "171"
+  ],
+  "order": 7,
+  "series": "lua-515-171-practice",
+  "seriesOrder": 7,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-15-lua-i-luau/171"
+}

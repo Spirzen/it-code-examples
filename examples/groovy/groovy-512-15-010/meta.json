@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Смартфон",
+  "description": "Состояние объекта: заряд батареи, звонки и подзарядка.",
+  "tags": [
+    "groovy",
+    "encyclopedia",
+    "oop-practice",
+    "15"
+  ],
+  "order": 4,
+  "series": "groovy-512-15-practice",
+  "seriesOrder": 4,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-12-groovy/15"
+}

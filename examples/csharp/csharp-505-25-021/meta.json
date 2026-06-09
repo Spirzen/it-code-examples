@@ -1,0 +1,15 @@
+{
+  "title": "Учебные примеры ООП — Класс и объект",
+  "description": "Чертёж класса Figure и конкретные объекты — круг и квадрат.",
+  "tags": [
+    "csharp",
+    "encyclopedia",
+    "oop-practice",
+    "25"
+  ],
+  "order": 1,
+  "series": "csharp-505-25-practice",
+  "seriesOrder": 1,
+  "seriesTitle": "Учебные примеры ООП",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/5-languages/5-05-csharp/25"
+}

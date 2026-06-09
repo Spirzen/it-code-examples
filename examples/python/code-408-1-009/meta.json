@@ -1,0 +1,15 @@
+{
+  "title": "ООП на практике — Класс и объект",
+  "description": "Чертёж класса Figure и конкретные объекты — круг и квадрат.",
+  "tags": [
+    "python",
+    "encyclopedia",
+    "oop-practice",
+    "oop-practice"
+  ],
+  "order": 1,
+  "series": "code-408-1-practice",
+  "seriesOrder": 1,
+  "seriesTitle": "ООП на практике",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-08-oop/1"
+}
