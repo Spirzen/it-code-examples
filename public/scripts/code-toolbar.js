@@ -79,24 +79,88 @@
     return parts.length ? parts.join(' · ') : 'Код';
   }
 
+  function copyWithExecCommand(text) {
+    try {
+      var ta = document.createElement('textarea');
+      ta.value = text;
+      ta.setAttribute('readonly', '');
+      ta.style.cssText = 'position:fixed;left:-9999px;top:0;opacity:0;pointer-events:none';
+      document.body.appendChild(ta);
+      ta.focus();
+      ta.select();
+      var ok = document.execCommand('copy');
+      document.body.removeChild(ta);
+      return ok;
+    } catch (e) {
+      return false;
+    }
+  }
+
+  function copyViaParent(text) {
+    return new Promise(function (resolve) {
+      if (!isEmbedContext() || window.parent === window) {
+        resolve(false);
+        return;
+      }
+      var id = 'copy-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8);
+      var settled = false;
+
+      function finish(ok) {
+        if (settled) return;
+        settled = true;
+        window.removeEventListener('message', onMessage);
+        clearTimeout(timer);
+        resolve(Boolean(ok));
+      }
+
+      function onMessage(event) {
+        var data = event.data;
+        if (!data || data.type !== 'it-code-copy-result' || data.id !== id) return;
+        finish(data.ok);
+      }
+
+      var timer = setTimeout(function () {
+        finish(false);
+      }, 2000);
+
+      window.addEventListener('message', onMessage);
+      postToParent({type: 'it-code-copy', id: id, text: text});
+    });
+  }
+
   function copyText(text, btn, okLabel) {
     var label = btn.textContent;
-    navigator.clipboard
-      .writeText(text)
-      .then(function () {
-        btn.textContent = okLabel || 'Скопировано';
-        btn.classList.add('is-copied');
-        setTimeout(function () {
-          btn.textContent = label;
-          btn.classList.remove('is-copied');
-        }, 1600);
-      })
-      .catch(function () {
-        btn.textContent = 'Ошибка';
-        setTimeout(function () {
-          btn.textContent = label;
-        }, 1600);
-      });
+
+    function onSuccess() {
+      btn.textContent = okLabel || 'Скопировано';
+      btn.classList.add('is-copied');
+      setTimeout(function () {
+        btn.textContent = label;
+        btn.classList.remove('is-copied');
+      }, 1600);
+    }
+
+    function onError() {
+      btn.textContent = 'Ошибка';
+      setTimeout(function () {
+        btn.textContent = label;
+      }, 1600);
+    }
+
+    function attempt() {
+      if (navigator.clipboard && navigator.clipboard.writeText) {
+        return navigator.clipboard.writeText(text).catch(function () {
+          if (copyWithExecCommand(text)) return;
+          if (isEmbedContext()) return copyViaParent(text);
+          throw new Error('copy failed');
+        });
+      }
+      if (copyWithExecCommand(text)) return Promise.resolve();
+      if (isEmbedContext()) return copyViaParent(text);
+      return Promise.reject(new Error('copy failed'));
+    }
+
+    attempt().then(onSuccess).catch(onError);
   }
 
   var dialog = null;
