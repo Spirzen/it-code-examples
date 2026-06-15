@@ -1,14 +1,16 @@
 {
-  "title": "Docker — Краткая шпаргалка kubectl",
-  "description": "Фрагмент из «Docker»: Краткая шпаргалка kubectl.",
+  "title": "Краткая шпаргалка kubectl",
+  "description": "Типовые команды kubectl по категориям: конфигурация, просмотр, обновление, создание, масштабирование, отладка Pod и работа с Deployment/Service.",
   "tags": [
     "infra-security",
     "encyclopedia",
+    "kubernetes",
+    "kubectl",
     "8-06-konteynerizatsiya-i-orkestratsiya-111"
   ],
   "order": 3,
   "series": "infra-security-8-8-06-konteynerizatsiya-i-orkestratsiya-111",
   "seriesOrder": 3,
-  "seriesTitle": "Docker",
+  "seriesTitle": "Docker и Kubernetes",
   "encyclopediaUrl": "https://spirzen.ru/encyclopedia/8-infra-security/8-06-konteynerizatsiya-i-orkestratsiya/111"
 }
