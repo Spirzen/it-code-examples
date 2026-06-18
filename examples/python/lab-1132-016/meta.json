@@ -1,0 +1,13 @@
+{
+  "title": "Pygame — мини-игры на Python — 4.3. Крестики-нолики с ИИ",
+  "description": "Фрагмент из «Pygame — мини-игры на Python»: крестики-нолики 3×3, клик мыши и эвристический ИИ.",
+  "tags": [
+    "lab",
+    "1132"
+  ],
+  "order": 16,
+  "series": "lab-1132",
+  "seriesOrder": 16,
+  "seriesTitle": "Pygame — мини-игры на Python",
+  "encyclopediaUrl": "https://spirzen.ru/lab/Примеры/1132"
+}

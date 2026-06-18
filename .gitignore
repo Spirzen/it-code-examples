@@ -46,3 +46,7 @@ temp/
 *.bak
 deploy.bat
 start.bat
+
+# Python (если кто-то запускает примеры локально)
+__pycache__/
+*.py[cod]

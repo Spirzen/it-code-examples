@@ -2868,6 +2868,136 @@
         "blocks": 1,
         "lines": 48
       }
+    ],
+    "9-04-razrabotka-igr-praktikum-razrabotki-igr-11": [
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-001",
+        "title": "Этап 0 — минимальный запускаемый код",
+        "section": "этап-0-—-минимальный-запускаемый-код",
+        "blocks": 1,
+        "lines": 23
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-002",
+        "title": "Этап 1 — корабль игрока",
+        "section": "этап-1-—-корабль-игрока",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-003",
+        "title": "Этап 2 — стрельба",
+        "section": "этап-2-—-стрельба",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-004",
+        "title": "Этап 3 — сетка пришельцев",
+        "section": "этап-3-—-сетка-пришельцев",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-005",
+        "title": "Этап 4 — движение стаи",
+        "section": "этап-4-—-движение-стаи",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-006",
+        "title": "Этап 5 — попадания, счёт и ускорение",
+        "section": "этап-5-—-попадания,-счёт-и-ускорение",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-007",
+        "title": "Этап 6 — бомбы и жизни",
+        "section": "этап-6-—-бомбы-и-жизни",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-008",
+        "title": "Этап 7 — бонусная тарелка (UFO)",
+        "section": "этап-7-—-бонусная-тарелка-(ufo)",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-009",
+        "title": "Этап 8 — победа, поражение и рестарт",
+        "section": "этап-8-—-победа,-поражение-и-рестарт",
+        "blocks": 1,
+        "lines": 278
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-010",
+        "title": "settings.py",
+        "section": "settings.py",
+        "blocks": 1,
+        "lines": 40
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-011",
+        "title": "main.py",
+        "section": "main.py",
+        "blocks": 1,
+        "lines": 11
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-012",
+        "title": "game/game.py",
+        "section": "game/game.py",
+        "blocks": 2,
+        "lines": 102
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-013",
+        "title": "game/player.py",
+        "section": "game/player.py",
+        "blocks": 1,
+        "lines": 21
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-014",
+        "title": "game/bullets.py",
+        "section": "game/bullets.py",
+        "blocks": 1,
+        "lines": 51
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-015",
+        "title": "game/alien_wave.py",
+        "section": "game/alien_wave.py",
+        "blocks": 1,
+        "lines": 107
+      },
+      {
+        "article": "9-04-razrabotka-igr-praktikum-razrabotki-igr-11",
+        "slug": "python/sp-9-9-04-razrabotka-igr-praktikum-razrabotki-igr-11-016",
+        "title": "game/ufo.py",
+        "section": "game/ufo.py",
+        "blocks": 1,
+        "lines": 41
+      }
     ]
   }
 }

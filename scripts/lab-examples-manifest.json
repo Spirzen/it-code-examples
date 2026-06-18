@@ -2848,6 +2848,14 @@
         "section": "survive",
         "blocks": 1,
         "lines": 70
+      },
+      {
+        "article": "1132",
+        "slug": "python/lab-1132-016",
+        "title": "4.3. Крестики-нолики с ИИ",
+        "section": "tic-tac-toe",
+        "blocks": 1,
+        "lines": 228
       }
     ],
     "1133": [
