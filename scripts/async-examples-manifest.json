@@ -21,6 +21,72 @@
         "lines": 10
       }
     ],
+    "3": [
+      {
+        "article": "3",
+        "slug": "python/code-405-3-001",
+        "title": "Python — сравнение sequential, threads, asyncio, processes",
+        "section": "python",
+        "blocks": 1,
+        "lines": 200
+      },
+      {
+        "article": "3",
+        "slug": "java/code-405-3-002",
+        "title": "Java — ParallelismDemo",
+        "section": "java",
+        "blocks": 1,
+        "lines": 180
+      },
+      {
+        "article": "3",
+        "slug": "csharp/code-405-3-003",
+        "title": "C# — sync, async и Parallel",
+        "section": "csharp",
+        "blocks": 1,
+        "lines": 70
+      },
+      {
+        "article": "3",
+        "slug": "javascript/code-405-3-004",
+        "title": "JavaScript — sequential и Promise.all",
+        "section": "javascript",
+        "blocks": 1,
+        "lines": 90
+      },
+      {
+        "article": "3",
+        "slug": "go/code-405-3-005",
+        "title": "Go — sequential и goroutines",
+        "section": "go",
+        "blocks": 1,
+        "lines": 65
+      },
+      {
+        "article": "3",
+        "slug": "php/code-405-3-006",
+        "title": "PHP — curl и curl_multi",
+        "section": "php",
+        "blocks": 1,
+        "lines": 85
+      },
+      {
+        "article": "3",
+        "slug": "kotlin/code-405-3-007",
+        "title": "Kotlin — async/awaitAll",
+        "section": "kotlin",
+        "blocks": 1,
+        "lines": 55
+      },
+      {
+        "article": "3",
+        "slug": "groovy/code-405-3-008",
+        "title": "Groovy — ExecutorService и GPars",
+        "section": "groovy",
+        "blocks": 1,
+        "lines": 50
+      }
+    ],
     "11": [
       {
         "article": "11",

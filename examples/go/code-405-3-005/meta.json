@@ -1,0 +1,10 @@
+{
+  "title": "Go — последовательно и горутины",
+  "description": "Учебная загрузка страниц: последовательный sleep и параллельные горутины с WaitGroup.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 5,
+  "series": "code-405-3",
+  "seriesOrder": 5,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}

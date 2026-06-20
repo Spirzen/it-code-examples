@@ -1,0 +1,10 @@
+{
+  "title": "Kotlin — последовательно и async/awaitAll",
+  "description": "Корутины: последовательный delay и параллельный async + awaitAll для пачки загрузок.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 7,
+  "series": "code-405-3",
+  "seriesOrder": 7,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "JavaScript — последовательный fetch и Promise.all",
+  "description": "Сравнение последовательных await и параллельного Promise.all; worker_threads для CPU.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 4,
+  "series": "code-405-3",
+  "seriesOrder": 4,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}

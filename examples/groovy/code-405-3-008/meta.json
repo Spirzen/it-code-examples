@@ -1,0 +1,10 @@
+{
+  "title": "Groovy — ExecutorService и GPars",
+  "description": "Параллельные загрузки на JVM: пул потоков Java и GPars parallel collections.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 8,
+  "series": "code-405-3",
+  "seriesOrder": 8,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}

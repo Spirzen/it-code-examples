@@ -1,0 +1,10 @@
+{
+  "title": "C# — сравнение sync, async и Parallel",
+  "description": "Последовательный код, Task.WhenAll для I/O и Parallel.ForEach для CPU с замером времени.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 3,
+  "series": "code-405-3",
+  "seriesOrder": 3,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}

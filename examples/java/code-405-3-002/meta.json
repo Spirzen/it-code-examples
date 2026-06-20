@@ -1,0 +1,10 @@
+{
+  "title": "Java — ParallelismDemo (потоки, гонка, synchronized, пул)",
+  "description": "Демонстрация потоков, гонки данных, синхронизации на BankAccount и ExecutorService.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 2,
+  "series": "code-405-3",
+  "seriesOrder": 2,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}

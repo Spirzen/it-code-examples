@@ -1,0 +1,10 @@
+{
+  "title": "PHP — последовательный curl и curl_multi",
+  "description": "Сравнение последовательных задержек и параллельного curl_multi для исходящих HTTP.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 6,
+  "series": "code-405-3",
+  "seriesOrder": 6,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}

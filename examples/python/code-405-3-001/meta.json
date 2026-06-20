@@ -1,0 +1,10 @@
+{
+  "title": "Python — сравнение sequential, threads, asyncio, processes",
+  "description": "Практикум «Последовательное и параллельное выполнение»: I/O и CPU, tqdm, ASCII-график, GIL.",
+  "tags": ["async", "concurrency", "encyclopedia", "3"],
+  "order": 1,
+  "series": "code-405-3",
+  "seriesOrder": 1,
+  "seriesTitle": "Практикум — последовательное и параллельное выполнение",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-05-asinhronnost/3"
+}
