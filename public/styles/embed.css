@@ -69,9 +69,15 @@ html.embed-doc body.embed-body {
 }
 
 .embed-main {
+  position: relative;
+  min-height: 120px;
   padding: var(--embed-pad-y) var(--embed-pad-x);
   width: 100%;
   overflow: hidden;
+}
+
+.itu-loader-host[hidden] {
+  display: none !important;
 }
 
 .embed-main .file-tabs {

@@ -1,5 +1,8 @@
 ---
+import EcosystemNav from '@/components/EcosystemNav.astro';
+import {getPortalContext} from '@/lib/portal.mjs';
 import {sitePath} from '@/lib/site';
+import '@/styles/ecosystem-nav.css';
 
 interface Props {
   title: string;
@@ -9,6 +12,7 @@ interface Props {
 
 const {title, description = 'Каталог примеров кода для энциклопедии Вселенная IT', embed = false} =
   Astro.props;
+const {navItems, brandHref, brandLabel, ecosystemConfigJson} = getPortalContext();
 ---
 
 <!doctype html>
@@ -16,6 +20,7 @@ const {title, description = 'Каталог примеров кода для э�
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
     <meta name="description" content={description} />
     <link rel="canonical" href={new URL(Astro.url.pathname, Astro.site).href} />
     <meta
@@ -24,6 +29,34 @@ const {title, description = 'Каталог примеров кода для э�
     />
     <title>{title}</title>
     <link rel="icon" href={sitePath('favicon.ico')} sizes="any" />
+    {
+      !embed && (
+        <script is:inline id="itu-ecosystem-config" type="application/json" set:html={ecosystemConfigJson} />
+      )
+    }
+    <script is:inline>
+      (function () {
+        try {
+          var k = 'itu-portal-theme';
+          var s = localStorage.getItem(k);
+          if (s !== 'light' && s !== 'dark') {
+            var legacy = localStorage.getItem('theme');
+            if (legacy === 'light' || legacy === 'dark') {
+              s = legacy;
+              localStorage.setItem(k, legacy);
+            }
+          }
+          var t =
+            s === 'light' || s === 'dark'
+              ? s
+              : window.matchMedia('(prefers-color-scheme: dark)').matches
+                ? 'dark'
+                : 'light';
+          document.documentElement.setAttribute('data-theme', t);
+          document.documentElement.classList.toggle('dark', t === 'dark');
+        } catch (e) {}
+      })();
+    </script>
     <script is:inline src={sitePath('scripts/theme.js')}></script>
     <link rel="stylesheet" href={sitePath('styles/global.css')} />
     <script is:inline src={sitePath('scripts/embed-mode.js')}></script>
@@ -31,51 +64,7 @@ const {title, description = 'Каталог примеров кода для э�
   <body class:list={['site', embed && 'site--embed']}>
     {
       !embed && (
-        <header class="site-header">
-          <div class="wrap site-header__row">
-            <div>
-              <a class="brand" href={sitePath('')}>
-                <img
-                  class="brand__logo"
-                  src={sitePath('img/logo.png')}
-                  alt=""
-                  width="40"
-                  height="40"
-                  decoding="async"
-                />
-                <span class="brand__text">
-                  <span class="brand__title">Вселенная IT</span>
-                  <span class="brand__subtitle">Примеры кода</span>
-                </span>
-              </a>
-              <p class="site-header__lead">
-                Каталог для встраивания в{' '}
-                <a href="https://spirzen.ru/" rel="noopener noreferrer">
-                  энциклопедию
-                </a>
-                {' '}· code.spirzen.ru
-              </p>
-            </div>
-            <div class="theme-toggle" role="group" aria-label="Тема оформления">
-              <button
-                type="button"
-                class="theme-toggle__btn"
-                data-theme-toggle="light"
-                aria-pressed="false"
-              >
-                Светлая
-              </button>
-              <button
-                type="button"
-                class="theme-toggle__btn"
-                data-theme-toggle="dark"
-                aria-pressed="false"
-              >
-                Тёмная
-              </button>
-            </div>
-          </div>
-        </header>
+        <EcosystemNav brandLabel={brandLabel} brandHref={brandHref} navItems={navItems} />
       )
     }
     <main class="site-main">

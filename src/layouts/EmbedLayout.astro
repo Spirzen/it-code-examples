@@ -1,5 +1,7 @@
 ---
 import {sitePath} from '@/lib/site';
+import ItuLoader from '@/components/ItuLoader.astro';
+import '@/styles/itu-loader.css';
 
 interface Props {
   title: string;
@@ -25,6 +27,12 @@ const {title} = Astro.props;
   </head>
   <body class="embed-body">
     <main class="embed-main">
+      <ItuLoader
+        id="embed-loading"
+        variant="overlay"
+        title="Код IT"
+        label="Загрузка примера кода…"
+      />
       <slot />
     </main>
     <script is:inline src={sitePath('scripts/parent-origin.js')}></script>

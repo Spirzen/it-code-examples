@@ -11,6 +11,11 @@
   var lastPosted = 0;
   var rafId = 0;
 
+  function hideLoadingMask() {
+    var mask = document.getElementById('embed-loading');
+    if (mask) mask.hidden = true;
+  }
+
   function measureHeight() {
     var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
     if (root) {
@@ -28,6 +33,7 @@
       return;
     }
     lastPosted = height;
+    hideLoadingMask();
     postToParent({type: 'it-code-embed-height', height: height});
   }
 
