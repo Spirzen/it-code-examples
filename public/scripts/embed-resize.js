@@ -3,14 +3,10 @@
   var isLegacyEmbed = new URLSearchParams(window.location.search).get('embed') === '1';
   if (!isEmbedPath && !isLegacyEmbed) return;
 
-  var allowed = [
-    'https://spirzen.ru',
-    'https://www.spirzen.ru',
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-    'http://localhost:3001',
-    'http://127.0.0.1:3001',
-  ];
+  var postToParent =
+    window.ITUParentOrigin && window.ITUParentOrigin.postToParent
+      ? window.ITUParentOrigin.postToParent
+      : function () {};
 
   var lastPosted = 0;
   var rafId = 0;
@@ -18,7 +14,9 @@
   function measureHeight() {
     var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
     if (root) {
-      return Math.ceil(root.getBoundingClientRect().height);
+      return Math.ceil(
+        Math.max(root.scrollHeight, root.offsetHeight, root.getBoundingClientRect().height),
+      );
     }
     return Math.ceil(document.documentElement.offsetHeight);
   }
@@ -30,15 +28,7 @@
       return;
     }
     lastPosted = height;
-    if (window.parent && window.parent !== window) {
-      allowed.forEach(function (origin) {
-        try {
-          window.parent.postMessage({type: 'it-code-embed-height', height: height}, origin);
-        } catch (e) {
-          /* ignore */
-        }
-      });
-    }
+    postToParent({type: 'it-code-embed-height', height: height});
   }
 
   function schedulePostHeight() {
@@ -52,7 +42,7 @@
     var root = document.querySelector('.embed-main') || document.querySelector('.file-tabs');
     new ResizeObserver(schedulePostHeight).observe(root || document.body);
   }
-  [0, 120, 400, 1000].forEach(function (ms) {
+  [0, 120, 400, 1000, 2000].forEach(function (ms) {
     setTimeout(schedulePostHeight, ms);
   });
 })();

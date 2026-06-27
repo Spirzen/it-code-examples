@@ -1,29 +1,21 @@
 (function () {
-  var EMBED_ORIGINS = [
-    'https://spirzen.ru',
-    'https://www.spirzen.ru',
-    'http://localhost:3000',
-    'http://127.0.0.1:3000',
-    'http://localhost:3001',
-    'http://127.0.0.1:3001',
-  ];
+  var postToParent =
+    window.ITUParentOrigin && window.ITUParentOrigin.postToParent
+      ? window.ITUParentOrigin.postToParent
+      : function (payload) {
+          if (!window.parent || window.parent === window) return;
+          try {
+            window.parent.postMessage(payload, '*');
+          } catch (e) {
+            /* ignore */
+          }
+        };
 
   function isEmbedContext() {
     return (
       window.location.pathname.indexOf('/e/embed/') !== -1 ||
       new URLSearchParams(window.location.search).get('embed') === '1'
     );
-  }
-
-  function postToParent(payload) {
-    if (!window.parent || window.parent === window) return;
-    EMBED_ORIGINS.forEach(function (origin) {
-      try {
-        window.parent.postMessage(payload, origin);
-      } catch (e) {
-        /* ignore */
-      }
-    });
   }
 
   function notifyEmbedHeight() {

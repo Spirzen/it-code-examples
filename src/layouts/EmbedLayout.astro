@@ -16,7 +16,7 @@ const {title} = Astro.props;
     <meta name="robots" content="noindex" />
     <meta
       http-equiv="Content-Security-Policy"
-      content="frame-ancestors https://spirzen.ru https://www.spirzen.ru http://localhost:3000 http://127.0.0.1:3000;"
+      content="frame-ancestors https://spirzen.ru https://www.spirzen.ru https://lab.spirzen.ru https://tools.spirzen.ru https://terms.spirzen.ru http://localhost:3000 http://127.0.0.1:3000 http://localhost:4331 http://127.0.0.1:4331 http://localhost:4334 http://127.0.0.1:4334;"
     />
     <title>{title}</title>
     <link rel="icon" href={sitePath('favicon.ico')} sizes="any" />
@@ -27,6 +27,7 @@ const {title} = Astro.props;
     <main class="embed-main">
       <slot />
     </main>
+    <script is:inline src={sitePath('scripts/parent-origin.js')}></script>
     <script is:inline src={sitePath('scripts/code-toolbar.js')}></script>
     <script is:inline src={sitePath('scripts/embed-resize.js')}></script>
   </body>
