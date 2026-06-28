@@ -1,2 +1,3 @@
 User-agent: *
 Allow: /
+Sitemap: https://code.spirzen.ru/sitemap-index.xml

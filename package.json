@@ -1,71 +1,72 @@
 {
-  "name": "it-code-examples",
-  "version": "0.1.0",
-  "description": "Лёгкий каталог примеров кода для энциклопедии Вселенная IT (code.spirzen.ru)",
-  "license": "MIT",
-  "type": "module",
-  "author": "Тагиров Тимур Владиславович",
-  "homepage": "https://code.spirzen.ru",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/spirzen/it-code-examples.git"
-  },
-  "bugs": {
-    "url": "https://github.com/spirzen/it-code-examples/issues"
-  },
-  "keywords": [
-    "code-examples",
-    "astro",
-    "shiki",
-    "spirzen",
-    "it-knowledge-base",
-    "documentation"
-  ],
-  "scripts": {
-    "dev": "astro dev --port 4321",
-    "build": "astro build && node scripts/postbuild.mjs",
-    "preview": "astro preview",
-    "check": "astro check",
-    "migrate:css": "node scripts/migrate-css-examples-from-kb.mjs",
-    "migrate:html": "node scripts/migrate-html-examples-from-kb.mjs",
-    "migrate:lab": "node scripts/migrate-lab-examples-from-kb.mjs",
-    "migrate:nosql": "node scripts/migrate-nosql-examples-from-kb.mjs",
-    "migrate:sql": "node scripts/migrate-sql-examples-from-kb.mjs",
-    "migrate:desktop": "node scripts/migrate-desktop-examples-from-kb.mjs",
-    "migrate:javascript": "node scripts/migrate-javascript-examples-from-kb.mjs",
-    "migrate:dotnet": "node scripts/migrate-dotnet-examples-from-kb.mjs",
-    "migrate:csharp": "node scripts/migrate-csharp-examples-from-kb.mjs",
-    "migrate:php": "node scripts/migrate-php-examples-from-kb.mjs",
-    "migrate:kotlin": "node scripts/migrate-kotlin-examples-from-kb.mjs",
-    "migrate:go": "node scripts/migrate-go-examples-from-kb.mjs",
-    "migrate:typescript": "node scripts/migrate-typescript-examples-from-kb.mjs",
-    "migrate:ruby": "node scripts/migrate-ruby-examples-from-kb.mjs",
-    "migrate:groovy": "node scripts/migrate-groovy-examples-from-kb.mjs",
-    "migrate:rust": "node scripts/migrate-rust-examples-from-kb.mjs",
-    "migrate:swift": "node scripts/migrate-swift-examples-from-kb.mjs",
-    "migrate:lua": "node scripts/migrate-lua-examples-from-kb.mjs",
-    "migrate:bash": "node scripts/migrate-bash-examples-from-kb.mjs",
-    "migrate:powershell": "node scripts/migrate-powershell-examples-from-kb.mjs",
-    "migrate:pascal": "node scripts/migrate-pascal-examples-from-kb.mjs",
-    "migrate:visual-basic": "node scripts/migrate-visual-basic-examples-from-kb.mjs",
-    "migrate:haskell": "node scripts/migrate-language-section-examples-from-kb.mjs haskell",
-    "migrate:scala": "node scripts/migrate-language-section-examples-from-kb.mjs scala",
-    "migrate:elixir": "node scripts/migrate-language-section-examples-from-kb.mjs elixir",
-    "migrate:zig": "node scripts/migrate-language-section-examples-from-kb.mjs zig",
-    "migrate:nim": "node scripts/migrate-language-section-examples-from-kb.mjs nim",
-    "migrate:dart-section": "node scripts/migrate-language-section-examples-from-kb.mjs dart",
-    "migrate:r-section": "node scripts/migrate-language-section-examples-from-kb.mjs r",
-    "migrate:julia": "node scripts/migrate-language-section-examples-from-kb.mjs julia",
-    "migrate:infra-security": "node scripts/migrate-infra-security-examples-from-kb.mjs",
-    "generate:oop-practice": "node scripts/generate-oop-practice-examples.mjs"
-  },
-  "dependencies": {
-    "astro": "^5.10.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3"
-  },
-  "engines": {
-    "node": ">=20.0"
-  }
+    "name":  "it-code-examples",
+    "version":  "0.1.0",
+    "description":  "Лёгкий каталог примеров кода для энциклопедии Вселенная IT (code.spirzen.ru)",
+    "license":  "MIT",
+    "type":  "module",
+    "author":  "Тагиров Тимур Владиславович",
+    "homepage":  "https://code.spirzen.ru",
+    "repository":  {
+                       "type":  "git",
+                       "url":  "https://github.com/spirzen/it-code-examples.git"
+                   },
+    "bugs":  {
+                 "url":  "https://github.com/spirzen/it-code-examples/issues"
+             },
+    "keywords":  [
+                     "code-examples",
+                     "astro",
+                     "shiki",
+                     "spirzen",
+                     "it-knowledge-base",
+                     "documentation"
+                 ],
+    "scripts":  {
+                    "dev":  "astro dev --port 4321",
+                    "build":  "astro build \u0026\u0026 node scripts/postbuild.mjs",
+                    "preview":  "astro preview",
+                    "check":  "astro check",
+                    "migrate:css":  "node scripts/migrate-css-examples-from-kb.mjs",
+                    "migrate:html":  "node scripts/migrate-html-examples-from-kb.mjs",
+                    "migrate:lab":  "node scripts/migrate-lab-examples-from-kb.mjs",
+                    "migrate:nosql":  "node scripts/migrate-nosql-examples-from-kb.mjs",
+                    "migrate:sql":  "node scripts/migrate-sql-examples-from-kb.mjs",
+                    "migrate:desktop":  "node scripts/migrate-desktop-examples-from-kb.mjs",
+                    "migrate:javascript":  "node scripts/migrate-javascript-examples-from-kb.mjs",
+                    "migrate:dotnet":  "node scripts/migrate-dotnet-examples-from-kb.mjs",
+                    "migrate:csharp":  "node scripts/migrate-csharp-examples-from-kb.mjs",
+                    "migrate:php":  "node scripts/migrate-php-examples-from-kb.mjs",
+                    "migrate:kotlin":  "node scripts/migrate-kotlin-examples-from-kb.mjs",
+                    "migrate:go":  "node scripts/migrate-go-examples-from-kb.mjs",
+                    "migrate:typescript":  "node scripts/migrate-typescript-examples-from-kb.mjs",
+                    "migrate:ruby":  "node scripts/migrate-ruby-examples-from-kb.mjs",
+                    "migrate:groovy":  "node scripts/migrate-groovy-examples-from-kb.mjs",
+                    "migrate:rust":  "node scripts/migrate-rust-examples-from-kb.mjs",
+                    "migrate:swift":  "node scripts/migrate-swift-examples-from-kb.mjs",
+                    "migrate:lua":  "node scripts/migrate-lua-examples-from-kb.mjs",
+                    "migrate:bash":  "node scripts/migrate-bash-examples-from-kb.mjs",
+                    "migrate:powershell":  "node scripts/migrate-powershell-examples-from-kb.mjs",
+                    "migrate:pascal":  "node scripts/migrate-pascal-examples-from-kb.mjs",
+                    "migrate:visual-basic":  "node scripts/migrate-visual-basic-examples-from-kb.mjs",
+                    "migrate:haskell":  "node scripts/migrate-language-section-examples-from-kb.mjs haskell",
+                    "migrate:scala":  "node scripts/migrate-language-section-examples-from-kb.mjs scala",
+                    "migrate:elixir":  "node scripts/migrate-language-section-examples-from-kb.mjs elixir",
+                    "migrate:zig":  "node scripts/migrate-language-section-examples-from-kb.mjs zig",
+                    "migrate:nim":  "node scripts/migrate-language-section-examples-from-kb.mjs nim",
+                    "migrate:dart-section":  "node scripts/migrate-language-section-examples-from-kb.mjs dart",
+                    "migrate:r-section":  "node scripts/migrate-language-section-examples-from-kb.mjs r",
+                    "migrate:julia":  "node scripts/migrate-language-section-examples-from-kb.mjs julia",
+                    "migrate:infra-security":  "node scripts/migrate-infra-security-examples-from-kb.mjs",
+                    "generate:oop-practice":  "node scripts/generate-oop-practice-examples.mjs"
+                },
+    "dependencies":  {
+                         "astro":  "^5.10.0",
+                         "@astrojs/sitemap":  "^3.4.1"
+                     },
+    "devDependencies":  {
+                            "typescript":  "^5.9.3"
+                        },
+    "engines":  {
+                    "node":  "\u003e=20.0"
+                }
 }
