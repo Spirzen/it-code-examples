@@ -1,0 +1,10 @@
+{
+  "title": "Pygame — модель, update, render и цикл",
+  "description": "Тот же шар на Pygame: SDL-окно, clock.tick(60), flip как swap буфера.",
+  "tags": ["graphics", "pygame", "encyclopedia", "beginner"],
+  "order": 2,
+  "series": "code-418-1",
+  "seriesOrder": 2,
+  "seriesTitle": "Разработка графики — от чисел к картинке",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-18-graphic-dev/1"
+}

@@ -1,0 +1,10 @@
+{
+  "title": "HiDPI canvas и ввод без смешения с update",
+  "description": "devicePixelRatio, координаты мыши относительно canvas, объект keys для update.",
+  "tags": ["graphics", "canvas", "input", "encyclopedia"],
+  "order": 5,
+  "series": "code-418-1",
+  "seriesOrder": 5,
+  "seriesTitle": "Разработка графики — от чисел к картинке",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-18-graphic-dev/6"
+}

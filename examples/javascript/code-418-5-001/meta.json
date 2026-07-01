@@ -1,0 +1,10 @@
+{
+  "title": "Векторы, поворот и коллизия кругов",
+  "description": "Нормализация, dot product, поворот точки и тест circle-circle для 2D-игры.",
+  "tags": ["graphics", "math", "encyclopedia"],
+  "order": 4,
+  "series": "code-418-1",
+  "seriesOrder": 4,
+  "seriesTitle": "Разработка графики — от чисел к картинке",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-18-graphic-dev/5"
+}

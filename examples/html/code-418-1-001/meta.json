@@ -1,0 +1,10 @@
+{
+  "title": "Canvas — модель, update, render и игровой цикл",
+  "description": "Минимальная 2D-игра: отдельные слои данных, физики, отрисовки и requestAnimationFrame.",
+  "tags": ["graphics", "canvas", "encyclopedia", "beginner"],
+  "order": 1,
+  "series": "code-418-1",
+  "seriesOrder": 1,
+  "seriesTitle": "Разработка графики — от чисел к картинке",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-18-graphic-dev/1"
+}

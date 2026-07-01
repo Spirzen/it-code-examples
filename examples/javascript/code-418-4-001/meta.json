@@ -1,0 +1,10 @@
+{
+  "title": "Массив сущностей и viewport culling",
+  "description": "Много объектов в массиве, mark-and-sweep удаление и отсечение за экраном перед draw.",
+  "tags": ["graphics", "canvas", "encyclopedia"],
+  "order": 3,
+  "series": "code-418-1",
+  "seriesOrder": 3,
+  "seriesTitle": "Разработка графики — от чисел к картинке",
+  "encyclopediaUrl": "https://spirzen.ru/encyclopedia/4-code-dev/4-18-graphic-dev/4"
+}
